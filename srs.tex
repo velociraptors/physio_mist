@@ -62,18 +62,16 @@ This project makes the assumption that the existing PhysioMIST codebase it depen
 \subsection{Import Existing Models}
 
 \subsubsection{Description and Priority}
-The system will be able to import models that have been previously created in the JSim standard.\\
+The system will be able to import models that have been previously created in the JSim MML standard.\\
 Priority = High.
 
 \subsubsection{Stimulus/Response Sequences}
-Stimulus: User locates a JSim file he or she wants to upload.\\
+Stimulus: User locates a JSim MML file he or she wants to import.\\
 Response: System converts the file to its preferred format for further use.
 
 \subsubsection{Functional Requirements}
-Upload.check: Determine if the file is in the JSim format.\\
-Upload.convert: Convert the file to the system's format.
-
-\todo{etc. etc. Barbie, you already did this stuff, right?  Could you list whatever your functions were here so we don't have to change it later?}
+Import.check: Determine if the file is valid in the JSim MML format.\\
+Import.parse: Read the contents of the file and parse according to the JSim MML standard.
 
 \subsection{Save Anatomical Information}
 \subsubsection{Description and Priority}
@@ -89,7 +87,7 @@ Save.Request: Once the user has clicked the save button in the GUI, the system w
 
 \subsection{Integrate Model Components on a One-to-One Basis}
 \subsubsection{Description and Priority}
-The system will provide a graphical interface for users to integrate components from two models on a one-to-one basis.\\
+The system will provide a graphical interface for users to choose components from two models to integrate on a one-to-one basis.\\
 Priority = High.
 
 \subsubsection{Stimulus/Response Sequences}
@@ -101,24 +99,24 @@ OnetoOne.Integrate: The system will use the one-to-one algorithm to integrate th
 
 \subsection{Integrate Model Components on a One-to-Many Basis}
 \subsubsection{Description and Priority}
-The system will provide a graphical interface for users to integrate components from several models on a one-to-many basis.\\
+The system will provide a graphical interface for users to choose components from two models to integrate on a one-to-many basis.\\
 Priority = Low.
 
 \subsubsection{Stimulus/Response Sequences}
-Stimulus: User inputs multiple models to the system and specifies that the first should be integrated with all the rest.\\
-Response: System integrates the components of these models and displays the result.
+Stimulus: User inputs two models to the system and specifies the manner in which components should be integrated.\\
+Response: System integrates the components of these models as specified and displays the result.
 
 \subsubsection{Functional Requirements}
 Onetomany.Integrate: The system will use the one-to-many algorithm to integrate the models.
 
 \subsection{Integrate Model Components on a Many-to-One Basis}
 \subsubsection{Description and Priority}
-The system will provide a graphical interface for users to integrate components from several models on a many-to-one basis.\\
+The system will provide a graphical interface for users to choose components from two models to integrate on a many-to-one basis.\\
 Priority = Low.
 
 \subsubsection{Stimulus/Response Sequences}
-Stimulus: User inputs multiple models to the system and specifies that the last should be integrated with all the rest.
-Response: System integrates the components of these models and displays the result.
+Stimulus: User inputs two models to the system and specifies the manner in which components should be integrated.\\
+Response: System integrates the components of these models as specified and displays the result.
 
 \subsubsection{Functional Requirements}
 ManytoOne.Integrate: The system will use the many-to-one algorithm to integrate the models.
@@ -129,13 +127,12 @@ The system will provide a robust representation of the information contained in 
 Priority = Low.
 
 \subsubsection{Stimulus/Response Sequences}
-Stimulus: User integrates models on a one-to-one, one-to-many, or many-to-one basis.\\
-Response: Display the results of the comparison graphically.
+Stimulus: User specifies the simulation parameters for a model.\\
+Response: Display the results of the simulation graphically and textually.
 
 \subsubsection{Functional Requirements}
-Display.onetoone: The system will graphically show the results of a one-to-one comparison.\\
-Display.onetomany: The system will graphically show the results of a one-to-many comparison.\\
-Display.manytoone: The system will graphically show the results of a many-to-one comparison.
+Display.graph: The system will graphically show the results of a simulation.\\
+Display.text: The system will display the simulation results as text.
 
 \section{External Interface Requirements}
 \subsection{User Interface}
