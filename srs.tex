@@ -122,9 +122,15 @@ Display.manytoone: The system will graphically show the results of a many-to-one
 
 \section{Other Nonfunctional Requirements}
 \subsection{Performance Requirements}
-\subsection{Safety Requirements}
-\subsection{Security Requirements}
+The performance of the underlying software which does the comparison between the models is not under the control of this project. However, it ought to be able to report the time remaining in any long operation, thus an accurate progress bar shall be displayed, with an option to cancel if that makes sense. Whenever possible, a long operation shall not render the entire GUI unusable.
+
+The GUI shall remain responsive when displaying and editing any data set of a size that can be effectively processed by the underlying algorithms.
+
+\subsection{Safety and Security Requirements}
+Data accountability is paramount in a scientific data processing application. Working under the assumption that the existing codebase correctly models the systems at hand, we aspire to create an interface that never obfuscates or misrepresents the operations being performed. Thus, all GUI commands should possess the ability to export to a plain-text script that the user can inspect to ensure that the input to the data layer will be correct. Test suites will be used to confirm the working order of individual functional units.
+
 \subsection{Software Quality Requirements}
 
+When presented with a corrupt or invalid data file, the software shall not crash but display an error message, possibly attempting to help the user recover the data.
 
 \end{document}
