@@ -124,9 +124,14 @@ Display.manytoone: The system will graphically show the results of a many-to-one
 
 \section{External Interface Requirements}
 \subsection{User Interface}
-\subsection{Hardware Interface}
+The entire purpose of this project is the user interface. In general, it should behave in a manner expected of users of the operating system platform, conforming to a reasonable set of human interface guidelines. Discoverability is key for making sure users understand what operations are available and how they work, and also for keeping users once they have tried the software. Testing will be used to ensure that the various GUI elements perform the intended function.
+
 \subsection{Software Interface}
-\subsection{Communications Interface}
+The user interface will interact with two existing components: the PhysioMIST computational engine and JSim's MML (Mathematical Modeling Language) file format.
+
+If the interaction with the existing PhysioMIST codebase is through a library, then it will also need to have a command-line program, to ease testing, scripting, and verification.
+
+The MML import will be tested to ensure it is compatible with the file format of the existing JSim implementation.
 
 \section{Other Nonfunctional Requirements}
 \subsection{Performance Requirements}
