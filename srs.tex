@@ -20,8 +20,16 @@ PhysioMIST}
 \newpage
 
 \section{Introduction}
+This document describes software functional and nonfunctional requirements for the PhysioMIST model integration interface. This document will be used by the project team to implement and verify the system.
+
 \subsection{Project Scope and Product Features}
+The PhysioMIST model integration interface will allow users to integrate physiological models and produce simulation results. The \emph{Vision and Scope Document for PhysioMIST} provides a detailed description of the project's features and release priorities.
+
 \subsection{References}
+\begin{enumerate}
+\item \emph{Vision and Scope Document for PhysioMIST}
+\item \emph{PhysioMIST.} \url{http://robotics.case.edu/modeling_simulation_biological_systems.html}
+\end{enumerate}
 
 \section{Overall Description}
 \subsection{Product Perspective}
@@ -77,7 +85,7 @@ OnetoOne.Integrate: The system will use the one-to-one algorithm to integrate th
 
 \subsection{Integrate Model Components on a One-to-Many Basis}
 \subsubsection{Description and Priority}
-The system will provide a graphical interface for users to integrate components from several models on a one-to-many basis.  Priorty = Low.
+The system will provide a graphical interface for users to integrate components from several models on a one-to-many basis.  Priority = Low.
 
 \subsubsection{Stimulus/Response Sequences}
 
@@ -90,12 +98,12 @@ Onetomany.Integrate: The system will use the one-to-many algorithm to integrate 
 
 \subsection{Integrate Model Components on a Many-to-One Basis}
 \subsubsection{Description and Priority}
-The system will provide a graphical interface for users to integrate components from several models on a many-to-one basis.  Priorty = Low.
+The system will provide a graphical interface for users to integrate components from several models on a many-to-one basis.  Priority = Low.
 
 \subsubsection{Stimulus/Response Sequences}
 
 Stimulus: User inputs multiple models to the system and specifies that the last should be integrated with all the rest.
-Rsponse: System integrates the components of these models and displays the result.
+Response: System integrates the components of these models and displays the result.
 
 \subsubsection{Functional Requirements}
 
