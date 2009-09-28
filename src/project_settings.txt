@@ -1,0 +1,10 @@
+    *  New Project->Win32 Project
+    * Win32 Application Wizard->Application Settings: Check "Empty Project"
+    * Configuration-Properties -> All Configuration -> C/C++ -> General -> Additional Include Directory: C:\j2sdk\include;C:\j2sdk\include\win32
+    * Configuration-Properties -> All Configuration -> Linker -> General -> Additional Library Directories: C:\j2sdk\lib
+    * Configuration-Properties -> All Configuration -> Linker -> Input -> Additional Dependencies: jvm.lib
+    * Configuration-Properties -> All Configuration -> Linker -> Input -> Delay Loaded DLLs: jvm.dll
+    * Add a cpp-file with the starter code and a resource file with icons to the project
+
+Note:add the directory containing the DLL(jvm.dll) to your PATH environment variable
+Note:Go to project settings>Configuration Properties>General>Common Language Runtime Support : set it to Common Language Runtime Support (/clr)

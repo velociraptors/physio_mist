@@ -1,0 +1,5697 @@
+([Obex] of  Anatomical+cavity
+
+	(FMAID "78490")
+	(Preferred+name [live_incus_fm_12133]))
+
+([Oblique+arytenoid] of  Intrinsic+muscle+of+larynx
+
+	(constitutional+part+of Larynx)
+	(FMAID "46583")
+	(member+of Set+of+intrinsic+muscles+of+larynx)
+	(nerve+supply Nerve+to+oblique+arytenoid)
+	(Non-English+equivalent
+		[su_incus_35361]
+		[KB_AUTO-INSERT%283%29_1972])
+	(part+of Larynx)
+	(Preferred+name [KB_INSTANCE_59066])
+	(regional+part
+		Aryepiglotticus
+		Oblique+arytenoid+proper))
+
+([Oblique+arytenoid+proper] of  Zone+of+oblique+arytenoid
+
+	(FMAID "46603")
+	(Preferred+name [KB_INSTANCE_59119])
+	(regional+part+of Oblique+arytenoid))
+
+([Oblique+collagen+fiber+of+periodontium] of  Collagen+fiber+of+periodontium
+
+	(FMAID "62990")
+	(Preferred+name [FM_live_01311]))
+
+([Oblique+cord+of+left+radio-ulnar+syndesmosis] of  Oblique+cord+of+radio-ulnar+syndesmosis
+
+	(FMAID "39486")
+	(Preferred+name [August_Instance_260001])
+	(Synonym
+		[KB_INSTANCE_50945]
+		[August_Instance_260004]))
+
+([Oblique+cord+of+radio-ulnar+syndesmosis] of  Ligament+of+upper+limb
+
+	(FMAID "39484")
+	(part+of Radio-ulnar+syndesmosis)
+	(Preferred+name [August_Instance_240000])
+	(regional+part+of Radio-ulnar+syndesmosis)
+	(Synonym
+		[KB_INSTANCE_50941]
+		[KB_INSTANCE_50942]
+		[KB_INSTANCE_50943]
+		[KB_INSTANCE_50940]
+		[August_Instance_260002]))
+
+([Oblique+cord+of+right+radio-ulnar+syndesmosis] of  Oblique+cord+of+radio-ulnar+syndesmosis
+
+	(FMAID "39485")
+	(Preferred+name [August_Instance_250000])
+	(Synonym
+		[KB_INSTANCE_50944]
+		[August_Instance_260003]))
+
+([Oblique+diameter+of+pelvic+inlet] of  Spatial+association+relationship+template
+
+	(FMAID "17421")
+	(Preferred+name [su_incus_34604]))
+
+([Oblique+diameter+of+pelvis] of  Anatomical+line+of+pelvis
+
+	(FMAID "75093")
+	(Non-English+equivalent [su_incus_40558])
+	(Preferred+name [su_incus_25284]))
+
+([Oblique+fissural+margin+of+costal+surface+of+left+lower+lobe] of  Subdivision+of+fissural+margin+of+left+lower+lobe
+
+	(FMAID "30699")
+	(Preferred+name [KB_INSTANCE_38248]))
+
+([Oblique+fissural+margin+of+costal+surface+of+left+upper+lobe] of  Anatomical+line+of+lung
+
+	(FMAID "31036")
+	(Preferred+name [KB_INSTANCE_38628]))
+
+([Oblique+fissural+margin+of+costal+surface+of+right+upper+lobe] of  Fissural+margin+of+costal+surface+of+right+upper+lobe
+
+	(FMAID "30993")
+	(Preferred+name [KB_INSTANCE_38569]))
+
+([Oblique+fissural+margin+of+mediastinal+surface+of+middle+lobe+of+lung] of  Fissural+margin+of+mediastinal+surface+of+middle+lobe+of+lung
+
+	(FMAID "30900")
+	(Preferred+name [KB_INSTANCE_38471])
+	(Synonym [KB_INSTANCE_38472]))
+
+([Oblique+fissural+surface+of+left+lower+lobe] of  Subdivision+of+surface+of+lower+lobe+of+lung
+
+	(2D+part+of Interlobar+surface+of+lower+lobe+of+left+lung)
+	(FMAID "31812")
+	(Preferred+name [KB_INSTANCE_39399]))
+
+([Oblique+fissural+surface+of+right+upper+lobe] of  Subdivision+of+surface+of+upper+lobe+of+right+lung
+
+	(2D+part+of Interlobar+surface+of+upper+lobe+of+right+lung)
+	(FMAID "28608")
+	(Preferred+name [KB_INSTANCE_35982])
+	(Synonym [KB_INSTANCE_35983]))
+
+([Oblique+fissural+surface+of+upper+lobe+of+left+lung] of  Subdivision+of+surface+of+upper+lobe+of+left+lung
+
+	(2D+part+of Interlobar+surface+of+upper+lobe+of+left+lung)
+	(FMAID "31040")
+	(Preferred+name [fm-live_06745])
+	(Synonym [KB_INSTANCE_38631]))
+
+([Oblique+fissure+of+costal+surface+of+left+lung] of  Oblique+fissure+of+left+lung%28line%29
+
+	(FMAID "31024")
+	(Preferred+name [KB_INSTANCE_38616]))
+
+([Oblique+fissure+of+costal+surface+of+right+lung] of  Oblique+fissure+of+right+lung%28line%29
+
+	(FMAID "31022")
+	(Preferred+name [KB_INSTANCE_38614]))
+
+([Oblique+fissure+of+left+lung%28line%29] of  Oblique+fissure+of+lung
+
+	(FMAID "14700")
+	(Preferred+name [KB_INSTANCE_16380]))
+
+([Oblique+fissure+of+left+lung%28space%29] of  Anatomical+cavity
+
+	(FMAID "7440")
+	(Preferred+name [KB_INSTANCE_04579])
+	(Synonym
+		[KB_INSTANCE_04580]
+		[KB_INSTANCE_04581]
+		[KB_INSTANCE_04582]))
+
+([Oblique+fissure+of+lung] of  Pulmonary+fissure
+
+	(FMAID "14698")
+	(Non-English+equivalent [su_incus_40294])
+	(Preferred+name [KB_INSTANCE_16378]))
+
+([Oblique+fissure+of+lung%28space%29] of  Anatomical+cavity
+
+	(FMAID "7331")
+	(Preferred+name [KB_INSTANCE_04279])
+	(Synonym [KB_INSTANCE_04280]))
+
+([Oblique+fissure+of+mediastinal+surface+of+left+lung] of  Oblique+fissure+of+left+lung%28line%29
+
+	(FMAID "31023")
+	(Preferred+name [KB_INSTANCE_38615]))
+
+([Oblique+fissure+of+mediastinal+surface+of+right+lung] of  Oblique+fissure+of+right+lung%28line%29
+
+	(FMAID "31021")
+	(Preferred+name [KB_INSTANCE_38613]))
+
+([Oblique+fissure+of+right+lung%28line%29] of  Oblique+fissure+of+lung
+
+	(FMAID "14699")
+	(Preferred+name [KB_INSTANCE_16379]))
+
+([Oblique+fissure+of+right+lung%28space%29] of  Anatomical+cavity
+
+	(FMAID "7439")
+	(Preferred+name [KB_INSTANCE_04575])
+	(Synonym
+		[KB_INSTANCE_04576]
+		[KB_INSTANCE_04577]
+		[KB_INSTANCE_04578]))
+
+([Oblique+head+of+adductor+hallucis] of  Head+of+adductor+hallucis
+
+	(FMAID "46014")
+	(Non-English+equivalent [su_incus_37613])
+	(part+of Adductor+hallucis)
+	(Preferred+name [KB_INSTANCE_58307])
+	(regional+part+of Adductor+hallucis)
+	(Synonym [KB_INSTANCE_58308]))
+
+([Oblique+head+of+adductor+pollicis] of  Head+of+organ
+
+	(FMAID "46119")
+	(Non-English+equivalent [su_incus_37593])
+	(Preferred+name [KB_INSTANCE_58438])
+	(Synonym [KB_INSTANCE_58439]))
+
+([Oblique+head+of+left+adductor+hallucis] of  Oblique+head+of+adductor+hallucis
+
+	(FMAID "46019")
+	(Preferred+name [KB_INSTANCE_58314]))
+
+([Oblique+head+of+left+adductor+pollicis] of  Oblique+head+of+adductor+pollicis
+
+	(FMAID "46122")
+	(Preferred+name [KB_INSTANCE_58445]))
+
+([Oblique+head+of+right+adductor+hallucis] of  Oblique+head+of+adductor+hallucis
+
+	(FMAID "46018")
+	(Preferred+name [KB_INSTANCE_58313]))
+
+([Oblique+head+of+right+adductor+pollicis] of  Oblique+head+of+adductor+pollicis
+
+	(FMAID "46121")
+	(Preferred+name [KB_INSTANCE_58444]))
+
+([Oblique+line+of+mandible] of  Anatomical+line+of+skull
+
+	(FMAID "53118")
+	(Non-English+equivalent [su_incus_40487])
+	(Preferred+name [KB_INSTANCE_67135])
+	(Synonym [KB_INSTANCE_67136]))
+
+([Oblique+line+of+thyroid+cartilage] of  Anatomical+line
+
+	(FMAID "55289")
+	(Non-English+equivalent [su_incus_40610])
+	(Preferred+name [KB_INSTANCE_70416])
+	(Synonym [KB_INSTANCE_70417]))
+
+([Oblique+muscle+layer+of+body+of+stomach] of  Middle+muscle+layer+of+region+of+stomach
+
+	(FMAID "17290")
+	(part+of Muscle+layer+of+body+of+stomach)
+	(Preferred+name [KB_INSTANCE_20858])
+	(regional+part+of Muscle+layer+of+body+of+stomach))
+
+([Oblique+muscle+layer+of+cardia+of+stomach] of  Middle+muscle+layer+of+region+of+stomach
+
+	(FMAID "17482")
+	(part+of Muscle+layer+of+cardia+of+stomach)
+	(Preferred+name [KB_INSTANCE_21104])
+	(regional+part+of Muscle+layer+of+cardia+of+stomach))
+
+([Oblique+muscle+layer+of+fundus+of+stomach] of  Middle+muscle+layer+of+region+of+stomach
+
+	(FMAID "17283")
+	(Preferred+name [KB_INSTANCE_20850]))
+
+([Oblique+muscle+layer+of+pyloric+antrum] of  Middle+muscle+layer+of+region+of+stomach
+
+	(FMAID "17295")
+	(Preferred+name [KB_INSTANCE_20864]))
+
+([Oblique+muscle+layer+of+pyloric+canal] of  Middle+muscle+layer+of+region+of+stomach
+
+	(FMAID "17300")
+	(Preferred+name [KB_INSTANCE_20870]))
+
+([Oblique+muscle+layer+of+pylorus] of  Middle+muscle+layer+of+region+of+stomach
+
+	(FMAID "17487")
+	(Preferred+name [KB_INSTANCE_21113]))
+
+([Oblique+muscle+layer+of+stomach] of  Middle+muscle+layer
+
+	(FMAID "14912")
+	(part+of Muscle+layer+of+stomach)
+	(Preferred+name [KB_INSTANCE_16757])
+	(regional+part+of Muscle+layer+of+stomach)
+	(Synonym [KB_INSTANCE_16758]))
+
+([Oblique+muscle+of+auricle] of  Intrinsic+auricular+muscle
+
+	(constitutional+part+of Pinna)
+	(FMAID "48986")
+	(member+of Set+of+intrinsic+auricular+muscles)
+	(nerve+supply Nerve+to+oblique+muscle+of+auricle)
+	(Non-English+equivalent
+		[fm_live_19513]
+		[KB_AUTO-INSERT%283%29_4402])
+	(part+of Pinna)
+	(Preferred+name [KB_INSTANCE_61740])
+	(Synonym
+		[KB_INSTANCE_61741]
+		[KB_INSTANCE_61742]
+		[KB_INSTANCE_61738]))
+
+([Oblique+muscle+of+left+auricle] of  Oblique+muscle+of+auricle
+
+	(constitutional+part+of Left+pinna)
+	(FMAID "48988")
+	(member+of Set+of+left+intrinsic+auricular+muscles)
+	(nerve+supply Nerve+to+oblique+muscle+of+left+auricle)
+	(part+of Left+pinna)
+	(Preferred+name [KB_INSTANCE_61746])
+	(Synonym [KB_INSTANCE_61745])
+	(systemic+part+of Set+of+left+intrinsic+auricular+muscles))
+
+([Oblique+muscle+of+right+auricle] of  Oblique+muscle+of+auricle
+
+	(constitutional+part+of Right+pinna)
+	(FMAID "48987")
+	(member+of Set+of+right+intrinsic+auricular+muscles)
+	(nerve+supply Nerve+to+oblique+muscle+of+right+auricle)
+	(part+of Right+pinna)
+	(Preferred+name [KB_INSTANCE_61744])
+	(Synonym [KB_INSTANCE_61743])
+	(systemic+part+of Set+of+right+intrinsic+auricular+muscles))
+
+([Oblique+part+of+cricothyroid] of  Zone+of+cricothyroid
+
+	(FMAID "46610")
+	(Non-English+equivalent [su_incus_37548])
+	(Preferred+name [KB_INSTANCE_59133])
+	(regional+part+of Cricothyroid+muscle)
+	(Synonym [KB_INSTANCE_59135]))
+
+([Oblique+part+of+left+cricothyroid] of  Oblique+part+of+cricothyroid
+
+	(FMAID "46614")
+	(Preferred+name [KB_INSTANCE_59141])
+	(regional+part+of Left+cricothyroid+muscle))
+
+([Oblique+part+of+left+styloglossus] of  Oblique+part+of+styloglossus
+
+	(FMAID "49442")
+	(Preferred+name [KB_INSTANCE_62372])
+	(regional+part+of Left+styloglossus))
+
+([Oblique+part+of+right+cricothyroid] of  Oblique+part+of+cricothyroid
+
+	(FMAID "46613")
+	(Preferred+name [KB_INSTANCE_59140])
+	(regional+part+of Right+cricothyroid+muscle))
+
+([Oblique+part+of+right+styloglossus] of  Oblique+part+of+styloglossus
+
+	(FMAID "49441")
+	(Preferred+name [KB_INSTANCE_62371])
+	(regional+part+of Right+styloglossus))
+
+([Oblique+part+of+styloglossus] of  Zone+of+styloglossus
+
+	(FMAID "49438")
+	(Preferred+name [KB_INSTANCE_62368])
+	(regional+part+of Styloglossus))
+
+([Oblique+pericardial+sinus] of  Anatomical+cavity
+
+	(FMAID "77133")
+	(Non-English+equivalent
+		[fm_live_26259]
+		[KB_AUTO-INSERT%283%29_2435])
+	(Preferred+name [su_incus_32742])
+	(Synonym [fm_live_26258]))
+
+([Oblique+plane] of  Anatomical+plane
+
+	(FMAID "67626")
+	(Preferred+name [fm-live_09049]))
+
+([Oblique+popliteal+ligament] of  Ligament+organ+component
+
+	(FMAID "44582")
+	(Non-English+equivalent
+		[su_incus_35752]
+		[KB_AUTO-INSERT%283%29_930])
+	(part+of Knee+joint)
+	(Preferred+name [KB_INSTANCE_56598])
+	(regional+part+of Knee+joint)
+	(Synonym
+		[su_incus_16766]
+		[su_incus_16767]))
+
+([Oblique+ridge+of+left+upper+first+primary+molar+tooth] of  Oblique+ridge+of+upper+first+primary+molar+tooth
+
+	(FMAID "57978")
+	(Preferred+name [KB_INSTANCE_76411])
+	(Synonym
+		[KB_INSTANCE_76412]
+		[KB_INSTANCE_76413]))
+
+([Oblique+ridge+of+left+upper+second+primary+molar+tooth] of  Oblique+ridge+of+upper+second+primary+molar+tooth
+
+	(FMAID "57980")
+	(Preferred+name [KB_INSTANCE_76417])
+	(Synonym
+		[KB_INSTANCE_76418]
+		[KB_INSTANCE_76419]))
+
+([Oblique+ridge+of+left+upper+third+primary+molar+tooth] of  Oblique+ridge+of+upper+third+primary+molar+tooth
+
+	(FMAID "57982")
+	(Preferred+name [KB_INSTANCE_76423])
+	(Synonym
+		[KB_INSTANCE_76424]
+		[KB_INSTANCE_76425]))
+
+([Oblique+ridge+of+right+upper+first+primary+molar+tooth] of  Oblique+ridge+of+upper+first+primary+molar+tooth
+
+	(FMAID "57974")
+	(Preferred+name [KB_INSTANCE_76402])
+	(Synonym
+		[KB_INSTANCE_76403]
+		[KB_INSTANCE_76404]))
+
+([Oblique+ridge+of+right+upper+second+primary+molar+tooth] of  Oblique+ridge+of+upper+second+primary+molar+tooth
+
+	(FMAID "57979")
+	(Preferred+name [KB_INSTANCE_76414])
+	(Synonym
+		[KB_INSTANCE_76415]
+		[KB_INSTANCE_76416]))
+
+([Oblique+ridge+of+right+upper+third+primary+molar+tooth] of  Oblique+ridge+of+upper+third+primary+molar+tooth
+
+	(FMAID "57981")
+	(Preferred+name [KB_INSTANCE_76420])
+	(Synonym
+		[KB_INSTANCE_76421]
+		[KB_INSTANCE_76422]))
+
+([Oblique+ridge+of+tooth] of  Anatomical+line+of+tooth
+
+	(FMAID "56660")
+	(Non-English+equivalent [su_incus_40606])
+	(Preferred+name [KB_INSTANCE_73494])
+	(Synonym
+		[KB_INSTANCE_73495]
+		[KB_INSTANCE_73496]))
+
+([Oblique+ridge+of+upper+first+primary+molar+tooth] of  Oblique+ridge+of+tooth
+
+	(FMAID "57975")
+	(Preferred+name [KB_INSTANCE_76405])
+	(Synonym [KB_INSTANCE_76406]))
+
+([Oblique+ridge+of+upper+second+primary+molar+tooth] of  Oblique+ridge+of+tooth
+
+	(FMAID "57976")
+	(Preferred+name [KB_INSTANCE_76407])
+	(Synonym [KB_INSTANCE_76408]))
+
+([Oblique+ridge+of+upper+third+primary+molar+tooth] of  Oblique+ridge+of+tooth
+
+	(FMAID "57977")
+	(Preferred+name [KB_INSTANCE_76409])
+	(Synonym [KB_INSTANCE_76410]))
+
+([Oblique+vein+of+left+atrium] of  Vein
+
+	(FMAID "4715")
+	(Non-English+equivalent
+		[fm-live_06580]
+		[KB_AUTO-INSERT%283%29_2802])
+	(part+of
+		Coronary+sinus+tree
+		Heart)
+	(Preferred+name [KB_INSTANCE_00967])
+	(regional+part+of Coronary+sinus+tree)
+	(Synonym
+		[KB_INSTANCE_00968]
+		[su_incus_17326])
+	(tributary+of Coronary+sinus))
+
+([Obliquus+capitis+inferior] of  Posterior+suboccipital+muscle
+
+	(FMAID "32528")
+	(member+of Set+of+muscles+of+back)
+	(nerve+supply Nerve+to+obliquus+capitis+inferior)
+	(Non-English+equivalent
+		[su_incus_35428]
+		[KB_AUTO-INSERT%283%29_1081])
+	(Preferred+name [KB_INSTANCE_40106])
+	(segmental+supply C1))
+
+([Obliquus+capitis+superior] of  Posterior+suboccipital+muscle
+
+	(FMAID "32527")
+	(member+of Set+of+muscles+of+back)
+	(nerve+supply Nerve+to+obliquus+capitis+superior)
+	(Non-English+equivalent
+		[su_incus_35427]
+		[KB_AUTO-INSERT%283%29_1080])
+	(Preferred+name [KB_INSTANCE_40103])
+	(segmental+supply C1)
+	(Synonym [KB_INSTANCE_40105]))
+
+([Oblong+fovea+of+arytenoid] of  Zone+of+arytenoid+cartilage
+
+	(dimension 3-dimension)
+	(FMAID "76912")
+	(Non-English+equivalent [su_incus_38084])
+	(Preferred+name [su_incus_32264]))
+
+([Oblong+fovea+of+arytenoid+cartilage] of  Region+of+surface+of+arytenoid+cartilage
+
+	(FMAID "55354")
+	(Preferred+name [KB_INSTANCE_70517])
+	(Synonym
+		[KB_INSTANCE_70518]
+		[KB_INSTANCE_70519]))
+
+([Oblong+fovea+of+left+arytenoid+cartilage] of  Oblong+fovea+of+arytenoid+cartilage
+
+	(FMAID "55363")
+	(Preferred+name [KB_INSTANCE_70530]))
+
+([Oblong+fovea+of+right+arytenoid+cartilage] of  Oblong+fovea+of+arytenoid+cartilage
+
+	(FMAID "55362")
+	(Preferred+name [KB_INSTANCE_70529]))
+
+([Obturator+artery] of  Systemic+artery
+
+	(branch
+		Iliac+part+of+obturator+artery
+		Vesical+part+of+obturator+artery
+		Pubic+part+of+obturator+artery
+		Anterior+part+of+obturator+artery
+		Posterior+part+of+obturator+artery
+		Gracilis+part+of+obturator+artery
+		Adductor+longus+part+of+obturator+artery
+		Adductor+brevis+part+of+obturator+artery
+		Adductor+magnus+part+of+obturator+artery
+		Acetabular+part+of+obturator+artery)
+	(branch+of Anterior+division+of+internal+iliac+artery)
+	(FMAID "18865")
+	(Non-English+equivalent
+		[KB_INSTANCE_23709]
+		[KB_AUTO-INSERT%283%29_2722])
+	(Preferred+name [KB_INSTANCE_23708]))
+
+([Obturator+branch+of+pubic+branch+of+inferior+epigastric+artery] of  Organ+part
+
+	(dimension 3-dimension)
+	(FMAID "77156")
+	(Non-English+equivalent [su_incus_37142])
+	(Preferred+name [su_incus_32800]))
+
+([Obturator+canal] of  Anatomical+conduit
+
+	(FMAID "25715")
+	(Non-English+equivalent
+		[KB_INSTANCE_32333]
+		[KB_AUTO-INSERT%283%29_892])
+	(Preferred+name [KB_INSTANCE_32332]))
+
+([Obturator+crest+of+left+pubis] of  Obturator+crest+of+pubis
+
+	(FMAID "16977")
+	(Preferred+name [KB_INSTANCE_20321]))
+
+([Obturator+crest+of+pubis] of  Zone+of+pubis
+
+	(FMAID "16976")
+	(Non-English+equivalent [KB_INSTANCE_20320])
+	(Preferred+name [KB_INSTANCE_20319]))
+
+([Obturator+crest+of+right+pubis] of  Obturator+crest+of+pubis
+
+	(FMAID "16978")
+	(Preferred+name [KB_INSTANCE_20322]))
+
+([Obturator+externus] of  Obturator+muscle
+
+	(FMAID "22299")
+	(nerve+supply Nerve+to+obturator+externus)
+	(Non-English+equivalent
+		[su_incus_35464]
+		[KB_AUTO-INSERT%283%29_1348])
+	(part
+		Muscle+fasciculus+of+obturator+externus
+		Fascia+of+obturator+externus
+		Tendon+of+obturator+externus)
+	(part+of Lower+limb)
+	(Preferred+name [KB_INSTANCE_27800])
+	(primary+segmental+supply L4)
+	(regional+part
+		Muscle+fasciculus+of+obturator+externus
+		Fascia+of+obturator+externus
+		Tendon+of+obturator+externus)
+	(secondary+segmental+supply L3)
+	(segmental+supply
+		L3
+		L4)
+	(Synonym [KB_INSTANCE_27801])
+	(systemic+part+of Musculature+of+pelvic+girdle))
+
+([Obturator+externus+part+of+left+obturator+artery] of  Systemic+artery
+
+	(branch+of Anterior+part+of+left+obturator+artery)
+	(FMAID "21005")
+	(Preferred+name [KB_INSTANCE_26447]))
+
+([Obturator+externus+part+of+obturator+artery] of  Systemic+artery
+
+	(branch+of Anterior+part+of+obturator+artery)
+	(FMAID "21002")
+	(Preferred+name [KB_INSTANCE_26444]))
+
+([Obturator+externus+part+of+right+obturator+artery] of  Systemic+artery
+
+	(branch+of Anterior+part+of+right+obturator+artery)
+	(FMAID "21004")
+	(Preferred+name [KB_INSTANCE_26446]))
+
+([Obturator+fascia] of  Zone+of+abdominal+fascia
+
+	(FMAID "19132")
+	(Non-English+equivalent
+		[KB_INSTANCE_24021]
+		[KB_AUTO-INSERT%283%29_1228])
+	(part+of
+		Fascia+of+female+pelvis
+		Fascia+of+male+pelvis
+		Parietal+fascia+of+pelvis)
+	(Preferred+name [KB_INSTANCE_24020])
+	(regional+part+of
+		Fascia+of+female+pelvis
+		Fascia+of+male+pelvis
+		Parietal+fascia+of+pelvis))
+
+([Obturator+foramen] of  Anatomical+conduit
+
+	(FMAID "16999")
+	(Non-English+equivalent
+		[KB_INSTANCE_20357]
+		[KB_AUTO-INSERT%283%29_644])
+	(Preferred+name [KB_INSTANCE_20355])
+	(Synonym [KB_INSTANCE_20356]))
+
+([Obturator+groove] of  Anatomical+line
+
+	(FMAID "74578")
+	(Non-English+equivalent
+		[su_incus_40638]
+		[KB_AUTO-INSERT%283%29_670])
+	(Preferred+name [su_incus_22633]))
+
+([Obturator+groove+of+left+pubis] of  Obturator+groove+of+pubis
+
+	(FMAID "16997")
+	(Preferred+name [KB_INSTANCE_20353]))
+
+([Obturator+groove+of+pubis] of  Surface+of+subdivision+of+hip+bone
+
+	(FMAID "16996")
+	(Preferred+name [KB_INSTANCE_20352]))
+
+([Obturator+groove+of+right+pubis] of  Obturator+groove+of+pubis
+
+	(FMAID "16998")
+	(Preferred+name [KB_INSTANCE_20354]))
+
+([Obturator+internus] of  Obturator+muscle
+
+	(FMAID "22298")
+	(nerve+supply Nerve+to+obturator+internus)
+	(Non-English+equivalent
+		[su_incus_35465]
+		[KB_AUTO-INSERT%283%29_1331])
+	(Preferred+name [KB_INSTANCE_27797])
+	(primary+segmental+supply S1)
+	(secondary+segmental+supply L5)
+	(segmental+supply
+		L5
+		S1
+		S2)
+	(Synonym
+		[KB_INSTANCE_27798]
+		[KB_INSTANCE_27799])
+	(systemic+part+of Musculature+of+pelvic+girdle))
+
+([Obturator+internus+part+of+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Inferior+gluteal+artery)
+	(FMAID "22262")
+	(Preferred+name [KB_INSTANCE_27761]))
+
+([Obturator+internus+part+of+left+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Left+inferior+gluteal+artery)
+	(FMAID "22272")
+	(Preferred+name [KB_INSTANCE_27771]))
+
+([Obturator+internus+part+of+left+superior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Left+superior+gluteal+artery)
+	(FMAID "22383")
+	(Preferred+name [KB_INSTANCE_27941]))
+
+([Obturator+internus+part+of+right+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Right+inferior+gluteal+artery)
+	(FMAID "22271")
+	(Preferred+name [KB_INSTANCE_27770]))
+
+([Obturator+internus+part+of+right+superior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Right+superior+gluteal+artery)
+	(FMAID "22382")
+	(Preferred+name [KB_INSTANCE_27940]))
+
+([Obturator+internus+part+of+superior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Superior+gluteal+artery)
+	(FMAID "22381")
+	(part+of Superior+gluteal+artery)
+	(Preferred+name [KB_INSTANCE_27939])
+	(regional+part+of Superior+gluteal+artery))
+
+([Obturator+lymph+node] of  Lymph+node
+
+	(FMAID "16656")
+	(Preferred+name [KB_INSTANCE_19710])
+	(Synonym [KB_INSTANCE_19711]))
+
+([Obturator+membrane] of  Membrane+organ
+
+	(FMAID "25709")
+	(Non-English+equivalent
+		[KB_INSTANCE_32326]
+		[KB_AUTO-INSERT%283%29_891])
+	(Preferred+name [KB_INSTANCE_32325]))
+
+([Obturator+muscle] of  Gluteal+muscle
+
+	(FMAID "19083")
+	(Preferred+name [KB_INSTANCE_23946]))
+
+([Obturator+nerve] of  Branch+of+nerve+plexus
+
+	(branch
+		Anterior+branch+of+obturator+nerve
+		Posterior+branch+of+obturator+nerve
+		Cutaneous+branch+of+obturator+nerve)
+	(branch+of Lumbar+nerve+plexus)
+	(FMAID "16487")
+	(Non-English+equivalent
+		[KB_INSTANCE_19422]
+		[KB_AUTO-INSERT%283%29_4090])
+	(Preferred+name [KB_INSTANCE_19421]))
+
+([Obturator+vein] of  Vein
+
+	(FMAID "18914")
+	(Preferred+name [KB_INSTANCE_23761])
+	(tributary+of Internal+iliac+vein))
+
+([Occipital] of  Spatial+association+relationship+template
+
+	(FMAID "74525")
+	(Preferred+name [su_incus_21582]))
+
+([Occipital+angle+of+left+parietal+bone] of  Occipital+angle+of+parietal+bone
+
+	(FMAID "57435")
+	(Preferred+name [KB_INSTANCE_75632]))
+
+([Occipital+angle+of+parietal+bone] of  Anatomical+line+of+skull
+
+	(FMAID "57433")
+	(Non-English+equivalent [su_incus_40480])
+	(Preferred+name [KB_INSTANCE_75629])
+	(Synonym [KB_INSTANCE_75630]))
+
+([Occipital+angle+of+right+parietal+bone] of  Occipital+angle+of+parietal+bone
+
+	(FMAID "57434")
+	(Preferred+name [KB_INSTANCE_75631]))
+
+([Occipital+artery] of  Systemic+artery
+
+	(branch
+		Mastoid+artery
+		Auricular+branch+of+occipital+artery
+		Occipital+branch+of+occipital+artery
+		Descending+branch+of+occipital+artery
+		Meningeal+branch+of+occipital+artery
+		Muscular+branch+of+occipital+artery
+		Sternocleidomastoid+branch+of+occipital+artery
+		Upper+sternocleidomastoid+branch+of+occipital+artery
+		Lower+sternocleidomastoid+branch+of+occipital+artery)
+	(branch+of External+carotid+artery)
+	(FMAID "49586")
+	(Non-English+equivalent
+		[su_incus_36900]
+		[KB_AUTO-INSERT%283%29_2495])
+	(Preferred+name [KB_INSTANCE_62582]))
+
+([Occipital+aspect+of+cranium] of  General+anatomical+term+template
+
+	(FMAID "75377")
+	(Preferred+name [su_incus_27014]))
+
+([Occipital+bone] of  Flat+bone
+
+	(FMAID "52735")
+	(member+of Skeleton+of+head)
+	(Non-English+equivalent
+		[KB_INSTANCE_66477]
+		[KB_AUTO-INSERT%283%29_528])
+	(part
+		Basilar+part+of+occipital+bone
+		Squamous+part+of+occipital+bone
+		Right+lateral+part+of+occipital+bone
+		Left+lateral+part+of+occipital+bone)
+	(part+of
+		Neurocranium
+		Skeleton+of+head)
+	(Preferred+name [KB_INSTANCE_66476])
+	(regional+part
+		Basilar+part+of+occipital+bone
+		Squamous+part+of+occipital+bone
+		Right+lateral+part+of+occipital+bone
+		Left+lateral+part+of+occipital+bone)
+	(regional+part+of
+		Neurocranium
+		Skeleton+of+head)
+	(systemic+part+of
+		Skeleton+of+head
+		Neurocranium))
+
+([Occipital+border+of+parietal+bone] of  Anatomical+border+of+skull+bone
+
+	(FMAID "53093")
+	(Non-English+equivalent [su_incus_40465])
+	(Preferred+name [KB_INSTANCE_67077])
+	(Synonym [KB_INSTANCE_67078]))
+
+([Occipital+branch+of+left+occipital+artery] of  Systemic+artery
+
+	(branch+of Left+occipital+artery)
+	(FMAID "49607")
+	(Preferred+name [KB_INSTANCE_62609]))
+
+([Occipital+branch+of+left+posterior+auricular+artery] of  Systemic+artery
+
+	(branch
+		Sternocleidomastoid+branch+of+occipital+branch+of+left+posterior+auricular+artery
+		Left+occipital+branch+to+occipital+head+of+epicranius
+		Left+occipital+branch+to+scalp)
+	(branch+of Left+posterior+auricular+artery)
+	(FMAID "49646")
+	(Preferred+name [KB_INSTANCE_62656]))
+
+([Occipital+branch+of+left+posterior+auricular+nerve] of  Occipital+branch+of+posterior+auricular+nerve
+
+	(branch+of Left+posterior+auricular+nerve)
+	(FMAID "53287")
+	(nerve+supply+of Epicranius)
+	(Preferred+name [KB_INSTANCE_67396])
+	(Synonym [FM_live_10480]))
+
+([Occipital+branch+of+occipital+artery] of  Systemic+artery
+
+	(branch+of Occipital+artery)
+	(FMAID "49605")
+	(Preferred+name [KB_INSTANCE_62607]))
+
+([Occipital+branch+of+posterior+auricular+artery] of  Systemic+artery
+
+	(branch
+		Sternocleidomastoid+branch+of+occipital+branch+of+posterior+auricular+artery
+		Occipital+branch+to+occipital+head+of+epicranius
+		Occipital+branch+to+scalp)
+	(branch+of Posterior+auricular+artery)
+	(FMAID "49644")
+	(Non-English+equivalent [su_incus_36910])
+	(Preferred+name [KB_INSTANCE_62653]))
+
+([Occipital+branch+of+posterior+auricular+nerve] of  Branch+of+posterior+auricular+nerve
+
+	(branch+of Posterior+auricular+nerve)
+	(FMAID "53283")
+	(nerve+supply+of Epicranius)
+	(Non-English+equivalent [su_incus_36537])
+	(Preferred+name [KB_INSTANCE_67392])
+	(Synonym [FM_live_10478]))
+
+([Occipital+branch+of+right+occipital+artery] of  Systemic+artery
+
+	(branch+of Right+occipital+artery)
+	(FMAID "49606")
+	(Preferred+name [KB_INSTANCE_62608]))
+
+([Occipital+branch+of+right+posterior+auricular+artery] of  Systemic+artery
+
+	(branch
+		Sternocleidomastoid+branch+of+occipital+branch+of+right+posterior+auricular+artery
+		Right+occipital+branch+to+occipital+head+of+epicranius
+		Right+occipital+branch+to+scalp)
+	(branch+of Right+posterior+auricular+artery)
+	(FMAID "49645")
+	(Preferred+name [KB_INSTANCE_62655]))
+
+([Occipital+branch+of+right+posterior+auricular+nerve] of  Occipital+branch+of+posterior+auricular+nerve
+
+	(branch+of Right+posterior+auricular+nerve)
+	(FMAID "53286")
+	(nerve+supply+of Epicranius)
+	(Preferred+name [KB_INSTANCE_67395])
+	(Synonym [FM_live_10479]))
+
+([Occipital+branch+to+occipital+head+of+epicranius] of  Systemic+artery
+
+	(branch+of Occipital+branch+of+posterior+auricular+artery)
+	(FMAID "79404")
+	(Preferred+name [fm_live_22872])
+	(Synonym [fm_live_22873]))
+
+([Occipital+branch+to+scalp] of  Systemic+artery
+
+	(branch+of Occipital+branch+of+posterior+auricular+artery)
+	(FMAID "79407")
+	(Preferred+name [fm_live_22881])
+	(Synonym [fm_live_22882]))
+
+([Occipital+condyle] of  Zone+of+lateral+part+of+occipital+bone
+
+	(FMAID "52861")
+	(Non-English+equivalent
+		[KB_INSTANCE_66675]
+		[KB_AUTO-INSERT%283%29_327])
+	(part+of Lateral+part+of+occipital+bone)
+	(Preferred+name [KB_INSTANCE_66674])
+	(regional+part+of Lateral+part+of+occipital+bone))
+
+([Occipital+diploic+vein] of  Vein
+
+	(FMAID "50789")
+	(Non-English+equivalent
+		[su_incus_37301]
+		[KB_AUTO-INSERT%283%29_2915])
+	(Preferred+name [KB_INSTANCE_64118])
+	(tributary+of Transverse+sinus))
+
+([Occipital+emissary+vein] of  Vein
+
+	(FMAID "50794")
+	(Non-English+equivalent
+		[KB_INSTANCE_64129]
+		[KB_AUTO-INSERT%283%29_2920])
+	(Preferred+name [KB_INSTANCE_64128])
+	(tributary+of Occipital+vein))
+
+([Occipital+fusiform+gyrus+%28OF%29] of  Caviness+neocortex+parcellation+unit
+
+	(FMAID "71033")
+	(part+of Cerebral+cortex)
+	(Preferred+name [live_incus_fm_08358])
+	(regional+part+of Cerebral+cortex))
+
+([Occipital+groove] of  Subdivision+of+surface+of+temporal+bone
+
+	(FMAID "55496")
+	(Non-English+equivalent [KB_INSTANCE_70702])
+	(Preferred+name [KB_INSTANCE_70701]))
+
+([Occipital+horn+of+lateral+ventricle] of  Anatomical+cavity
+
+	(FMAID "83700")
+	(Non-English+equivalent
+		[su_incus_21168]
+		[su_incus_21169]
+		[su_incus_21170]
+		[su_incus_21172]
+		[su_incus_21173]
+		[su_incus_40044])
+	(Preferred+name [live_incus_fm_08747])
+	(Synonym [su_incus_21171]))
+
+([Occipital+line+of+internal+granular+layer+of+isocortex] of  Anatomical+line
+
+	(FMAID "75384")
+	(Preferred+name [su_incus_27022]))
+
+([Occipital+lobe] of  Lobular+organ+component
+
+	(bounded+by Surface+of+brain)
+	(definition "Occipital lobe is the one of five lobes of the cerebral hemisphere which occupies the posterior-most portion of the hemisphere.  Anteriorly, it shares an arbitrary border with the parietal lobe and temporal lobe.  Medially, it is bounded by the longitudinal cerebral fissure.")
+	(FMAID "67325")
+	(Non-English+equivalent
+		[su_incus_19717]
+		[su_incus_36132]
+		[KB_AUTO-INSERT%283%29_83]
+		[KB_AUTO-INSERT%283%29_3762])
+	(part
+		Superior+occipital+gyrus
+		Lateral+occipital+gyrus
+		Cuneus
+		Lingual+gyrus)
+	(part+of Cerebral+hemisphere)
+	(Preferred+name [fm-live_14074])
+	(regional+part
+		Superior+occipital+gyrus
+		Lateral+occipital+gyrus
+		Cuneus
+		Lingual+gyrus)
+	(regional+part+of Cerebral+hemisphere)
+	(Synonym
+		[su_incus_19718]
+		[su_incus_19719]))
+
+([Occipital+lymph+node] of  Lymph+node
+
+	(FMAID "61214")
+	(Preferred+name [KB_INSTANCE_80714])
+	(Synonym [KB_INSTANCE_80715]))
+
+([Occipital+lymphatic+chain] of  Lymphatic+chain
+
+	(constitutional+part
+		Set+of+occipital+lymph+nodes
+		Set+of+occipital+lymphatic+vessels)
+	(FMAID "223784")
+	(lymphatic+drainage+of Occipital+zone+of+scalp)
+	(Preferred+name [ONARD_Instance_420048])
+	(regional+part+of Jugular+lymphatic+tree))
+
+([Occipital+margin+of+petrous+part+of+left+temporal+bone] of  Occipital+margin+of+petrous+part+of+temporal+bone
+
+	(FMAID "55492")
+	(Preferred+name [KB_INSTANCE_70696]))
+
+([Occipital+margin+of+petrous+part+of+right+temporal+bone] of  Occipital+margin+of+petrous+part+of+temporal+bone
+
+	(FMAID "55491")
+	(Preferred+name [KB_INSTANCE_70695]))
+
+([Occipital+margin+of+petrous+part+of+temporal+bone] of  Anatomical+border+of+skull+bone
+
+	(FMAID "55490")
+	(Preferred+name [KB_INSTANCE_70693])
+	(Synonym [KB_INSTANCE_70694]))
+
+([Occipital+margin+of+temporal+bone] of  Anatomical+line+of+bone
+
+	(FMAID "75051")
+	(Non-English+equivalent [su_incus_40572])
+	(Preferred+name [su_incus_25241]))
+
+([Occipital+part+of+aponeurosis+of+epicranius] of  Membranous+layer
+
+	(FMAID "53381")
+	(part+of Aponeurosis+of+epicranius)
+	(Preferred+name [KB_INSTANCE_67507])
+	(regional+part+of Aponeurosis+of+epicranius)
+	(Synonym [KB_INSTANCE_67508]))
+
+([Occipital+part+of+head] of  Subdivision+of+head+proper
+
+	(constitutional+part
+		Skin+of+occipital+part+of+head
+		Superficial+fascia+of+occipital+part+of+head)
+	(definition "Subdivision of head proper which consists of the occipital bone and all layers superficial to it. Examples: There is only one occipital part of head.")
+	(FMAID "49187")
+	(Non-English+equivalent [KB_INSTANCE_62090])
+	(part+of Head+proper)
+	(Preferred+name [KB_INSTANCE_62092])
+	(regional+part+of Head+proper)
+	(Synonym
+		[KB_INSTANCE_62091]
+		[fm_live_16235]))
+
+([Occipital+plane] of  Anatomical+virtual+plane
+
+	(FMAID "74565")
+	(Non-English+equivalent [su_incus_40463])
+	(Preferred+name [su_incus_22620]))
+
+([Occipital+pole] of  Surface+evagination+of+telencephalon
+
+	(dimension 3-dimension)
+	(FMAID "74892")
+	(Non-English+equivalent
+		[su_incus_22988]
+		[KB_AUTO-INSERT%283%29_3763])
+	(Preferred+name [live_incus_fm_12065]))
+
+([Occipital+pole+%28OP%29] of  Caviness+neocortex+parcellation+unit
+
+	(FMAID "71036")
+	(part+of Cerebral+cortex)
+	(Preferred+name [live_incus_fm_08364])
+	(regional+part+of Cerebral+cortex))
+
+([Occipital+protuberance] of  Zone+of+squamous+part+of+occipital+bone
+
+	(FMAID "80357")
+	(Preferred+name [fm_live_24764]))
+
+([Occipital+sinus] of  Vein
+
+	(FMAID "50781")
+	(Non-English+equivalent
+		[KB_INSTANCE_64099]
+		[KB_AUTO-INSERT%283%29_2896])
+	(Preferred+name [KB_INSTANCE_64098])
+	(tributary+of Sigmoid+sinus))
+
+([Occipital+stripe+of+internal+granular+layer+of+neocortex] of  Layer+of+neocortex
+
+	(dimension 3-dimension)
+	(FMAID "75667")
+	(Non-English+equivalent [su_incus_36009])
+	(Preferred+name [August_Instance_70000])
+	(Synonym
+		[su_incus_29334]
+		[su_incus_34568]
+		[su_incus_34569]
+		[su_incus_34570]
+		[KB_AUTO-INSERT2_4823]
+		[live_incus_fm_12187]))
+
+([Occipital+triangle] of  Subdivision+of+posterior+triangle+of+neck
+
+	(FMAID "81001")
+	(part+of Posterior+triangle+of+neck)
+	(Preferred+name [fm_live_26181])
+	(regional+part+of Posterior+triangle+of+neck))
+
+([Occipital+vein] of  Vein
+
+	(FMAID "50802")
+	(Non-English+equivalent
+		[KB_INSTANCE_64145]
+		[KB_AUTO-INSERT%283%29_2832])
+	(Preferred+name [KB_INSTANCE_64144])
+	(tributary Occipital+emissary+vein)
+	(tributary+of Deep+cervical+vein))
+
+([Occipital+zone+of+scalp] of  Subdivision+of+scalp
+
+	(FMAID "224005")
+	(lymphatic+drainage Occipital+lymphatic+chain)
+	(Preferred+name [ONARD_Instance_420249])
+	(Synonym [ONARD_Instance_420250]))
+
+([Occipitalis] of  Subdivision+of+occipitofrontalis
+
+	(FMAID "46758")
+	(Non-English+equivalent [su_incus_37527])
+	(part+of Occipitofrontalis)
+	(Preferred+name [KB_INSTANCE_59471])
+	(regional+part+of Occipitofrontalis)
+	(Synonym
+		[KB_INSTANCE_59472]
+		[KB_INSTANCE_59474]
+		[KB_INSTANCE_59476]))
+
+([Occipitofrontalis] of  Zone+of+epicranius
+
+	(attributed+part
+		[FM_live_06889]
+		[FM_live_06890])
+	(FMAID "9624")
+	(Non-English+equivalent
+		[KB_INSTANCE_08316]
+		[KB_AUTO-INSERT%283%29_1032])
+	(part
+		Frontalis
+		Occipitalis)
+	(part+of
+		Head+proper
+		Epicranius)
+	(Preferred+name [KB_INSTANCE_08315])
+	(regional+part
+		Frontalis
+		Occipitalis)
+	(regional+part+of Epicranius))
+
+([Occipitomastoid+suture] of  Suture
+
+	(FMAID "52934")
+	(Non-English+equivalent
+		[KB_INSTANCE_66810]
+		[KB_AUTO-INSERT%283%29_750])
+	(Preferred+name [KB_INSTANCE_66808])
+	(Synonym [KB_INSTANCE_66809]))
+
+([Occipitotemporal+branch+of+left+medial+occipital+artery] of  Systemic+artery
+
+	(branch+of Left+medial+occipital+artery)
+	(FMAID "50693")
+	(Preferred+name [KB_INSTANCE_63991])
+	(regional+part+of Left+medial+occipital+artery))
+
+([Occipitotemporal+branch+of+medial+occipital+artery] of  Systemic+artery
+
+	(arterial+supply+of Lateral+occipital+gyrus)
+	(branch+of Medial+occipital+artery)
+	(FMAID "50656")
+	(Non-English+equivalent [su_incus_36809])
+	(Preferred+name [KB_INSTANCE_63953])
+	(regional+part+of Medial+occipital+artery))
+
+([Occipitotemporal+branch+of+right+medial+occipital+artery] of  Systemic+artery
+
+	(branch+of Right+medial+occipital+artery)
+	(FMAID "50692")
+	(Preferred+name [KB_INSTANCE_63990])
+	(regional+part+of Right+medial+occipital+artery))
+
+([Occipitotemporal+sulcus] of  Subarachnoid+sulcus
+
+	(FMAID "74518")
+	(Non-English+equivalent
+		[su_incus_19720]
+		[su_incus_19724]
+		[KB_AUTO-INSERT%283%29_3807])
+	(Preferred+name [live_incus_fm_08503])
+	(Synonym
+		[su_incus_19721]
+		[su_incus_19722]
+		[su_incus_19723]
+		[su_incus_19725]
+		[su_incus_19726]
+		[su_incus_19727]))
+
+([Occluded+part+of+umbilical+artery] of  Organ+part
+
+	(dimension 3-dimension)
+	(FMAID "77152")
+	(Non-English+equivalent [su_incus_37190])
+	(Preferred+name [su_incus_32791]))
+
+([Occluding+cell+junction] of  Intercellular+junction
+
+	(FMAID "67397")
+	(Preferred+name [fm-live_08420])
+	(Synonym
+		[fm-live_08421]
+		[fm-live_08422]))
+
+([Occlusal+fissure] of  Anatomical+line
+
+	(FMAID "75113")
+	(Non-English+equivalent
+		[su_incus_40665]
+		[KB_AUTO-INSERT%283%29_1534])
+	(Preferred+name [su_incus_25304]))
+
+([Occlusal+fissure+of+tooth] of  Anatomical+line+of+tooth
+
+	(FMAID "56661")
+	(Preferred+name [KB_INSTANCE_73497])
+	(Synonym
+		[KB_INSTANCE_73498]
+		[KB_INSTANCE_73499]))
+
+([Occlusal+fossa+of+tooth] of  Region+of+surface+of+tooth
+
+	(FMAID "56662")
+	(Non-English+equivalent
+		[su_incus_40282]
+		[KB_AUTO-INSERT%283%29_1535])
+	(Preferred+name [KB_INSTANCE_73500])
+	(Synonym
+		[KB_INSTANCE_73501]
+		[KB_INSTANCE_73502]
+		[su_incus_25525]))
+
+([Occlusal+surface+of+left+lower+first+molar+tooth] of  Occlusal+surface+of+lower+first+molar+tooth
+
+	(FMAID "56364")
+	(Preferred+name [KB_INSTANCE_72763])
+	(Synonym
+		[KB_INSTANCE_72764]
+		[KB_INSTANCE_72765]))
+
+([Occlusal+surface+of+left+lower+first+premolar+tooth] of  Occlusal+surface+of+lower+first+premolar+tooth
+
+	(FMAID "56301")
+	(part+of Crown+of+left+lower+first+premolar+tooth)
+	(Preferred+name [KB_INSTANCE_72597])
+	(Synonym
+		[KB_INSTANCE_72598]
+		[KB_INSTANCE_72599]))
+
+([Occlusal+surface+of+left+lower+second+molar+tooth] of  Occlusal+surface+of+lower+second+molar+tooth
+
+	(FMAID "56349")
+	(part+of Crown+of+left+lower+second+molar+tooth)
+	(Preferred+name [KB_INSTANCE_72723])
+	(Synonym
+		[KB_INSTANCE_72724]
+		[KB_INSTANCE_72725]))
+
+([Occlusal+surface+of+left+lower+second+premolar+tooth] of  Occlusal+surface+of+lower+second+premolar+tooth
+
+	(FMAID "56316")
+	(part+of Crown+of+left+lower+second+premolar+tooth)
+	(Preferred+name [KB_INSTANCE_72637])
+	(Synonym
+		[KB_INSTANCE_72638]
+		[KB_INSTANCE_72639]))
+
+([Occlusal+surface+of+left+lower+third+molar+tooth] of  Occlusal+surface+of+lower+third+molar+tooth
+
+	(FMAID "56334")
+	(part+of Crown+of+left+lower+third+molar+tooth)
+	(Preferred+name [KB_INSTANCE_72683])
+	(Synonym
+		[KB_INSTANCE_72684]
+		[KB_INSTANCE_72685]))
+
+([Occlusal+surface+of+left+upper+first+molar+tooth] of  Occlusal+surface+of+upper+first+molar+tooth
+
+	(FMAID "56409")
+	(part+of Crown+of+left+upper+first+molar+tooth)
+	(Preferred+name [KB_INSTANCE_72883])
+	(Synonym
+		[KB_INSTANCE_72884]
+		[KB_INSTANCE_72885]))
+
+([Occlusal+surface+of+left+upper+first+premolar+tooth] of  Occlusal+surface+of+upper+first+premolar+tooth
+
+	(FMAID "56284")
+	(part+of Crown+of+left+upper+first+premolar+tooth)
+	(Preferred+name [KB_INSTANCE_72553])
+	(Synonym
+		[KB_INSTANCE_72554]
+		[KB_INSTANCE_72555]))
+
+([Occlusal+surface+of+left+upper+second+molar+tooth] of  Occlusal+surface+of+upper+second+molar+tooth
+
+	(FMAID "56394")
+	(part+of Crown+of+left+upper+second+molar+tooth)
+	(Preferred+name [KB_INSTANCE_72843])
+	(Synonym
+		[KB_INSTANCE_72844]
+		[KB_INSTANCE_72845]))
+
+([Occlusal+surface+of+left+upper+second+premolar+tooth] of  Occlusal+surface+of+upper+second+premolar+tooth
+
+	(FMAID "56274")
+	(part+of Crown+of+left+upper+second+premolar+tooth)
+	(Preferred+name [KB_INSTANCE_72523])
+	(Synonym
+		[KB_INSTANCE_72524]
+		[KB_INSTANCE_72525]))
+
+([Occlusal+surface+of+left+upper+third+molar+tooth] of  Occlusal+surface+of+upper+third+molar+tooth
+
+	(FMAID "56379")
+	(part+of Crown+of+left+upper+third+molar+tooth)
+	(Preferred+name [KB_INSTANCE_72803])
+	(Synonym
+		[KB_INSTANCE_72804]
+		[KB_INSTANCE_72805]))
+
+([Occlusal+surface+of+lower+first+molar+tooth] of  Surface+of+lower+first+molar+tooth
+
+	(FMAID "56362")
+	(Preferred+name [KB_INSTANCE_72758])
+	(Synonym [KB_INSTANCE_72759]))
+
+([Occlusal+surface+of+lower+first+premolar+tooth] of  Surface+of+lower+first+premolar+tooth
+
+	(FMAID "56299")
+	(Preferred+name [KB_INSTANCE_72592])
+	(Synonym [KB_INSTANCE_72593]))
+
+([Occlusal+surface+of+lower+second+molar+tooth] of  Surface+of+lower+second+molar+tooth
+
+	(FMAID "56347")
+	(Preferred+name [KB_INSTANCE_72718])
+	(Synonym [KB_INSTANCE_72719]))
+
+([Occlusal+surface+of+lower+second+premolar+tooth] of  Surface+of+lower+second+premolar+tooth
+
+	(FMAID "56314")
+	(Preferred+name [KB_INSTANCE_72632])
+	(Synonym [KB_INSTANCE_72633]))
+
+([Occlusal+surface+of+lower+third+molar+tooth] of  Surface+of+lower+third+molar+tooth
+
+	(FMAID "56332")
+	(Preferred+name [KB_INSTANCE_72678])
+	(Synonym [KB_INSTANCE_72679]))
+
+([Occlusal+surface+of+right+lower+first+molar+tooth] of  Occlusal+surface+of+lower+first+molar+tooth
+
+	(FMAID "56363")
+	(part+of Crown+of+right+lower+first+molar+tooth)
+	(Preferred+name [KB_INSTANCE_72760])
+	(Synonym
+		[KB_INSTANCE_72761]
+		[KB_INSTANCE_72762]))
+
+([Occlusal+surface+of+right+lower+first+premolar+tooth] of  Occlusal+surface+of+lower+first+premolar+tooth
+
+	(FMAID "56300")
+	(part+of Crown+of+right+lower+first+premolar+tooth)
+	(Preferred+name [KB_INSTANCE_72594])
+	(Synonym
+		[KB_INSTANCE_72595]
+		[KB_INSTANCE_72596]))
+
+([Occlusal+surface+of+right+lower+second+molar+tooth] of  Occlusal+surface+of+lower+second+molar+tooth
+
+	(FMAID "56348")
+	(part+of Crown+of+right+lower+second+molar+tooth)
+	(Preferred+name [KB_INSTANCE_72720])
+	(Synonym
+		[KB_INSTANCE_72721]
+		[KB_INSTANCE_72722]))
+
+([Occlusal+surface+of+right+lower+second+premolar+tooth] of  Occlusal+surface+of+lower+second+premolar+tooth
+
+	(FMAID "56315")
+	(part+of Crown+of+right+lower+second+premolar+tooth)
+	(Preferred+name [KB_INSTANCE_72634])
+	(Synonym
+		[KB_INSTANCE_72635]
+		[KB_INSTANCE_72636]))
+
+([Occlusal+surface+of+right+lower+third+molar+tooth] of  Occlusal+surface+of+lower+third+molar+tooth
+
+	(FMAID "56333")
+	(Preferred+name [KB_INSTANCE_72680])
+	(Synonym
+		[KB_INSTANCE_72681]
+		[KB_INSTANCE_72682]))
+
+([Occlusal+surface+of+right+upper+first+molar+tooth] of  Occlusal+surface+of+upper+first+molar+tooth
+
+	(FMAID "56408")
+	(part+of Crown+of+right+upper+first+molar+tooth)
+	(Preferred+name [KB_INSTANCE_72880])
+	(Synonym
+		[KB_INSTANCE_72881]
+		[KB_INSTANCE_72882]))
+
+([Occlusal+surface+of+right+upper+first+premolar+tooth] of  Occlusal+surface+of+upper+first+premolar+tooth
+
+	(FMAID "56283")
+	(part+of Crown+of+right+upper+first+premolar+tooth)
+	(Preferred+name [KB_INSTANCE_72550])
+	(Synonym
+		[KB_INSTANCE_72551]
+		[KB_INSTANCE_72552]))
+
+([Occlusal+surface+of+right+upper+second+molar+tooth] of  Occlusal+surface+of+upper+second+molar+tooth
+
+	(FMAID "56393")
+	(part+of Crown+of+right+upper+second+molar+tooth)
+	(Preferred+name [KB_INSTANCE_72840])
+	(Synonym
+		[KB_INSTANCE_72841]
+		[KB_INSTANCE_72842]))
+
+([Occlusal+surface+of+right+upper+second+premolar+tooth] of  Occlusal+surface+of+upper+second+premolar+tooth
+
+	(FMAID "56273")
+	(part+of Crown+of+right+upper+second+premolar+tooth)
+	(Preferred+name [KB_INSTANCE_72520])
+	(Synonym
+		[KB_INSTANCE_72521]
+		[KB_INSTANCE_72522]))
+
+([Occlusal+surface+of+right+upper+third+molar+tooth] of  Occlusal+surface+of+upper+third+molar+tooth
+
+	(FMAID "56378")
+	(part+of Crown+of+right+upper+third+molar+tooth)
+	(Preferred+name [KB_INSTANCE_72800])
+	(Synonym
+		[KB_INSTANCE_72801]
+		[KB_INSTANCE_72802]))
+
+([Occlusal+surface+of+tooth] of  Region+of+surface+of+tooth
+
+	(FMAID "55643")
+	(Non-English+equivalent [su_incus_40278])
+	(Preferred+name [KB_INSTANCE_70908])
+	(Synonym [KB_INSTANCE_70909]))
+
+([Occlusal+surface+of+upper+first+molar+tooth] of  Surface+of+upper+first+molar+tooth
+
+	(FMAID "56407")
+	(Preferred+name [KB_INSTANCE_72878])
+	(Synonym [KB_INSTANCE_72879]))
+
+([Occlusal+surface+of+upper+first+premolar+tooth] of  Surface+of+upper+first+premolar+tooth
+
+	(FMAID "56267")
+	(Preferred+name [KB_INSTANCE_72508])
+	(Synonym [KB_INSTANCE_72509]))
+
+([Occlusal+surface+of+upper+second+molar+tooth] of  Surface+of+upper+second+molar+tooth
+
+	(FMAID "56392")
+	(Preferred+name [KB_INSTANCE_72838])
+	(Synonym [KB_INSTANCE_72839]))
+
+([Occlusal+surface+of+upper+second+premolar+tooth] of  Surface+of+upper+second+premolar+tooth
+
+	(FMAID "56272")
+	(Preferred+name [KB_INSTANCE_72518])
+	(Synonym [KB_INSTANCE_72519]))
+
+([Occlusal+surface+of+upper+third+molar+tooth] of  Surface+of+upper+third+molar+tooth
+
+	(FMAID "56377")
+	(Preferred+name [KB_INSTANCE_72798])
+	(Synonym [KB_INSTANCE_72799]))
+
+([Ocular+muscle] of  General+anatomical+term+template
+
+	(FMAID "49149")
+	(homonym+for
+		Intra-ocular+muscle
+		Extra-ocular+muscle)
+	(Preferred+name [KB_INSTANCE_62032]))
+
+([Oculomotor+nerve] of  Cranial+nerve
+
+	(attributed+part
+		[fm-live_11795]
+		[fm-live_11796]
+		[fm-live_11805]
+		[fm-live_11807]
+		[fm-live_11808])
+	(branch
+		Superior+branch+of+oculomotor+nerve
+		Inferior+branch+of+oculomotor+nerve)
+	(definition "Cranial nerve which connects the midbrain to the extra-ocular and intra-ocular muscles.")
+	(dimension 3-dimension)
+	(FMAID "50864")
+	(inherent+3-D+shape Solid+tree)
+	(member+of Set+of+cranial+nerves)
+	(Non-English+equivalent
+		[su_incus_19728]
+		[su_incus_19729]
+		[su_incus_35577])
+	(part Superior+division+of+oculomotor+nerve)
+	(part+of Peripheral+nervous+system)
+	(Preferred+name [KB_INSTANCE_64223])
+	(regional+part+of Peripheral+nervous+system)
+	(Synonym
+		[KB_INSTANCE_64225]
+		[fm-live_03487]
+		[su_incus_24423])
+	(systemic+part+of Set+of+cranial+nerves))
+
+([Oculomotor+nuclear+complex] of  Nucleus+of+cranial+nerve
+
+	(FMAID "54510")
+	(Non-English+equivalent
+		[su_incus_19733]
+		[KB_INSTANCE_69198]
+		[KB_AUTO-INSERT%283%29_3527])
+	(Preferred+name [fm-live_11794])
+	(receives+input+from Primary+motor+cortex)
+	(Synonym
+		[KB_INSTANCE_69199]
+		[KB_INSTANCE_69200]
+		[KB_INSTANCE_69201]
+		[KB_INSTANCE_69197]))
+
+([Oculomotor+sulcus] of  Subarachnoid+sulcus
+
+	(FMAID "83792")
+	(Non-English+equivalent
+		[su_incus_19734]
+		[su_incus_40114]
+		[KB_AUTO-INSERT%283%29_3501])
+	(Preferred+name [live_incus_fm_08593]))
+
+([Odontoblast] of  General+ecto-epithelial+cell
+
+	(FMAID "62999")
+	(Preferred+name [FM_live_01322]))
+
+([Odontoclast] of  Connective+tissue+cell
+
+	(FMAID "83027")
+	(Preferred+name [fm_live_17063]))
+
+([Oitc+ganglion+neuron] of  Cranial+parasympathetic+ganglion+neuron
+
+	(FMAID "80144")
+	(Preferred+name [fm_live_24593])
+	(Synonym [fm_live_24594]))
+
+([Olecranon] of  Zone+of+proximal+epiphysis+of+ulna
+
+	(FMAID "39795")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_623])
+	(part+of Proximal+epiphysis+of+ulna)
+	(Preferred+name [KB_INSTANCE_51348])
+	(regional+part+of Proximal+epiphysis+of+ulna))
+
+([Olecranon+fossa] of  Subdivision+of+surface+of+humerus
+
+	(FMAID "23450")
+	(Non-English+equivalent
+		[KB_INSTANCE_29333]
+		[KB_AUTO-INSERT%283%29_613])
+	(Preferred+name [KB_INSTANCE_29332]))
+
+([Olecranon+process] of  Subdivision+of+surface+of+proximal+epiphysis+of+ulna
+
+	(FMAID "23697")
+	(Preferred+name [KB_INSTANCE_29598]))
+
+([Olecranon+region] of  Subdivision+of+posterior+part+of+elbow
+
+	(FMAID "79085")
+	(Preferred+name [fm_live_22229])
+	(regional+part+of Posterior+part+of+elbow)
+	(Synonym [fm_live_22230]))
+
+([Olfactory+bulb] of  Segment+of+neural+tree+organ
+
+	(definition "Segment of neural tree organ which is continuous with a set of olfactory nerves and an olfactory tract.")
+	(FMAID "77624")
+	(Non-English+equivalent
+		[su_incus_36138]
+		[KB_AUTO-INSERT%283%29_3872]
+		[ONARD_Instance_580771]
+		[ONARD_Instance_580776])
+	(Preferred+name [live_incus_fm_12926]))
+
+([Olfactory+epithelial+cell] of  Neurecto-epithelial+cell
+
+	(FMAID "67870")
+	(Preferred+name [fm-live_15447]))
+
+([Olfactory+epithelium] of  Pseudostratified+ciliated+columnar+epithelium
+
+	(FMAID "64803")
+	(part
+		Olfactory+receptor+cell
+		Supporting+cell+of+olfactory+epithelium
+		Basal+cell+proper+of+olfactory+epithelium
+		Globose+cell+of+olfactory+epithelium
+		Olfactory+gland)
+	(part+of Mucosa+of+nose)
+	(Preferred+name [fm-live_02531])
+	(regional+part
+		Basal+cell
+		Olfactory+receptor+cell
+		Supporting+cell+of+olfactory+epithelium
+		Basal+cell+proper+of+olfactory+epithelium
+		Globose+cell+of+olfactory+epithelium
+		Olfactory+gland)
+	(regional+part+of Mucosa+of+nose)
+	(Synonym
+		[fm-live_15785]
+		[fm-live_15787]))
+
+([Olfactory+gland] of  Organ+part
+
+	(dimension 3-dimension)
+	(FMAID "75801")
+	(Non-English+equivalent [ONARD_Instance_580585])
+	(part+of Olfactory+epithelium)
+	(Preferred+name [FM_live_09519])
+	(regional+part+of Olfactory+epithelium)
+	(Synonym [FM_live_09520]))
+
+([Olfactory+glial+cell] of  Central+neuroglial+cell
+
+	(FMAID "67869")
+	(Preferred+name [fm-live_15445]))
+
+([Olfactory+groove] of  Anatomical+line
+
+	(FMAID "74581")
+	(Preferred+name [su_incus_22636]))
+
+([Olfactory+nerve] of  Segment+of+neural+tree+organ
+
+	(definition "Segment of neural tree organ which is continuous with the olfactory epithelium and an olfactory bulb.")
+	(FMAID "46787")
+	(member+of Set+of+cranial+nerves)
+	(Non-English+equivalent
+		[su_incus_19735]
+		[su_incus_19736]
+		[su_incus_19737]
+		[su_incus_35576]
+		[ONARD_Instance_580772]
+		[ONARD_Instance_580773])
+	(Preferred+name [KB_INSTANCE_59547])
+	(Synonym
+		[KB_INSTANCE_59548]
+		[su_incus_24420]))
+
+([Olfactory+nerve-tract+complex] of  Neural+tree+organ
+
+	(definition "Cranial nerve-tract complex which has as its parts the right and left sets of olfactory nerves, right and left olfactory bulbs and  right and left olfactory tracts.")
+	(FMAID "223153")
+	(part
+		Left+set+of+olfactory+nerves
+		Right+set+of+olfactory+nerves
+		Left+olfactory+bulb
+		Right+olfactory+bulb
+		Left+olfactory+tract
+		Right+olfactory+tract)
+	(physical+state Solid)
+	(Preferred+name [ONARD_Instance_290005]))
+
+([Olfactory+organ] of  General+anatomical+term+template
+
+	(FMAID "77659")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_4674])
+	(Preferred+name [su_incus_33900]))
+
+([Olfactory+part+of+nasal+cavity] of  Subdivision+of+nasal+cavity
+
+	(FMAID "59674")
+	(Preferred+name [KB_INSTANCE_78780]))
+
+([Olfactory+peduncle] of  Peduncle+of+neuraxis
+
+	(FMAID "77625")
+	(Non-English+equivalent
+		[su_incus_36139]
+		[KB_AUTO-INSERT%283%29_3873])
+	(Preferred+name [live_incus_fm_12928]))
+
+([Olfactory+receptor+cell] of  Bipolar+neuron
+
+	(FMAID "67860")
+	(part+of Olfactory+epithelium)
+	(Preferred+name [fm-live_15425])
+	(regional+part
+		Cell+body+of+olfactory+receptor+cell
+		Axon+of+olfactory+receptor+cell
+		Dendrite+of+olfactory+receptor+cell)
+	(regional+part+of Olfactory+epithelium)
+	(Synonym
+		[fm-live_15426]
+		[fm_live_30161]
+		[fm_live_32373]))
+
+([Olfactory+sulcus] of  Subarachnoid+sulcus
+
+	(FMAID "83769")
+	(Non-English+equivalent
+		[su_incus_19738]
+		[KB_AUTO-INSERT%283%29_3797])
+	(Preferred+name [live_incus_fm_08533]))
+
+([Olfactory+system] of  Heterogeneous+cluster
+
+	(FMAID "7190")
+	(Preferred+name [fm_live_20741]))
+
+([Olfactory+tract] of  Tract+of+neuraxis
+
+	(definition "Tract of brain which is continuous with olfactory bulb and the cerebral cortex.")
+	(FMAID "77626")
+	(Non-English+equivalent
+		[su_incus_36140]
+		[KB_AUTO-INSERT%283%29_3874])
+	(Preferred+name [live_incus_fm_12930]))
+
+([Olfactory+trigone] of  Surface+evagination+of+telencephalon
+
+	(dimension 3-dimension)
+	(FMAID "74883")
+	(Non-English+equivalent
+		[su_incus_22989]
+		[KB_AUTO-INSERT%283%29_3875])
+	(Preferred+name [live_incus_fm_12047]))
+
+([Olfactory+zone+of+nasal+mucosa] of  Zone+of+mucosa+of+internal+nose
+
+	(dimension 3-dimension)
+	(FMAID "77199")
+	(Non-English+equivalent
+		[su_incus_37810]
+		[KB_AUTO-INSERT%283%29_4217])
+	(Preferred+name [su_incus_32973])
+	(Synonym
+		[su_incus_33901]
+		[su_incus_33902]))
+
+([Oligodendroblast] of  Glioblast
+
+	(FMAID "70566")
+	(Preferred+name [FM_live_03391]))
+
+([Oligodendrocyte] of  Macroglial+cell
+
+	(FMAID "54540")
+	(Preferred+name [KB_INSTANCE_69260])
+	(Synonym
+		[KB_INSTANCE_69261]
+		[KB_INSTANCE_69262]
+		[fma_p2_Instance_980011]))
+
+([Oligodendroglia] of  Anatomical+set+template
+
+	(FMAID "83665")
+	(Preferred+name [fm_live_29496]))
+
+([Oligosaccharide] of  Carbohydrate
+
+	(FMAID "82742")
+	(Preferred+name [fm_live_27551]))
+
+([Olivary+pretectal+nucleus] of  Nucleus+of+neuraxis
+
+	(FMAID "72405")
+	(Non-English+equivalent
+		[su_incus_19740]
+		[su_incus_19744]
+		[su_incus_19745]
+		[su_incus_19746]
+		[su_incus_19747]
+		[su_incus_36225]
+		[su_incus_36226]
+		[KB_AUTO-INSERT%283%29_3627]
+		[KB_AUTO-INSERT%283%29_3629])
+	(part+of Pretectal+region)
+	(Preferred+name [live_incus_fm_09227])
+	(regional+part+of Pretectal+region)
+	(Synonym
+		[su_incus_19741]
+		[su_incus_19742]
+		[su_incus_19743]))
+
+([Olivocerebellar+tract] of  Tract+of+neuraxis
+
+	(FMAID "72638")
+	(Non-English+equivalent
+		[su_incus_19748]
+		[KB_AUTO-INSERT%283%29_3313])
+	(part+of Medulla+oblongata)
+	(Preferred+name [live_incus_fm_09709])
+	(regional+part+of
+		Medulla+oblongata
+		White+matter+structure+of+medulla+oblongata))
+
+([Olivocochlear+bundle] of  Tract+of+neuraxis
+
+	(FMAID "72485")
+	(Non-English+equivalent
+		[su_incus_19749]
+		[KB_AUTO-INSERT%283%29_3425])
+	(part+of Pontine+tegmentum)
+	(Preferred+name [live_incus_fm_09410])
+	(regional+part+of Pontine+tegmentum)
+	(Synonym
+		[su_incus_19750]
+		[su_incus_19751]
+		[su_incus_30093]
+		[su_incus_31561]))
+
+([Olivospinal+tract+of+spinal+cord] of  Tract+of+spinal+cord
+
+	(FMAID "73992")
+	(part+of Spinal+cord)
+	(Preferred+name [live_incus_fm_11837])
+	(regional+part+of Spinal+cord))
+
+([Omental+branch+of+left+gastro-epiploic+artery] of  Systemic+artery
+
+	(branch+of Left+gastro-epiploic+artery)
+	(FMAID "14797")
+	(Preferred+name [KB_INSTANCE_16575]))
+
+([Omental+branch+of+right+gastro-epiploic+artery] of  Systemic+artery
+
+	(branch+of Right+gastro-epiploic+artery)
+	(FMAID "14799")
+	(Preferred+name [KB_INSTANCE_16577]))
+
+([Omental+part+of+anterior+superior+pancreaticoduodenal+artery] of  Systemic+artery
+
+	(branch+of Anterior+superior+pancreaticoduodenal+artery)
+	(FMAID "70466")
+	(Preferred+name [fm_live_10583])
+	(Synonym [fm_live_17467]))
+
+([Omental+taenia] of  Anatomical+fold
+
+	(dimension 3-dimension)
+	(FMAID "76892")
+	(Preferred+name [su_incus_32218]))
+
+([Omental+tubercle+of+liver] of  Tubercle
+
+	(FMAID "15735")
+	(Non-English+equivalent [su_incus_38168])
+	(Preferred+name [KB_INSTANCE_18102])
+	(Synonym
+		[KB_INSTANCE_18103]
+		[su_incus_32866]))
+
+([Omental+tuberosity+of+pancreas] of  Tubercle
+
+	(FMAID "15858")
+	(Non-English+equivalent [su_incus_37444])
+	(part+of Body+of+pancreas)
+	(Preferred+name [KB_INSTANCE_18338])
+	(regional+part+of Body+of+pancreas)
+	(Synonym
+		[KB_INSTANCE_18339]
+		[KB_INSTANCE_18340]
+		[KB_INSTANCE_18341]
+		[su_incus_32966]))
+
+([Omentum] of  Organ+region+with+fixed+fiat+boundary
+
+	(FMAID "14650")
+	(part+of Visceral+peritoneum)
+	(Preferred+name [KB_INSTANCE_16299])
+	(regional+part+of Visceral+peritoneum))
+
+([Omohyoid] of  Infrahyoid+muscle
+
+	(FMAID "13342")
+	(member+of Set+of+infrahyoid+muscles)
+	(nerve+supply
+		Nerve+to+superior+belly+of+omohyoid
+		Nerve+to+inferior+belly+of+omohyoid)
+	(Non-English+equivalent
+		[su_incus_35352]
+		[KB_AUTO-INSERT%283%29_1089])
+	(Preferred+name [KB_INSTANCE_14212])
+	(segmental+supply
+		C1
+		C2
+		C3))
+
+([Oncocyte] of  Endo-epithelial+cell
+
+	(FMAID "67606")
+	(Preferred+name [fm-live_11416]))
+
+([Ooblast] of  Primordial+germ+cell
+
+	(FMAID "84772")
+	(Preferred+name [fm_live_32684])
+	(Synonym [fm_live_32685]))
+
+([Oocyte] of  Definitive+germ+cell
+
+	(definition "Germ cell of the female sex.")
+	(FMAID "18644")
+	(part+of
+		Primary+follicle+of+ovary
+		Secondary+follicle+of+ovary
+		Tertiary+follicle+of+ovary)
+	(Preferred+name [KB_INSTANCE_23426])
+	(regional+part+of
+		Primary+follicle+of+ovary
+		Secondary+follicle+of+ovary
+		Tertiary+follicle+of+ovary)
+	(Synonym [KB_INSTANCE_23427]))
+
+([Oogonium] of  Oocyte
+
+	(FMAID "83673")
+	(Preferred+name [fm_live_29600]))
+
+([Opening+of+cerebral+aqueduct] of  Anatomical+cavity
+
+	(FMAID "78468")
+	(Non-English+equivalent
+		[su_incus_40050]
+		[su_incus_40051]
+		[KB_AUTO-INSERT%283%29_3551])
+	(Preferred+name [live_incus_fm_12854])
+	(Synonym
+		[su_incus_34224]
+		[KB_AUTO-INSERT2_9906]))
+
+([Opening+of+cochlear+canaliculus] of  Orifice+of+skull
+
+	(FMAID "56424")
+	(Non-English+equivalent
+		[KB_INSTANCE_72918]
+		[KB_AUTO-INSERT%283%29_383])
+	(Preferred+name [KB_INSTANCE_72917])
+	(Synonym [KB_AUTO-INSERT2_10307]))
+
+([Opening+of+frontal+sinus] of  Orifice+of+skull
+
+	(FMAID "57402")
+	(Non-English+equivalent
+		[KB_INSTANCE_75588]
+		[KB_AUTO-INSERT%283%29_526])
+	(Preferred+name [KB_INSTANCE_75587])
+	(Synonym [KB_AUTO-INSERT2_10304]))
+
+([Opening+of+left+cochlear+canaliculus] of  Opening+of+cochlear+canaliculus
+
+	(FMAID "56426")
+	(Preferred+name [KB_INSTANCE_72920])
+	(Synonym [KB_AUTO-INSERT2_10314]))
+
+([Opening+of+left+nasolacrimal+duct] of  Opening+of+nasolacrimal+duct
+
+	(FMAID "59678")
+	(part+of Left+nasolacrimal+duct)
+	(Preferred+name [KB_INSTANCE_78785])
+	(regional+part+of Left+nasolacrimal+duct)
+	(Synonym [KB_AUTO-INSERT2_10316]))
+
+([Opening+of+left+sphenoidal+sinus] of  Opening+of+sphenoidal+sinus
+
+	(FMAID "54773")
+	(Preferred+name [KB_INSTANCE_69609])
+	(Synonym [KB_AUTO-INSERT2_10310]))
+
+([Opening+of+left+vestibular+canaliculus] of  Opening+of+vestibular+canaliculus
+
+	(FMAID "56423")
+	(Preferred+name [KB_INSTANCE_72916])
+	(Synonym [KB_AUTO-INSERT2_10312]))
+
+([Opening+of+nasolacrimal+canal] of  Orifice+of+skull
+
+	(FMAID "54371")
+	(Non-English+equivalent
+		[KB_INSTANCE_69020]
+		[KB_AUTO-INSERT%283%29_306])
+	(Preferred+name [KB_INSTANCE_69018])
+	(Synonym
+		[KB_INSTANCE_69019]
+		[KB_AUTO-INSERT2_10308]))
+
+([Opening+of+nasolacrimal+duct] of  Orifice
+
+	(FMAID "59676")
+	(Non-English+equivalent
+		[KB_INSTANCE_78783]
+		[KB_AUTO-INSERT%283%29_1920])
+	(part+of Nasolacrimal+duct)
+	(Preferred+name [KB_INSTANCE_78782])
+	(Synonym [KB_AUTO-INSERT2_10281]))
+
+([Opening+of+right+cochlear+canaliculus] of  Opening+of+cochlear+canaliculus
+
+	(FMAID "56425")
+	(Preferred+name [KB_INSTANCE_72919])
+	(Synonym [KB_AUTO-INSERT2_10313]))
+
+([Opening+of+right+nasolacrimal+duct] of  Opening+of+nasolacrimal+duct
+
+	(FMAID "59677")
+	(part+of Right+nasolacrimal+duct)
+	(Preferred+name [KB_INSTANCE_78784])
+	(regional+part+of Right+nasolacrimal+duct)
+	(Synonym [KB_AUTO-INSERT2_10315]))
+
+([Opening+of+right+sphenoidal+sinus] of  Opening+of+sphenoidal+sinus
+
+	(FMAID "54772")
+	(Preferred+name [KB_INSTANCE_69608])
+	(Synonym [KB_AUTO-INSERT2_10309]))
+
+([Opening+of+right+vestibular+canaliculus] of  Opening+of+vestibular+canaliculus
+
+	(FMAID "56422")
+	(Preferred+name [KB_INSTANCE_72915])
+	(Synonym [KB_AUTO-INSERT2_10311]))
+
+([Opening+of+sphenoidal+sinus] of  Orifice+of+skull
+
+	(FMAID "54771")
+	(Non-English+equivalent
+		[KB_INSTANCE_69607]
+		[KB_AUTO-INSERT%283%29_359])
+	(Preferred+name [KB_INSTANCE_69605])
+	(Synonym [KB_AUTO-INSERT2_10305]))
+
+([Opening+of+vestibular+canaliculus] of  Orifice+of+skull
+
+	(FMAID "56421")
+	(Non-English+equivalent
+		[fm_live_26260]
+		[KB_AUTO-INSERT%283%29_133])
+	(Preferred+name [KB_INSTANCE_72914])
+	(Synonym [KB_AUTO-INSERT2_10306]))
+
+([Opercular+part+of+inferior+frontal+gyrus] of  Subdivision+of+inferior+frontal+gyrus
+
+	(attributed+continuous+with [live_incus_fm_13956])
+	(bounded+by
+		Surface+of+brain
+		Semioval+center)
+	(FMAID "61981")
+	(location
+		[live_incus_fm_13957]
+		[live_incus_fm_13958]
+		[live_incus_fm_13959]
+		[live_incus_fm_14266]
+		[live_incus_fm_14267]
+		[live_incus_fm_14285])
+	(Non-English+equivalent
+		[su_incus_19752]
+		[su_incus_19753]
+		[su_incus_19755]
+		[su_incus_36074])
+	(part+of Inferior+frontal+gyrus)
+	(Preferred+name [fm-live_14868])
+	(regional+part+of Inferior+frontal+gyrus)
+	(Synonym
+		[su_incus_19754]
+		[su_incus_19756]))
+
+([Opercular+part+of+left+inferior+frontal+gyrus] of  Opercular+part+of+inferior+frontal+gyrus
+
+	(dimension 3-dimension)
+	(FMAID "72753")
+	(Preferred+name [live_incus_fm_09929]))
+
+([Opercular+part+of+right+inferior+frontal+gyrus] of  Opercular+part+of+inferior+frontal+gyrus
+
+	(dimension 3-dimension)
+	(FMAID "72752")
+	(Preferred+name [live_incus_fm_09927]))
+
+([Ophthalmic+artery] of  Systemic+artery
+
+	(branch
+		Central+retinal+artery
+		Posterior+ciliary+artery
+		Lacrimal+artery
+		Recurrent+branch+of+ophthalmic+artery
+		Muscular+branch+of+ophthalmic+artery
+		Supra-orbital+artery
+		Posterior+ethmoidal+artery
+		Anterior+ethmoidal+artery
+		Medial+palpebral+artery
+		Dorsal+nasal+artery
+		Supratrochlear+artery)
+	(branch+of
+		Cerebral+part+of+internal+carotid+artery
+		Internal+carotid+artery)
+	(FMAID "49868")
+	(Non-English+equivalent
+		[su_incus_36954]
+		[KB_AUTO-INSERT%283%29_2528])
+	(Preferred+name [KB_INSTANCE_62959]))
+
+([Ophthalmic+nerve] of  Branch+of+trigeminal+nerve
+
+	(branch
+		Tentorial+nerve
+		Lacrimal+nerve
+		Frontal+nerve)
+	(branch+of Trigeminal+nerve)
+	(FMAID "52621")
+	(Non-English+equivalent
+		[su_incus_36546]
+		[su_incus_36547]
+		[KB_AUTO-INSERT%283%29_3963])
+	(Preferred+name [KB_INSTANCE_66286])
+	(Synonym
+		[KB_INSTANCE_66287]
+		[KB_INSTANCE_66288]
+		[KB_INSTANCE_66289]
+		[KB_INSTANCE_66290]
+		[KB_INSTANCE_66291]
+		[KB_INSTANCE_66292]
+		[KB_INSTANCE_66293]
+		[su_incus_24585]
+		[su_incus_24586]
+		[su_incus_24587]
+		[su_incus_24588]))
+
+([Opisthion+of+foramen+magnum] of  Anatomical+point
+
+	(FMAID "75744")
+	(Non-English+equivalent [su_incus_40699])
+	(Preferred+name [su_incus_29637])
+	(Synonym [KB_AUTO-INSERT2_11186]))
+
+([Opponens+digiti+minimi+of+foot] of  Intrinsic+muscle+of+plantar+part+of+foot
+
+	(FMAID "86033")
+	(Non-English+equivalent [fma_p2_Instance_730008])
+	(Preferred+name [fma_p2_Instance_730003]))
+
+([Opponens+digiti+minimi+of+hand] of  Hypothenar+muscle
+
+	(FMAID "37384")
+	(member+of Set+of+hypothenar+muscles)
+	(nerve+supply Nerve+to+opponens+digiti+minimi)
+	(Non-English+equivalent [KB_INSTANCE_48042])
+	(Preferred+name [KB_INSTANCE_48041])
+	(primary+segmental+supply T1)
+	(regional+part+of Hypothenar+compartment)
+	(secondary+segmental+supply C8)
+	(segmental+supply
+		C8
+		T1))
+
+([Opponens+digiti+minimi+of+left+foot] of  Opponens+digiti+minimi+of+foot
+
+	(FMAID "86035")
+	(Preferred+name [fma_p2_Instance_730007]))
+
+([Opponens+digiti+minimi+of+left+hand] of  Opponens+digiti+minimi+of+hand
+
+	(FMAID "37401")
+	(member+of Set+of+left+hypothenar+muscles)
+	(nerve+supply Nerve+to+left+opponens+digiti+minimi)
+	(Preferred+name [KB_INSTANCE_48059]))
+
+([Opponens+digiti+minimi+of+right+foot] of  Opponens+digiti+minimi+of+foot
+
+	(FMAID "86034")
+	(Preferred+name [fma_p2_Instance_730005]))
+
+([Opponens+digiti+minimi+of+right+hand] of  Opponens+digiti+minimi+of+hand
+
+	(FMAID "37400")
+	(member+of Set+of+right+hypothenar+muscles)
+	(nerve+supply Nerve+to+right+opponens+digiti+minimi)
+	(Preferred+name [KB_INSTANCE_48058]))
+
+([Opponens+muscle] of  Non-physical+anatomical+entity+template
+
+	(FMAID "75003")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_1009])
+	(Preferred+name [su_incus_24407]))
+
+([Opponens+pollicis] of  Thenar+muscle
+
+	(FMAID "37379")
+	(member+of Set+of+thenar+muscles)
+	(nerve+supply
+		Branch+of+median+nerve+to+opponens+pollicis
+		Branch+of+deep+branch+of+ulnar+nerve+to+opponens+pollicis)
+	(Non-English+equivalent
+		[KB_INSTANCE_48032]
+		[KB_AUTO-INSERT%283%29_1301])
+	(Preferred+name [KB_INSTANCE_48031])
+	(primary+segmental+supply T1)
+	(regional+part+of Thenar+compartment)
+	(secondary+segmental+supply C8)
+	(segmental+supply
+		C8
+		T1))
+
+([Opposition] of  Non-physical+anatomical+entity+template
+
+	(FMAID "32435")
+	(Preferred+name [fm_live_30056]))
+
+([Optic+axis] of  Anatomical+line+of+eyeball
+
+	(FMAID "58163")
+	(Non-English+equivalent
+		[KB_INSTANCE_76670]
+		[KB_AUTO-INSERT%283%29_4223])
+	(Preferred+name [KB_INSTANCE_76669]))
+
+([Optic+canal] of  Cranial+conduit
+
+	(FMAID "54774")
+	(Non-English+equivalent
+		[KB_INSTANCE_69611]
+		[KB_AUTO-INSERT%283%29_361])
+	(Preferred+name [KB_INSTANCE_69610]))
+
+([Optic+canal+part+of+left+optic+nerve] of  Optic+canal+part+of+optic+nerve
+
+	(FMAID "58725")
+	(Preferred+name [KB_INSTANCE_77530]))
+
+([Optic+canal+part+of+optic+nerve] of  Zone+of+optic+nerve
+
+	(FMAID "58709")
+	(Non-English+equivalent [su_incus_36689])
+	(Preferred+name [KB_INSTANCE_77493])
+	(Synonym
+		[KB_INSTANCE_77494]
+		[KB_INSTANCE_77495]
+		[su_incus_33915]))
+
+([Optic+canal+part+of+right+optic+nerve] of  Optic+canal+part+of+optic+nerve
+
+	(FMAID "58724")
+	(Preferred+name [KB_INSTANCE_77529]))
+
+([Optic+chiasm] of  Trunk+of+cranial+nerve
+
+	(arterial+supply Branch+of+anterior+choroidal+artery+to+optic+chiasm)
+	(definition "Nerve trunk which is continuous with right and left optic nerves and right and left optic tracts.")
+	(FMAID "62045")
+	(Non-English+equivalent
+		[su_incus_19757]
+		[su_incus_19759]
+		[su_incus_19760]
+		[KB_AUTO-INSERT%283%29_3605])
+	(part+of Optic+nerve-tract+complex)
+	(Preferred+name [fm-live_15168])
+	(Synonym
+		[su_incus_19758]
+		[su_incus_19761]))
+
+([Optic+disc] of  Region+of+optic+part+of+retina
+
+	(FMAID "58634")
+	(Non-English+equivalent
+		[KB_INSTANCE_77381]
+		[KB_AUTO-INSERT%283%29_4264])
+	(part+of Optic+part+of+retina)
+	(Preferred+name [KB_INSTANCE_77380])
+	(regional+part+of Optic+part+of+retina))
+
+([Optic+nerve] of  Trunk+of+cranial+nerve
+
+	(arterial+supply Proximal+medial+striate+artery)
+	(definition "Nerve trunk which is continuous with the retina and the optic chiasm.")
+	(FMAID "50863")
+	(Non-English+equivalent
+		[su_incus_19762]
+		[su_incus_19763]
+		[KB_INSTANCE_64221]
+		[KB_AUTO-INSERT%283%29_4268])
+	(Preferred+name [KB_INSTANCE_64220])
+	(Synonym
+		[KB_INSTANCE_64222]
+		[su_incus_24419]))
+
+([Optic+nerve-tract+complex] of  Neural+tree+organ
+
+	(definition "Cranial nerve-tract complex which has as its parts the right and left retinas, right and left optic nerves, optic chiasm and right and left optic tracts.")
+	(FMAID "62379")
+	(member+of Set+of+cranial+nerves)
+	(part
+		Optic+chiasm
+		Left+optic+nerve
+		Right+optic+nerve
+		Left+retina
+		Right+retina
+		Left+optic+tract
+		Right+optic+tract)
+	(Preferred+name [fm-live_15655])
+	(systemic+part+of Set+of+cranial+nerves))
+
+([Optic+part+of+left+retina] of  Optic+part+of+retina
+
+	(FMAID "58608")
+	(part
+		Left+optic+disc
+		Left+macula+lutea
+		Optic+part+proper+of+left+retina)
+	(Preferred+name [KB_INSTANCE_77346])
+	(regional+part
+		Left+optic+disc
+		Left+macula+lutea
+		Optic+part+proper+of+left+retina))
+
+([Optic+part+of+retina] of  Region+of+retina
+
+	(FMAID "58604")
+	(Non-English+equivalent
+		[KB_INSTANCE_77342]
+		[KB_AUTO-INSERT%283%29_4263])
+	(part
+		Optic+disc
+		Macula+lutea
+		Optic+part+proper+of+retina)
+	(part+of Retina)
+	(Preferred+name [KB_INSTANCE_77340])
+	(regional+part
+		Optic+disc
+		Macula+lutea
+		Optic+part+proper+of+retina)
+	(regional+part+of Retina)
+	(Synonym [KB_INSTANCE_77341]))
+
+([Optic+part+of+right+retina] of  Optic+part+of+retina
+
+	(FMAID "58607")
+	(part
+		Right+optic+disc
+		Right+macula+lutea
+		Optic+part+proper+of+right+retina)
+	(Preferred+name [KB_INSTANCE_77345])
+	(regional+part
+		Right+optic+disc
+		Right+macula+lutea
+		Optic+part+proper+of+right+retina))
+
+([Optic+part+proper+of+left+retina] of  Optic+part+proper+of+retina
+
+	(FMAID "58642")
+	(part+of Optic+part+of+left+retina)
+	(Preferred+name [KB_INSTANCE_77390])
+	(regional+part+of Optic+part+of+left+retina))
+
+([Optic+part+proper+of+retina] of  Region+of+optic+part+of+retina
+
+	(FMAID "58640")
+	(part+of Optic+part+of+retina)
+	(Preferred+name [KB_INSTANCE_77388])
+	(regional+part+of Optic+part+of+retina))
+
+([Optic+part+proper+of+right+retina] of  Optic+part+proper+of+retina
+
+	(FMAID "58641")
+	(part+of Optic+part+of+right+retina)
+	(Preferred+name [KB_INSTANCE_77389])
+	(regional+part+of Optic+part+of+right+retina))
+
+([Optic+radiation] of  Radiation+of+cerebral+hemisphere
+
+	(arterial+supply Branch+of+anterior+choroidal+artery+to+optic+radiation)
+	(FMAID "61941")
+	(Non-English+equivalent
+		[su_incus_36108]
+		[KB_AUTO-INSERT%283%29_3678])
+	(Preferred+name [fm-live_14788])
+	(regional+part+of
+		White+matter+structure+of+cerebral+hemisphere
+		Radiation+of+cerebral+hemisphere)
+	(Synonym [su_incus_17278]))
+
+([Optic+recess+of+third+ventricle] of  Anatomical+cavity
+
+	(FMAID "78455")
+	(Non-English+equivalent
+		[su_incus_26617]
+		[su_incus_26618]
+		[su_incus_26619])
+	(Preferred+name [live_incus_fm_08757])
+	(Synonym
+		[su_incus_26620]
+		[su_incus_26621]
+		[su_incus_26622]))
+
+([Optic+tract] of  Trunk+of+cranial+nerve
+
+	(arterial+supply Branch+of+anterior+choroidal+artery+to+optic+tract)
+	(definition "Nerve trunk which is continuous with the optic chiasm and the lateral geniculate nucleus.")
+	(FMAID "62046")
+	(Non-English+equivalent
+		[su_incus_19767]
+		[KB_AUTO-INSERT%283%29_3606])
+	(Preferred+name [fm-live_15170])
+	(Synonym [su_incus_19768]))
+
+([Ora+serrata] of  Anatomical+line+of+eyeball
+
+	(FMAID "58600")
+	(Non-English+equivalent [su_incus_40499])
+	(Preferred+name [KB_INSTANCE_77334])
+	(Synonym [KB_INSTANCE_77335]))
+
+([Oral+cavity] of  Cavity+of+subdivision+of+principal+body+part
+
+	(constitutional+part+of Mouth)
+	(contains Tongue)
+	(FMAID "20292")
+	(Non-English+equivalent
+		[KB_INSTANCE_25608]
+		[KB_AUTO-INSERT%283%29_1487])
+	(part
+		Oral+vestibule
+		Oral+cavity+proper
+		Fauces)
+	(part+of Mouth)
+	(Preferred+name [KB_INSTANCE_25606])
+	(Synonym
+		[KB_INSTANCE_25607]
+		[KB_INSTANCE_25609]))
+
+([Oral+cavity+proper] of  Subdivision+of+oral+cavity
+
+	(FMAID "49182")
+	(Non-English+equivalent
+		[KB_INSTANCE_62081]
+		[KB_AUTO-INSERT%283%29_1499])
+	(part+of Oral+cavity)
+	(Preferred+name [KB_INSTANCE_62080]))
+
+([Oral+opening] of  Orifice
+
+	(FMAID "59806")
+	(Non-English+equivalent
+		[KB_INSTANCE_78934]
+		[KB_AUTO-INSERT%283%29_1490])
+	(Preferred+name [KB_INSTANCE_78932])
+	(Synonym
+		[KB_INSTANCE_78933]
+		[su_incus_24642]))
+
+([Oral+part+of+left+ventral+lateral+nucleus] of  Oral+part+of+ventral+lateral+nucleus
+
+	(dimension 3-dimension)
+	(FMAID "73062")
+	(Preferred+name [live_incus_fm_10501]))
+
+([Oral+part+of+left+ventral+posterolateral+nucleus] of  Oral+part+of+ventral+posterolateral+nucleus
+
+	(dimension 3-dimension)
+	(FMAID "73078")
+	(Preferred+name [live_incus_fm_10533]))
+
+([Oral+part+of+right+ventral+lateral+nucleus] of  Oral+part+of+ventral+lateral+nucleus
+
+	(dimension 3-dimension)
+	(FMAID "73061")
+	(Preferred+name [live_incus_fm_10499]))
+
+([Oral+part+of+right+ventral+posterolateral+nucleus] of  Oral+part+of+ventral+posterolateral+nucleus
+
+	(dimension 3-dimension)
+	(FMAID "73077")
+	(Preferred+name [live_incus_fm_10531]))
+
+([Oral+part+of+ventral+lateral+nucleus] of  Nucleus+of+neuraxis
+
+	(FMAID "62193")
+	(Non-English+equivalent
+		[su_incus_19769]
+		[su_incus_19772]
+		[su_incus_19773]
+		[su_incus_19776]
+		[su_incus_19777])
+	(part+of Ventral+lateral+nucleus)
+	(Preferred+name [fm-live_15354])
+	(receives+input+from Putamen)
+	(regional+part+of Ventral+lateral+nucleus)
+	(sends+output+to Supplemental+motor+cortex)
+	(Synonym
+		[su_incus_19770]
+		[su_incus_19771]
+		[su_incus_19774]
+		[su_incus_19775]))
+
+([Oral+part+of+ventral+posterolateral+nucleus] of  Subdivision+of+ventral+posterolateral+nucleus
+
+	(FMAID "62205")
+	(Non-English+equivalent
+		[su_incus_19778]
+		[su_incus_19779]
+		[su_incus_19782]
+		[su_incus_19784]
+		[su_incus_19785]
+		[su_incus_19786]
+		[su_incus_19787]
+		[su_incus_19788])
+	(part+of Ventral+posterolateral+nucleus)
+	(Preferred+name [fm-live_15374])
+	(regional+part+of Ventral+posterolateral+nucleus)
+	(sends+output+to Primary+motor+cortex)
+	(Synonym
+		[su_incus_19780]
+		[su_incus_19781]
+		[su_incus_19783]))
+
+([Oral+pontine+reticular+nucleus] of  Nucleus+of+pontine+reticular+formation
+
+	(FMAID "72468")
+	(Non-English+equivalent
+		[su_incus_19789]
+		[su_incus_19790]
+		[su_incus_36269]
+		[KB_AUTO-INSERT%283%29_3473])
+	(part+of Pontine+reticular+formation)
+	(Preferred+name [live_incus_fm_09372])
+	(regional+part+of Pontine+reticular+formation)
+	(Synonym [su_incus_19791]))
+
+([Oral+pulvinar+nucleus] of  Nucleus+of+neuraxis
+
+	(FMAID "62180")
+	(Non-English+equivalent
+		[su_incus_19792]
+		[su_incus_19793]
+		[su_incus_36157]
+		[KB_AUTO-INSERT%283%29_3640])
+	(part+of Pulvinar)
+	(Preferred+name [fm-live_15328])
+	(regional+part+of Pulvinar)
+	(Synonym
+		[su_incus_19794]
+		[su_incus_19795]
+		[su_incus_19796]
+		[su_incus_19797]))
+
+([Oral+vestibule] of  Subdivision+of+oral+cavity
+
+	(FMAID "49183")
+	(Non-English+equivalent
+		[KB_INSTANCE_62083]
+		[KB_AUTO-INSERT%283%29_1489])
+	(part+of Oral+cavity)
+	(Preferred+name [KB_INSTANCE_62082]))
+
+([Orbicular+muscle] of  Non-physical+anatomical+entity+template
+
+	(FMAID "74995")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_1001])
+	(Preferred+name [su_incus_24399]))
+
+([Orbicularis+oculi] of  Circumorbital+muscle
+
+	(constitutional+part+of Eye)
+	(FMAID "46779")
+	(member+of Set+of+circumorbital+muscles)
+	(nerve+supply
+		Branch+of+temporal+branch+of+facial+nerve+to+orbicularis+oculi
+		Branch+of+zygomatic+branch+of+facial+nerve+to+orbicularis+oculi)
+	(Non-English+equivalent
+		[su_incus_35334]
+		[KB_AUTO-INSERT%283%29_1038])
+	(part
+		Orbital+part+of+orbicularis+oculi
+		Palpebral+part+of+orbicularis+oculi)
+	(part+of Eye)
+	(Preferred+name [KB_INSTANCE_59530])
+	(regional+part
+		Orbital+part+of+orbicularis+oculi
+		Palpebral+part+of+orbicularis+oculi)
+	(systemic+part+of Set+of+circumorbital+muscles))
+
+([Orbicularis+oris] of  Muscle+of+face
+
+	(attributed+part
+		[FM_live_06883]
+		[FM_live_06884])
+	(constitutional+part+of Labial+part+of+mouth)
+	(FMAID "46841")
+	(member+of
+		Set+of+muscles+of+mouth
+		Set+of+muscles+of+face)
+	(nerve+supply
+		Branch+of+lower+deep+buccal+branch+of+right+facial+nerve+to+right+orbicularis+oris
+		Branch+of+lower+deep+buccal+branch+of+left+facial+nerve+to+left+orbicularis+oris)
+	(Non-English+equivalent
+		[KB_INSTANCE_59656]
+		[KB_AUTO-INSERT%283%29_1044])
+	(part
+		Labial+part+of+orbicularis+oris
+		Marginal+part+of+orbicularis+oris)
+	(part+of Labial+part+of+mouth)
+	(Preferred+name [KB_INSTANCE_59655])
+	(regional+part
+		Labial+part+of+orbicularis+oris
+		Marginal+part+of+orbicularis+oris)
+	(systemic+part+of Labial+part+of+mouth))
+
+([Orbiculus+ciliaris] of  Region+of+ciliary+body
+
+	(constitutional+part+of Ciliary+body)
+	(FMAID "58480")
+	(part+of Ciliary+body)
+	(Preferred+name [KB_INSTANCE_77186])
+	(Synonym
+		[KB_INSTANCE_77187]
+		[KB_INSTANCE_77188]))
+
+([Orbit] of  Subdivision+of+skeletal+system
+
+	(constitutional+part
+		Wall+of+orbit
+		Orbital+compartment)
+	(FMAID "53074")
+	(Non-English+equivalent
+		[KB_INSTANCE_67047]
+		[KB_AUTO-INSERT%283%29_296])
+	(part
+		Wall+of+orbit
+		Roof+of+orbit
+		Floor+of+orbit
+		Lateral+wall+of+orbit
+		Orbital+compartment)
+	(part+of Skull)
+	(Preferred+name [KB_INSTANCE_67045])
+	(regional+part+of Skull)
+	(Synonym [KB_INSTANCE_67046])
+	(systemic+part
+		Wall+of+orbit
+		Roof+of+orbit
+		Floor+of+orbit
+		Lateral+wall+of+orbit
+		Orbital+compartment)
+	(systemic+part+of Skull))
+
+([Orbital+branch+of+infra-orbital+artery] of  Systemic+artery
+
+	(branch+of Infra-orbital+artery)
+	(FMAID "49788")
+	(Preferred+name [KB_INSTANCE_62852]))
+
+([Orbital+branch+of+left+infra-orbital+artery] of  Systemic+artery
+
+	(branch+of Left+infra-orbital+artery)
+	(FMAID "49790")
+	(Preferred+name [KB_INSTANCE_62854]))
+
+([Orbital+branch+of+left+maxillary+nerve+to+left+ethmoidal+sinus] of  Orbital+branch+of+maxillary+nerve+to+ethmoidal+sinus
+
+	(branch+of Left+maxillary+nerve)
+	(FMAID "52777")
+	(Preferred+name [KB_INSTANCE_66552]))
+
+([Orbital+branch+of+left+maxillary+nerve+to+left+orbitalis] of  Orbital+branch+of+maxillary+nerve+to+orbitalis
+
+	(branch+of Left+maxillary+nerve)
+	(FMAID "52774")
+	(Preferred+name [KB_INSTANCE_66548]))
+
+([Orbital+branch+of+left+maxillary+nerve+to+left+sphenoidal+sinus] of  Orbital+branch+of+maxillary+nerve+to+sphenoidal+sinus
+
+	(branch+of Left+maxillary+nerve)
+	(FMAID "52779")
+	(Preferred+name [KB_INSTANCE_66554]))
+
+([Orbital+branch+of+left+middle+meningeal+artery] of  Systemic+artery
+
+	(branch+of Left+middle+meningeal+artery)
+	(FMAID "49730")
+	(Preferred+name [KB_INSTANCE_62783]))
+
+([Orbital+branch+of+maxillary+nerve] of  Branch+of+maxillary+nerve
+
+	(branch+of Maxillary+nerve)
+	(FMAID "52754")
+	(Preferred+name [KB_INSTANCE_66512]))
+
+([Orbital+branch+of+maxillary+nerve+to+ethmoidal+sinus] of  Orbital+branch+of+maxillary+nerve
+
+	(FMAID "52772")
+	(Preferred+name [KB_INSTANCE_66546]))
+
+([Orbital+branch+of+maxillary+nerve+to+orbitalis] of  Orbital+branch+of+maxillary+nerve
+
+	(FMAID "52755")
+	(Preferred+name [KB_INSTANCE_66513])
+	(Synonym [KB_INSTANCE_66514]))
+
+([Orbital+branch+of+maxillary+nerve+to+sphenoidal+sinus] of  Orbital+branch+of+maxillary+nerve
+
+	(FMAID "52756")
+	(Preferred+name [KB_INSTANCE_66515]))
+
+([Orbital+branch+of+middle+meningeal+artery] of  Systemic+artery
+
+	(branch+of Middle+meningeal+artery)
+	(FMAID "49717")
+	(Non-English+equivalent [su_incus_36927])
+	(Preferred+name [KB_INSTANCE_62766]))
+
+([Orbital+branch+of+right+infra-orbital+artery] of  Systemic+artery
+
+	(branch+of Right+infra-orbital+artery)
+	(FMAID "49789")
+	(Preferred+name [KB_INSTANCE_62853]))
+
+([Orbital+branch+of+right+maxillary+nerve+to+right+ethmoidal+sinus] of  Orbital+branch+of+maxillary+nerve+to+ethmoidal+sinus
+
+	(branch+of Right+maxillary+nerve)
+	(FMAID "52776")
+	(Preferred+name [KB_INSTANCE_66551]))
+
+([Orbital+branch+of+right+maxillary+nerve+to+right+orbitalis] of  Orbital+branch+of+maxillary+nerve+to+orbitalis
+
+	(branch+of Right+maxillary+nerve)
+	(FMAID "52773")
+	(Preferred+name [KB_INSTANCE_66547]))
+
+([Orbital+branch+of+right+maxillary+nerve+to+right+sphenoidal+sinus] of  Orbital+branch+of+maxillary+nerve+to+sphenoidal+sinus
+
+	(branch+of Right+maxillary+nerve)
+	(FMAID "52778")
+	(Preferred+name [KB_INSTANCE_66553]))
+
+([Orbital+branch+of+right+middle+meningeal+artery] of  Systemic+artery
+
+	(branch+of Right+middle+meningeal+artery)
+	(FMAID "49729")
+	(Preferred+name [KB_INSTANCE_62782]))
+
+([Orbital+cavity] of  Space+of+compartment+of+head
+
+	(FMAID "84961")
+	(Non-English+equivalent [ONARD_Instance_580306])
+	(Preferred+name [fm_live_31903]))
+
+([Orbital+compartment] of  Compartment+of+head
+
+	(constitutional+part+of Orbit)
+	(FMAID "54379")
+	(Non-English+equivalent [KB_INSTANCE_69035])
+	(part+of Orbit)
+	(Preferred+name [KB_INSTANCE_69034])
+	(systemic+part+of Orbit))
+
+([Orbital+fat+body] of  Fat+body
+
+	(constitutional+part+of Eye)
+	(FMAID "59005")
+	(Non-English+equivalent
+		[su_incus_35570]
+		[KB_AUTO-INSERT%283%29_4311])
+	(part+of Eye)
+	(Preferred+name [KB_INSTANCE_77936])
+	(Synonym
+		[KB_INSTANCE_77938]
+		[KB_INSTANCE_77939]))
+
+([Orbital+margin] of  Anatomical+border+of+subdivision+of+skull
+
+	(FMAID "53176")
+	(Non-English+equivalent
+		[su_incus_40475]
+		[KB_AUTO-INSERT%283%29_297])
+	(Preferred+name [KB_INSTANCE_67237]))
+
+([Orbital+opening] of  Orifice+of+skull
+
+	(FMAID "53134")
+	(Non-English+equivalent [KB_INSTANCE_67164])
+	(Preferred+name [KB_INSTANCE_67163]))
+
+([Orbital+operculum] of  Surface+evagination+of+telencephalon
+
+	(dimension 3-dimension)
+	(FMAID "74887")
+	(Non-English+equivalent
+		[su_incus_22990]
+		[su_incus_22991])
+	(Preferred+name [live_incus_fm_12055]))
+
+([Orbital+part+of+eye] of  Heterogeneous+cluster
+
+	(dimension 3-dimension)
+	(FMAID "72951")
+	(Preferred+name [fm_live_13075]))
+
+([Orbital+part+of+frontal+bone] of  Zone+of+frontal+bone
+
+	(FMAID "52849")
+	(Non-English+equivalent [su_incus_37890])
+	(Preferred+name [KB_INSTANCE_66650])
+	(Synonym [KB_INSTANCE_66651]))
+
+([Orbital+part+of+greater+wing+of+sphenoid] of  Zone+of+sphenoid
+
+	(FMAID "54679")
+	(Preferred+name [KB_INSTANCE_69490]))
+
+([Orbital+part+of+inferior+frontal+gyrus] of  Subdivision+of+inferior+frontal+gyrus
+
+	(attributed+continuous+with
+		[live_incus_fm_13946]
+		[live_incus_fm_13948])
+	(bounded+by
+		Surface+of+brain
+		Semioval+center)
+	(FMAID "61982")
+	(location
+		[live_incus_fm_13947]
+		[live_incus_fm_14264]
+		[live_incus_fm_14265])
+	(Non-English+equivalent
+		[su_incus_19798]
+		[su_incus_19799]
+		[su_incus_36075])
+	(part+of Inferior+frontal+gyrus)
+	(Preferred+name [fm-live_14870])
+	(regional+part+of Inferior+frontal+gyrus)
+	(Synonym [su_incus_19800]))
+
+([Orbital+part+of+lacrimal+bone] of  Zone+of+lacrimal+bone
+
+	(FMAID "57616")
+	(Preferred+name [KB_INSTANCE_75906]))
+
+([Orbital+part+of+lacrimal+gland] of  Zone+of+lacrimal+gland
+
+	(FMAID "59383")
+	(Non-English+equivalent [su_incus_37431])
+	(part+of Lacrimal+gland)
+	(Preferred+name [KB_INSTANCE_78416])
+	(regional+part+of Lacrimal+gland)
+	(Synonym [KB_INSTANCE_78417]))
+
+([Orbital+part+of+left+eye] of  Orbital+part+of+eye
+
+	(constitutional+part+of Left+eye)
+	(dimension 3-dimension)
+	(FMAID "72953")
+	(Preferred+name [fm_live_13079]))
+
+([Orbital+part+of+left+greater+wing+of+sphenoid] of  Orbital+part+of+greater+wing+of+sphenoid
+
+	(FMAID "54681")
+	(part+of
+		Left+greater+wing+of+sphenoid
+		Left+orbit)
+	(Preferred+name [KB_INSTANCE_69492])
+	(regional+part+of
+		Left+greater+wing+of+sphenoid
+		Left+orbit))
+
+([Orbital+part+of+left+inferior+frontal+gyrus] of  Orbital+part+of+inferior+frontal+gyrus
+
+	(dimension 3-dimension)
+	(FMAID "72755")
+	(Preferred+name [live_incus_fm_09933]))
+
+([Orbital+part+of+left+lacrimal+bone] of  Orbital+part+of+lacrimal+bone
+
+	(FMAID "57618")
+	(part
+		Left+lacrimal+hamulus
+		Orbital+part+proper+of+left+lacrimal+bone)
+	(part+of Left+lacrimal+bone)
+	(Preferred+name [KB_INSTANCE_75908])
+	(regional+part
+		Left+lacrimal+hamulus
+		Orbital+part+proper+of+left+lacrimal+bone)
+	(regional+part+of Left+lacrimal+bone))
+
+([Orbital+part+of+left+lacrimal+gland] of  Zone+of+lacrimal+gland
+
+	(FMAID "59389")
+	(part+of Left+lacrimal+gland)
+	(Preferred+name [KB_INSTANCE_78423])
+	(regional+part+of Left+lacrimal+gland))
+
+([Orbital+part+of+left+maxilla] of  Orbital+part+of+maxilla
+
+	(FMAID "54673")
+	(part+of
+		Body+of+left+maxilla
+		Left+orbit)
+	(Preferred+name [KB_INSTANCE_69481])
+	(regional+part+of
+		Body+of+left+maxilla
+		Left+orbit))
+
+([Orbital+part+of+left+optic+nerve] of  Orbital+part+of+optic+nerve
+
+	(FMAID "58723")
+	(Preferred+name [KB_INSTANCE_77528]))
+
+([Orbital+part+of+left+orbicularis+oculi] of  Orbital+part+of+orbicularis+oculi
+
+	(FMAID "46783")
+	(part+of Left+orbicularis+oculi)
+	(Preferred+name [KB_INSTANCE_59539])
+	(regional+part+of Left+orbicularis+oculi))
+
+([Orbital+part+of+maxilla] of  Zone+of+maxilla
+
+	(FMAID "54671")
+	(Preferred+name [KB_INSTANCE_69479]))
+
+([Orbital+part+of+optic+nerve] of  Zone+of+optic+nerve
+
+	(FMAID "58710")
+	(Non-English+equivalent [su_incus_36690])
+	(Preferred+name [KB_INSTANCE_77496])
+	(Synonym [KB_INSTANCE_77497]))
+
+([Orbital+part+of+orbicularis+oculi] of  Zone+of+orbicularis+oculi
+
+	(FMAID "46781")
+	(Non-English+equivalent [su_incus_37528])
+	(part+of Orbicularis+oculi)
+	(Preferred+name [KB_INSTANCE_59535])
+	(regional+part+of Orbicularis+oculi)
+	(Synonym [KB_INSTANCE_59537]))
+
+([Orbital+part+of+right+eye] of  Orbital+part+of+eye
+
+	(constitutional+part+of Right+eye)
+	(dimension 3-dimension)
+	(FMAID "72952")
+	(Preferred+name [fm_live_13077]))
+
+([Orbital+part+of+right+greater+wing+of+sphenoid] of  Orbital+part+of+greater+wing+of+sphenoid
+
+	(FMAID "54680")
+	(part+of
+		Right+greater+wing+of+sphenoid
+		Right+orbit)
+	(Preferred+name [KB_INSTANCE_69491])
+	(regional+part+of
+		Right+greater+wing+of+sphenoid
+		Right+orbit))
+
+([Orbital+part+of+right+inferior+frontal+gyrus] of  Orbital+part+of+inferior+frontal+gyrus
+
+	(dimension 3-dimension)
+	(FMAID "72754")
+	(Preferred+name [live_incus_fm_09931]))
+
+([Orbital+part+of+right+lacrimal+bone] of  Orbital+part+of+lacrimal+bone
+
+	(FMAID "57617")
+	(part
+		Right+lacrimal+hamulus
+		Orbital+part+proper+of+right+lacrimal+bone)
+	(part+of Right+lacrimal+bone)
+	(Preferred+name [KB_INSTANCE_75907])
+	(regional+part
+		Right+lacrimal+hamulus
+		Orbital+part+proper+of+right+lacrimal+bone)
+	(regional+part+of Right+lacrimal+bone))
+
+([Orbital+part+of+right+lacrimal+gland] of  Zone+of+lacrimal+gland
+
+	(FMAID "59388")
+	(part+of Right+lacrimal+gland)
+	(Preferred+name [KB_INSTANCE_78422])
+	(regional+part+of Right+lacrimal+gland))
+
+([Orbital+part+of+right+maxilla] of  Orbital+part+of+maxilla
+
+	(FMAID "54672")
+	(part+of
+		Body+of+right+maxilla
+		Right+orbit)
+	(Preferred+name [KB_INSTANCE_69480])
+	(regional+part+of
+		Body+of+right+maxilla
+		Right+orbit))
+
+([Orbital+part+of+right+optic+nerve] of  Orbital+part+of+optic+nerve
+
+	(FMAID "58722")
+	(Preferred+name [KB_INSTANCE_77527]))
+
+([Orbital+part+of+right+orbicularis+oculi] of  Orbital+part+of+orbicularis+oculi
+
+	(FMAID "46782")
+	(part+of Right+orbicularis+oculi)
+	(Preferred+name [KB_INSTANCE_59538])
+	(regional+part+of Right+orbicularis+oculi))
+
+([Orbital+part+proper+of+lacrimal+bone] of  Zone+of+lacrimal+bone
+
+	(FMAID "57625")
+	(Preferred+name [KB_INSTANCE_75915]))
+
+([Orbital+part+proper+of+left+lacrimal+bone] of  Orbital+part+proper+of+lacrimal+bone
+
+	(FMAID "57627")
+	(part+of Orbital+part+of+left+lacrimal+bone)
+	(Preferred+name [KB_INSTANCE_75917])
+	(regional+part+of Orbital+part+of+left+lacrimal+bone))
+
+([Orbital+part+proper+of+right+lacrimal+bone] of  Orbital+part+proper+of+lacrimal+bone
+
+	(FMAID "57626")
+	(part+of Orbital+part+of+right+lacrimal+bone)
+	(Preferred+name [KB_INSTANCE_75916])
+	(regional+part+of Orbital+part+of+right+lacrimal+bone))
+
+([Orbital+plate+of+ethmoid] of  Zone+of+ethmoidal+labyrinth
+
+	(FMAID "57451")
+	(Non-English+equivalent [su_incus_37952])
+	(Preferred+name [KB_INSTANCE_75653])
+	(Synonym [KB_INSTANCE_75654]))
+
+([Orbital+plate+of+frontal+bone] of  Zone+of+frontal+bone
+
+	(FMAID "54674")
+	(Preferred+name [KB_INSTANCE_69482])
+	(Synonym [KB_INSTANCE_69483]))
+
+([Orbital+process+of+left+palatine+bone] of  Orbital+process+of+palatine+bone
+
+	(FMAID "59145")
+	(part+of Left+palatine+bone)
+	(Preferred+name [KB_INSTANCE_78098])
+	(regional+part+of Left+palatine+bone))
+
+([Orbital+process+of+palatine+bone] of  Process+of+organ
+
+	(FMAID "59143")
+	(Non-English+equivalent [su_incus_37973])
+	(Preferred+name [KB_INSTANCE_78095])
+	(Synonym [KB_INSTANCE_78096]))
+
+([Orbital+process+of+right+palatine+bone] of  Orbital+process+of+palatine+bone
+
+	(FMAID "59144")
+	(part+of Right+palatine+bone)
+	(Preferred+name [KB_INSTANCE_78097])
+	(regional+part+of Right+palatine+bone))
+
+([Orbital+septum] of  Membrane+organ
+
+	(FMAID "59328")
+	(Non-English+equivalent
+		[KB_INSTANCE_78350]
+		[KB_AUTO-INSERT%283%29_4308]
+		[ONARD_Instance_580055])
+	(Preferred+name [KB_INSTANCE_78349]))
+
+([Orbital+sulcus] of  Subarachnoid+sulcus
+
+	(FMAID "83770")
+	(Non-English+equivalent
+		[su_incus_19801]
+		[KB_AUTO-INSERT%283%29_3796])
+	(Preferred+name [live_incus_fm_08535])
+	(Synonym [su_incus_19802]))
+
+([Orbital+surface+of+frontal+bone] of  Subdivision+of+surface+of+frontal+bone
+
+	(FMAID "57131")
+	(Non-English+equivalent [su_incus_40256])
+	(part Fossa+for+lacrimal+gland)
+	(Preferred+name [KB_INSTANCE_74953])
+	(Synonym [KB_INSTANCE_74954]))
+
+([Orbital+surface+of+greater+wing+of+sphenoid] of  Surface+of+zone+of+sphenoid+bone
+
+	(FMAID "53153")
+	(Preferred+name [KB_INSTANCE_67199])
+	(Synonym [KB_INSTANCE_67200]))
+
+([Orbital+surface+of+left+greater+wing+of+sphenoid] of  Orbital+surface+of+greater+wing+of+sphenoid
+
+	(FMAID "54859")
+	(Preferred+name [KB_INSTANCE_69720]))
+
+([Orbital+surface+of+left+maxilla] of  Orbital+surface+of+maxilla
+
+	(FMAID "57696")
+	(Preferred+name [KB_INSTANCE_76024]))
+
+([Orbital+surface+of+left+zygomatic+bone] of  Orbital+surface+of+zygomatic+bone
+
+	(FMAID "59228")
+	(Preferred+name [KB_INSTANCE_78199]))
+
+([Orbital+surface+of+maxilla] of  Subdivision+of+surface+of+maxilla
+
+	(FMAID "57694")
+	(Non-English+equivalent [su_incus_40261])
+	(Preferred+name [KB_INSTANCE_76021])
+	(Synonym [KB_INSTANCE_76022]))
+
+([Orbital+surface+of+right+greater+wing+of+sphenoid] of  Orbital+surface+of+greater+wing+of+sphenoid
+
+	(FMAID "54858")
+	(Preferred+name [KB_INSTANCE_69719]))
+
+([Orbital+surface+of+right+maxilla] of  Orbital+surface+of+maxilla
+
+	(FMAID "57695")
+	(Preferred+name [KB_INSTANCE_76023]))
+
+([Orbital+surface+of+right+zygomatic+bone] of  Orbital+surface+of+zygomatic+bone
+
+	(FMAID "59227")
+	(Preferred+name [KB_INSTANCE_78198]))
+
+([Orbital+surface+of+sphenoid] of  Subdivision+of+surface+of+sphenoid
+
+	(FMAID "75322")
+	(Non-English+equivalent [su_incus_40395])
+	(Preferred+name [su_incus_26945]))
+
+([Orbital+surface+of+zygomatic+bone] of  Subdivision+of+surface+of+zygomatic+bone
+
+	(FMAID "59226")
+	(Non-English+equivalent [su_incus_40267])
+	(Preferred+name [KB_INSTANCE_78196])
+	(Synonym [KB_INSTANCE_78197]))
+
+([Orbital+surface+proper+of+frontal+bone] of  Subdivision+of+orbital+surface+of+frontal+bone
+
+	(FMAID "57403")
+	(Preferred+name [KB_INSTANCE_75589]))
+
+([Orbital+tubercle+of+left+zygomatic+bone] of  Orbital+tubercle+of+zygomatic+bone
+
+	(FMAID "52912")
+	(part+of Left+zygomatic+bone)
+	(Preferred+name [KB_INSTANCE_66774])
+	(regional+part+of Left+zygomatic+bone))
+
+([Orbital+tubercle+of+right+zygomatic+bone] of  Orbital+tubercle+of+zygomatic+bone
+
+	(FMAID "52911")
+	(part+of Right+zygomatic+bone)
+	(Preferred+name [KB_INSTANCE_66773])
+	(regional+part+of Right+zygomatic+bone))
+
+([Orbital+tubercle+of+zygomatic+bone] of  Tubercle
+
+	(FMAID "52910")
+	(Non-English+equivalent [su_incus_37960])
+	(Preferred+name [KB_INSTANCE_66771])
+	(Synonym [KB_INSTANCE_66772]))
+
+([Orbitalis] of  Muscle+layer
+
+	(constitutional+part+of Eye)
+	(FMAID "49034")
+	(member+of Set+of+extra-ocular+muscles)
+	(Non-English+equivalent
+		[KB_INSTANCE_61843]
+		[KB_AUTO-INSERT%283%29_4313])
+	(part+of Eye)
+	(Preferred+name [KB_INSTANCE_61842])
+	(Synonym
+		[KB_INSTANCE_61844]
+		[FM_live_06130]))
+
+([Organ] of  Anatomical+structure
+
+	(definition "Anatomical structure, which consists of the maximal set of organ parts so connected to one another that together they constitute a unit of macroscopic anatomy, structurally distinct from other such units.  Examples: femur, biceps, liver, heart, skin, tracheobronchial tree, ovary.")
+	(FMAID "67498")
+	(Non-English+equivalent
+		[KB_AUTO-INSERT%283%29_4632]
+		[ONARD_Instance_580701]
+		[ONARD_Instance_580742])
+	(part Organ+component)
+	(part+of Organ+system)
+	(Preferred+name [fm-live_13404])
+	(regional+part Organ+component)
+	(regional+part+of Organ+system))
+
+([Organ+anatomical+coordinate+adjacency] of  Spatial+association+relationship+template
+
+	(FMAID "68080")
+	(Preferred+name [fm_live_03644]))
+
+([Organ+cavity] of  Organ+cavity
+
+	(definition "Anatomical cavity, which is surrounded by all morphological parts of an organ; is continuous within the organ; contains one or more body substances. Examples: pericardial cavity, cavity of stomach, uterine cavity.")
+	(FMAID "12237")
+	(Non-English+equivalent
+		[ONARD_Instance_580293]
+		[ONARD_Instance_580673])
+	(Preferred+name [KB_INSTANCE_12334])
+	(Synonym [KB_INSTANCE_12335]))
+
+([Organ+cavity+subdivision] of  Anatomical+cavity
+
+	(definition "Anatomical cavity, which is surrounded by a morphological subdivision of an organ; is continuous with other organ cavity subdivisions of the same organ; together with other organ cavity subdivisions, it constitutes the organ cavity. Examples: oblique sinus of pericardial cavity, pyloric antrum, costodiaphragmatic recess, cervical canal of uterus, cavity of body of gall bladder.")
+	(FMAID "9337")
+	(Preferred+name [KB_INSTANCE_07772]))
+
+([Organ+chamber] of  Organ+component
+
+	(FMAID "82481")
+	(Non-English+equivalent [ONARD_Instance_580560])
+	(Preferred+name [fm_live_26941]))
+
+([Organ+cluster] of  Anatomical+cluster
+
+	(definition "Anatomical cluster which consists of all or some members of one or more organ subclasses which are grouped together according to some shared attributes. Examples: abdominal viscera, pelvic viscera.")
+	(FMAID "32406")
+	(Preferred+name [KB_INSTANCE_39967]))
+
+([Organ+component] of  Organ+part
+
+	(definition "Organ part which is bounded predominantly by bonafide boundaries.  Examples: lobe of lung, osteon, acinus, submucosa, anterior leaflet of mitral valve, capsule of kidney, cortical bone, muscle fasciculus.")
+	(FMAID "14065")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_4646])
+	(part Epithelium)
+	(part+of Organ)
+	(Preferred+name [KB_INSTANCE_15377])
+	(regional+part
+		Unilaminar+epithelium
+		Epithelium)
+	(regional+part+of Organ))
+
+([Organ+component+cluster] of  Organ+part+cluster
+
+	(FMAID "42603")
+	(Preferred+name [KB_INSTANCE_54181]))
+
+([Organ+component+gland] of  Organ+component
+
+	(FMAID "7146")
+	(Preferred+name [KB_INSTANCE_03906])
+	(Synonym [KB_INSTANCE_03907]))
+
+([Organ+component+layer] of  Organ+component
+
+	(FMAID "82485")
+	(Non-English+equivalent
+		[fm_live_26971]
+		[KB_AUTO-INSERT%283%29_499]
+		[KB_AUTO-INSERT%283%29_1733]
+		[ONARD_Instance_580543])
+	(Preferred+name [fm_live_26949]))
+
+([Organ+component+layer+of+skin] of  Organ+component+layer
+
+	(FMAID "53666")
+	(Preferred+name [KB_INSTANCE_67926]))
+
+([Organ+component+of+calcaneus] of  Organ+part
+
+	(FMAID "51395")
+	(Preferred+name [KB_INSTANCE_64868]))
+
+([Organ+component+of+large+intestine] of  Muscle+layer+of+organ
+
+	(FMAID "14968")
+	(Preferred+name [KB_INSTANCE_16896]))
+
+([Organ+component+of+neuraxis] of  Organ+part
+
+	(definition "Organ component which is part of the brain or spinal cord.")
+	(FMAID "83153")
+	(Non-English+equivalent [ONARD_Instance_580570])
+	(Preferred+name [live_incus_fm_13520]))
+
+([Organ+component+of+pararenal+fat] of  Zone+of+loose+endominal+fascia
+
+	(FMAID "20522")
+	(Preferred+name [KB_INSTANCE_25893]))
+
+([Organ+component+of+perirenal+fat] of  Zone+of+loose+endominal+fascia
+
+	(FMAID "20521")
+	(Preferred+name [KB_INSTANCE_25892]))
+
+([Organ+component+of+renal+fascia] of  Zone+of+dense+endominal+fascia
+
+	(FMAID "20534")
+	(Preferred+name [KB_INSTANCE_25905]))
+
+([Organ+component+part_of+relationship+value] of  Non-physical+anatomical+entity+template
+
+	(FMAID "67582")
+	(Preferred+name [fm_live_05401]))
+
+([Organ+crest] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "82507")
+	(Preferred+name [fm_live_26995]))
+
+([Organ+hemivolume] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "82488")
+	(Preferred+name [fm_live_26955]))
+
+([Organ+part] of  Anatomical+structure
+
+	(definition "Anatomical structure, which consists of two or more types of tissues that form a defined structural aggregate in an organ. Examples: osteon, cortical bone, neck of femur, bronchopulmonary segment, left lobe of liver, anterior right side of heart, interventricular branch of left coronary artery, right atrium, mitral valve, head of pancreas.")
+	(FMAID "82472")
+	(Non-English+equivalent
+		[KB_AUTO-INSERT%283%29_4643]
+		[ONARD_Instance_580702]
+		[ONARD_Instance_580723]
+		[ONARD_Instance_580743])
+	(Preferred+name [fm_live_26923]))
+
+([Organ+part+anatomical+coordinate+adjacency] of  Spatial+association+relationship+template
+
+	(FMAID "68037")
+	(Preferred+name [fm_live_03509]))
+
+([Organ+part+cluster] of  Anatomical+cluster
+
+	(definition "Anatomical cluster which consists of all or some members of one or more organ part subclasses which are grouped together according to some shared attributes. Examples: root of lung, internal nose, soft palate, wall of gut, periorbita.")
+	(FMAID "64990")
+	(Preferred+name [fm-live_03087]))
+
+([Organ+part+of+fetal+heart] of  Fetal+organ+part
+
+	(FMAID "63932")
+	(Preferred+name [fm-live_01426]))
+
+([Organ+part+of+fetal+uterus] of  Fetal+organ+part
+
+	(dimension 3-dimension)
+	(FMAID "72169")
+	(Preferred+name [FM_live_05034]))
+
+([Organ+part+phenotype] of  Non-physical+anatomical+entity+template
+
+	(FMAID "74181")
+	(Preferred+name [fm_live_13848]))
+
+([Organ+part_of+relationship+value] of  Non-physical+anatomical+entity+template
+
+	(FMAID "67550")
+	(Preferred+name [fm-live_11190]))
+
+([Organ+portion] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "82489")
+	(Preferred+name [fm_live_26957])
+	(Synonym [fm_live_26958]))
+
+([Organ+region] of  Organ+part
+
+	(definition "Organ part which is a fiat subdivision of an organ. Examples: lingula of left lung, tail of pancreas, artery, trochanter, nodulus of semilunar valve, right side of heart, duodenum, fundus of stomach.")
+	(FMAID "67619")
+	(Preferred+name [fm-live_09041]))
+
+([Organ+region+with+fixed+fiat+boundary] of  Organ+region
+
+	(definition "Organ region with one or more fixed or anchored fiat boundaries. Examples: artery, trunk of nerve, cervical part of esophagus, pelvic part of vagina, horn of thyroid cartilage, anterior segment of eyeball.")
+	(FMAID "86140")
+	(Non-English+equivalent [ONARD_Instance_580779])
+	(Preferred+name [ONARD_Instance_50000])
+	(Synonym [ONARD_Instance_10001]))
+
+([Organ+region+with+floating+fiat+boundary] of  Organ+region
+
+	(definition "Organ region with one or more floating fiat boundaries. Examples: apical zone of lung, superior pole of kidney, gingiva, apex of prostate, ascending colon proper.")
+	(FMAID "55268")
+	(Preferred+name [ONARD_Instance_110001])
+	(Synonym
+		[fm-live_10955]
+		[KB_INSTANCE_70389]))
+
+([Organ+subdivision+cluster] of  Organ+part+cluster
+
+	(definition "Organ part cluster, which consists of some members of two or more organ subdivision subclasses which are grouped together according to some shared attributes. Examples: root of lung, neurovascular bundle, renal pedicle, fascia of back.")
+	(FMAID "14462")
+	(Preferred+name [KB_INSTANCE_15904]))
+
+([Organ+subdivision+part_of+relationship+value] of  Non-physical+anatomical+entity+template
+
+	(FMAID "50636")
+	(Preferred+name [KB_INSTANCE_63919]))
+
+([Organ+system] of  Anatomical+structure
+
+	(definition "Anatomical structure, which consists of members of predominantly one organ subclass; these members are interconnected by zones of continuity. Examples: skeletal system, cardiovascular system, alimentary system.")
+	(FMAID "7149")
+	(Non-English+equivalent
+		[ONARD_Instance_580699]
+		[ONARD_Instance_580721]
+		[ONARD_Instance_580740])
+	(part Organ)
+	(Preferred+name [KB_INSTANCE_03912])
+	(regional+part Organ))
+
+([Organ+system+cavity] of  Anatomical+cavity
+
+	(FMAID "17445")
+	(Preferred+name [KB_INSTANCE_21058]))
+
+([Organ+system+part_of+relationship+value] of  Non-physical+anatomical+entity+template
+
+	(FMAID "67516")
+	(Preferred+name [fm_live_01327]))
+
+([Organ+system+subdivision] of  Anatomical+structure
+
+	(definition "Anatomical structure, which consists of a specific set of the members of (predominantly) one organ or organ part subclass interconnected by zones of continuity or body substances; is demarcated from other subdivisions of the same organ system by one or more zones of continuity or anatomical lines; together with other subdivisions of the same organ system, it constitutes an organ system. Examples: rib cage, facial skeleton, portal system, central nervous system, upper respiratory tract, muscle group of back.")
+	(FMAID "67509")
+	(Non-English+equivalent
+		[ONARD_Instance_580700]
+		[ONARD_Instance_580722]
+		[ONARD_Instance_580741])
+	(Preferred+name [fm-live_13405]))
+
+([Organ+system+subdivision+part_of+relationship+value] of  Non-physical+anatomical+entity+template
+
+	(FMAID "67520")
+	(Preferred+name [fm-live_11166]))
+
+([Organ+with+cavitated+organ+parts] of  Cavitated+organ
+
+	(definition "Cavitated organ in which its unshared parts surround two or more macroscopic anatomical spaces. Examples: heart, long bone, corpus spongiosum of penis, bulb of vestibule.")
+	(FMAID "55673")
+	(Non-English+equivalent
+		[KB_AUTO-INSERT%283%29_4636]
+		[ONARD_Instance_620002])
+	(Preferred+name [KB_INSTANCE_70955]))
+
+([Organ+with+organ+cavity] of  Cavitated+organ
+
+	(definition "Cavitated organ in which its unshared parts surround one continuous anatomical space. Examples: stomach, urinary bladder, esophagus, uterine tube.")
+	(FMAID "55672")
+	(Non-English+equivalent
+		[KB_AUTO-INSERT%283%29_4635]
+		[ONARD_Instance_620001])
+	(Preferred+name [KB_INSTANCE_70954]))
+
+([Organelle] of  Cell+component
+
+	(definition "Cell component which consists of macromolecules aggregated into discrete structures in the protoplasm. Examples: endoplasmic reticulum, ribosome, cytoskeleton, nuclear envelope, nucleus, mitochondrion.")
+	(FMAID "63832")
+	(Non-English+equivalent [ONARD_Instance_580216])
+	(Preferred+name [fm-live_00525]))
+
+([Organelle+substance] of  Cell+substance
+
+	(dimension 3-dimension)
+	(FMAID "72441")
+	(Preferred+name [fm_live_12727]))
+
+([Organelle+tubule] of  Cell+component
+
+	(FMAID "85556")
+	(Preferred+name [fma_p2_Instance_320025]))
+
+([Organismal+continuant] of  Anatomical+entity+template
+
+	(FMAID "227629")
+	(Preferred+name [ONARD_Instance_470011]))
+
+([Organismal+occurrent] of  Anatomical+entity+template
+
+	(FMAID "227619")
+	(Preferred+name [ONARD_Instance_470007]))
+
+([Organismal+process] of  Anatomical+entity+template
+
+	(FMAID "224728")
+	(Preferred+name [ONARD_Instance_470081]))
+
+([Organismal+spatio-temporal+region] of  Anatomical+entity+template
+
+	(FMAID "224731")
+	(Preferred+name [ONARD_Instance_480015]))
+
+([Organizational+pattern] of  Non-physical+anatomical+entity+template
+
+	(FMAID "9730")
+	(Preferred+name [KB_INSTANCE_08474]))
+
+([Organized+mucosa-associated+lymphoid+tissue] of  Mucosa-associated+lymphoid+tissue
+
+	(constitutional+part+of Lamina+propria+of+esophagus)
+	(FMAID "62836")
+	(part+of
+		Lamina+propria
+		Lamina+propria+of+stomach
+		Lamina+propria+of+duodenum
+		Lamina+propria+of+esophagus
+		Lamina+propria+of+small+intestine
+		Non-lymphatic+lymphoid+system)
+	(Preferred+name [FM_live_00620])
+	(regional+part+of
+		Lamina+propria+of+esophagus
+		Lamina+propria+of+stomach
+		Lamina+propria+of+small+intestine
+		Lamina+propria+of+duodenum
+		Non-lymphatic+lymphoid+system))
+
+([Oriens+layer+of+hippocampus] of  Layer+of+hippocampus
+
+	(dimension 3-dimension)
+	(FMAID "83893")
+	(Non-English+equivalent [su_incus_35997])
+	(Preferred+name [live_incus_fm_12712]))
+
+([orientation] of  Standard+FMA+slot
+
+	(FMAID "85836"))
+
+([Orifice] of  Anatomical+conduit
+
+	(definition "Anatomical conduit that connects two adjacent body spaces, surrounded by two or more subdivisions of two or more organs. Examples: right atrioventricular orifice, orifice of artery, hilum of kidney, porta hepatis.")
+	(FMAID "3724")
+	(Preferred+name [KB_INSTANCE_00018])
+	(Synonym [KB_INSTANCE_00019]))
+
+([Orifice+for+atrioventricular+bundle] of  Orifice
+
+	(FMAID "9507")
+	(part+of Right+fibrous+trigone+of+heart)
+	(Preferred+name [KB_INSTANCE_08122])
+	(regional+part+of Right+fibrous+trigone+of+heart)
+	(Synonym [KB_INSTANCE_08123]))
+
+([Orifice+of+anatomical+junction] of  Orifice
+
+	(FMAID "9474")
+	(Preferred+name [KB_INSTANCE_08042])
+	(Synonym
+		[KB_INSTANCE_08043]
+		[KB_AUTO-INSERT2_10284]))
+
+([Orifice+of+aorto-ventricular+junction] of  Orifice+of+anatomical+junction
+
+	(FMAID "13882")
+	(part+of
+		Lumen+of+aorta
+		Cavity+of+outflow+part+of+left+ventricle)
+	(Preferred+name [KB_INSTANCE_15048])
+	(regional+part+of Cavity+of+outflow+part+of+left+ventricle)
+	(Synonym [KB_AUTO-INSERT2_10333]))
+
+([Orifice+of+appendix] of  Orifice+of+large+intestine
+
+	(FMAID "14557")
+	(Non-English+equivalent
+		[KB_INSTANCE_16112]
+		[KB_AUTO-INSERT%283%29_1693])
+	(part+of
+		Lumen+of+cecum
+		Lumen+of+appendix)
+	(Preferred+name [KB_INSTANCE_16110])
+	(Synonym
+		[KB_INSTANCE_16111]
+		[KB_INSTANCE_16113]
+		[KB_AUTO-INSERT2_10370]))
+
+([Orifice+of+artery] of  Orifice
+
+	(FMAID "13438")
+	(Preferred+name [KB_INSTANCE_14389])
+	(Synonym
+		[KB_INSTANCE_14390]
+		[KB_AUTO-INSERT2_10287]))
+
+([Orifice+of+atrioventricular+junction] of  Orifice+of+anatomical+junction
+
+	(FMAID "13881")
+	(Preferred+name [KB_INSTANCE_15047])
+	(Synonym [KB_AUTO-INSERT2_10332]))
+
+([Orifice+of+auditory+tube] of  Orifice
+
+	(FMAID "54978")
+	(Preferred+name [KB_INSTANCE_69875])
+	(Synonym
+		[KB_INSTANCE_69876]
+		[KB_INSTANCE_69877]
+		[KB_INSTANCE_69878]
+		[KB_INSTANCE_69879]
+		[KB_INSTANCE_69880]
+		[KB_INSTANCE_69881]
+		[KB_INSTANCE_69882]
+		[KB_INSTANCE_69883]
+		[KB_AUTO-INSERT2_10282]))
+
+([Orifice+of+bile+duct] of  Orifice
+
+	(FMAID "15994")
+	(Preferred+name [KB_INSTANCE_18591])
+	(Synonym
+		[KB_INSTANCE_18592]
+		[KB_AUTO-INSERT2_10293]))
+
+([Orifice+of+bulbo-urethral+gland] of  Orifice
+
+	(FMAID "20079")
+	(Preferred+name [KB_INSTANCE_25328])
+	(Synonym
+		[KB_INSTANCE_25327]
+		[KB_AUTO-INSERT2_10299]
+		[KB_INSTANCE_25326]))
+
+([Orifice+of+duct+of+accessory+parotid+gland] of  Orifice+of+duct+of+salivary+gland
+
+	(FMAID "59917")
+	(Preferred+name [KB_INSTANCE_79075]))
+
+([Orifice+of+duct+of+left+accessory+parotid+gland] of  Orifice+of+duct+of+accessory+parotid+gland
+
+	(FMAID "59921")
+	(part+of Duct+of+left+accessory+parotid+gland)
+	(Preferred+name [KB_INSTANCE_79079])
+	(regional+part+of Duct+of+left+accessory+parotid+gland))
+
+([Orifice+of+duct+of+right+accessory+parotid+gland] of  Orifice+of+duct+of+accessory+parotid+gland
+
+	(FMAID "59920")
+	(part+of Duct+of+right+accessory+parotid+gland)
+	(Preferred+name [KB_INSTANCE_79078])
+	(regional+part+of Duct+of+right+accessory+parotid+gland))
+
+([Orifice+of+duct+of+salivary+gland] of  Orifice
+
+	(FMAID "59915")
+	(Preferred+name [KB_INSTANCE_79073]))
+
+([Orifice+of+duodenum] of  Orifice+of+small+intestine
+
+	(FMAID "15991")
+	(Preferred+name [KB_INSTANCE_18580])
+	(Synonym
+		[KB_INSTANCE_18581]
+		[KB_AUTO-INSERT2_10367]))
+
+([Orifice+of+ejaculatory+duct] of  Orifice
+
+	(FMAID "19383")
+	(part+of Lumen+of+ejaculatory+duct)
+	(Preferred+name [KB_INSTANCE_24426])
+	(Synonym [KB_AUTO-INSERT2_10301]))
+
+([Orifice+of+greater+vestibular+gland] of  Orifice+of+vestibular+gland
+
+	(FMAID "20013")
+	(part+of Greater+vestibular+gland)
+	(Preferred+name [KB_INSTANCE_25252])
+	(regional+part+of Greater+vestibular+gland)
+	(Synonym
+		[KB_INSTANCE_25253]
+		[KB_INSTANCE_25254]
+		[KB_AUTO-INSERT2_10381]))
+
+([Orifice+of+ileal+papilla] of  Orifice+of+large+intestine
+
+	(FMAID "15989")
+	(Non-English+equivalent
+		[su_incus_40197]
+		[KB_AUTO-INSERT%283%29_1689])
+	(part+of Lumen+of+distal+part+of+ileum)
+	(Preferred+name [KB_INSTANCE_18575])
+	(Synonym
+		[KB_INSTANCE_18576]
+		[KB_INSTANCE_18577]
+		[su_incus_16568]
+		[FM_live_07850]
+		[KB_AUTO-INSERT2_10371]))
+
+([Orifice+of+large+intestine] of  Orifice
+
+	(FMAID "14556")
+	(Preferred+name [KB_INSTANCE_16108])
+	(Synonym
+		[KB_INSTANCE_16109]
+		[KB_AUTO-INSERT2_10292]))
+
+([Orifice+of+left+atrioventricular+junction] of  Orifice+of+atrioventricular+junction
+
+	(FMAID "9335")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_2424])
+	(part+of
+		Cavity+of+outflow+part+of+left+atrium
+		Cavity+of+inflow+part+of+left+ventricle)
+	(Preferred+name [KB_INSTANCE_07770])
+	(regional+part+of
+		Cavity+of+outflow+part+of+left+atrium
+		Cavity+of+inflow+part+of+left+ventricle)
+	(Synonym
+		[fma_p2_Instance_440008]
+		[KB_AUTO-INSERT2_10336]))
+
+([Orifice+of+left+bulbo-urethral+gland] of  Orifice+of+bulbo-urethral+gland
+
+	(FMAID "20081")
+	(Preferred+name [August_Instance_200001])
+	(Synonym
+		[KB_AUTO-INSERT2_10386]
+		[KB_INSTANCE_25330]))
+
+([Orifice+of+left+ejaculatory+duct] of  Orifice+of+ejaculatory+duct
+
+	(FMAID "19385")
+	(part+of Lumen+of+left+ejaculatory+duct)
+	(Preferred+name [KB_INSTANCE_24428])
+	(Synonym [KB_AUTO-INSERT2_10390]))
+
+([Orifice+of+left+greater+vestibular+gland] of  Orifice+of+greater+vestibular+gland
+
+	(FMAID "20016")
+	(part+of
+		Left+greater+vestibular+gland
+		Vestibule+of+vagina)
+	(Preferred+name [KB_INSTANCE_25257])
+	(regional+part+of Left+greater+vestibular+gland)
+	(Synonym
+		[KB_INSTANCE_25258]
+		[KB_AUTO-INSERT2_10384]))
+
+([Orifice+of+left+major+sublingual+duct] of  Orifice+of+major+sublingual+duct
+
+	(FMAID "60014")
+	(part+of Left+major+sublingual+duct)
+	(Preferred+name [KB_INSTANCE_79176])
+	(regional+part+of Left+major+sublingual+duct)
+	(Synonym [KB_AUTO-INSERT2_10329]))
+
+([Orifice+of+left+minor+sublingual+duct] of  Orifice+of+minor+sublingual+duct
+
+	(FMAID "60012")
+	(part+of Left+minor+sublingual+duct)
+	(Preferred+name [KB_INSTANCE_79174])
+	(regional+part+of Left+minor+sublingual+duct)
+	(Synonym [KB_AUTO-INSERT2_10331]))
+
+([Orifice+of+left+paraurethral+gland] of  Orifice+of+paraurethral+gland
+
+	(FMAID "20134")
+	(part+of Vestibule+of+vagina)
+	(Preferred+name [KB_INSTANCE_25397])
+	(Synonym [KB_AUTO-INSERT2_10388]))
+
+([Orifice+of+left+parotid+duct] of  Orifice+of+parotid+duct
+
+	(FMAID "59919")
+	(Preferred+name [KB_INSTANCE_79077])
+	(Synonym [KB_AUTO-INSERT2_10321]))
+
+([Orifice+of+left+principal+bronchus] of  Orifice
+
+	(FMAID "13100")
+	(Preferred+name [KB_INSTANCE_13737])
+	(Synonym
+		[KB_INSTANCE_13738]
+		[KB_AUTO-INSERT2_10285]))
+
+([Orifice+of+left+sublingual+duct] of  Orifice+of+sublingual+duct
+
+	(FMAID "59979")
+	(Preferred+name [KB_INSTANCE_79140])
+	(Synonym [KB_AUTO-INSERT2_10325]))
+
+([Orifice+of+left+submandibular+duct] of  Orifice+of+submandibular+duct
+
+	(FMAID "59981")
+	(part+of Left+main+submandibular+duct)
+	(Preferred+name [KB_INSTANCE_79142])
+	(regional+part+of Left+main+submandibular+duct)
+	(Synonym [KB_AUTO-INSERT2_10323]))
+
+([Orifice+of+left+uterine+tube] of  Orifice+of+uterine+tube
+
+	(FMAID "17751")
+	(Preferred+name [KB_INSTANCE_21636])
+	(Synonym
+		[KB_INSTANCE_21637]
+		[KB_INSTANCE_21638]
+		[KB_INSTANCE_21639]
+		[KB_AUTO-INSERT2_10380]))
+
+([Orifice+of+lesser+vestibular+gland] of  Orifice+of+vestibular+gland
+
+	(FMAID "20078")
+	(part+of Lesser+vestibular+gland)
+	(Preferred+name [KB_INSTANCE_25325])
+	(regional+part+of Lesser+vestibular+gland)
+	(Synonym [KB_AUTO-INSERT2_10382]))
+
+([Orifice+of+major+duodenal+papilla] of  Orifice+of+duodenum
+
+	(FMAID "15992")
+	(part+of Lumen+of+descending+part+of+duodenum)
+	(Preferred+name [KB_INSTANCE_18582])
+	(Synonym
+		[KB_INSTANCE_18583]
+		[KB_INSTANCE_18584]
+		[KB_INSTANCE_18585]
+		[KB_INSTANCE_18586]
+		[KB_AUTO-INSERT2_10368]))
+
+([Orifice+of+major+sublingual+duct] of  Orifice+of+sublingual+duct
+
+	(FMAID "60009")
+	(Preferred+name [KB_INSTANCE_79171])
+	(Synonym [KB_AUTO-INSERT2_10326]))
+
+([Orifice+of+minor+duodenal+papilla] of  Orifice+of+duodenum
+
+	(FMAID "15993")
+	(part+of Lumen+of+descending+part+of+duodenum)
+	(Preferred+name [KB_INSTANCE_18587])
+	(Synonym
+		[KB_INSTANCE_18588]
+		[KB_INSTANCE_18589]
+		[KB_INSTANCE_18590]
+		[KB_AUTO-INSERT2_10369]))
+
+([Orifice+of+minor+sublingual+duct] of  Orifice+of+sublingual+duct
+
+	(FMAID "60010")
+	(Preferred+name [KB_INSTANCE_79172])
+	(Synonym [KB_AUTO-INSERT2_10327]))
+
+([Orifice+of+pancreatic+duct] of  Orifice
+
+	(FMAID "15997")
+	(Preferred+name [KB_INSTANCE_18597])
+	(Synonym
+		[KB_INSTANCE_18598]
+		[KB_AUTO-INSERT2_10294]))
+
+([Orifice+of+paraurethral+gland] of  Orifice
+
+	(FMAID "20119")
+	(part+of Paraurethral+gland)
+	(Preferred+name [KB_INSTANCE_25381])
+	(regional+part+of Paraurethral+gland)
+	(Synonym
+		[KB_INSTANCE_25382]
+		[KB_AUTO-INSERT2_10300]))
+
+([Orifice+of+parotid+duct] of  Orifice+of+duct+of+salivary+gland
+
+	(FMAID "59916")
+	(Preferred+name [KB_INSTANCE_79074])
+	(Synonym [KB_AUTO-INSERT2_10317]))
+
+([Orifice+of+prostatic+duct] of  Orifice
+
+	(FMAID "19703")
+	(part+of Prostatic+sinus)
+	(Preferred+name [KB_INSTANCE_24848])
+	(regional+part+of
+		Prostatic+duct
+		Prostatic+sinus)
+	(Synonym
+		[KB_INSTANCE_24849]
+		[KB_INSTANCE_24850]
+		[KB_AUTO-INSERT2_10302]))
+
+([Orifice+of+prostatic+utricle] of  Orifice
+
+	(FMAID "19603")
+	(Preferred+name [KB_INSTANCE_24685])
+	(Synonym [KB_AUTO-INSERT2_10303]))
+
+([Orifice+of+pulmono-ventricular+junction] of  Orifice+of+anatomical+junction
+
+	(FMAID "85135")
+	(part+of
+		Lumen+of+pulmonary+trunk
+		Cavity+of+outflow+part+of+right+ventricle)
+	(Preferred+name [fm_live_33645])
+	(regional+part+of Cavity+of+outflow+part+of+right+ventricle)
+	(Synonym [KB_AUTO-INSERT2_10334]))
+
+([Orifice+of+right+atrioventricular+junction] of  Orifice+of+atrioventricular+junction
+
+	(FMAID "9274")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_2412])
+	(part+of
+		Cavity+of+outflow+part+of+right+atrium
+		Cavity+of+inflow+part+of+right+ventricle)
+	(Preferred+name [KB_INSTANCE_07686])
+	(regional+part+of
+		Cavity+of+outflow+part+of+right+atrium
+		Cavity+of+inflow+part+of+right+ventricle)
+	(Synonym
+		[fma_p2_Instance_440007]
+		[KB_AUTO-INSERT2_10335]))
+
+([Orifice+of+right+bulbo-urethral+gland] of  Orifice+of+bulbo-urethral+gland
+
+	(FMAID "20080")
+	(Preferred+name [August_Instance_200000])
+	(Synonym
+		[KB_AUTO-INSERT2_10385]
+		[KB_INSTANCE_25329]))
+
+([Orifice+of+right+ejaculatory+duct] of  Orifice+of+ejaculatory+duct
+
+	(FMAID "19384")
+	(part+of Lumen+of+right+ejaculatory+duct)
+	(Preferred+name [KB_INSTANCE_24427])
+	(Synonym [KB_AUTO-INSERT2_10389]))
+
+([Orifice+of+right+greater+vestibular+gland] of  Orifice+of+greater+vestibular+gland
+
+	(FMAID "20015")
+	(part+of
+		Right+greater+vestibular+gland
+		Vestibule+of+vagina)
+	(Preferred+name [KB_INSTANCE_25256])
+	(regional+part+of Right+greater+vestibular+gland)
+	(Synonym [KB_AUTO-INSERT2_10383]))
+
+([Orifice+of+right+major+sublingual+duct] of  Orifice+of+major+sublingual+duct
+
+	(FMAID "60013")
+	(part+of Right+major+sublingual+duct)
+	(Preferred+name [KB_INSTANCE_79175])
+	(regional+part+of Right+major+sublingual+duct)
+	(Synonym [KB_AUTO-INSERT2_10328]))
+
+([Orifice+of+right+minor+sublingual+duct] of  Orifice+of+minor+sublingual+duct
+
+	(FMAID "60011")
+	(part+of Right+minor+sublingual+duct)
+	(Preferred+name [KB_INSTANCE_79173])
+	(regional+part+of Right+minor+sublingual+duct)
+	(Synonym [KB_AUTO-INSERT2_10330]))
+
+([Orifice+of+right+paraurethral+gland] of  Orifice+of+paraurethral+gland
+
+	(FMAID "20120")
+	(part+of Vestibule+of+vagina)
+	(Preferred+name [KB_INSTANCE_25383])
+	(Synonym [KB_AUTO-INSERT2_10387]))
+
+([Orifice+of+right+parotid+duct] of  Orifice+of+parotid+duct
+
+	(FMAID "59918")
+	(part+of Right+parotid+duct)
+	(Preferred+name [KB_INSTANCE_79076])
+	(regional+part+of Right+parotid+duct)
+	(Synonym [KB_AUTO-INSERT2_10320]))
+
+([Orifice+of+right+principal+bronchus] of  Orifice
+
+	(FMAID "13105")
+	(Preferred+name [KB_INSTANCE_13747])
+	(Synonym
+		[KB_INSTANCE_13748]
+		[KB_AUTO-INSERT2_10286]))
+
+([Orifice+of+right+sublingual+duct] of  Orifice+of+sublingual+duct
+
+	(FMAID "59978")
+	(Preferred+name [KB_INSTANCE_79139])
+	(Synonym [KB_AUTO-INSERT2_10324]))
+
+([Orifice+of+right+submandibular+duct] of  Orifice+of+submandibular+duct
+
+	(FMAID "59980")
+	(part+of Right+main+submandibular+duct)
+	(Preferred+name [KB_INSTANCE_79141])
+	(regional+part+of Right+main+submandibular+duct)
+	(Synonym [KB_AUTO-INSERT2_10322]))
+
+([Orifice+of+right+uterine+tube] of  Orifice+of+uterine+tube
+
+	(FMAID "17750")
+	(Preferred+name [KB_INSTANCE_21632])
+	(Synonym
+		[KB_INSTANCE_21633]
+		[KB_INSTANCE_21634]
+		[KB_INSTANCE_21635]
+		[KB_AUTO-INSERT2_10379]))
+
+([Orifice+of+skull] of  Orifice
+
+	(FMAID "53133")
+	(Preferred+name [KB_INSTANCE_67161])
+	(Synonym
+		[KB_INSTANCE_67162]
+		[KB_AUTO-INSERT2_10280]))
+
+([Orifice+of+small+intestine] of  Orifice
+
+	(FMAID "15990")
+	(Preferred+name [KB_INSTANCE_18578])
+	(Synonym
+		[KB_INSTANCE_18579]
+		[KB_AUTO-INSERT2_10291]))
+
+([Orifice+of+stomach] of  Orifice
+
+	(FMAID "14563")
+	(Preferred+name [KB_INSTANCE_16125])
+	(Synonym
+		[KB_INSTANCE_16126]
+		[KB_AUTO-INSERT2_10290]))
+
+([Orifice+of+sublingual+duct] of  Orifice+of+duct+of+salivary+gland
+
+	(FMAID "59977")
+	(Preferred+name [KB_INSTANCE_79138])
+	(Synonym [KB_AUTO-INSERT2_10319]))
+
+([Orifice+of+submandibular+duct] of  Orifice+of+duct+of+salivary+gland
+
+	(FMAID "59976")
+	(Preferred+name [KB_INSTANCE_79137])
+	(Synonym [KB_AUTO-INSERT2_10318]))
+
+([Orifice+of+transverse+sinus] of  Orifice
+
+	(FMAID "14088")
+	(Preferred+name [KB_INSTANCE_15415])
+	(Synonym
+		[KB_INSTANCE_15416]
+		[KB_AUTO-INSERT2_10289]))
+
+([Orifice+of+uterine+tube] of  Orifice
+
+	(FMAID "17749")
+	(Non-English+equivalent [August_Instance_60008])
+	(Preferred+name [KB_INSTANCE_21628])
+	(Synonym
+		[KB_INSTANCE_21629]
+		[KB_INSTANCE_21630]
+		[KB_INSTANCE_21631]
+		[KB_AUTO-INSERT2_10297]
+		[August_Instance_60009]))
+
+([Orifice+of+vagina] of  Orifice
+
+	(FMAID "19984")
+	(Non-English+equivalent
+		[KB_INSTANCE_25215]
+		[KB_AUTO-INSERT%283%29_2144])
+	(part+of
+		Vagina
+		Perineal+part+of+vagina
+		Vestibule+of+vagina)
+	(Preferred+name [KB_INSTANCE_25213])
+	(regional+part+of
+		Perineal+part+of+vagina
+		Vagina)
+	(Synonym
+		[KB_INSTANCE_25214]
+		[KB_INSTANCE_25216]))
+
+([Orifice+of+vein] of  Orifice
+
+	(FMAID "13439")
+	(Preferred+name [KB_INSTANCE_14391])
+	(Synonym
+		[KB_INSTANCE_14392]
+		[KB_AUTO-INSERT2_10288]))
+
+([Orifice+of+vestibular+gland] of  Orifice
+
+	(FMAID "20077")
+	(Preferred+name [KB_INSTANCE_25324])
+	(Synonym [KB_AUTO-INSERT2_10298]))
+
+([origin+of] of  Standard+FMA+slot
+
+	(FMAID "85956"))
+
+([Origin+of+posterior+intercostal+artery] of  Segment+of+systemic+artery
+
+	(FMAID "13435")
+	(Preferred+name [KB_INSTANCE_14386])
+	(Synonym [KB_AUTO-INSERT2_5652]))
+
+([Oropharyngeal+isthmus] of  Anatomical+conduit
+
+	(constitutional+part+of Lumen+of+oropharynx)
+	(FMAID "55006")
+	(Non-English+equivalent
+		[KB_INSTANCE_69976]
+		[KB_AUTO-INSERT%283%29_1602])
+	(part+of Oropharynx)
+	(Preferred+name [KB_INSTANCE_69975])
+	(Synonym [KB_INSTANCE_69977]))
+
+([Oropharynx] of  Subdivision+of+pharynx
+
+	(attributed+continuous+with
+		[fm_live_31272]
+		[fm_live_31273]
+		[fm_live_31274])
+	(constitutional+part
+		Wall+of+oropharynx
+		Lumen+of+oropharynx)
+	(continuous+with
+		Mouth
+		Nasopharynx
+		Laryngopharynx)
+	(custom+partonomy+of Upper+respiratory+tract)
+	(FMAID "54879")
+	(Non-English+equivalent
+		[KB_INSTANCE_69745]
+		[KB_AUTO-INSERT%283%29_1630])
+	(part
+		Right+lateral+wall+of+oropharynx
+		Left+lateral+wall+of+oropharynx
+		Posterior+wall+of+oropharynx
+		Right+epiglottic+vallecula
+		Left+epiglottic+vallecula
+		Median+glosso-epiglottic+fold
+		Left+lateral+glosso-epiglottic+fold
+		Right+lateral+glosso-epiglottic+fold
+		Oropharyngeal+isthmus
+		Lumen+of+oropharynx)
+	(part+of
+		Upper+respiratory+tract
+		Pharynx
+		Respiratory+system
+		Stomatognathic+system
+		Alimentary+system
+		Gastrointestinal+system)
+	(Preferred+name [KB_INSTANCE_69743])
+	(regional+part
+		Right+lateral+wall+of+oropharynx
+		Left+lateral+wall+of+oropharynx
+		Posterior+wall+of+oropharynx
+		Median+glosso-epiglottic+fold
+		Left+lateral+glosso-epiglottic+fold
+		Right+lateral+glosso-epiglottic+fold)
+	(regional+part+of
+		Alimentary+system
+		Upper+respiratory+tract
+		Gastrointestinal+system
+		Pharynx)
+	(Synonym [KB_INSTANCE_69744]))
+
+([Orthograde+posture] of  Anatomical+entity+template
+
+	(FMAID "227642")
+	(Preferred+name [ONARD_Instance_480009]))
+
+([Os+centrale] of  General+anatomical+term+template
+
+	(FMAID "77232")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_632])
+	(Preferred+name [su_incus_33203]))
+
+([Osborne%27s+ligament] of  Ligament+organ
+
+	(FMAID "85450")
+	(Preferred+name [fma_p2_Instance_100021]))
+
+([Osseoligamentous+conduit] of  Anatomical+conduit
+
+	(FMAID "80108")
+	(Preferred+name [fm_live_24507]))
+
+([Osseous+cochlear+canal] of  Cranial+conduit
+
+	(FMAID "75666")
+	(part+of Cochlea)
+	(Preferred+name [FM_live_09300]))
+
+([Osseous+external+acoustic+tube] of  Heterogeneous+cluster
+
+	(constitutional+part+of Wall+of+external+acoustic+tube)
+	(FMAID "61290")
+	(part+of Wall+of+external+acoustic+tube)
+	(Preferred+name [KB_INSTANCE_80829])
+	(Synonym [KB_INSTANCE_80830]))
+
+([Osseous+skeleton+of+external+nose] of  Subdivision+of+skeletal+system
+
+	(constitutional+part+of External+nose)
+	(FMAID "59655")
+	(part
+		Nasal+part+of+frontal+bone
+		Right+nasal+bone
+		Left+nasal+bone
+		Nasal+part+of+frontal+process+of+right+maxilla
+		Nasal+part+of+frontal+process+of+left+maxilla)
+	(part+of
+		External+nose
+		Osseous+skeleton+of+nose)
+	(Preferred+name [KB_INSTANCE_78757])
+	(regional+part
+		Nasal+part+of+frontal+bone
+		Right+nasal+bone
+		Left+nasal+bone
+		Nasal+part+of+frontal+process+of+right+maxilla
+		Nasal+part+of+frontal+process+of+left+maxilla)
+	(regional+part+of Osseous+skeleton+of+nose)
+	(systemic+part
+		Nasal+part+of+frontal+bone
+		Right+nasal+bone
+		Left+nasal+bone
+		Nasal+part+of+frontal+process+of+right+maxilla
+		Nasal+part+of+frontal+process+of+left+maxilla)
+	(systemic+part+of
+		External+nose
+		Osseous+skeleton+of+nose))
+
+([Osseous+skeleton+of+internal+nose] of  Subdivision+of+skeletal+system
+
+	(constitutional+part+of Wall+of+internal+nose)
+	(FMAID "59656")
+	(part
+		Bony+part+of+hard+palate
+		Bony+part+of+nasal+septum
+		Right+inferior+nasal+concha
+		Left+inferior+nasal+concha
+		Medial+wall+of+right+ethmoidal+labyrinth
+		Medial+wall+of+left+ethmoidal+labyrinth
+		Perpendicular+plate+of+right+palatine+bone
+		Perpendicular+plate+of+left+palatine+bone)
+	(part+of
+		Internal+nose
+		Osseous+skeleton+of+nose)
+	(Preferred+name [KB_INSTANCE_78758])
+	(regional+part
+		Bony+part+of+hard+palate
+		Bony+part+of+nasal+septum
+		Right+inferior+nasal+concha
+		Left+inferior+nasal+concha
+		Medial+wall+of+right+ethmoidal+labyrinth
+		Medial+wall+of+left+ethmoidal+labyrinth
+		Perpendicular+plate+of+right+palatine+bone
+		Perpendicular+plate+of+left+palatine+bone)
+	(regional+part+of Osseous+skeleton+of+nose)
+	(systemic+part
+		Bony+part+of+hard+palate
+		Bony+part+of+nasal+septum
+		Right+inferior+nasal+concha
+		Left+inferior+nasal+concha
+		Medial+wall+of+right+ethmoidal+labyrinth
+		Medial+wall+of+left+ethmoidal+labyrinth
+		Perpendicular+plate+of+right+palatine+bone
+		Perpendicular+plate+of+left+palatine+bone)
+	(systemic+part+of
+		Internal+nose
+		Osseous+skeleton+of+nose))
+
+([Osseous+skeleton+of+nose] of  Subdivision+of+skeletal+system
+
+	(FMAID "59654")
+	(part
+		Osseous+skeleton+of+external+nose
+		Osseous+skeleton+of+internal+nose)
+	(part+of
+		Nasal+skeleton
+		Viscerocranium)
+	(Preferred+name [KB_INSTANCE_78756])
+	(regional+part
+		Osseous+skeleton+of+external+nose
+		Osseous+skeleton+of+internal+nose)
+	(regional+part+of
+		Viscerocranium
+		Nasal+skeleton)
+	(systemic+part
+		Osseous+skeleton+of+external+nose
+		Osseous+skeleton+of+internal+nose)
+	(systemic+part+of
+		Nasal+skeleton
+		Viscerocranium))
+
+([Osseous+spiral+lamina+of+cochlea] of  Zone+of+modiolus+of+cochlea
+
+	(FMAID "77710")
+	(Non-English+equivalent [su_incus_37911])
+	(part
+		Osseous+spiral+lamina+proper+of+cochlea
+		Hamulus+of+osseous+spiral+lamina+of+cochlea
+		Secondary+osseous+spiral+lamina+of+cochlea
+		Vestibular+lamella
+		Tympanic+lamella)
+	(part+of Modiolus+of+cochlea)
+	(Preferred+name [fm_live_23691])
+	(regional+part
+		Osseous+spiral+lamina+proper+of+cochlea
+		Hamulus+of+osseous+spiral+lamina+of+cochlea)
+	(regional+part+of Modiolus+of+cochlea)
+	(Synonym
+		[su_incus_34153]
+		[fm_live_19560]))
+
+([Osseous+spiral+lamina+of+left+cochlea] of  Osseous+spiral+lamina+of+cochlea
+
+	(FMAID "77712")
+	(Preferred+name [fm_live_23689])
+	(Synonym [fm_live_19564]))
+
+([Osseous+spiral+lamina+of+right+cochlea] of  Osseous+spiral+lamina+of+cochlea
+
+	(FMAID "77711")
+	(Preferred+name [fm_live_23690])
+	(Synonym [fm_live_19562]))
+
+([Osseous+spiral+lamina+proper+of+cochlea] of  Zone+of+osseous+spiral+lamina+of+cochlea
+
+	(FMAID "75674")
+	(part+of Osseous+spiral+lamina+of+cochlea)
+	(Preferred+name [fm_live_23697])
+	(regional+part+of Osseous+spiral+lamina+of+cochlea)
+	(Synonym [fm_live_23694]))
+
+([Osseous+spiral+lamina+proper+of+left+cochlea] of  Osseous+spiral+lamina+proper+of+cochlea
+
+	(FMAID "75677")
+	(Preferred+name [FM_live_09320])
+	(Synonym [fm_live_23696]))
+
+([Osseous+spiral+lamina+proper+of+right+cochlea] of  Osseous+spiral+lamina+proper+of+cochlea
+
+	(FMAID "75676")
+	(Preferred+name [FM_live_09318])
+	(Synonym [fm_live_23695]))
+
+([Ossification+center] of  Zone+of+bone+organ
+
+	(dimension 3-dimension)
+	(FMAID "75436")
+	(Non-English+equivalent
+		[su_incus_38051]
+		[KB_AUTO-INSERT%283%29_263]
+		[ONARD_Instance_580163]
+		[ONARD_Instance_580841])
+	(Preferred+name [su_incus_27122])
+	(Synonym [su_incus_27084]))
+
+([Osteoblast] of  Connective+tissue+cell
+
+	(FMAID "66780")
+	(Preferred+name [fm-live_07513]))
+
+([Osteoclast] of  Connective+tissue+cell
+
+	(FMAID "66781")
+	(Preferred+name [fm-live_07515]))
+
+([Osteocyte] of  Connective+tissue+cell
+
+	(FMAID "66779")
+	(Preferred+name [fm-live_07511])
+	(Synonym [fm_live_30162]))
+
+([Osteoid] of  Intercellular+matrix
+
+	(FMAID "66830")
+	(Preferred+name [fm-live_07541])
+	(Synonym [fma_p2_Instance_5]))
+
+([Osteon] of  Organ+region
+
+	(FMAID "32693")
+	(Preferred+name [KB_INSTANCE_40376])
+	(Synonym
+		[KB_INSTANCE_40377]
+		[fm-live_07479]))
+
+([Ostium+of+accessory+coronary+artery] of  Ostium+of+coronary+artery
+
+	(FMAID "85517")
+	(Preferred+name [fma_p2_Instance_90166])
+	(Synonym
+		[fma_p2_Instance_90167]
+		[KB_AUTO-INSERT2_10347]))
+
+([Ostium+of+accessory+pancreatic+duct] of  Orifice+of+pancreatic+duct
+
+	(FMAID "15999")
+	(Preferred+name [KB_INSTANCE_18601])
+	(Synonym
+		[KB_INSTANCE_18602]
+		[KB_AUTO-INSERT2_10378]))
+
+([Ostium+of+anterior+cardiac+vein] of  Orifice+of+vein
+
+	(FMAID "9276")
+	(part+of Cavity+of+right+auricle)
+	(Preferred+name [KB_INSTANCE_07688])
+	(regional+part+of Cavity+of+right+auricle)
+	(Synonym
+		[KB_INSTANCE_07689]
+		[KB_AUTO-INSERT2_10350]))
+
+([Ostium+of+aorta] of  Orifice+of+artery
+
+	(FMAID "9350")
+	(Non-English+equivalent
+		[KB_INSTANCE_07789]
+		[KB_AUTO-INSERT%283%29_2427])
+	(part+of Cavity+of+left+ventricle)
+	(Preferred+name [KB_INSTANCE_07787])
+	(regional+part+of Cavity+of+left+ventricle)
+	(Synonym
+		[KB_INSTANCE_07788]
+		[KB_AUTO-INSERT2_10338]))
+
+([Ostium+of+ascending+aorta] of  Orifice+of+artery
+
+	(FMAID "13108")
+	(Preferred+name [KB_INSTANCE_13753])
+	(Synonym
+		[KB_INSTANCE_13754]
+		[KB_AUTO-INSERT2_10337]))
+
+([Ostium+of+brachiocephalic+artery] of  Orifice+of+artery
+
+	(FMAID "13107")
+	(Preferred+name [KB_INSTANCE_13751])
+	(Synonym
+		[KB_INSTANCE_13752]
+		[KB_AUTO-INSERT2_10343]))
+
+([Ostium+of+common+bile+duct] of  Orifice+of+bile+duct
+
+	(FMAID "15995")
+	(Preferred+name [KB_INSTANCE_18593])
+	(Synonym
+		[KB_INSTANCE_18594]
+		[KB_AUTO-INSERT2_10372]))
+
+([Ostium+of+common+hepatic+duct] of  Orifice+of+bile+duct
+
+	(FMAID "16000")
+	(Preferred+name [KB_INSTANCE_18603])
+	(Synonym
+		[KB_INSTANCE_18604]
+		[KB_AUTO-INSERT2_10374]))
+
+([Ostium+of+coronary+artery] of  Orifice+of+artery
+
+	(FMAID "4679")
+	(Preferred+name [KB_INSTANCE_00937])
+	(Synonym
+		[KB_INSTANCE_00938]
+		[KB_AUTO-INSERT2_10339]))
+
+([Ostium+of+coronary+sinus] of  Orifice+of+vein
+
+	(FMAID "9241")
+	(Non-English+equivalent
+		[KB_INSTANCE_07620]
+		[KB_AUTO-INSERT%283%29_2404])
+	(part+of
+		Cavity+of+right+atrium
+		Cavity+of+inflow+part+of+right+atrium)
+	(Preferred+name [KB_INSTANCE_07617])
+	(regional+part+of
+		Cavity+of+right+atrium
+		Cavity+of+inflow+part+of+right+atrium)
+	(Synonym
+		[KB_INSTANCE_07618]
+		[KB_INSTANCE_07619]
+		[su_incus_32368]
+		[KB_AUTO-INSERT2_10351]))
+
+([Ostium+of+cystic+duct] of  Orifice+of+bile+duct
+
+	(FMAID "15996")
+	(Preferred+name [KB_INSTANCE_18595])
+	(Synonym
+		[KB_INSTANCE_18596]
+		[KB_AUTO-INSERT2_10373]))
+
+([Ostium+of+inferior+pulmonary+vein] of  Ostium+of+pulmonary+vein
+
+	(FMAID "9328")
+	(Preferred+name [KB_INSTANCE_07759])
+	(Synonym
+		[KB_INSTANCE_07760]
+		[KB_AUTO-INSERT2_10362]))
+
+([Ostium+of+inferior+vena+cava] of  Orifice+of+vein
+
+	(FMAID "9239")
+	(Non-English+equivalent
+		[KB_INSTANCE_07613]
+		[KB_AUTO-INSERT%283%29_2405])
+	(part+of
+		Cavity+of+right+atrium
+		Cavity+of+inflow+part+of+right+atrium)
+	(Preferred+name [KB_INSTANCE_07610])
+	(regional+part+of
+		Cavity+of+right+atrium
+		Cavity+of+inflow+part+of+right+atrium)
+	(Synonym
+		[KB_INSTANCE_07611]
+		[KB_INSTANCE_07612]
+		[su_incus_32366]
+		[KB_AUTO-INSERT2_10349]))
+
+([Ostium+of+least+cardiac+vein] of  Orifice+of+vein
+
+	(FMAID "13249")
+	(Preferred+name [KB_INSTANCE_14049])
+	(Synonym
+		[KB_INSTANCE_14050]
+		[KB_INSTANCE_14051]
+		[KB_INSTANCE_14052]
+		[KB_AUTO-INSERT2_10354]))
+
+([Ostium+of+least+cardiac+vein+of+left+atrium] of  Ostium+of+least+cardiac+vein
+
+	(FMAID "13250")
+	(part+of Cavity+of+inflow+part+of+left+atrium)
+	(Preferred+name [KB_INSTANCE_14053])
+	(regional+part+of Cavity+of+inflow+part+of+left+atrium)
+	(Synonym
+		[KB_INSTANCE_14054]
+		[KB_INSTANCE_14055]
+		[KB_INSTANCE_14056]))
+
+([Ostium+of+least+cardiac+vein+of+right+atrium] of  Ostium+of+least+cardiac+vein
+
+	(FMAID "9273")
+	(part+of
+		Cavity+of+right+atrium
+		Cavity+of+inflow+part+of+right+atrium)
+	(Preferred+name [KB_INSTANCE_07682])
+	(regional+part+of
+		Cavity+of+right+atrium
+		Cavity+of+inflow+part+of+right+atrium)
+	(Synonym
+		[KB_INSTANCE_07683]
+		[KB_INSTANCE_07684]
+		[KB_INSTANCE_07685]))
+
+([Ostium+of+least+cardiac+vein+of+right+ventricle] of  Ostium+of+least+cardiac+vein
+
+	(FMAID "13251")
+	(part+of Cavity+of+right+ventricle)
+	(Preferred+name [KB_INSTANCE_14057])
+	(Synonym
+		[KB_INSTANCE_14058]
+		[KB_INSTANCE_14059]
+		[KB_INSTANCE_14060]))
+
+([Ostium+of+left+apicoposterior+pulmonary+artery] of  Orifice+of+artery
+
+	(FMAID "13436")
+	(Preferred+name [KB_INSTANCE_14387])
+	(Synonym [KB_AUTO-INSERT2_10344]))
+
+([Ostium+of+left+common+carotid+artery] of  Orifice+of+artery
+
+	(FMAID "13098")
+	(Preferred+name [KB_INSTANCE_13733])
+	(Synonym
+		[KB_INSTANCE_13734]
+		[KB_AUTO-INSERT2_10340]))
+
+([Ostium+of+left+coronary+artery] of  Ostium+of+coronary+artery
+
+	(FMAID "3760")
+	(part+of Left+posterior+aortic+sinus)
+	(Preferred+name [KB_INSTANCE_00058])
+	(regional+part+of
+		Trunk+of+left+coronary+artery
+		Left+posterior+aortic+sinus)
+	(Synonym
+		[KB_INSTANCE_00059]
+		[KB_AUTO-INSERT2_10346]))
+
+([Ostium+of+left+hepatic+duct] of  Orifice+of+bile+duct
+
+	(FMAID "16002")
+	(Preferred+name [KB_INSTANCE_18607])
+	(Synonym
+		[KB_INSTANCE_18608]
+		[KB_AUTO-INSERT2_10376]))
+
+([Ostium+of+left+inferior+pulmonary+vein] of  Ostium+of+inferior+pulmonary+vein
+
+	(FMAID "9332")
+	(part+of
+		Cavity+of+left+atrium
+		Cavity+of+inflow+part+of+left+atrium)
+	(Preferred+name [KB_INSTANCE_07767])
+	(regional+part+of
+		Cavity+of+left+atrium
+		Cavity+of+inflow+part+of+left+atrium)
+	(Synonym
+		[KB_INSTANCE_07768]
+		[KB_AUTO-INSERT2_10366]))
+
+([Ostium+of+left+internal+jugular+vein] of  Orifice+of+vein
+
+	(FMAID "13099")
+	(Preferred+name [KB_INSTANCE_13735])
+	(Synonym
+		[KB_INSTANCE_13736]
+		[KB_AUTO-INSERT2_10355]))
+
+([Ostium+of+left+subclavian+artery] of  Orifice+of+artery
+
+	(FMAID "13101")
+	(Preferred+name [KB_INSTANCE_13739])
+	(Synonym
+		[KB_INSTANCE_13740]
+		[KB_AUTO-INSERT2_10342]))
+
+([Ostium+of+left+superior+pulmonary+vein] of  Ostium+of+superior+pulmonary+vein
+
+	(FMAID "9330")
+	(part+of
+		Cavity+of+left+atrium
+		Cavity+of+inflow+part+of+left+atrium)
+	(Preferred+name [KB_INSTANCE_07763])
+	(regional+part+of
+		Cavity+of+left+atrium
+		Cavity+of+inflow+part+of+left+atrium)
+	(Synonym
+		[KB_INSTANCE_07764]
+		[KB_AUTO-INSERT2_10364]))
+
+([Ostium+of+lobular+duct+of+pancreas] of  Orifice+of+pancreatic+duct
+
+	(FMAID "16006")
+	(Preferred+name [KB_INSTANCE_18617])
+	(Synonym
+		[KB_INSTANCE_18618]
+		[KB_INSTANCE_18619]
+		[KB_INSTANCE_18620]))
+
+([Ostium+of+main+pancreatic+duct] of  Orifice+of+pancreatic+duct
+
+	(FMAID "15998")
+	(Preferred+name [KB_INSTANCE_18599])
+	(Synonym
+		[KB_INSTANCE_18600]
+		[KB_AUTO-INSERT2_10377]))
+
+([Ostium+of+posterior+intercostal+vein] of  Orifice+of+vein
+
+	(FMAID "13104")
+	(Preferred+name [KB_INSTANCE_13745])
+	(Synonym
+		[KB_INSTANCE_13746]
+		[KB_AUTO-INSERT2_10359]))
+
+([Ostium+of+pulmonary+trunk] of  Orifice+of+artery
+
+	(FMAID "9299")
+	(Non-English+equivalent
+		[KB_INSTANCE_07717]
+		[KB_AUTO-INSERT%283%29_2416])
+	(part+of Cavity+of+right+ventricle)
+	(Preferred+name [KB_INSTANCE_07716])
+	(Synonym
+		[su_incus_32369]
+		[KB_AUTO-INSERT2_10341]))
+
+([Ostium+of+pulmonary+vein] of  Orifice+of+vein
+
+	(FMAID "9307")
+	(Preferred+name [KB_INSTANCE_07728])
+	(Synonym
+		[KB_INSTANCE_07729]
+		[KB_INSTANCE_07730]
+		[KB_AUTO-INSERT2_10353]))
+
+([Ostium+of+right+brachiocephalic+vein] of  Orifice+of+vein
+
+	(FMAID "13102")
+	(Preferred+name [KB_INSTANCE_13741])
+	(Synonym
+		[KB_INSTANCE_13742]
+		[KB_AUTO-INSERT2_10356]))
+
+([Ostium+of+right+coronary+artery] of  Ostium+of+coronary+artery
+
+	(FMAID "3752")
+	(part+of Anterior+aortic+sinus)
+	(Preferred+name [KB_INSTANCE_00050])
+	(regional+part+of
+		Trunk+of+right+coronary+artery
+		Anterior+aortic+sinus)
+	(Synonym
+		[KB_INSTANCE_00051]
+		[KB_AUTO-INSERT2_10345]))
+
+([Ostium+of+right+hepatic+duct] of  Orifice+of+bile+duct
+
+	(FMAID "16001")
+	(Preferred+name [KB_INSTANCE_18605])
+	(Synonym
+		[KB_INSTANCE_18606]
+		[KB_AUTO-INSERT2_10375]))
+
+([Ostium+of+right+inferior+pulmonary+vein] of  Ostium+of+inferior+pulmonary+vein
+
+	(FMAID "9331")
+	(part+of
+		Cavity+of+left+atrium
+		Cavity+of+inflow+part+of+left+atrium)
+	(Preferred+name [KB_INSTANCE_07765])
+	(regional+part+of
+		Cavity+of+left+atrium
+		Cavity+of+inflow+part+of+left+atrium)
+	(Synonym
+		[KB_INSTANCE_07766]
+		[KB_AUTO-INSERT2_10365]))
+
+([Ostium+of+right+internal+jugular+vein] of  Orifice+of+vein
+
+	(FMAID "13103")
+	(Preferred+name [KB_INSTANCE_13743])
+	(Synonym
+		[KB_INSTANCE_13744]
+		[KB_AUTO-INSERT2_10357]))
+
+([Ostium+of+right+marginal+vein] of  Orifice+of+vein
+
+	(FMAID "13248")
+	(part+of Cavity+of+outflow+part+of+right+atrium)
+	(Preferred+name [KB_INSTANCE_14047])
+	(regional+part+of Cavity+of+outflow+part+of+right+atrium)
+	(Synonym
+		[KB_INSTANCE_14048]
+		[KB_AUTO-INSERT2_10352]))
+
+([Ostium+of+right+superior+pulmonary+vein] of  Ostium+of+superior+pulmonary+vein
+
+	(FMAID "9329")
+	(part+of
+		Cavity+of+left+atrium
+		Cavity+of+inflow+part+of+left+atrium)
+	(Preferred+name [KB_INSTANCE_07761])
+	(regional+part+of
+		Cavity+of+left+atrium
+		Cavity+of+inflow+part+of+left+atrium)
+	(Synonym
+		[KB_INSTANCE_07762]
+		[KB_AUTO-INSERT2_10363]))
+
+([Ostium+of+right+vertebral+vein] of  Orifice+of+vein
+
+	(FMAID "13106")
+	(Preferred+name [KB_INSTANCE_13749])
+	(Synonym
+		[KB_INSTANCE_13750]
+		[KB_AUTO-INSERT2_10358]))
+
+([Ostium+of+superior+pulmonary+vein] of  Ostium+of+pulmonary+vein
+
+	(FMAID "9308")
+	(Preferred+name [KB_INSTANCE_07731])
+	(Synonym
+		[KB_INSTANCE_07732]
+		[KB_AUTO-INSERT2_10361]))
+
+([Ostium+of+superior+vena+cava] of  Orifice+of+vein
+
+	(FMAID "9238")
+	(Non-English+equivalent
+		[KB_INSTANCE_07608]
+		[KB_AUTO-INSERT%283%29_2406])
+	(part+of
+		Cavity+of+right+atrium
+		Cavity+of+inflow+part+of+right+atrium)
+	(Preferred+name [KB_INSTANCE_07606])
+	(regional+part+of
+		Cavity+of+right+atrium
+		Cavity+of+inflow+part+of+right+atrium)
+	(Synonym
+		[KB_INSTANCE_07607]
+		[KB_INSTANCE_07609]
+		[su_incus_32367]
+		[KB_AUTO-INSERT2_10348]))
+
+([Ostium+of+third+coronary+artery+%28left%29] of  Variant+orifice
+
+	(FMAID "3762")
+	(part+of Left+posterior+aortic+sinus)
+	(Preferred+name [KB_INSTANCE_00060])
+	(regional+part+of Left+posterior+aortic+sinus))
+
+([Ostium+of+third+coronary+artery+%28right%29] of  Variant+orifice
+
+	(FMAID "3754")
+	(part+of Anterior+aortic+sinus)
+	(Preferred+name [KB_INSTANCE_00052])
+	(regional+part+of Anterior+aortic+sinus))
+
+([Other+Latin+equivalents] of  Standard+FMA+slot
+
+	(FMAID "85909"))
+
+([Otic+ganglion] of  Cranial+parasympathetic+ganglion
+
+	(FMAID "6967")
+	(Non-English+equivalent
+		[KB_INSTANCE_03512]
+		[KB_AUTO-INSERT%283%29_4166])
+	(Preferred+name [KB_INSTANCE_03511])
+	(Synonym [su_incus_16425]))
+
+([Otolith] of  Acellular+anatomical+structure
+
+	(FMAID "77826")
+	(Non-English+equivalent
+		[su_incus_38420]
+		[KB_AUTO-INSERT%283%29_4526])
+	(Preferred+name [su_incus_34284]))
+
+([Otolith+layer+of+statoconial+membrane] of  Acellular+anatomical+structure
+
+	(dimension 3-dimension)
+	(FMAID "75573")
+	(Non-English+equivalent
+		[su_incus_38419]
+		[KB_AUTO-INSERT%283%29_4525])
+	(part+of Statoconial+membrane)
+	(Preferred+name [FM_live_09232])
+	(regional+part+of Statoconial+membrane)
+	(Synonym [su_incus_34283]))
+
+([Outdated+meaning] of  Standard+FMA+slot
+
+	(FMAID "85902"))
+
+([Outer+border+of+iris] of  Anatomical+line+of+eyeball
+
+	(FMAID "58113")
+	(Non-English+equivalent
+		[KB_INSTANCE_76619]
+		[KB_AUTO-INSERT%283%29_4247])
+	(Preferred+name [KB_INSTANCE_76618]))
+
+([Outer+border+of+left+iris] of  Outer+border+of+iris
+
+	(FMAID "58501")
+	(Preferred+name [KB_INSTANCE_77212]))
+
+([Outer+border+of+right+iris] of  Outer+border+of+iris
+
+	(FMAID "58500")
+	(Preferred+name [KB_INSTANCE_77211]))
+
+([Outer+circumferential+lamella+of+bone] of  Circumferential+lamella+of+bone
+
+	(FMAID "224794")
+	(Preferred+name [ONARD_Instance_510013])
+	(regional+part+of Lamellar+bone))
+
+([Outer+cortex+of+kidney] of  Region+of+cortex+of+kidney
+
+	(dimension 3-dimension)
+	(FMAID "74285")
+	(part+of Cortex+proper+of+kidney)
+	(Preferred+name [FM_live_07916])
+	(regional+part+of Cortex+proper+of+kidney)
+	(Synonym [FM_live_07923]))
+
+([Outer+cortex+of+left+kidney] of  Region+of+cortex+of+kidney
+
+	(dimension 3-dimension)
+	(FMAID "74287")
+	(part+of Cortex+proper+of+left+kidney)
+	(Preferred+name [FM_live_07920])
+	(regional+part+of Cortex+proper+of+left+kidney))
+
+([Outer+cortex+of+right+kidney] of  Region+of+cortex+of+kidney
+
+	(dimension 3-dimension)
+	(FMAID "74286")
+	(part+of Cortex+proper+of+right+kidney)
+	(Preferred+name [FM_live_07918])
+	(regional+part+of Cortex+proper+of+right+kidney))
+
+([Outer+dynein+arm+of+axoneme+of+cilium] of  Dynein+arm+of+axoneme+of+cilium
+
+	(FMAID "62277")
+	(part+of Peripheral+part+of+axoneme+of+cilium)
+	(Preferred+name [KB_INSTANCE_81366])
+	(regional+part+of Peripheral+part+of+axoneme+of+cilium))
+
+([Outer+dynein+arm+of+axoneme+of+flagellum] of  Dynein+arm+of+axoneme+of+flagellum
+
+	(FMAID "67838")
+	(Preferred+name [fm-live_12614]))
+
+([Outer+filament+of+nuclear+pore+complex] of  Filament+of+nuclear+pore+complex
+
+	(FMAID "67662")
+	(Preferred+name [fm-live_11712])
+	(Synonym [KB_INSTANCE_81402]))
+
+([Outer+kinetochore+of+condensed+chromosome] of  Region+of+chromosome
+
+	(FMAID "84697")
+	(Preferred+name [fm_live_32460]))
+
+([Outer+kinetochore+of+condensed+nuclear+chromosome] of  Region+of+chromosome
+
+	(FMAID "84694")
+	(Preferred+name [fm_live_32454]))
+
+([Outer+layer+of+plasma+membrane] of  Layer+of+plasma+membrane
+
+	(custom+partonomy+of Lipid+bilayer+of+plasma+membrane)
+	(FMAID "66844")
+	(part Structural+phospholipid+molecule)
+	(part+of Lipid+bilayer+of+plasma+membrane)
+	(Preferred+name [fm-live_08400])
+	(regional+part Structural+phospholipid+molecule)
+	(regional+part+of Lipid+bilayer+of+plasma+membrane)
+	(Synonym
+		[fm-live_09526]
+		[fm-live_09530]))
+
+([Outer+limiting+layer+of+left+retina] of  Outer+limiting+layer+of+retina
+
+	(FMAID "58691")
+	(part+of Neural+layer+of+left+retina)
+	(Preferred+name [KB_INSTANCE_77469])
+	(regional+part+of Neural+layer+of+left+retina)
+	(Synonym
+		[KB_INSTANCE_77470]
+		[KB_INSTANCE_77471]))
+
+([Outer+limiting+layer+of+retina] of  Layer+of+retina
+
+	(FMAID "58683")
+	(Non-English+equivalent [su_incus_35742])
+	(part+of Neural+layer+of+retina)
+	(Preferred+name [KB_INSTANCE_77446])
+	(regional+part+of Neural+layer+of+retina)
+	(Synonym
+		[KB_INSTANCE_77447]
+		[KB_INSTANCE_77448]
+		[KB_INSTANCE_77449]
+		[fm-live_00508]))
+
+([Outer+limiting+layer+of+right+retina] of  Outer+limiting+layer+of+retina
+
+	(FMAID "58690")
+	(part+of Neural+layer+of+right+retina)
+	(Preferred+name [KB_INSTANCE_77466])
+	(regional+part+of Neural+layer+of+right+retina)
+	(Synonym
+		[KB_INSTANCE_77467]
+		[KB_INSTANCE_77468]))
+
+([Outer+longitudinal+layer+of+fibrous+membrane+of+articular+capsule+of+hip+joint] of  Fibrous+membrane+of+articular+capsule+of+synovial+joint
+
+	(FMAID "42962")
+	(part+of Articular+capsule+of+hip+joint)
+	(Preferred+name [KB_INSTANCE_54604])
+	(regional+part+of Articular+capsule+of+hip+joint))
+
+([Outer+longitudinal+layer+of+fibrous+membrane+of+articular+capsule+of+left+hip+joint] of  Fibrous+membrane+of+articular+capsule+of+synovial+joint
+
+	(FMAID "42988")
+	(Preferred+name [KB_INSTANCE_54645]))
+
+([Outer+longitudinal+layer+of+fibrous+membrane+of+articular+capsule+of+right+hip+joint] of  Fibrous+membrane+of+articular+capsule+of+synovial+joint
+
+	(FMAID "42987")
+	(Preferred+name [KB_INSTANCE_54644]))
+
+([Outer+longitudinal+layer+of+muscularis+mucosae+of+stomach] of  Muscularis+mucosae
+
+	(constitutional+part+of Muscularis+mucosae+of+stomach)
+	(FMAID "63530")
+	(Preferred+name [FM_live_02372]))
+
+([Outer+medulla+of+kidney] of  Region+of+medulla+of+kidney
+
+	(FMAID "17733")
+	(Non-English+equivalent [su_incus_35879])
+	(part
+		Outer+stripe+of+medulla+of+kidney
+		Inner+stripe+of+medulla+of+kidney)
+	(part+of Medulla+of+kidney)
+	(Preferred+name [KB_INSTANCE_21593])
+	(regional+part
+		Outer+stripe+of+medulla+of+kidney
+		Inner+stripe+of+medulla+of+kidney)
+	(regional+part+of Medulla+of+kidney)
+	(Synonym
+		[KB_INSTANCE_21592]
+		[FM_live_07951]
+		[ONARD_Instance_80032]))
+
+([Outer+medulla+of+left+kidney] of  Medulla
+
+	(FMAID "17736")
+	(part
+		Outer+stripe+of+medulla+of+left+kidney
+		Inner+stripe+of+medulla+of+left+kidney)
+	(part+of Medulla+of+left+kidney)
+	(Preferred+name [KB_INSTANCE_21598])
+	(regional+part
+		Outer+stripe+of+medulla+of+left+kidney
+		Inner+stripe+of+medulla+of+left+kidney)
+	(regional+part+of Medulla+of+left+kidney)
+	(Synonym [KB_INSTANCE_21597]))
+
+([Outer+medulla+of+right+kidney] of  Medulla
+
+	(FMAID "17735")
+	(part
+		Outer+stripe+of+medulla+of+right+kidney
+		Inner+stripe+of+medulla+of+right+kidney)
+	(part+of Medulla+of+right+kidney)
+	(Preferred+name [FM_live_07876])
+	(regional+part
+		Outer+stripe+of+medulla+of+right+kidney
+		Inner+stripe+of+medulla+of+right+kidney)
+	(regional+part+of Medulla+of+right+kidney)
+	(Synonym [KB_INSTANCE_21596]))
+
+([Outer+membrane+of+mitochondrion] of  Membrane+of+mitochondrion
+
+	(constitutional+part+of Wall+of+mitochondrion)
+	(FMAID "66862")
+	(part
+		Lipid+bilayer+of+outer+membrane+of+mitochondrion
+		Membrane+protein+of+outer+membrane+of+mitochondrion
+		Mitochondrial+outer+membrane+translocase+complex)
+	(part+of
+		Wall+of+mitochondrion
+		Wall+proper+of+mitochondrion)
+	(Preferred+name [fm-live_07709])
+	(regional+part
+		Lipid+bilayer+of+outer+membrane+of+mitochondrion
+		Membrane+protein+of+outer+membrane+of+mitochondrion)
+	(regional+part+of Wall+proper+of+mitochondrion)
+	(Synonym
+		[fm-live_07712]
+		[fm-live_07719]))
+
+([Outer+membrane+of+prostatic+capsule] of  Connective+tissue+of+prostate
+
+	(constitutional+part+of Prostatic+capsule)
+	(dimension 3-dimension)
+	(FMAID "74251")
+	(Preferred+name [fm_live_14186]))
+
+([Outer+muscle+layer] of  Subdivision+of+muscle+layer
+
+	(FMAID "62900")
+	(Preferred+name [fma_p2_Instance_60041])
+	(Synonym
+		[FM_live_00778]
+		[FM_live_00776]))
+
+([Outer+muscle+layer+of+organ] of  Outer+muscle+layer
+
+	(FMAID "85410")
+	(Preferred+name [fma_p2_Instance_60043]))
+
+([Outer+muscle+layer+of+region+of+organ] of  Outer+muscle+layer
+
+	(FMAID "85411")
+	(Preferred+name [fma_p2_Instance_60045]))
+
+([Outer+nuclear+layer+of+left+retina] of  Outer+nuclear+layer+of+retina
+
+	(FMAID "58703")
+	(part+of Neural+layer+of+left+retina)
+	(Preferred+name [KB_INSTANCE_77485])
+	(regional+part+of Neural+layer+of+left+retina))
+
+([Outer+nuclear+layer+of+retina] of  Layer+of+retina
+
+	(FMAID "58684")
+	(Non-English+equivalent [su_incus_35743])
+	(part+of Neural+layer+of+retina)
+	(Preferred+name [KB_INSTANCE_77450])
+	(regional+part+of Neural+layer+of+retina)
+	(Synonym [KB_INSTANCE_77451]))
+
+([Outer+nuclear+layer+of+right+retina] of  Outer+nuclear+layer+of+retina
+
+	(FMAID "58702")
+	(part+of Neural+layer+of+right+retina)
+	(Preferred+name [KB_INSTANCE_77484])
+	(regional+part+of Neural+layer+of+right+retina))
+
+([Outer+nuclear+membrane] of  Membrane+layer+of+cell
+
+	(constitutional+part+of Nuclear+membrane)
+	(custom+partonomy+of Nuclear+membrane)
+	(FMAID "66850")
+	(part+of Nuclear+membrane)
+	(Preferred+name [fm-live_07679])
+	(Synonym
+		[fm-live_09157]
+		[fm-live_10051]
+		[fm_live_32997]))
+
+([Outer+phalangeal+cell+of+cochlea] of  Phalangeal+cell+of+cochlea
+
+	(dimension 3-dimension)
+	(FMAID "75725")
+	(part+of Spiral+organ+of+cochlea)
+	(Preferred+name [fm_live_23724])
+	(Synonym
+		[FM_live_09397]
+		[FM_live_09537]
+		[FM_live_09538]
+		[fm_live_23716]
+		[FM_live_09396]))
+
+([Outer+plexiform+layer+of+left+retina] of  Outer+plexiform+layer+of+retina
+
+	(FMAID "58701")
+	(part+of Neural+layer+of+left+retina)
+	(Preferred+name [KB_INSTANCE_77483])
+	(regional+part+of Neural+layer+of+left+retina))
+
+([Outer+plexiform+layer+of+retina] of  Layer+of+retina
+
+	(FMAID "58685")
+	(Non-English+equivalent [su_incus_35744])
+	(part+of Neural+layer+of+retina)
+	(Preferred+name [KB_INSTANCE_77452])
+	(regional+part+of Neural+layer+of+retina)
+	(Synonym [KB_INSTANCE_77453]))
+
+([Outer+plexiform+layer+of+right+retina] of  Outer+plexiform+layer+of+retina
+
+	(FMAID "58700")
+	(part+of Neural+layer+of+right+retina)
+	(Preferred+name [KB_INSTANCE_77482])
+	(regional+part+of Neural+layer+of+right+retina))
+
+([Outer+ring+protein+subunit] of  Biological+macromolecule
+
+	(FMAID "67593")
+	(Preferred+name [fm-live_10033]))
+
+([Outer+ring+protein+subunit+of+nuclear+pore+complex] of  Ring+protein+subunit+of+nuclear+pore+complex
+
+	(FMAID "62257")
+	(Preferred+name [KB_INSTANCE_81413])
+	(Synonym [fm-live_12640]))
+
+([Outer+root+sheath+of+hair+follicle] of  Region+of+hair+follicle
+
+	(FMAID "70943")
+	(part+of Hair+follicle)
+	(Preferred+name [FM_live_03751])
+	(regional+part+of Hair+follicle)
+	(Synonym [FM_live_03869]))
+
+([Outer+segment+of+cone+cell] of  Zone+of+cone+cell
+
+	(FMAID "62157")
+	(Preferred+name [fm-live_14963]))
+
+([Outer+segment+of+rod+cell] of  Zone+of+rod+cell
+
+	(FMAID "62135")
+	(part+of Rod+cell)
+	(Preferred+name [fm-live_14954])
+	(regional+part+of Rod+cell)
+	(Synonym [fm-live_14961]))
+
+([Outer+spiral+sulcus] of  Spiral+sulcus
+
+	(FMAID "77851")
+	(Non-English+equivalent
+		[su_incus_40024]
+		[KB_AUTO-INSERT%283%29_4540])
+	(Preferred+name [su_incus_34313]))
+
+([Outer+stripe+of+medulla+of+kidney] of  Region+of+organ+component+of+kidney
+
+	(dimension 3-dimension)
+	(FMAID "76662")
+	(Non-English+equivalent [su_incus_38202])
+	(part+of Outer+medulla+of+kidney)
+	(Preferred+name [ONARD_Instance_80033])
+	(regional+part+of Outer+medulla+of+kidney)
+	(Synonym [su_incus_31638]))
+
+([Outer+stripe+of+medulla+of+left+kidney] of  Outer+stripe+of+medulla+of+kidney
+
+	(dimension 3-dimension)
+	(FMAID "74307")
+	(part+of Outer+medulla+of+left+kidney)
+	(Preferred+name [FM_live_07967])
+	(regional+part+of Outer+medulla+of+left+kidney)
+	(Synonym [FM_live_07959]))
+
+([Outer+stripe+of+medulla+of+right+kidney] of  Outer+stripe+of+medulla+of+kidney
+
+	(dimension 3-dimension)
+	(FMAID "74306")
+	(part+of Outer+medulla+of+right+kidney)
+	(Preferred+name [FM_live_07966])
+	(regional+part+of Outer+medulla+of+right+kidney)
+	(Synonym [FM_live_07957]))
+
+([Outer+surface+of+mastoid+part+of+temporal+bone] of  Surface+of+zone+of+temporal+bone
+
+	(FMAID "55708")
+	(Preferred+name [KB_INSTANCE_71042]))
+
+([Outflow+part+of+atrium] of  Region+of+cardiac+chamber
+
+	(FMAID "14141")
+	(Preferred+name [KB_INSTANCE_15519])
+	(Synonym [KB_INSTANCE_15520]))
+
+([Outflow+part+of+cardiac+chamber] of  Region+of+cardiac+chamber
+
+	(FMAID "14058")
+	(Preferred+name [KB_INSTANCE_15364]))
+
+([Outflow+part+of+left+atrium] of  Outflow+part+of+atrium
+
+	(constitutional+part
+		Wall+of+outflow+part+of+left+atrium
+		Cavity+of+outflow+part+of+left+atrium
+		Mitral+valve)
+	(continuous+with Inflow+part+of+left+ventricle)
+	(FMAID "9551")
+	(part
+		Wall+of+outflow+part+of+left+atrium
+		Cavity+of+outflow+part+of+left+atrium
+		Mitral+valve)
+	(part+of Left+atrium)
+	(Preferred+name [KB_INSTANCE_08181])
+	(regional+part+of
+		Left+atrium
+		Left+atrium+proper)
+	(Synonym
+		[KB_INSTANCE_08183]
+		[KB_INSTANCE_08184]))
+
+([Outflow+part+of+left+ventricle] of  Outflow+part+of+ventricle
+
+	(attributed+continuous+with [fma_p2_Instance_270000])
+	(constitutional+part
+		Wall+of+outflow+part+of+left+ventricle
+		Cavity+of+outflow+part+of+left+ventricle
+		Subaortic+curtain+of+left+ventricle
+		Aortic+valve)
+	(continuous+with
+		Ascending+trunk+of+arch+of+aorta
+		Commencement+of+arch+of+aorta
+		Aorta)
+	(definition "Outflow part of ventricle which is continuous with the aorta.")
+	(FMAID "9473")
+	(Non-English+equivalent
+		[su_incus_37668]
+		[KB_AUTO-INSERT%283%29_2426])
+	(part
+		Wall+of+outflow+part+of+left+ventricle
+		Cavity+of+outflow+part+of+left+ventricle
+		Subaortic+curtain+of+left+ventricle
+		Outflow+part+proper+of+left+ventricle
+		Aortic+valve)
+	(part+of Left+ventricle)
+	(Preferred+name [KB_INSTANCE_08038])
+	(regional+part+of Left+ventricle)
+	(Synonym
+		[KB_INSTANCE_08039]
+		[KB_INSTANCE_08040]
+		[KB_INSTANCE_08041]))
+
+([Outflow+part+of+right+atrium] of  Outflow+part+of+atrium
+
+	(attributed+continuous+with [fma_p2_Instance_380007])
+	(constitutional+part
+		Wall+of+outflow+part+of+right+atrium
+		Cavity+of+outflow+part+of+right+atrium
+		Tricuspid+valve)
+	(continuous+with Inflow+part+of+right+ventricle)
+	(definition "Outflow part of atrium which consists of wall and cavity of the outflow part of right atrium and the tricuspid valve.")
+	(FMAID "9550")
+	(part
+		Wall+of+outflow+part+of+right+atrium
+		Cavity+of+outflow+part+of+right+atrium
+		Tricuspid+valve)
+	(part+of
+		Right+atrium
+		Mid+zone+of+heart
+		Right+atrium+proper)
+	(Preferred+name [KB_INSTANCE_08177])
+	(regional+part+of
+		Right+atrium
+		Mid+zone+of+heart
+		Right+atrium+proper)
+	(Synonym
+		[KB_INSTANCE_08178]
+		[KB_INSTANCE_08179]))
+
+([Outflow+part+of+right+ventricle] of  Outflow+part+of+ventricle
+
+	(arterial+supply
+		Right+conus+artery
+		Conus+branch+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(attributed+continuous+with [fma_p2_Instance_460003])
+	(constitutional+part
+		Wall+of+outflow+part+of+right+ventricle
+		Cavity+of+outflow+part+of+right+ventricle
+		Pulmonary+valve)
+	(continuous+with Pulmonary+trunk)
+	(definition "Outflow part of ventricle which is continuous with the pulmonary trunk.")
+	(FMAID "7216")
+	(Non-English+equivalent
+		[su_incus_25004]
+		[KB_AUTO-INSERT%283%29_2415])
+	(part
+		Wall+of+outflow+part+of+right+ventricle
+		Cavity+of+outflow+part+of+right+ventricle
+		Outflow+part+proper+of+right+ventricle
+		Pulmonary+valve)
+	(part+of Right+ventricle)
+	(Preferred+name [KB_INSTANCE_04060])
+	(regional+part+of Right+ventricle)
+	(Synonym
+		[KB_INSTANCE_04061]
+		[KB_INSTANCE_04062]
+		[KB_INSTANCE_04063]
+		[fma_p2_Instance_7]))
+
+([Outflow+part+of+ventricle] of  Region+of+cardiac+chamber
+
+	(FMAID "13225")
+	(Preferred+name [KB_INSTANCE_14015])
+	(Synonym
+		[KB_INSTANCE_14016]
+		[KB_INSTANCE_14017]))
+
+([Outflow+part+proper+of+left+ventricle] of  Region+of+cardiac+chamber
+
+	(constitutional+part
+		Wall+of+outflow+part+of+left+ventricle
+		Cavity+of+outflow+part+of+left+ventricle)
+	(FMAID "62481")
+	(part+of Outflow+part+of+left+ventricle)
+	(Preferred+name [fm-live_12824]))
+
+([Outflow+part+proper+of+right+ventricle] of  Region+of+cardiac+chamber
+
+	(constitutional+part
+		Wall+of+outflow+part+of+right+ventricle
+		Cavity+of+outflow+part+of+right+ventricle)
+	(FMAID "23842")
+	(part+of Outflow+part+of+right+ventricle)
+	(Preferred+name [KB_INSTANCE_29927])
+	(Synonym [KB_INSTANCE_29928]))
+
+([output+to] of  Standard+FMA+slot
+
+	(FMAID "85872"))
+
+([Outside] of  Non-physical+anatomical+entity+template
+
+	(FMAID "67690")
+	(Preferred+name [fm_live_10298]))
+
+([Oval+window] of  Orifice
+
+	(FMAID "56913")
+	(Non-English+equivalent
+		[KB_INSTANCE_74538]
+		[KB_AUTO-INSERT%283%29_4415])
+	(Preferred+name [KB_INSTANCE_74537])
+	(Synonym
+		[KB_INSTANCE_74539]
+		[KB_INSTANCE_74540]))
+
+([Oval+window+of+petrous+part+of+left+temporal+bone] of  Oval+window
+
+	(FMAID "56926")
+	(Preferred+name [KB_INSTANCE_74561]))
+
+([Oval+window+of+petrous+part+of+right+temporal+bone] of  Oval+window
+
+	(FMAID "56919")
+	(Preferred+name [KB_INSTANCE_74548]))
+
+([Ovarian+artery] of  Systemic+artery
+
+	(branch+of Systemic+arterial+tree)
+	(FMAID "14761")
+	(Non-English+equivalent
+		[su_incus_37063]
+		[KB_AUTO-INSERT%283%29_2715])
+	(Preferred+name [KB_INSTANCE_16491])
+	(Synonym [KB_INSTANCE_16493]))
+
+([Ovarian+cortex] of  Cortex
+
+	(FMAID "18613")
+	(Non-English+equivalent
+		[su_incus_35936]
+		[KB_AUTO-INSERT%283%29_2088])
+	(part
+		Primary+follicle+of+ovary
+		Secondary+follicle+of+ovary
+		Tertiary+follicle+of+ovary
+		Atretic+follicle+of+ovary
+		Corpus+luteum
+		Stroma+of+ovarian+cortex)
+	(part+of Ovary)
+	(Preferred+name [KB_INSTANCE_23366])
+	(regional+part
+		Primary+follicle+of+ovary
+		Secondary+follicle+of+ovary
+		Tertiary+follicle+of+ovary
+		Atretic+follicle+of+ovary
+		Corpus+luteum
+		Stroma+of+ovarian+cortex)
+	(regional+part+of Ovary)
+	(Synonym
+		[KB_INSTANCE_23367]
+		[KB_INSTANCE_23368]))
+
+([Ovarian+fimbria+of+left+uterine+tube] of  Ovarian+fimbria+of+uterine+tube
+
+	(FMAID "18496")
+	(part+of Left+uterine+tube)
+	(Preferred+name [KB_INSTANCE_23050])
+	(regional+part+of Left+uterine+tube)
+	(Synonym
+		[KB_INSTANCE_23051]
+		[KB_INSTANCE_23052]
+		[KB_INSTANCE_23053]))
+
+([Ovarian+fimbria+of+right+uterine+tube] of  Ovarian+fimbria+of+uterine+tube
+
+	(FMAID "18495")
+	(part+of Right+uterine+tube)
+	(Preferred+name [KB_INSTANCE_23047])
+	(regional+part+of Right+uterine+tube)
+	(Synonym
+		[KB_INSTANCE_23048]
+		[KB_INSTANCE_23049]))
+
+([Ovarian+fimbria+of+uterine+tube] of  Zone+of+uterine+tube
+
+	(FMAID "18377")
+	(Non-English+equivalent
+		[KB_INSTANCE_22701]
+		[KB_AUTO-INSERT%283%29_2098])
+	(part+of Uterine+tube)
+	(Preferred+name [KB_INSTANCE_22700])
+	(regional+part+of Uterine+tube)
+	(Synonym
+		[KB_INSTANCE_22702]
+		[KB_INSTANCE_22703]
+		[su_incus_33269]))
+
+([Ovarian+fossa] of  Region+of+surface+of+peritoneal+sac
+
+	(FMAID "21030")
+	(Non-English+equivalent
+		[fm_live_26277]
+		[KB_AUTO-INSERT%283%29_2320])
+	(Preferred+name [KB_INSTANCE_26478]))
+
+([Ovarian+fossa+%28space%29] of  Anatomical+cavity
+
+	(FMAID "19753")
+	(Preferred+name [KB_INSTANCE_24935]))
+
+([Ovarian+ligament] of  Nonskeletal+ligament
+
+	(FMAID "55422")
+	(Non-English+equivalent
+		[su_incus_29255]
+		[su_incus_35536]
+		[KB_AUTO-INSERT%283%29_2094])
+	(Preferred+name [KB_INSTANCE_70606])
+	(Synonym
+		[KB_INSTANCE_70607]
+		[su_incus_25589]))
+
+([Ovarian+medulla] of  Medulla
+
+	(FMAID "18616")
+	(Non-English+equivalent
+		[su_incus_35937]
+		[KB_AUTO-INSERT%283%29_2089])
+	(part
+		Stroma+of+ovarian+medulla
+		Hilus+cell+of+ovary)
+	(part+of Ovary)
+	(Preferred+name [KB_INSTANCE_23373])
+	(regional+part
+		Stroma+of+ovarian+medulla
+		Hilus+cell+of+ovary)
+	(regional+part+of Ovary)
+	(Synonym
+		[KB_INSTANCE_23374]
+		[KB_INSTANCE_23375]))
+
+([Ovarian+nerve+plexus] of  Autonomic+nerve+plexus
+
+	(FMAID "6638")
+	(Non-English+equivalent
+		[su_incus_38498]
+		[KB_INSTANCE_02920]
+		[KB_AUTO-INSERT%283%29_4197])
+	(Preferred+name [KB_INSTANCE_02919])
+	(Synonym [su_incus_24085]))
+
+([Ovarian+part+of+left+uterine+artery] of  Systemic+artery
+
+	(branch+of Left+uterine+artery)
+	(FMAID "21106")
+	(Preferred+name [KB_INSTANCE_26562]))
+
+([Ovarian+part+of+right+uterine+artery] of  Systemic+artery
+
+	(branch+of Right+uterine+artery)
+	(FMAID "21105")
+	(Preferred+name [KB_INSTANCE_26561]))
+
+([Ovarian+part+of+uterine+artery] of  Systemic+artery
+
+	(branch+of Uterine+artery)
+	(FMAID "21104")
+	(Preferred+name [KB_INSTANCE_26559]))
+
+([Ovarian+stroma] of  Stroma
+
+	(constitutional+part+of Ovary)
+	(FMAID "18626")
+	(Non-English+equivalent
+		[su_incus_35939]
+		[KB_AUTO-INSERT%283%29_2087])
+	(part
+		Interstitial+gland+of+ovary
+		Hilus+cell+of+ovary)
+	(part+of Ovary)
+	(Preferred+name [KB_INSTANCE_23389])
+	(regional+part
+		Interstitial+gland+of+ovary
+		Hilus+cell+of+ovary)
+	(Synonym
+		[KB_INSTANCE_23390]
+		[KB_INSTANCE_23391]))
+
+([Ovarian+vein] of  Vein
+
+	(FMAID "14346")
+	(Preferred+name [KB_INSTANCE_15770])
+	(tributary+of Inferior+vena+cava))
+
+([Ovary] of  Corticomedullary+organ
+
+	(bounded+by Surface+of+ovary)
+	(constitutional+part
+		Capsule+of+ovary
+		Ovarian+stroma)
+	(FMAID "7209")
+	(Non-English+equivalent
+		[su_incus_35327]
+		[KB_AUTO-INSERT%283%29_2085]
+		[ONARD_Instance_580041]
+		[ONARD_Instance_580468])
+	(part
+		Capsule+of+ovary
+		Ovarian+cortex
+		Ovarian+medulla
+		Hilum+of+ovary
+		Ovarian+stroma)
+	(part+of Pelvis)
+	(Preferred+name [KB_INSTANCE_04046])
+	(regional+part
+		Ovarian+cortex
+		Ovarian+medulla
+		Hilum+of+ovary)
+	(systemic+part+of Endocrine+system))
+
+([Ovoid] of  Dimensional+entity+template
+
+	(FMAID "50599")
+	(Preferred+name [KB_INSTANCE_63869]))
+
+([Ovum] of  Oocyte
+
+	(chromosome+pair+number [fm_live_12645])
+	(FMAID "67343")
+	(Preferred+name [fm-live_09571])
+	(Synonym
+		[fm-live_09572]
+		[fm_live_12652]
+		[fm_live_30077]
+		[fm_live_30078]
+		[fm_live_30079]))
+
+([oxygen+partial+pressure+%28mmHg%29] of  Standard+FMA+slot
+
+	(FMAID "85979"))
+
+([Oxyntic+cell] of  Epithelial+cell+of+stomach
+
+	(FMAID "62901")
+	(part+of
+		Epithelium+of+pyloric+gland
+		Epithelium+of+principal+gastric+gland
+		Epithelium+of+gastric+gland)
+	(Preferred+name [FM_live_00871])
+	(regional+part+of
+		Epithelium+of+gastric+gland
+		Epithelium+of+principal+gastric+gland
+		Epithelium+of+pyloric+gland)
+	(Synonym
+		[FM_live_01239]
+		[fm_live_29725]
+		[fma_p2_Instance_980016]))
+
+([Oxyphil+cell] of  General+anatomical+term+template
+
+	(FMAID "86658")
+	(Preferred+name [fma_p2_Instance_980001]))
+
+([Oxyphil+cell+of+parathyroid+gland] of  Epithelial+cell+of+parathyroid+gland
+
+	(FMAID "69084")
+	(part
+		Plasma+membrane
+		Protoplasm)
+	(part+of
+		Parenchyma+of+superior+parathyroid+gland
+		Parenchyma+of+parathyroid+gland)
+	(Preferred+name [FM_live_02774])
+	(regional+part
+		Plasma+membrane
+		Protoplasm)
+	(regional+part+of
+		Parenchyma+of+parathyroid+gland
+		Parenchyma+of+superior+parathyroid+gland)
+	(Synonym
+		[FM_live_02775]
+		[FM_live_02776]
+		[FM_live_02777]
+		[fma_p2_Instance_980015]))
+
+([Oxyphil+cell+of+thyroid] of  Endo-epithelial+cell
+
+	(FMAID "87169")
+	(Preferred+name [fma_p2_Instance_1040006])
+	(Synonym [fma_p2_Instance_1040007]))
+
+([Oxytocin] of  Biogenic+peptide
+
+	(dimension 3-dimension)
+	(FMAID "74647")
+	(Preferred+name [FM_live_08867]))
+

@@ -1,0 +1,1947 @@
+([Jaw] of  Organ+subdivision+cluster
+
+	(FMAID "54396")
+	(Non-English+equivalent [ONARD_Instance_580249])
+	(Preferred+name [KB_INSTANCE_69053]))
+
+([Jejunal+artery] of  Systemic+artery
+
+	(branch+of Superior+mesenteric+artery)
+	(FMAID "14808")
+	(Preferred+name [KB_INSTANCE_16589])
+	(regional+part+of Superior+mesenteric+artery)
+	(Synonym [KB_INSTANCE_16590]))
+
+([Jejunal+epithelium] of  Epithelium+of+region+of+small+intestine
+
+	(FMAID "17232")
+	(part
+		Epithelium+proper+of+jejunum
+		Epithelium+of+crypt+of+Lieberkuhn+of+small+intestine)
+	(part+of Intestinal+villus+of+jejunum)
+	(Preferred+name [FM_live_02338])
+	(regional+part
+		Epithelium+proper+of+jejunum
+		Epithelium+of+crypt+of+Lieberkuhn+of+small+intestine)
+	(regional+part+of Intestinal+villus+of+jejunum))
+
+([Jejunal+vein] of  Vein
+
+	(FMAID "15402")
+	(part+of Superior+mesenteric+vein)
+	(Preferred+name [KB_INSTANCE_17537])
+	(tributary+of Superior+mesenteric+vein))
+
+([Jejunum] of  Zone+of+small+intestine
+
+	(attributed+part
+		[FM_live_04269]
+		[FM_live_04270]
+		[FM_live_04271]
+		[FM_live_04272]
+		[FM_live_04273])
+	(constitutional+part
+		Wall+of+jejunum
+		Lumen+of+jejunum)
+	(develops+from Midgut)
+	(FMAID "7207")
+	(Non-English+equivalent
+		[KB_AUTO-INSERT%283%29_1683]
+		[ONARD_Instance_580135])
+	(part
+		Wall+of+jejunum
+		Lumen+of+jejunum
+		Proximal+part+of+jejunum
+		Middle+part+of+jejunum
+		Distal+part+of+jejunum)
+	(part+of
+		Small+intestine
+		Midgut
+		Lower+gastrointestinal+tract
+		Gastrointestinal+system)
+	(Preferred+name [KB_INSTANCE_04044])
+	(regional+part
+		Proximal+part+of+jejunum
+		Middle+part+of+jejunum
+		Distal+part+of+jejunum)
+	(regional+part+of
+		Gastrointestinal+system
+		Lower+gastrointestinal+tract
+		Small+intestine))
+
+([Jess+engine] of  %3AJESS-ENGINE
+)
+
+([Joint] of  Heterogeneous+cluster
+
+	(definition "Heterogeneous cluster which consists of two or more adjacent bones or cartilages, parts of  which are interconnected by organ parts that consist of various types of connective tissue. Together with other joints and bones, a joint constitutes the skeletal system. Examples: pubic symphysis, knee joint, temporomandibular joint.")
+	(FMAID "7490")
+	(Non-English+equivalent
+		[su_incus_38560]
+		[KB_AUTO-INSERT%283%29_171])
+	(Preferred+name [KB_INSTANCE_04713]))
+
+([Joint+cavity] of  Anatomical+compartment
+
+	(definition "Compartment which is surrounded by the articular capsule and contains all intra-articular structures including the synovial capsule and the synovial cavity of joint. Examples: Joint cavity of knee, joint cavity of shoulder.")
+	(FMAID "7939")
+	(Preferred+name [KB_INSTANCE_05361]))
+
+([Joint+movement] of  Non-physical+anatomical+entity+template
+
+	(FMAID "23139")
+	(Preferred+name [fm_live_12919]))
+
+([Joint+of+auditory+ossicles] of  Cranial+synovial+joint
+
+	(FMAID "60063")
+	(Preferred+name [KB_INSTANCE_79248])
+	(Synonym [KB_AUTO-INSERT2_8732]))
+
+([Joint+of+cervical+vertebral+column] of  Joint+of+principal+body+part
+
+	(FMAID "25064")
+	(Preferred+name [KB_INSTANCE_31479])
+	(Synonym
+		[FM_live_05695]
+		[KB_AUTO-INSERT2_8774]))
+
+([Joint+of+foot] of  Synovial+joint
+
+	(FMAID "35194")
+	(Preferred+name [KB_INSTANCE_44785])
+	(Synonym [KB_AUTO-INSERT2_8731]))
+
+([Joint+of+free+lower+limb] of  Joint+of+lower+limb
+
+	(FMAID "35174")
+	(Preferred+name [KB_INSTANCE_44759])
+	(Synonym [KB_AUTO-INSERT2_8784]))
+
+([Joint+of+free+upper+limb] of  Joint+of+upper+limb
+
+	(FMAID "35244")
+	(Preferred+name [KB_INSTANCE_44865])
+	(Synonym [KB_AUTO-INSERT2_8782]))
+
+([Joint+of+hand] of  Synovial+joint
+
+	(FMAID "35245")
+	(Preferred+name [KB_INSTANCE_44866])
+	(Synonym [KB_AUTO-INSERT2_8730]))
+
+([Joint+of+head] of  Joint+of+principal+body+part
+
+	(FMAID "47981")
+	(Preferred+name [fm-live_00105])
+	(Synonym [KB_AUTO-INSERT2_8770]))
+
+([Joint+of+head+of+eighth+rib] of  Joint+of+head+of+rib
+
+	(FMAID "8942")
+	(part
+		Articular+capsule+of+joint+of+head+of+eighth+rib
+		Intra-articular+ligament+of+head+of+eighth+rib
+		Radiate+ligament+of+head+of+eighth+rib
+		Costal+facet+of+body+of+eighth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Articular+facet+of+head+of+eighth+rib
+		Superior+articular+facet+of+head+of+eighth+rib
+		Inferior+articular+facet+of+head+of+eighth+rib
+		Cavity+of+joint+of+head+of+eighth+rib)
+	(Preferred+name [KB_INSTANCE_07168])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+eighth+rib
+		Intra-articular+ligament+of+head+of+eighth+rib
+		Radiate+ligament+of+head+of+eighth+rib
+		Costal+facet+of+body+of+eighth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Articular+facet+of+head+of+eighth+rib
+		Superior+articular+facet+of+head+of+eighth+rib
+		Inferior+articular+facet+of+head+of+eighth+rib
+		Cavity+of+joint+of+head+of+eighth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07167]
+		[KB_AUTO-INSERT2_8741]
+		[KB_INSTANCE_07166])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+eighth+rib
+		Intra-articular+ligament+of+head+of+eighth+rib
+		Radiate+ligament+of+head+of+eighth+rib
+		Costal+facet+of+body+of+eighth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Articular+facet+of+head+of+eighth+rib
+		Superior+articular+facet+of+head+of+eighth+rib
+		Inferior+articular+facet+of+head+of+eighth+rib
+		Cavity+of+joint+of+head+of+eighth+rib))
+
+([Joint+of+head+of+eleventh+rib] of  Joint+of+head+of+rib
+
+	(FMAID "8951")
+	(part
+		Articular+capsule+of+joint+of+head+of+eleventh+rib
+		Radiate+ligament+of+head+of+eleventh+rib
+		Costal+facet+of+body+of+eleventh+thoracic+vertebra
+		Articular+facet+of+head+of+eleventh+rib
+		Cavity+of+joint+of+head+of+eleventh+rib)
+	(Preferred+name [KB_INSTANCE_07195])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+eleventh+rib
+		Radiate+ligament+of+head+of+eleventh+rib
+		Costal+facet+of+body+of+eleventh+thoracic+vertebra
+		Articular+facet+of+head+of+eleventh+rib
+		Cavity+of+joint+of+head+of+eleventh+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07194]
+		[KB_AUTO-INSERT2_8744]
+		[KB_INSTANCE_07193])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+eleventh+rib
+		Radiate+ligament+of+head+of+eleventh+rib
+		Costal+facet+of+body+of+eleventh+thoracic+vertebra
+		Articular+facet+of+head+of+eleventh+rib
+		Cavity+of+joint+of+head+of+eleventh+rib))
+
+([Joint+of+head+of+fifth+rib] of  Joint+of+head+of+rib
+
+	(FMAID "8933")
+	(part
+		Articular+capsule+of+joint+of+head+of+fifth+rib
+		Intra-articular+ligament+of+head+of+fifth+rib
+		Radiate+ligament+of+head+of+fifth+rib
+		Costal+facet+of+body+of+fifth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Articular+facet+of+head+of+fifth+rib
+		Superior+articular+facet+of+head+of+fifth+rib
+		Inferior+articular+facet+of+head+of+fifth+rib
+		Cavity+of+joint+of+head+of+first+rib)
+	(Preferred+name [KB_INSTANCE_07141])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+fifth+rib
+		Intra-articular+ligament+of+head+of+fifth+rib
+		Radiate+ligament+of+head+of+fifth+rib
+		Costal+facet+of+body+of+fifth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Articular+facet+of+head+of+fifth+rib
+		Superior+articular+facet+of+head+of+fifth+rib
+		Inferior+articular+facet+of+head+of+fifth+rib
+		Cavity+of+joint+of+head+of+first+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07140]
+		[KB_AUTO-INSERT2_8738]
+		[KB_INSTANCE_07139])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+fifth+rib
+		Intra-articular+ligament+of+head+of+fifth+rib
+		Radiate+ligament+of+head+of+fifth+rib
+		Costal+facet+of+body+of+fifth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Articular+facet+of+head+of+fifth+rib
+		Superior+articular+facet+of+head+of+fifth+rib
+		Inferior+articular+facet+of+head+of+fifth+rib
+		Cavity+of+joint+of+head+of+first+rib))
+
+([Joint+of+head+of+first+rib] of  Joint+of+head+of+rib
+
+	(FMAID "7984")
+	(part
+		Articular+capsule+of+joint+of+head+of+first+rib
+		Radiate+ligament+of+head+of+first+rib
+		Costal+facet+of+body+of+first+thoracic+vertebra
+		Superior+costal+facet+of+body+of+first+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+first+thoracic+vertebra
+		Articular+facet+of+head+of+first+rib
+		Cavity+of+joint+of+head+of+first+rib)
+	(Preferred+name [KB_INSTANCE_05420])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+first+rib
+		Radiate+ligament+of+head+of+first+rib
+		Costal+facet+of+body+of+first+thoracic+vertebra
+		Superior+costal+facet+of+body+of+first+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+first+thoracic+vertebra
+		Articular+facet+of+head+of+first+rib
+		Cavity+of+joint+of+head+of+first+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_05419]
+		[KB_AUTO-INSERT2_8734]
+		[KB_INSTANCE_05418])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+first+rib
+		Radiate+ligament+of+head+of+first+rib
+		Costal+facet+of+body+of+first+thoracic+vertebra
+		Superior+costal+facet+of+body+of+first+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+first+thoracic+vertebra
+		Articular+facet+of+head+of+first+rib
+		Cavity+of+joint+of+head+of+first+rib))
+
+([Joint+of+head+of+fourth+rib] of  Joint+of+head+of+rib
+
+	(FMAID "8930")
+	(part
+		Articular+capsule+of+joint+of+head+of+fourth+rib
+		Intra-articular+ligament+of+head+of+fourth+rib
+		Radiate+ligament+of+head+of+fourth+rib
+		Costal+facet+of+body+of+fourth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Articular+facet+of+head+of+fourth+rib
+		Superior+articular+facet+of+head+of+fourth+rib
+		Inferior+articular+facet+of+head+of+fourth+rib
+		Cavity+of+joint+of+head+of+fourth+rib)
+	(Preferred+name [KB_INSTANCE_07132])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+fourth+rib
+		Intra-articular+ligament+of+head+of+fourth+rib
+		Radiate+ligament+of+head+of+fourth+rib
+		Costal+facet+of+body+of+fourth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Articular+facet+of+head+of+fourth+rib
+		Superior+articular+facet+of+head+of+fourth+rib
+		Inferior+articular+facet+of+head+of+fourth+rib
+		Cavity+of+joint+of+head+of+fourth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07131]
+		[KB_AUTO-INSERT2_8737]
+		[KB_INSTANCE_07130])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+fourth+rib
+		Intra-articular+ligament+of+head+of+fourth+rib
+		Radiate+ligament+of+head+of+fourth+rib
+		Costal+facet+of+body+of+fourth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Articular+facet+of+head+of+fourth+rib
+		Superior+articular+facet+of+head+of+fourth+rib
+		Inferior+articular+facet+of+head+of+fourth+rib
+		Cavity+of+joint+of+head+of+fourth+rib))
+
+([Joint+of+head+of+left+eighth+rib] of  Joint+of+head+of+eighth+rib
+
+	(FMAID "8944")
+	(part
+		Articular+capsule+of+joint+of+head+of+left+eighth+rib
+		Intra-articular+ligament+of+head+of+left+eighth+rib
+		Radiate+ligament+of+head+of+left+eighth+rib
+		Left+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Articular+facet+of+head+of+left+eighth+rib
+		Superior+articular+facet+of+head+of+left+eighth+rib
+		Inferior+articular+facet+of+head+of+left+eighth+rib
+		Cavity+of+joint+of+head+of+left+eighth+rib)
+	(Preferred+name [KB_INSTANCE_07173])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+left+eighth+rib
+		Intra-articular+ligament+of+head+of+left+eighth+rib
+		Radiate+ligament+of+head+of+left+eighth+rib
+		Left+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Articular+facet+of+head+of+left+eighth+rib
+		Superior+articular+facet+of+head+of+left+eighth+rib
+		Inferior+articular+facet+of+head+of+left+eighth+rib
+		Cavity+of+joint+of+head+of+left+eighth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07174]
+		[KB_AUTO-INSERT2_8761]
+		[KB_INSTANCE_07172])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+left+eighth+rib
+		Intra-articular+ligament+of+head+of+left+eighth+rib
+		Radiate+ligament+of+head+of+left+eighth+rib
+		Left+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Articular+facet+of+head+of+left+eighth+rib
+		Superior+articular+facet+of+head+of+left+eighth+rib
+		Inferior+articular+facet+of+head+of+left+eighth+rib
+		Cavity+of+joint+of+head+of+left+eighth+rib))
+
+([Joint+of+head+of+left+eleventh+rib] of  Joint+of+head+of+eleventh+rib
+
+	(FMAID "8953")
+	(part
+		Articular+capsule+of+joint+of+left+eleventh+costal+head
+		Radiate+ligament+of+head+of+left+eleventh+rib
+		Left+costal+facet+of+body+of+eleventh+thoracic+vertebra
+		Articular+facet+of+head+of+left+eleventh+rib
+		Cavity+of+joint+of+head+of+left+eleventh+rib)
+	(Preferred+name [KB_INSTANCE_07200])
+	(regional+part
+		Articular+capsule+of+joint+of+left+eleventh+costal+head
+		Radiate+ligament+of+head+of+left+eleventh+rib
+		Left+costal+facet+of+body+of+eleventh+thoracic+vertebra
+		Articular+facet+of+head+of+left+eleventh+rib
+		Cavity+of+joint+of+head+of+left+eleventh+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07201]
+		[KB_AUTO-INSERT2_8767]
+		[KB_INSTANCE_07199])
+	(systemic+part
+		Articular+capsule+of+joint+of+left+eleventh+costal+head
+		Radiate+ligament+of+head+of+left+eleventh+rib
+		Left+costal+facet+of+body+of+eleventh+thoracic+vertebra
+		Articular+facet+of+head+of+left+eleventh+rib
+		Cavity+of+joint+of+head+of+left+eleventh+rib))
+
+([Joint+of+head+of+left+fifth+rib] of  Joint+of+head+of+fifth+rib
+
+	(FMAID "8935")
+	(part
+		Articular+capsule+of+joint+of+head+of+left+fifth+rib
+		Intra-articular+ligament+of+head+of+left+fifth+rib
+		Radiate+ligament+of+head+of+left+fifth+rib
+		Left+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Articular+facet+of+head+of+left+fifth+rib
+		Superior+articular+facet+of+head+of+left+fifth+rib
+		Inferior+articular+facet+of+head+of+left+fifth+rib
+		Cavity+of+joint+of+head+of+left+fifth+rib)
+	(Preferred+name [KB_INSTANCE_07146])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+left+fifth+rib
+		Intra-articular+ligament+of+head+of+left+fifth+rib
+		Radiate+ligament+of+head+of+left+fifth+rib
+		Left+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Articular+facet+of+head+of+left+fifth+rib
+		Superior+articular+facet+of+head+of+left+fifth+rib
+		Inferior+articular+facet+of+head+of+left+fifth+rib
+		Cavity+of+joint+of+head+of+left+fifth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07147]
+		[KB_AUTO-INSERT2_8755]
+		[KB_INSTANCE_07145])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+left+fifth+rib
+		Intra-articular+ligament+of+head+of+left+fifth+rib
+		Radiate+ligament+of+head+of+left+fifth+rib
+		Left+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Articular+facet+of+head+of+left+fifth+rib
+		Superior+articular+facet+of+head+of+left+fifth+rib
+		Inferior+articular+facet+of+head+of+left+fifth+rib
+		Cavity+of+joint+of+head+of+left+fifth+rib))
+
+([Joint+of+head+of+left+first+rib] of  Joint+of+head+of+first+rib
+
+	(FMAID "7986")
+	(part
+		Articular+capsule+of+joint+of+head+of+left+first+rib
+		Radiate+ligament+of+head+of+left+first+rib
+		Left+costal+facet+of+body+of+first+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+first+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+first+thoracic+vertebra
+		Articular+facet+of+head+of+left+first+rib
+		Cavity+of+joint+of+head+of+left+first+rib)
+	(Preferred+name [KB_INSTANCE_05425])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+left+first+rib
+		Radiate+ligament+of+head+of+left+first+rib
+		Left+costal+facet+of+body+of+first+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+first+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+first+thoracic+vertebra
+		Articular+facet+of+head+of+left+first+rib
+		Cavity+of+joint+of+head+of+left+first+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_05426]
+		[KB_AUTO-INSERT2_8747]
+		[KB_INSTANCE_05424])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+left+first+rib
+		Radiate+ligament+of+head+of+left+first+rib
+		Left+costal+facet+of+body+of+first+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+first+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+first+thoracic+vertebra
+		Articular+facet+of+head+of+left+first+rib
+		Cavity+of+joint+of+head+of+left+first+rib))
+
+([Joint+of+head+of+left+fourth+rib] of  Joint+of+head+of+fourth+rib
+
+	(FMAID "8932")
+	(part
+		Articular+capsule+of+joint+of+head+of+left+fourth+rib
+		Intra-articular+ligament+of+head+of+left+fourth+rib
+		Radiate+ligament+of+head+of+left+fourth+rib
+		Left+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Articular+facet+of+head+of+left+fourth+rib
+		Superior+articular+facet+of+head+of+left+fourth+rib
+		Inferior+articular+facet+of+head+of+left+fourth+rib
+		Cavity+of+joint+of+head+of+left+fourth+rib)
+	(Preferred+name [KB_INSTANCE_07137])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+left+fourth+rib
+		Intra-articular+ligament+of+head+of+left+fourth+rib
+		Radiate+ligament+of+head+of+left+fourth+rib
+		Left+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Articular+facet+of+head+of+left+fourth+rib
+		Superior+articular+facet+of+head+of+left+fourth+rib
+		Inferior+articular+facet+of+head+of+left+fourth+rib
+		Cavity+of+joint+of+head+of+left+fourth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07138]
+		[KB_AUTO-INSERT2_8753]
+		[KB_INSTANCE_07136])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+left+fourth+rib
+		Intra-articular+ligament+of+head+of+left+fourth+rib
+		Radiate+ligament+of+head+of+left+fourth+rib
+		Left+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Articular+facet+of+head+of+left+fourth+rib
+		Superior+articular+facet+of+head+of+left+fourth+rib
+		Inferior+articular+facet+of+head+of+left+fourth+rib
+		Cavity+of+joint+of+head+of+left+fourth+rib))
+
+([Joint+of+head+of+left+ninth+rib] of  Joint+of+head+of+ninth+rib
+
+	(FMAID "8947")
+	(part
+		Articular+capsule+of+joint+of+head+of+left+ninth+rib
+		Intra-articular+ligament+of+head+of+left+ninth+rib
+		Radiate+ligament+of+head+of+left+ninth+rib
+		Left+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Articular+facet+of+head+of+left+ninth+rib
+		Superior+articular+facet+of+head+of+left+ninth+rib
+		Inferior+articular+facet+of+head+of+left+ninth+rib
+		Cavity+of+joint+of+head+of+left+ninth+rib)
+	(Preferred+name [KB_INSTANCE_07182])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+left+ninth+rib
+		Intra-articular+ligament+of+head+of+left+ninth+rib
+		Radiate+ligament+of+head+of+left+ninth+rib
+		Left+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Articular+facet+of+head+of+left+ninth+rib
+		Superior+articular+facet+of+head+of+left+ninth+rib
+		Inferior+articular+facet+of+head+of+left+ninth+rib
+		Cavity+of+joint+of+head+of+left+ninth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07183]
+		[KB_AUTO-INSERT2_8763]
+		[KB_INSTANCE_07181])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+left+ninth+rib
+		Intra-articular+ligament+of+head+of+left+ninth+rib
+		Radiate+ligament+of+head+of+left+ninth+rib
+		Left+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Articular+facet+of+head+of+left+ninth+rib
+		Superior+articular+facet+of+head+of+left+ninth+rib
+		Inferior+articular+facet+of+head+of+left+ninth+rib
+		Cavity+of+joint+of+head+of+left+ninth+rib))
+
+([Joint+of+head+of+left+second+rib] of  Joint+of+head+of+second+rib
+
+	(FMAID "8926")
+	(part
+		Articular+capsule+of+joint+of+head+of+left+second+rib
+		Intra-articular+ligament+of+head+of+left+second+rib
+		Radiate+ligament+of+head+of+left+second+rib
+		Left+costal+facet+of+body+of+second+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+second+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+second+thoracic+vertebra
+		Articular+facet+of+head+of+left+second+rib
+		Superior+articular+facet+of+head+of+left+second+rib
+		Inferior+articular+facet+of+head+of+left+second+rib
+		Cavity+of+joint+of+head+of+left+second+rib)
+	(Preferred+name [KB_INSTANCE_07119])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+left+second+rib
+		Intra-articular+ligament+of+head+of+left+second+rib
+		Radiate+ligament+of+head+of+left+second+rib
+		Left+costal+facet+of+body+of+second+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+second+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+second+thoracic+vertebra
+		Articular+facet+of+head+of+left+second+rib
+		Superior+articular+facet+of+head+of+left+second+rib
+		Inferior+articular+facet+of+head+of+left+second+rib
+		Cavity+of+joint+of+head+of+left+second+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07120]
+		[KB_AUTO-INSERT2_8749]
+		[KB_INSTANCE_07118])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+left+second+rib
+		Intra-articular+ligament+of+head+of+left+second+rib
+		Radiate+ligament+of+head+of+left+second+rib
+		Left+costal+facet+of+body+of+second+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+second+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+second+thoracic+vertebra
+		Articular+facet+of+head+of+left+second+rib
+		Superior+articular+facet+of+head+of+left+second+rib
+		Inferior+articular+facet+of+head+of+left+second+rib
+		Cavity+of+joint+of+head+of+left+second+rib))
+
+([Joint+of+head+of+left+seventh+rib] of  Joint+of+head+of+seventh+rib
+
+	(FMAID "8941")
+	(part
+		Articular+capsule+of+joint+of+head+of+left+seventh+rib
+		Intra-articular+ligament+of+head+of+left+seventh+rib
+		Radiate+ligament+of+head+of+left+seventh+rib
+		Left+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Articular+facet+of+head+of+left+seventh+rib
+		Superior+articular+facet+of+head+of+left+seventh+rib
+		Inferior+articular+facet+of+head+of+left+seventh+rib
+		Cavity+of+joint+of+head+of+left+seventh+rib)
+	(Preferred+name [KB_INSTANCE_07164])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+left+seventh+rib
+		Intra-articular+ligament+of+head+of+left+seventh+rib
+		Radiate+ligament+of+head+of+left+seventh+rib
+		Left+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Articular+facet+of+head+of+left+seventh+rib
+		Superior+articular+facet+of+head+of+left+seventh+rib
+		Inferior+articular+facet+of+head+of+left+seventh+rib
+		Cavity+of+joint+of+head+of+left+seventh+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07165]
+		[KB_AUTO-INSERT2_8759]
+		[KB_INSTANCE_07163])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+left+seventh+rib
+		Intra-articular+ligament+of+head+of+left+seventh+rib
+		Radiate+ligament+of+head+of+left+seventh+rib
+		Left+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Articular+facet+of+head+of+left+seventh+rib
+		Superior+articular+facet+of+head+of+left+seventh+rib
+		Inferior+articular+facet+of+head+of+left+seventh+rib
+		Cavity+of+joint+of+head+of+left+seventh+rib))
+
+([Joint+of+head+of+left+sixth+rib] of  Joint+of+head+of+sixth+rib
+
+	(FMAID "8938")
+	(part
+		Articular+capsule+of+joint+of+head+of+left+sixth+rib
+		Intra-articular+ligament+of+head+of+left+sixth+rib
+		Radiate+ligament+of+head+of+left+sixth+rib
+		Left+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Articular+facet+of+head+of+left+sixth+rib
+		Superior+articular+facet+of+head+of+left+sixth+rib
+		Inferior+articular+facet+of+head+of+left+sixth+rib
+		Cavity+of+joint+of+head+of+left+sixth+rib)
+	(Preferred+name [KB_INSTANCE_07155])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+left+sixth+rib
+		Intra-articular+ligament+of+head+of+left+sixth+rib
+		Radiate+ligament+of+head+of+left+sixth+rib
+		Left+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Articular+facet+of+head+of+left+sixth+rib
+		Superior+articular+facet+of+head+of+left+sixth+rib
+		Inferior+articular+facet+of+head+of+left+sixth+rib
+		Cavity+of+joint+of+head+of+left+sixth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07156]
+		[KB_AUTO-INSERT2_8757]
+		[KB_INSTANCE_07154])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+left+sixth+rib
+		Intra-articular+ligament+of+head+of+left+sixth+rib
+		Radiate+ligament+of+head+of+left+sixth+rib
+		Left+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Articular+facet+of+head+of+left+sixth+rib
+		Superior+articular+facet+of+head+of+left+sixth+rib
+		Inferior+articular+facet+of+head+of+left+sixth+rib
+		Cavity+of+joint+of+head+of+left+sixth+rib))
+
+([Joint+of+head+of+left+tenth+rib] of  Joint+of+head+of+tenth+rib
+
+	(FMAID "8950")
+	(part
+		Articular+capsule+of+joint+of+head+of+left+tenth+rib
+		Radiate+ligament+of+head+of+left+tenth+rib
+		Left+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Articular+facet+of+head+of+left+tenth+rib
+		Cavity+of+joint+of+left+tenth+costal+head)
+	(Preferred+name [KB_INSTANCE_07191])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+left+tenth+rib
+		Radiate+ligament+of+head+of+left+tenth+rib
+		Left+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Articular+facet+of+head+of+left+tenth+rib
+		Cavity+of+joint+of+left+tenth+costal+head)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07192]
+		[KB_AUTO-INSERT2_8765]
+		[KB_INSTANCE_07190])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+left+tenth+rib
+		Radiate+ligament+of+head+of+left+tenth+rib
+		Left+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Articular+facet+of+head+of+left+tenth+rib
+		Cavity+of+joint+of+left+tenth+costal+head))
+
+([Joint+of+head+of+left+third+rib] of  Joint+of+head+of+third+rib
+
+	(FMAID "8929")
+	(part
+		Articular+capsule+of+joint+of+head+of+left+third+rib
+		Intra-articular+ligament+of+head+of+left+third+rib
+		Radiate+ligament+of+head+of+left+third+rib
+		Left+costal+facet+of+body+of+third+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+third+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+third+thoracic+vertebra
+		Articular+facet+of+head+of+left+third+rib
+		Superior+articular+facet+of+head+of+left+third+rib
+		Inferior+articular+facet+of+head+of+left+third+rib
+		Cavity+of+joint+of+head+of+left+third+rib)
+	(Preferred+name [KB_INSTANCE_07128])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+left+third+rib
+		Intra-articular+ligament+of+head+of+left+third+rib
+		Radiate+ligament+of+head+of+left+third+rib
+		Left+costal+facet+of+body+of+third+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+third+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+third+thoracic+vertebra
+		Articular+facet+of+head+of+left+third+rib
+		Superior+articular+facet+of+head+of+left+third+rib
+		Inferior+articular+facet+of+head+of+left+third+rib
+		Cavity+of+joint+of+head+of+left+third+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07129]
+		[KB_AUTO-INSERT2_8751]
+		[KB_INSTANCE_07127])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+left+third+rib
+		Intra-articular+ligament+of+head+of+left+third+rib
+		Radiate+ligament+of+head+of+left+third+rib
+		Left+costal+facet+of+body+of+third+thoracic+vertebra
+		Left+superior+costal+facet+of+body+of+third+thoracic+vertebra
+		Left+inferior+costal+facet+of+body+of+third+thoracic+vertebra
+		Articular+facet+of+head+of+left+third+rib
+		Superior+articular+facet+of+head+of+left+third+rib
+		Inferior+articular+facet+of+head+of+left+third+rib
+		Cavity+of+joint+of+head+of+left+third+rib))
+
+([Joint+of+head+of+left+twelfth+rib] of  Joint+of+head+of+twelfth+rib
+
+	(FMAID "8956")
+	(part
+		Articular+capsule+of+joint+of+head+of+left+twelfth+rib
+		Radiate+ligament+of+head+of+left+twelfth+rib
+		Left+costal+facet+of+body+of+twelfth+thoracic+vertebra
+		Articular+facet+of+head+of+left+twelfth+rib
+		Cavity+of+joint+of+head+of+left+twelfth+rib)
+	(Preferred+name [KB_INSTANCE_07209])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+left+twelfth+rib
+		Radiate+ligament+of+head+of+left+twelfth+rib
+		Left+costal+facet+of+body+of+twelfth+thoracic+vertebra
+		Articular+facet+of+head+of+left+twelfth+rib
+		Cavity+of+joint+of+head+of+left+twelfth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07210]
+		[KB_AUTO-INSERT2_8769]
+		[KB_INSTANCE_07208])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+left+twelfth+rib
+		Radiate+ligament+of+head+of+left+twelfth+rib
+		Left+costal+facet+of+body+of+twelfth+thoracic+vertebra
+		Articular+facet+of+head+of+left+twelfth+rib
+		Cavity+of+joint+of+head+of+left+twelfth+rib))
+
+([Joint+of+head+of+ninth+rib] of  Joint+of+head+of+rib
+
+	(FMAID "8945")
+	(part
+		Articular+capsule+of+joint+of+head+of+ninth+rib
+		Intra-articular+ligament+of+head+of+ninth+rib
+		Radiate+ligament+of+head+of+ninth+rib
+		Costal+facet+of+body+of+ninth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Articular+facet+of+head+of+ninth+rib
+		Superior+articular+facet+of+head+of+ninth+rib
+		Inferior+articular+facet+of+head+of+ninth+rib
+		Cavity+of+joint+of+head+of+ninth+rib)
+	(Preferred+name [KB_INSTANCE_07176])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+ninth+rib
+		Intra-articular+ligament+of+head+of+ninth+rib
+		Radiate+ligament+of+head+of+ninth+rib
+		Costal+facet+of+body+of+ninth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Articular+facet+of+head+of+ninth+rib
+		Superior+articular+facet+of+head+of+ninth+rib
+		Inferior+articular+facet+of+head+of+ninth+rib
+		Cavity+of+joint+of+head+of+ninth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07177]
+		[KB_AUTO-INSERT2_8742]
+		[KB_INSTANCE_07175])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+ninth+rib
+		Intra-articular+ligament+of+head+of+ninth+rib
+		Radiate+ligament+of+head+of+ninth+rib
+		Costal+facet+of+body+of+ninth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Articular+facet+of+head+of+ninth+rib
+		Superior+articular+facet+of+head+of+ninth+rib
+		Inferior+articular+facet+of+head+of+ninth+rib
+		Cavity+of+joint+of+head+of+ninth+rib))
+
+([Joint+of+head+of+rib] of  Costovertebral+joint+%28class%29
+
+	(FMAID "7951")
+	(Non-English+equivalent
+		[KB_INSTANCE_05373]
+		[KB_AUTO-INSERT%283%29_836])
+	(part
+		Articular+capsule+of+joint+of+head+of+rib
+		Intra-articular+ligament+of+head+of+rib
+		Radiate+ligament+of+head+of+rib
+		Costal+facet+of+body+of+thoracic+vertebra
+		Superior+costal+facet+of+body+of+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+thoracic+vertebra
+		Articular+facet+of+head+of+rib
+		Superior+articular+facet+of+head+of+rib
+		Inferior+articular+facet+of+head+of+rib
+		Cavity+of+joint+of+head+of+rib)
+	(Preferred+name [KB_INSTANCE_05376])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+rib
+		Intra-articular+ligament+of+head+of+rib
+		Radiate+ligament+of+head+of+rib
+		Costal+facet+of+body+of+thoracic+vertebra
+		Superior+costal+facet+of+body+of+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+thoracic+vertebra
+		Articular+facet+of+head+of+rib
+		Superior+articular+facet+of+head+of+rib
+		Inferior+articular+facet+of+head+of+rib
+		Cavity+of+joint+of+head+of+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_05374]
+		[KB_INSTANCE_05375]
+		[KB_AUTO-INSERT2_8733]
+		[KB_INSTANCE_05372])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+rib
+		Intra-articular+ligament+of+head+of+rib
+		Radiate+ligament+of+head+of+rib
+		Costal+facet+of+body+of+thoracic+vertebra
+		Superior+costal+facet+of+body+of+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+thoracic+vertebra
+		Articular+facet+of+head+of+rib
+		Superior+articular+facet+of+head+of+rib
+		Inferior+articular+facet+of+head+of+rib
+		Cavity+of+joint+of+head+of+rib))
+
+([Joint+of+head+of+right+eighth+rib] of  Joint+of+head+of+eighth+rib
+
+	(FMAID "8943")
+	(part
+		Articular+capsule+of+joint+of+head+of+right+eighth+rib
+		Intra-articular+ligament+of+head+of+right+eighth+rib
+		Radiate+ligament+of+head+of+right+eighth+rib
+		Right+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Articular+facet+of+head+of+right+eighth+rib
+		Superior+articular+facet+of+head+of+right+eighth+rib
+		Inferior+articular+facet+of+head+of+right+eighth+rib
+		Cavity+of+joint+of+head+of+right+eighth+rib)
+	(Preferred+name [KB_INSTANCE_07170])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+right+eighth+rib
+		Intra-articular+ligament+of+head+of+right+eighth+rib
+		Radiate+ligament+of+head+of+right+eighth+rib
+		Right+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Articular+facet+of+head+of+right+eighth+rib
+		Superior+articular+facet+of+head+of+right+eighth+rib
+		Inferior+articular+facet+of+head+of+right+eighth+rib
+		Cavity+of+joint+of+head+of+right+eighth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07171]
+		[KB_AUTO-INSERT2_8760]
+		[KB_INSTANCE_07169])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+right+eighth+rib
+		Intra-articular+ligament+of+head+of+right+eighth+rib
+		Radiate+ligament+of+head+of+right+eighth+rib
+		Right+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+eighth+thoracic+vertebra
+		Articular+facet+of+head+of+right+eighth+rib
+		Superior+articular+facet+of+head+of+right+eighth+rib
+		Inferior+articular+facet+of+head+of+right+eighth+rib
+		Cavity+of+joint+of+head+of+right+eighth+rib))
+
+([Joint+of+head+of+right+eleventh+rib] of  Joint+of+head+of+eleventh+rib
+
+	(FMAID "8952")
+	(part
+		Articular+capsule+of+joint+of+head+of+right+eleventh+rib
+		Radiate+ligament+of+head+of+right+eleventh+rib
+		Right+costal+facet+of+body+of+eleventh+thoracic+vertebra
+		Articular+facet+of+head+of+right+eleventh+rib
+		Cavity+of+joint+of+head+of+right+eleventh+rib)
+	(Preferred+name [KB_INSTANCE_07197])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+right+eleventh+rib
+		Radiate+ligament+of+head+of+right+eleventh+rib
+		Right+costal+facet+of+body+of+eleventh+thoracic+vertebra
+		Articular+facet+of+head+of+right+eleventh+rib
+		Cavity+of+joint+of+head+of+right+eleventh+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07198]
+		[KB_AUTO-INSERT2_8766]
+		[KB_INSTANCE_07196])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+right+eleventh+rib
+		Radiate+ligament+of+head+of+right+eleventh+rib
+		Right+costal+facet+of+body+of+eleventh+thoracic+vertebra
+		Articular+facet+of+head+of+right+eleventh+rib
+		Cavity+of+joint+of+head+of+right+eleventh+rib))
+
+([Joint+of+head+of+right+fifth+rib] of  Joint+of+head+of+fifth+rib
+
+	(FMAID "8934")
+	(part
+		Articular+capsule+of+joint+of+head+of+right+fifth+rib
+		Intra-articular+ligament+of+head+of+right+fifth+rib
+		Radiate+ligament+of+head+of+right+fifth+rib
+		Right+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Articular+facet+of+head+of+right+fifth+rib
+		Superior+articular+facet+of+head+of+right+fifth+rib
+		Inferior+articular+facet+of+head+of+right+fifth+rib
+		Cavity+of+joint+of+head+of+right+fifth+rib)
+	(Preferred+name [KB_INSTANCE_07143])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+right+fifth+rib
+		Intra-articular+ligament+of+head+of+right+fifth+rib
+		Radiate+ligament+of+head+of+right+fifth+rib
+		Right+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Articular+facet+of+head+of+right+fifth+rib
+		Superior+articular+facet+of+head+of+right+fifth+rib
+		Inferior+articular+facet+of+head+of+right+fifth+rib
+		Cavity+of+joint+of+head+of+right+fifth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07144]
+		[KB_AUTO-INSERT2_8754]
+		[KB_INSTANCE_07142])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+right+fifth+rib
+		Intra-articular+ligament+of+head+of+right+fifth+rib
+		Radiate+ligament+of+head+of+right+fifth+rib
+		Right+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+fifth+thoracic+vertebra
+		Articular+facet+of+head+of+right+fifth+rib
+		Superior+articular+facet+of+head+of+right+fifth+rib
+		Inferior+articular+facet+of+head+of+right+fifth+rib
+		Cavity+of+joint+of+head+of+right+fifth+rib))
+
+([Joint+of+head+of+right+first+rib] of  Joint+of+head+of+first+rib
+
+	(FMAID "7985")
+	(part
+		Articular+capsule+of+joint+of+head+of+right+first+rib
+		Radiate+ligament+of+head+of+right+first+rib
+		Right+costal+facet+of+body+of+first+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+first+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+first+thoracic+vertebra
+		Articular+facet+of+head+of+right+first+rib
+		Cavity+of+joint+of+head+of+right+first+rib)
+	(Preferred+name [KB_INSTANCE_05422])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+right+first+rib
+		Radiate+ligament+of+head+of+right+first+rib
+		Right+costal+facet+of+body+of+first+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+first+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+first+thoracic+vertebra
+		Articular+facet+of+head+of+right+first+rib
+		Cavity+of+joint+of+head+of+right+first+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_05423]
+		[KB_AUTO-INSERT2_8746]
+		[KB_INSTANCE_05421])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+right+first+rib
+		Radiate+ligament+of+head+of+right+first+rib
+		Right+costal+facet+of+body+of+first+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+first+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+first+thoracic+vertebra
+		Articular+facet+of+head+of+right+first+rib
+		Cavity+of+joint+of+head+of+right+first+rib))
+
+([Joint+of+head+of+right+fourth+rib] of  Joint+of+head+of+fourth+rib
+
+	(FMAID "8931")
+	(part
+		Articular+capsule+of+joint+of+head+of+right+fourth+rib
+		Intra-articular+ligament+of+head+of+right+fourth+rib
+		Radiate+ligament+of+head+of+right+fourth+rib
+		Right+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Articular+facet+of+head+of+right+fourth+rib
+		Superior+articular+facet+of+head+of+right+fourth+rib
+		Inferior+articular+facet+of+head+of+right+fourth+rib
+		Cavity+of+joint+of+head+of+right+fourth+rib)
+	(Preferred+name [KB_INSTANCE_07134])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+right+fourth+rib
+		Intra-articular+ligament+of+head+of+right+fourth+rib
+		Radiate+ligament+of+head+of+right+fourth+rib
+		Right+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Articular+facet+of+head+of+right+fourth+rib
+		Superior+articular+facet+of+head+of+right+fourth+rib
+		Inferior+articular+facet+of+head+of+right+fourth+rib
+		Cavity+of+joint+of+head+of+right+fourth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07135]
+		[KB_AUTO-INSERT2_8752]
+		[KB_INSTANCE_07133])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+right+fourth+rib
+		Intra-articular+ligament+of+head+of+right+fourth+rib
+		Radiate+ligament+of+head+of+right+fourth+rib
+		Right+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+fourth+thoracic+vertebra
+		Articular+facet+of+head+of+right+fourth+rib
+		Superior+articular+facet+of+head+of+right+fourth+rib
+		Inferior+articular+facet+of+head+of+right+fourth+rib
+		Cavity+of+joint+of+head+of+right+fourth+rib))
+
+([Joint+of+head+of+right+ninth+rib] of  Joint+of+head+of+ninth+rib
+
+	(FMAID "8946")
+	(part
+		Articular+capsule+of+joint+of+head+of+right+ninth+rib
+		Intra-articular+ligament+of+head+of+right+ninth+rib
+		Radiate+ligament+of+head+of+right+ninth+rib
+		Right+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Articular+facet+of+head+of+right+ninth+rib
+		Superior+articular+facet+of+head+of+right+ninth+rib
+		Inferior+articular+facet+of+head+of+right+ninth+rib
+		Cavity+of+joint+of+head+of+right+ninth+rib)
+	(Preferred+name [KB_INSTANCE_07179])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+right+ninth+rib
+		Intra-articular+ligament+of+head+of+right+ninth+rib
+		Radiate+ligament+of+head+of+right+ninth+rib
+		Right+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Articular+facet+of+head+of+right+ninth+rib
+		Superior+articular+facet+of+head+of+right+ninth+rib
+		Inferior+articular+facet+of+head+of+right+ninth+rib
+		Cavity+of+joint+of+head+of+right+ninth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07180]
+		[KB_AUTO-INSERT2_8762]
+		[KB_INSTANCE_07178])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+right+ninth+rib
+		Intra-articular+ligament+of+head+of+right+ninth+rib
+		Radiate+ligament+of+head+of+right+ninth+rib
+		Right+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+ninth+thoracic+vertebra
+		Articular+facet+of+head+of+right+ninth+rib
+		Superior+articular+facet+of+head+of+right+ninth+rib
+		Inferior+articular+facet+of+head+of+right+ninth+rib
+		Cavity+of+joint+of+head+of+right+ninth+rib))
+
+([Joint+of+head+of+right+second+rib] of  Joint+of+head+of+second+rib
+
+	(FMAID "8925")
+	(part
+		Articular+capsule+of+joint+of+head+of+right+second+rib
+		Intra-articular+ligament+of+head+of+right+second+rib
+		Radiate+ligament+of+head+of+right+second+rib
+		Right+costal+facet+of+body+of+second+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+second+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+second+thoracic+vertebra
+		Articular+facet+of+head+of+right+second+rib
+		Superior+articular+facet+of+head+of+right+second+rib
+		Inferior+articular+facet+of+head+of+right+second+rib
+		Cavity+of+joint+of+head+of+right+second+rib)
+	(Preferred+name [KB_INSTANCE_07116])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+right+second+rib
+		Intra-articular+ligament+of+head+of+right+second+rib
+		Radiate+ligament+of+head+of+right+second+rib
+		Right+costal+facet+of+body+of+second+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+second+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+second+thoracic+vertebra
+		Articular+facet+of+head+of+right+second+rib
+		Superior+articular+facet+of+head+of+right+second+rib
+		Inferior+articular+facet+of+head+of+right+second+rib
+		Cavity+of+joint+of+head+of+right+second+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07117]
+		[KB_AUTO-INSERT2_8748]
+		[KB_INSTANCE_07115])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+right+second+rib
+		Intra-articular+ligament+of+head+of+right+second+rib
+		Radiate+ligament+of+head+of+right+second+rib
+		Right+costal+facet+of+body+of+second+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+second+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+second+thoracic+vertebra
+		Articular+facet+of+head+of+right+second+rib
+		Superior+articular+facet+of+head+of+right+second+rib
+		Inferior+articular+facet+of+head+of+right+second+rib
+		Cavity+of+joint+of+head+of+right+second+rib))
+
+([Joint+of+head+of+right+seventh+rib] of  Joint+of+head+of+seventh+rib
+
+	(FMAID "8940")
+	(part
+		Articular+capsule+of+joint+of+head+of+right+seventh+rib
+		Intra-articular+ligament+of+head+of+right+seventh+rib
+		Radiate+ligament+of+head+of+right+seventh+rib
+		Right+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Articular+facet+of+head+of+right+seventh+rib
+		Superior+articular+facet+of+head+of+right+seventh+rib
+		Inferior+articular+facet+of+head+of+right+seventh+rib
+		Cavity+of+joint+of+head+of+right+seventh+rib)
+	(Preferred+name [KB_INSTANCE_07161])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+right+seventh+rib
+		Intra-articular+ligament+of+head+of+right+seventh+rib
+		Radiate+ligament+of+head+of+right+seventh+rib
+		Right+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Articular+facet+of+head+of+right+seventh+rib
+		Superior+articular+facet+of+head+of+right+seventh+rib
+		Inferior+articular+facet+of+head+of+right+seventh+rib
+		Cavity+of+joint+of+head+of+right+seventh+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07162]
+		[KB_AUTO-INSERT2_8758]
+		[KB_INSTANCE_07160])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+right+seventh+rib
+		Intra-articular+ligament+of+head+of+right+seventh+rib
+		Radiate+ligament+of+head+of+right+seventh+rib
+		Right+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Articular+facet+of+head+of+right+seventh+rib
+		Superior+articular+facet+of+head+of+right+seventh+rib
+		Inferior+articular+facet+of+head+of+right+seventh+rib
+		Cavity+of+joint+of+head+of+right+seventh+rib))
+
+([Joint+of+head+of+right+sixth+rib] of  Joint+of+head+of+sixth+rib
+
+	(FMAID "8937")
+	(part
+		Articular+capsule+of+joint+of+head+of+right+sixth+rib
+		Intra-articular+ligament+of+head+of+right+sixth+rib
+		Radiate+ligament+of+head+of+right+sixth+rib
+		Right+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Articular+facet+of+head+of+right+sixth+rib
+		Superior+articular+facet+of+head+of+right+sixth+rib
+		Inferior+articular+facet+of+head+of+right+sixth+rib
+		Cavity+of+joint+of+head+of+right+sixth+rib)
+	(Preferred+name [KB_INSTANCE_07152])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+right+sixth+rib
+		Intra-articular+ligament+of+head+of+right+sixth+rib
+		Radiate+ligament+of+head+of+right+sixth+rib
+		Right+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Articular+facet+of+head+of+right+sixth+rib
+		Superior+articular+facet+of+head+of+right+sixth+rib
+		Inferior+articular+facet+of+head+of+right+sixth+rib
+		Cavity+of+joint+of+head+of+right+sixth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07153]
+		[KB_AUTO-INSERT2_8756]
+		[KB_INSTANCE_07151])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+right+sixth+rib
+		Intra-articular+ligament+of+head+of+right+sixth+rib
+		Radiate+ligament+of+head+of+right+sixth+rib
+		Right+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Articular+facet+of+head+of+right+sixth+rib
+		Superior+articular+facet+of+head+of+right+sixth+rib
+		Inferior+articular+facet+of+head+of+right+sixth+rib
+		Cavity+of+joint+of+head+of+right+sixth+rib))
+
+([Joint+of+head+of+right+tenth+rib] of  Joint+of+head+of+tenth+rib
+
+	(FMAID "8949")
+	(part
+		Articular+capsule+of+joint+of+head+of+right+tenth+rib
+		Radiate+ligament+of+head+of+right+tenth+rib
+		Right+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Articular+facet+of+head+of+right+tenth+rib
+		Cavity+of+joint+of+right+tenth+costal+head)
+	(Preferred+name [KB_INSTANCE_07188])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+right+tenth+rib
+		Radiate+ligament+of+head+of+right+tenth+rib
+		Right+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Articular+facet+of+head+of+right+tenth+rib
+		Cavity+of+joint+of+right+tenth+costal+head)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07189]
+		[KB_AUTO-INSERT2_8764]
+		[KB_INSTANCE_07187])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+right+tenth+rib
+		Radiate+ligament+of+head+of+right+tenth+rib
+		Right+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Articular+facet+of+head+of+right+tenth+rib
+		Cavity+of+joint+of+right+tenth+costal+head))
+
+([Joint+of+head+of+right+third+rib] of  Joint+of+head+of+third+rib
+
+	(FMAID "8928")
+	(part
+		Articular+capsule+of+joint+of+head+of+right+third+rib
+		Intra-articular+ligament+of+head+of+right+third+rib
+		Radiate+ligament+of+head+of+right+third+rib
+		Right+costal+facet+of+body+of+third+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+third+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+third+thoracic+vertebra
+		Articular+facet+of+head+of+right+third+rib
+		Superior+articular+facet+of+head+of+right+third+rib
+		Inferior+articular+facet+of+head+of+right+third+rib
+		Cavity+of+joint+of+head+of+right+third+rib)
+	(Preferred+name [KB_INSTANCE_07125])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+right+third+rib
+		Intra-articular+ligament+of+head+of+right+third+rib
+		Radiate+ligament+of+head+of+right+third+rib
+		Right+costal+facet+of+body+of+third+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+third+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+third+thoracic+vertebra
+		Articular+facet+of+head+of+right+third+rib
+		Superior+articular+facet+of+head+of+right+third+rib
+		Inferior+articular+facet+of+head+of+right+third+rib
+		Cavity+of+joint+of+head+of+right+third+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07126]
+		[KB_AUTO-INSERT2_8750]
+		[KB_INSTANCE_07124])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+right+third+rib
+		Intra-articular+ligament+of+head+of+right+third+rib
+		Radiate+ligament+of+head+of+right+third+rib
+		Right+costal+facet+of+body+of+third+thoracic+vertebra
+		Right+superior+costal+facet+of+body+of+third+thoracic+vertebra
+		Right+inferior+costal+facet+of+body+of+third+thoracic+vertebra
+		Articular+facet+of+head+of+right+third+rib
+		Superior+articular+facet+of+head+of+right+third+rib
+		Inferior+articular+facet+of+head+of+right+third+rib
+		Cavity+of+joint+of+head+of+right+third+rib))
+
+([Joint+of+head+of+right+twelfth+rib] of  Joint+of+head+of+twelfth+rib
+
+	(FMAID "8955")
+	(part
+		Articular+capsule+of+joint+of+head+of+right+twelfth+rib
+		Radiate+ligament+of+head+of+right+twelfth+rib
+		Right+costal+facet+of+body+of+twelfth+thoracic+vertebra
+		Articular+facet+of+head+of+right+twelfth+rib
+		Cavity+of+joint+of+head+of+right+twelfth+rib)
+	(Preferred+name [KB_INSTANCE_07206])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+right+twelfth+rib
+		Radiate+ligament+of+head+of+right+twelfth+rib
+		Right+costal+facet+of+body+of+twelfth+thoracic+vertebra
+		Articular+facet+of+head+of+right+twelfth+rib
+		Cavity+of+joint+of+head+of+right+twelfth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07207]
+		[KB_AUTO-INSERT2_8768]
+		[KB_INSTANCE_07205])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+right+twelfth+rib
+		Radiate+ligament+of+head+of+right+twelfth+rib
+		Right+costal+facet+of+body+of+twelfth+thoracic+vertebra
+		Articular+facet+of+head+of+right+twelfth+rib
+		Cavity+of+joint+of+head+of+right+twelfth+rib))
+
+([Joint+of+head+of+second+rib] of  Joint+of+head+of+rib
+
+	(FMAID "8924")
+	(part
+		Articular+capsule+of+joint+of+head+of+second+rib
+		Intra-articular+ligament+of+head+of+second+rib
+		Radiate+ligament+of+head+of+second+rib
+		Costal+facet+of+body+of+second+thoracic+vertebra
+		Superior+costal+facet+of+body+of+second+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+second+thoracic+vertebra
+		Articular+facet+of+head+of+second+rib
+		Superior+articular+facet+of+head+of+second+rib
+		Inferior+articular+facet+of+head+of+second+rib
+		Cavity+of+joint+of+head+of+second+rib)
+	(Preferred+name [KB_INSTANCE_07113])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+second+rib
+		Intra-articular+ligament+of+head+of+second+rib
+		Radiate+ligament+of+head+of+second+rib
+		Costal+facet+of+body+of+second+thoracic+vertebra
+		Superior+costal+facet+of+body+of+second+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+second+thoracic+vertebra
+		Articular+facet+of+head+of+second+rib
+		Superior+articular+facet+of+head+of+second+rib
+		Inferior+articular+facet+of+head+of+second+rib
+		Cavity+of+joint+of+head+of+second+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07114]
+		[KB_AUTO-INSERT2_8735]
+		[KB_INSTANCE_07112])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+second+rib
+		Intra-articular+ligament+of+head+of+second+rib
+		Radiate+ligament+of+head+of+second+rib
+		Costal+facet+of+body+of+second+thoracic+vertebra
+		Superior+costal+facet+of+body+of+second+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+second+thoracic+vertebra
+		Articular+facet+of+head+of+second+rib
+		Superior+articular+facet+of+head+of+second+rib
+		Inferior+articular+facet+of+head+of+second+rib
+		Cavity+of+joint+of+head+of+second+rib))
+
+([Joint+of+head+of+seventh+rib] of  Joint+of+head+of+rib
+
+	(FMAID "8939")
+	(part
+		Articular+capsule+of+joint+of+head+of+seventh+rib
+		Intra-articular+ligament+of+head+of+seventh+rib
+		Radiate+ligament+of+head+of+seventh+rib
+		Costal+facet+of+body+of+seventh+thoracic+vertebra
+		Superior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Articular+facet+of+head+of+seventh+rib
+		Superior+articular+facet+of+head+of+seventh+rib
+		Inferior+articular+facet+of+head+of+seventh+rib
+		Cavity+of+joint+of+head+of+seventh+rib)
+	(Preferred+name [KB_INSTANCE_07158])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+seventh+rib
+		Intra-articular+ligament+of+head+of+seventh+rib
+		Radiate+ligament+of+head+of+seventh+rib
+		Costal+facet+of+body+of+seventh+thoracic+vertebra
+		Superior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Articular+facet+of+head+of+seventh+rib
+		Superior+articular+facet+of+head+of+seventh+rib
+		Inferior+articular+facet+of+head+of+seventh+rib
+		Cavity+of+joint+of+head+of+seventh+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07159]
+		[KB_AUTO-INSERT2_8740]
+		[KB_INSTANCE_07157])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+seventh+rib
+		Intra-articular+ligament+of+head+of+seventh+rib
+		Radiate+ligament+of+head+of+seventh+rib
+		Costal+facet+of+body+of+seventh+thoracic+vertebra
+		Superior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+seventh+thoracic+vertebra
+		Articular+facet+of+head+of+seventh+rib
+		Superior+articular+facet+of+head+of+seventh+rib
+		Inferior+articular+facet+of+head+of+seventh+rib
+		Cavity+of+joint+of+head+of+seventh+rib))
+
+([Joint+of+head+of+sixth+rib] of  Joint+of+head+of+rib
+
+	(FMAID "8936")
+	(part
+		Articular+capsule+of+joint+of+head+of+sixth+rib
+		Intra-articular+ligament+of+head+of+sixth+rib
+		Radiate+ligament+of+head+of+sixth+rib
+		Costal+facet+of+body+of+sixth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Articular+facet+of+head+of+sixth+rib
+		Superior+articular+facet+of+head+of+sixth+rib
+		Inferior+articular+facet+of+head+of+sixth+rib
+		Cavity+of+joint+of+head+of+sixth+rib)
+	(Preferred+name [KB_INSTANCE_07149])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+sixth+rib
+		Intra-articular+ligament+of+head+of+sixth+rib
+		Radiate+ligament+of+head+of+sixth+rib
+		Costal+facet+of+body+of+sixth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Articular+facet+of+head+of+sixth+rib
+		Superior+articular+facet+of+head+of+sixth+rib
+		Inferior+articular+facet+of+head+of+sixth+rib
+		Cavity+of+joint+of+head+of+sixth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07150]
+		[KB_AUTO-INSERT2_8739]
+		[KB_INSTANCE_07148])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+sixth+rib
+		Intra-articular+ligament+of+head+of+sixth+rib
+		Radiate+ligament+of+head+of+sixth+rib
+		Costal+facet+of+body+of+sixth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+sixth+thoracic+vertebra
+		Articular+facet+of+head+of+sixth+rib
+		Superior+articular+facet+of+head+of+sixth+rib
+		Inferior+articular+facet+of+head+of+sixth+rib
+		Cavity+of+joint+of+head+of+sixth+rib))
+
+([Joint+of+head+of+tenth+rib] of  Joint+of+head+of+rib
+
+	(FMAID "8948")
+	(part
+		Articular+capsule+of+joint+of+head+of+tenth+rib
+		Radiate+ligament+of+head+of+tenth+rib
+		Costal+facet+of+body+of+tenth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Articular+facet+of+head+of+tenth+rib
+		Cavity+of+joint+of+head+of+tenth+rib)
+	(Preferred+name [KB_INSTANCE_07185])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+tenth+rib
+		Radiate+ligament+of+head+of+tenth+rib
+		Costal+facet+of+body+of+tenth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Articular+facet+of+head+of+tenth+rib
+		Cavity+of+joint+of+head+of+tenth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07186]
+		[KB_AUTO-INSERT2_8743]
+		[KB_INSTANCE_07184])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+tenth+rib
+		Radiate+ligament+of+head+of+tenth+rib
+		Costal+facet+of+body+of+tenth+thoracic+vertebra
+		Superior+costal+facet+of+body+of+tenth+thoracic+vertebra
+		Articular+facet+of+head+of+tenth+rib
+		Cavity+of+joint+of+head+of+tenth+rib))
+
+([Joint+of+head+of+third+rib] of  Joint+of+head+of+rib
+
+	(FMAID "8927")
+	(part
+		Articular+capsule+of+joint+of+head+of+third+rib
+		Intra-articular+ligament+of+head+of+third+rib
+		Radiate+ligament+of+head+of+third+rib
+		Costal+facet+of+body+of+third+thoracic+vertebra
+		Superior+costal+facet+of+body+of+third+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+third+thoracic+vertebra
+		Articular+facet+of+head+of+third+rib
+		Superior+articular+facet+of+head+of+third+rib
+		Inferior+articular+facet+of+head+of+third+rib
+		Cavity+of+joint+of+head+of+third+rib)
+	(Preferred+name [KB_INSTANCE_07122])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+third+rib
+		Intra-articular+ligament+of+head+of+third+rib
+		Radiate+ligament+of+head+of+third+rib
+		Costal+facet+of+body+of+third+thoracic+vertebra
+		Superior+costal+facet+of+body+of+third+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+third+thoracic+vertebra
+		Articular+facet+of+head+of+third+rib
+		Superior+articular+facet+of+head+of+third+rib
+		Inferior+articular+facet+of+head+of+third+rib
+		Cavity+of+joint+of+head+of+third+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07123]
+		[KB_AUTO-INSERT2_8736]
+		[KB_INSTANCE_07121])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+third+rib
+		Intra-articular+ligament+of+head+of+third+rib
+		Radiate+ligament+of+head+of+third+rib
+		Costal+facet+of+body+of+third+thoracic+vertebra
+		Superior+costal+facet+of+body+of+third+thoracic+vertebra
+		Inferior+costal+facet+of+body+of+third+thoracic+vertebra
+		Articular+facet+of+head+of+third+rib
+		Superior+articular+facet+of+head+of+third+rib
+		Inferior+articular+facet+of+head+of+third+rib
+		Cavity+of+joint+of+head+of+third+rib))
+
+([Joint+of+head+of+twelfth+rib] of  Joint+of+head+of+rib
+
+	(FMAID "8954")
+	(part
+		Articular+capsule+of+joint+of+head+of+twelfth+rib
+		Radiate+ligament+of+head+of+twelfth+rib
+		Costal+facet+of+body+of+twelfth+thoracic+vertebra
+		Articular+facet+of+head+of+twelfth+rib
+		Cavity+of+joint+of+head+of+twelfth+rib)
+	(Preferred+name [KB_INSTANCE_07203])
+	(regional+part
+		Articular+capsule+of+joint+of+head+of+twelfth+rib
+		Radiate+ligament+of+head+of+twelfth+rib
+		Costal+facet+of+body+of+twelfth+thoracic+vertebra
+		Articular+facet+of+head+of+twelfth+rib
+		Cavity+of+joint+of+head+of+twelfth+rib)
+	(regional+part+of Costovertebral+joint+%28class%29)
+	(Synonym
+		[KB_INSTANCE_07204]
+		[KB_AUTO-INSERT2_8745]
+		[KB_INSTANCE_07202])
+	(systemic+part
+		Articular+capsule+of+joint+of+head+of+twelfth+rib
+		Radiate+ligament+of+head+of+twelfth+rib
+		Costal+facet+of+body+of+twelfth+thoracic+vertebra
+		Articular+facet+of+head+of+twelfth+rib
+		Cavity+of+joint+of+head+of+twelfth+rib))
+
+([Joint+of+L5-S1+vertebrae] of  Joint+of+trunk
+
+	(FMAID "16209")
+	(Non-English+equivalent [KB_INSTANCE_18957])
+	(Preferred+name [fm-live_03096])
+	(Synonym
+		[KB_INSTANCE_18956]
+		[KB_AUTO-INSERT2_8776]))
+
+([Joint+of+lower+limb] of  Joint+of+principal+body+part
+
+	(FMAID "25873")
+	(Preferred+name [KB_INSTANCE_32499])
+	(Synonym [KB_AUTO-INSERT2_8773]))
+
+([Joint+of+lumbar+vertebral+column] of  Joint+of+trunk
+
+	(FMAID "25319")
+	(Preferred+name [KB_INSTANCE_31811])
+	(Synonym
+		[FM_live_05708]
+		[KB_AUTO-INSERT2_8775]))
+
+([Joint+of+pectoral+girdle] of  Joint+of+upper+limb
+
+	(FMAID "35243")
+	(Preferred+name [KB_INSTANCE_44864])
+	(Synonym [KB_AUTO-INSERT2_8781]))
+
+([Joint+of+pelvic+girdle] of  Joint+of+lower+limb
+
+	(FMAID "35173")
+	(Preferred+name [KB_INSTANCE_44758])
+	(Synonym [KB_AUTO-INSERT2_8783]))
+
+([Joint+of+pelvis] of  Joint+of+trunk
+
+	(FMAID "64126")
+	(Preferred+name [fm-live_01743])
+	(Synonym [FM_live_05706]))
+
+([Joint+of+principal+body+part] of  Joint
+
+	(FMAID "47982")
+	(Preferred+name [fm-live_00107])
+	(Synonym [KB_AUTO-INSERT2_8729]))
+
+([Joint+of+rib] of  Joint+of+thorax
+
+	(FMAID "64994")
+	(Preferred+name [fm-live_03091])
+	(Synonym [KB_AUTO-INSERT2_8779]))
+
+([Joint+of+rib+cage] of  Joint+of+thorax
+
+	(FMAID "9655")
+	(Preferred+name [KB_INSTANCE_08365])
+	(Synonym [KB_AUTO-INSERT2_8777]))
+
+([Joint+of+sternum] of  Joint+of+thorax
+
+	(FMAID "64991")
+	(Preferred+name [fm-live_03089])
+	(Synonym [KB_AUTO-INSERT2_8778]))
+
+([Joint+of+thoracic+vertebral+column] of  Joint+of+thorax
+
+	(FMAID "10449")
+	(Preferred+name [KB_INSTANCE_09393])
+	(Synonym [KB_AUTO-INSERT2_8780]))
+
+([Joint+of+thorax] of  Joint+of+trunk
+
+	(FMAID "7953")
+	(Non-English+equivalent [KB_INSTANCE_05380])
+	(Preferred+name [KB_INSTANCE_05379])
+	(Synonym [FM_live_05707]))
+
+([Joint+of+trunk] of  Joint+of+principal+body+part
+
+	(FMAID "65000")
+	(Preferred+name [fm-live_03397])
+	(Synonym [KB_AUTO-INSERT2_8771]))
+
+([Joint+of+upper+limb] of  Joint+of+principal+body+part
+
+	(FMAID "25874")
+	(Preferred+name [KB_INSTANCE_32500])
+	(Synonym [KB_AUTO-INSERT2_8772]))
+
+([Joint+space] of  Non-physical+anatomical+entity+template
+
+	(definition "Radiological term which designates the radiolucent area located between articulating bones; it is occupied by a part of the synovial cavity and the radiolucent articular cartilages.")
+	(FMAID "64845")
+	(Preferred+name [fm_live_29738]))
+
+([Jugular+body] of  Organ+part
+
+	(FMAID "50848")
+	(Non-English+equivalent
+		[su_incus_37358]
+		[KB_AUTO-INSERT%283%29_2846])
+	(Preferred+name [KB_INSTANCE_64200])
+	(Synonym
+		[KB_INSTANCE_64201]
+		[KB_INSTANCE_64202]))
+
+([Jugular+foramen] of  Cranial+conduit
+
+	(FMAID "56432")
+	(Non-English+equivalent
+		[su_incus_40174]
+		[KB_AUTO-INSERT%283%29_283])
+	(Preferred+name [KB_INSTANCE_72927])
+	(Synonym [KB_INSTANCE_72928]))
+
+([Jugular+fossa] of  Subdivision+of+surface+of+temporal+bone
+
+	(FMAID "56429")
+	(Non-English+equivalent
+		[KB_INSTANCE_72924]
+		[KB_AUTO-INSERT%283%29_135])
+	(Preferred+name [KB_INSTANCE_72923]))
+
+([Jugular+lymphatic+chain] of  Lymphatic+chain
+
+	(FMAID "223759")
+	(Preferred+name [ONARD_Instance_420023])
+	(regional+part Jugular+lymphatic+trunk)
+	(Synonym [ONARD_Instance_170000]))
+
+([Jugular+lymphatic+tree] of  Lymphatic+organ+part+tree
+
+	(FMAID "66140")
+	(Preferred+name [fm-live_05757])
+	(regional+part
+		Jugular+lymphatic+trunk
+		Deep+cervical+lymphatic+chain
+		Superficial+cervical+lymphatic+chain
+		Occipital+lymphatic+chain
+		Retro-auricular+lymphatic+chain
+		Anterior+auricular+lymphatic+chain
+		Parotid+lymphatic+chain
+		Inferior+auricular+lymphatic+chain
+		Facial+lymphatic+chain
+		Submandibular+lymphatic+chain
+		Submental+lymphatic+chain
+		Jugulo-omohyoid+lymphatic+chain
+		Jugulodigastric+lymphatic+chain))
+
+([Jugular+lymphatic+trunk] of  Lymphatic+trunk
+
+	(afferent+to
+		Deep+cervical+lymphatic+chain
+		Inferior+deep+cervical+lymphatic+chain
+		Superior+deep+cervical+lymphatic+chain)
+	(FMAID "12250")
+	(Non-English+equivalent [su_incus_37383])
+	(Preferred+name [KB_INSTANCE_12348])
+	(regional+part+of
+		Jugular+lymphatic+chain
+		Jugular+lymphatic+tree)
+	(Synonym [KB_INSTANCE_12349]))
+
+([Jugular+nerve] of  Lateral+branch+of+superior+cervical+ganglion
+
+	(branch
+		Branch+to+inferior+glossopharyngeal+ganglion
+		Branch+to+superior+vagal+ganglion)
+	(branch+of Superior+cervical+ganglion)
+	(FMAID "6577")
+	(Non-English+equivalent
+		[KB_INSTANCE_02808]
+		[KB_AUTO-INSERT%283%29_4137])
+	(Preferred+name [KB_INSTANCE_02807]))
+
+([Jugular+notch+of+occipital+bone] of  Subdivision+of+surface+of+occipital+bone
+
+	(FMAID "81023")
+	(Preferred+name [fm_live_26291]))
+
+([Jugular+notch+of+sternum] of  Subdivision+of+surface+of+sternum
+
+	(FMAID "7542")
+	(Non-English+equivalent [fm_live_26289])
+	(Preferred+name [KB_INSTANCE_04834])
+	(Synonym [KB_INSTANCE_04836]))
+
+([Jugular+notch+of+temporal+bone] of  Subdivision+of+surface+of+temporal+bone
+
+	(FMAID "56458")
+	(Preferred+name [KB_INSTANCE_72963]))
+
+([Jugular+process] of  Zone+of+lateral+part+of+occipital+bone
+
+	(dimension 3-dimension)
+	(FMAID "75750")
+	(Non-English+equivalent
+		[su_incus_37897]
+		[KB_AUTO-INSERT%283%29_331])
+	(part+of Lateral+part+of+occipital+bone)
+	(Preferred+name [su_incus_29642])
+	(regional+part+of Lateral+part+of+occipital+bone))
+
+([Jugular+tubercle] of  Tubercle
+
+	(dimension 3-dimension)
+	(FMAID "75749")
+	(Non-English+equivalent
+		[su_incus_37894]
+		[KB_AUTO-INSERT%283%29_330])
+	(Preferred+name [su_incus_29641]))
+
+([Jugular+venous+arch] of  Vein
+
+	(FMAID "50855")
+	(Non-English+equivalent
+		[KB_INSTANCE_64211]
+		[KB_AUTO-INSERT%283%29_2890])
+	(Preferred+name [KB_INSTANCE_64210])
+	(Synonym [KB_INSTANCE_64212]))
+
+([Jugulo-omohyoid+lymph+node] of  Deep+lateral+cervical+lymph+node
+
+	(constitutional+part+of Jugulo-omohyoid+lymphatic+chain)
+	(FMAID "61241")
+	(member+of Set+of+deep+cervical+lymph+nodes)
+	(Non-English+equivalent
+		[su_incus_37389]
+		[KB_INSTANCE_80771]
+		[KB_AUTO-INSERT%283%29_3200])
+	(Preferred+name [KB_INSTANCE_80769])
+	(Synonym [KB_INSTANCE_80770]))
+
+([Jugulo-omohyoid+lymphatic+chain] of  Lymphatic+chain
+
+	(afferent+to
+		Submandibular+lymphatic+chain
+		Submental+lymphatic+chain)
+	(constitutional+part Jugulo-omohyoid+lymph+node)
+	(efferent+to Inferior+deep+cervical+lymphatic+chain)
+	(FMAID "223878")
+	(lymphatic+drainage+of Apex+of+tongue)
+	(Preferred+name [ONARD_Instance_420142])
+	(regional+part+of
+		Deep+lateral+cervical+lymphatic+chain
+		Jugular+lymphatic+tree))
+
+([Jugulodigastric+lymph+node] of  Deep+lateral+cervical+lymph+node
+
+	(FMAID "61240")
+	(member+of Set+of+deep+cervical+lymph+nodes)
+	(Non-English+equivalent
+		[su_incus_37390]
+		[su_incus_37391]
+		[KB_AUTO-INSERT%283%29_3199])
+	(Preferred+name [KB_INSTANCE_80767])
+	(Synonym [KB_INSTANCE_80768]))
+
+([Jugulodigastric+lymphatic+chain] of  Lymphatic+chain
+
+	(FMAID "223872")
+	(lymphatic+drainage+of Tongue)
+	(Preferred+name [ONARD_Instance_420136])
+	(regional+part+of
+		Deep+lateral+cervical+lymphatic+chain
+		Jugular+lymphatic+tree))
+
+([Jugum+of+sphenoid] of  Zone+of+sphenoid
+
+	(FMAID "54703")
+	(Non-English+equivalent
+		[KB_INSTANCE_69526]
+		[KB_AUTO-INSERT%283%29_345])
+	(Preferred+name [KB_INSTANCE_69525])
+	(Synonym
+		[KB_INSTANCE_69527]
+		[KB_AUTO-INSERT2_7477]))
+
+([Junction+of+body+part+subdivisions] of  Zone+of+continuity
+
+	(FMAID "62547")
+	(Preferred+name [test_live_00021])
+	(Synonym [KB_AUTO-INSERT2_8836]))
+
+([Junction+of+body+parts] of  Zone+of+continuity
+
+	(FMAID "62542")
+	(Preferred+name [test_live_00015])
+	(Synonym [KB_AUTO-INSERT2_8835]))
+
+([Junctional+process+of+muscle+cell] of  Intracellular+junction
+
+	(FMAID "62395")
+	(Preferred+name [fm-live_13487]))
+
+([Junctional+sarcoplasmic+reticulum+of+cardiac+muscle+cell] of  Region+of+sarcoplasmic+reticulum+of+cardiac+muscle+cell
+
+	(FMAID "62387")
+	(Preferred+name [fm-live_13393]))
+
+([Juxta-arterial+mesenteric+lymph+node] of  Lymph+node
+
+	(FMAID "16610")
+	(Preferred+name [KB_INSTANCE_19630])
+	(Synonym [KB_INSTANCE_19631]))
+
+([Juxta-oral+organ] of  General+anatomical+term+template
+
+	(FMAID "77270")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_1498])
+	(Preferred+name [su_incus_33245])
+	(Synonym [su_incus_33720]))
+
+([Juxtaductal+region+of+aortic+arch] of  Organ+part
+
+	(FMAID "3778")
+	(part+of Descending+trunk+of+arch+of+aorta)
+	(Preferred+name [KB_INSTANCE_00076])
+	(regional+part+of Descending+trunk+of+arch+of+aorta)
+	(Synonym [KB_INSTANCE_00077]))
+
+([Juxtaglomerular+cell] of  Smooth+muscle+cell
+
+	(FMAID "84138")
+	(Preferred+name [fm_live_30179])
+	(Synonym [fm_live_30192]))
+
+([Juxtaglomerular+complex] of  Tissue+cluster
+
+	(constitutional+part
+		Macula+densa
+		Vascular+pole+of+glomerular+capsule)
+	(FMAID "83599")
+	(part
+		Macula+densa
+		Vascular+pole+of+glomerular+capsule)
+	(Preferred+name [fm_live_23981])
+	(Synonym [fm_live_23982]))
+
+([Juxtaparacentral+lobule+cortex+%28JPL%29] of  Caviness+neocortex+parcellation+unit
+
+	(FMAID "71031")
+	(part+of Cerebral+cortex)
+	(Preferred+name [live_incus_fm_08354])
+	(regional+part+of Cerebral+cortex))
+
+([Juxtarestiform+body] of  Body+of+neuraxis
+
+	(FMAID "72613")
+	(Non-English+equivalent
+		[su_incus_22009]
+		[KB_AUTO-INSERT%283%29_3314]
+		[KB_AUTO-INSERT%283%29_3591])
+	(part+of Medulla+oblongata)
+	(Preferred+name [live_incus_fm_09658])
+	(regional+part+of
+		Medulla+oblongata
+		White+matter+structure+of+medulla+oblongata))
+
+
+
+
+
+
+
+

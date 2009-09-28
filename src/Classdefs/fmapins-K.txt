@@ -1,0 +1,311 @@
+([Keratan] of  Glycosaminoglycan
+
+	(FMAID "67109")
+	(Preferred+name [fm-live_08950]))
+
+([Keratan+sulfate] of  Glycosaminoglycan
+
+	(FMAID "63024")
+	(Preferred+name [FM_live_01368]))
+
+([Keratin] of  Cytoplasmic+intermediate+filament+protein
+
+	(FMAID "67302")
+	(Preferred+name [fm-live_10541])
+	(Synonym [fm-live_10542]))
+
+([Keratin+filament] of  Cytoplasmic+intermediate+filament
+
+	(FMAID "63857")
+	(part
+		Keratin+I
+		Keratin+II)
+	(part+of Cytoskeleton)
+	(Preferred+name [fm-live_00572])
+	(regional+part
+		Keratin+I
+		Keratin+II)
+	(regional+part+of Cytoskeleton)
+	(Synonym [FM_live_00888]))
+
+([Keratin+I] of  Keratin
+
+	(FMAID "67318")
+	(part+of Keratin+filament)
+	(Preferred+name [fm-live_10550])
+	(regional+part+of Keratin+filament)
+	(Synonym
+		[fm-live_10551]
+		[fm-live_10552]))
+
+([Keratin+II] of  Keratin
+
+	(FMAID "67324")
+	(part+of Keratin+filament)
+	(Preferred+name [fm-live_10554])
+	(regional+part+of Keratin+filament)
+	(Synonym
+		[fm-live_10555]
+		[fm-live_10556]
+		[fm-live_12617]))
+
+([Keratin+plug] of  Acellular+anatomical+structure
+
+	(FMAID "62099")
+	(Preferred+name [fm-live_12403]))
+
+([Keratinized+cell+of+epidermis] of  Epidermal+cell
+
+	(FMAID "62879")
+	(Preferred+name [FM_live_00719])
+	(Synonym [FM_live_02967]))
+
+([Keratinized+epithelium+of+tongue] of  Keratinized+stratified+squamous+epithelium
+
+	(constitutional+part+of Mucosa+of+dorsum+of+tongue)
+	(dimension 3-dimension)
+	(FMAID "74865")
+	(part+of Mucosa+of+dorsum+of+tongue)
+	(Preferred+name [FM_live_08893]))
+
+([Keratinized+squamous+cell] of  Non-physical+anatomical+entity+template
+
+	(FMAID "86550")
+	(Preferred+name [fma_p2_Instance_930006]))
+
+([Keratinized+squamous+cell+of+esophagus] of  Endo-epithelial+cell
+
+	(FMAID "86549")
+	(Preferred+name [fma_p2_Instance_930004])
+	(Synonym [fma_p2_Instance_930009]))
+
+([Keratinized+stratified+squamous+epithelium] of  Stratified+squamous+epithelium
+
+	(definition "Keratinized stratified squamous epithelium is a stratified squamous epithelium, the cells of which synthesize and accumulate keratin.")
+	(FMAID "45568")
+	(Preferred+name [KB_INSTANCE_57833])
+	(Synonym [fm-live_01246]))
+
+([Keratinosome] of  Membranous+cytoplasmic+organelle
+
+	(FMAID "70592")
+	(Preferred+name [FM_live_03189])
+	(Synonym
+		[FM_live_03190]
+		[FM_live_03191]
+		[fm_live_32767]
+		[fm_live_33003]))
+
+([Keratocan] of  Small+leucine-rich+proteoglycan
+
+	(FMAID "82828")
+	(Preferred+name [fm_live_27734]))
+
+([Kidney] of  Corticomedullary+organ
+
+	(arterial+supply Renal+artery)
+	(bounded+by Surface+of+kidney)
+	(constitutional+part
+		Fibrous+capsule+of+kidney
+		Stroma+of+kidney
+		Parenchyma+of+kidney)
+	(contained+in Retroperitoneal+space)
+	(FMAID "7203")
+	(lymphatic+drainage
+		Subcapsular+lymphatic+plexus+of+kidney
+		Lymphatic+plexus+of+hilum+of+kidney
+		Perirenal+lymphatic+plexus+of+kidney)
+	(Non-English+equivalent
+		[su_incus_35323]
+		[su_incus_35324]
+		[su_incus_35325]
+		[KB_AUTO-INSERT%283%29_2042]
+		[ONARD_Instance_580035]
+		[ONARD_Instance_580464]
+		[ONARD_Instance_610085])
+	(part
+		Fibrous+capsule+of+kidney
+		Parenchyma+of+kidney
+		Stroma+of+kidney
+		Hilum+of+kidney
+		Superior+pole+of+kidney
+		Inferior+pole+of+kidney
+		Renal+lobe
+		Renal+lobule
+		Uriniferous+tubule
+		Renal+pelvis)
+	(part+of Upper+urinary+tract)
+	(Preferred+name [KB_INSTANCE_04039])
+	(regional+part
+		Hilum+of+kidney
+		Renal+pelvis
+		Renal+lobe
+		Superior+pole+of+kidney
+		Inferior+pole+of+kidney)
+	(regional+part+of Upper+urinary+tract)
+	(systemic+part+of Upper+urinary+tract)
+	(venous+drainage Renal+vein))
+
+([Kinesin] of  Microtubule-associated+protein
+
+	(FMAID "67845")
+	(Preferred+name [KB_INSTANCE_81422]))
+
+([Kinetochore] of  Region+of+chromosome
+
+	(FMAID "84691")
+	(Preferred+name [fm_live_32448]))
+
+([Kinetochore+of+condensed+chromosome] of  Region+of+chromosome
+
+	(FMAID "84709")
+	(Preferred+name [fm_live_32486])
+	(Synonym
+		[fm_live_32485]
+		[KB_AUTO-INSERT2_8476]))
+
+([Kinetosome+of+cilium] of  Zone+of+cilium
+
+	(FMAID "67490")
+	(part+of Cilium)
+	(Preferred+name [fm-live_08899])
+	(regional+part+of Cilium)
+	(Synonym
+		[fm-live_09669]
+		[KB_INSTANCE_81355]
+		[fm-live_09670]
+		[fm-live_09671]
+		[KB_AUTO-INSERT2_8510]))
+
+([Kinetosome+of+flagellum] of  Zone+of+flagellum
+
+	(FMAID "67510")
+	(Preferred+name [fm-live_08909])
+	(regional+part+of Flagellum)
+	(Synonym
+		[fm-live_13109]
+		[KB_AUTO-INSERT2_8516]))
+
+([Kinocilium] of  Cilium
+
+	(FMAID "67323")
+	(Preferred+name [fm-live_09561]))
+
+([Kinocilium+of+vestibular+sensory+cell] of  Cilium
+
+	(FMAID "62369")
+	(Preferred+name [fm-live_15611])
+	(Synonym [KB_AUTO-INSERT2_8488]))
+
+([Knee] of  Free+lower+limb+segment
+
+	(constitutional+part
+		Neural+network+of+knee
+		Vasculature+of+knee)
+	(FMAID "24974")
+	(Non-English+equivalent
+		[KB_INSTANCE_31350]
+		[KB_AUTO-INSERT%283%29_45]
+		[ONARD_Instance_580337]
+		[ONARD_Instance_580388]
+		[ONARD_Instance_610013]
+		[ONARD_Instance_610025])
+	(part
+		Skin+of+knee
+		Superficial+fascia+of+knee
+		Patellar+nerve+plexus
+		Common+fibular+nerve
+		Superior+medial+genicular+artery
+		Superior+lateral+genicular+artery
+		Trunk+of+popliteal+artery
+		Popliteal+vein
+		Deep+lymphatic+vessel+of+knee
+		Superficial+lymphatic+vessel+of+knee
+		Deep+popliteal+lymph+node
+		Superficial+popliteal+lymph+node
+		Patella
+		Knee+joint
+		Subcutaneous+prepatellar+bursa
+		Subcutaneous+infrapatellar+bursa
+		Deep+infrapatellar+bursa
+		Popliteal+fossa)
+	(part+of Free+lower+limb)
+	(Preferred+name [KB_INSTANCE_31349])
+	(regional+part
+		Anterior+part+of+knee
+		Popliteal+part+of+knee)
+	(regional+part+of Free+lower+limb))
+
+([Knee+joint] of  Synovial+joint
+
+	(FMAID "35175")
+	(nerve+supply
+		Superior+genicular+nerve
+		Inferior+medial+genicular+nerve
+		Middle+genicular+nerve)
+	(Non-English+equivalent
+		[KB_INSTANCE_44761]
+		[KB_AUTO-INSERT%283%29_919])
+	(part
+		Articular+capsule+of+knee+joint
+		Synovial+fluid+of+knee+joint
+		Synovial+cavity+of+knee+joint
+		Articular+cartilage+of+distal+epiphysis+of+femur
+		Articular+cartilage+of+proximal+epiphysis+of+tibia
+		Articular+cartilage+of+medial+facet+of+patella
+		Articular+cartilage+of+lateral+facet+of+patella
+		Patellar+ligament
+		Oblique+popliteal+ligament
+		Arcuate+popliteal+ligament
+		Anterior+tibial+collateral+ligament
+		Posterior+tibial+collateral+ligament
+		Fibular+collateral+ligament
+		Anterior+cruciate+ligament
+		Posterior+cruciate+ligament
+		Transverse+ligament+of+knee+joint
+		Meniscofemoral+ligament
+		Medial+meniscus
+		Lateral+meniscus
+		Synovial+capsule+of+knee+joint)
+	(part+of Knee)
+	(Preferred+name [KB_INSTANCE_44760])
+	(regional+part
+		Articular+capsule+of+knee+joint
+		Synovial+fluid+of+knee+joint
+		Synovial+cavity+of+knee+joint
+		Articular+cartilage+of+distal+epiphysis+of+femur
+		Articular+cartilage+of+proximal+epiphysis+of+tibia
+		Articular+cartilage+of+medial+facet+of+patella
+		Articular+cartilage+of+lateral+facet+of+patella
+		Patellar+ligament
+		Oblique+popliteal+ligament
+		Arcuate+popliteal+ligament
+		Anterior+tibial+collateral+ligament
+		Posterior+tibial+collateral+ligament
+		Fibular+collateral+ligament
+		Anterior+cruciate+ligament
+		Posterior+cruciate+ligament
+		Transverse+ligament+of+knee+joint
+		Meniscofemoral+ligament
+		Medial+meniscus
+		Lateral+meniscus
+		Synovial+capsule+of+knee+joint))
+
+([Koniocellular+layer+of+dorsal+nucleus+of+lateral+geniculate+body] of  Dorsal+nucleus+of+lateral+geniculate+body
+
+	(dimension 3-dimension)
+	(FMAID "76988")
+	(Non-English+equivalent [su_incus_36163])
+	(Preferred+name [live_incus_fm_12438]))
+
+([Kugel%27s+anastomotic+artery] of  Organ+part
+
+	(FMAID "3927")
+	(Preferred+name [KB_INSTANCE_00228])
+	(Synonym [KB_INSTANCE_00229]))
+
+([Kyphosis] of  Non-physical+anatomical+entity+template
+
+	(FMAID "85452")
+	(Preferred+name [fma_p2_Instance_100026]))
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Variable_schema" targetNamespace="http://tempuri.org/Variable_schema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/Variable_schema.xsd" xmlns:mstns="http://tempuri.org/Variable_schema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="variable_list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:sequence>
+          <xs:element name="variable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="anatomical_str">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="name" type="xs:string">
+                      </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="FMAID" type="xs:string" />
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="name" type="xs:string">
+                </xs:element>
+              </xs:sequence>
+              <xs:attribute name="isParameter" type="xs:boolean" />
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,91 @@
+([X+chromosome] of  Sex+chromosome
+
+	(FMAID "84055")
+	(Preferred+name [fm_live_30065]))
+
+([X+chromosome-bearing+sperm+cell] of  Mature+sperm+cell
+
+	(FMAID "84057")
+	(Preferred+name [fm_live_30069])
+	(Synonym
+		[fm_live_30073]
+		[fm_live_30075]))
+
+([Xiphisternal+joint] of  Symphysis
+
+	(FMAID "7503")
+	(Non-English+equivalent
+		[su_incus_38572]
+		[KB_AUTO-INSERT%283%29_831])
+	(part
+		Fibrocartilage+of+xiphoid+process
+		Xiphoid+cartilage+of+xiphisternal+joint
+		Mesosternal+cartilage+of+xiphisternal+joint
+		Capsule+of+xiphisternal+joint)
+	(part+of Sternum)
+	(Preferred+name [KB_INSTANCE_04741])
+	(regional+part
+		Fibrocartilage+of+xiphoid+process
+		Xiphoid+cartilage+of+xiphisternal+joint
+		Mesosternal+cartilage+of+xiphisternal+joint
+		Capsule+of+xiphisternal+joint)
+	(regional+part+of Sternum)
+	(Synonym [KB_INSTANCE_04742])
+	(systemic+part
+		Fibrocartilage+of+xiphoid+process
+		Xiphoid+cartilage+of+xiphisternal+joint
+		Mesosternal+cartilage+of+xiphisternal+joint
+		Capsule+of+xiphisternal+joint))
+
+([Xiphisternal+plane] of  Spatial+association+relationship+template
+
+	(FMAID "49454")
+	(Preferred+name [KB_INSTANCE_62386]))
+
+([Xiphisternal+synostosis] of  Synostosis
+
+	(FMAID "9917")
+	(Preferred+name [KB_INSTANCE_08712]))
+
+([Xiphoid+cartilage+of+xiphisternal+joint] of  Cartilage+of+xiphoid+process
+
+	(FMAID "7947")
+	(part+of Xiphisternal+joint)
+	(Preferred+name [KB_INSTANCE_05369])
+	(regional+part+of Xiphisternal+joint))
+
+([Xiphoid+process] of  Process+of+organ
+
+	(FMAID "7488")
+	(Non-English+equivalent
+		[KB_INSTANCE_04710]
+		[KB_AUTO-INSERT%283%29_551])
+	(part
+		Costal+facet+of+xiphoid+process
+		Right+costal+facet+of+xiphoid+process
+		Left+costal+facet+of+xiphoid+process)
+	(part+of Sternum)
+	(Preferred+name [KB_INSTANCE_04709])
+	(regional+part
+		Costal+facet+of+xiphoid+process
+		Right+costal+facet+of+xiphoid+process
+		Left+costal+facet+of+xiphoid+process)
+	(regional+part+of Sternum)
+	(Synonym [KB_INSTANCE_04711]))
+
+([Xyloglycosphingolipid] of  Glycolipid
+
+	(FMAID "82813")
+	(Preferred+name [fm_live_27699]))
+
+([Xylose] of  Monosaccharide
+
+	(FMAID "82804")
+	(Preferred+name [fm_live_27681]))
+
+([Xylosylceramide] of  Monoglycosylceramide
+
+	(FMAID "82822")
+	(Preferred+name [fm_live_27718])
+	(Synonym [fm_live_27719]))
+

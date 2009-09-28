@@ -1,0 +1,3328 @@
+([Ulna] of  Long+bone
+
+	(constitutional+part
+		Bony+part+of+ulna
+		Articular+cartilage+of+proximal+epiphysis+of+ulna
+		Articular+cartilage+of+distal+epiphysis+of+ulna
+		Vasculature+of+ulna)
+	(constitutional+part+of Forearm)
+	(FMAID "23466")
+	(Non-English+equivalent [ONARD_Instance_580523])
+	(part
+		Bone+of+ulna
+		Cartilage+of+ulna
+		Bony+part+of+ulna
+		Periosteum+of+ulna
+		Proximal+epiphysis+of+ulna
+		Diaphysis+of+ulna
+		Distal+epiphysis+of+ulna)
+	(part+of
+		Skeleton+of+forearm
+		Forearm)
+	(Preferred+name [KB_INSTANCE_29348])
+	(regional+part
+		Proximal+epiphysis+of+ulna
+		Diaphysis+of+ulna
+		Distal+epiphysis+of+ulna)
+	(regional+part+of Skeleton+of+forearm)
+	(systemic+part+of Skeleton+of+forearm))
+
+([Ulnar] of  Spatial+association+relationship+template
+
+	(FMAID "74553")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_17])
+	(Preferred+name [su_incus_22609]))
+
+([Ulnar+artery] of  Systemic+artery
+
+	(branch
+		Anterior+ulnar+recurrent+artery
+		Posterior+ulnar+recurrent+artery
+		Common+interosseous+artery
+		Muscular+branch+of+ulnar+artery
+		Palmar+carpal+branch+of+ulnar+artery
+		Dorsal+carpal+branch+of+ulnar+artery
+		Deep+palmar+branch+of+ulnar+artery)
+	(branch+of
+		Brachial+artery
+		Subclavian+artery)
+	(constitutional+part+of
+		Cubital+compartment
+		Anterior+part+of+elbow
+		Wrist)
+	(FMAID "22796")
+	(Non-English+equivalent
+		[KB_INSTANCE_28444]
+		[KB_AUTO-INSERT%283%29_2648])
+	(part+of
+		Anterior+part+of+elbow
+		Forearm
+		Wrist)
+	(Preferred+name [KB_INSTANCE_28443])
+	(regional+part+of Subclavian+artery))
+
+([Ulnar+border+of+forearm] of  Anatomical+line
+
+	(FMAID "75382")
+	(Non-English+equivalent
+		[su_incus_40687]
+		[su_incus_40688])
+	(Preferred+name [su_incus_27019])
+	(Synonym [su_incus_27020]))
+
+([Ulnar+collateral+ligament] of  Ligament+of+wrist+joint
+
+	(constitutional+part+of Articular+capsule+of+wrist+joint)
+	(FMAID "40005")
+	(Non-English+equivalent
+		[su_incus_35495]
+		[KB_AUTO-INSERT%283%29_586])
+	(part+of Articular+capsule+of+wrist+joint)
+	(Preferred+name [fma_p2_Instance_600000])
+	(Synonym
+		[KB_INSTANCE_51624]
+		[KB_INSTANCE_51625]
+		[KB_INSTANCE_51623]))
+
+([Ulnar+collateral+ligament+of+elbow] of  Ligament+of+elbow+joint
+
+	(FMAID "38869")
+	(Non-English+equivalent [fm_live_24823])
+	(part+of Elbow+joint)
+	(Preferred+name [KB_INSTANCE_50291])
+	(regional+part
+		Anterior+part+of+ulnar+collateral+ligament
+		Middle+part+of+ulnar+collateral+ligament
+		Posterior+part+of+ulnar+collateral+ligament)
+	(regional+part+of Elbow+joint))
+
+([Ulnar+collateral+ligament+of+interphalangeal+joint] of  Collateral+ligament+of+interphalangeal+joint+of+finger
+
+	(FMAID "42819")
+	(Preferred+name [KB_INSTANCE_54459]))
+
+([Ulnar+collateral+ligament+of+left+elbow] of  Ulnar+collateral+ligament+of+elbow
+
+	(FMAID "38871")
+	(Preferred+name [KB_INSTANCE_50294]))
+
+([Ulnar+collateral+ligament+of+left+wrist+joint] of  Ulnar+collateral+ligament
+
+	(FMAID "40016")
+	(Preferred+name [KB_INSTANCE_51638])
+	(Synonym [fma_p2_Instance_810002]))
+
+([Ulnar+collateral+ligament+of+right+elbow] of  Ulnar+collateral+ligament+of+elbow
+
+	(FMAID "38870")
+	(Preferred+name [KB_INSTANCE_50293]))
+
+([Ulnar+collateral+ligament+of+right+wrist+joint] of  Ulnar+collateral+ligament
+
+	(FMAID "40015")
+	(Preferred+name [KB_INSTANCE_51637])
+	(Synonym [fma_p2_Instance_810001]))
+
+([Ulnar+collateral+nerve] of  Medial+muscular+branch+of+radial+nerve
+
+	(branch+of Radial+nerve)
+	(FMAID "81195")
+	(nerve+supply+of
+		Medial+head+of+triceps+brachii
+		Triceps+brachii)
+	(Preferred+name [FM_live_11975])
+	(Synonym [FM_live_11901]))
+
+([Ulnar+head+of+extensor+carpi+ulnaris] of  Head+of+organ
+
+	(FMAID "77261")
+	(Non-English+equivalent [su_incus_37619])
+	(Preferred+name [su_incus_33235]))
+
+([Ulnar+head+of+flexor+carpi+radialis] of  Head+of+flexor+carpi+radialis
+
+	(FMAID "63217")
+	(Preferred+name [fm_live_02037]))
+
+([Ulnar+head+of+flexor+carpi+ulnaris] of  Head+of+organ
+
+	(FMAID "38616")
+	(Non-English+equivalent [su_incus_37588])
+	(Preferred+name [KB_INSTANCE_50090])
+	(Synonym [KB_INSTANCE_50091]))
+
+([Ulnar+head+of+left+flexor+carpi+ulnaris] of  Ulnar+head+of+flexor+carpi+ulnaris
+
+	(FMAID "38620")
+	(Preferred+name [KB_INSTANCE_50095]))
+
+([Ulnar+head+of+left+pronator+teres] of  Ulnar+head+of+pronator+teres
+
+	(FMAID "38563")
+	(Preferred+name [KB_INSTANCE_50006]))
+
+([Ulnar+head+of+pronator+teres] of  Head+of+organ
+
+	(FMAID "38559")
+	(Non-English+equivalent [su_incus_37586])
+	(Preferred+name [KB_INSTANCE_50001])
+	(Synonym [KB_INSTANCE_50002]))
+
+([Ulnar+head+of+right+flexor+carpi+ulnaris] of  Ulnar+head+of+flexor+carpi+ulnaris
+
+	(FMAID "38619")
+	(Preferred+name [KB_INSTANCE_50094]))
+
+([Ulnar+head+of+right+pronator+teres] of  Ulnar+head+of+pronator+teres
+
+	(FMAID "38562")
+	(Preferred+name [KB_INSTANCE_50005]))
+
+([Ulnar+nerve] of  Peripheral+nerve
+
+	(branch
+		Superficial+branch+of+ulnar+nerve
+		Deep+branch+of+ulnar+nerve)
+	(branch+of Medial+cord+of+brachial+nerve+plexus)
+	(constitutional+part+of
+		Posterior+part+of+elbow
+		Wrist)
+	(FMAID "37319")
+	(member+of Set+of+branches+of+brachial+nerve+plexus)
+	(Non-English+equivalent
+		[KB_INSTANCE_47958]
+		[KB_AUTO-INSERT%283%29_4069])
+	(part+of
+		Posterior+part+of+elbow
+		Forearm
+		Wrist
+		Shoulder
+		Arm)
+	(Preferred+name [KB_INSTANCE_47957])
+	(systemic+part+of Set+of+peripheral+nerves))
+
+([Ulnar+nerve+sulcus+of+humerus] of  Subdivision+of+surface+of+humerus
+
+	(FMAID "23447")
+	(part+of Bony+part+of+distal+epiphysis+of+humerus)
+	(Preferred+name [KB_INSTANCE_29327])
+	(Synonym
+		[KB_INSTANCE_29328]
+		[KB_INSTANCE_29329]))
+
+([Ulnar+nerve+sulcus+of+left+humerus] of  Ulnar+nerve+sulcus+of+humerus
+
+	(FMAID "23449")
+	(Preferred+name [KB_INSTANCE_29331]))
+
+([Ulnar+nerve+sulcus+of+right+humerus] of  Ulnar+nerve+sulcus+of+humerus
+
+	(FMAID "23448")
+	(Preferred+name [KB_INSTANCE_29330]))
+
+([Ulnar+notch] of  Anatomical+line+of+radius
+
+	(FMAID "75082")
+	(Non-English+equivalent
+		[su_incus_40535]
+		[KB_AUTO-INSERT%283%29_622])
+	(Preferred+name [su_incus_25274]))
+
+([Ulnar+notch+of+left+radius] of  Ulnar+notch+of+radius
+
+	(FMAID "23534")
+	(Preferred+name [KB_INSTANCE_29451]))
+
+([Ulnar+notch+of+radius] of  Subdivision+of+surface+of+distal+epiphysis+of+radius
+
+	(FMAID "23530")
+	(Preferred+name [KB_INSTANCE_29446])
+	(Synonym [KB_INSTANCE_29447]))
+
+([Ulnar+notch+of+right+radius] of  Ulnar+notch+of+radius
+
+	(FMAID "23533")
+	(Preferred+name [KB_INSTANCE_29450]))
+
+([Ulnar+recurrent+artery] of  Systemic+artery
+
+	(dimension 3-dimension)
+	(FMAID "77140")
+	(Non-English+equivalent
+		[su_incus_36860]
+		[KB_AUTO-INSERT%283%29_2649])
+	(Preferred+name [su_incus_32758]))
+
+([Ulnar+vein] of  Vein
+
+	(FMAID "22950")
+	(Preferred+name [KB_INSTANCE_28638])
+	(tributary
+		Deep+palmar+venous+arch
+		Deep+palmar+venous+arch
+		Superficial+palmar+venous+arch
+		Anterior+interosseous+vein
+		Posterior+interosseous+vein)
+	(tributary+of Brachial+vein))
+
+([Umbilical+artery] of  Systemic+artery
+
+	(branch
+		Superior+vesical+artery
+		Artery+of+ductus+deferens)
+	(branch+of Anterior+division+of+internal+iliac+artery)
+	(FMAID "18820")
+	(Non-English+equivalent
+		[KB_INSTANCE_23652]
+		[KB_AUTO-INSERT%283%29_2727])
+	(Preferred+name [KB_INSTANCE_23651]))
+
+([Umbilical+cord] of  Extra-embryonic+structure
+
+	(FMAID "85541")
+	(Preferred+name [fma_p2_Instance_300003]))
+
+([Umbilical+fascia] of  Zone+of+abdominal+fascia
+
+	(dimension 3-dimension)
+	(FMAID "76759")
+	(Non-English+equivalent
+		[su_incus_37488]
+		[KB_AUTO-INSERT%283%29_1211])
+	(Preferred+name [su_incus_31772]))
+
+([Umbilical+fissure] of  Anatomical+line+of+liver
+
+	(FMAID "75117")
+	(Non-English+equivalent
+		[su_incus_40506]
+		[KB_AUTO-INSERT%283%29_1865])
+	(Preferred+name [su_incus_25308]))
+
+([Umbilical+fold] of  Peritoneal+fold
+
+	(FMAID "16534")
+	(Preferred+name [KB_INSTANCE_19509]))
+
+([Umbilical+prevesical+fascia] of  Zone+of+abdominal+fascia
+
+	(FMAID "18108")
+	(Preferred+name [KB_INSTANCE_22247]))
+
+([Umbilical+ring] of  Orifice
+
+	(FMAID "19930")
+	(Non-English+equivalent
+		[KB_INSTANCE_25148]
+		[KB_AUTO-INSERT%283%29_1195])
+	(Preferred+name [KB_INSTANCE_25147]))
+
+([Umbilical+vein] of  Embryonic+structure
+
+	(FMAID "70317")
+	(Non-English+equivalent
+		[su_incus_38424]
+		[KB_AUTO-INSERT%283%29_3129])
+	(Preferred+name [FM_live_03018]))
+
+([Umbilicus] of  Subdivision+of+front+of+abdomen
+
+	(FMAID "61584")
+	(lymphatic+drainage Superficial+inguinal+lymph+node)
+	(Non-English+equivalent
+		[ONARD_Instance_610072]
+		[ONARD_Instance_610073])
+	(part+of Skin+of+abdomen)
+	(Preferred+name [KB_INSTANCE_81152])
+	(Synonym
+		[fm_live_16179]
+		[fm_live_16180]
+		[FM_live_09939]))
+
+([Umbo+of+left+tympanic+membrane] of  Umbo+of+tympanic+membrane
+
+	(FMAID "56763")
+	(Preferred+name [KB_INSTANCE_73995])
+	(Synonym [KB_AUTO-INSERT2_7771]))
+
+([Umbo+of+right+tympanic+membrane] of  Umbo+of+tympanic+membrane
+
+	(FMAID "56761")
+	(Preferred+name [KB_INSTANCE_73992])
+	(Synonym [KB_AUTO-INSERT2_7770]))
+
+([Umbo+of+tympanic+membrane] of  Zone+of+tympanic+membrane
+
+	(FMAID "56723")
+	(Non-English+equivalent
+		[KB_INSTANCE_73903]
+		[KB_AUTO-INSERT%283%29_4411])
+	(part+of Tympanic+membrane)
+	(Preferred+name [KB_INSTANCE_73902])
+	(regional+part+of Tympanic+membrane)
+	(Synonym [KB_AUTO-INSERT2_7769]))
+
+([Umbrella+cell+layer+of+urothelium] of  Subdivision+of+urothelium
+
+	(FMAID "84152")
+	(Preferred+name [fm_live_30318])
+	(Synonym [fm_live_30313]))
+
+([Umbrella+cell+of+urothelium] of  Endo-epithelial+cell
+
+	(FMAID "84149")
+	(Preferred+name [fm_live_30205])
+	(Synonym [fm_live_30206]))
+
+([UMLS+ID] of  Standard+FMA+slot
+
+	(FMAID "85874"))
+
+([Uncal+artery] of  Systemic+artery
+
+	(arterial+supply+of Uncus)
+	(branch+of Anterior+choroidal+artery)
+	(FMAID "50090")
+	(Non-English+equivalent
+		[su_incus_37008]
+		[KB_AUTO-INSERT%283%29_2532])
+	(Preferred+name [KB_INSTANCE_63259]))
+
+([Uncalcified+osteoid] of  Osteoid
+
+	(definition "Osteoid devoid of hydroxyapatite crystals.")
+	(FMAID "72176")
+	(Preferred+name [fm_live_01004]))
+
+([Uncinate+fasciculus] of  Cerebral+fasciculus
+
+	(FMAID "77636")
+	(Non-English+equivalent
+		[su_incus_36128]
+		[KB_AUTO-INSERT%283%29_3909])
+	(part+of Cerebral+hemisphere)
+	(Preferred+name [live_incus_fm_12950]))
+
+([Uncinate+fasciculus+of+pons] of  Tract+of+neuraxis
+
+	(FMAID "72490")
+	(Non-English+equivalent
+		[su_incus_20482]
+		[su_incus_20489]
+		[su_incus_20490]
+		[su_incus_20491]
+		[su_incus_36289]
+		[KB_AUTO-INSERT%283%29_3593])
+	(part+of Pontine+tegmentum)
+	(Preferred+name [live_incus_fm_09420])
+	(regional+part+of Pontine+tegmentum)
+	(Synonym
+		[su_incus_20483]
+		[su_incus_20484]
+		[su_incus_20485]
+		[su_incus_20486]
+		[su_incus_20487]
+		[su_incus_20488]
+		[su_incus_20492]
+		[su_incus_20493]))
+
+([Uncinate+process+of+cervical+vertebra] of  Anatomical+line+of+bone
+
+	(FMAID "75068")
+	(Non-English+equivalent
+		[su_incus_40590]
+		[su_incus_40591])
+	(Preferred+name [su_incus_25258])
+	(Synonym [su_incus_29438]))
+
+([Uncinate+process+of+ethmoid] of  Process+of+organ
+
+	(FMAID "57455")
+	(Non-English+equivalent [su_incus_37953])
+	(Preferred+name [KB_INSTANCE_75658]))
+
+([Uncinate+process+of+first+thoracic+vertebra] of  Anatomical+line+of+bone
+
+	(FMAID "75795")
+	(Non-English+equivalent
+		[su_incus_40592]
+		[su_incus_40593]
+		[KB_AUTO-INSERT%283%29_512])
+	(Preferred+name [su_incus_29710])
+	(Synonym [su_incus_29711]))
+
+([Uncinate+process+of+pancreas] of  Process+of+organ
+
+	(FMAID "15857")
+	(Non-English+equivalent [su_incus_37441])
+	(part+of Head+of+pancreas)
+	(Preferred+name [KB_INSTANCE_18335])
+	(regional+part+of Head+of+pancreas)
+	(Synonym
+		[KB_INSTANCE_18336]
+		[KB_INSTANCE_18337]
+		[su_incus_18275]))
+
+([Uncus] of  Surface+evagination+of+telencephalon
+
+	(arterial+supply Uncal+artery)
+	(dimension 3-dimension)
+	(FMAID "74884")
+	(Preferred+name [live_incus_fm_12049])
+	(Synonym
+		[su_incus_23018]
+		[su_incus_23019]))
+
+([Unencapsulated+nerve+ending] of  Segment+of+nerve
+
+	(FMAID "84005")
+	(Preferred+name [live_incus_fm_13614])
+	(Synonym [fm_live_32376]))
+
+([Unencapsulated+nerve+ending+innervating+cavitated+organ] of  Segment+of+nerve
+
+	(FMAID "84006")
+	(Preferred+name [live_incus_fm_13620]))
+
+([Unencapsulated+nerve+ending+innervating+hair+follicle] of  Segment+of+nerve
+
+	(FMAID "84008")
+	(Preferred+name [live_incus_fm_13616])
+	(Synonym [live_incus_fm_13641]))
+
+([Unencapsulated+nerve+ending+innervating+Merkel%27s+disc] of  Segment+of+nerve
+
+	(FMAID "84007")
+	(Preferred+name [live_incus_fm_13634]))
+
+([Unencapsulated+nerve+ending+innervating+skin] of  Unencapsulated+nerve+ending
+
+	(FMAID "84009")
+	(Preferred+name [live_incus_fm_13618]))
+
+([Unencapsulated+nerve+ending+innervating+solid+organ] of  Segment+of+nerve
+
+	(FMAID "84010")
+	(Preferred+name [live_incus_fm_13622]))
+
+([Unfaceted+volume] of  Dimensional+entity+template
+
+	(FMAID "50616")
+	(Preferred+name [KB_INSTANCE_63887]))
+
+([Unilaminar+epithelium] of  Epithelium
+
+	(definition "Epithelium which consists of a single layer of epithelial cells. Examples: endothelium, mesothelium, glandular squamous epithelium.")
+	(FMAID "45561")
+	(Preferred+name [fm-live_01228])
+	(regional+part
+		Epithelial+cell
+		Intercellular+matrix
+		Basement+membrane)
+	(regional+part+of Organ+component)
+	(Synonym [KB_INSTANCE_57826]))
+
+([union] of  Standard+FMA+slot
+
+	(FMAID "85885"))
+
+([Union+relationship+value] of  Non-physical+anatomical+entity+template
+
+	(FMAID "63646")
+	(Preferred+name [fm_live_02810]))
+
+([Unipennate] of  Non-physical+anatomical+entity+template
+
+	(FMAID "12271")
+	(Preferred+name [fm_live_12917]))
+
+([Unipennate+muscle] of  Non-physical+anatomical+entity+template
+
+	(FMAID "74991")
+	(Preferred+name [su_incus_24395]))
+
+([Unipolar+neuron] of  Neuron
+
+	(definition "Neuron with an axon and no dendrites.")
+	(FMAID "67278")
+	(Preferred+name [fm-live_14135]))
+
+([Unipotent+stem+cell] of  General+anatomical+term+template
+
+	(FMAID "70569")
+	(Preferred+name [FM_live_03176])
+	(Synonym [fma_p2_Instance_1000001]))
+
+([unit] of  Standard+FMA+slot
+
+	(FMAID "85960"))
+
+([unites+with] of  Standard+FMA+slot
+
+	(FMAID "85886"))
+
+([Unmyelinated+nerve+fiber] of  Nerve+fiber
+
+	(FMAID "5916")
+	(part+of
+		Lamina+propria+of+small+intestine
+		Intestinal+villus)
+	(Preferred+name [KB_INSTANCE_01561])
+	(regional+part+of
+		Lamina+propria+of+small+intestine
+		Intestinal+villus)
+	(Synonym [FM_live_01026]))
+
+([Unmyelinated+segment+of+axon] of  Zone+of+axon
+
+	(FMAID "67377")
+	(Preferred+name [fm-live_14162]))
+
+([Unnamed+branch+of+circumflex+coronary+artery] of  Systemic+artery
+
+	(branch+of
+		Distal+portion+of+circumflex+branch+of+left+coronary+artery
+		Circumflex+branch+of+left+coronary+artery)
+	(FMAID "3928")
+	(part+of Circumflex+branch+of+left+coronary+artery)
+	(Preferred+name [KB_INSTANCE_00230])
+	(regional+part+of Circumflex+branch+of+left+coronary+artery))
+
+([Unnamed+branch+of+descending+thoracic+aorta] of  Systemic+artery
+
+	(branch+of Thoracic+aorta)
+	(FMAID "4675")
+	(Preferred+name [KB_INSTANCE_00932])
+	(Synonym [KB_INSTANCE_00933]))
+
+([Unnamed+branch+of+eighth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14242")
+	(Preferred+name [KB_INSTANCE_15653]))
+
+([Unnamed+branch+of+eleventh+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14245")
+	(Preferred+name [KB_INSTANCE_15656]))
+
+([Unnamed+branch+of+fifth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14239")
+	(Preferred+name [KB_INSTANCE_15650]))
+
+([Unnamed+branch+of+first+lumbar+artery] of  Systemic+artery
+
+	(FMAID "15364")
+	(Preferred+name [KB_INSTANCE_17495]))
+
+([Unnamed+branch+of+first+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14235")
+	(Preferred+name [KB_INSTANCE_15646]))
+
+([Unnamed+branch+of+fourth+lumbar+artery] of  Systemic+artery
+
+	(FMAID "15367")
+	(Preferred+name [KB_INSTANCE_17498]))
+
+([Unnamed+branch+of+fourth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14238")
+	(Preferred+name [KB_INSTANCE_15649]))
+
+([Unnamed+branch+of+left+eighth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14264")
+	(Preferred+name [KB_INSTANCE_15675]))
+
+([Unnamed+branch+of+left+eleventh+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14270")
+	(Preferred+name [KB_INSTANCE_15681]))
+
+([Unnamed+branch+of+left+fifth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14258")
+	(Preferred+name [KB_INSTANCE_15669]))
+
+([Unnamed+branch+of+left+first+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14250")
+	(Preferred+name [KB_INSTANCE_15661]))
+
+([Unnamed+branch+of+left+fourth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14256")
+	(Preferred+name [KB_INSTANCE_15667]))
+
+([Unnamed+branch+of+left+ninth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14266")
+	(Preferred+name [KB_INSTANCE_15677]))
+
+([Unnamed+branch+of+left+second+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14252")
+	(Preferred+name [KB_INSTANCE_15663]))
+
+([Unnamed+branch+of+left+seventh+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14262")
+	(Preferred+name [KB_INSTANCE_15673]))
+
+([Unnamed+branch+of+left+sixth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14260")
+	(Preferred+name [KB_INSTANCE_15671]))
+
+([Unnamed+branch+of+left+subcostal+artery] of  Systemic+artery
+
+	(FMAID "14248")
+	(Preferred+name [KB_INSTANCE_15659]))
+
+([Unnamed+branch+of+left+tenth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14268")
+	(Preferred+name [KB_INSTANCE_15679]))
+
+([Unnamed+branch+of+left+third+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14254")
+	(Preferred+name [KB_INSTANCE_15665]))
+
+([Unnamed+branch+of+lumbar+artery] of  Systemic+artery
+
+	(branch+of Lumbar+artery)
+	(FMAID "15138")
+	(Preferred+name [KB_INSTANCE_17185]))
+
+([Unnamed+branch+of+ninth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14243")
+	(Preferred+name [KB_INSTANCE_15654]))
+
+([Unnamed+branch+of+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14232")
+	(Preferred+name [KB_INSTANCE_15643]))
+
+([Unnamed+branch+of+right+coronary+artery] of  Systemic+artery
+
+	(branch+of
+		Proximal+portion+of+right+coronary+artery
+		Distal+portion+of+right+coronary+artery
+		Right+coronary+artery)
+	(FMAID "3854")
+	(part+of Right+coronary+artery)
+	(Preferred+name [KB_INSTANCE_00156])
+	(regional+part+of Right+coronary+artery))
+
+([Unnamed+branch+of+right+eighth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14263")
+	(Preferred+name [KB_INSTANCE_15674]))
+
+([Unnamed+branch+of+right+eleventh+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14269")
+	(Preferred+name [KB_INSTANCE_15680]))
+
+([Unnamed+branch+of+right+fifth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14257")
+	(Preferred+name [KB_INSTANCE_15668]))
+
+([Unnamed+branch+of+right+first+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14249")
+	(Preferred+name [KB_INSTANCE_15660]))
+
+([Unnamed+branch+of+right+fourth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14255")
+	(Preferred+name [KB_INSTANCE_15666]))
+
+([Unnamed+branch+of+right+ninth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14265")
+	(Preferred+name [KB_INSTANCE_15676]))
+
+([Unnamed+branch+of+right+second+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14251")
+	(Preferred+name [KB_INSTANCE_15662]))
+
+([Unnamed+branch+of+right+seventh+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14261")
+	(Preferred+name [KB_INSTANCE_15672]))
+
+([Unnamed+branch+of+right+sixth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14259")
+	(Preferred+name [KB_INSTANCE_15670]))
+
+([Unnamed+branch+of+right+subcostal+artery] of  Systemic+artery
+
+	(FMAID "14247")
+	(Preferred+name [KB_INSTANCE_15658]))
+
+([Unnamed+branch+of+right+tenth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14267")
+	(Preferred+name [KB_INSTANCE_15678]))
+
+([Unnamed+branch+of+right+third+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14253")
+	(Preferred+name [KB_INSTANCE_15664]))
+
+([Unnamed+branch+of+second+lumbar+artery] of  Systemic+artery
+
+	(FMAID "15365")
+	(Preferred+name [KB_INSTANCE_17496]))
+
+([Unnamed+branch+of+second+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14236")
+	(Preferred+name [KB_INSTANCE_15647]))
+
+([Unnamed+branch+of+seventh+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14241")
+	(Preferred+name [KB_INSTANCE_15652]))
+
+([Unnamed+branch+of+sixth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14240")
+	(Preferred+name [KB_INSTANCE_15651]))
+
+([Unnamed+branch+of+subcostal+artery] of  Systemic+artery
+
+	(FMAID "14246")
+	(Preferred+name [KB_INSTANCE_15657]))
+
+([Unnamed+branch+of+tenth+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14244")
+	(Preferred+name [KB_INSTANCE_15655]))
+
+([Unnamed+branch+of+third+lumbar+artery] of  Systemic+artery
+
+	(FMAID "15366")
+	(Preferred+name [KB_INSTANCE_17497]))
+
+([Unnamed+branch+of+third+posterior+intercostal+artery] of  Systemic+artery
+
+	(FMAID "14237")
+	(Preferred+name [KB_INSTANCE_15648]))
+
+([Unnamed+hepatic+vein] of  Vein
+
+	(FMAID "15807")
+	(Preferred+name [KB_INSTANCE_18244]))
+
+([Unnamed+tributary+from+left+atrium] of  Vein
+
+	(FMAID "4709")
+	(Preferred+name [KB_INSTANCE_00960])
+	(tributary+of Great+cardiac+vein))
+
+([Unnamed+tributary+from+left+ventricle] of  Vein
+
+	(FMAID "4710")
+	(Preferred+name [KB_INSTANCE_00961])
+	(tributary+of Great+cardiac+vein))
+
+([Unnamed+tributary+from+right+ventricle] of  Vein
+
+	(FMAID "4711")
+	(Preferred+name [KB_INSTANCE_00962])
+	(tributary+of Great+cardiac+vein))
+
+([Unnamed+tributary+of+cardiac+vein] of  Vein
+
+	(FMAID "4719")
+	(Preferred+name [KB_INSTANCE_00973]))
+
+([Unnamed+tributary+of+first+lumbar+vein] of  Vein
+
+	(FMAID "15560")
+	(Preferred+name [KB_INSTANCE_17756]))
+
+([Unnamed+tributary+of+fourth+lumbar+vein] of  Vein
+
+	(FMAID "15563")
+	(Preferred+name [KB_INSTANCE_17759]))
+
+([Unnamed+tributary+of+left+lumbar+vin] of  Vein
+
+	(FMAID "15565")
+	(Preferred+name [KB_INSTANCE_17761]))
+
+([Unnamed+tributary+of+lumbar+vein] of  Vein
+
+	(FMAID "15559")
+	(Preferred+name [KB_INSTANCE_17755]))
+
+([Unnamed+tributary+of+right+lumbar+vein] of  Vein
+
+	(FMAID "15564")
+	(Preferred+name [KB_INSTANCE_17760]))
+
+([Unnamed+tributary+of+second+lumbar+vein] of  Vein
+
+	(FMAID "15561")
+	(Preferred+name [KB_INSTANCE_17757]))
+
+([Unnamed+tributary+of+third+lumbar+vein] of  Vein
+
+	(FMAID "15562")
+	(Preferred+name [KB_INSTANCE_17758]))
+
+([Unpaired+dural+venous+sinus] of  Vein
+
+	(FMAID "52569")
+	(Preferred+name [KB_INSTANCE_66206]))
+
+([Unpaired+thyroid+venous+plexus] of  Organ+part
+
+	(FMAID "50799")
+	(Non-English+equivalent
+		[su_incus_37376]
+		[su_incus_37377]
+		[KB_AUTO-INSERT%283%29_2822])
+	(Preferred+name [su_incus_25629])
+	(regional+part+of Right+brachiocephalic+vein)
+	(Synonym
+		[KB_INSTANCE_64139]
+		[KB_INSTANCE_64138]))
+
+([Unstratified+part+of+detrusor] of  Subdivision+of+muscle+layer
+
+	(FMAID "67987")
+	(Non-English+equivalent
+		[su_incus_35901]
+		[su_incus_35902])
+	(part+of Detrusor)
+	(Preferred+name [FM_live_02485])
+	(regional+part+of Detrusor)
+	(Synonym [FM_live_02519]))
+
+([Upper+abdomen] of  Subdivision+of+front+of+abdomen
+
+	(FMAID "20364")
+	(Preferred+name [KB_INSTANCE_25696])
+	(regional+part
+		Epigastrium
+		Right+hypochondrium
+		Left+hypochondrium)
+	(regional+part+of
+		Front+of+abdomen
+		Abdomen)
+	(Synonym [KB_INSTANCE_25697]))
+
+([Upper+abdominal+part+of+peritoneal+cavity] of  Anatomical+cavity
+
+	(FMAID "19771")
+	(Preferred+name [KB_INSTANCE_24958])
+	(Synonym [KB_INSTANCE_24959]))
+
+([Upper+anterior+abdominal+wall] of  Anterior+abdominal+wall
+
+	(FMAID "84252")
+	(Preferred+name [fm_live_30470])
+	(regional+part+of Anterior+abdominal+wall))
+
+([Upper+appendicular+skeletal+system] of  Appendicular+skeletal+system
+
+	(FMAID "25560")
+	(Non-English+equivalent [ONARD_Instance_580423])
+	(part+of Skeleton+%28in+vivo%29)
+	(Preferred+name [KB_INSTANCE_32166])
+	(regional+part+of Skeleton+%28in+vivo%29)
+	(systemic+part+of Skeleton+%28in+vivo%29))
+
+([Upper+border+of+isthmus+of+thyroid+gland] of  Border+of+isthmus+of+thyroid+gland
+
+	(FMAID "55556")
+	(Preferred+name [KB_INSTANCE_70774]))
+
+([Upper+branch+of+ciliary+ganglion] of  Anatomical+structure
+
+	(dimension 3-dimension)
+	(FMAID "72139")
+	(Preferred+name [FM_live_04878]))
+
+([Upper+branch+of+internal+laryngeal+nerve] of  Branch+of+internal+laryngeal+nerve
+
+	(FMAID "6241")
+	(Preferred+name [KB_INSTANCE_02231]))
+
+([Upper+branch+of+internal+laryngeal+nerve+to+epiglottic+vallecula] of  Upper+branch+of+internal+laryngeal+nerve
+
+	(branch+of Internal+laryngeal+nerve)
+	(FMAID "6703")
+	(Preferred+name [KB_INSTANCE_02999])
+	(Synonym [KB_INSTANCE_03000]))
+
+([Upper+branch+of+internal+laryngeal+nerve+to+epiglottis] of  Upper+branch+of+internal+laryngeal+nerve
+
+	(branch+of Internal+laryngeal+nerve)
+	(FMAID "6702")
+	(Preferred+name [KB_INSTANCE_02998]))
+
+([Upper+branch+of+internal+laryngeal+nerve+to+laryngeal+vestibule] of  Upper+branch+of+internal+laryngeal+nerve
+
+	(branch+of Internal+laryngeal+nerve)
+	(FMAID "6704")
+	(Preferred+name [KB_INSTANCE_03001]))
+
+([Upper+branch+of+internal+laryngeal+nerve+to+mucosa+of+pharynx] of  Upper+branch+of+internal+laryngeal+nerve
+
+	(branch+of Internal+laryngeal+nerve)
+	(FMAID "6697")
+	(Preferred+name [KB_INSTANCE_02994]))
+
+([Upper+branch+of+left+internal+laryngeal+nerve+to+epiglottic+vallecula] of  Upper+branch+of+internal+laryngeal+nerve+to+epiglottic+vallecula
+
+	(branch+of Left+internal+laryngeal+nerve)
+	(FMAID "53580")
+	(Preferred+name [KB_INSTANCE_67824]))
+
+([Upper+branch+of+left+internal+laryngeal+nerve+to+epiglottis] of  Upper+branch+of+internal+laryngeal+nerve+to+epiglottis
+
+	(branch+of Left+internal+laryngeal+nerve)
+	(FMAID "53574")
+	(Preferred+name [KB_INSTANCE_67818]))
+
+([Upper+branch+of+left+internal+laryngeal+nerve+to+laryngeal+vestibule] of  Upper+branch+of+internal+laryngeal+nerve+to+laryngeal+vestibule
+
+	(branch+of Left+internal+laryngeal+nerve)
+	(FMAID "53576")
+	(Preferred+name [KB_INSTANCE_67820]))
+
+([Upper+branch+of+left+internal+laryngeal+nerve+to+mucosa+of+pharynx] of  Upper+branch+of+internal+laryngeal+nerve+to+mucosa+of+pharynx
+
+	(branch+of Left+internal+laryngeal+nerve)
+	(FMAID "53578")
+	(Preferred+name [KB_INSTANCE_67822]))
+
+([Upper+branch+of+right+internal+laryngeal+nerve+to+epiglottic+vallecula] of  Upper+branch+of+internal+laryngeal+nerve+to+epiglottic+vallecula
+
+	(branch+of Right+internal+laryngeal+nerve)
+	(FMAID "53579")
+	(Preferred+name [KB_INSTANCE_67823]))
+
+([Upper+branch+of+right+internal+laryngeal+nerve+to+epiglottis] of  Upper+branch+of+internal+laryngeal+nerve+to+epiglottis
+
+	(branch+of Right+internal+laryngeal+nerve)
+	(FMAID "53573")
+	(Preferred+name [KB_INSTANCE_67817]))
+
+([Upper+branch+of+right+internal+laryngeal+nerve+to+laryngeal+vestibule] of  Upper+branch+of+internal+laryngeal+nerve+to+laryngeal+vestibule
+
+	(branch+of Right+internal+laryngeal+nerve)
+	(FMAID "53575")
+	(Preferred+name [KB_INSTANCE_67819]))
+
+([Upper+branch+of+right+internal+laryngeal+nerve+to+mucosa+of+pharynx] of  Upper+branch+of+internal+laryngeal+nerve+to+mucosa+of+pharynx
+
+	(branch+of Right+internal+laryngeal+nerve)
+	(FMAID "53577")
+	(Preferred+name [KB_INSTANCE_67821]))
+
+([Upper+canine+socket] of  Canine+socket
+
+	(FMAID "58007")
+	(Preferred+name [KB_INSTANCE_76461]))
+
+([Upper+central+incisor+socket] of  Upper+incisor+socket
+
+	(FMAID "57992")
+	(Preferred+name [KB_INSTANCE_76438]))
+
+([Upper+central+primary+incisor+tooth] of  Upper+primary+incisor+tooth
+
+	(FMAID "84216")
+	(Preferred+name [fm_live_30702])
+	(Synonym
+		[fm_live_30741]
+		[fm_live_30776]))
+
+([Upper+central+secondary+incisor+tooth] of  Upper+secondary+incisor+tooth
+
+	(FMAID "55722")
+	(Preferred+name [KB_INSTANCE_71067])
+	(Synonym
+		[KB_INSTANCE_71068]
+		[fm_live_30849]))
+
+([Upper+deep+buccal+branch+of+facial+nerve] of  Deep+buccal+branch+of+facial+nerve
+
+	(FMAID "53339")
+	(Preferred+name [KB_INSTANCE_67459]))
+
+([Upper+deep+buccal+branch+of+left+facial+nerve] of  Upper+deep+buccal+branch+of+facial+nerve
+
+	(FMAID "53342")
+	(Preferred+name [KB_INSTANCE_67462]))
+
+([Upper+deep+buccal+branch+of+right+facial+nerve] of  Upper+deep+buccal+branch+of+facial+nerve
+
+	(FMAID "53341")
+	(Preferred+name [KB_INSTANCE_67461]))
+
+([Upper+eyelid] of  Eyelid
+
+	(constitutional+part
+		Skin+of+upper+eyelid
+		Superficial+fascia+of+upper+eyelid
+		Tarsal+plate+of+upper+eyelid
+		Tarsal+gland+of+upper+eyelid
+		Palpebral+part+of+orbicularis+oculi
+		Palpebral+conjunctiva+of+upper+eyelid)
+	(constitutional+part+of Eye)
+	(FMAID "54439")
+	(Non-English+equivalent
+		[KB_INSTANCE_69105]
+		[KB_AUTO-INSERT%283%29_4326])
+	(part
+		Skin+of+upper+eyelid
+		Superficial+fascia+of+upper+eyelid
+		Tarsal+plate+of+upper+eyelid
+		Tarsal+gland+of+upper+eyelid
+		Palpebral+part+of+orbicularis+oculi
+		Palpebral+conjunctiva+of+upper+eyelid)
+	(part+of Eye)
+	(Preferred+name [KB_INSTANCE_69104])
+	(Synonym [KB_INSTANCE_69106]))
+
+([Upper+first+molar+socket] of  Upper+molar+socket
+
+	(FMAID "58047")
+	(Preferred+name [KB_INSTANCE_76523]))
+
+([Upper+first+premolar+socket] of  Upper+premolar+socket
+
+	(FMAID "58015")
+	(Preferred+name [KB_INSTANCE_76473]))
+
+([Upper+first+primary+molar+tooth] of  Upper+primary+molar+tooth
+
+	(FMAID "84211")
+	(Preferred+name [fm_live_30692])
+	(Synonym
+		[fm_live_30766]
+		[fm_live_30796]))
+
+([Upper+first+secondary+molar+tooth] of  Upper+secondary+molar+tooth
+
+	(FMAID "55811")
+	(Preferred+name [KB_INSTANCE_71301])
+	(Synonym
+		[KB_INSTANCE_71302]
+		[fm_live_30883]))
+
+([Upper+first+secondary+premolar+tooth] of  Upper+secondary+premolar+tooth
+
+	(FMAID "55801")
+	(Preferred+name [KB_INSTANCE_71286])
+	(Synonym
+		[KB_INSTANCE_71287]
+		[fm_live_30869]))
+
+([Upper+gastrointestinal+tract] of  Anatomical+structure
+
+	(attributed+part
+		[FM_live_04254]
+		[FM_live_04255]
+		[FM_live_04256])
+	(FMAID "49177")
+	(Non-English+equivalent [ONARD_Instance_580441])
+	(part
+		Esophagus
+		Stomach
+		Duodenum)
+	(part+of Gastrointestinal+system)
+	(Preferred+name [KB_INSTANCE_62071])
+	(regional+part
+		Esophagus
+		Stomach
+		Duodenum)
+	(regional+part+of
+		Gastrointestinal+system
+		Gut)
+	(Synonym [KB_INSTANCE_62072]))
+
+([Upper+head+of+lateral+pterygoid] of  Head+of+organ
+
+	(FMAID "49020")
+	(Non-English+equivalent [su_incus_37553])
+	(Preferred+name [KB_INSTANCE_61809])
+	(Synonym
+		[KB_INSTANCE_61810]
+		[KB_INSTANCE_61811]))
+
+([Upper+head+of+left+lateral+pterygoid] of  Upper+head+of+lateral+pterygoid
+
+	(FMAID "49025")
+	(Preferred+name [KB_INSTANCE_61822]))
+
+([Upper+head+of+right+lateral+pterygoid] of  Upper+head+of+lateral+pterygoid
+
+	(FMAID "49024")
+	(Preferred+name [KB_INSTANCE_61821]))
+
+([Upper+hemithorax] of  Subdivision+of+thorax
+
+	(FMAID "57846")
+	(part+of Hemithorax)
+	(Preferred+name [KB_INSTANCE_76209])
+	(regional+part+of Hemithorax))
+
+([Upper+incisor+socket] of  Incisor+socket
+
+	(FMAID "57989")
+	(Preferred+name [KB_INSTANCE_76435]))
+
+([Upper+inner+quadrant+of+breast] of  Quadrant+of+breast
+
+	(FMAID "61375")
+	(Preferred+name [KB_INSTANCE_80925])
+	(regional+part+of Breast)
+	(Synonym [KB_INSTANCE_80926]))
+
+([Upper+inner+quadrant+of+left+female+breast] of  Upper+inner+quadrant+of+breast
+
+	(FMAID "61398")
+	(part+of Left+female+breast)
+	(Preferred+name [KB_INSTANCE_80971])
+	(regional+part+of Left+female+breast))
+
+([Upper+inner+quadrant+of+right+female+breast] of  Upper+inner+quadrant+of+breast
+
+	(FMAID "61397")
+	(part+of Right+female+breast)
+	(Preferred+name [KB_INSTANCE_80969])
+	(regional+part+of Right+female+breast))
+
+([Upper+intercostal+lymphatic+chain] of  Intercostal+lymphatic+chain
+
+	(efferent+to Thoracic+duct)
+	(FMAID "223917")
+	(Preferred+name [ONARD_Instance_420166])
+	(regional+part
+		First+intercostal+lymphatic+chain
+		Second+intercostal+lymphatic+chain
+		Third+intercostal+lymphatic+chain
+		Fourth+intercostal+lymphatic+chain
+		Fifth+intercostal+lymphatic+chain))
+
+([Upper+jaw] of  Jaw
+
+	(constitutional+part
+		Gingiva+of+upper+jaw
+		Alveolar+arch+of+maxilla
+		Maxillary+dental+arcade)
+	(FMAID "54397")
+	(part
+		Gingiva+of+upper+jaw
+		Alveolar+arch+of+maxilla
+		Maxillary+dental+arcade)
+	(part+of Maxillary+part+of+mouth)
+	(Preferred+name [KB_INSTANCE_69054])
+	(regional+part
+		Right+side+of+upper+jaw
+		Left+side+of+upper+jaw)
+	(regional+part+of Maxillary+part+of+mouth))
+
+([Upper+lateral+incisor+socket] of  Upper+incisor+socket
+
+	(FMAID "57993")
+	(Preferred+name [KB_INSTANCE_76439]))
+
+([Upper+lateral+primary+incisor+tooth] of  Upper+primary+incisor+tooth
+
+	(FMAID "84217")
+	(Preferred+name [fm_live_30704])
+	(Synonym
+		[fm_live_30742]
+		[fm_live_30779]))
+
+([Upper+lateral+secondary+incisor+tooth] of  Upper+secondary+incisor+tooth
+
+	(FMAID "55724")
+	(Preferred+name [KB_INSTANCE_71071])
+	(Synonym
+		[KB_INSTANCE_71072]
+		[fm_live_30852]))
+
+([Upper+limb] of  Limb
+
+	(attributed+part
+		[fm_live_01598]
+		[fm_live_01600])
+	(constitutional+part
+		Skin+of+upper+limb
+		Superficial+fascia+of+upper+limb
+		Vasculature+of+upper+limb
+		Skeleton+of+upper+limb
+		Neural+network+of+upper+limb)
+	(FMAID "7183")
+	(Non-English+equivalent
+		[su_incus_38273]
+		[KB_AUTO-INSERT%283%29_33]
+		[ONARD_Instance_530012]
+		[ONARD_Instance_580318])
+	(part
+		Arm
+		Skin+of+upper+limb
+		Superficial+fascia+of+upper+limb
+		Investing+fascia+of+upper+limb
+		Pectoral+girdle
+		Free+upper+limb
+		Musculature+of+upper+limb)
+	(part+of Body)
+	(Preferred+name [fm_live_22024])
+	(regional+part
+		Pectoral+girdle
+		Free+upper+limb)
+	(regional+part+of
+		Body
+		Male+body
+		Female+body)
+	(Synonym
+		[KB_INSTANCE_03990]
+		[KB_INSTANCE_03992]
+		[KB_INSTANCE_03989]
+		[fma_p2_Instance_210002]))
+
+([Upper+lip] of  Lip
+
+	(constitutional+part
+		Skin+of+upper+lip
+		Superficial+fascia+of+upper+lip
+		Mucosa+of+upper+lip
+		Superior+labial+part+of+orbicularis+oris
+		Superior+marginal+part+of+orbicularis+oris)
+	(FMAID "59817")
+	(lymphatic+drainage Submandibular+lymphatic+chain)
+	(Non-English+equivalent
+		[KB_INSTANCE_78950]
+		[KB_AUTO-INSERT%283%29_1492]
+		[ONARD_Instance_580263])
+	(part
+		Upper+vermilion
+		Philtrum
+		Tubercle+of+upper+lip
+		Upper+lip+proper
+		Skin+of+upper+lip
+		Mucosa+of+upper+lip
+		Superior+labial+part+of+orbicularis+oris
+		Superior+marginal+part+of+orbicularis+oris)
+	(part+of Labial+part+of+mouth)
+	(Preferred+name [KB_INSTANCE_78949])
+	(regional+part
+		Upper+vermilion
+		Philtrum
+		Tubercle+of+upper+lip
+		Upper+lip+proper)
+	(regional+part+of Labial+part+of+mouth)
+	(systemic+part
+		Upper+vermilion
+		Philtrum
+		Tubercle+of+upper+lip
+		Upper+lip+proper
+		Skin+of+upper+lip
+		Mucosa+of+upper+lip
+		Superior+labial+part+of+orbicularis+oris
+		Superior+marginal+part+of+orbicularis+oris))
+
+([Upper+lip+proper] of  Subdivision+of+mouth
+
+	(FMAID "59830")
+	(part+of Upper+lip)
+	(Preferred+name [KB_INSTANCE_78974])
+	(regional+part+of Upper+lip))
+
+([Upper+lobar+artery] of  Pulmonary+artery
+
+	(FMAID "8702")
+	(Preferred+name [fm_live_04007])
+	(Synonym
+		[KB_INSTANCE_06420]
+		[KB_INSTANCE_06419]))
+
+([Upper+lobar+branch+of+pulmonary+artery] of  Pulmonary+arterial+trunk
+
+	(FMAID "8698")
+	(Preferred+name [KB_INSTANCE_06406])
+	(Synonym
+		[KB_INSTANCE_06407]
+		[KB_INSTANCE_06408]))
+
+([Upper+lobar+bronchial+artery] of  Systemic+artery
+
+	(FMAID "68470")
+	(Preferred+name [fm_live_05169])
+	(Synonym [fm_live_05187]))
+
+([Upper+lobar+bronchial+vein] of  Vein
+
+	(FMAID "68491")
+	(Preferred+name [fm_live_05275]))
+
+([Upper+lobar+vein] of  Vein
+
+	(FMAID "13477")
+	(Preferred+name [KB_INSTANCE_14446])
+	(Synonym [fm_live_04006]))
+
+([Upper+lobe+lymph+node] of  Lymph+node
+
+	(FMAID "68279")
+	(Preferred+name [fm_live_04318])
+	(Synonym [fm_live_04337]))
+
+([Upper+lobe+of+left+lung] of  Upper+lobe+of+lung
+
+	(arterial+supply Left+first+bronchial+artery)
+	(attributed+part
+		[fm_live_03652]
+		[fm_live_03653]
+		[fm_live_03656]
+		[fm_live_03657]
+		[fm_live_03684]
+		[fm_live_03685]
+		[fm_live_04053]
+		[fm_live_04054]
+		[fm_live_04055]
+		[fm_live_04056]
+		[fm_live_04057]
+		[fm_live_04881]
+		[fm_live_04882]
+		[fm_live_05368]
+		[fm_live_06482])
+	(bounded+by Surface+of+upper+lobe+of+left+lung)
+	(constitutional+part
+		Parenchyma+of+left+upper+lobe
+		Pleura+of+left+upper+lobe
+		Upper+lobe+part+of+left+bronchial+tree
+		Left+upper+lobar+artery
+		Left+upper+lobar+vein
+		Left+upper+lobar+bronchial+artery
+		Left+upper+lobar+bronchial+vein
+		Left+upper+lobe+lymphatic+chain
+		Upper+lobe+part+of+left+anterior+pulmonary+nerve+plexus
+		Upper+lobe+part+of+left+posterior+pulmonary+nerve+plexus
+		Neural+network+of+upper+lobe+of+left+lung
+		Vasculature+of+upper+lobe+of+left+lung)
+	(FMAID "7370")
+	(lymphatic+drainage Left+upper+lobe+lymphatic+chain)
+	(Non-English+equivalent
+		[su_incus_37732]
+		[su_incus_37733])
+	(part
+		Apicoposterior+bronchopulmonary+segment
+		Left+apical+bronchopulmonary+segment
+		Left+posterior+bronchopulmonary+segment
+		Left+anterior+bronchopulmonary+segment
+		Superior+lingular+bronchopulmonary+segment
+		Inferior+lingular+bronchopulmonary+segment
+		Parenchyma+of+left+upper+lobe
+		Upper+lobe+part+of+left+bronchial+tree
+		Pleura+of+left+upper+lobe
+		Left+upper+lobar+bronchial+artery
+		Left+upper+lobar+bronchial+vein
+		Left+upper+lobar+artery
+		Lingular+artery
+		Left+upper+lobar+vein
+		Upper+lobe+part+of+left+anterior+pulmonary+nerve+plexus
+		Upper+lobe+part+of+left+posterior+pulmonary+nerve+plexus
+		Left+upper+lobe+lymphatic+chain)
+	(part+of Left+lung)
+	(Preferred+name [KB_INSTANCE_04360])
+	(regional+part
+		Apicoposterior+bronchopulmonary+segment
+		Left+apical+bronchopulmonary+segment
+		Left+posterior+bronchopulmonary+segment
+		Left+anterior+bronchopulmonary+segment
+		Superior+lingular+bronchopulmonary+segment
+		Inferior+lingular+bronchopulmonary+segment)
+	(regional+part+of Left+lung)
+	(Synonym
+		[KB_INSTANCE_04361]
+		[KB_INSTANCE_04362]
+		[KB_INSTANCE_04364])
+	(venous+drainage Left+bronchial+vein))
+
+([Upper+lobe+of+lung] of  Lobe+of+lung
+
+	(constitutional+part
+		Parenchyma+of+upper+lobe+of+lung
+		Upper+lobe+part+of+bronchial+tree
+		Pleura+of+upper+lobe
+		Neural+network+of+upper+lobe+of+lung
+		Vasculature+of+upper+lobe+of+lung)
+	(FMAID "7334")
+	(Non-English+equivalent [su_incus_37729])
+	(part
+		Parenchyma+of+upper+lobe+of+lung
+		Upper+lobe+part+of+bronchial+tree
+		Pleura+of+upper+lobe
+		Apical+bronchopulmonary+segment
+		Posterior+bronchopulmonary+segment
+		Anterior+bronchopulmonary+segment)
+	(part+of Lung)
+	(Preferred+name [KB_INSTANCE_04287])
+	(regional+part
+		Apical+bronchopulmonary+segment
+		Posterior+bronchopulmonary+segment
+		Anterior+bronchopulmonary+segment)
+	(Synonym
+		[KB_INSTANCE_04288]
+		[su_incus_24672]))
+
+([Upper+lobe+of+right+lung] of  Upper+lobe+of+lung
+
+	(arterial+supply Right+bronchial+artery)
+	(attributed+part
+		[fm_live_03648]
+		[fm_live_03649]
+		[fm_live_03650]
+		[fm_live_03681]
+		[fm_live_03682]
+		[fm_live_03767]
+		[fm_live_03832]
+		[fm_live_03907]
+		[fm_live_03938]
+		[fm_live_03997]
+		[fm_live_04880]
+		[fm_live_04883]
+		[fm_live_05367])
+	(bounded+by Surface+of+upper+lobe+of+right+lung)
+	(constitutional+part
+		Parenchyma+of+right+upper+lobe
+		Pleura+of+right+upper+lobe
+		Upper+lobe+part+of+right+bronchial+tree
+		Right+upper+lobar+vein
+		Right+upper+lobar+artery
+		Right+upper+lobar+bronchial+artery
+		Right+upper+lobar+bronchial+vein
+		Right+upper+lobe+lymphatic+chain
+		Upper+lobe+part+of+right+anterior+pulmonary+nerve+plexus
+		Upper+lobe+part+of+right+posterior+pulmonary+nerve+plexus
+		Neural+network+of+upper+lobe+of+right+lung
+		Vasculature+of+upper+lobe+of+right+lung)
+	(FMAID "7333")
+	(inherent+3-D+shape Semi-cone)
+	(lymphatic+drainage Right+upper+lobe+lymphatic+chain)
+	(Non-English+equivalent
+		[su_incus_37730]
+		[su_incus_37731])
+	(part
+		Parenchyma+of+right+upper+lobe
+		Upper+lobe+part+of+right+bronchial+tree
+		Pleura+of+right+upper+lobe
+		Right+upper+lobar+artery
+		Right+upper+lobar+vein
+		Right+upper+lobar+bronchial+artery
+		Right+upper+lobar+bronchial+vein
+		Upper+lobe+part+of+right+anterior+pulmonary+nerve+plexus
+		Upper+lobe+part+of+right+posterior+pulmonary+nerve+plexus
+		Right+upper+lobe+lymphatic+chain
+		Right+apical+bronchopulmonary+segment
+		Right+posterior+bronchopulmonary+segment
+		Right+anterior+bronchopulmonary+segment)
+	(part+of Right+lung)
+	(Preferred+name [KB_INSTANCE_04282])
+	(regional+part
+		Right+apical+bronchopulmonary+segment
+		Right+posterior+bronchopulmonary+segment
+		Right+anterior+bronchopulmonary+segment)
+	(regional+part+of Right+lung)
+	(Synonym
+		[KB_INSTANCE_04284]
+		[KB_INSTANCE_04285]
+		[KB_INSTANCE_04286])
+	(venous+drainage Right+bronchial+vein))
+
+([Upper+lobe+part+of+anterior+pulmonary+nerve+plexus] of  Subdivision+of+anterior+pulmonary+nerve+plexus
+
+	(FMAID "68422")
+	(Preferred+name [fm_live_04853]))
+
+([Upper+lobe+part+of+bronchial+tree] of  Lobar+bronchial+tree
+
+	(constitutional+part
+		Wall+of+upper+lobe+part+of+bronchial+tree
+		Lumen+of+upper+lobe+part+of+bronchial+tree)
+	(constitutional+part+of Upper+lobe+of+lung)
+	(FMAID "31740")
+	(part
+		Superior+lobar+bronchus
+		Apical+segmental+bronchial+tree
+		Anterior+segmental+bronchial+tree
+		Posterior+segmental+bronchial+tree)
+	(part+of Upper+lobe+of+lung)
+	(Preferred+name [fm_live_05333])
+	(regional+part
+		Superior+lobar+bronchus
+		Apical+segmental+bronchial+tree
+		Anterior+segmental+bronchial+tree
+		Posterior+segmental+bronchial+tree)
+	(Synonym
+		[KB_INSTANCE_39304]
+		[fm_live_04073]))
+
+([Upper+lobe+part+of+left+anterior+pulmonary+nerve+plexus] of  Upper+lobe+part+of+anterior+pulmonary+nerve+plexus
+
+	(constitutional+part+of Upper+lobe+of+left+lung)
+	(FMAID "68424")
+	(part+of Upper+lobe+of+left+lung)
+	(Preferred+name [fm_live_04857]))
+
+([Upper+lobe+part+of+left+bronchial+tree] of  Upper+lobe+part+of+bronchial+tree
+
+	(attributed+part
+		[fm_live_04437]
+		[fm_live_04442]
+		[fm_live_04443])
+	(constitutional+part
+		Wall+of+upper+lobe+part+of+left+bronchial+tree
+		Lumen+of+upper+lobe+part+of+left+bronchial+tree)
+	(constitutional+part+of Upper+lobe+of+left+lung)
+	(custom+partonomy
+		Left+superior+lobar+bronchus
+		Superior+division+of+upper+lobe+part+of+left+bronchial+tree
+		Inferior+division+of+upper+lobe+part+of+left+bronchial+tree
+		Left+posterior+segmental+bronchial+tree)
+	(custom+partonomy+of Left+bronchial+tree)
+	(FMAID "31746")
+	(part
+		Left+superior+lobar+bronchus
+		Superior+division+of+upper+lobe+part+of+left+bronchial+tree
+		Inferior+division+of+upper+lobe+part+of+left+bronchial+tree
+		Left+posterior+segmental+bronchial+tree)
+	(part+of
+		Left+bronchial+tree
+		Upper+lobe+of+left+lung
+		Left+intrapulmonary+part+of+tracheobronchial+tree)
+	(Preferred+name [fm_live_03676])
+	(regional+part
+		Left+superior+lobar+bronchus
+		Superior+division+of+upper+lobe+part+of+left+bronchial+tree
+		Inferior+division+of+upper+lobe+part+of+left+bronchial+tree
+		Left+posterior+segmental+bronchial+tree)
+	(regional+part+of
+		Left+bronchial+tree
+		Left+intrapulmonary+part+of+tracheobronchial+tree)
+	(Synonym
+		[KB_INSTANCE_39312]
+		[KB_INSTANCE_39311]
+		[fm_live_04068]))
+
+([Upper+lobe+part+of+left+posterior+pulmonary+nerve+plexus] of  Upper+lobe+part+of+posterior+pulmonary+nerve+plexus
+
+	(constitutional+part+of Upper+lobe+of+left+lung)
+	(FMAID "68427")
+	(part+of Upper+lobe+of+left+lung)
+	(Preferred+name [fm_live_04863]))
+
+([Upper+lobe+part+of+posterior+pulmonary+nerve+plexus] of  Subdivision+of+posterior+pulmonary+nerve+plexus
+
+	(FMAID "68425")
+	(Preferred+name [fm_live_04859]))
+
+([Upper+lobe+part+of+right+anterior+pulmonary+nerve+plexus] of  Upper+lobe+part+of+anterior+pulmonary+nerve+plexus
+
+	(constitutional+part+of Upper+lobe+of+right+lung)
+	(FMAID "68423")
+	(part+of Upper+lobe+of+right+lung)
+	(Preferred+name [fm_live_04855]))
+
+([Upper+lobe+part+of+right+bronchial+tree] of  Upper+lobe+part+of+bronchial+tree
+
+	(attributed+part
+		[fm_live_04433]
+		[fm_live_04434]
+		[fm_live_04435]
+		[fm_live_04436])
+	(bounded+by Surface+of+upper+lobe+part+of+right+bronchial+tree)
+	(constitutional+part
+		Wall+of+upper+lobe+part+of+right+bronchial+tree
+		Lumen+of+upper+lobe+part+of+right+bronchial+tree)
+	(constitutional+part+of Upper+lobe+of+right+lung)
+	(custom+partonomy
+		Intrapulmonary+part+of+right+superior+lobar+bronchus
+		Right+apical+segmental+bronchial+tree
+		Right+posterior+segmental+bronchial+tree
+		Right+anterior+segmental+bronchial+tree
+		Right+superior+lobar+bronchus)
+	(custom+partonomy+of Right+bronchial+tree)
+	(FMAID "31744")
+	(inherent+3-D+shape Hollow+tree)
+	(part
+		Intrapulmonary+part+of+right+superior+lobar+bronchus
+		Right+apical+segmental+bronchial+tree
+		Right+posterior+segmental+bronchial+tree
+		Right+anterior+segmental+bronchial+tree
+		Right+superior+lobar+bronchus)
+	(part+of
+		Right+bronchial+tree
+		Right+intrapulmonary+part+of+tracheobronchial+tree
+		Upper+lobe+of+right+lung)
+	(Preferred+name [fm_live_03675])
+	(regional+part
+		Intrapulmonary+part+of+right+superior+lobar+bronchus
+		Right+apical+segmental+bronchial+tree
+		Right+posterior+segmental+bronchial+tree
+		Right+anterior+segmental+bronchial+tree
+		Right+superior+lobar+bronchus)
+	(regional+part+of
+		Right+bronchial+tree
+		Right+intrapulmonary+part+of+tracheobronchial+tree)
+	(Synonym
+		[KB_INSTANCE_39309]
+		[KB_INSTANCE_39308]
+		[fm_live_04067]))
+
+([Upper+lobe+part+of+right+posterior+pulmonary+nerve+plexus] of  Upper+lobe+part+of+posterior+pulmonary+nerve+plexus
+
+	(constitutional+part+of Upper+lobe+of+right+lung)
+	(FMAID "68426")
+	(part+of Upper+lobe+of+right+lung)
+	(Preferred+name [fm_live_04861]))
+
+([Upper+lung+field] of  Non-physical+anatomical+entity+template
+
+	(FMAID "57905")
+	(Preferred+name [su_incus_34735]))
+
+([Upper+molar+socket] of  Molar+socket
+
+	(FMAID "58029")
+	(Preferred+name [KB_INSTANCE_76496]))
+
+([Upper+motor+neuron] of  Motor+neuron
+
+	(FMAID "84631")
+	(Preferred+name [fm_live_32093]))
+
+([Upper+outer+quadrant+of+breast] of  Quadrant+of+breast
+
+	(FMAID "61380")
+	(Preferred+name [KB_INSTANCE_80935])
+	(regional+part+of Breast)
+	(Synonym [KB_INSTANCE_80936]))
+
+([Upper+outer+quadrant+of+left+female+breast] of  Upper+outer+quadrant+of+breast
+
+	(FMAID "61400")
+	(part+of Left+female+breast)
+	(Preferred+name [KB_INSTANCE_80975])
+	(regional+part+of Left+female+breast))
+
+([Upper+outer+quadrant+of+right+female+breast] of  Upper+outer+quadrant+of+breast
+
+	(FMAID "61399")
+	(part+of Right+female+breast)
+	(Preferred+name [KB_INSTANCE_80973])
+	(regional+part+of Right+female+breast))
+
+([Upper+part+of+lacrimal+sac] of  Zone+of+lacrimal+sac
+
+	(dimension 3-dimension)
+	(FMAID "72222")
+	(Preferred+name [FM_live_05151])
+	(Synonym [FM_live_05162]))
+
+([Upper+part+of+left+lacrimal+sac] of  Upper+part+of+lacrimal+sac
+
+	(dimension 3-dimension)
+	(FMAID "72225")
+	(Preferred+name [FM_live_05157]))
+
+([Upper+part+of+right+lacrimal+sac] of  Upper+part+of+lacrimal+sac
+
+	(dimension 3-dimension)
+	(FMAID "72224")
+	(Preferred+name [FM_live_05155]))
+
+([Upper+pole+of+left+testis] of  Upper+pole+of+testis
+
+	(FMAID "19917")
+	(part+of Left+testis)
+	(Preferred+name [KB_INSTANCE_25125])
+	(regional+part+of Left+testis)
+	(Synonym [fm_live_01995]))
+
+([Upper+pole+of+right+testis] of  Upper+pole+of+testis
+
+	(FMAID "19916")
+	(part+of Right+testis)
+	(Preferred+name [KB_INSTANCE_25124])
+	(regional+part+of Right+testis)
+	(Synonym [fm_live_01994]))
+
+([Upper+pole+of+spleen] of  Zone+of+spleen
+
+	(definition "Zone of spleen located at its superior end. Examples: There is only one upper pole of spleen.")
+	(FMAID "15834")
+	(Non-English+equivalent
+		[su_incus_38174]
+		[ONARD_Instance_580158]
+		[ONARD_Instance_580836])
+	(part+of Spleen)
+	(Preferred+name [KB_INSTANCE_18284])
+	(regional+part+of Spleen)
+	(Synonym
+		[KB_INSTANCE_18285]
+		[KB_INSTANCE_18286]))
+
+([Upper+pole+of+testis] of  Zone+of+testis
+
+	(definition "Zone of testis located at the superior end. Examples: There is only one upper pole of testis.")
+	(FMAID "19914")
+	(Non-English+equivalent
+		[su_incus_29258]
+		[su_incus_38248]
+		[su_incus_38249]
+		[su_incus_38250]
+		[ONARD_Instance_580837])
+	(part+of Testis)
+	(Preferred+name [KB_INSTANCE_25122])
+	(regional+part+of Testis)
+	(Synonym [fm-live_06688]))
+
+([Upper+premolar+socket] of  Premolar+socket
+
+	(FMAID "58013")
+	(Preferred+name [KB_INSTANCE_76471]))
+
+([Upper+primary+canine+tooth] of  Primary+canine+tooth
+
+	(FMAID "84228")
+	(Preferred+name [fm_live_30726])
+	(Synonym
+		[fm_live_30751]
+		[fm_live_30789]))
+
+([Upper+primary+incisor+tooth] of  Primary+incisor+tooth
+
+	(FMAID "84214")
+	(Preferred+name [fm_live_30698])
+	(Synonym [fm_live_30775]))
+
+([Upper+primary+molar+tooth] of  Primary+molar+tooth
+
+	(FMAID "84210")
+	(Preferred+name [fm_live_30690])
+	(Synonym [fm_live_30795]))
+
+([Upper+quadrant+of+abdomen] of  Abdominal+quadrant
+
+	(FMAID "20373")
+	(Preferred+name [KB_INSTANCE_25710]))
+
+([Upper+respiratory+tract] of  Anatomical+structure
+
+	(attributed+continuous+with [fm_live_31057])
+	(custom+partonomy
+		Mouth
+		Nose
+		Nasopharynx
+		Oropharynx
+		Larynx)
+	(custom+partonomy+of Respiratory+system)
+	(definition "Subdivision of respiratory system which consists of the nose, nasopharynx, oropharynx and larynx")
+	(FMAID "45661")
+	(has+mass FALSE)
+	(Non-English+equivalent
+		[ONARD_Instance_580287]
+		[ONARD_Instance_580438])
+	(part
+		Nose
+		Nasopharynx
+		Oropharynx
+		Larynx)
+	(part+of Respiratory+system)
+	(Preferred+name [KB_INSTANCE_57937])
+	(regional+part
+		Nose
+		Nasopharynx
+		Oropharynx
+		Larynx)
+	(regional+part+of Respiratory+system))
+
+([Upper+second+molar+socket] of  Upper+molar+socket
+
+	(FMAID "58048")
+	(Preferred+name [KB_INSTANCE_76524]))
+
+([Upper+second+premolar+socket] of  Upper+premolar+socket
+
+	(FMAID "58016")
+	(Preferred+name [KB_INSTANCE_76474]))
+
+([Upper+second+primary+molar+tooth] of  Upper+primary+molar+tooth
+
+	(FMAID "84236")
+	(Preferred+name [fm_live_30763])
+	(Synonym
+		[fm_live_30801]
+		[fm_live_30802]))
+
+([Upper+second+secondary+molar+tooth] of  Upper+secondary+molar+tooth
+
+	(FMAID "55812")
+	(Preferred+name [KB_INSTANCE_71303])
+	(Synonym
+		[KB_INSTANCE_71304]
+		[fm_live_30886]))
+
+([Upper+second+secondary+premolar+tooth] of  Upper+secondary+premolar+tooth
+
+	(FMAID "55802")
+	(Preferred+name [KB_INSTANCE_71288])
+	(Synonym
+		[KB_INSTANCE_71289]
+		[fm_live_30872]))
+
+([Upper+secondary+canine+tooth] of  Secondary+canine+tooth
+
+	(FMAID "55714")
+	(Preferred+name [KB_INSTANCE_71053])
+	(Synonym
+		[KB_INSTANCE_71054]
+		[fm_live_30862]))
+
+([Upper+secondary+incisor+tooth] of  Secondary+incisor+tooth
+
+	(FMAID "55712")
+	(Preferred+name [KB_INSTANCE_71049])
+	(Synonym
+		[KB_INSTANCE_71050]
+		[fm_live_30848]))
+
+([Upper+secondary+molar+tooth] of  Secondary+molar+tooth
+
+	(FMAID "55720")
+	(Preferred+name [KB_INSTANCE_71063])
+	(Synonym
+		[KB_INSTANCE_71064]
+		[fm_live_30882]))
+
+([Upper+secondary+premolar+tooth] of  Premolar+tooth
+
+	(FMAID "55716")
+	(Preferred+name [KB_INSTANCE_71057])
+	(Synonym
+		[KB_INSTANCE_71058]
+		[fm_live_30868]))
+
+([Upper+segment+of+hair+follicle] of  Region+of+hair+follicle
+
+	(FMAID "70662")
+	(part
+		Infundibulum+of+hair+follicle
+		Isthmus+of+hair+follicle)
+	(part+of Hair+follicle)
+	(Preferred+name [FM_live_03473])
+	(regional+part
+		Infundibulum+of+hair+follicle
+		Isthmus+of+hair+follicle)
+	(regional+part+of Hair+follicle))
+
+([Upper+sternocleidomastoid+branch+of+left+occipital+artery] of  Systemic+artery
+
+	(branch+of Left+occipital+artery)
+	(FMAID "49596")
+	(Preferred+name [KB_INSTANCE_62593]))
+
+([Upper+sternocleidomastoid+branch+of+occipital+artery] of  Systemic+artery
+
+	(branch+of Occipital+artery)
+	(FMAID "49593")
+	(Preferred+name [KB_INSTANCE_62590]))
+
+([Upper+sternocleidomastoid+branch+of+right+occipital+artery] of  Systemic+artery
+
+	(branch+of Right+occipital+artery)
+	(FMAID "49595")
+	(Preferred+name [KB_INSTANCE_62592]))
+
+([Upper+superficial+inguinal+lymphatic+chain] of  Lymphatic+chain
+
+	(FMAID "229161")
+	(Preferred+name [ONARD_Instance_70069])
+	(regional+part+of Superficial+inguinal+lymphatic+chain))
+
+([Upper+surface+of+body+of+first+segment+of+coccyx] of  Surface+of+coccyx
+
+	(FMAID "35004")
+	(Preferred+name [KB_INSTANCE_44539])
+	(Synonym [KB_INSTANCE_44538]))
+
+([Upper+surface+of+first+sacral+segment] of  Surface+of+subdivision+of+sacral+segment
+
+	(FMAID "31722")
+	(Non-English+equivalent [KB_INSTANCE_39273])
+	(Preferred+name [KB_INSTANCE_39274])
+	(Synonym
+		[KB_INSTANCE_39275]
+		[KB_INSTANCE_39272]))
+
+([Upper+third+molar+socket] of  Upper+molar+socket
+
+	(FMAID "58049")
+	(Preferred+name [KB_INSTANCE_76525]))
+
+([Upper+third+secondary+molar+tooth] of  Upper+secondary+molar+tooth
+
+	(FMAID "55813")
+	(Preferred+name [KB_INSTANCE_71305])
+	(Synonym
+		[KB_INSTANCE_71306]
+		[fm_live_30889]))
+
+([Upper+trunk] of  Subdivision+of+trunk
+
+	(constitutional+part Skin+of+upper+trunk)
+	(FMAID "20344")
+	(Preferred+name [KB_INSTANCE_25666]))
+
+([Upper+urinary+tract] of  Subdivision+of+urinary+system
+
+	(definition "*Subdivision of urinary system which consists of the kidney and the ureters.")
+	(FMAID "45658")
+	(Non-English+equivalent
+		[ONARD_Instance_580290]
+		[ONARD_Instance_580446])
+	(part
+		Kidney
+		Ureter)
+	(part+of Urinary+system)
+	(Preferred+name [KB_INSTANCE_57934])
+	(regional+part
+		Kidney
+		Ureter)
+	(regional+part+of
+		Urinary+system
+		Male+urinary+system
+		Female+urinary+system)
+	(systemic+part
+		Kidney
+		Ureter)
+	(systemic+part+of
+		Urinary+system
+		Female+urinary+system
+		Male+urinary+system))
+
+([Upper+uterine+segment] of  Zone+of+uterus
+
+	(FMAID "23182")
+	(part+of Body+of+uterus)
+	(Preferred+name [KB_INSTANCE_28927])
+	(regional+part+of Body+of+uterus)
+	(Synonym [KB_INSTANCE_28928]))
+
+([Upper+vermilion] of  Vermilion
+
+	(FMAID "59827")
+	(part+of Upper+lip)
+	(Preferred+name [KB_INSTANCE_78968])
+	(regional+part+of Upper+lip)
+	(Synonym [KB_INSTANCE_78969]))
+
+([Upper+zone+of+bulb+of+hair+follicle] of  Zone+of+bulb+of+hair+follicle
+
+	(FMAID "70771")
+	(part+of Bulb+of+hair+follicle)
+	(Preferred+name [ONARD_Instance_90004])
+	(regional+part+of Bulb+of+hair+follicle)
+	(Synonym [FM_live_03550]))
+
+([Urachus] of  Vestigial+embryonic+structure
+
+	(FMAID "70343")
+	(Preferred+name [FM_live_03136]))
+
+([Uracil] of  Pyrimidine
+
+	(FMAID "82778")
+	(Preferred+name [fm_live_27627]))
+
+([Ureter] of  Organ+with+organ+cavity
+
+	(arterial+supply
+		Set+of+ureteric+branches+of+testicular+artery
+		Inferior+vesical+artery
+		Ureteral+part+of+inferior+vesical+artery)
+	(attributed+continuous+with
+		[FM_live_10354]
+		[FM_live_10355])
+	(bounded+by
+		External+surface+of+ureter
+		Internal+surface+of+ureter)
+	(constitutional+part
+		Wall+of+ureter
+		Lumen+of+ureter)
+	(definition "Organ with organ cavity which connects the renal sinus to the urinary bladder. Examples: There are only two ureters, the right and the left ureters.")
+	(FMAID "9704")
+	(Non-English+equivalent
+		[KB_AUTO-INSERT%283%29_2062]
+		[ONARD_Instance_580500])
+	(part
+		Ureter+proper
+		Wall+of+ureter
+		Lumen+of+ureter
+		Renal+pelvis)
+	(part+of Upper+urinary+tract)
+	(Preferred+name [KB_INSTANCE_08431])
+	(regional+part
+		Ureter+proper
+		Renal+pelvis)
+	(regional+part+of Upper+urinary+tract)
+	(systemic+part+of Upper+urinary+tract))
+
+([Ureter+proper] of  Organ+region+with+fixed+fiat+boundary
+
+	(constitutional+part
+		Wall+of+ureter+proper
+		Lumen+of+ureter+proper)
+	(FMAID "17886")
+	(part
+		Wall+of+ureter+proper
+		Lumen+of+ureter+proper
+		Abdominal+part+of+ureter
+		Pelvic+part+of+ureter)
+	(part+of Ureter)
+	(Preferred+name [KB_INSTANCE_21803])
+	(regional+part
+		Abdominal+part+of+ureter
+		Pelvic+part+of+ureter)
+	(regional+part+of Ureter))
+
+([Ureteral+fold] of  Peritoneal+fold
+
+	(FMAID "19764")
+	(part+of
+		Peritoneum+of+posterior+wall+of+greater+sac
+		Posterior+wall+of+greater+sac)
+	(Preferred+name [KB_INSTANCE_24950])
+	(regional+part+of
+		Peritoneum+of+posterior+wall+of+greater+sac
+		Posterior+wall+of+greater+sac))
+
+([Ureteral+part+of+inferior+vesical+artery] of  Systemic+artery
+
+	(arterial+supply+of Ureter)
+	(branch+of Inferior+vesical+artery)
+	(FMAID "20959")
+	(Preferred+name [KB_INSTANCE_26393])
+	(Synonym [fm_live_30338]))
+
+([Ureteral+part+of+left+inferior+vesical+artery] of  Systemic+artery
+
+	(arterial+supply+of Left+ureter)
+	(branch+of Left+inferior+vesical+artery)
+	(FMAID "20962")
+	(Preferred+name [KB_INSTANCE_26396]))
+
+([Ureteral+part+of+left+uterine+artery] of  Systemic+artery
+
+	(arterial+supply+of Left+ureter)
+	(branch+of Left+uterine+artery)
+	(FMAID "20938")
+	(Preferred+name [KB_INSTANCE_26369]))
+
+([Ureteral+part+of+right+inferior+vesical+artery] of  Systemic+artery
+
+	(arterial+supply+of Right+ureter)
+	(branch+of Right+inferior+vesical+artery)
+	(FMAID "20961")
+	(Preferred+name [KB_INSTANCE_26395]))
+
+([Ureteral+part+of+right+uterine+artery] of  Systemic+artery
+
+	(arterial+supply+of Right+ureter)
+	(branch+of Right+uterine+artery)
+	(FMAID "20937")
+	(Preferred+name [KB_INSTANCE_26368]))
+
+([Ureteral+part+of+uterine+artery] of  Systemic+artery
+
+	(branch+of Uterine+artery)
+	(FMAID "20936")
+	(Preferred+name [KB_INSTANCE_26367]))
+
+([Ureteric+nerve+plexus] of  Autonomic+nerve+plexus
+
+	(FMAID "6722")
+	(Non-English+equivalent
+		[su_incus_38503]
+		[KB_INSTANCE_03024]
+		[KB_AUTO-INSERT%283%29_4196])
+	(Preferred+name [KB_INSTANCE_03023])
+	(Synonym [su_incus_25028]))
+
+([Ureteric+orifice] of  Orifice
+
+	(FMAID "77047")
+	(Non-English+equivalent
+		[fm_live_26262]
+		[KB_AUTO-INSERT%283%29_2077])
+	(Preferred+name [su_incus_32676])
+	(Synonym
+		[su_incus_34507]
+		[fm_live_26261]
+		[fm_live_26263]
+		[fm_live_26264]
+		[fm_live_26267]))
+
+([Ureteric+segment+of+left+renal+artery] of  Systemic+artery
+
+	(arterial+supply+of Left+ureter)
+	(branch+of Left+renal+artery)
+	(FMAID "70493")
+	(Preferred+name [fm_live_10642]))
+
+([Ureteric+segment+of+renal+artery] of  Systemic+artery
+
+	(branch+of Renal+artery)
+	(FMAID "70491")
+	(Preferred+name [fm_live_10638]))
+
+([Ureteric+segment+of+right+renal+artery] of  Systemic+artery
+
+	(arterial+supply+of Right+ureter)
+	(branch+of Right+renal+artery)
+	(FMAID "70492")
+	(Preferred+name [fm_live_10640]))
+
+([Ureteropelvic+junction] of  Zone+of+continuity
+
+	(FMAID "15898")
+	(Preferred+name [KB_INSTANCE_18404])
+	(Synonym [KB_INSTANCE_18405]))
+
+([Ureterovesical+junction] of  Zone+of+continuity
+
+	(FMAID "15899")
+	(Preferred+name [KB_INSTANCE_18406]))
+
+([Urethra] of  Organ+with+organ+cavity
+
+	(attributed+continuous+with [fma_p2_Instance_110010])
+	(definition "Organ with organ cavity which connects the cavity of the urinary bladder to the exterior. Examples: There is only one urethra.")
+	(FMAID "19667")
+	(Non-English+equivalent [ONARD_Instance_580501])
+	(part+of Lower+urinary+tract)
+	(Preferred+name [KB_INSTANCE_24781])
+	(regional+part Prostatic+urethra)
+	(regional+part+of Lower+urinary+tract)
+	(systemic+part+of Lower+urinary+tract))
+
+([Urethral+artery] of  Systemic+artery
+
+	(branch
+		Urethral+part+of+urethral+artery
+		Spongiose+part+of+urethral+artery)
+	(branch+of Internal+pudendal+artery)
+	(FMAID "20903")
+	(Non-English+equivalent
+		[KB_INSTANCE_26333]
+		[KB_AUTO-INSERT%283%29_2738])
+	(Preferred+name [KB_INSTANCE_26332]))
+
+([Urethral+carina+of+vagina] of  Segment+of+vagina
+
+	(dimension 3-dimension)
+	(FMAID "76910")
+	(Non-English+equivalent
+		[su_incus_38246]
+		[KB_AUTO-INSERT%283%29_2129])
+	(Preferred+name [su_incus_32243]))
+
+([Urethral+crest] of  Organ+crest
+
+	(FMAID "19718")
+	(Non-English+equivalent
+		[KB_INSTANCE_24871]
+		[KB_AUTO-INSERT%283%29_2153])
+	(part+of Prostatic+urethra)
+	(Preferred+name [KB_INSTANCE_24870])
+	(regional+part+of Prostatic+urethra))
+
+([Urethral+crest+%28female%29] of  Urethral+crest
+
+	(FMAID "85271")
+	(Non-English+equivalent [fma_p2_Instance_720005])
+	(Preferred+name [fm_live_34275]))
+
+([Urethral+crest+%28male%29] of  Urethral+crest
+
+	(FMAID "85270")
+	(Non-English+equivalent [fma_p2_Instance_720004])
+	(Preferred+name [fm_live_34273]))
+
+([Urethral+gland] of  Organ+component+gland
+
+	(FMAID "19683")
+	(Non-English+equivalent [ONARD_Instance_580587])
+	(Preferred+name [KB_INSTANCE_24812]))
+
+([Urethral+gland+%28female%29] of  Urethral+gland
+
+	(FMAID "21444")
+	(Preferred+name [KB_INSTANCE_26904]))
+
+([Urethral+gland+%28male%29] of  Urethral+gland
+
+	(FMAID "21443")
+	(Preferred+name [KB_INSTANCE_26902])
+	(Synonym [KB_INSTANCE_26903]))
+
+([Urethral+part+of+left+urethral+artery] of  Systemic+artery
+
+	(branch+of Left+urethral+artery)
+	(FMAID "21396")
+	(Preferred+name [KB_INSTANCE_26859]))
+
+([Urethral+part+of+right+urethral+artery] of  Systemic+artery
+
+	(branch+of Right+urethral+artery)
+	(FMAID "21395")
+	(Preferred+name [KB_INSTANCE_26858]))
+
+([Urethral+part+of+urethral+artery] of  Systemic+artery
+
+	(branch+of Urethral+artery)
+	(FMAID "21393")
+	(Preferred+name [KB_INSTANCE_26856]))
+
+([Urethral+surface+of+corpus+cavernosum+of+penis] of  Region+of+surface+of+corpus+cavernosum+of+penis
+
+	(FMAID "20288")
+	(Preferred+name [KB_INSTANCE_25596]))
+
+([Urethral+vein] of  Vein
+
+	(FMAID "21270")
+	(Preferred+name [KB_INSTANCE_26732])
+	(tributary+of Internal+pudendal+vein))
+
+([Urinary+bladder] of  Organ+with+organ+cavity
+
+	(arterial+supply
+		Right+superior+vesical+artery
+		Left+superior+vesical+artery
+		Right+inferior+gluteal+artery
+		Left+inferior+gluteal+artery
+		Vesical+part+of+right+obturator+artery
+		Vesical+part+of+left+obturator+artery
+		Vesical+fundus+part+of+right+vaginal+artery
+		Vesical+fundus+part+of+left+vaginal+artery
+		Vesical+part+of+right+uterine+artery
+		Vesical+part+of+left+uterine+artery)
+	(attributed+continuous+with
+		[FM_live_10198]
+		[FM_live_10199]
+		[FM_live_10200])
+	(attributed+part
+		[FM_live_04350]
+		[FM_live_04351]
+		[FM_live_04352]
+		[FM_live_04353]
+		[FM_live_04354]
+		[FM_live_04355])
+	(bounded+by Surface+of+urinary+bladder)
+	(constitutional+part
+		Wall+of+urinary+bladder
+		Cavity+of+urinary+bladder)
+	(constitutional+part+of
+		Urinary+system
+		Male+pelvis)
+	(contained+in
+		Pelvic+cavity
+		Cavity+of+male+pelvis
+		Cavity+of+female+pelvis)
+	(definition "Organ with organ cavity which is continuous proximally with the right and left ureters and distally with the urethra. Examples: There is only one urinary bladder.")
+	(FMAID "15900")
+	(inherent+3-D+shape Hollow+conventional+ovoid)
+	(location
+		[FM_live_10203]
+		[FM_live_10204])
+	(lymphatic+drainage
+		Medial+external+iliac+lymph+node
+		Intermediate+external+iliac+lymph+node)
+	(member+of
+		Male+pelvic+viscera
+		Female+pelvic+viscera)
+	(nerve+supply
+		Vesical+nerve+plexus
+		Inferior+hypogastric+nerve+plexus)
+	(Non-English+equivalent
+		[su_incus_35617]
+		[KB_AUTO-INSERT%283%29_2063]
+		[ONARD_Instance_580070]
+		[ONARD_Instance_580499])
+	(orientation
+		[FM_live_10201]
+		[FM_live_10202])
+	(part
+		Wall+of+urinary+bladder
+		Cavity+of+urinary+bladder
+		Fundus+of+urinary+bladder
+		Body+of+urinary+bladder
+		Neck+of+urinary+bladder)
+	(part+of
+		Lower+urinary+tract
+		Female+pelvis
+		Urinary+system
+		Male+pelvis)
+	(physical+state Solid)
+	(Preferred+name [KB_INSTANCE_18407])
+	(regional+part
+		Fundus+of+urinary+bladder
+		Body+of+urinary+bladder
+		Neck+of+urinary+bladder)
+	(regional+part+of
+		Apex+of+urinary+bladder
+		Lower+urinary+tract
+		Male+lower+urinary+tract
+		Female+lower+urinary+tract)
+	(Synonym [KB_INSTANCE_18408])
+	(systemic+part+of
+		Lower+urinary+tract
+		Female+lower+urinary+tract
+		Male+lower+urinary+tract)
+	(venous+drainage
+		Vesical+venous+plexus
+		Right+inferior+vesical+vein
+		Left+inferior+vesical+vein
+		Vesical+tributary+of+right+middle+rectal+vein
+		Vesical+tributary+of+left+middle+rectal+vein))
+
+([Urinary+system] of  Organ+system
+
+	(attributed+part
+		[FM_live_04077]
+		[FM_live_04079]
+		[FM_live_04179]
+		[FM_live_04180]
+		[FM_live_04181]
+		[FM_live_04182]
+		[FM_live_04183]
+		[FM_live_04184]
+		[FM_live_04185])
+	(constitutional+part
+		Urinary+bladder
+		Right+ureter
+		Left+ureter
+		Neural+network+of+urinary+system)
+	(custom+partonomy+of Body)
+	(FMAID "7159")
+	(Non-English+equivalent
+		[su_incus_38389]
+		[KB_AUTO-INSERT%283%29_4612]
+		[ONARD_Instance_580277]
+		[ONARD_Instance_580407])
+	(part
+		Upper+urinary+tract
+		Right+upper+urinary+tract
+		Left+upper+urinary+tract
+		Lower+urinary+tract
+		Right+kidney
+		Left+kidney
+		Right+ureter
+		Left+ureter
+		Urinary+bladder
+		Male+urethra
+		Female+urethra)
+	(part+of Body)
+	(Preferred+name [KB_INSTANCE_03931])
+	(regional+part
+		Upper+urinary+tract
+		Right+upper+urinary+tract
+		Left+upper+urinary+tract
+		Lower+urinary+tract)
+	(Synonym [KB_INSTANCE_03932])
+	(systemic+part
+		Upper+urinary+tract
+		Right+upper+urinary+tract
+		Left+upper+urinary+tract
+		Lower+urinary+tract)
+	(systemic+part+of
+		Body
+		Female+body))
+
+([Urine] of  Excretion
+
+	(contained+in
+		Cavity+of+urinary+bladder
+		Lumen+of+fundus+of+urinary+bladder
+		Lumen+of+trigone+of+urinary+bladder
+		Lumen+of+neck+of+urinary+bladder
+		Lumen+of+body+of+urinary+bladder)
+	(definition "Excretion in liquid state processed by the kidney.")
+	(FMAID "12274")
+	(Non-English+equivalent [ONARD_Instance_580238])
+	(Preferred+name [KB_INSTANCE_12380]))
+
+([Uriniferous+tubule] of  Organ+component
+
+	(constitutional+part+of Parenchyma+of+kidney)
+	(FMAID "17691")
+	(part
+		Nephron
+		Collecting+duct+of+renal+tubule)
+	(part+of Kidney)
+	(Preferred+name [KB_INSTANCE_21495])
+	(regional+part
+		Nephron
+		Collecting+duct+of+renal+tubule))
+
+([Urogenital+diaphragm] of  Heterogeneous+cluster
+
+	(constitutional+part
+		Right+deep+transverse+perineal+muscle
+		Left+deep+transverse+perineal+muscle
+		Membranous+urethra
+		Bulbo-urethral+gland
+		Right+bulbo-urethral+gland
+		Left+bulbo-urethral+gland
+		Perineal+body)
+	(FMAID "19734")
+	(part
+		Right+deep+transverse+perineal+muscle
+		Left+deep+transverse+perineal+muscle
+		Membranous+urethra
+		Bulbo-urethral+gland
+		Right+bulbo-urethral+gland
+		Left+bulbo-urethral+gland
+		Perineal+body)
+	(part+of Perineum)
+	(Preferred+name [KB_INSTANCE_24911])
+	(regional+part+of Perineum))
+
+([Urogenital+hiatus] of  Anatomical+conduit
+
+	(FMAID "77256")
+	(Non-English+equivalent
+		[su_incus_40231]
+		[KB_AUTO-INSERT%283%29_1249])
+	(Preferred+name [su_incus_33230]))
+
+([Urogenital+part+of+female+perineum] of  Urogenital+part+of+perineum
+
+	(constitutional+part
+		Skin+of+urogenital+part+of+female+perineum
+		Superficial+fascia+of+urogenital+part+of+female+perineum
+		Female+perineal+fascia
+		Superficial+perineal+space
+		Right+bulbospongiosus
+		Left+bulbospongiosus
+		Right+ischiocavernosus
+		Left+ischiocavernosus
+		Right+superficial+transverse+perineal+muscle
+		Left+superficial+transverse+perineal+muscle
+		Female+urethra
+		Trunk+of+labial+part+of+deep+external+pudendal+artery
+		Right+bulb+of+vestibule
+		Left+bulb+of+vestibule
+		Commissure+of+bulb+of+vestibule
+		Greater+vestibular+gland
+		Right+greater+vestibular+gland
+		Left+greater+vestibular+gland
+		Paraurethral+gland
+		Lesser+vestibular+gland
+		Deep+perineal+space
+		Compressor+urethrae
+		Sphincter+urethrovaginalis
+		Female+urogenital+diaphragm
+		Right+anterior+recess+of+ischio-anal+fossa
+		Left+anterior+recess+of+ischio-anal+fossa
+		Right+deep+transverse+perineal+muscle
+		Left+deep+transverse+perineal+muscle)
+	(FMAID "20354")
+	(part
+		Skin+of+urogenital+part+of+female+perineum
+		Superficial+fascia+of+female+perineum
+		Female+perineal+fascia
+		Superficial+perineal+space
+		Vestibule+of+vagina
+		Right+bulbospongiosus
+		Left+bulbospongiosus
+		Right+ischiocavernosus
+		Left+ischiocavernosus
+		Right+superficial+transverse+perineal+muscle
+		Left+superficial+transverse+perineal+muscle
+		Female+urethra
+		Right+labium+majus
+		Left+labium+majus
+		Trunk+of+labial+part+of+deep+external+pudendal+artery
+		Right+labium+minus
+		Left+labium+minus
+		Commissure+of+bulb+of+vestibule
+		Clitoris
+		Greater+vestibular+gland
+		Right+greater+vestibular+gland
+		Left+greater+vestibular+gland
+		Paraurethral+gland
+		Lesser+vestibular+gland
+		Perineal+part+of+vagina
+		Deep+perineal+space
+		Compressor+urethrae
+		Sphincter+urethrovaginalis
+		Female+urogenital+diaphragm
+		Right+anterior+recess+of+ischio-anal+fossa
+		Left+anterior+recess+of+ischio-anal+fossa
+		Right+deep+transverse+perineal+muscle
+		Left+deep+transverse+perineal+muscle
+		Left+bulb+of+vestibule
+		Right+bulb+of+vestibule)
+	(part+of
+		Female+perineum
+		Vulva)
+	(Preferred+name [KB_INSTANCE_25681])
+	(regional+part
+		Vestibule+of+vagina
+		Right+labium+majus
+		Left+labium+majus
+		Right+labium+minus
+		Left+labium+minus
+		Clitoris
+		Perineal+part+of+vagina
+		Urogenital+part+proper+of+female+perineum)
+	(regional+part+of
+		Vulva
+		Female+perineum)
+	(Synonym
+		[KB_INSTANCE_25683]
+		[KB_INSTANCE_25684]))
+
+([Urogenital+part+of+male+perineum] of  Urogenital+part+of+perineum
+
+	(constitutional+part
+		Skin+of+urogenital+part+of+male+perineum
+		Superficial+fascia+of+urogenital+part+of+male+perineum
+		Right+anterior+recess+of+ischio-anal+fossa
+		Left+anterior+recess+of+ischio-anal+fossa
+		Right+superficial+transverse+perineal+muscle
+		Left+superficial+transverse+perineal+muscle
+		Bulbospongiosus
+		Right+ischiocavernosus
+		Left+ischiocavernosus
+		Male+perineal+fascia
+		Male+urogenital+diaphragm
+		Deep+perineal+space)
+	(FMAID "20353")
+	(part
+		Skin+of+urogenital+part+of+male+perineum
+		Superficial+fascia+of+male+perineum
+		Male+perineal+fascia
+		Bulbospongiosus
+		Right+ischiocavernosus
+		Left+ischiocavernosus
+		Right+superficial+transverse+perineal+muscle
+		Left+superficial+transverse+perineal+muscle
+		Deep+perineal+space
+		Male+urogenital+diaphragm
+		Right+anterior+recess+of+ischio-anal+fossa
+		Left+anterior+recess+of+ischio-anal+fossa
+		Penis
+		Scrotum)
+	(part+of Male+perineum)
+	(Preferred+name [KB_INSTANCE_25677])
+	(regional+part
+		Penis
+		Scrotum
+		Urogenital+part+proper+of+male+perineum)
+	(regional+part+of Male+perineum)
+	(Synonym
+		[KB_INSTANCE_25679]
+		[KB_INSTANCE_25680]))
+
+([Urogenital+part+of+perineum] of  Subdivision+of+perineum
+
+	(FMAID "20348")
+	(Non-English+equivalent [KB_INSTANCE_25674])
+	(Preferred+name [KB_INSTANCE_25673])
+	(regional+part+of Perineum)
+	(Synonym
+		[KB_INSTANCE_25675]
+		[KB_INSTANCE_25676]))
+
+([Urogenital+part+proper+of+female+perineum] of  Subdivision+of+urogenital+part+of+female+perineum
+
+	(FMAID "24202")
+	(Preferred+name [KB_INSTANCE_30448])
+	(regional+part+of Urogenital+part+of+female+perineum))
+
+([Urogenital+part+proper+of+male+perineum] of  Subdivision+of+urogenital+part+of+male+perineum
+
+	(FMAID "24200")
+	(Preferred+name [KB_INSTANCE_30446])
+	(regional+part+of Urogenital+part+of+male+perineum))
+
+([Urogenital+peritoneum] of  Organ+component+layer
+
+	(FMAID "77428")
+	(Non-English+equivalent
+		[su_incus_37778]
+		[KB_AUTO-INSERT%283%29_2311])
+	(Preferred+name [su_incus_33308]))
+
+([Urothelial+cell+of+trigone+of+urinary+bladder] of  Meso-epithelial+cell
+
+	(FMAID "70598")
+	(Preferred+name [fm_live_10788])
+	(Synonym [fm_live_10789]))
+
+([Urothelium] of  Endo-epithelium
+
+	(FMAID "67695")
+	(Preferred+name [fm-live_15003])
+	(Synonym [fm_live_30195]))
+
+([Uterine+artery] of  Systemic+artery
+
+	(branch
+		Ureteral+part+of+uterine+artery
+		Uterine+cervical+part+of+uterine+artery
+		Uterine+body+part+of+uterine+artery
+		Round+ligament+part+of+uterine+artery
+		Ovarian+part+of+uterine+artery
+		Vaginal+part+of+uterine+artery
+		Tubal+part+of+uterine+artery)
+	(branch+of Anterior+division+of+internal+iliac+artery)
+	(FMAID "18829")
+	(Non-English+equivalent
+		[KB_INSTANCE_23664]
+		[KB_AUTO-INSERT%283%29_2731])
+	(Preferred+name [KB_INSTANCE_23663]))
+
+([Uterine+body+part+of+left+uterine+artery] of  Systemic+artery
+
+	(branch Left+helicine+artery+of+uterus)
+	(branch+of Left+uterine+artery)
+	(FMAID "20944")
+	(Preferred+name [KB_INSTANCE_26377]))
+
+([Uterine+body+part+of+right+uterine+artery] of  Systemic+artery
+
+	(branch Right+helicine+artery+of+uterus)
+	(branch+of Right+uterine+artery)
+	(FMAID "20943")
+	(Preferred+name [KB_INSTANCE_26376]))
+
+([Uterine+body+part+of+uterine+artery] of  Systemic+artery
+
+	(branch Helicine+artery+of+uterus)
+	(branch+of Uterine+artery)
+	(FMAID "20942")
+	(Preferred+name [KB_INSTANCE_26374])
+	(Synonym [KB_INSTANCE_26375]))
+
+([Uterine+body+part+proper+of+left+uterine+artery] of  Systemic+artery
+
+	(FMAID "70050")
+	(Preferred+name [fm_live_09678]))
+
+([Uterine+body+part+proper+of+right+uterine+artery] of  Systemic+artery
+
+	(FMAID "70049")
+	(Preferred+name [fm_live_09676]))
+
+([Uterine+body+part+proper+of+uterine+artery] of  Systemic+artery
+
+	(FMAID "70048")
+	(Preferred+name [fm_live_09674]))
+
+([Uterine+cervical+part+of+left+uterine+artery] of  Systemic+artery
+
+	(branch+of Left+uterine+artery)
+	(FMAID "20941")
+	(Preferred+name [KB_INSTANCE_26373]))
+
+([Uterine+cervical+part+of+right+uterine+artery] of  Systemic+artery
+
+	(branch+of Right+uterine+artery)
+	(FMAID "20940")
+	(Preferred+name [KB_INSTANCE_26372]))
+
+([Uterine+cervical+part+of+uterine+artery] of  Systemic+artery
+
+	(branch+of Uterine+artery)
+	(FMAID "20939")
+	(Preferred+name [KB_INSTANCE_26370])
+	(Synonym [KB_INSTANCE_26371]))
+
+([Uterine+extremity+of+left+ovary] of  Uterine+extremity+of+ovary
+
+	(FMAID "18612")
+	(Preferred+name [KB_INSTANCE_23364])
+	(Synonym [KB_INSTANCE_23365]))
+
+([Uterine+extremity+of+ovary] of  Zone+of+ovary
+
+	(FMAID "18610")
+	(Non-English+equivalent [su_incus_38238])
+	(Preferred+name [KB_INSTANCE_23359])
+	(Synonym
+		[KB_INSTANCE_23360]
+		[KB_INSTANCE_23361]))
+
+([Uterine+extremity+of+right+ovary] of  Uterine+extremity+of+ovary
+
+	(FMAID "18611")
+	(Preferred+name [KB_INSTANCE_23362])
+	(Synonym [KB_INSTANCE_23363]))
+
+([Uterine+horn] of  Zone+of+uterus
+
+	(dimension 3-dimension)
+	(FMAID "77053")
+	(Non-English+equivalent
+		[su_incus_38236]
+		[KB_AUTO-INSERT%283%29_2103])
+	(Preferred+name [su_incus_32681]))
+
+([Uterine+margin] of  Anatomical+line
+
+	(FMAID "20424")
+	(Preferred+name [KB_INSTANCE_25781]))
+
+([Uterine+orifice+of+left+uterine+tube] of  Uterine+orifice+of+uterine+tube
+
+	(FMAID "18373")
+	(Preferred+name [KB_INSTANCE_22694]))
+
+([Uterine+orifice+of+right+uterine+tube] of  Uterine+orifice+of+uterine+tube
+
+	(FMAID "18372")
+	(Preferred+name [KB_INSTANCE_22693]))
+
+([Uterine+orifice+of+uterine+tube] of  Orifice+of+uterine+tube
+
+	(FMAID "18371")
+	(part+of Lumen+of+uterine+part+of+uterine+tube)
+	(Preferred+name [KB_INSTANCE_22690])
+	(Synonym
+		[KB_INSTANCE_22691]
+		[KB_INSTANCE_22692]))
+
+([Uterine+paracervical+lymph+node] of  Lymph+node
+
+	(FMAID "16666")
+	(Preferred+name [KB_INSTANCE_19729])
+	(Synonym [KB_INSTANCE_19730]))
+
+([Uterine+part+of+left+uterine+tube] of  Uterine+part+of+uterine+tube
+
+	(constitutional+part Wall+of+uterine+part+of+left+uterine+tube)
+	(FMAID "18488")
+	(part
+		Wall+of+uterine+part+of+left+uterine+tube
+		Lumen+of+uterine+part+of+left+uterine+tube)
+	(part+of Left+uterine+tube)
+	(Preferred+name [KB_INSTANCE_23026])
+	(regional+part Lumen+of+uterine+part+of+left+uterine+tube)
+	(regional+part+of Left+uterine+tube)
+	(Synonym
+		[KB_INSTANCE_23027]
+		[KB_INSTANCE_23028]))
+
+([Uterine+part+of+right+uterine+tube] of  Uterine+part+of+uterine+tube
+
+	(constitutional+part Wall+of+uterine+part+of+right+uterine+tube)
+	(FMAID "18487")
+	(part
+		Wall+of+uterine+part+of+right+uterine+tube
+		Lumen+of+uterine+part+of+right+uterine+tube)
+	(part+of Right+uterine+tube)
+	(Preferred+name [KB_INSTANCE_23023])
+	(regional+part Lumen+of+uterine+part+of+right+uterine+tube)
+	(regional+part+of Right+uterine+tube)
+	(Synonym
+		[KB_INSTANCE_23024]
+		[KB_INSTANCE_23025]))
+
+([Uterine+part+of+uterine+tube] of  Zone+of+uterine+tube
+
+	(constitutional+part Wall+of+uterine+part+of+uterine+tube)
+	(FMAID "18309")
+	(Non-English+equivalent [su_incus_38239])
+	(part
+		Wall+of+uterine+part+of+uterine+tube
+		Lumen+of+uterine+part+of+uterine+tube)
+	(part+of Uterine+tube)
+	(Preferred+name [KB_INSTANCE_22492])
+	(regional+part Lumen+of+uterine+part+of+uterine+tube)
+	(regional+part+of Uterine+tube)
+	(Synonym
+		[KB_INSTANCE_22493]
+		[KB_INSTANCE_22494]
+		[KB_INSTANCE_22495]
+		[KB_INSTANCE_22496]
+		[su_incus_32679]
+		[su_incus_32680]))
+
+([Uterine+tube] of  Organ+with+organ+cavity
+
+	(bounded+by Surface+of+uterine+tube)
+	(constitutional+part
+		Wall+of+uterine+tube
+		Lumen+of+uterine+tube)
+	(definition "Organ with organ cavity which connects the uterine cavity to the peritoneal cavity. Examples: There are only two uterine tubes, the right and the left uterine tubes.")
+	(FMAID "18245")
+	(member+of Female+pelvic+viscera)
+	(Non-English+equivalent
+		[fm_live_17454]
+		[su_incus_35616]
+		[su_incus_35614]
+		[KB_AUTO-INSERT%283%29_2096]
+		[ONARD_Instance_580498])
+	(part
+		Uterine+part+of+uterine+tube
+		Isthmus+of+uterine+tube
+		Uterine+tube+proper
+		Ampulla+of+uterine+tube
+		Infundibulum+of+uterine+tube
+		Fimbria+of+uterine+tube
+		Ovarian+fimbria+of+uterine+tube
+		Wall+of+uterine+tube
+		Lumen+of+uterine+tube)
+	(part+of Female+internal+genitalia)
+	(physical+state Solid)
+	(Preferred+name [KB_INSTANCE_22398])
+	(regional+part
+		Uterine+part+of+uterine+tube
+		Isthmus+of+uterine+tube
+		Uterine+tube+proper
+		Ampulla+of+uterine+tube
+		Infundibulum+of+uterine+tube
+		Fimbria+of+uterine+tube
+		Ovarian+fimbria+of+uterine+tube)
+	(regional+part+of Female+genital+system)
+	(Synonym
+		[KB_INSTANCE_22399]
+		[KB_INSTANCE_22400])
+	(systemic+part+of Female+genital+system))
+
+([Uterine+tube+proper] of  Zone+of+uterine+tube
+
+	(constitutional+part Wall+of+uterine+tube+proper)
+	(FMAID "18304")
+	(part
+		Wall+of+uterine+tube+proper
+		Lumen+of+uterine+tube+proper)
+	(part+of Uterine+tube)
+	(Preferred+name [KB_INSTANCE_22474])
+	(regional+part+of Uterine+tube)
+	(Synonym
+		[KB_INSTANCE_22475]
+		[KB_INSTANCE_22476]))
+
+([Uterine+vein] of  Vein
+
+	(continuous+with+proximally Internal+iliac+vein)
+	(FMAID "18896")
+	(Preferred+name [KB_INSTANCE_23743])
+	(tributary
+		Vaginal+tributary+of+uterine+vein
+		Tubal+tributary+of+uterine+vein)
+	(tributary+of Internal+iliac+vein))
+
+([Uterine+venous+plexus] of  Organ+part
+
+	(FMAID "29712")
+	(Non-English+equivalent
+		[KB_INSTANCE_37181]
+		[KB_AUTO-INSERT%283%29_3083])
+	(Preferred+name [KB_INSTANCE_37180]))
+
+([Uterosacral+ligament] of  Zone+of+pelvic+fascia
+
+	(FMAID "19111")
+	(Non-English+equivalent
+		[su_incus_35981]
+		[KB_AUTO-INSERT%283%29_2121])
+	(part+of Extraperitoneal+pelvic+fascia)
+	(Preferred+name [KB_INSTANCE_23995])
+	(regional+part+of Extraperitoneal+pelvic+fascia)
+	(Synonym
+		[su_incus_24686]
+		[su_incus_34530]))
+
+([Uterotubal+junction] of  Zone+of+continuity
+
+	(FMAID "21089")
+	(Preferred+name [KB_INSTANCE_26544]))
+
+([Uterotubal+orifice] of  Orifice
+
+	(FMAID "18123")
+	(Preferred+name [KB_INSTANCE_22262]))
+
+([Uterovaginal+nerve+plexus] of  Autonomic+nerve+plexus
+
+	(FMAID "6648")
+	(Non-English+equivalent
+		[su_incus_38515]
+		[KB_INSTANCE_02940]
+		[KB_AUTO-INSERT%283%29_4211])
+	(Preferred+name [KB_INSTANCE_02939])
+	(Synonym
+		[su_incus_24082]
+		[su_incus_28132]))
+
+([Uterovesical+fold] of  Peritoneal+fold
+
+	(FMAID "19813")
+	(part+of Visceral+pelvic+peritoneum)
+	(Preferred+name [KB_INSTANCE_25001])
+	(regional+part+of Visceral+pelvic+peritoneum)
+	(Synonym [KB_INSTANCE_25002]))
+
+([Uterovesical+pouch] of  Anatomical+cavity
+
+	(FMAID "14729")
+	(Non-English+equivalent
+		[su_incus_40036]
+		[KB_AUTO-INSERT%283%29_2314])
+	(part+of
+		Pelvic+part+of+peritoneal+cavity
+		Pelvic+cavity)
+	(Preferred+name [KB_INSTANCE_16440])
+	(Synonym
+		[KB_INSTANCE_16441]
+		[KB_INSTANCE_16442]
+		[su_incus_24414]))
+
+([Uterus] of  Organ+with+organ+cavity
+
+	(arterial+supply
+		Right+uterine+artery
+		Left+uterine+artery)
+	(attributed+continuous+with
+		[FM_live_09615]
+		[FM_live_09617]
+		[FM_live_09618])
+	(attributed+part
+		[FM_live_04345]
+		[FM_live_04346]
+		[FM_live_04347]
+		[FM_live_04348]
+		[FM_live_04349])
+	(bounded+by Surface+of+uterus)
+	(constitutional+part
+		Wall+of+uterus
+		Cavity+of+uterus)
+	(contained+in Cavity+of+female+pelvis)
+	(definition "Organ with organ cavity which is continuous proximally with the right and left uterine tubes and distally is connected to the vagina. Examples: There is only one uterus.")
+	(FMAID "17558")
+	(inherent+3-D+shape Cone)
+	(location
+		[FM_live_09624]
+		[FM_live_09625]
+		[FM_live_09626]
+		[FM_live_09627]
+		[FM_live_09628]
+		[FM_live_09629]
+		[FM_live_09630]
+		[FM_live_09631]
+		[FM_live_09632]
+		[FM_live_09633]
+		[FM_live_09634]
+		[FM_live_09635])
+	(lymphatic+drainage
+		Medial+external+iliac+lymph+node
+		Superior+medial+inguinal+lymph+node
+		Pre-aortic+lymph+node
+		Sacral+lymph+node)
+	(member+of Female+pelvic+viscera)
+	(nerve+supply
+		Ovarian+nerve+plexus
+		Inferior+hypogastric+nerve+plexus
+		Right+twelfth+thoracic+ganglion
+		Left+twelfth+thoracic+ganglion
+		Right+first+lumbar+spinal+ganglion
+		Left+first+lumbar+spinal+ganglion
+		Uterovaginal+nerve+plexus)
+	(Non-English+equivalent
+		[KB_AUTO-INSERT%283%29_2100]
+		[ONARD_Instance_580069]
+		[ONARD_Instance_580497]
+		[ONARD_Instance_610084])
+	(orientation
+		[FM_live_09619]
+		[FM_live_09636])
+	(part
+		Wall+of+uterus
+		Cavity+of+uterus
+		Cervix+of+uterus
+		Body+of+uterus
+		Fundus+of+uterus)
+	(part+of
+		Female+pelvis
+		Female+internal+genitalia)
+	(physical+state Solid)
+	(Preferred+name [KB_INSTANCE_21216])
+	(regional+part
+		Cervix+of+uterus
+		Body+of+uterus
+		Fundus+of+uterus)
+	(venous+drainage
+		Right+uterine+vein
+		Left+uterine+vein))
+
+([Utricle+of+left+membranous+labyrinth] of  Utricle+of+membranous+labyrinth
+
+	(constitutional+part
+		Wall+of+utricle+of+left+membranous+labyrinth
+		Cavity+of+utricle+of+left+membranous+labyrinth)
+	(FMAID "61115")
+	(part
+		Wall+of+utricle+of+left+membranous+labyrinth
+		Cavity+of+utricle+of+left+membranous+labyrinth
+		Macula+of+utricle+of+left+membranous+labyrinth
+		Utricle+proper+of+left+membranous+labyrinth)
+	(part+of Left+vestibular+labyrinth)
+	(Preferred+name [KB_INSTANCE_80579])
+	(regional+part
+		Macula+of+utricle+of+left+membranous+labyrinth
+		Utricle+proper+of+left+membranous+labyrinth)
+	(regional+part+of Left+vestibular+labyrinth)
+	(Synonym [KB_AUTO-INSERT2_5143]))
+
+([Utricle+of+membranous+labyrinth] of  Region+of+membranous+labyrinth+of+internal+ear
+
+	(constitutional+part
+		Wall+of+utricle+of+membranous+labyrinth
+		Cavity+of+utricle+of+membranous+labyrinth)
+	(FMAID "61113")
+	(Non-English+equivalent
+		[su_incus_37637]
+		[KB_AUTO-INSERT%283%29_4506])
+	(part
+		Wall+of+utricle+of+membranous+labyrinth
+		Cavity+of+utricle+of+membranous+labyrinth
+		Macula+of+utricle+of+membranous+labyrinth
+		Utricle+proper+of+membranous+labyrinth)
+	(part+of Vestibular+labyrinth)
+	(Preferred+name [KB_INSTANCE_80576])
+	(regional+part
+		Macula+of+utricle+of+membranous+labyrinth
+		Utricle+proper+of+membranous+labyrinth)
+	(regional+part+of Vestibular+labyrinth)
+	(Synonym
+		[KB_INSTANCE_80577]
+		[su_incus_34273]
+		[KB_AUTO-INSERT2_5140]))
+
+([Utricle+of+right+membranous+labyrinth] of  Utricle+of+membranous+labyrinth
+
+	(constitutional+part
+		Wall+of+utricle+of+right+membranous+labyrinth
+		Cavity+of+utricle+of+right+membranous+labyrinth)
+	(FMAID "61114")
+	(part
+		Wall+of+utricle+of+right+membranous+labyrinth
+		Cavity+of+utricle+of+right+membranous+labyrinth
+		Macula+of+utricle+of+right+membranous+labyrinth
+		Utricle+proper+of+right+membranous+labyrinth)
+	(part+of Right+vestibular+labyrinth)
+	(Preferred+name [KB_INSTANCE_80578])
+	(regional+part
+		Macula+of+utricle+of+right+membranous+labyrinth
+		Utricle+proper+of+right+membranous+labyrinth)
+	(regional+part+of Right+vestibular+labyrinth)
+	(Synonym [KB_AUTO-INSERT2_5142]))
+
+([Utricle+proper+of+left+membranous+labyrinth] of  Utricle+proper+of+membranous+labyrinth
+
+	(dimension 3-dimension)
+	(FMAID "74976")
+	(part+of Utricle+of+left+membranous+labyrinth)
+	(Preferred+name [FM_live_08999])
+	(regional+part+of Utricle+of+left+membranous+labyrinth))
+
+([Utricle+proper+of+membranous+labyrinth] of  Subdivision+of+utricle+of+membranous+labyrinth
+
+	(dimension 3-dimension)
+	(FMAID "74974")
+	(part+of Utricle+of+membranous+labyrinth)
+	(Preferred+name [FM_live_08995])
+	(regional+part+of Utricle+of+membranous+labyrinth))
+
+([Utricle+proper+of+right+membranous+labyrinth] of  Utricle+proper+of+membranous+labyrinth
+
+	(dimension 3-dimension)
+	(FMAID "74975")
+	(part+of Utricle+of+right+membranous+labyrinth)
+	(Preferred+name [FM_live_08997])
+	(regional+part+of Utricle+of+right+membranous+labyrinth))
+
+([Utricosaccular+duct] of  Subdivision+of+vestibular+labyrinth
+
+	(FMAID "61243")
+	(Non-English+equivalent
+		[su_incus_37634]
+		[KB_AUTO-INSERT%283%29_4517])
+	(part+of Vestibular+labyrinth)
+	(Preferred+name [KB_INSTANCE_80773])
+	(Synonym
+		[KB_INSTANCE_80774]
+		[su_incus_34278]))
+
+([Utricosaccular+duct+of+left+membranous+labyrinth] of  Utricosaccular+duct
+
+	(FMAID "61245")
+	(Preferred+name [KB_INSTANCE_80776]))
+
+([Utricosaccular+duct+of+right+membranous+labyrinth] of  Utricosaccular+duct
+
+	(FMAID "61244")
+	(Preferred+name [KB_INSTANCE_80775]))
+
+([Utricular+duct] of  Subdivision+of+vestibular+labyrinth
+
+	(FMAID "77824")
+	(Non-English+equivalent
+		[su_incus_37635]
+		[KB_AUTO-INSERT%283%29_4518])
+	(Preferred+name [su_incus_34279]))
+
+([Utricular+nerve] of  Branch+of+vestibular+nerve
+
+	(branch+of Vestibular+nerve)
+	(FMAID "53434")
+	(Non-English+equivalent
+		[KB_INSTANCE_67609]
+		[KB_AUTO-INSERT%283%29_4015])
+	(Preferred+name [KB_INSTANCE_67608]))
+
+([Utriculo-ampullary+nerve] of  Branch+of+vestibular+nerve
+
+	(branch+of Vestibular+nerve)
+	(FMAID "53442")
+	(Non-English+equivalent [KB_INSTANCE_67620])
+	(Preferred+name [KB_INSTANCE_67619]))
+
+([Uveal+part+of+left+sclera] of  Uveal+part+of+sclera
+
+	(FMAID "59709")
+	(part+of Left+sclera)
+	(Preferred+name [KB_INSTANCE_78820])
+	(regional+part+of Left+sclera))
+
+([Uveal+part+of+right+sclera] of  Uveal+part+of+sclera
+
+	(FMAID "59708")
+	(part+of Right+sclera)
+	(Preferred+name [KB_INSTANCE_78819])
+	(regional+part+of Right+sclera))
+
+([Uveal+part+of+sclera] of  Region+of+sclera
+
+	(FMAID "59703")
+	(Non-English+equivalent [su_incus_37622])
+	(part+of Sclera)
+	(Preferred+name [KB_INSTANCE_78812])
+	(regional+part+of Sclera)
+	(Synonym [KB_INSTANCE_78813]))
+
+([Uvula] of  Organ+subdivision+cluster
+
+	(constitutional+part
+		Mucosa+of+uvula
+		Uvular+muscle)
+	(FMAID "55022")
+	(Non-English+equivalent
+		[su_incus_38537]
+		[KB_AUTO-INSERT%283%29_1603])
+	(part
+		Mucosa+of+uvula
+		Uvular+muscle)
+	(part+of
+		Soft+palate
+		Faucial+part+of+mouth)
+	(Preferred+name [fm_live_02008])
+	(regional+part+of
+		Faucial+part+of+mouth
+		Soft+palate)
+	(Synonym [KB_INSTANCE_69995])
+	(systemic+part
+		Mucosa+of+uvula
+		Uvular+muscle))
+
+([Uvula+of+neuraxis] of  Organ+component+of+neuraxis
+
+	(FMAID "83883")
+	(Preferred+name [live_incus_fm_13560])
+	(Synonym [KB_AUTO-INSERT2_4632]))
+
+([Uvula+of+urinary+bladder] of  Zone+of+urinary+bladder
+
+	(FMAID "15915")
+	(Non-English+equivalent
+		[su_incus_38223]
+		[KB_AUTO-INSERT%283%29_2068]
+		[ONARD_Instance_580149]
+		[ONARD_Instance_580834])
+	(Preferred+name [KB_INSTANCE_18436])
+	(Synonym
+		[su_incus_25518]
+		[KB_AUTO-INSERT2_7132]))
+
+([Uvula+of+vermis+of+cerebellum] of  Uvula+of+neuraxis
+
+	(bounded+by Surface+of+brain)
+	(FMAID "72533")
+	(Non-English+equivalent
+		[su_incus_27845]
+		[su_incus_36349])
+	(part+of Vermis+of+posterior+lobe+of+cerebellum)
+	(Preferred+name [live_incus_fm_09513])
+	(regional+part+of Vermis+of+posterior+lobe+of+cerebellum)
+	(Synonym
+		[su_incus_27842]
+		[su_incus_27843]
+		[su_incus_27844]
+		[su_incus_30132]
+		[KB_AUTO-INSERT2_4810]))
+
+([Uvular+branch+of+left+lesser+palatine+nerve] of  Uvular+branch+of+lesser+palatine+nerve
+
+	(branch+of Left+maxillary+nerve)
+	(FMAID "52842")
+	(Preferred+name [KB_INSTANCE_66640]))
+
+([Uvular+branch+of+lesser+palatine+nerve] of  Branch+of+lesser+palatine+nerve
+
+	(branch+of Lesser+palatine+nerve)
+	(FMAID "52843")
+	(Preferred+name [KB_INSTANCE_66641]))
+
+([Uvular+branch+of+right+lesser+palatine+nerve] of  Uvular+branch+of+lesser+palatine+nerve
+
+	(branch+of Right+maxillary+nerve)
+	(FMAID "52844")
+	(Preferred+name [KB_INSTANCE_66642]))
+
+([Uvular+muscle] of  Muscle+of+palate
+
+	(constitutional+part+of Uvula)
+	(FMAID "46733")
+	(nerve+supply Nerve+to+uvular+muscle)
+	(Non-English+equivalent
+		[KB_INSTANCE_59428]
+		[KB_AUTO-INSERT%283%29_1614])
+	(part+of Uvula)
+	(Preferred+name [KB_INSTANCE_59426])
+	(systemic+part+of Uvula))
+

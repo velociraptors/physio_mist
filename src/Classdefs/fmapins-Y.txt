@@ -1,0 +1,27 @@
+([Y+chromosome] of  Sex+chromosome
+
+	(FMAID "84056")
+	(Preferred+name [fm_live_30067]))
+
+([Y+chromosome-bearing+sperm+cell] of  Mature+sperm+cell
+
+	(FMAID "84058")
+	(Preferred+name [fm_live_30071])
+	(Synonym
+		[fm_live_30074]
+		[fm_live_30076]))
+
+([Yellow+bone+marrow] of  Bone+marrow
+
+	(dimension 3-dimension)
+	(FMAID "74596")
+	(Non-English+equivalent
+		[su_incus_38033]
+		[KB_AUTO-INSERT%283%29_259])
+	(Preferred+name [FM_live_08675]))
+
+([Yolk+sac] of  Extra-embryonic+structure
+
+	(FMAID "87180")
+	(Preferred+name [fma_p2_Instance_1050001]))
+

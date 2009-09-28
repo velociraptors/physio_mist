@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<variable_list xmlns="http://tempuri.org/Variable_schema.xsd">
+	<variable isParameter="false">
+		<name>G_p</name>
+		<anatomical_str FMAID="62970">
+			<name>Plasma</name>
+		</anatomical_str>
+	</variable>
+</variable_list>

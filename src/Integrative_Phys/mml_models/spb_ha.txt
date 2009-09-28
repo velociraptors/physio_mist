@@ -1,0 +1,2220 @@
+//MODIFICATION :EVENTS ARE REMOVED
+//MODIFICATION :IF-ELSE REMOVED
+//MODIFICATION: REMOVED THE UNITS FROM THE EQUATIONS
+//MODIFICATION: STANDARDIZED THE EQUATIONS TO VAR = (PAR)*
+//MODIFIED SOME OF THE PARAMETERS(NBR(t)) IN THE EQUATIONS
+//MODIFIED: PARAMETER AND INITIAL VALUES ARE UPDATED BASED ON jsim UNSTRESSED PARAMETER SET
+//MODIFIED:	IN THE INITIAL VALUE SECTION, SOME VARIABLES ARE INITIALIZED WITH EQUATIONS,
+//		INSTEAD OF THIS, THE VALUES THEMSELVES ARE REPLACED FOR NOW!		
+
+
+/*
+TITLE: Cardiopulmonary mechanics
+
+
+SUBTITLE:
+   A closed loop cardiopulmonary model composed of a four-chamber
+varying-elastance heart, a pericardium, a systemic circulation, a
+pulmonary circulation, a coronary circulation, airways mechanics,
+and baroreceptors.
+
+CODE COMPONENT              CODED BY              BASED ON 
+----------------------------------------------------------------
+systemic circulation        Dan Beard             Lu et al. (2001)
+pulmonary circulation       Dan Beard             Lu et al. (2001)
+baroreceptor                Dan Beard             Lu et al. (2001)
+heart                       Jim Bassingthwaighte  Rideout (1991)
+cardiac activation function Andy Matuszkiewicz    Heldt et al. (2002)
+pericardium                 Maxwell Neal          Sun et al. (1997)
+airways mechanics           Melissa Krueger       Athanasiades et al. (2000)
+coronary circulation        Maxwell Neal          Zinemanas et al. (1994)
+
+MODEL ASSEMBLED BY:
+
+     Maxwell Neal
+     National Simulation Resource
+     Department of Bioengineering
+     Box 357962
+     University of Washington
+     Seattle, WA  98195
+     USA
+     mneal@u.washington.edu
+
+
+CONTENTS:
+_____________________________________________________________________________
+* Operations manual
+
+* Code
+
+    I.      Parameters of varying elastance heart
+    II.     Parameters of systemic circulation
+    III.    Parameters of pulmonary circulation
+    IV.     Parameters of baroreceptors
+            - IVa. Vagal heart rate pathway
+            - IVb. Sympathetic heart rate pathway
+            - IVc. Sympathetic contractility pathway
+            - IVd. Sympathetic vasomotor tone pathway
+            - IVe. Heart rate control parameters
+            - IVf. Contractility control parameters
+    V.      Parameters of airway mechanics
+    VI.     Parameters of pericardium
+    VII.    Parameters of coronary circulation
+    VIII.   Variables of varying elastance heart 
+    IX.     Variables of systemic circulation
+    X.      Variables of pulmonary circulation
+    XI.     Variables of baroreceptors
+    XII.    Variables of airway mechanics
+    XIII.   Variables of pericardium
+    XIV.    Variables of coronary circulation
+    XV.     Equations of varying elastance heart
+    XVI.    Equations of systemic circulation
+    XVII.   Equations of pulmonary circulation
+    XVIII.  Equations of baroreceptors
+    XIX.    Equations of airway mechanics
+    XX.     Equations of pericardium
+    XXI.    Equations of coronary circulation
+    
+
+* Assumptions & Limitations
+
+* Comments
+
+* Parameter and variable glossary
+
+* Schematics
+
+* Published parameter values
+
+* References  
+_____________________________________________________________________________
+
+
+OPERATIONS MANUAL:
+JSim users may alter physiological settings or parameters in the
+Run Time dialog to visualize effects to the system.
+Default values are from the tuned parameter set supplied in the 
+JSim project file.  Original parameter values from the 
+literature are listed under "Published parameter values."
+The solver to use for simulations with the tuned parameter 
+set is CVODE.
+
+
+CODE LANGUAGE: MML
+
+
+CODE:
+*/
+
+JSim v1.1
+	import nsrunit;
+	unit conversion on;		// Double slashes indicate a comment
+
+	math MODEL{
+	realDomain t sec; t.min=0; t.max=20.0; t.delta=0.01;
+
+
+//-----------------------------------------------------------------------------------
+//  I. PARAMETERS  OF    V A R Y I N G    E L A S T A N C E    H E A R T    M O D E L    
+//-----------------------------------------------------------------------------------
+
+real    Vlvrd= 72     ml,   // Unstressed end-diastolic left ventricle volume
+        Vlvrs= 23     ml,   // Unstressed end-systolic left ventricle volume
+        Vrvrd= 103     ml,   // Unstressed end-diastolic right ventricle volume
+        Vrvrs= 53     ml,   // Unstressed end-systolic right ventricle volume
+        Vlard= 10     ml,   // Unstressed end-diastolic left atrium volume
+        Vlars= 8     ml,   // Unstressed end-systolic left atrium volume
+        Vrard= 10     ml,   // Unstressed end-diastolic right atrium volume
+        Vrars= 8     ml,   // Unstressed end-systolic right atrium volume
+	
+        Rra = 0.001   mmHg*s*ml^-1,  // Tricuspid valve resistance
+        Rla = 0.001   mmHg*s*ml^-1,  // Mitral valve resistance
+       
+        PRint  = 0.12 sec,      // Difference in atrial, venticular activation times
+        Emaxlv = 5.6  mmHg/ml, // Maximum elastance of first left ventricle component
+        Eminlv = 0.186874659 mmHg/ml, // Minimum elastance of first left ventricle component
+        
+        Emaxrv = 0.67  mmHg/ml, // Maximum elastance of first right ventricle component
+        Eminrv = 0.1041640922 mmHg/ml, // Minimum elastance of first right ventricle component
+        
+        Emaxra = 0.1091675077 mmHg/ml, // Maximum elastance right ventricle
+        Eminra = 0.0992431888 mmHg/ml, // Minimum elastance left ventricle
+        Emaxla = 0.1446191772  mmHg/ml, // Maximum elastance right ventricle
+        Eminla = 0.1314719793  mmHg/ml, // Minimum elastance left ventricle
+        
+        Pbs = 0 mmHg,          // Reference pressure at body surface (ground)
+        Vmyo = 238 ml,         // Volume of myocardium
+ 
+
+        TsvK = 0.35 sec,  // Scaler to set ventricular systolic fraction of heart cycle
+        TsaK = 0.2 sec;  // Scaler to set atrial systolic fraction of heart cycle
+
+
+
+//-------------------------------------------------------------------------------
+//  II. PARAMETERS OF    S Y S T E M I C    C I R C U L A T I O N
+//-------------------------------------------------------------------------------
+	
+// Resistances:
+real Rav   = 0.0001   mmHg*sec*ml^(-1);    // Aortic valve resistance 
+                                          
+real Raop  = 0.0001   mmHg*sec*ml^(-1);    // Proximal aortic resistance
+real Rcrb  = 6.8284472205     mmHg*sec*ml^(-1);    // Cerebral circulation resistance
+real Raod  = 0.025    mmHg*sec*ml^(-1);    // Distal aortic resistance
+real Rtaop = 0.2    mmHg*sec*ml^(-1);    // Transmural proximal aortic resistance
+real Rtaod = 0.3   mmHg*sec*ml^(-1);    // Transmural distal aortic resistance
+real Rsap  = 0.025    mmHg*sec*ml^(-1);    // Prox. systemic arteries resistance
+real Rsc   = 0.1545054945    mmHg*sec*ml^(-1);    // Systemic capillaries resistance
+real Rsv   = 0.1381298227    mmHg*sec*ml^(-1);    // Systemic veins resistance
+		
+// Compliances:
+real Caop = 0.3445734208      ml*mmHg^(-1);        // Aortic proximal compliance
+real Caod = 1.4544677036      ml*mmHg^(-1);        // Aortic distal compliance
+real Csap = 1.4843409851        ml*mmHg^(-1);        // Prox. systemic arteries compliance
+real Csc  = 7.9822364317      ml*mmHg^(-1);        // Systemic capillaries compliance
+	
+// Inertances:
+real Laop = 0.00035    mmHg*sec^2*ml^(-1);  // Proximal aorta inertance
+real Laod = 0.00035    mmHg*sec^2*ml^(-1);  // Distal aorta inertance
+
+// Other parameters:
+real Kc = 497.7852450367       mmHg;                // Active vasomotor tone scaling parameter
+                                          // for systemic arterial pressure
+
+real Do	= 50         ml;                  // Active vasomotor tone volume parameter 
+                                          // for systemic arterial pressure
+
+real Vsa_o = 485.7624931891     ml;                  // Minimal volume of systemic arteries
+real Vsa_max = 577.7106000108   ml;                  // Maximal luminal volume of systemic arteries
+real Kp1 = 0.03      mmHg;                // Passive vasomotor tone scaling parameter
+                                          // for systemic arterial pressure
+
+real Kp2 = 0.05      mmHg*ml^(-2);        // Passive vasomotor tone scaling parameter
+                                          // for systemic arterial pressure
+
+real Kr = 0.01       mmHg*sec*ml^(-1);    // Pressure scaling constant for systemic
+                                          // arterial resistance
+
+real Rsao = 0.5508058134        mmHg*sec*ml^(-1);    // Arteriolar resistance offset
+
+real tau_p = 0.1     ml^(-1);             // Passive vasomotor tone constant for systemic
+                                          // arterial pressure 
+	
+real Kv = 21.83         mmHg;                // Scaling factor for systemic venous pressure
+real Vmax_sv = 3379.5450000637  ml;                  // Maximal volume of lumped systemic veins
+
+real D2 = -5.0       mmHg;                // Offsetting constant for partially collapsed
+                                          // Vena cava pressure
+
+real K1 = 0.0968305478       mmHg*ml^(-1);        // Scaling constant for unstressed and distended
+                                          // Vena cava pressure 
+
+real K2 = 0.4        mmHg;                // Scaling constant for partially collapsed Vena
+                                          // cava pressure
+
+real KR = 0.001      mmHg*sec*ml^(-1);    // Scaling factor for Vena cava resistance 
+real Ro = 0.025      mmHg*sec*ml^(-1);    // Vena cava resistance offset parameter
+real Vo = 129.6486000024        ml;                  // Unstressed volume of Vena cava
+real Vmax_vc = 350.5314000065   ml;                  // Maximum volume of Vena cava
+real Vmin_vc = 50.0107470009    ml;                  // Mimimum volume of Vena cava
+real COtau = 15      sec;                 // Cardiac output equation time constant
+
+real Px2 = 2 mmHg;                        // P-V curve shaping parameter 
+real Vx8 = 8 ml;                          // P-V curve shaping parameter
+real Vx75 = 75 ml;                        // P-V curve shaping parameter
+real Vx1 = 1 ml;                          // P-V curve shaping parameter
+real Px1 = 1 mmHg;                        // P-V curve shaping parameter
+
+
+
+//---------------------------------------------------------------------------------
+//  III. PARAMETERS OF     P U L M O N A R Y    C I R C U L A T I O N
+//---------------------------------------------------------------------------------
+
+// Resistances:
+real Rpuv = 0.0001   mmHg*sec*ml^(-1);  // Pulmonary valve resistance 
+
+real Rtpap = 0.05  mmHg*sec*ml^(-1);  // Proximal pulmonary arterial transmural resistance
+real Rtpad = 0.05 mmHg*sec*ml^(-1); // Distal pulmonary arterial transmural resistance
+real Rpap = 0.0001   mmHg*sec*ml^(-1);  // Proximal pulmonary resistance
+real Rpad = 0.03    mmHg*sec*ml^(-1);  // Distal proximal pulmonary resistance
+real Rps = 4.2958026137        mmHg*sec*ml^(-1);  // Pulmonary shunt resistance
+real Rpa = 0.0565149137     mmHg*sec*ml^(-1);  // Pulmonary arterioles resistance
+real Rpc = 0.0309026688     mmHg*sec*ml^(-1);  // Pulmonary capillaries resistance
+real Rpv = 0.0001    mmHg*sec*ml^(-1);  // Pulmonary veins resistance
+
+// Compliances:
+real Ctpap = 1.5365929068    ml*mmHg^(-1);      // Proximal pulmonary arterial compliance
+real Ctpad = 2.6893667388    ml*mmHg^(-1);      // Distal pulmonary arterial compliance
+real Cpa = 3.1321449506     ml*mmHg^(-1);      // Pulmonary arterioles compliance
+real Cpc = 7.7147016012        ml*mmHg^(-1);      // Pulmonary capillaries compliance
+real Cpv = 27.87028922       ml*mmHg^(-1);      // Pulmonary veins compliance
+
+// Inductors:
+real Lpa = 0.0001801907  mmHg*sec^2*ml^(-1);// Pulmonary arterial inertance
+real Lpad = 0.0001932239 mmHg*sec^2*ml^(-1); // Distal pulmonary artery inertance
+
+
+
+//---------------------------------------------------------------------------------
+// IV.  PARAMETERS  OF    B A R O R E C E P T O R    M O D E L    
+//---------------------------------------------------------------------------------
+
+// Baroreceptor Firing Rate is "Nbr." 
+// Firing rate sent to Central Nervous System (CNS).
+// CNS filters the Nbr signal and outputs efferent firing frequencies:
+//	1. N_hrv - vagal pathway firing frequency
+//	2. N_hrs - sympathetic pathway controlling heart rate firing frequency
+//	3. N_con - sympathetic pathway controlling heart contractility
+//	4. N_vaso - sympathetic pathway controlling vasomotor tone
+
+real a = 0.001 sec;               // Time constant for baroreceptor firing rate
+  // NOTE: I made up the value for 'a' without any reference (DB).
+
+real a1 = 0.036 sec;              // Time constant for baroreceptor firing rate
+real a2 = 0.0018 sec;             // Time constant for baroreceptor firing rate
+real K = 1 sec^(-1)*mmHg^(-1); // Baroreceptor gain (used to account for units)
+
+// IVa. HRV pathway
+real K_hrv = 0.8 dimensionless;	 // CNS gain for vagal heart rate control
+real T_hrv = 1.8 sec;            // CNS time parameter for vagal heart rate control
+real L_hrv = 0.2 sec;            // CNS time delay for vagal heart rate control
+real a_hrv = 0.372 dimensionless;    // Time constant for efferent vagal firing  
+real tau_hrv = -0.04 sec;        // Time parameter for efferent vagal firing
+real No_hrv = 110 sec^(-1);      // Frequency parameter for efferent vagal firing 
+
+// IVb. HRS pathway
+real K_hrs = 1 dimensionless; // CNS gain for sympathetic heart rate control 
+real T_hrs = 10.0 sec;     // CNS time parameter for sympathetic heart rate control
+real L_hrs = 3.0 sec;      // CNS time delay for sympathetic heart rate control
+real a_hrs = -0.283 dimensionless; // Time constant for efferent sympathetic heart
+                                //    rate firing 
+real tau_hrs = 0.09 sec;    // Time parameter for efferent sympathetic heart
+                            //    rate firing
+real No_hrs = 100 sec^(-1); // Frequency parameter for efferent sympathetic heart
+                            //    rate firing
+
+// IVc. CON pathway
+real K_con = 1 dimensionless;// CNS gain for contractility control 
+real T_con = 10.0 sec;          // CNS time parameter for contractility control
+real L_con = 3.0 sec;           // CNS time delay for contractility control
+real a_con = 0.0483 dimensionless; // Time constant for efferent contractility firing  
+real b_con = 0.7 dimensionless; // Time constant for efferent sympathetic
+                                // contractility firing 
+real tau_con = 0.04 sec;        // Time parameter for efferent sympathetic
+                                //    contractility firing
+real No_con = 110 sec^(-1);     // Frequency parameter for efferent sympathetic
+                                // contractility firing
+
+// IVd. VASO pathway
+real K_vaso = 1 dimensionless;// CNS gain for vasomotor tone control 
+real T_vaso = 6.0 sec;          // CNS time parameter for vasomotor tone control 
+real L_vaso = 3.0 sec;          // CNS time delay for vasomotor tone control 
+real a_vaso = -0.411 dimensionless;// Time constant for efferent vasomotor tone firing
+real tau_vaso = 0.04 sec;       // Time parameter for efferent vasomotor tone
+                                //    firing
+real No_vaso = 110 sec^(-1);    // Frequency parameter for efferent vasomotor tone
+                                //    firing
+
+// IVe. Heart rate control parameters
+real h1 = 35.375 min^(-1);         // Heart rate control offset parameter
+real h2 = 140 min^(-1);        // Heart rate control scaling parameter
+real h3 = 40 min^(-1);         // Heart rate control scaling parameter
+real h4 = 32 min^(-1);         // Heart rate control scaling parameter
+real h5 = 10 min^(-1);         // Heart rate control scaling parameter
+real h6 = 20 min^(-1);         // Heart rate control scaling parameter
+
+// IVf. Contractility control parameters
+real amin = -1.5 dimensionless;  // Contractility control offset 
+real bmin = 0.7 dimensionless; // Contractility control offset
+real Ka = 5 dimensionless;     // Contractility control scaling factor
+real Kb = 0.5 dimensionless;   // Contractility control scaling factor
+
+
+
+//-----------------------------------------------------------------------------------
+//  V. PARAMETERS  OF    A I R W A Y    M E C H A N I C S  
+//-----------------------------------------------------------------------------------
+
+real RV = 1.24 L;               // Residual volume 
+real VD = 0.185 L;              // Lung dead space
+
+real Ac = 6.56 cmH2O;           // Offset for collapsible airways recoil pressure
+real Al = 3.3 cmH2O;            // Lung recoil pressure scaling parameter
+real As = 20 cmH2O*sec/L;      // Small airways resistance scaling parameter
+real Au = 0.34 cmH2O*sec/L;     // Offset for upper airways resistance
+real Bc = 24 cmH2O;           // Collapsible airways recoil pressure scaling  
+                                //    parameter
+
+real Bcp = 3.73 cmH2O;          // Collapsible airways recoil pressure scaling  
+                                //    parameter
+real Bl = -9.5 cmH2O;           // Offset for lung recoil pressure 
+real Bs = 0.01 cmH2O*sec/L;     // Offset for small airways resistance
+real Cve = 0.5 L/cmH2O;         // Viscoelastic compliance of lung
+real Kc_air = 0.21 cmH2O*sec/L; // Collapsible airways resistance scaling parameter
+real Kl = 0.45 1/L;              // Lung recoil pressure scaling parameter
+real Ks = -10.9 dimensionless;  // Small airways resistance scaling parameter
+real Ku = 0.46 cmH2O*sec^2/L^2; // Upper airways resistance scaling parameter
+real Rve = 1.0 cmH2O*sec/L;     // Resistance of lung viscoelastance
+real Vstar = 5.3 L;             // Small airways resistance parameter
+real Vcmax = 0.185 L;           // Collapsible airwyas resistance parameter
+
+real tau = 0.1 sec;             // Time constant for chest wall volume follower
+
+real A = -2.17 mmHg;     // Amplitude of Ppl driving function
+real B = 5.6 mmHg;       // Negative offset of Ppl driving function
+real C = 1.26 hz;            // Respiratory rate controller 
+
+real O2flux = 281 ml/min;  // O2 flux across alveolar membrane
+real CO2flux = -220 ml/min; // CO2 flux across alveolar membrane
+
+real Pao = 760 mmHg;               // External atmospheric pressure
+
+real Rco = 0 cmH2O*sec/L;	//this is removed from the equations section
+
+//Gas Temperatures and pressures
+real Tbody = 310.15 K; //Body temperature
+real Pstp = 760 mmHg; //STP pressure
+real Tstp = 273 K; //STP temperature
+
+
+
+//---------------------------------------------------------------------------------
+//  VI.  PARAMETERS OF    P E R I C A R D I U M 
+//---------------------------------------------------------------------------------
+
+real K_pcd = 1 mmHg;          // Scaling parameter for pericardial P-V curve
+real phi_pcd = 40 ml;         // Pericardial P-V curve parameter
+real Vpcd_o = 785 ml;         // Pericardial P-V curve parameter 
+real perifl = 15 ml;          // Pericardial fluid in pericardial cavity
+
+
+
+//---------------------------------------------------------------------------------
+//  VII.  PARAMETERS OF    C O R O N A R Y   C I R C U L A T I O N 
+//---------------------------------------------------------------------------------
+
+real    //Resistance Parameters
+   Rcorao = 2.6423673077  s*ml^-1*mmHg,  // Proximal epicardial arteries resistance	
+   Rcorea = 2.6423673077  s*ml^-1*mmHg,  // Distal epicardial arteries resistance
+   Rcorla = 5.0733452308  s*ml^-1*mmHg,  // Large coronary arteries resistance
+   Rcorsa = 5.0733452308 s*ml^-1*mmHg,   // Small coronary arteries resistance
+   Rcorcap = 4.2277876923  s*ml^-1*mmHg, // Coronary capillaries resistance
+   Rcorsv = 0.4932418974  s*ml^-1*mmHg,  // Small coronary veins resistance
+   Rcorlv = 0.4932418974 s*ml^-1*mmHg,   // Large coronary veins resistance
+   Rcorev = 0.4932418974 s*ml^-1*mmHg,   // Epicardial veins resistance
+	     
+        //Compliance Parameters
+   Ccorao = 0.13 ml/mmHg, // Compliance of proximal epicardial arteries
+   Ccorea = 0.0550702742 ml/mmHg, // Compliance of distal epicardial arteries
+   Ccorla = 0.0912942282 ml/mmHg, // Compliance of large coronary arteries
+   Ccorsa = 0.1560208066 ml/mmHg,  // Compliance of small coronary arteries
+   Ccorcap = 1.8 ml/mmHg, // Compliance of coronary capillaries
+   Ccorsv = 0.5801545598 ml/mmHg,  // Compliance of small coronary veins
+   Ccorlv = 0.6837210566 ml/mmHg,  // Compliance of large coronary veins
+   Ccorev = 0.8322992527 ml/mmHg;  // Compliance of epicardial veins
+
+
+
+//-----------------------------------------------------------------------------------
+//  VIII. VARIABLES  OF    V A R Y I N G    E L A S T A N C E    H E A R T    M O D E L  
+//-----------------------------------------------------------------------------------
+
+real yrv(t) dimensionless; // Right ventricle activation function
+real yra(t) dimensionless; // Right atrium activation function
+real ylv(t) dimensionless; // Left ventricle activation function
+real yla(t) dimensionless; // Left atrium activation function
+
+real    Elv(t)  mmHg/ml, // Time-varying elastance of left ventricle
+        Erv(t)  mmHg/ml, // Time-varying elastance of right ventricle
+        Era(t)  mmHg/ml, // Time-varying elastance of right atrium
+        Ela(t)  mmHg/ml; // Time-varying elastance of left atrium
+
+real    Vlvr(t) ml,      // Unstressed left ventricle volume
+        Vrvr(t) ml,      // Unstressed right ventricle volume
+        Vlar(t) ml,      // Unstressed left atrial volume
+        Vrar(t) ml;      // Unstressed right atrial volume
+
+
+real    Fra(t) ml/s,     // Flow across tricuspid valve
+        Frv(t) ml/s,     // Flow across pulmonary valve
+        Fla(t) ml/s,     // Flow across mitral valve
+        Flv(t) ml/s;     // Flow across aortic valve
+
+real    Pra(t) mmHg,     // Right atrial transmural pressure
+        Prac(t) mmHg,    // Right atrial chamber pressure
+        Prv(t) mmHg,     // Right ventricular transmural pressure
+        Prvc(t) mmHg,    // Right ventricular chamber pressure
+        Pla(t) mmHg,     // Left atrial transmural pressure
+        Plac(t) mmHg,    // Left atrial chamber pressure
+        Plv(t) mmHg,     // Left ventricular transmural pressure
+        Plvc(t) mmHg;    // Left ventricular chamber pressure
+        
+real    Vra(t) ml,       // Volume of right atrium
+        Vrv(t) ml,       // Volume of right ventricle
+        Vla(t) ml,       // Volume of left atrium
+        Vlv(t) ml;       // Volume of left ventricle
+
+real    COutput(t) ml*sec^(-1), // Cardiac output
+        SV(t) ml,               // Stroke volume (COutput/HR)
+        P_QRSwave(t) mV;        // Non-driving ECG curve
+
+realState Tsv(t) sec;  // Discrete systolic interval for ventricles
+realState Tsa(t) sec; // Discrete systolic interval for atria
+
+real trela(t) sec;
+real trelv(t) sec;
+
+realState EDPLV(t) mmHg;
+realState EDPRV(t) mmHg;
+
+realState EDVLV(t) ml;
+realState EDVRV(t) ml;
+
+//Initial Conditions
+when (t=t.min){	
+        Vra  = 75.21690893; 
+        Vrv  = 164.34513229; 
+        Vla  = 86.57725895;
+        Vlv  = 125.58656936;
+        EDPLV=5;
+        EDPRV=2.5;
+        EDVLV=126;
+        EDVRV=176;
+        }
+
+
+
+//---------------------------------------------------------------------------------
+//  IX.  VARIABLES OF    S Y S T E M I C    C I R C U L A T I O N
+//---------------------------------------------------------------------------------
+
+// Nonlinear resistances:
+real Rsa(t)   mmHg*sec*ml^(-1);  // Resistance of systemic arteries 
+real Rvc(t)   mmHg*sec*ml^(-1);	 // Resistance of Vena cava 
+
+// Pressures:
+real Paop(t)  mmHg;              // Proximal aorta transmural pressure
+real Paopc(t) mmHg;              // Proximal aorta chamber pressure
+real Paod(t)  mmHg;              // Distal aorta transmural pressure
+real Paodc(t) mmHg;              // Distal aorta chamber pressure
+real PaodFOL(t) mmHg;            // Paod follower
+real Psa_a(t) mmHg;              // Active systemic arterial pressure component
+real Psa_p(t) mmHg;              // Passive systemic arterial pressure component
+real Psa(t)   mmHg;              // Systemic arterial pressure
+real Psap(t)  mmHg;              // Systemic arterioles pressure
+real Psc(t)   mmHg;              // Systemic capillaries pressure
+real Psv(t)   mmHg;              // Systemic veins pressure
+real Pvc(t)   mmHg;              // Vena cava transmural pressure
+real Pvcc(t)  mmHg;              // Vena cava chamber pressure
+real MAP(t)   mmHg;              // Mean proximal aortic pressure
+
+// Flows:
+real Faop(t)  L*min^(-1);        // Proximal aorta flow
+real Faod(t)  ml*sec^(-1);       // Distal aorta flow
+real Fsap(t)  ml*sec^(-1);       // Proximal systemic arterial flow
+real Fsa(t)   ml*sec^(-1);       // Systemic arteries flow
+real Fsc(t)   ml*sec^(-1);       // Systemic capillaries flow
+real Fsv(t)   ml*sec^(-1);       // Systemic veins flow
+real Fvc(t)   ml*sec^(-1);       // Vena cava flow
+real Fcrb(t)  ml*sec^(-1);       // Cerebral flow
+
+// Volumes:
+real Vaop(t)  ml;                // Proximal aorta volume
+real Vaod(t)  ml;                // Distal aorta volume
+real Vsa(t)   ml;                // Systemic arteries volume
+real Vsap(t)  ml;                // Systemic arterioles volume
+real Vsc(t)   ml;                // Systemic capillaries volume
+real Vsv(t)   ml;                // Systemic veins volume
+real Vvc(t)   ml;                // Vena cava volume
+
+real Vtot(t)  ml;                // Total fluid volume in body
+
+real SysArtVol(t) ml;            // Systemic arterial volume
+real SysVenVol(t) ml;            // Systemic venous volume
+real PulArtVol(t) ml;            // Pulmonary arterial volume
+real PulVenVol(t) ml;            // Pulmonary venous volume
+
+real VBcirc(t) ml;               // Total blood in circulation
+
+// Initial values:
+when(t=t.min) {
+        MAP = 90.45463078;
+	Faop  = 0.65249361;
+	Faod  = 23.14135951;
+	COutput = 108.44352511;
+ 	Vaop = 32.56276308; 
+	Vaod = 138.75266678;
+	Vsa  = 519.80794711; 
+	Vsap = 129.89359178; 
+	Vsc  = 257.09397567; 
+	Vsv  = 2969.4692;
+	Vvc  = 227.07079064; 
+        PaodFOL = 88.11728963;
+        Paopc = 88.0952997;
+	}
+
+//MODIFIED: PAOPC INITIALIZATION WAS PREVIOUSLY AT THE PULMONARY CIRCULATION SECTION, 
+//MOVED TO THE SECTION WHERE THE VARIABLE WAS INTRODUCED
+
+
+
+//---------------------------------------------------------------------------------
+//  X. VARIABLES OF     P U L M O N A R Y    C I R C U L A T I O N
+//---------------------------------------------------------------------------------
+
+//Pressures:
+real Ppapc(t)  mmHg;      // Proximal pulmonary artery chamber pressure
+real Ppapc1(t) mmHg;      // Proximal pulmonary artery chamber pressure (systolic)
+real Ppapc2(t) mmHg;      // Proximal pulmonary artery chamber pressure (diastolic)
+real Ppap(t)   mmHg;      // Proximal pulmonary arterial tranmsmural pressure
+real Ppad(t)   mmHg;      // Distal pulmonary arterial transmural pressure
+real Ppadc(t)  mmHg;      // Distal pulmonary arterial chamber pressure
+real Ppa(t)    mmHg;      // Pulmonary arterioles transmural pressure
+real Ppac(t)   mmHg;      // Pulmonary arterioles chamber pressure
+real Ppc(t)    mmHg;      // Pulmonary capillaries pressure
+real Ppcc(t)   mmHg;      // Pulmonary capillaries chamber pressure
+real Ppv(t)    mmHg;      // Pulmonary veins pressure
+real Ppvc(t)   mmHg;      // Pulmonary veins chamber pressure
+
+real Vpap(t)   ml;           // Proximal pulmonary arterial volume
+real Vpad(t)   ml;           // Distal pulmonary arterial volume
+real Vpa(t)    ml;           // Pulmonary arterioles volume
+real Vpc(t)    ml;           // Pulmonary capillaries volume
+real Vpv(t)    ml;           // Pulmonary veins volume
+	
+real Fpap(t)   L*min^(-1);  // Proximal pulmonary arterial flow
+real Fpad(t)   ml*sec^(-1);  // Distal pulmonary arterial flow
+real Fps(t)    ml*sec^(-1);  // Pulmonary shunt flow
+real Fpa(t)    ml*sec^(-1);  // Pulmonary arterioles flow
+real Fpc(t)    ml*sec^(-1);  // Pulmonary capillaries flow
+real Fpv(t)    ml*sec^(-1);  // Pulmonary veins flow
+
+// Initial values:
+when(t=t.min) {
+	Vpap = 33.1678577; 
+	Vpad = 60.15783528; 
+	Vpa  = 58.99697693; 
+	Vpc = 107.78103929; 
+	Vpv  = 293.57247294; 
+        Fpap = 1.2262324; 
+	Fpad = 57.09535339;
+        }
+
+
+
+//---------------------------------------------------------------------------------
+//  XI.  VARIABLES OF     B A R O R E C E P T O R    M O D E L 
+//---------------------------------------------------------------------------------
+
+
+real Nbr(t) sec^(-1);    // Instantaneous firing frequency of baroreceptor
+real Nbr_t(t) sec^(-2);  // Time derivative of baroreceptor firing rate
+
+real N_hrv(t) sec^(-1);       // Vagal discharge rate at CNS controlling heart rate
+real F_hrv(t) dimensionless;  // Normalized vagal discharge rate
+real b_hrv(t) dimensionless;  // Time constant for efferent vagal firing 
+
+real N_hrs(t) sec^(-1); // Sympathetic discharge rate at CNS controlling heart rate 
+real F_hrs(t) dimensionless; // Normalized discharge rate for sympathetic heart
+                             //    rate control
+real b_hrs(t) dimensionless; // Time constant for efferent sympathetic heart 
+                                //    rate firing 
+
+real N_con(t) sec^(-1);      // Sympathetic discharge rate at CNS for contractility
+real F_con(t) dimensionless; // Normalized discharge rate for contractility control
+
+real N_vaso(t) sec^(-1);     // Sympathetic discharge rate at CNS controlling
+                             //    vasomotor tone
+real F_vaso(t) dimensionless;  // Normalized discharge rate for vasomotor control
+real b_vaso(t) dimensionless;  // Time constant for efferent vasomotor tone firing 
+
+real afs_con(t) dimensionless;  // Dynamic heart contractility scaling function
+real bfs_con(t) dimensionless;  // Contractility variable to alter Lu et al. (2001)
+                               // activation function
+
+// Variables used for discrete heart rate function 
+realState afs_con2(t) dimensionless; // Discrete heart contractility scaling function
+real HRcont(t) min^(-1);     // Dynamic heart rate
+realState HR(t) min^(-1);  // Discrete heart rate function
+realState tshift(t) sec;      // Time offset for heart rate
+
+//        TsvK = 0.35 sec,  // Scaler to set ventricular systolic fraction of heart cycle
+//        TsaK = 0.2 sec;  // Scaler to set atrial systolic fraction of heart cycle
+
+//Initial Values:
+/*when(t=t.min) {
+ tshift = t.min;
+ Tsv = TsvK*sqrt(1.0/HR/(1.0 sec));
+ Tsv = 0.35*sqrt(1.0/77/(1.0 sec));
+ Tsa = TsaK*sqrt(1.0/HR/(1.0 sec));
+ Tsa = 0.2*sqrt(1.0/77/(1.0 sec));
+ Nbr  = 87.01570642;
+ Nbr_t = -31.02028385;
+ N_hrv = 76.56547137;
+ N_hrs = 94.88906806;
+ N_con = 94.88906806;
+ N_vaso = 94.81857283;
+ HR = 77;
+ afs_con2 = 1; //afs_con;
+}
+*/
+
+when(t=t.min) {
+ tshift = 0;
+ Tsv = 0.039886201760873282092756310488256;
+ Tsa = 0.022792115291927589767289320279003
+ Nbr  = 87.01570642;
+ Nbr_t = -31.02028385;
+ N_hrv = 76.56547137;
+ N_hrs = 94.88906806;
+ N_con = 94.88906806;
+ N_vaso = 94.81857283;
+ HR = 77;
+ afs_con2 = 1; //afs_con;
+}
+
+
+//---------------------------------------------------------------------------------
+//  XII. VARIABLES  OF   A I R W A Y   M E C H A N I C S
+//---------------------------------------------------------------------------------
+
+
+
+real Rs(t) cmH2O*sec/L;  // Small airways resistance
+real Rc(t) cmH2O*sec/L;  // Collapsible airways resistance
+real Ru(t) cmH2O*sec/L;  // Upper airways resistance
+
+real Vc(t) L;            // Volume of collapsible airways
+real VA(t) L;            // Alveolar volume
+real Vve(t) L;           // Lung viscoelastic volume
+real Vcw(t) L;           // Chest wall volume
+real dV(t) L;            // Chest wall volume follower
+
+real Pl(t) cmH2O;        // Lung recoil pressure
+real PA(t) cmH2O;        // Alveolar pressure
+real Pc(t) cmH2O;        // Collapsible airways transmural pressure
+real Pcc(t) cmH2O;       // Collapsible airways chamber pressure 
+real Pve(t) cmH2O;       // Viscoelastic lung pressure
+real Ppl(t) cmH2O;       // Pleural transmural pressure
+real PplmmHg(t) mmHg;    // Pleural transmural pressure in mmHg
+real Pplc(t) cmH2O;      // Pleural chamber pressure
+real PplcFOL(t) cmH2O;   // Pleural chamber pressure follower
+real Pmouth(t) cmH2O;    // Pressure at mouth
+real Ps(t) cmH2O;        // Pressure across small airways resistance
+real Pup(t) cmH2O;       // Pressure across upper and collapsible airways
+real Pcw(t) cmH2O;       // Transmural pressure across chest wall
+
+real PD(t) cmH2O;    // total rigid Dead space pressure
+real PDc(t) cmH2O;   // Dead space chamber pressure 
+
+// I HAVE BEEN UNABLE TO LOCATE A NICE SET OF 
+// INITIAL CONDITIONS. I'VE MADE A GUESS ABOUT
+// THESE PARAMETERS, BUT KNOW THAT THEY ARE FAR
+// OFF FROM WHAT SHOULD BE. -MK
+
+/*when (t=t.min) {
+   Vc = 0.08450262;
+   VA = 3.31833709;      
+   Vve = -0.03239636;
+   dV = Vcw;
+   Vcw = VA + Vc + VD;
+       = 3.31833709+0.08450262+0.185	
+=3.58783971	   
+PplcFOL = Pplc;
+//SINCE pplc is a variable with no initial value, set to 0
+   }*/
+
+when (t=t.min) {
+   Vc = 0.08450262;
+   VA = 3.31833709;      
+   Vve = -0.03239636;
+   dV = 3.58783971;
+   Vcw = 3.58783971;
+   PplcFOL = 0;
+   }
+
+realState tresp(t) sec;   // Time offset for respiratory cycle
+realState RespR(t) 1/min; // Respiratory rate (breaths/min)
+real RespRcont(t) 1/min;  // Continuous respiratory rate
+
+/*when(t=t.min){
+ tresp = t.min;
+ RespR = RespRcont;
+//resprcont is a variable, 1/120 is assigned to RespR
+}*/
+when(t=t.min){
+ tresp = 0;
+ RespR = 0.0083;
+}
+
+//Flows through the airways
+real Qdotsm(t) ml/sec; // Flow through small airways
+real Qdotco(t) ml/sec; // Flow through collapsible airways
+real Qdotup(t) ml/sec; // Flow through upper airways
+real Qdotve(t) ml/sec; // Flow through viscoelastic lung element Rve
+
+real Alvflux(t) ml/sec; // O2, CO2 flux between alveolus and pulmonary capillary
+
+
+
+//---------------------------------------------------------------------------------
+//  XIII.  VARIABLES OF    P E R I C A R D I U M 
+//---------------------------------------------------------------------------------
+
+real Ppcd(t) mmHg;         // Transmural pericardial pressure
+real Ppcdc(t) mmHg;        // Pericardial chamber pressure
+real Vpcd(t) ml;           // Total volume enclosed by pericardium
+
+
+
+//---------------------------------------------------------------------------------
+//  XIV.  VARIABLES OF    C O R O N A R Y   C I R C U L A T I O N 
+//---------------------------------------------------------------------------------
+
+real
+     Pcorisfc(t) mmHg,	// Myocardium interstitial fluid pressure 
+     Pcoraoc(t) mmHg,   // Proximal epicardial arteries chamber pressure
+     Pcoreac(t) mmHg,   // Distal epicardial arteries chamber pressure
+     Pcorlac(t) mmHg,   // Large coronary arteries chamber pressure
+     Pcorsac(t) mmHg,   // Small coronary arteries chamber pressure
+     Pcorcapc(t) mmHg,  // Coronary capillary chamber pressure
+     Pcorsvc(t) mmHg,   // Small coronary veins chamber pressure
+     Pcorlvc(t) mmHg,   // Large coronary veins chamber pressure 
+     Pcorevc(t) mmHg,   // Epicardial veins chamber pressure
+           
+     Pcorao(t) mmHg,    // Proximal epicardial arteries transmural pressure
+     Pcorea(t) mmHg,  	// Distal epicardial arteries transmural pressure	
+     Pcorla(t) mmHg,    // Large coronary arteries transmural pressure
+     Pcorsa(t) mmHg,    // Small coronary arteries transmural pressure
+     Pcorcap(t) mmHg,   // Coronary capillary transmural pressure
+     Pcorsv(t) mmHg,    // Small coronary veins transmural pressure
+     Pcorlv(t) mmHg,    // Large coronary veins transmural pressure
+     Pcorev(t) mmHg,    // Epicardial veins transmural pressure
+
+     Vcorao(t) ml,      // Proximal epicardial arteries volume
+     Vcorea(t) ml,      // Distal epicardial arteries volume
+     Vcorla(t) ml,      // Large coronary arteries volume
+     Vcorsa(t) ml,      // Small coronary arteries volume
+     Vcorcap(t) ml,     // Coronary capillaries volume
+     Vcorsv(t) ml,      // Small coronary veins volume
+     Vcorlv(t) ml,      // Large coronary veins volume
+     Vcorev(t) ml,      // Epicardial veins volume
+     Vcorcirc(t) ml;    // Volume of blood in coronary circulation
+
+real Fcorao(t) ml/sec,  // Proximal epicardial arteries flow
+     Fcorea(t) ml/sec,  // Distal epicardial arteries flow
+     Fcorla(t) ml/sec,  // Large coronary arteries flow
+     Fcorsa(t) ml/sec,  // Small coronary arteries flow
+     Fcorcap(t) ml/sec, // Coronary capillaries flow
+     Fcorsv(t) ml/sec,  // Small coronary veins flow
+     Fcorlv(t) ml/sec,  // Large coronary veins flow
+     Fcorev(t) ml/sec;  // Epicardial veins flow
+        
+// initial conditions
+	
+	when(t=t.min) {
+             Vcorao = 2.78065162;
+             Vcorea = 4.33042177; 
+             Vcorla = 5.00816694; 
+             Vcorsa = 4.24976769; 
+             Vcorcap = 8.87872279; 
+             Vcorsv = 7.63546466; 
+             Vcorlv = 8.04152522;
+             Vcorev = 8.59951524;
+             }
+
+
+
+//---------------------------------------------------------------------------------
+//  XV. EQUATIONS  OF   V A R Y I N G    E L A S T A N C E    H E A R T    M O D E L  
+//---------------------------------------------------------------------------------
+
+// MODIFICATION:REMOVED THE REFERENCE EQUATIONS, PARSER CONFUSES REFERENCE DECLERATIONS WITH SECTION HEADERS
+// Heldt (2002) elastance model
+//..................................................................................
+
+//event () {  // Heart rate and contractility update discretely
+
+event (t+t.delta>=(tshift+(1/HR))){
+     Tsv = TsvK*sqrt(1.0/HR/(1.0 ));
+     Tsa = TsaK*sqrt(1.0/HR/(1.0 ));
+     HR = HRcont;
+     tshift = t;
+     afs_con2 = afs_con;
+}
+
+/*event (ylv(t-t.delta)=0 and ylv>0){
+     EDPLV=Plvc(t-t.delta);
+     EDPRV=Prvc(t-t.delta);
+     EDVLV=Vlv(t-t.delta);  
+     EDVRV=Vrv(t-t.delta);
+}*/
+//MODIFIED state variable representation
+//MODIFIED THE COMPARISON from "=" to "=="
+//MODIFIED "and" to "&"
+event (ylv==0 & ylv>0){
+     EDPLV=Plvc;
+     EDPRV=Prvc;
+     EDVLV=Vlv;  
+     EDVRV=Vrv;
+}
+
+trela = t-tshift;
+trelv = t-tshift-PRint;
+
+//yla = (1.0 - cos(PI*trela/Tsa))/2.0;
+yla = if (0.0<=trela & trela<Tsa)
+         (1.0 - cos(PI*trela/Tsa))/2.0
+      else if (Tsa<=trela & trela<1.5*Tsa)
+         (1.0 + cos(2.0*PI*(trela-Tsa)/Tsa))/2.0
+      else
+         0.0;
+yra = yla;
+//ylv =          (1.0 - cos(PI*trelv/Tsv))/2.0;
+ylv = if (0.0<=trelv & trelv<Tsv)
+         (1.0 - cos(PI*trelv/Tsv))/2.0
+      else if (Tsv<=trelv & trelv<1.5*Tsv)
+         (1.0 + cos(2.0*PI*(trelv-Tsv)/Tsv))/2.0
+      else
+         0.0;
+yrv = ylv;
+//...............................................................................
+
+//P_QRSwave =  5;
+P_QRSwave = if(t>tshift & t<tshift + (0.02)) 5
+            else if(t>(tshift+PRint) & t<(tshift+PRint+(0.02))) 10
+            else 0;
+// RA
+Era = (Emaxra-Eminra)*yra+Eminra;  // Create elastance driver from activation fxn
+Vrar = (1-yra)*(Vrard-Vrars) + Vrars;
+
+// RV
+
+Erv = ((Emaxrv-Eminrv)*yrv) + Eminrv;  
+Vrvr = (1-yrv)*(Vrvrd-Vrvrs) + Vrvrs;
+
+// LA
+Ela = (Emaxla-Eminla)*yla + Eminla; // Create elastance driver from activation fxn
+Vlar = (1-yla)*(Vlard-Vlars) + Vlars;
+
+// LV	
+Elv = ((Emaxlv-Eminlv)*ylv) + Eminlv; // Create elastance driver from activation fxn
+Vlvr = (1-ylv)*(Vlvrd-Vlvrs) + Vlvrs;
+
+
+// Left Atrium, la, and its Contraction:
+Vla:t = (Fpv-Fla);
+
+//Fla = (Plac-Plvc)/Rla;  // Eq. C
+Fla = if (Plac>Plvc) (Plac-Plvc)/Rla  // Eq. C
+         else 0;
+      
+Pla = (Vla-Vlar)*Ela
+      - Px2*(1/(exp((Vla)/Vx8)-1)); // Eq. B,F
+Plac = Pla + Ppcdc;
+
+// Left Ventricle, lv, and its contraction
+Vlv:t = (Fla - Flv);  // Eq. A,D  Blood loss function here
+
+Flv = if (Plvc>Paopc) (Plvc-Paopc)/Rav  // Eq. C
+          else 0;  
+
+// Left ventricle pressure
+Plv = afs_con2*(Vlv-Vlvr)*Elv 
+        - Px2*(1/(exp((Vlv)/Vx8)-1));   // Contractility effects systolic elastance
+                                        // Eq. B,F         
+Plvc = Plv + Ppcdc;
+
+// Right atrium, ra, and its Contraction:
+Vra:t = (Fvc - Fra + Fcorev);  // Eq. A,D
+
+Fra = if(Prac>Prvc) (Prac-Prvc)/Rra     // Eq. C
+	     else 0;                    // Tricuspid valve closed
+Pra = (Vra-Vrar)*Era
+       - Px2*(1/(exp((Vra)/Vx8)-1)); // Eq. B,F
+
+Prac = Pra + Ppcdc;
+	
+// Right Ventricle, rv and its contraction:
+Vrv:t = (Fra - Frv); // Frv is pulm valve flow
+
+Frv = if(Prvc>Ppapc) (Prvc-Ppapc)/Rpuv  // Eq. C
+        else 0;                         // Pulm Valve closed
+
+Prv = afs_con2*(Vrv-Vrvr)*Erv         // Contractility effects systolic elastance
+      - Px2*(1/(exp(Vrv/Vx8)-1));     // Eq. B,F
+
+Prvc = Prv + Ppcdc;
+
+COutput:t = (Flv-COutput)/COtau; // Cardiac output 
+SV = COutput/HR;                 // Stroke volume
+
+
+
+//---------------------------------------------------------------------------------
+//  XVI. EQUATIONS OF    S Y S T E M I C    C I R C U L A T I O N
+//---------------------------------------------------------------------------------
+
+
+// Nonlinear resistances:
+Rsa = Rsao + (Kr*exp(4*F_vaso)) + (Kr*(Vsa_max/Vsa)^2);// Sys. arteries: Lu et al. Eq.(16)
+
+Rvc = (KR*(Vmax_vc/Vvc)^2) + Ro;                // Vena cava: Lu et al. Eq.(4)
+
+
+//modified:removed the unit
+//Paopc:t = (Flv-Vaop:t-Faop-Fcorao)*((1/Ccorao)+((Px2/(1ml))*exp(Vcorao/Vx1)/(exp(Vcorao/Vx1)-1)^2))
+//           + PplcFOL:t;
+
+Paopc:t = (Flv-Vaop:t-Faop-Fcorao)*((1/Ccorao)+((Px2/(1))*exp(Vcorao/Vx1)/(exp(Vcorao/Vx1)-1)^2))
+           + PplcFOL:t;
+
+Paop = Paopc - PplcFOL;
+
+MAP:t = (Psa-MAP)/COtau;
+
+// Pressures:
+Paodc = (Rtaod*Rcrb*Faop - Rtaod*Rcrb*Faod + (Vaod*Rcrb/Caod) - Rcrb*Px2/(exp(Vaod/Vx8)-1)
+        + Pvcc*Rtaod)/(Rcrb+Rtaod);  // Eq. B,C
+
+Paod = Paodc - Pbs;
+
+//modified: removed the unit
+//PaodFOL:t = (Paod-PaodFOL)/(0.0005sec);
+PaodFOL:t = (Paod-PaodFOL)/(0.0005);
+
+Psa_a = Kc*log( ((Vsa-Vsa_o)/Do) + 1 );                  // Lu et al. Eq. (13)
+Psa_p = Kp1*exp(tau_p*(Vsa-Vsa_o)) + Kp2*(Vsa-Vsa_o)^2;  // Lu et al. Eq. (14)
+Psa = F_vaso*Psa_a + (1-F_vaso)*Psa_p;                   // Lu et al. Eq. (15)
+//Psa = 0.5*Psa_a + 0.5*Psa_p; 
+
+Psap = Vsap/Csap - Px2*(1/(exp(Vsap/Vx8)-1));                                        // Eq. B
+
+Psc  = Vsc/Csc
+       - Px2*(1/(exp(Vsc/Vx8)-1)); // Eq. B
+Psv  = -Kv*log((Vmax_sv/Vsv)-0.99);                      // Lu et al. Eq. (1)
+
+Pvc = if (Vvc>Vo) D2+K2*exp(Vo/Vmin_vc)+K1*(Vvc-Vo) - Px2/(exp(Vvc/Vx8)-1)     // Lu et al. Eq. (2)    
+	else D2+K2*exp(Vvc/Vmin_vc) - Px2/(exp(Vvc/Vx8)-1);    // Lu et al. Eq. (3)
+	
+Pvcc = Pvc + Pplc;
+	
+// Flows:
+Fcrb = (Paodc-Pvcc)/Rcrb;                                // Eq. C
+Fsap = (Psap-Psa)/Rsap;                                  // Eq. C
+Fsa = (Psa-Psc)/Rsa;                                     // Eq. C
+Fsc = (Psc-Psv)/Rsc;                                     // Eq. C
+Fsv = (Psv-Pvcc)/Rsv;                                    // Eq. C	
+Fvc = (Pvcc-Prac)/Rvc;                                   // Eq. C
+	
+// Transmural flows:
+Vaop:t = (Paopc - (Vaop/Caop) + Px2*(1/(exp(Vaop/Vx8)-1)) 
+          - PplcFOL)/Rtaop;                              // Eq. D
+Vaod:t = Faop - Faod - Fcrb;                             // Eq. D 
+Vsap:t = Faod - Fsap;                                    // Eq. D
+Vsa:t = Fsap - Fsa;                                      // Eq. D
+Vsc:t = Fsa - Fsc;                                       // Eq. D
+Vsv:t = Fsc - Fsv;                                       // Eq. D
+Vvc:t = Fsv + Fcrb - Fvc;                                // Eq. D
+
+// Differential equations:
+Faop:t = (Paopc - Faop*Raop - Paodc) / Laop;             // Eq. E
+Faod:t = (Paodc - Faod*Raod - Psap) / Laod;              // Eq. E
+
+Vtot = Vra+Vrv+Vpap+Vpad+Vpa+Vpc+Vpv+Vla+Vlv+Vaop+Vaod
+       +Vsa+Vsap+Vsc+Vsv+Vvc+perifl+Vcorcirc; // Total fluid
+                                                   // in body                
+  
+VBcirc = Vtot-perifl;                             // Total blood in circulation
+
+SysArtVol = Vaop + Vaod + Vsa + Vsap;
+SysVenVol = Vsv + Vvc;
+PulArtVol = Vpap + Vpad + Vpa;
+PulVenVol = Vpv;
+
+
+
+//---------------------------------------------------------------------------------
+//  XVII. EQUATIONS OF     P U L M O N A R Y    C I R C U L A T I O N
+//---------------------------------------------------------------------------------
+
+Ppapc1 = (Rpuv*(Vpap/Ctpap) - Rpuv*(Px2*(1/(exp(Vpap/Vx8)-1))) + Prvc*Rtpap
+         - Rpuv*Rtpap*Fpap + Pplc*Rpuv)/(Rtpap+Rpuv);    // Eqs. B,C,D
+
+Ppapc2 = (Vpap/Ctpap + Pplc - Rtpap*Fpap - Px2*(1/(exp(Vpap/Vx8)-1))); // Eqs. B,C,D
+
+//MODIFIED: REMOVED THIS EQUATION, AS THERE IS ANOTHET EQUATION WITH SAME VARIABLE
+//Ppapc = Ppapc1;
+
+Ppap = Ppapc-Pplc;
+
+Ppadc = Vpad:t*Rtpad + Pplc + Vpad/Ctpad - Px2*(1/(exp(Vpad/Vx8)-1));
+Ppad = Ppadc-Pplc;
+
+Ppa = Vpa/Cpa                              // Eq. B
+      - Px2*(1/(exp(Vpa/Vx8)-1)); 
+Ppapc = if (Prvc>Ppapc1) Ppapc1 else Ppapc2;
+
+Ppc = Vpc/Cpc                              // Eq. B
+      - Px2*(1/(exp(Vpc/Vx8)-1)); 
+
+Ppcc = Ppc + Pplc;
+
+Ppv = Vpv/Cpv
+      - Px2*(1/(exp(Vpv/Vx8)-1));        // Eq. B 
+
+Ppvc = Ppv + Pplc;
+
+//Fpad = (Ppadc-Ppac)/Rpad;                                 
+Fps = (Ppac-Ppvc)/Rps;                     // Eq. C
+Fpa = (Ppac-Ppcc)/Rpa;                     // Eq. C
+Fpc = (Ppcc-Ppvc)/Rpc;                     // Eq. C
+Fpv = (Ppvc-Plac)/Rpv;                     // Eq. C
+                                    
+Vpap:t = Frv - Fpap;                        // Eq. D
+Vpad:t = Fpap - Fpad;                       // Eq. D
+Vpa:t = Fpad - Fps - Fpa;                   // Eq. D
+Vpc:t = Fpa - Fpc;                          // Eq. D
+Vpv:t = Fpc+Fps-Fpv;
+
+Fpap:t = (Ppapc - Ppadc - Fpap*Rpap)/Lpa;  // Eq. E
+Fpad:t = (Ppadc - Ppac - Fpad*Rpad)/Lpad;  // Eq. E
+
+
+
+//---------------------------------------------------------------------------------
+//  XVIII.  EQUATIONS OF     B A R O R E C E P T O R    M O D E L
+//---------------------------------------------------------------------------------
+
+Nbr:t = Nbr_t;
+
+/* 
+The governing equation for Nbr is adopted
+ from Spickler et al. (Kezdi and Geller, 1967).
+ Governing equation:
+
+ The general form of the equation determining
+ efferent responses to the baroreceptor:
+   T_x*(N_x:t) + N_x = K_x*Nbr(t-L_x)      // Lu et al. Eq. in CNS box of Fig 2
+  and 
+   F_x = a_x + b_x / (exp(tau_x*(N_x-No_x)) + 1.0), // Lu et al. Eq. (7)
+ where the subscript "x" denotes the pathway name.
+*/
+
+//MODIFIED THE EQUATION TO STANDARDIZE
+//(a2*a*(Nbr_t:t)) + ((a2+a)*Nbr_t) + Nbr = 
+//    (K*(Paod) + (a1*K*PaodFOL:t));   // Spickler et al. p. 34, also Lu et al. Eq. (6)
+
+
+Nbr_t:t   = ( (K*(Paod) + (a1*K*PaodFOL:t)) -  Nbr - ((a2+a)*Nbr_t))/(a2*a);   
+
+// Discharge frequency controlling heart rate (vagal pathway)
+
+//N_hrv:t = if (t.min+t>L_hrv) (-N_hrv + (K_hrv*Nbr(t-L_hrv)))/T_hrv
+//	else 0; 
+N_hrv:t = if (t.min+t>L_hrv) (-N_hrv + (K_hrv*Nbr))/T_hrv
+	else 0; 
+
+F_hrv = a_hrv + (b_hrv / (exp(tau_hrv*(N_hrv-No_hrv)) + 1.0)); 
+b_hrv = 1 - a_hrv;
+
+// Discharge frequency controlling heart rate (sympathetic)
+
+//N_hrs:t = if (t.min+t>L_hrs) (-N_hrs + (K_hrs*Nbr(t-L_hrs)))/T_hrs
+//	else 0;  
+N_hrs:t = if (t.min+t>L_hrs) (-N_hrs + (K_hrs*Nbr))/T_hrs
+	else 0;  
+
+
+F_hrs = a_hrs + (b_hrs / (exp(tau_hrs*(N_hrs-No_hrs)) + 1.0));
+b_hrs = 1 - a_hrs;
+
+// Discharge frequency controlling contractility of heart 
+
+//N_con:t = if (t.min+t>L_con) (-N_con + (K_con*Nbr(t-L_con)))/T_con
+//	else 0;  
+N_con:t = if (t.min+t>L_con) (-N_con + (K_con*Nbr))/T_con
+	else 0;  
+
+
+F_con = a_con + (b_con / (exp(tau_con*(N_con-No_con)) + 1.0)); 
+
+// Discharge frequency controlling vasomotor tone
+
+//N_vaso:t = if (t.min+t>L_vaso) (-N_vaso + (K_vaso*Nbr(t-L_vaso)))/T_vaso
+//	else 0; 
+N_vaso:t = if (t.min+t>L_vaso) (-N_vaso + (K_vaso*Nbr))/T_vaso
+	else 0; 
+
+
+b_vaso = 1- a_vaso;
+F_vaso = a_vaso + (b_vaso / (exp(tau_vaso*(N_vaso-No_vaso)) + 1.0)); 
+
+// Heart rate control
+HRcont = (h1 + (h2*F_hrs)-(h3*F_hrs^2)-(h4*F_hrv)+
+(h5*F_hrv^2)-(h6*F_hrv*F_hrs));       // Lu et al. Eq.  (8)
+
+// Contractility control
+afs_con = amin + (Ka*F_con);
+bfs_con = bmin + (Kb*F_con);
+
+
+
+//---------------------------------------------------------------------------------
+//  XIX.  EQUATIONS OF     A I R W A Y    M E C H A N I C S
+//---------------------------------------------------------------------------------
+
+// AIRWAY RESISTANCES AND COMPLIANCES COME FROM TABLE 2
+// IN THE MANUSCRIPT. THERE ARE SEVERAL MINOR CORRECTIONS
+// NOTED BELOW.
+
+
+//MODIFIED THIS SHOULD BELONG TO THE parameters SECTION
+//real Rco = 0 cmH2O*sec/L;
+
+// AIRWAYS RESISTANCES
+Rc = if (Vc>Vcmax) Kc_air + Rco
+     else Kc_air*(Vcmax/Vc)^2 + Rco;
+
+Rs = As * exp(Ks * (VA - RV)/(Vstar - RV)) + Bs;
+Ru = Au + Ku*abs(dV:t);
+
+dV:t = (Vcw-dV)/tau;  // Vcw follower
+
+// COMPLIANT RECOIL PRESSURES
+Pl = Al * exp(Kl * VA) + Bl;
+
+Pcw = (A*sin(2*PI*RespR*(t-tresp)) - B);
+
+Pc = if (Vc/Vcmax<0.5) Ac-Bc*(Vc/Vcmax - 0.7)^2
+       else Ac-Bc*(0.5 - 0.7)^2-Bcp*ln(Vcmax/Vc - 0.999);
+
+Ppl = Pcw;
+
+Pve = Vve/Cve;
+
+PplmmHg = Ppl;
+Pmouth = Pbs;
+
+Pplc = Ppl;
+
+//modified: removed the units
+//PplcFOL:t = (Pplc-PplcFOL)/(0.001sec);
+PplcFOL:t = (Pplc-PplcFOL)/(0.001);
+
+
+//RespRcont = (120^-1);
+//RespRcont = (1/120);
+RespRcont = if(C/(2*PI)>(1/120)) (1/120)
+                 else C/(2*PI); 
+
+// SIGN FOR Bc INVERTED FROM MANUSCRIPT
+// AND A LAST ELSE CONDITION (Vc/Vcmax < Vccrit) IGNORED
+
+Pcc = Pplc + Pc;  
+Ps = Pcc-PA;   // KVL around loop of Athanasiades model
+
+// UPPER AIRWAYS RESISTANCE DEPENDENT ON FLOW
+// I'VE PUT IN A Vcw FOLLOWER dV, THOUGH THIS
+// IS PROBABLY NOT NECESSARY IN THIS MODEL ANY
+// LONGER-- WE DO NOT HAVE A Vcw:t TERM
+// ON THE LHS OF ANY EQUATION.
+
+Vcw:t = VA:t + Vc:t; 
+
+// PRESSURE, RESISTANCE, FLOW RELATIONS
+//Flows through the airways
+Qdotco = (Pmouth-Pcc)/(Ru+Rc);
+
+Qdotup = Qdotco;
+Qdotve = Pve/Rve;
+Qdotsm = Ps/Rs;
+
+// Qdotsm-Alvflux-VA:t = 0;
+VA:t = Vve:t+Qdotve;
+Vc:t = Qdotco-Qdotsm;
+
+Alvflux = (Pstp*Tbody/((PA + (760 ))*Tstp))*(O2flux+CO2flux);  // accounts for
+
+// SOME SIMPLE CALCULATIONS TO FIND PRESSURES
+// WE WOULD NORMALLY LIKE TO REFERENCE FROM THE MANUSCRIPT
+PA = Ppl+Pve+Pl;    
+PD = Qdotup*Ru; 
+PDc = Qdotco*Rc + Pcc;
+Pup = Qdotup*(Ru+Rc);
+
+
+
+//---------------------------------------------------------------------------------
+//  XX.  EQUATIONS OF    P E R I C A R D I U M 
+//---------------------------------------------------------------------------------
+
+Ppcd = (K_pcd*exp((Vpcd-Vpcd_o)/phi_pcd)) - Px2*(1/(exp(Vpcd/Vx75)-1));  // Ppcd equation from Sun et al. 
+
+Ppcdc = Ppcd + Pplc;
+Vpcd = Vrv + Vra + Vlv + Vla + perifl + Vmyo + Vcorcirc;
+
+
+
+//---------------------------------------------------------------------------------
+//  XXI. EQUATIONS OF    C O R O N A R Y   C I R C U L A T I O N
+//---------------------------------------------------------------------------------
+
+Pcorisfc = abs((Plvc-Ppcdc)/2);  
+
+Fcorao = (Pcoraoc-Pcoreac)/Rcorao;
+Fcorea = (Pcoreac-Pcorlac)/Rcorea;    
+Fcorla = (Pcorlac-Pcorsac)/Rcorla;
+Fcorsa = (Pcorsac-Pcorcapc)/Rcorsa;
+Fcorcap = (Pcorcapc-Pcorsvc)/Rcorcap;
+Fcorsv = (Pcorsvc-Pcorlvc)/Rcorsv;
+Fcorlv = (Pcorlvc-Pcorevc)/Rcorlv;
+Fcorev = (Pcorevc-Prac)/Rcorev;
+
+Pcorao = Paop;
+Pcorea = Vcorea/Ccorea - Px1*(1/(exp(Vcorea/Vx1)-1)); 
+Pcorla = Vcorla/Ccorla - Px1*(1/(exp(Vcorla/Vx1)-1)); 
+Pcorsa = Vcorsa/Ccorsa - Px1*(1/(exp(Vcorsa/Vx1)-1)); 
+Pcorcap = Vcorcap/Ccorcap - Px1*(1/(exp(Vcorcap/Vx1)-1)); 
+Pcorsv = Vcorsv/Ccorsv - Px1*(1/(exp(Vcorsv/Vx1)-1)); 
+Pcorlv = Vcorlv/Ccorlv - Px1*(1/(exp(Vcorlv/Vx1)-1));
+Pcorev = Vcorev/Ccorev - Px2*(1/(exp(Vcorev/Vx8)-1)); 
+
+Pcoraoc = Paopc;
+Pcoreac = Pcorea + Ppcdc;
+Pcorlac = Pcorla + Pcorisfc;
+Pcorsac = Pcorsa + Pcorisfc;
+Pcorcapc = Pcorcap + Pcorisfc;
+Pcorsvc = Pcorsv + Ppcdc;
+Pcorlvc = Pcorlv + Ppcdc;
+Pcorevc = Pcorev + Ppcdc;
+
+// ODEs
+        Vcorao:t = Flv-Vaop:t-Faop-Fcorao;
+        Vcorea:t = Fcorao - Fcorea;
+        Vcorla:t = Fcorea - Fcorla;
+        Vcorsa:t = Fcorla - Fcorsa;
+        Vcorcap:t = Fcorsa - Fcorcap;
+        Vcorsv:t = Fcorcap - Fcorsv;
+        Vcorlv:t = Fcorsv - Fcorlv;
+        Vcorev:t = Fcorlv - Fcorev;
+
+Vcorcirc = Vcorao+Vcorea+Vcorla+Vcorsa+Vcorcap+Vcorsv+Vcorlv+Vcorev;
+}
+
+// e n d   o f   c o d e
+
+/*
+ASSUMPTIONS & LIMITATIONS:
+
+* Circulatory resistances constant, independant of volume (except
+   Vena cava and systemic arteries).
+* Blood viscosity constant, independent of vessel volume.
+* Vessel walls strictly elastic, not visco-elastic (except aorta and 
+   pulmonary artery.
+* Governing equation for baroreception based on experiments with 
+   dog carotid sinus only; proximal aortic pressure is used as the 
+   input for the baroreceptor's governing equation. 
+* We used a discrete heart rate and contractility function.
+   Without this function heartbeats get interrupted and become erratic.
+   Heartrate updates at the end of each cardiac cycle, and when the model
+   is stabilized, the point of update occurs during the troughs
+   of the dynamic heart rate and contractility waveforms. 
+* The total alveolar volume in the lung is respresented as one 
+   alveolus.
+* Pressure driving breathing is sinusoidal.
+* Volume of myocardium constant, doesn't change with contraction.
+* Intramyocardial pressure developed by contracting heart is [left
+  ventricle pressure minus pericardial pressure] divided by 2.
+* Gravitational effects are neglected
+
+
+COMMENTS:
+
+  Disparities between this model and model in source publications:
+
+    * No aortic valve resistance listed in Lu et al. (2001).  
+       We used a low valve resistance (tricuspid) for this parameter.
+       Note: Tricuspid resistance listed as "Rta" in Glossary of
+       publication is not listed in Table 4.
+
+    * Using the values listed in Table 5 of Lu et al. (2001), we
+       plotted Pvc vs. Vvc after running the syscirc model for several
+       cardiac cycles.  There was a discontinuity in this graph
+       when Vvc = Vo (Vena cava volume = unstressed Vena cava
+       volume).  The curve above Vo began at a lower value
+       than the end of the curve below Vo.  We therefore replaced the 
+       D1 parameter in the equation for distended Vena cava volume
+       with the expression for undistended Vena cava volume solved at 
+       Vo.
+
+    * Value of baroreceptor parameter "a" not given an explicit
+       value in either Lu et al. (2001) or Kezdi and Geller (1967).
+       A value of 0.001 is assumed as the default. 
+
+    * We ignore the 1/2 in the Lu et al. (2001) equation 10 because
+       the 1/2 does not appear in the Chung et al. (1997) ventricular
+       actiavtion function (equation A7).  
+
+    * Lu et al. (2001) use a previously published heart model (Chung
+       et al. 1997).  Their unstressed end-diastolic and end-systolic
+       ventricular (and possibly atrial) volumes are static parameters, 
+       while ours can vary with the contraction and relaxation of the heart
+       chambers. 
+
+    * Pulmonary capillary resistance is kept constant.  It varies with 
+       alveolar volume in Lu et al. (2001)
+
+
+PARAMETER AND VARIABLE GLOSSARY:
+
+P A R A M E T E R S:
+
+CODEWORD|SYMBOL|    NAME    |      UNITS       |          DESCRIPTION             
+--------------------------------------------------------------------------------------
+!  
+
+ a       delta t Time         sec                Time constant for baroreceptor firing
+                                                    rate 
+ A          P     Pressure    mmHg               Amplitude of Ppl driving function
+ a_con                        Dimensionless      Time constant for efferent
+                                                    contractility firing
+ a_hrs                        Dimensionless      Time constant for efferent sympathetic
+                                                    heart rate firing 
+ a_hrv                        Dimensionless      Time constant for efferent vagal
+                                                    firing 
+ a_vaso                       Dimensionless      Time constant for efferent vasomotor
+                                                    tone firing 
+ a1      delta t Time         sec                Time constant for baroreceptor firing
+                                                    rate
+ a2      delta t Time         sec                Time constant for baroreceptor firing
+                                                    rate
+ Ac        P     Pressure     cmH2O              Offset for collapsible airways recoil
+                                                    pressure
+ Al        P     Pressure     cmH2O              Lung recoil pressure scaling parameter
+ amin                         Dimensionless      Contractility control offset
+ Au        R     Resistance   cmH2O*sec/L        Offset for upper airways resistance
+ As        R     Resistance   cmH2O*sec/L        Small airways resistance scaling parameter
+ B         P     Pressure    mmHg                Negative offset of Ppl driving function
+ b_con                        Dimensionless      Time constant for efferent sympathetic
+                                                    contractility firing 
+ b_hrs                        Dimensionless      Time constant for efferent sympathetic
+                                                    heart rate firing 
+ b_hrv                        Dimensionless      Time constant for efferent vagal firing 
+ b_vaso                       Dimensionless      Time constant for efferent vasomotor
+                                                    tone firing 
+ Bc        P     Pressure     cmH2O              Collapsible airways recoil pressure
+                                                    scaling parameter  
+ Bcp       P     Pressure     cmH2O              Collapsible airways recoil pressure
+                                                    scaling parameter
+ Bl        P     Pressure     cmH20              Offset for lung recoil pressure 
+ Bs        R     Resistance   cmH2O*sec/L        Offset for small airways resistance
+ bmin                         Dimensionless      Contractility control offset
+ C               Frequency    hz                 Respiratory rate controller 
+ Caod            Compliance   ml*mmHg^(-1)       Aortic distal compliance
+ Caop            Compliance   ml*mmHg^(-1)       Aortic proximal compliance
+ Ccorao          Compliance   ml*mmHg^(-1)       Compliance of proximal epicardial arteries
+ Ccorcap         Compliance   ml*mmHg^(-1)       Compliance of coronary capillaries
+ Ccorea          Compliance   ml*mmHg^(-1)       Compliance of distal epicardial arteries
+ Ccorev          Compliance   ml*mmHg^(-1)       Compliance of epicardial veins
+ Ccorla          Compliance   ml*mmHg^(-1)       Compliance of large coronary arteries
+ Ccorlv          Compliance   ml*mmHg^(-1)       Compliance of large coronary veins
+ Ccorsa          Compliance   ml*mmHg^(-1)       Compliance of small coronary arteries
+ Ccorsv          Compliance   ml*mmHg^(-1)       Compliance of small coronary veins
+ CO2flux    J     Flux        ml*min^(-1)        CO2 flux from alveoli to pulmonary 
+                                                    capillaries
+ COtau   delta t Time         sec                Cardiac output equation time constant
+ Cpa             Compliance   ml*mmHg^(-1)       Pulmonary arterioles compliance
+ Cpc             Compliance   ml*mmHg^(-1)       Pulmonary capillaries compliance
+ Cpv             Compliance   ml*mmHg^(-1)       Pulmonary veins compliance
+ Csap            Compliance   ml*mmHg^(-1)       Proximal systemic arteries compliance
+ Csc             Compliance   ml*mmHg^(-1)       Systemic capillaries compliance
+ Ctpad           Compliance   ml*mmHg^(-1)       Distal pulmonary arterial compliance
+ Ctpap           Compliance   ml*mmHg^(-1)       Proximal pulmonary arterial compliance
+ Cve             Compliance   L*cmH2O^(-1)       Viscoelastic compliance of lung
+ D2        P	 Pressure     mmHg               Offsetting constant for partially 
+                                                    collapsed Vena cava pressure
+ Do        V	 Volume       ml                 Active vasomotor tone volume parameter
+                                                    for systemic arterial pressure
+ Emaxlv          Elastance    mmHg/ml            Maximum elastance of left ventricle
+ Emaxra          Elastance    mmHg*ml^(-1)       Maximum elastance of right atrium
+ Emaxrv          Elastance    mmHg/ml            Maximum elastance of right ventricle
+ Eminla          Elastance    mmHg*ml^(-1)       Minimum elastance of left atrium
+ Eminla          Elastance    mmHg*ml^(-1)       Minimum elastance of left atrium
+ Eminlv          Elastance    mmHg/ml            Minimum elastance of left ventricle
+ Eminra          Elastance    mmHg*ml^(-1)       Minimum elastance of right atrium
+ Eminrv          Elastance    mmHg/ml            Minimum elastance of right ventricle
+ Emaxla          Elastance    mmHg*ml^(-1)       Maximum elastance of left atrium
+ h1              Frequency    min^(-1)           Heart rate control offset parameter
+ h2              Frequency    min^(-1)           Heart rate control scaling parameter
+ h3              Frequency    min^(-1)           Heart rate control scaling parameter
+ h4              Frequency    min^(-1)           Heart rate control scaling parameter
+ h5              Frequency    min^(-1)           Heart rate control scaling parameter
+ h6              Frequency    min^(-1)           Heart rate control scaling parameter
+ K                            sec^(-1)*mmHg^(-1) Baroreceptor gain
+ K_con                        Dimensionless      CNS gain for contractility control 
+ K_hrs                        Dimensionless      CNS gain for sympathetic heart rate
+                                                    control 
+ K_hrv                        Dimensionless      CNS gain for vagal heart rate control
+ K_pcd     P     Pressure     mmHg               Scaling param. for pericardial P-V curve
+ K_vaso                       Dimensionless      CNS gain for vasomotor tone control 
+ K1                           mmHg*ml^(-1)       Scaling constant for pressure of
+                                                    unstressed and distended Vena cava 
+ K2        P	 Pressure     mmHg               Scaling constant for pressure of 
+                                                    partially collapsed Vena cava 
+ Ka                           Dimensionless      Contractility control scaling factor
+ Kb                           Dimensionless      Contractility control scaling factor
+ Kc        P	 Pressure     mmHg               Active vasomotor tone scaling parameter
+                                                    for systemic arterial pressure
+ Kc_air    R     Resistance   cmH2O*sec*L^(-1)   Collapsible airways resistance scaling
+                                                    parameter
+ Kl                           L^(-1)             Lung recoil pressure scaling parameter
+ Kp1       P	 Pressure     mmHg               Passive vasomotor tone scaling parameter
+                                                    for systemic arterial pressure
+ Kp2                          mmHg*ml^(-2)       Passive vasomotor tone scaling parameter
+                                                    for systemic arterial pressure
+ Kr        R	 Resistance   mmHg*sec*ml^(-1)   Pressure scaling constant for systemic
+                                                    arterial resistance
+ KR        R	 Resistance   mmHg*sec*ml^(-1)   Scaling factor for Vena cava resistance 
+ Ks                           Dimensionless      Small airways resistance scaling parameter
+ Ku                           cmH2O*sec^2*L^(-2) Upper airways resistance scaling parameter
+ Kv        P	 Pressure     mmHg               Scaling factor for systemic venous 
+                                                    pressure
+ L_con  delta t  Time         sec                CNS time delay for contractility control
+ L_hrs  delta t  Time         sec                CNS time delay for sympathetic heart
+                                                    rate control
+ L_hrv  delta t  Time         sec                CNS time delay for vagal heart rate
+                                                    control
+ L_vaso delta t  Time         sec                CNS time delay for vasomotor tone
+                                                    control 
+ Laod            Inertance    mmHg*sec^2*ml^(-1) Distal aorta inertance
+ Laop            Inertance    mmHg*sec^2*ml^(-1) Proximal aorta inertance
+ Lpa             Inertance    mmHg*sec^2*ml^(-1) Pulmonary arterial inertance
+ No_con          Frequency    sec^(-1)           Frequency parameter for efferent
+                                                    sympathetic contractility firing
+ No_hrs          Frequency    sec^(-1)           Frequency parameter for efferent
+                                                    sympathetic heart rate firing
+ No_hrv          Frequency    sec^(-1)           Frequency parameter for efferent vagal
+                                                    firing
+ No_vaso         Frequency    sec^(-1)           Frequency parameter for efferent
+                                                    vasomotor tone firing
+ O2flux    F     Flow         ml*min^(-1)        O2 flux from alveoli to pulmonary
+                                                    capillaries
+ Pbs       P     Pressure     mmHg               Reference pressure at body surface (ground)
+ perifl    V     Volume       ml                 Volume of pericardial fluid 
+ phi_pcd   V     Volume       ml                 Pericardial P-V curve parameter
+ PRint  delta t  Time	        sec                Difference in atrial and ventricular
+                                                    activation times
+ Pstp      P     Pressure     mmHg               Standard pressure
+ Px1       P     Pressure     mmHg               P-V curve shaping parameter (1 mmHg)
+ Px2       P     Pressure     mmHg               P-V curve shaping parameter (2 mmHg)
+ Raod      R	 Resistance   mmHg*sec*ml^(-1)   Distal aortic resistance
+ Raop      R	 Resistance   mmHg*sec*ml^(-1)   Proximal aortic resistance
+ Rav       R	 Resistance   mmHg*sec*ml^(-1)   Aortic valve resistance
+ Rcorao    R     Resistance   mmHg*sec*ml^(-1)   Proximal epicardial arteries resistance	
+ Rcorcap   R     Resistance   mmHg*sec*ml^(-1)   Coronary capillaries resistance
+ Rcorea    R     Resistance   mmHg*sec*ml^(-1)   Distal epicardial arteries resistance
+ Rcorev    R     Resistance   mmHg*sec*ml^(-1)   Epicardial veins resistance
+ Rcorla    R     Resistance   mmHg*sec*ml^(-1)   Large coronary arteries resistance
+ Rcorlv    R     Resistance   mmHg*sec*ml^(-1)   Large coronary veins resistance
+ Rcorsa    R     Resistance   mmHg*sec*ml^(-1)   Small coronary arteries resistance
+ Rcorsv    R     Resistance   mmHg*sec*ml^(-1)   Small coronary veins resistance
+ Rcrb      R	 Resistance   mmHg*sec*ml^(-1)   Cerebral circulation resistance
+ Rla       R     Resistance   mmHg*sec*ml^(-1)   Mitral valve resistance
+ Ro        R     Resistance   mmHg*sec*ml^(-1)   Vena cava resistance offset parameter
+ Rpa       R     Resistance   mmHg*sec*ml^(-1)   Pulmonary arterioles resistance
+ Rpad      R     Resistance   mmHg*sec*ml^(-1)   Distal proximal pulmonary resistance
+ Rpap      R     Resistance   mmHg*sec*ml^(-1)   Proximal pulmonary resistance
+ Rpc       R     Resistance   mmHg*sec*ml^(-1)   Pulmonary capillaries resistance
+ Rps       R     Resistance   mmHg*sec*ml^(-1)   Pulmonary shunt resistance
+ Rpuv      R     Resistance   mmHg*sec*ml^(-1)   Pulmonary valve resistance 
+ Rpv       R     Resistance   mmHg*sec*ml^(-1)   Pulmonary veins resistance
+ Rra       R     Resistance   mmHg*sec*ml^(-1)   Tricuspid valve resistance
+ Rsao      R     Resistance   mmHg*sec*ml^(-1)   Arteriolar resistance offset
+ Rsap      R     Resistance   mmHg*sec*ml^(-1)   Proximal systemic arteries resistance
+ Rsc       R     Resistance   mmHg*sec*ml^(-1)   Systemic capillaries resistance
+ Rsv       R     Resistance   mmHg*sec*ml^(-1)   Systemic veins resistance
+ Rtaod     R     Resistance   mmHg*sec*ml^(-1)   Transmural distal aortic resistance
+ Rtpap     R     Resistance   mmHg*sec*ml^(-1)   Proximal pulmonary arterial transmural
+                                                    resistance
+ RV        V     Volume       L                  Residual volume 
+ Rve       R     Resistance   cmH2O*sec*L^(-1)   Resistance of lung viscoelastance
+ T_con   delta t Time         sec                CNS time parameter for contractility
+                                                    control
+ T_hrs   delta t Time         sec                CNS time parameter for sympathetic
+                                                    heart rate control
+ T_hrv   delta t Time         sec                CNS time parameter for vagal heart
+                                                    rate control
+ T_vaso  delta t Time         sec                CNS time parameter for vasomotor tone
+                                                    control 
+ tau     delta t Time         sec                Time constant for chest wall volume
+                                                    follower
+ tau_con delta t Time         sec                Time parameter for efferent
+                                                    sympathetic contractility firing
+ tau_hrs delta t Time         sec                Time parameter for efferent
+                                                    sympathetic heart rate firing
+ tau_hrv delta t Time         sec                Time parameter for efferent vagal
+                                                    firing
+ tau_p                        ml^(-1)            Passive vasomotor tone constant for
+                                                    systemic arterial pressure 
+ tau_vaso delta t Time        sec                Time parameter for efferent
+                                                    vasomotor tone firing
+ Tbody     T     Temperature  degrees Kelvin     Body temperature
+ TsaK   delta t  Time         sec                Scaler to set ventricular systolic
+                                                    fraction of heart cycle
+ Tstp      T     Temperature  degrees Kelvin     Standard temperature
+ TsvK   delta t  Time         sec                Scaler to set atrial systolic
+                                                    fraction of heart cycle
+ Vcmax     V     Volume       L                  Collapsible airwyas resistance parameter
+ VD        V     Volume       L                  Lung dead space
+ Vlard     V     Volume       ml                 Unstressed end-diastolic left atrium
+                                                    volume
+ Vlars     V     Volume       ml                 Unstressed end-systolic left atrium 
+                                                    volume
+ Vlvrd     V     Volume       ml                 Unstressed end-diastolic left ventricle
+                                                    volume
+ Vlvrs     V     Volume       ml                 Unstressed end-systolic left ventricle 
+                                                    volume
+ Vmax_sv   V     Volume       ml                 Maximal volume of lumped systemic
+                                                    veins
+ Vmax_vc   V     Volume       ml                 Maximum volume of Vena cava
+ Vmin_vc   V     Volume       ml                 Mimimum volume of Vena cava
+ Vmyo      V     Volume       ml                 Volume of myocardium
+ Vo        V     Volume       ml                 Unstressed volume of Vena cava
+ Vpcd_o    V     Volume       ml                 Pericardial P-V curve parameter 
+ Vrard     V     Volume       ml                 Unstressed end-diastolic right ventricle
+                                                    volume
+ Vrars     V     Volume       ml                 Unstressed end-systolic right ventricle
+                                                    volume
+ Vrvrd     V     Volume       ml                 Unstressed end-diastolic right ventricle
+                                                    volume
+ Vrvrs     V     Volume       ml                 Unstressed end-systolic right ventricle
+                                                    volume
+ Vsa_max   V     Volume       ml                 Maximal luminal volume of systemic
+                                                    arteries
+ Vsa_o     V     Volume       ml                 Minimal volume of systemic arteries
+ Vstar     V     Volume       L                  Small airways resistance parameter
+ Vx1       V     Volume       ml                 P-V curve shaping parameter (1 ml)
+ Vx8       V     Volume       ml                 P-V curve shaping parameter (8 ml)
+-----------------------------------------------------------------------------------
+					
+V A R I A B L E S:
+
+ CODEWORD|SYMBOL|    NAME    |      UNITS       |          DESCRIPTION             
+-----------------------------------------------------------------------------------
+@
+ afs_con                      Dimensionless      Dynamic heart contractility scaling
+                                                    function
+ afs_con2                     Dimensionless      Discrete heart contractility scaling
+                                                    function
+ Alvflux    F     Flow        ml*sec^(-1)        O2, CO2 flux between alveolus and
+                                                    pulmonary capillary
+ bfs_con                      Dimensionless      Contractility variable to alter Lu et
+                                                    al. (2001) activation function
+ COutput    F     Flow        ml*sec^(-1)        Cardiac output
+ dV         V     Volume      L                  Chest wall volume follower
+ EDPLV      P     Pressure    mmHg               Left ventricle end-diastolic pressure
+ EDPRV      P     Pressure    mmHg               Right ventricle end-diastolic pressure
+ EDVLV      V     Volume      ml                 Left ventricle end-diastolic volume 
+ EDVRV      V     Volume      ml                 Right ventricle end-diastolic volume
+ Ela              Elastance	mmHg*ml^(-1)       Time-varying elastance of left atrium
+ Elv              Elastance	mmHg*ml^(-1)       Time-varying elastance of left ventricle
+ Emaxlv           Elastance   mmHg*ml^(-1)       Maximum elastance of left ventricle
+ Emaxrv           Elastance   mmHg*ml^(-1)       Maximum elastance of right ventricle
+ Eminlv           Elastance   mmHg*ml^(-1)       Minimum elastance of left ventricle
+ Eminrv           Elastance   mmHg*ml^(-1)       Minimum elastance of right ventricle
+ Era              Elastance	mmHg*ml^(-1)       Time-varying elastance of right atrium
+ Erv              Elastance	mmHg*ml^(-1)       Time-varying elastance of right ventricle
+ F_hrs                        Dimensionless      Normalized discharge rate for
+                                                    sympathetic heart rate control
+ F_hrv                        Dimensionless      Normalized vagal discharge rate
+ F_vaso                       Dimensionless      Normalized discharge rate for vasomotor
+                                                    control
+ Faod       F     Flow        ml*sec^(-1)        Distal aorta flow
+ Faop       F     Flow        L*min^(-1)         Proximal aorta flow
+ Fcorao     F     Flow        ml/sec             Proximal epicardial arteries flow
+ Fcorcap    F     Flow        ml/sec             Coronary capillaries flow
+ Fcorea     F     Flow        ml/sec             Distal epicardial arteries flow
+ Fcorev     F     Flow        ml/sec             Epicardial veins flow
+ Fcorla     F     Flow        ml/sec             Large coronary arteries flow
+ Fcorlv     F     Flow        ml/sec             Large coronary veins flow
+ Fcorsa     F     Flow        ml/sec             Small coronary arteries flow
+ Fcorsv     F     Flow        ml/sec             Small coronary veins flow
+ Fcrb       F     Flow        ml*sec^(-1)        Cerebral flow
+ Fla        F     Flow        ml*sec^(-1)        Flow across mitral valve
+ Flv        F     Flow        ml*sec^(-1)        Flow across aortic valve
+ Fpa        F     Flow        ml*sec^(-1)        Pulmonary arterioles flow
+ Fpad       F     Flow        ml*sec^(-1)        Distal pulmonary arterial flow
+ Fpap       F     Flow        L*min^(-1)         Proximal pulmonary arterial flow
+ Fpc        F     Flow        ml*sec^(-1)        Pulmonary capillaries flow
+ Fps        F     Flow        ml*sec^(-1)        Pulmonary shunt flow
+ Fpv        F     Flow        ml*sec^(-1)        Pulmonary veins flow
+ Fra        F     Flow        ml*sec^(-1)        Flow across tricuspid valve
+ Frv        F     Flow        ml*sec^(-1)        Flow across pulmonary valve
+ Fsa        F     Flow        ml*sec^(-1)        Systemic arteries flow
+ Fsap       F     Flow        ml*sec^(-1)        Proximal systemic arteries flow
+ Fsc        F     Flow        ml*sec^(-1)        Systemic capillaries flow
+ fs_con                       Dimensionless      Normalized discharge rate for
+                                                    contractility control
+ Fsv        F     Flow        ml*sec^(-1)        Systemic veins flow
+ Fvc        F     Flow        ml*sec^(-1)        Vena cava flow
+ HRcont           Frequency   min^(-1)           Dynamic heart rate
+ HR               Frequency   min^(-1)           Discrete heart rate function
+ MAP        P     Pressure    mmHg               Mean arterial pressure
+ N_con            Frequency   sec^(-1)           Sympathetic discharge rate at CNS for
+                                                    contractility
+ N_hrs            Frequency   sec^(-1)           Sympathetic discharge rate at CNS 
+                                                    controlling heart rate
+ N_hrv            Frequency   sec^(-1)           Vagal discharge rate at CNS controlling
+                                                    heart rate
+ N_vaso           Frequency   sec^(-1)           Sympathetic discharge rate at CNS
+                                                    controlling vasomotor tone
+ Nbr              Frequency   sec^(-1)           Instantaneous firing frequency of
+                                                    baroreceptor
+ Nbr_t                        sec^(-2)           Time derivative of baroreceptor firing
+                                                    rate
+ P_QRSwave  E     Voltage     mV                 Non-driving ECG curve
+ PA         P     Pressure    cmH2O              Alveolar pressure
+ Paod       P     Pressure    mmHg               Distal aorta transmural pressure
+ Paodc      P     Pressure    mmHg               Distal aorta chamber pressure
+ PaodFOL    P     Pressure    mmHg               Paod follower
+ Paop       P     Pressure    mmHg               Proximal aorta transmural pressure
+ Paopc      P     Pressure    mmHg               Proximal aorta chamber pressure
+ Pc         P     Pressure    cmH2O              Collapsible airways transmural pressure
+ Pcc        P     Pressure    cmH2O              Collapsible airways chamber pressure
+ Pcorao     P     Pressure    mmHg               Proximal epicardial arteries transmural pressure
+ Pcoraoc    P     Pressure    mmHg               Proximal epicardial arteries chamber pressure
+ Pcorcap    P     Pressure    mmHg               Coronary capillary transmural pressure
+ Pcorcapc   P     Pressure    mmHg               Coronary capillary chamber pressure
+ Pcorea     P     Pressure    mmHg               Distal epicardial arteries transmural pressure	
+ Pcoreac    P     Pressure    mmHg               Distal epicardial arteries chamber pressure
+ Pcorev     P     Pressure    mmHg               Epicardial veins transmural pressure
+ Pcorevc    P     Pressure    mmHg               Epicardial veins chamber pressure
+ Pcorisfc   P     Pressure    mmHg	         Myocardium interstitial fluid pressure 
+ Pcorla     P     Pressure    mmHg               Large coronary arteries transmural pressure
+ Pcorlac    P     Pressure    mmHg               Large coronary arteries chamber pressure
+ Pcorlv     P     Pressure    mmHg               Large coronary veins transmural pressure
+ Pcorlvc    P     Pressure    mmHg               Large coronary veins chamber pressure 
+ Pcorsa     P     Pressure    mmHg               Small coronary arteries transmural pressure
+ Pcorsac    P     Pressure    mmHg               Small coronary arteries chamber pressure
+ Pcorsv     P     Pressure    mmHg               Small coronary veins transmural pressure
+ Pcorsvc    P     Pressure    mmHg               Small coronary veins chamber pressure
+ Pcw        P     Pressure    cmH2O              Transmural pressure across chest wall 
+ PD         P     Pressure    cmH2O              Total rigid dead space pressure
+ phi                          Dimensionless      Phase shift of discrete heart rate function
+ Pl         P     Pressure    cmH2O              Lung recoil pressure
+ Pla        P     Pressure    mmHg               Left atrial transmural pressure
+ Plac       P     Pressure    mmHg               Left atrial chamber pressure
+ Plv        P     Pressure    mmHg               Left ventricular transmural pressure
+ Plvc       P     Pressure    mmHg               Left ventricular chamber pressure
+ Pmouth     P     Pressure    cmH2O              Air pressure at mouth
+ Ppa        P     Pressure    mmHg               Pulmonary arterioles transmural pressure
+ Ppac       P     Pressure    mmHg               Pulmonary arterioles chamber pressure
+ Ppad       P     Pressure    mmHg               Distal pulmonary arterial pressure
+ Ppap       P     Pressure    mmHg               Proximal pulmonary arterial transmural pressure
+ Ppapc      P     Pressure    mmHg               Proximal pulmonary chamber arterial pressure
+ Ppapc1     P     Pressure    mmHg               Proximal pulmonary artery chamber pressure
+                                                   (systolic)
+ Ppapc2     P     Pressure    mmHg               Proximal pulmonary artery chamber pressure 
+                                                   (diastolic)
+ Ppc        P     Pressure    mmHg               Pulmonary capillaries transmural pressure
+ Ppcc       P     Pressure    mmHg               Pulmonary capillaries chamber pressure
+ Ppcd       P     Pressure    mmHg               Transmural pericardial pressure
+ Ppcdc      P     Pressure    mmHg               Pericardial chamber pressure
+ Ppl        P     Pressure    cmH2O              Transmural pleural pressure
+ Pplc       P     Pressure    cmH2O              Pleural chamber pressure
+ PplcFOL    P     Pressure    cmH2O              Pleural chamber pressure follower
+ PplmmHg    P     Pressure    mmHg               Transmural pleural pressure in mmHg
+ Ppv        P     Pressure    mmHg               Pulmonary veins transmural pressure
+ Ppvc       P     Pressure    mmHg               Pulmonary veins chamber pressure
+ Pra        P     Pressure    mmHg               Right atrial transmural pressure
+ Prac       P     Pressure    mmHg               Right atrial chamber pressure
+ Prv        P     Pressure    mmHg               Right ventricular transmural pressure
+ Prvc       P     Pressure    mmHg               Right ventricular chamber pressure
+ Ps         P     Pressure    cmH2O              Pressure across small airways resistance
+ Psa        P     Pressure    mmHg               Systemic arterial pressure
+ Psa_a      P     Pressure    mmHg               Active systemic arterial pressure component
+ Psa_p      P     Pressure    mmHg               Passive systemic arterial pressure component
+ Psap       P     Pressure    mmHg               Proximal systemic arteries pressure
+ Psc        P     Pressure    mmHg               Systemic capillaries pressure
+ Psv        P     Pressure    mmHg               Systemic veins pressure
+ PulArtVol  V     Volume      ml                 Pulmonary arterial volume
+ PulVenVol  V     Volume      ml                 Pulmonary venous volume
+ Pup        P     Pressure    cmH2O              Pressure across upper and collapsible airways
+ Pvc        P     Pressure    mmHg               Vena cava transmural pressure
+ Pvc        P     Pressure    mmHg               Vena cava chamber pressure
+ Pve        P     Pressure    cmH2O              Viscoelastic lung pressure
+ Qdotsm     F     Flow        ml*s^(-1)          Flow through small airways
+ Qdotco     F     Flow        ml*s^(-1)          Flow through collapsible airways
+ Qdotup     F     Flow        ml*s^(-1)          Flow through upper airways
+ Qdotve     F     Flow        ml*s^(-1)          Flow through viscoelastic pleural element
+ Rc         R     Resistance  cmH2O*sec*L^(-1)   Collapsible airways resistance
+ RespR            Frequency    min^(-1)          Discrete breathing frequency (breaths/min)
+ RespRcont        Frequency    min^(-1)          Continuous breathing frequency (breaths/min)
+ Rs         R     Resistance  cmH2O*sec*L^(-1)   Small airways resistance
+ Rsa        R     Resistance  mmHg*sec*ml^(-1)   Resistance of systemic arteries 
+ Ru         R     Resistance  cmH2O*sec*L^(-1)   Upper airways resistance
+ Rvc        R     Resistance  mmHg*sec*ml^(-1)   Resistance of Vena cava 
+ SV         V     Volume      ml                 Stroke volume
+ SysArtVol  V     Volume      ml                 Systemic arterial volume
+ SysVenVol  V     Volume      ml                 Systemic venous volume
+ trela   delta t  Time        sec                Time from start of atrial contraction cycle
+ trelv   delta t  Time        sec                Time from start of ventricular contraction cycle
+ tresp   delta t  Time        sec                Time shift for respiratory cycle
+ tshift  delta t  Time        sec                Time shift of discrete heart rate function
+ VA         V     Volume      L                  Alveolar volume
+ Vaod       V     Volume      ml                 Distal aorta volume
+ Vaop       V     Volume      ml                 Proximal aorta volume
+ VBcirc     V     Volume      ml                 Total blood in circulation
+ Vc         V     Volume      L                  Volume of collapsible airways
+ Vcorao     V     Volume      ml                 Proximal epicardial arteries volume
+ Vcorcap    V     Volume      ml                 Coronary capillaries volume
+ Vcorcirc   V     Volume      ml                 Volume of blood in coronary circulation
+ Vcorea     V     Volume      ml                 Distal epicardial arteries volume
+ Vcorev     V     Volume      ml                 Epicardial veins volume
+ Vcorla     V     Volume      ml                 Large coronary arteries volume
+ Vcorlv     V     Volume      ml                 Large coronary veins volume
+ Vcorsa     V     Volume      ml                 Small coronary arteries volume
+ Vcorsv     V     Volume      ml                 Small coronary veins volume
+ Vcw        V     Volume      L                  Chest wall volume
+ Vla        V     Volume      ml                 Volume of left atrium
+ Vlar       V     Volume      ml                 Unstressed left atrial volume
+ Vlv        V     Volume      ml                 Volume of left ventricle
+ Vlvr       V     Volume      ml                 Unstressed left ventricular volume
+ Vpa        V     Volume      ml                 Pulmonary arterioles volume
+ Vpad       V     Volume      ml                 Distal pulmonary arterial volume
+ Vpap       V     Volume      ml                 Proximal pulmonary arterial volume
+ Vpc        V     Volume      ml                 Pulmonary capillaries volume
+ Vpcd       V     Volume      ml                 Total volume enclosed by pericardium
+ Vpv        V     Volume      ml                 Pulmonary veins volume
+ Vra        V     Volume      ml                 Volume of right atrium
+ Vrar       V     Volume      ml                 Unstressed right atrial volume
+ Vrv        V     Volume      ml                 Volume of right ventricle
+ Vrvr       V     Volume      ml                 Unstressed right ventricular volume
+ Vsa        V     Volume      ml                 Systemic arteries volume
+ Vsap       V     Volume      ml                 Proximal systemic arteries volume
+ Vsc        V     Volume      ml                 Systemic capillaries volume
+ Vsv        V     Volume      ml                 Systemic veins volume
+ Vtot       V     Volume      ml                 Total fluid volume in body
+ Vvc        V     Volume      ml                 Vena cava volume
+ Vve        V     Volume      L                  Lung viscoelastic volume
+ yla                          Dimensionless      Left atrial activation function
+ ylv                          Dimensionless      Left ventricular activation function
+ yra                          Dimensionless      Right atrial activation function
+ yrv                          Dimensionless      Right ventricular activation function
+-----------------------------------------------------------------------------------
+
+
+SCHEMATICS
+
+ 1) Circulation:	
+
+                                          Fps 
+                                           |       Rps
+                             Lpad          :         \
+                             |       0----->-------^^^^^-------------0
+                             |       |                               |
+                             |       |           Fpa             Fpc | Ppvc
+                             |   Ppac|     Rpa    |   Ppcc Rpc    |  | /
+                             :      \|      \     :   /      \    :  |/
+                     0-----CCCCC-->--0-----^^^^^-->--0-----^^^^^-->--0------------0 
+                     |           /   |               |               |            |
+                     |       Fpad  ----- Cpa,      ----- Cpc,      ----- Cpv,     |
+                     >             ----- Vpa       ----- Vpc       ----- Vpv      |
+             Ctpad,  > - Rpad        |               |               |            |
+              Vpad   >               v - Fpa         v - Fpc         v - Fpv      |
+         Rtaod   \   |              /             /             /           >
+    /      \     ||  |                                                            > - Rpv 
+    /--<--^^^^^--||--0 - Ppadc                                                    >
+    /  :         ||  |                                                            |     
+       |             ^ - Fpap                                                     |   
+       |             |                                                            |     
+                     C                                                            v - Fpv
+     Vpad:t    Lpa - C                                                            |      
+                     C                                                            | 
+                     |                                                            |  
+                     |                                                            | 
+                     0                                                            |  
+                     |                                                            |  
+                     |                                                            /    
+                     >                                   -------------------------      
+             Ctvap,  > - Rpap                           /                                 
+              Vpap   >                                  |                              
+        Rtpap    \   |                                  |                               
+     /     \     ||  |                                  |                             
+     /-<--^^^^^--||--0 - Ppapc                          |                           
+     / :         ||  |                                  |                          
+       |             ^ - Frv                            |                         
+       |             |                                  |                        
+     Vpap:t          >                                  |                       
+                     > - Rpuv                           |                      
+                     >                                  |                     
+                     |                                  |                    
+                     |  Pulmonary valve                 |                   
+                     _ /                     Ela,       |                  
+                     ^        Erv, Vrv       Vla        |                 
+                     |       /                   \      |   
+                   /---\   ||                    ||   /---\
+             Prvc- | P |---VE---------o----------VE---| P | - Plac        
+                   \---/   ||         |          ||   \---/      
+                     |               /                  |  
+                     |              /                   |        
+                     |             /                    |        
+   Tricuspid   Rra   |     Ppcdc  /    Pplc (see below) |        o - PplcFOL
+     valve \      \  |         \ / ||   /               |        | 
+           -->|-^^^^^-          o--||--o  ---^^^^^-|<----        < 
+           |                   /   ||     |    \     \           < 
+           |                  /           |    Rla    Mitral     < 
+           |                 /            |           valve      |
+           |                /             |                    ----- - Caop
+           |       Era,    /              |                    -----
+           |       Vra    /     Elv   Plvc|          Rav  Paopc  |   Raop
+           |      /       |    Vlv \    \ |           |       \  |    |
+         /---\   ||       |        ||   /---\         :        \ |    :
+   Prac- | P |---VE-------o--------VE---| P |--->|--^^^^^--------0--^^^^^--0
+         \---/   ||                ||   \---/  /                 |         |
+           |                                  /                  |         |
+           |                            Aortic valve             |         |   
+           |                     ----                            |         v - Faop
+           0--------------------|    |---------------------------0         |
+           |                   / ----                                      |
+           |    Coronary circulation (below)                               C
+           |                                                        Laop - C 
+           |                                                               C   Caod
+           |                                                         Paodc |   /   Rtaod   Pplc
+           |                     Rcrb          Fcrb                       \|  ||    /       /     
+           |                /---^^^^^-----------<------------------------- 0--||--^^^^^-->-o
+           |               /                                               |  ||        /  
+           |              /                                                |       Vaod:t    
+           |             /                                                 >
+           >            /                                                  > - Raod
+           > - Rvc     /                                                   >
+           >          /                                                    |
+           |         /                                                     |
+           |        /                                                      0
+           |       /                                                       |
+           |      /                                                        |
+           |     /                                                         C
+           |    /         Psv             Psc             Psa              C - Laod
+           |   / Rsv       |     Rsc       |    Rsa        |     Rsap      C
+           |  /   |        |      |        |      |        |      |        |
+     Fvc - ^ /    |  Fsv   |      |  Fsc   |      |  Fsa   |      |        v - Faod
+           |/     :    \   :      :    \   :      :    \   :      :        |
+     Pvcc- 0----^^^^^---<--0----^^^^^---<--0----^^^^^---<--0----^^^^^---<--0 - Psap
+           |               |               |               |          Fsap |
+         -----           ----- Csv,      ----- Csc,      ----- Csa,      ----- Vsap
+         ----- Vvc       ----- Vsv       ----- Vsc       ----- Vsa       ----- 
+           |               |               |               |               |
+           v - Vvc:t       v - Vsv:t       v - Vsc:t       v - Vsa:t       v - Vsap:t
+           |              ///             ///             ///             ///
+           o - Pplc
+
+ 2) Airway mechanics (reproduced from Athanasiades (2000) fig. 1B.)
+
+                    /       
+          _  o------/ (atm)                                    o 
+         |   |      /                                          |   
+         |   |                                               / |  
+        PD   >                                              /  |   
+         |   > Ru                                          /   |    
+         |   >                                            /    |    
+         |   |  PDc                                      /     |
+         |   v /                                        /      |
+          _  o  -----------------------PD--------------/       |
+         |   |                                                 |   
+(Pmouth-Pcc  |                                                 |   
+  -PD)   |   >                                                 |      
+         |   > Rc                                              |    
+         |   >        Vc                                       | 
+         |   |  /---- / ------Pc----------\                    |
+         |   v       ||                                        |
+          _  o-------||--------<------------o                  | 
+         |   | \    +||-                    |                  | 
+         |   |  Pcc                         |                  | 
+        Ps   >                              |                /---\   /
+         |   > Rs                           o----------------| P |---/ (atm)
+         |   >                  Rve         |                \---/   /  
+         |   |             o---^^^^^->-o    |                / |
+         |   v      +||-   |           |    |         Ppl=Pplc |
+          _  o--->---||----o           o----o                  o
+             |\      ||    |     ||    |                         
+            _| PA    /     o-----||-->-o     
+           v       VA            || 
+         / |  \---Pl------/      /               Ppl is the driver
+   Alvflux |                  Cve, Vve
+           |                \----Pve---/
+           |
+           o - Partial pressure of gases in downstream pulmonary cap 
+
+ Coronary circulation:
+
+             /---\
+        Prac | P |
+             \---/                                   
+               |                                   
+               >                                   
+    Vcorev     > Rcorev                       Vcorao, Ccorao              
+          \    >                               /     Paopc     Faop
+          ||   |                              ||    /          / 
+      ----||---o  Pcorevc            Pplc o---||---o---------->--(to systemic circ)
+      |   ||   |                              ||   |
+      |        >                                   >
+      |        > Rcorlv              Fcorao,Rcorao >      Vcorea, Ccorea
+      |        >                                   >     /
+      |   ||   |                                   |   ||
+      ----||---o Pcorlvc                   Pcoreac o---||---- 
+      |   ||   |                                   |   ||   |
+      |   /    >                                   >        |
+      | Vcorlv > Rcorsv                     Rcorea >        |
+      |        >                                   > Pcorlac|
+      |        |         Pcorcapc    Pcorsac       | /      |
+      |Pcorsvc o-<-^^^^^---o-<-^^^^^---o-<-^^^^^---o        |
+      |        |   Rcorcap |   Rcorsa  |   Rcorla  | Vcorla | 
+      |       ===         ===         ===         ===       |
+      |        | Vcorsv    | Vcorcap   | Vcorsa    |        |  
+      ---------------------------O---------------------------
+                                / 
+                             Pcorisf        
+
+ LEGEND:            
+
+ C                            ^                            || 
+ C or CCCCC = Inertance      < > = direction of flow       || or ----- or      = Compliance
+ C                            v                            ||    -----    ===
+ 
+                             >                         /
+ 0 = Junction       ^^^^^ or > = Resistance     / or / = Ground
+                             >                         /
+
+              _                          ||                        /---\
+  >| or |< or ^ = diode (1-way valve)    VE = Varying elastance    | P | = Pressure driver
+                                         ||                        \---/
+
+ : = indicates a labeling arrow, not a path of flow
+
+
+ PUBLISHED PARAMETER VALUES
+
+ This is a record of the original parameter
+ values from the literature.  If the model is
+ run with these values, it will likely crash.
+
+  Vlvrd = 30
+  Vlvrs = 10
+  Vrvrd = 30
+  Vrvrs = 10
+  Vlard = 30
+  Vlars = 10
+  Vrard = 30
+  Vrars = 10
+  Rra = 0.05
+  Rla = 0.01
+  PRint = 0.05
+  Emaxlv = 2.5
+  Eminlv = 0.06
+  Emaxrv = 1.2
+  Eminrv = 0.04
+  Emaxra = 1.2
+  Eminra = 0.06
+  Emaxla = 1.2
+  Eminla = 0.06
+  y0 = 0
+  ya0 = 0
+  Rav = 0.015
+  Raop = 0.005
+  Rcrb = 10
+  Raod = 0.015
+  Rtaod = 0.0125
+  Rsap = N/A
+  Rsc = 0.6
+  Rsv = 0.17
+  Caop = 1.6
+  Caod = 0.2
+  Csap = N/A
+  Csc = 0.2
+  Laop = 0.01226
+  Laod = 0.0017
+  Kc = 1000
+  Do = 50
+  Vsa_o = 210
+  Vsa_max = 250
+  Kp1 = 0.03
+  Kp2 = 0.2
+  Kr = 0.04
+  tau_p = 0.1
+  Kv = 40
+  Vmax_sv = 3500
+  D2 = -5
+  K1 = 0.15
+  K2 = 0.4
+  KR = 0.001
+  Ro = 0.025
+  Vo = 130
+  Vmax_vc = 350
+  Vmin_vc = 50
+  Rpuv = 0.015
+  Rtpap = 0.02
+  Rpap = 0.002
+  Rpad = 0.005
+  Rps = 4.5
+  Rpa = 0.005
+  Rpc = 0.008
+  Rpv = 0.008
+  Ctpap = 0.8
+  Ctpad = 0.05
+  Cpa = 0.5
+  Cpc = 1
+  Cpv = 4
+  Lpa = 1.8E-4
+  a = 0.001
+  a1 = 0.036
+  a2 = 0.0018
+    K = 1
+    K_hrv = 0.8
+    T_hrv = 1.8
+    L_hrv = 0.2
+    a_hrv = 0
+    b_hrv = 1
+    tau_hrv = -0.04
+    No_hrv = 110
+    K_hrs = 1
+    T_hrs = 10
+    L_hrs = 3
+    a_hrs = 0.3
+    b_hrs = 0.7
+    tau_hrs = 0.09
+    No_hrs = 100
+    K_con = 1
+    T_con = 10
+    L_con = 3
+    a_con = 0.3
+    b_con = 0.7
+    tau_con = 0.04
+    No_con = 110
+    K_vaso = 1
+    T_vaso = 6
+    L_vaso = 3
+    a_vaso = 0.3
+    b_vaso = 0.7
+    tau_vaso = 0.04
+    No_vaso = 110
+    h1 = 35
+    h2 = 140
+    h3 = 40
+    h4 = 32
+    h5 = 10
+    h6 = 20
+    amin = -2
+    bmin = 0.7
+    Ka = 5
+    Kb = 0.5
+    FRC = 3.9
+    VT = 0.5
+    RV = 1.65
+    TLC = 5.55
+    VD = 0.185
+    RespR = 12
+    Ac = 7.09
+    Al = 0.2
+    As = 2.2
+    Au = 0.34
+    Bc = 37.3
+    Bcp = 3.73
+    Bl = -0.5
+    Bs = 0.02
+    Cve = 0.5
+    Kc_air = 0.21
+    Kl = 1
+    Ks = -10.9
+    Ku = 0.46
+    Rve = 1
+    Vstar = 5.3
+    Vcmax = 0.185
+    tau = 0.1
+    Tbody = 300
+    Pstp = 760
+    Tstp = 273
+    K_pcd = 1
+    phi_pcd = 40
+    Vpcd_o = 380
+    Vra__init = 90
+    Vrv__init = 130
+    Vla__init = 90
+    Vlv__init = 130
+    Faop__init = 75.3
+    Faod__init = 70.6
+    Vaop__init = 100
+    Vaod__init = 200
+    Vsa__init = 225
+    Vsap__init = N/A
+    Vsc__init = 300
+    Vsv__init = 3000
+    Vvc__init = 240
+    Vpap__init = 18
+    Vpad__init = 35
+    Vpa__init = 75
+    Vpc__init = 110
+    Vpv__init = 200
+    Fpap__init = 67.5
+    Nbr__init = 175
+    Nbr_t__init = 0
+    N_hrv__init = 75
+    N_hrs__init = 90
+    N_con__init = 90
+    N_vaso__init = 90
+    Vc__init = 0.15
+    VA__init = 1.8
+    Vve__init = 0.001
+  
+
+ REFERENCES:
+
+ Athanasiades A, Ghorbel F, Clark JW, Niranjan SC, Olansen J,
+ Zwischenberger JB, Bidani A.  Energy analysis of a nonlinear
+ model of the normal human lung.  Journal of Biological 
+ Systems. 8(2): 115-139, 2000.
+
+ Brandenburg, Robert O. Cardiology: fundamentals and practice.
+ Yearbook medical publishers, 1987. p. 49.
+
+ Chung DC, Niranjan SC, Clark Jr. JW, Bidani A, Johnston WE,
+ Zwischenberger JB, Traber DL. A dynamic model of ventricular
+ interaction and pericardial influence.  Am J Phsiol Heart 
+ Circ Physiol. 272: H2942-H2962, 1997.
+
+ Golden JF, Clark JW, Stevens PM. Mathematical Modeling of 
+ Pulmonary Airway Dynamics.  IEEE Transactions on Biomedical 
+ Engineering. 20(6): 397-404, 1973.
+ 
+ Heldt T, Shim EB, Kamm RD, Mark RG. Computational modeling of
+ cardiovascular response to orthostatic stress.  Journal of 
+ Applied Physiology. 92: 1239-1254, 2002.
+
+ Kezdi P, and Geller E. Transfer characteristics of the
+ carotid sinus pressure control system. In: Baroreceptors and
+ Hypertension, Kezdi, P. (ed.) Pergamon, Dayton, OH, 1967,
+ pp. 31-40.
+
+ Liu CH, Niranjan SC, Clark JW, San KY, Zwischenberger JB,
+ Bidani A.  Airway mechanics, gas exchange, and blood flow
+ in a nonlinear model of the normal human lung.  Journal of 
+ Applied Physiology. 84(4): 1447-1469.
+
+ Lu K, Clark JW, Ghorbel FH, Ware DL, Bidani A.
+ A human cardiopulmonary system model applied to the analysis
+ of the Valsalva maneuver.  Am J Physiol Heart Circ Physiol.
+ 281: H2661-H2679, 2001. 
+
+ Rideout VC. Mathematical computer modeling of physiological
+ systems. Englewood Cliffs, NJ: Prentice Hall, 1991, 261 pp.
+
+ Sun Y, Beshara M, Lucariello RJ, Chiaramida SA.  A 
+ comprehensive model for right-left heart interaction under the
+ influence of pericardium and baroreflex.  Am J Physiol Heart
+ Circ Physiol. 272: H1499-H1515, 1997.
+
+ Zinemanas D, Beyar R, Sideman S.  Relating mechanics, blood
+ flow and mass transport in the cardiac muscle.  Int. J. Heat 
+ Mass Transfer.  37(suppl. 1) 191-205, 1994.
+*/

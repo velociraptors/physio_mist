@@ -1,0 +1,213 @@
+/*
+Title: Meal Simulation Model of the Glucose-Insulin System
+Paper source:	Meal Simulation Model of the Glucose-Insulin System,
+		IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING, VOL. 54, NO. 10, OCTOBER 2007
+		Chiara Dalla Man, Robert A. Rizza, and Claudio Cobelli
+Model Details:  Glucose Model
+		Insulin Model
+		Unit Process Models
+*/
+
+
+//-----------------------------------------------------------------------------------
+//  I. PARAMETERS  OF    G L U C O S E  M O D E L    
+//-----------------------------------------------------------------------------------
+real	k1 = 0.065 min^-1;	//rate parameter
+	k2 = 0.079 min^-1;	//rate parameter
+	VG = 1.88  dl/kg;	//distribution volume of glucose
+
+	D= 1000 mg;		//Amount of glucose ingested (the meal containing 1+-0.02 g/kg)
+	BW = 78 kg;		//Body weight
+
+//-----------------------------------------------------------------------------------
+//  I. PARAMETERS  OF    I N S U L I N  M O D E L    
+//-----------------------------------------------------------------------------------
+real	VI = 0.05 l/kg;		//distribution volume of insulin
+	m_1 = 0.190 min^-1;	//rate parameter
+	m_2 = 0.484 min^-1;	//rate parameter
+	m_4 = 0.194 min^-1;	//rate parameter
+	m_5 = 0.190 min*kg/pmol;//rate parameter
+	m_6 = 0.6471 dimensionless;//rate parameter
+	HE_b = 0.6 dimensionless; //Hepatic extraction of insulin at basal state
+	G_b  = 90 mg/dl;	//plasma glucose concentration in  basal state-Estimated by E.Zeynep Erson from the graphs-basal state is just before the meal
+
+	I_b = 28 pmol/l;		//Plasma insulin concentration in basal state- Estimated by E.Zeynep Erson from the graphs-basal state is just before the meal
+	I_pb = 40g;			//I made up these figures!!!Check back!!Insulin mass in plasma in basal state-Estimated from the graphs-basal state is just before the meal
+	I_lb = 20g;			//I made up these figures!!!Check back!!Insulin mass in liver in basal state-Estimated by E.Zeynep Erson from the graphs-basal state is just before the meal
+	EGP_b = 1.88 min^-1*mg/kg; 	//Endogenous glucose production in basal state-Estimated by E.Zeynep Erson from the graphs-basal state is just before the meal
+
+//-----------------------------------------------------------------------------------
+//  I. PARAMETERS  OF    U N I T  P R O C E S S  M O D E L    
+//-----------------------------------------------------------------------------------
+
+//Rate of appearance parameters
+real	k_max = 0.0558 min^-1;
+	k_min = 0.0080 min^-1;
+	k_abs = 0.057 min^-1;   //rate constant of intestinal absorption
+	k_gri = 0.0558 min^-1;	//rate of grinding
+	f = 0.90 dimensionless;
+	a = 0.00013 mg^-1;
+	b = 0.82 dimensionless;
+	c = 0.00236 mg^1-;
+	d = 0.010 dimensionless;
+	k_empt = 0.180 min^-1;	//rate constant of gastric emptying 
+				//NOTE: THIS parameter IS FROM REF[17],Model1 parameter 
+				//and change be a variable as in REF[17],.EQ.8
+
+//min^-1*mg/kg*kg*pmol^-1;
+//Endogenous production parameters
+	k_p1 = 2.70 min^-1*mg/kg;	//extrapolated EGP at zero glucose and insulin
+	k_p2 = 0.0021 min^-1;		//liver glucose effectiveness
+	k_p4 = 0.0618 min^-1;	//amplitude of portal insulin action on liver
+	k_p3 = 0.009 min^-1;	//amplitude of insulin action on liver
+	k_i = 0.0079 min^-1;		//rate parameter for delay between insulin signal and insulin action
+
+//Utilization parameters
+	F_cns = 1 min^-1*mg/kg;		//glucos uptake by brain and erythrocytes
+	V_m0 = 2.50 min^-1*mg/kg;	//
+	V_mx = 0.047  min^-1*mg/kg*l*pmol^-1;
+	K_m0 = 225.59 mg/kg;
+	P_2U = 0.0331 min^-1;		//rate constant of insulin action on the peripheral glucose utilization
+	K_mx = 0 mg*kg^-1*l*pmol^-1;	//this parameter value and unit is extracted from the text, collapses to zero.
+
+//Secretion
+	K = 2.30 pmol/kg*dl*mg^-1; //pancreatic responsivity to the glucose rate of change
+	alpha = 0.050 min^-1;	   //delay betwen glucose signal and insulin secretion
+	beta = 0.11 min^-1*pmol/kg*dl*mg^-1; //pancreatic responsivity to glucose
+	gamma = 0.5 min^-1;	//transfer rate constant between portal vein and liver
+	h = 90 mg/dl;		//threshold level of glucose above which the beta-cells initiate to produce new insulin
+				//set to the same value as G_b, Estimated by E.Zeynep Erson from the graphs-basal state is just before the meal
+//Renal Excretion
+	k_e1 = 0.0005 min^-1; //glomerular filtration rate 
+	k_e2 = 339 mg/kg;     //reanal threshold of glucose
+
+
+
+//-----------------------------------------------------------------------------------
+//  I. VARIABLES  OF    G L U C O S E  M O D E L    
+//-----------------------------------------------------------------------------------
+real	G_p(t) mg/kg;	//glucose mass in plasma and rapidly equilibrating tissues
+	G_t(t) mg/kg;	//glucose mass in slowly equilibrating tissues
+	G(t)   mg/dl;	//plasma glucose concentration		
+
+//Initial Conditions
+when (t=t.min){	
+	G_p = Gpb;
+	G_t = Gtb;
+	G   = Gb;
+        }
+
+//-----------------------------------------------------------------------------------
+//  I. VARIABLES  OF    I N S U L I N  M O D E L    
+//-----------------------------------------------------------------------------------
+real	I_p(t) pmol/kg;	//insilin mass in plasma
+	I_l(t) pmol/kg;	//insulin mass in liver
+	I(t) pmol/l;	//plasma insulin concentration
+
+	HE(t) dimensionless; //Hepatic extraction
+	m_3(t) min^-1;	//
+	S_b(t) min^-1*pmol/kg;		//insulin secretion at basal state
+
+
+
+//Initial Conditions
+when (t=t.min){	
+	I_l = I_lb;
+	I_p = I_pb;
+	I = I_b;	
+	}	
+//-----------------------------------------------------------------------------------
+//  I. VARIABLES  OF    U N I T  P R O C E S S  M O D E L    
+//-----------------------------------------------------------------------------------
+
+real	EGP(t) min^-1*mg/kg;	//endogenous glucose production
+	I_1(t) pmol/l;		//compartment 1 of for the delayed insulin signal realized with a chain of two compartments 
+	I_d(t) pmol/l;		//delayed insulin signal realized with a chain of two compartments 
+	Q_sto(t) mg;		//amount of glucose in stomach
+	Q_sto_1(t) mg;		//solid phase of glucose in stomach
+	Q_sto_2(t) mg;		//liquid phase of glucose in stomach
+	Q_gut(t) mg;		//glucose mass in the intestine
+	Ra(t) min^-1*mg/kg;	//glucose rate of appearance in plasma
+	U_ii(t) min^-1*mg/kg;	//insulin independent utilization
+	U_id(t) min^-1*mg/kg;	//insulin dependent utilization
+	V_m(t) min^-1*mg/kg;
+	K_m(t) mg/kg;
+	X(t) pmol/l;		//insulin in the interstitial fluid
+	U(t) min^-1*mg/kg;	//total glucose utilization
+	S(t) min^-1*pmol/kg;	//insulin secretion
+	I_po(t) pmol/kg;	//amount of insulin in the portal vein
+	S_po(t) min^-1*pmol/kg;	//pancreatic insulin secretion
+	E(t) min^-1*mg/kg;	//renal excretion
+	Y(t) min^-1*pmol/kg;
+
+//Initial Conditions
+when (t=t.min){	
+	I_1 = I_b;
+	I_d = I_b;
+	Q_sto_1 = 0;
+	Q_sto_2 = 0;
+	Q_gut = 0;
+	Ra = 0;
+	X = 0;
+	I_po = I_pob;
+	Y = 0;
+	}
+
+//-----------------------------------------------------------------------------------
+//  I. EQUATIONS  OF    G L U C O S E  M O D E L    
+//-----------------------------------------------------------------------------------
+
+
+G_p:t = EGP + Ra -U_ii-E-k1*G_p+k2*G_t;  //Eq.(1) on p.1741
+G_t:t = -U_id + k1*G_p -k2*G_t;		//Eq.(1) on p.1741
+G = G_p/VG;			       //Eq.(1) on p.1741
+
+//-----------------------------------------------------------------------------------
+//  I. EQUATIONS  OF    I N S U L I N  M O D E L    
+//-----------------------------------------------------------------------------------
+
+I_l:t = -(m_1+m_3)*I_l+m_2*I_p+S;	//Eq.(3) on p.1742
+I_p:t = -(m_2+m_4)*I_p+m_1*I_l;		//Eq.(3) on p.1742
+I = I_p/VI;				//Eq.(3) on p.1742
+
+HE = -m_5*S+m_6;			//Eq.(4) on p.1743
+m_3 = (HE*m_1)/(1-HE);			//Eq.(5) on p.1743
+S_b = m_3*I_lb+m_4*I_pb;		//Eq.(8) on p.1743	 
+
+
+//-----------------------------------------------------------------------------------
+//  I. EQUATIONS  OF    U N I T  P R O C E S S  M O D E L    
+//-----------------------------------------------------------------------------------
+
+EGP = k_p1-k_p2*G_p-k_p3*I_d-k_p4*I_po;	//Eq.(10) on p.1744
+I_1:t = -k_i *(I_1 - I);	//Eq.(11) on p.1744
+I_d:t = -k_i*(I_d - I_1);	//Eq.(11) on p.1744
+
+Q_sto = Q_sto_1 + Q_sto_2;		//Eq.(13) on p.1744
+Q_sto_1:t = -k_gri*Q_sto_1+D*d;		//Eq.(13) on p.1744
+Q_sto_2:t = -k_empt*Q_sto_2+k_gri*Q_sto_1;	//Eq.(13) on p.1744
+Q_gut = -k_abs*Q_gut+k_empt*Q_sto_2;	//Eq.(13) on p.1744
+Ra = (f*k_abs*Q_gut)/BW;		//Eq.(13) on p.1744
+
+U_ii = F_cns;				//Eq.(14) on p.1745
+U_id = (V_m*G_t)/(K_m+G_t);		//Eq.(15) on p.1745
+
+V_m = V_m0 + V_mx*X;			//Eq.(16) on p.1745
+K_m = K_m0 + K_mx*X;			//Eq.(17) on p.1745
+X:t = -P_2U*X+P_2U*(I-I_b);		//Eq.(18) on p.1745
+U = U_ii + U_id;			//Eq.(19) on p.1745
+
+S = gamma*I_po;				//Eq.(23) on p.1745
+I_po:t = -gamma*I_po+S_po;		//Eq.(24) on p.1745
+S_po = if (G:t > 0) Y+K*G:t+S_b
+       else Y+S_b ;			//Eq.(25) on p.1745
+
+Y:t = if(beta*(G-h)>=-S_b) -alpha*(Y-beta*(G-h))
+      else -alpha*Y-alpha*S_b;		//Eq.(26) on p.1745	
+
+E = if (G_p > k_e2) k_e1*(G_p - k_e2)
+     else 0;				//Eq.(27) on p.1745
+
+/*
+Comment block
+*/

@@ -1,0 +1,42 @@
+/*!
+
+\file model_schema.h
+    \brief XML schema to represent models
+    Generated from model_schema.xsd
+    See \ref modelschema for more info
+    For use with XmlSerializer (not implemented)
+
+\file model_schema.xsd
+    \brief See \ref modelschema for more info
+
+\class HumanGUI::model_schema
+    \brief Base class: System::Data::DataSet
+
+\class HumanGUI::model_schema::modelDataTable
+    \brief asdf
+    
+\class HumanGUI::model_schema::variableDataTable
+    \brief asdf
+    
+\class HumanGUI::model_schema::anatomical_structureDataTable
+    \brief asdf
+    
+\class HumanGUI::model_schema::modelRow
+    \brief asdf
+    
+\class HumanGUI::model_schema::variableRow
+    \brief asdf
+    
+\class HumanGUI::model_schema::anatomical_structureRow
+    \brief asdf
+    
+\class HumanGUI::model_schema::modelRowChangeEvent
+    \brief asdf
+    
+\class HumanGUI::model_schema::variableRowChangeEvent
+    \brief asdf
+    
+\class HumanGUI::model_schema::anatomical_structureRowChangeEvent
+    \brief asdf
+
+*/

@@ -1,0 +1,2927 @@
+([Z-disc] of  Region+of+myofibril
+
+	(FMAID "62375")
+	(part+of Sarcomere)
+	(Preferred+name [fm-live_13355])
+	(regional+part+of Sarcomere)
+	(Synonym
+		[fm-live_13356]
+		[fm-live_13362]))
+
+([Z-disc+protein] of  Scaffold+protein
+
+	(FMAID "62378")
+	(Preferred+name [fm-live_13374]))
+
+([Z-nin] of  Z-disc+protein
+
+	(FMAID "67932")
+	(Preferred+name [fm-live_13376]))
+
+([Zeugmatin] of  Z-disc+protein
+
+	(FMAID "67934")
+	(Preferred+name [fm-live_13380]))
+
+([Zona+arcuata+of+basilar+membrane+of+cochlea] of  Acellular+membrane
+
+	(dimension 3-dimension)
+	(FMAID "75709")
+	(Preferred+name [FM_live_09357]))
+
+([Zona+arcuata+of+basilar+membrane+of+left+cochlea] of  Zona+arcuata+of+basilar+membrane+of+cochlea
+
+	(dimension 3-dimension)
+	(FMAID "75712")
+	(Preferred+name [FM_live_09363]))
+
+([Zona+arcuata+of+basilar+membrane+of+right+cochlea] of  Zona+arcuata+of+basilar+membrane+of+cochlea
+
+	(dimension 3-dimension)
+	(FMAID "75711")
+	(Preferred+name [FM_live_09361]))
+
+([Zona+fasciculata+of+adrenal+gland] of  Region+of+adrenal+cortex
+
+	(FMAID "69234")
+	(part
+		Type+II+cell+of+adrenal+cortex
+		Chromaffin+cell+of+adrenal+cortex
+		Adrenal+cortical+sinusoid
+		Long+cortical+artery+of+adrenal+gland
+		Short+cortical+artery+of+adrenal+gland
+		Areolar+connective+tissue)
+	(part+of Adrenal+cortex)
+	(Preferred+name [FM_live_02830])
+	(regional+part
+		Type+II+cell+of+adrenal+cortex
+		Chromaffin+cell+of+adrenal+cortex
+		Adrenal+cortical+sinusoid
+		Long+cortical+artery+of+adrenal+gland
+		Short+cortical+artery+of+adrenal+gland
+		Areolar+connective+tissue)
+	(regional+part+of Adrenal+cortex)
+	(Synonym
+		[FM_live_02834]
+		[FM_live_02953]))
+
+([Zona+fasciculata+of+left+adrenal+gland] of  Zona+fasciculata+of+adrenal+gland
+
+	(FMAID "69238")
+	(part+of Left+adrenal+cortex)
+	(Preferred+name [FM_live_02839])
+	(regional+part+of Left+adrenal+cortex)
+	(Synonym [FM_live_02958]))
+
+([Zona+fasciculata+of+right+adrenal+gland] of  Zona+fasciculata+of+adrenal+gland
+
+	(FMAID "69237")
+	(part+of Right+adrenal+cortex)
+	(Preferred+name [FM_live_02837])
+	(regional+part+of Right+adrenal+cortex)
+	(Synonym [FM_live_02957]))
+
+([Zona+glomerulosa+of+adrenal+gland] of  Region+of+adrenal+cortex
+
+	(FMAID "69225")
+	(Non-English+equivalent [ONARD_Instance_580637])
+	(part
+		Type+I+cell+of+adrenal+cortex
+		Chromaffin+cell+of+adrenal+cortex
+		Basement+membrane
+		Subcapsular+arterial+plexus+of+adrenal+gland
+		Long+cortical+artery+of+adrenal+gland
+		Short+cortical+artery+of+adrenal+gland
+		Areolar+connective+tissue)
+	(part+of Adrenal+cortex)
+	(Preferred+name [FM_live_02809])
+	(regional+part
+		Type+I+cell+of+adrenal+cortex
+		Chromaffin+cell+of+adrenal+cortex
+		Basement+membrane
+		Subcapsular+arterial+plexus+of+adrenal+gland
+		Long+cortical+artery+of+adrenal+gland
+		Short+cortical+artery+of+adrenal+gland
+		Areolar+connective+tissue)
+	(regional+part+of Adrenal+cortex)
+	(Synonym
+		[FM_live_02831]
+		[FM_live_02952]))
+
+([Zona+glomerulosa+of+left+adrenal+gland] of  Zona+glomerulosa+of+adrenal+gland
+
+	(FMAID "69231")
+	(part+of Left+adrenal+cortex)
+	(Preferred+name [FM_live_02828])
+	(regional+part+of Left+adrenal+cortex)
+	(Synonym [FM_live_02956]))
+
+([Zona+glomerulosa+of+right+adrenal+gland] of  Zona+glomerulosa+of+adrenal+gland
+
+	(FMAID "69230")
+	(part+of Right+adrenal+cortex)
+	(Preferred+name [FM_live_02826])
+	(regional+part+of Right+adrenal+cortex)
+	(Synonym [FM_live_02955]))
+
+([Zona+incerta] of  Nucleus+of+brain
+
+	(FMAID "62038")
+	(part+of Subthalamus)
+	(Preferred+name [fm-live_15156])
+	(receives+input+from
+		Caudate+nucleus
+		Putamen)
+	(regional+part+of Subthalamus)
+	(sends+output+to
+		Caudate+nucleus
+		Putamen))
+
+([Zona+pectinata+of+basilar+membrane+of+cochlea] of  Acellular+membrane
+
+	(dimension 3-dimension)
+	(FMAID "75710")
+	(Preferred+name [FM_live_09359]))
+
+([Zona+pectinata+of+basilar+membrane+of+left+cochlea] of  Zona+pectinata+of+basilar+membrane+of+cochlea
+
+	(dimension 3-dimension)
+	(FMAID "75714")
+	(Preferred+name [FM_live_09367]))
+
+([Zona+pectinata+of+basilar+membrane+of+right+cochlea] of  Zona+pectinata+of+basilar+membrane+of+cochlea
+
+	(dimension 3-dimension)
+	(FMAID "75713")
+	(Preferred+name [FM_live_09365]))
+
+([Zona+pellucida] of  Acellular+anatomical+structure
+
+	(FMAID "18674")
+	(part+of
+		Primary+follicle+of+ovary
+		Tertiary+follicle+of+ovary)
+	(Preferred+name [KB_INSTANCE_23472])
+	(regional+part+of
+		Primary+follicle+of+ovary
+		Tertiary+follicle+of+ovary))
+
+([Zona+reticularis+of+adrenal+gland] of  Region+of+adrenal+cortex
+
+	(FMAID "69236")
+	(part
+		Type+III+cell+of+adrenal+cortex
+		Chromaffin+cell+of+adrenal+cortex
+		Adrenal+cortical+sinusoid
+		Long+cortical+artery+of+adrenal+gland
+		Capillary+plexus+of+adrenal+gland
+		Areolar+connective+tissue)
+	(part+of Adrenal+cortex)
+	(Preferred+name [FM_live_02833])
+	(regional+part
+		Type+III+cell+of+adrenal+cortex
+		Chromaffin+cell+of+adrenal+cortex
+		Adrenal+cortical+sinusoid
+		Long+cortical+artery+of+adrenal+gland
+		Capillary+plexus+of+adrenal+gland
+		Areolar+connective+tissue)
+	(regional+part+of Adrenal+cortex)
+	(Synonym
+		[FM_live_02835]
+		[FM_live_02954]))
+
+([Zona+reticularis+of+left+adrenal+gland] of  Zona+reticularis+of+adrenal+gland
+
+	(FMAID "69240")
+	(part+of Left+adrenal+cortex)
+	(Preferred+name [FM_live_02843])
+	(regional+part+of Left+adrenal+cortex)
+	(Synonym [FM_live_02960]))
+
+([Zona+reticularis+of+right+adrenal+gland] of  Zona+reticularis+of+adrenal+gland
+
+	(FMAID "69239")
+	(part+of Right+adrenal+cortex)
+	(Preferred+name [FM_live_02841])
+	(regional+part+of Right+adrenal+cortex)
+	(Synonym [FM_live_02959]))
+
+([Zona+spongiosa] of  Gray+matter+zone+of+spinal+cord
+
+	(FMAID "74022")
+	(part+of Spinal+cord)
+	(Preferred+name [live_incus_fm_11883])
+	(regional+part+of Spinal+cord))
+
+([Zonal+layer+of+left+superior+colliculus] of  Zonal+layer+of+superior+colliculus
+
+	(dimension 3-dimension)
+	(FMAID "73425")
+	(Preferred+name [live_incus_fm_10797]))
+
+([Zonal+layer+of+right+superior+colliculus] of  Zonal+layer+of+superior+colliculus
+
+	(dimension 3-dimension)
+	(FMAID "73424")
+	(Preferred+name [live_incus_fm_10795]))
+
+([Zonal+layer+of+superior+colliculus] of  Gray+matter+layer+of+superior+colliculus
+
+	(FMAID "72406")
+	(Non-English+equivalent
+		[su_incus_20649]
+		[su_incus_20650]
+		[su_incus_36014])
+	(part+of Superior+colliculus)
+	(Preferred+name [live_incus_fm_09231])
+	(regional+part+of Superior+colliculus)
+	(Synonym
+		[su_incus_20651]
+		[su_incus_28940]))
+
+([Zonal+subnucleus+of+spinal+nucleus+of+trigeminal+nerve] of  Subdivision+of+spinal+nucleus+of+trigeminal+nerve
+
+	(dimension 3-dimension)
+	(FMAID "83959")
+	(Non-English+equivalent [su_incus_36705])
+	(Preferred+name [live_incus_fm_12569]))
+
+([Zone+1+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+1)
+	(attributed+continuous+with
+		[N_fma_p2_Instance_90000]
+		[Nance+LIVE+FMA_Instance_20002]
+		[Nance+LIVE+FMA_Instance_20003])
+	(continuous+with
+		Zone+7+of+anterior+interventricular+branch+of+left+coronary+artery
+		Zone+2+of+anterior+interventricular+branch+of+left+coronary+artery
+		Zone+3+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies the basal anterior zone of myocardium of left ventricle and is continuous with zones 2, 3 and 7 of anterior interventricular branch of left coronary artery.")
+	(FMAID "86508")
+	(location [N_fma_p2_Instance_150003])
+	(part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Basal+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_90031])
+	(regional+part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Basal+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Synonym
+		[N_fma_p2_Instance_90032]
+		[ONARD_Instance_180003]))
+
+([Zone+10+of+circumflex+branch+of+left+coronary+artery] of  Zone+of+circumflex+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+10)
+	(attributed+continuous+with
+		[Nance+LIVE+FMA_Instance_30023]
+		[Nance+LIVE+FMA_Instance_30026]
+		[Nance+LIVE+FMA_Instance_30027])
+	(continuous+with
+		Zone+11+of+circumflex+branch+of+left+coronary+artery
+		Zone+4+of+circumflex+branch+of+left+coronary+artery
+		Zone+15+of+circumflex+branch+of+left+coronary+artery)
+	(definition "Zone of circumflex branch of left coronary artery which supplies the mid inferior zone of myocardium of left ventricle and is continuous with zones 4, 11 and 15 of circumflex branch of left coronary artery.")
+	(FMAID "86545")
+	(location [N_fma_p2_Instance_160014])
+	(part+of
+		Circumflex+branch+of+left+coronary+artery
+		Mid+zone+of+circumflex+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_90141])
+	(regional+part+of
+		Circumflex+branch+of+left+coronary+artery
+		Mid+zone+of+circumflex+branch+of+left+coronary+artery)
+	(Synonym [N_fma_p2_Instance_90142]))
+
+([Zone+11+of+circumflex+branch+of+left+coronary+artery] of  Zone+of+circumflex+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+11)
+	(attributed+continuous+with [N_fma_p2_Instance_160017])
+	(continuous+with Zone+10+of+circumflex+branch+of+left+coronary+artery)
+	(definition "Zone of circumflex branch of left coronary artery which supplies the mid inferolateral zone of myocardium of left ventricle and is continuous with zone 10 of circumflex branch of left coronary artery.")
+	(FMAID "86546")
+	(location [N_fma_p2_Instance_160021])
+	(part+of
+		Circumflex+branch+of+left+coronary+artery
+		Mid+zone+of+circumflex+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_90144])
+	(regional+part+of
+		Circumflex+branch+of+left+coronary+artery
+		Mid+zone+of+circumflex+branch+of+left+coronary+artery)
+	(Synonym [N_fma_p2_Instance_90145]))
+
+([Zone+12+of+left+marginal+artery] of  Zone+of+left+marginal+artery
+
+	(arterial+supply+of Myocardial+zone+12)
+	(attributed+continuous+with
+		[N_fma_p2_Instance_150160]
+		[N_fma_p2_Instance_150161]
+		[Nance+LIVE+FMA_Instance_80018])
+	(continuous+with
+		Zone+6+of+left+marginal+artery
+		Zone+18+of+left+marginal+artery
+		Zone+16+of+left+marginal+artery)
+	(definition "Zone of left marginal artery which supplies the mid anterolateral zone of myocardium of left ventricle and is continuous with zones 6 and 16 of left marginal artery.")
+	(FMAID "86534")
+	(location [N_fma_p2_Instance_150159])
+	(part+of Left+marginal+artery)
+	(Preferred+name [N_fma_p2_Instance_90109])
+	(regional+part+of Left+marginal+artery)
+	(Synonym
+		[N_fma_p2_Instance_90110]
+		[Nance+LIVE+FMA_Instance_70078]))
+
+([Zone+13+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of
+		Myocardial+zone+13a
+		Myocardial+zone+13)
+	(attributed+continuous+with
+		[N_fma_p2_Instance_150005]
+		[Nance+LIVE+FMA_Instance_30010]
+		[Nance+LIVE+FMA_Instance_30011])
+	(continuous+with
+		Zone+17+of+anterior+interventricular+branch+of+left+coronary+artery
+		Zone+7+of+anterior+interventricular+branch+of+left+coronary+artery
+		Zone+14+of+anterior+interventricular+branch+of+left+coronary+artery
+		Zone+14a+of+anterior+interventricular+branch+of+left+coronary+artery
+		Zone+15a+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies the apical anterior zone of myocardium of left ventricle and is continuous with zones 7, 14 and 17 of anterior interventricular branch of left coronary artery.")
+	(FMAID "86510")
+	(location [N_fma_p2_Instance_150006])
+	(part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Apical+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_90037])
+	(regional+part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Apical+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Synonym
+		[N_fma_p2_Instance_90038]
+		[ONARD_Instance_180006]))
+
+([Zone+13+of+left+diagonal+artery] of  Zone+of+left+diagonal+artery
+
+	(arterial+supply+of
+		Myocardial+zone+13a
+		Myocardial+zone+13)
+	(attributed+continuous+with [N_fma_p2_Instance_150055])
+	(continuous+with Zone+7+of+left+diagonal+artery)
+	(definition "Zone of left diagonal artery which supplies the apical anterior zone of myocardium of left ventricle and is continuous with zone 7 of left diagonal artery.")
+	(FMAID "86526")
+	(location [N_fma_p2_Instance_150058])
+	(part+of Left+diagonal+artery)
+	(Preferred+name [N_fma_p2_Instance_90085])
+	(regional+part+of Left+diagonal+artery)
+	(Synonym
+		[N_fma_p2_Instance_90086]
+		[Nance+LIVE+FMA_Instance_70075]))
+
+([Zone+13a+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of
+		Myocardial+zone+13a
+		Myocardial+zone+13)
+	(attributed+continuous+with
+		[Nance+LIVE+FMA_Instance_10003]
+		[Nance+LIVE+FMA_Instance_80014]
+		[Nance+LIVE+FMA_Instance_80015])
+	(continuous+with Zone+7+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies the apical anterior zone 2 of myocardium of left ventricle and is continuous with zone 7 of anterior interventricular branch of left coronary artery.")
+	(FMAID "87221")
+	(location [Nance+LIVE+FMA_Instance_60001])
+	(part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Apical+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [Nance+LIVE+FMA_Instance_10001])
+	(regional+part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Apical+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Synonym [Nance+LIVE+FMA_Instance_10002]))
+
+([Zone+13a+of+left+diagonal+artery] of  Zone+of+left+diagonal+artery
+
+	(arterial+supply+of Myocardial+zone+13a)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_20013])
+	(continuous+with Zone+7+of+left+diagonal+artery)
+	(definition "Zone of left diagonal artery which supplies the apical anterior zone 2 of myocardium of left ventricle and is continuous with zone 7 of left diagonal artery.")
+	(FMAID "87225")
+	(location [Nance+LIVE+FMA_Instance_80009])
+	(part+of Left+diagonal+artery)
+	(Preferred+name [Nance+LIVE+FMA_Instance_20011])
+	(regional+part+of Left+diagonal+artery)
+	(Synonym [Nance+LIVE+FMA_Instance_20012]))
+
+([Zone+14+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of
+		Myocardial+zone+14
+		Myocardial+zone+15a)
+	(attributed+continuous+with
+		[Nance+LIVE+FMA_Instance_30012]
+		[Nance+LIVE+FMA_Instance_80016]
+		[Nance+LIVE+FMA_Instance_80017])
+	(continuous+with
+		Zone+15+of+anterior+interventricular+branch+of+left+coronary+artery
+		Zone+16a+of+anterior+interventricular+branch+of+left+coronary+artery
+		Zone+13+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies the apical septal zone of myocardium of left ventricle and is continuous with zone 13 of anterior interventricular branch of left coronary artery.")
+	(FMAID "86513")
+	(location [N_fma_p2_Instance_150016])
+	(part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Apical+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_90046])
+	(regional+part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Apical+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Synonym
+		[N_fma_p2_Instance_90047]
+		[ONARD_Instance_190009]))
+
+([Zone+14a+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+14a)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_30014])
+	(continuous+with Zone+13+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies  the apical anteroseptal zone of myocardium of left ventricle and is continuous with zone 13 of anterior interventricular branch of left coronary artery.")
+	(FMAID "86514")
+	(location [N_fma_p2_Instance_150024])
+	(part+of Anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_90049])
+	(regional+part+of Anterior+interventricular+branch+of+left+coronary+artery)
+	(Synonym
+		[N_fma_p2_Instance_90050]
+		[ONARD_Instance_190010]))
+
+([Zone+15+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+15)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_0])
+	(continuous+with Zone+14+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies the apical inferior zone of myocardium of left ventricle and is continuous with zone 14 of anterior interventricular branch of left coronary artery.")
+	(FMAID "87222")
+	(location [Nance+LIVE+FMA_Instance_70003])
+	(part+of Anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [Nance+LIVE+FMA_Instance_20005])
+	(regional+part+of Anterior+interventricular+branch+of+left+coronary+artery)
+	(Synonym [Nance+LIVE+FMA_Instance_20006]))
+
+([Zone+15+of+circumflex+branch+of+left+coronary+artery] of  Zone+of+circumflex+branch+of+left+coronary+artery
+
+	(arterial+supply+of
+		Myocardial+zone+16a
+		Myocardial+zone+15)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_30025])
+	(continuous+with Zone+10+of+circumflex+branch+of+left+coronary+artery)
+	(definition "Zone of circumflex branch of left coronary artery which supplies the apical inferior zone of myocardium of left ventricle and is continuous with zone 10 of circumflex branch of left coronary artery.")
+	(FMAID "86547")
+	(location [N_fma_p2_Instance_160022])
+	(part+of Circumflex+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_90147])
+	(regional+part+of Circumflex+branch+of+left+coronary+artery)
+	(Synonym
+		[N_fma_p2_Instance_90148]
+		[Nance+LIVE+FMA_Instance_70010]))
+
+([Zone+15a+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+15a)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_30015])
+	(continuous+with Zone+13+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies the apical inferoseptal zone of myocardium of left ventricle and is continuous with zone 13 of anterior interventricular branch of left coronary artery.")
+	(FMAID "86515")
+	(location [N_fma_p2_Instance_150026])
+	(part+of Anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_90052])
+	(regional+part+of Anterior+interventricular+branch+of+left+coronary+artery)
+	(Synonym
+		[N_fma_p2_Instance_90053]
+		[ONARD_Instance_190011]))
+
+([Zone+16+of+left+marginal+artery] of  Zone+of+left+marginal+artery
+
+	(arterial+supply+of Myocardial+zone+16)
+	(attributed+continuous+with
+		[N_fma_p2_Instance_150163]
+		[Nance+LIVE+FMA_Instance_30017])
+	(continuous+with
+		Zone+12+of+left+marginal+artery
+		Zone+17+of+left+marginal+artery
+		Zone+20+of+left+marginal+artery)
+	(definition "Zone of left marginal artery which supplies the apical lateral zone of myocardium of left ventricle and is continuous with zones 12 and 17 of left marginal artery.")
+	(FMAID "86535")
+	(location [Nance+LIVE+FMA_Instance_80010])
+	(part+of Left+marginal+artery)
+	(Preferred+name [N_fma_p2_Instance_90112])
+	(regional+part+of Left+marginal+artery)
+	(Synonym
+		[N_fma_p2_Instance_90113]
+		[Nance+LIVE+FMA_Instance_70079]))
+
+([Zone+16a+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+16a)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_30001])
+	(continuous+with Zone+14+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies the apical inferior zone of myocardium of left ventricle and is continuous with zone 14 of anterior interventricular branch of left coronary artery.")
+	(FMAID "87223")
+	(location [Nance+LIVE+FMA_Instance_70004])
+	(part+of Anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [Nance+LIVE+FMA_Instance_20008])
+	(regional+part+of Anterior+interventricular+branch+of+left+coronary+artery)
+	(Synonym [Nance+LIVE+FMA_Instance_20009]))
+
+([Zone+17+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of
+		Myocardial+zone+17
+		Myocardial+zone+19
+		Myocardial+zone+20)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_30013])
+	(continuous+with Zone+13+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies the apex zone of myocardium of left ventricle and is continuous with zone 13 of anterior interventricular branch of left coronary artery.")
+	(FMAID "87229")
+	(location [Nance+LIVE+FMA_Instance_70002])
+	(part+of Anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [Nance+LIVE+FMA_Instance_20001])
+	(regional+part+of Anterior+interventricular+branch+of+left+coronary+artery))
+
+([Zone+17+of+left+marginal+artery] of  Zone+of+left+marginal+artery
+
+	(arterial+supply+of Myocardial+zone+17)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_30016])
+	(continuous+with Zone+16+of+left+marginal+artery)
+	(definition "Zone of left marginal artery which supplies the apex zone of myocardium of left ventricle and is continuous with zone 16 of left marginal artery.")
+	(FMAID "86530")
+	(location [N_fma_p2_Instance_150068])
+	(part+of Left+marginal+artery)
+	(Preferred+name [N_fma_p2_Instance_90097])
+	(regional+part+of Left+marginal+artery)
+	(Synonym
+		[N_fma_p2_Instance_90098]
+		[ONARD_Instance_200039]))
+
+([Zone+18+of+left+marginal+artery] of  Zone+of+left+marginal+artery
+
+	(arterial+supply+of Myocardial+zone+18)
+	(attributed+continuous+with
+		[N_fma_p2_Instance_150168]
+		[Nance+LIVE+FMA_Instance_40008])
+	(continuous+with
+		Zone+12+of+left+marginal+artery
+		Zone+19+of+left+marginal+artery)
+	(definition "Zone of left marginal artery which supplies the apical anterolateral zone of myocardium of left ventricle and is continuous with zone 19 of left marginal artery.")
+	(FMAID "86537")
+	(location [N_fma_p2_Instance_150170])
+	(part+of Left+marginal+artery)
+	(Preferred+name [N_fma_p2_Instance_90118])
+	(regional+part+of Left+marginal+artery)
+	(Synonym [N_fma_p2_Instance_90119]))
+
+([Zone+19+of+left+marginal+artery] of  Zone+of+left+marginal+artery
+
+	(arterial+supply+of Myocardial+zone+19)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_10008])
+	(continuous+with Zone+18+of+left+marginal+artery)
+	(definition "Zone of left marginal artery which supplies the anteroapical zone of myocardium of elft ventricle and is continuous with zone 18 of left marginala rtery.")
+	(FMAID "86531")
+	(location [N_fma_p2_Instance_150070])
+	(part+of Left+marginal+artery)
+	(Preferred+name [N_fma_p2_Instance_90100])
+	(regional+part+of Left+marginal+artery)
+	(Synonym [N_fma_p2_Instance_90101]))
+
+([Zone+2+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+2)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_20004])
+	(continuous+with
+		Zone+1+of+anterior+interventricular+branch+of+left+coronary+artery
+		Basal+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies the basal anteroseptal zone of myocardium of left ventricle and is continuous with zone 1 of anterior interventricular branch of left coronary artery.")
+	(FMAID "86511")
+	(location [N_fma_p2_Instance_150008])
+	(part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Basal+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_90040])
+	(regional+part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Basal+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Synonym
+		[N_fma_p2_Instance_90041]
+		[ONARD_Instance_190007]))
+
+([Zone+20+of+left+marginal+artery] of  Zone+of+left+marginal+artery
+
+	(arterial+supply+of Myocardial+zone+20)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_40009])
+	(continuous+with Zone+16+of+left+marginal+artery)
+	(definition "Zone of left marginal artery which supplies the inferoapical zone of myocardium of left ventricle.")
+	(FMAID "86532")
+	(location [N_fma_p2_Instance_150072])
+	(part+of Left+marginal+artery)
+	(Preferred+name [N_fma_p2_Instance_90103])
+	(regional+part+of Left+marginal+artery)
+	(Synonym [N_fma_p2_Instance_90104]))
+
+([Zone+3+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+3)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_30005])
+	(continuous+with
+		Zone+1+of+anterior+interventricular+branch+of+left+coronary+artery
+		Basal+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies the basal inferoseptal zone of myocardium of left ventricle and is continuous with zone 1 of anterior interventricular branch of left coronary artery.")
+	(FMAID "86926")
+	(location [Nance+LIVE+FMA_Instance_80005])
+	(part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Basal+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_160001])
+	(regional+part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Basal+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Synonym
+		[ONARD_Instance_200025]
+		[ONARD_Instance_190012]))
+
+([Zone+4+of+circumflex+branch+of+left+coronary+artery] of  Zone+of+circumflex+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+4)
+	(attributed+continuous+with
+		[Nance+LIVE+FMA_Instance_10010]
+		[Nance+LIVE+FMA_Instance_30018])
+	(continuous+with
+		Zone+5+of+circumflex+branch+of+left+coronary+artery
+		Zone+10+of+circumflex+branch+of+left+coronary+artery)
+	(definition "Zone of circumflex branch of left coronary artery which supplies the basal inferior zone of myocardium of left ventricle and is continuous with zones 5 and 10 of circumflex branch of left coronary artery.")
+	(FMAID "86539")
+	(location [N_fma_p2_Instance_150171])
+	(part+of
+		Circumflex+branch+of+left+coronary+artery
+		Basal+zone+of+circumflex+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_90123])
+	(regional+part+of
+		Circumflex+branch+of+left+coronary+artery
+		Basal+zone+of+circumflex+branch+of+left+coronary+artery)
+	(Synonym [N_fma_p2_Instance_90124]))
+
+([Zone+5+of+circumflex+branch+of+left+coronary+artery] of  Zone+of+circumflex+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+5)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_30022])
+	(continuous+with Zone+4+of+circumflex+branch+of+left+coronary+artery)
+	(definition "Zone of circumflex branch of left coronary artery which supplies the basal inferolateral zone of myocardium of left ventricle and is continuous with zone 4 of circumflex branch of left coronary artery.")
+	(FMAID "87216")
+	(location [Nance+LIVE+FMA_Instance_80011])
+	(part+of
+		Circumflex+branch+of+left+coronary+artery
+		Basal+zone+of+circumflex+branch+of+left+coronary+artery)
+	(Preferred+name [Nance+LIVE+FMA_Instance_10004])
+	(regional+part+of
+		Circumflex+branch+of+left+coronary+artery
+		Basal+zone+of+circumflex+branch+of+left+coronary+artery)
+	(Synonym [Nance+LIVE+FMA_Instance_10005]))
+
+([Zone+6+of+left+marginal+artery] of  Zone+of+left+marginal+artery
+
+	(arterial+supply+of Myocardial+zone+6)
+	(attributed+continuous+with [N_fma_p2_Instance_150158])
+	(continuous+with Zone+12+of+left+marginal+artery)
+	(definition "Zone of left marginal artery which supplies the basal anterolateral zone of myocardium of left ventricle and is continuous with zone 12 of left marginal artery.")
+	(FMAID "86533")
+	(location [N_fma_p2_Instance_150155])
+	(part+of Left+marginal+artery)
+	(Preferred+name [N_fma_p2_Instance_90106])
+	(regional+part+of Left+marginal+artery)
+	(Synonym
+		[N_fma_p2_Instance_90107]
+		[Nance+LIVE+FMA_Instance_70077]))
+
+([Zone+7+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+7)
+	(attributed+continuous+with
+		[N_fma_p2_Instance_140001]
+		[N_fma_p2_Instance_140002]
+		[Nance+LIVE+FMA_Instance_30006]
+		[Nance+LIVE+FMA_Instance_30007])
+	(continuous+with
+		Zone+13a+of+anterior+interventricular+branch+of+left+coronary+artery
+		Zone+1+of+anterior+interventricular+branch+of+left+coronary+artery
+		Zone+13+of+anterior+interventricular+branch+of+left+coronary+artery
+		Zone+8+of+anterior+interventricular+branch+of+left+coronary+artery
+		Zone+9+of+anterior+interventricular+branch+of+left+coronary+artery
+		Basal+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies the mid anterior zone of myocardium of left ventricle and is continuous with zones 1, 8, 9 and 13 of anterior interventricular branch of left coronary artery.")
+	(FMAID "86509")
+	(location [N_fma_p2_Instance_150004])
+	(part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Mid+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_90034])
+	(regional+part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Mid+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Synonym
+		[N_fma_p2_Instance_90035]
+		[ONARD_Instance_180005]))
+
+([Zone+7+of+left+diagonal+artery] of  Zone+of+left+diagonal+artery
+
+	(arterial+supply+of Myocardial+zone+7)
+	(attributed+continuous+with [N_fma_p2_Instance_150054])
+	(continuous+with
+		Zone+13a+of+left+diagonal+artery
+		Zone+13+of+left+diagonal+artery)
+	(definition "Zone of left diagonal artery which supplies the mid anterior zone of myocardium of left ventricle and is continuous with zone 13 of left diagonal artery.")
+	(FMAID "86525")
+	(location [N_fma_p2_Instance_150057])
+	(part+of Left+diagonal+artery)
+	(Preferred+name [N_fma_p2_Instance_90082])
+	(regional+part+of Left+diagonal+artery)
+	(Synonym
+		[N_fma_p2_Instance_90083]
+		[Nance+LIVE+FMA_Instance_70074]))
+
+([Zone+8+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+8)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_30008])
+	(continuous+with Zone+7+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies the mid anteroseptal zone of myocardium of left ventricle and is continuous with zone 7 of anterior interventricular branch of left coronary artery.")
+	(FMAID "86512")
+	(location [N_fma_p2_Instance_150013])
+	(part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Mid+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_90043])
+	(regional+part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Mid+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Synonym
+		[N_fma_p2_Instance_90044]
+		[ONARD_Instance_190008]))
+
+([Zone+9+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+anterior+interventricular+branch+of+left+coronary+artery
+
+	(arterial+supply+of Myocardial+zone+9)
+	(attributed+continuous+with [Nance+LIVE+FMA_Instance_30009])
+	(continuous+with Zone+7+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(definition "Zone of anterior interventricular branch of left coronary artery which supplies the mid inferoseptal zone of myocardium of left ventricle and is continuous with zone 7 of anterior interventricular branch of left coronary artery.")
+	(FMAID "86516")
+	(location [N_fma_p2_Instance_150029])
+	(part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Mid+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Preferred+name [N_fma_p2_Instance_90055])
+	(regional+part+of
+		Anterior+interventricular+branch+of+left+coronary+artery
+		Mid+zone+of+anterior+interventricular+branch+of+left+coronary+artery)
+	(Synonym
+		[N_fma_p2_Instance_90056]
+		[ONARD_Instance_190013]))
+
+([Zone+of+abdominal+aorta] of  Organ+part
+
+	(attributed+continuous+with [N_fma_p2_Instance_160028])
+	(continuous+with Zone+of+arch+of+aorta)
+	(FMAID "14174")
+	(Preferred+name [KB_INSTANCE_15559])
+	(Synonym [KB_AUTO-INSERT2_544]))
+
+([Zone+of+abdominal+fascia] of  Zone+of+internal+fascia
+
+	(FMAID "57969")
+	(Preferred+name [fm_live_22131])
+	(Synonym
+		[KB_INSTANCE_76396]
+		[KB_AUTO-INSERT2_7586]))
+
+([Zone+of+acetabular+part+of+hip+bone] of  Zone+of+hip+bone
+
+	(FMAID "63610")
+	(Preferred+name [fm_live_02646]))
+
+([Zone+of+acromion] of  Zone+of+scapula
+
+	(FMAID "63566")
+	(Preferred+name [fm_live_02547])
+	(Synonym [KB_AUTO-INSERT2_7451]))
+
+([Zone+of+adenohypophysis] of  Organ+region+with+floating+fiat+boundary
+
+	(dimension 3-dimension)
+	(FMAID "74629")
+	(Preferred+name [FM_live_08713])
+	(Synonym
+		[FM_live_08705]
+		[KB_AUTO-INSERT2_5341]))
+
+([Zone+of+ala+of+ilium] of  Zone+of+ilium
+
+	(FMAID "63613")
+	(Preferred+name [fm_live_02652]))
+
+([Zone+of+alveolar+process+of+maxilla] of  Zone+of+maxilla
+
+	(FMAID "65073")
+	(Preferred+name [fm-live_03515]))
+
+([Zone+of+anal+canal+viewed+anatomically] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "29346")
+	(Preferred+name [KB_INSTANCE_36764])
+	(Synonym [KB_AUTO-INSERT2_7025]))
+
+([Zone+of+anterior+cerebral+artery] of  Zone+of+artery
+
+	(FMAID "50032")
+	(Preferred+name [KB_INSTANCE_63180])
+	(Synonym [KB_AUTO-INSERT2_7886]))
+
+([Zone+of+anterior+interventricular+branch+of+left+coronary+artery] of  Zone+of+left+coronary+artery
+
+	(definition "Zone of left coronary artery which supplies the basal anterior, basal anteroseptal, inferoseptal zones, the mid anterior, anteroseptal and inferoseptal zones, the apical anterior and septal zones and the apex zone of myocardium of left ventricle.")
+	(FMAID "86505")
+	(Preferred+name [N_fma_p2_Instance_90025])
+	(Synonym
+		[ONARD_Instance_180002]
+		[ONARD_Instance_180004]))
+
+([Zone+of+anterior+longitudinal+ligament] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "63978")
+	(Preferred+name [fm-live_01262])
+	(Synonym [KB_AUTO-INSERT2_7021]))
+
+([Zone+of+aorta] of  Zone+of+arterial+trunk
+
+	(FMAID "66333")
+	(Non-English+equivalent [ONARD_Instance_580858])
+	(Preferred+name [fm-live_06488])
+	(Synonym [KB_AUTO-INSERT2_7881]))
+
+([Zone+of+aponeurosis+of+external+oblique] of  Zone+of+external+oblique
+
+	(FMAID "20189")
+	(Preferred+name [KB_INSTANCE_25474]))
+
+([Zone+of+aponeurosis+of+internal+oblique] of  Zone+of+internal+oblique
+
+	(FMAID "21402")
+	(Preferred+name [KB_INSTANCE_26864]))
+
+([Zone+of+aponeurosis+of+transversus+abdominis] of  Zone+of+transversus+abdominis
+
+	(FMAID "21404")
+	(Preferred+name [KB_INSTANCE_26866]))
+
+([Zone+of+appendix] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86124")
+	(Preferred+name [ONARD_Instance_10055])
+	(Synonym [KB_AUTO-INSERT2_6987]))
+
+([Zone+of+arch+of+aorta] of  Organ+part
+
+	(attributed+continuous+with
+		[N_fma_p2_Instance_160026]
+		[N_fma_p2_Instance_160027])
+	(continuous+with
+		Zone+of+ascending+aorta
+		Zone+of+abdominal+aorta)
+	(FMAID "14172")
+	(Preferred+name [KB_INSTANCE_15556])
+	(Synonym [KB_INSTANCE_15557]))
+
+([Zone+of+arterial+trunk] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "87207")
+	(Preferred+name [ONARD_Instance_200009]))
+
+([Zone+of+artery] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "66332")
+	(Preferred+name [fm-live_06486])
+	(Synonym [KB_AUTO-INSERT2_7035]))
+
+([Zone+of+arytenoid+cartilage] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "64135")
+	(Preferred+name [fm-live_01761])
+	(Synonym [KB_AUTO-INSERT2_7026]))
+
+([Zone+of+ascending+aorta] of  Organ+part
+
+	(attributed+continuous+with [N_fma_p2_Instance_160025])
+	(continuous+with Zone+of+arch+of+aorta)
+	(FMAID "14171")
+	(Preferred+name [KB_INSTANCE_15555])
+	(Synonym [KB_AUTO-INSERT2_477]))
+
+([Zone+of+axillary+artery] of  Zone+of+artery
+
+	(FMAID "22658")
+	(Non-English+equivalent [ONARD_Instance_580864])
+	(Preferred+name [KB_INSTANCE_28286])
+	(Synonym [KB_AUTO-INSERT2_7888]))
+
+([Zone+of+axon] of  Zone+of+cell+appendage
+
+	(FMAID "61809")
+	(Preferred+name [fm-live_14120])
+	(Synonym [KB_AUTO-INSERT2_8507]))
+
+([Zone+of+axoneme+of+flagellum] of  Zone+of+flagellum
+
+	(FMAID "67829")
+	(Preferred+name [fm-live_12500]))
+
+([Zone+of+body+of+mandible] of  Zone+of+mandible
+
+	(FMAID "59425")
+	(Preferred+name [KB_INSTANCE_78463]))
+
+([Zone+of+body+of+tongue] of  Zone+of+tongue
+
+	(FMAID "54663")
+	(Non-English+equivalent [ONARD_Instance_580849])
+	(Preferred+name [KB_INSTANCE_69471]))
+
+([Zone+of+bone+organ] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "10483")
+	(Preferred+name [KB_INSTANCE_09445])
+	(Synonym [KB_AUTO-INSERT2_6985]))
+
+([Zone+of+bulb+of+hair+follicle] of  Region+of+lower+segment+of+hair+follicle
+
+	(FMAID "70770")
+	(Preferred+name [FM_live_03548]))
+
+([Zone+of+calcaneus] of  Zone+of+bone+organ
+
+	(FMAID "82542")
+	(Preferred+name [fm_live_27078])
+	(Synonym [KB_AUTO-INSERT2_7208]))
+
+([Zone+of+cartilage+of+external+ear] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "61196")
+	(Preferred+name [KB_INSTANCE_80698]))
+
+([Zone+of+cavernous+organ] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "20221")
+	(Preferred+name [KB_INSTANCE_25504])
+	(Synonym [KB_AUTO-INSERT2_7010]))
+
+([Zone+of+cell] of  Cell+region
+
+	(FMAID "72302")
+	(has+mass FALSE)
+	(Preferred+name [fm_live_12637])
+	(Synonym [KB_AUTO-INSERT2_8477]))
+
+([Zone+of+cell+appendage] of  Cell+region
+
+	(FMAID "61808")
+	(Preferred+name [fm-live_14118])
+	(Synonym [KB_AUTO-INSERT2_8478]))
+
+([Zone+of+cell+body+of+spermatozoon] of  Cell+region
+
+	(FMAID "84923")
+	(Preferred+name [fm_live_33047]))
+
+([Zone+of+central+tendon] of  Zone+of+diaphragm
+
+	(FMAID "58332")
+	(Preferred+name [KB_INSTANCE_76981])
+	(Synonym [KB_AUTO-INSERT2_7180]))
+
+([Zone+of+cilium] of  Zone+of+cell+appendage
+
+	(FMAID "67474")
+	(Preferred+name [fm-live_08893])
+	(Synonym [KB_AUTO-INSERT2_8504]))
+
+([Zone+of+circumflex+branch+of+left+coronary+artery] of  Zone+of+circumflex+branch+of+left+coronary+artery
+
+	(definition "Zone of left coronary artery which supplies the basal, mid, apical inferior zones and the basal and mid inferolateral zones of myocardium of left ventricle and is continuous with the left coronary artery.")
+	(FMAID "86538")
+	(Preferred+name [N_fma_p2_Instance_90121]))
+
+([Zone+of+cochlear+part+of+wall+of+bony+labyrinth] of  Wall+of+zone+of+bony+labyrinth
+
+	(FMAID "79788")
+	(Preferred+name [fm_live_23702]))
+
+([Zone+of+common+carotid+artery] of  Zone+of+artery
+
+	(FMAID "50093")
+	(Preferred+name [KB_INSTANCE_63263])
+	(Synonym [KB_AUTO-INSERT2_7882]))
+
+([Zone+of+cone+cell] of  Zone+of+cell
+
+	(FMAID "67787")
+	(Preferred+name [fm-live_14950])
+	(Synonym [KB_AUTO-INSERT2_8481]))
+
+([Zone+of+continuity] of  Anatomical+junction
+
+	(FMAID "11337")
+	(Non-English+equivalent [ONARD_Instance_580884])
+	(Preferred+name [KB_INSTANCE_10758])
+	(Synonym [KB_AUTO-INSERT2_8822]))
+
+([Zone+of+coracobrachialis] of  Zone+of+muscle+organ
+
+	(FMAID "63223")
+	(Preferred+name [fm_live_02075])
+	(Synonym [KB_AUTO-INSERT2_7177]))
+
+([Zone+of+coronary+artery] of  Zone+of+artery
+
+	(FMAID "15082")
+	(Preferred+name [KB_INSTANCE_17124])
+	(Synonym [KB_AUTO-INSERT2_7879]))
+
+([Zone+of+corpus+cavernosum+of+clitoris] of  Zone+of+cavernous+organ
+
+	(FMAID "20315")
+	(Preferred+name [KB_INSTANCE_25635]))
+
+([Zone+of+corpus+cavernosum+of+penis] of  Zone+of+cavernous+organ
+
+	(FMAID "20280")
+	(Preferred+name [KB_INSTANCE_25586]))
+
+([Zone+of+corpus+spongiosum+of+penis] of  Zone+of+cavernous+organ
+
+	(FMAID "20247")
+	(Preferred+name [KB_INSTANCE_25543]))
+
+([Zone+of+costal+cartilage] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "66082")
+	(Preferred+name [fm-live_05456])
+	(Synonym [KB_AUTO-INSERT2_7028]))
+
+([Zone+of+cremasteric+fascia] of  Superficial+fascia+of+zone+of+perineum
+
+	(FMAID "22084")
+	(Preferred+name [KB_INSTANCE_27574])
+	(Synonym [KB_AUTO-INSERT2_7878]))
+
+([Zone+of+cricoid+cartilage] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "55312")
+	(Preferred+name [KB_INSTANCE_70457])
+	(Synonym [KB_AUTO-INSERT2_7027]))
+
+([Zone+of+cricopharyngeus] of  Zone+of+muscle+organ
+
+	(FMAID "65054")
+	(Preferred+name [fm-live_03285])
+	(Synonym [KB_AUTO-INSERT2_7152]))
+
+([Zone+of+cricothyroid] of  Zone+of+muscle+organ
+
+	(FMAID "46608")
+	(Preferred+name [KB_INSTANCE_59128])
+	(Synonym [KB_AUTO-INSERT2_7153]))
+
+([Zone+of+dartos+fascia] of  Superficial+fascia+of+zone+of+perineum
+
+	(FMAID "20437")
+	(Preferred+name [KB_INSTANCE_25797])
+	(Synonym [KB_AUTO-INSERT2_7874]))
+
+([Zone+of+deep+penile+fascia] of  Zone+of+superficial+fascia
+
+	(FMAID "20497")
+	(Preferred+name [KB_INSTANCE_25861])
+	(Synonym [KB_AUTO-INSERT2_7872]))
+
+([Zone+of+deltoid] of  Zone+of+muscle+organ
+
+	(FMAID "34676")
+	(Preferred+name [KB_INSTANCE_44123])
+	(Synonym [KB_AUTO-INSERT2_7164]))
+
+([Zone+of+dendrite] of  Zone+of+cell+appendage
+
+	(FMAID "67476")
+	(Preferred+name [fm-live_14193])
+	(Synonym [KB_AUTO-INSERT2_8506]))
+
+([Zone+of+dense+endoabdominal+fascia] of  Zone+of+abdominal+fascia
+
+	(FMAID "20501")
+	(Preferred+name [KB_INSTANCE_25865])
+	(Synonym [KB_AUTO-INSERT2_7591]))
+
+([Zone+of+dense+endominal+fascia] of  Zone+of+endoabdominal+fascia
+
+	(FMAID "20533")
+	(Preferred+name [KB_INSTANCE_25904])
+	(Synonym [KB_AUTO-INSERT2_7603]))
+
+([Zone+of+diaphragm] of  Zone+of+muscle+organ
+
+	(FMAID "58275")
+	(Preferred+name [KB_INSTANCE_76883])
+	(Synonym [KB_AUTO-INSERT2_7160]))
+
+([Zone+of+diaphysis] of  Zone+of+long+bone
+
+	(FMAID "85563")
+	(Preferred+name [fma_p2_Instance_360001])
+	(Synonym [KB_AUTO-INSERT2_7214]))
+
+([Zone+of+diaphysis+proper+of+ulna] of  Zone+of+diaphysis
+
+	(FMAID "63424")
+	(Preferred+name [fm_live_02166]))
+
+([Zone+of+distal+epiphysis+of+femur] of  Distal+epiphysis
+
+	(FMAID "32854")
+	(Preferred+name [KB_INSTANCE_40613]))
+
+([Zone+of+distal+epiphysis+of+fibula] of  Distal+epiphysis
+
+	(FMAID "33737")
+	(Preferred+name [KB_INSTANCE_42603])
+	(Synonym
+		[KB_INSTANCE_42604]
+		[KB_INSTANCE_42605]))
+
+([Zone+of+distal+epiphysis+of+humerus] of  Distal+epiphysis
+
+	(FMAID "32832")
+	(Preferred+name [KB_INSTANCE_40585])
+	(Synonym
+		[KB_INSTANCE_40586]
+		[KB_INSTANCE_40587]))
+
+([Zone+of+distal+epiphysis+of+tibia] of  Distal+epiphysis
+
+	(FMAID "33124")
+	(Preferred+name [KB_INSTANCE_41245])
+	(Synonym
+		[KB_INSTANCE_41246]
+		[KB_INSTANCE_41247]))
+
+([Zone+of+dorsal+horn+of+spinal+cord] of  Gray+matter+zone+of+spinal+cord
+
+	(dimension 3-dimension)
+	(FMAID "77408")
+	(Preferred+name [live_incus_fm_12736]))
+
+([Zone+of+dorsal+interosseous+of+foot] of  Zone+of+muscle+organ
+
+	(FMAID "46233")
+	(Preferred+name [KB_INSTANCE_58556]))
+
+([Zone+of+dorsum+of+tongue] of  Zone+of+body+of+tongue
+
+	(FMAID "54652")
+	(Preferred+name [KB_INSTANCE_69452]))
+
+([Zone+of+duodenum] of  Zone+of+small+intestine
+
+	(FMAID "14925")
+	(Preferred+name [KB_INSTANCE_16787])
+	(Synonym [KB_AUTO-INSERT2_7122]))
+
+([Zone+of+endoabdominal+fascia] of  Zone+of+abdominal+fascia
+
+	(FMAID "18098")
+	(Preferred+name [KB_INSTANCE_22234])
+	(Synonym [KB_AUTO-INSERT2_7590]))
+
+([Zone+of+endothoracic+fascia] of  Zone+of+internal+fascia
+
+	(FMAID "57863")
+	(Preferred+name [KB_INSTANCE_76235])
+	(Synonym [KB_AUTO-INSERT2_7585]))
+
+([Zone+of+epicranius] of  Zone+of+muscle+organ
+
+	(FMAID "46752")
+	(Preferred+name [KB_INSTANCE_59455])
+	(Synonym [KB_AUTO-INSERT2_7142]))
+
+([Zone+of+epididymis] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "18258")
+	(Preferred+name [KB_INSTANCE_22416])
+	(Synonym [KB_AUTO-INSERT2_7020]))
+
+([Zone+of+epithelium+of+iris] of  Subdivision+of+epithelium
+
+	(FMAID "62416")
+	(Preferred+name [fm-live_15741]))
+
+([Zone+of+ethmoid] of  Zone+of+irregular+bone
+
+	(FMAID "52889")
+	(Preferred+name [KB_INSTANCE_66731])
+	(Synonym [KB_AUTO-INSERT2_7467]))
+
+([Zone+of+ethmoidal+labyrinth] of  Zone+of+ethmoid
+
+	(FMAID "57450")
+	(Preferred+name [KB_INSTANCE_75652])
+	(Synonym [KB_AUTO-INSERT2_7475]))
+
+([Zone+of+extensor+digitorum+longus] of  Zone+of+muscle+organ
+
+	(FMAID "51133")
+	(Preferred+name [KB_INSTANCE_64564])
+	(Synonym [KB_AUTO-INSERT2_7170]))
+
+([Zone+of+external+anal+sphincter] of  Zone+of+muscle+organ
+
+	(FMAID "31371")
+	(Preferred+name [KB_INSTANCE_38979])
+	(Synonym [KB_AUTO-INSERT2_7168]))
+
+([Zone+of+external+oblique] of  Zone+of+muscle+organ
+
+	(FMAID "50176")
+	(Preferred+name [KB_INSTANCE_63353])
+	(Synonym [KB_AUTO-INSERT2_7161]))
+
+([Zone+of+external+spermatic+fascia] of  Zone+of+aponeurosis+of+external+oblique
+
+	(FMAID "80457")
+	(Preferred+name [fm_live_25074])
+	(Synonym [KB_AUTO-INSERT2_7182]))
+
+([Zone+of+eyeball] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86126")
+	(Preferred+name [ONARD_Instance_10059])
+	(Synonym [KB_AUTO-INSERT2_6988]))
+
+([Zone+of+facial+artery] of  Zone+of+artery
+
+	(FMAID "79217")
+	(Preferred+name [fm_live_22492])
+	(Synonym [KB_AUTO-INSERT2_7884]))
+
+([Zone+of+fascia+lata] of  Zone+of+investing+fascia+of+lower+limb
+
+	(FMAID "58775")
+	(Preferred+name [KB_INSTANCE_77600])
+	(Synonym [KB_AUTO-INSERT2_7611]))
+
+([Zone+of+fascia+of+perineum] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "20767")
+	(Preferred+name [KB_INSTANCE_26171]))
+
+([Zone+of+fibrous+pericardium] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "71048")
+	(part
+		Anterior+part+of+fibrous+pericardium
+		Posterior+part+of+fibrous+pericardium
+		Superior+part+of+fibrous+pericardium
+		Inferior+part+of+fibrous+pericardium
+		Lateral+part+of+fibrous+pericardium)
+	(Preferred+name [fm_live_11437])
+	(regional+part
+		Anterior+part+of+fibrous+pericardium
+		Posterior+part+of+fibrous+pericardium
+		Superior+part+of+fibrous+pericardium
+		Inferior+part+of+fibrous+pericardium
+		Lateral+part+of+fibrous+pericardium)
+	(Synonym [KB_AUTO-INSERT2_6982]))
+
+([Zone+of+fibrous+sheath] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "85277")
+	(Preferred+name [fm_live_34024])
+	(Synonym [KB_AUTO-INSERT2_7003]))
+
+([Zone+of+flagellum] of  Zone+of+cell+appendage
+
+	(FMAID "61886")
+	(Preferred+name [fm-live_08903])
+	(Synonym [KB_AUTO-INSERT2_8505]))
+
+([Zone+of+flat+bone] of  Zone+of+bone+organ
+
+	(FMAID "24010")
+	(Preferred+name [KB_INSTANCE_30195])
+	(Synonym [KB_AUTO-INSERT2_7196]))
+
+([Zone+of+flexor+digitorum+longus] of  Zone+of+muscle+organ
+
+	(FMAID "51137")
+	(Preferred+name [KB_INSTANCE_64568])
+	(Synonym [KB_AUTO-INSERT2_7171]))
+
+([Zone+of+frontal+bone] of  Zone+of+flat+bone
+
+	(FMAID "52847")
+	(Preferred+name [KB_INSTANCE_66646])
+	(Synonym [KB_AUTO-INSERT2_7422]))
+
+([Zone+of+gallbladder] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86735")
+	(Preferred+name [ONARD_Instance_160079])
+	(Synonym [KB_AUTO-INSERT2_7042]))
+
+([Zone+of+glans+penis] of  Zone+of+corpus+spongiosum+of+penis
+
+	(FMAID "66283")
+	(Preferred+name [fm-live_06217])
+	(Synonym [KB_AUTO-INSERT2_7188]))
+
+([Zone+of+heart] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "85461")
+	(Preferred+name [fma_p2_Instance_2])
+	(Synonym [KB_AUTO-INSERT2_6983]))
+
+([Zone+of+hip+bone] of  Zone+of+bone+organ
+
+	(FMAID "16588")
+	(Preferred+name [KB_INSTANCE_19588])
+	(Synonym
+		[KB_INSTANCE_19589]
+		[KB_AUTO-INSERT2_7199]))
+
+([Zone+of+hyoglossus] of  Zone+of+muscle+organ
+
+	(FMAID "46719")
+	(Preferred+name [KB_INSTANCE_59397])
+	(Synonym [KB_AUTO-INSERT2_7146]))
+
+([Zone+of+hyoid+bone] of  Zone+of+irregular+bone
+
+	(FMAID "59494")
+	(Preferred+name [KB_INSTANCE_78556])
+	(Synonym [KB_AUTO-INSERT2_7473]))
+
+([Zone+of+ileum] of  Zone+of+small+intestine
+
+	(FMAID "14963")
+	(Preferred+name [KB_INSTANCE_16887])
+	(Synonym [KB_AUTO-INSERT2_7124]))
+
+([Zone+of+iliocostalis+lumborum] of  Zone+of+muscle+organ
+
+	(dimension 3-dimension)
+	(FMAID "77173")
+	(Preferred+name [su_incus_32890])
+	(Synonym [KB_AUTO-INSERT2_7172]))
+
+([Zone+of+iliofemoral+ligament] of  Zone+of+ligament+of+hip+joint
+
+	(FMAID "43034")
+	(Preferred+name [KB_INSTANCE_54730])
+	(Synonym [KB_AUTO-INSERT2_7795]))
+
+([Zone+of+ilium] of  Zone+of+hip+bone
+
+	(FMAID "42824")
+	(Preferred+name [KB_INSTANCE_54464])
+	(Synonym [KB_AUTO-INSERT2_7485]))
+
+([Zone+of+inferior+pharyngeal+constrictor] of  Zone+of+muscle+organ
+
+	(FMAID "46657")
+	(Preferred+name [KB_INSTANCE_59253])
+	(Synonym [KB_AUTO-INSERT2_7150]))
+
+([Zone+of+inferior+vena+cava] of  Organ+part
+
+	(FMAID "68064")
+	(Preferred+name [fm_live_03566])
+	(Synonym [KB_AUTO-INSERT2_1616]))
+
+([Zone+of+inguinal+ligament] of  Zone+of+aponeurosis+of+external+oblique
+
+	(FMAID "20186")
+	(Preferred+name [KB_INSTANCE_25467])
+	(Synonym [KB_AUTO-INSERT2_7181]))
+
+([Zone+of+inner+segment+of+cone+cell] of  Zone+of+cone+cell
+
+	(FMAID "62229")
+	(Preferred+name [fm-live_14981]))
+
+([Zone+of+inner+segment+of+rod+cell] of  Zone+of+rod+cell
+
+	(FMAID "67846")
+	(Preferred+name [fm-live_14979]))
+
+([Zone+of+intercostal+muscle] of  Zone+of+muscle+organ
+
+	(FMAID "21780")
+	(Preferred+name [KB_INSTANCE_27309])
+	(Synonym [KB_AUTO-INSERT2_7178]))
+
+([Zone+of+internal+fascia] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "12258")
+	(Preferred+name [KB_INSTANCE_12362])
+	(Synonym [KB_AUTO-INSERT2_7000]))
+
+([Zone+of+internal+jugular+vein] of  Organ+part
+
+	(FMAID "80477")
+	(Preferred+name [fm_live_25133])
+	(Synonym [KB_AUTO-INSERT2_1628]))
+
+([Zone+of+internal+oblique] of  Zone+of+muscle+organ
+
+	(FMAID "65117")
+	(Preferred+name [fm-live_03340])
+	(Synonym [KB_AUTO-INSERT2_7162]))
+
+([Zone+of+internal+spermatic+fascia] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "80367")
+	(Preferred+name [fm_live_24837])
+	(Synonym [KB_AUTO-INSERT2_7004]))
+
+([Zone+of+intra-ocular+part+of+optic+nerve] of  Zone+of+optic+nerve
+
+	(FMAID "58712")
+	(Preferred+name [KB_INSTANCE_77501])
+	(Synonym [KB_INSTANCE_77502]))
+
+([Zone+of+investing+fascia] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "57965")
+	(Preferred+name [KB_INSTANCE_76392])
+	(Synonym [KB_AUTO-INSERT2_6999]))
+
+([Zone+of+investing+fascia+of+arm] of  Zone+of+investing+fascia+of+upper+limb
+
+	(FMAID "58457")
+	(Preferred+name [KB_INSTANCE_77158]))
+
+([Zone+of+investing+fascia+of+foot] of  Zone+of+investing+fascia+of+lower+limb
+
+	(FMAID "79985")
+	(Preferred+name [fm_live_24156]))
+
+([Zone+of+investing+fascia+of+forearm] of  Zone+of+investing+fascia+of+upper+limb
+
+	(FMAID "58456")
+	(Preferred+name [KB_INSTANCE_77157]))
+
+([Zone+of+investing+fascia+of+free+lower+limb] of  Zone+of+investing+fascia+of+lower+limb
+
+	(FMAID "58420")
+	(Preferred+name [KB_INSTANCE_77105]))
+
+([Zone+of+investing+fascia+of+free+upper+limb] of  Zone+of+investing+fascia+of+upper+limb
+
+	(FMAID "58432")
+	(Preferred+name [KB_INSTANCE_77122]))
+
+([Zone+of+investing+fascia+of+hand] of  Zone+of+investing+fascia+of+upper+limb
+
+	(FMAID "58458")
+	(Preferred+name [KB_INSTANCE_77159]))
+
+([Zone+of+investing+fascia+of+leg] of  Zone+of+investing+fascia+of+lower+limb
+
+	(FMAID "79981")
+	(Preferred+name [fm_live_24148]))
+
+([Zone+of+investing+fascia+of+lower+limb] of  Zone+of+investing+fascia
+
+	(FMAID "58421")
+	(Preferred+name [KB_INSTANCE_77106]))
+
+([Zone+of+investing+fascia+of+pectoral+girdle] of  Zone+of+investing+fascia+of+upper+limb
+
+	(FMAID "79890")
+	(Preferred+name [fm_live_23992]))
+
+([Zone+of+investing+fascia+of+thigh] of  Zone+of+investing+fascia+of+lower+limb
+
+	(FMAID "58741")
+	(Preferred+name [KB_INSTANCE_77555]))
+
+([Zone+of+investing+fascia+of+upper+limb] of  Zone+of+investing+fascia
+
+	(FMAID "58384")
+	(Preferred+name [KB_INSTANCE_77059]))
+
+([Zone+of+investing+thoracic+fascia] of  Zone+of+investing+fascia
+
+	(FMAID "58382")
+	(Preferred+name [KB_INSTANCE_77056])
+	(Synonym [KB_AUTO-INSERT2_7608]))
+
+([Zone+of+irregular+bone] of  Zone+of+bone+organ
+
+	(FMAID "24011")
+	(Preferred+name [KB_INSTANCE_30196])
+	(Synonym [KB_AUTO-INSERT2_7197]))
+
+([Zone+of+ischiofemoral+ligament] of  Zone+of+ligament+of+hip+joint
+
+	(FMAID "43248")
+	(Preferred+name [KB_INSTANCE_54994])
+	(Synonym [KB_AUTO-INSERT2_7796]))
+
+([Zone+of+ischium] of  Zone+of+hip+bone
+
+	(FMAID "17003")
+	(Preferred+name [KB_INSTANCE_20362])
+	(Synonym [KB_AUTO-INSERT2_7486]))
+
+([Zone+of+jejunum] of  Zone+of+small+intestine
+
+	(FMAID "16980")
+	(Preferred+name [KB_INSTANCE_20327])
+	(Synonym [KB_AUTO-INSERT2_7123]))
+
+([Zone+of+kidney] of  Organ+region+with+floating+fiat+boundary
+
+	(definition "Organ zone in the kidney.")
+	(FMAID "86310")
+	(Preferred+name [ONARD_Instance_80019])
+	(Synonym [KB_AUTO-INSERT2_7036]))
+
+([Zone+of+kinetosome+of+cilium] of  Zone+of+cilium
+
+	(FMAID "62296")
+	(Preferred+name [fm-live_12883]))
+
+([Zone+of+kinetosome+of+flagellum] of  Zone+of+flagellum
+
+	(FMAID "67871")
+	(Preferred+name [fm-live_13098]))
+
+([Zone+of+lacrimal+bone] of  Zone+of+irregular+bone
+
+	(FMAID "57605")
+	(Preferred+name [KB_INSTANCE_75892])
+	(Synonym [KB_AUTO-INSERT2_7469]))
+
+([Zone+of+lacrimal+gland] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "59381")
+	(Preferred+name [KB_INSTANCE_78415])
+	(Synonym [KB_AUTO-INSERT2_7012]))
+
+([Zone+of+lacrimal+sac] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "59714")
+	(Non-English+equivalent [ONARD_Instance_580848])
+	(Preferred+name [KB_INSTANCE_78825])
+	(Synonym [KB_AUTO-INSERT2_7024]))
+
+([Zone+of+lactiferous+duct] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "62123")
+	(Preferred+name [fm-live_12567])
+	(Synonym [KB_AUTO-INSERT2_7013]))
+
+([Zone+of+large+intestine] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86175")
+	(Preferred+name [ONARD_Instance_30005])
+	(Synonym [KB_AUTO-INSERT2_7031]))
+
+([Zone+of+lateral+ligament+of+ankle+joint] of  Zone+of+ligament+of+ankle+joint
+
+	(FMAID "44079")
+	(Preferred+name [KB_INSTANCE_56019]))
+
+([Zone+of+lateral+part+of+occipital+bone] of  Zone+of+occipital+bone
+
+	(FMAID "80358")
+	(Preferred+name [fm_live_24766]))
+
+([Zone+of+left+coronary+artery] of  Zone+of+coronary+artery
+
+	(FMAID "15088")
+	(Preferred+name [KB_INSTANCE_17130])
+	(Synonym [KB_AUTO-INSERT2_7890]))
+
+([Zone+of+left+diagonal+artery] of  Zone+of+left+coronary+artery
+
+	(definition "Zone of left coronary artery which supplies the mid and apical anterior zones of myocardium of left ventricle and is continuous with the zone of anterior interventricular branch of left coronary artery.")
+	(FMAID "86506")
+	(Preferred+name [N_fma_p2_Instance_90027])
+	(Synonym [KB_AUTO-INSERT2_7893]))
+
+([Zone+of+left+marginal+artery] of  Zone+of+left+coronary+artery
+
+	(definition "Zone of left coronary artery which supplies the basal, mid, apical  anterolateral zones and the apex zone of myocardium of left ventricle and is continuous with the zone of circumflex branch of left coronary artery.")
+	(FMAID "86507")
+	(Preferred+name [N_fma_p2_Instance_90029])
+	(Synonym [KB_AUTO-INSERT2_7894]))
+
+([Zone+of+lens] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "58067")
+	(Preferred+name [KB_INSTANCE_76553])
+	(Synonym [KB_AUTO-INSERT2_7005]))
+
+([Zone+of+lesser+sac] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "19804")
+	(Preferred+name [KB_INSTANCE_24992])
+	(Synonym [KB_AUTO-INSERT2_7015]))
+
+([Zone+of+levator+ani] of  Zone+of+muscle+organ
+
+	(FMAID "19089")
+	(Preferred+name [KB_INSTANCE_23956])
+	(Synonym [KB_AUTO-INSERT2_7167]))
+
+([Zone+of+levator+costae] of  Zone+of+muscle+organ
+
+	(FMAID "82432")
+	(Preferred+name [FM_live_15129])
+	(Synonym [KB_AUTO-INSERT2_7176]))
+
+([Zone+of+levator+palpebrae+superioris] of  Zone+of+muscle+organ
+
+	(FMAID "49136")
+	(Preferred+name [KB_INSTANCE_62003])
+	(Synonym
+		[KB_INSTANCE_62004]
+		[KB_INSTANCE_62005]
+		[KB_AUTO-INSERT2_7141]))
+
+([Zone+of+ligament+of+ankle+joint] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "44059")
+	(Preferred+name [KB_INSTANCE_55998]))
+
+([Zone+of+ligament+of+hip+joint] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "43033")
+	(Preferred+name [KB_INSTANCE_54729]))
+
+([Zone+of+lingual+artery] of  Zone+of+artery
+
+	(FMAID "49529")
+	(Preferred+name [KB_INSTANCE_62500])
+	(Synonym [KB_AUTO-INSERT2_7883]))
+
+([Zone+of+liver] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "13360")
+	(Preferred+name [KB_INSTANCE_14245])
+	(Synonym [KB_AUTO-INSERT2_6993]))
+
+([Zone+of+long+bone] of  Zone+of+bone+organ
+
+	(FMAID "24008")
+	(Preferred+name [KB_INSTANCE_30193])
+	(Synonym [KB_AUTO-INSERT2_7195]))
+
+([Zone+of+longissimus+thoracis] of  Zone+of+muscle+organ
+
+	(dimension 3-dimension)
+	(FMAID "77212")
+	(Preferred+name [fm_live_19170])
+	(Synonym [KB_AUTO-INSERT2_7173]))
+
+([Zone+of+longus+colli] of  Zone+of+muscle+organ
+
+	(FMAID "46279")
+	(Preferred+name [KB_INSTANCE_58602])
+	(Synonym [KB_AUTO-INSERT2_7157]))
+
+([Zone+of+loose+endominal+fascia] of  Zone+of+endoabdominal+fascia
+
+	(FMAID "20507")
+	(Preferred+name [KB_INSTANCE_25874])
+	(Synonym [KB_AUTO-INSERT2_7602]))
+
+([Zone+of+lung] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86149")
+	(Preferred+name [ONARD_Instance_20018])
+	(Synonym [KB_AUTO-INSERT2_6997]))
+
+([Zone+of+main+lactiferous+duct] of  Zone+of+lactiferous+duct
+
+	(FMAID "67777")
+	(Preferred+name [fm-live_12558])
+	(Synonym [KB_AUTO-INSERT2_7772]))
+
+([Zone+of+male+external+sphincter+urethrae] of  Zone+of+muscle+organ
+
+	(FMAID "30517")
+	(Preferred+name [KB_INSTANCE_38041])
+	(Synonym [KB_AUTO-INSERT2_7166]))
+
+([Zone+of+mandible] of  Zone+of+irregular+bone
+
+	(FMAID "52826")
+	(Preferred+name [KB_INSTANCE_66615])
+	(Synonym [KB_AUTO-INSERT2_7472]))
+
+([Zone+of+maxilla] of  Zone+of+irregular+bone
+
+	(FMAID "52845")
+	(Preferred+name [KB_INSTANCE_66643])
+	(Synonym [KB_AUTO-INSERT2_7471]))
+
+([Zone+of+maxillary+artery] of  Zone+of+artery
+
+	(FMAID "49678")
+	(Preferred+name [KB_INSTANCE_62704])
+	(Synonym [KB_AUTO-INSERT2_7885]))
+
+([Zone+of+medial+ligament+of+ankle+joint] of  Zone+of+ligament+of+ankle+joint
+
+	(FMAID "44060")
+	(Preferred+name [KB_INSTANCE_55999]))
+
+([Zone+of+middle+cerebral+artery] of  Zone+of+artery
+
+	(FMAID "50080")
+	(Non-English+equivalent [ONARD_Instance_580863])
+	(Preferred+name [KB_INSTANCE_63246])
+	(Synonym [KB_AUTO-INSERT2_7887]))
+
+([Zone+of+middle+pharyngeal+constrictor] of  Zone+of+muscle+organ
+
+	(FMAID "46650")
+	(Preferred+name [KB_INSTANCE_59235])
+	(Synonym [KB_AUTO-INSERT2_7149]))
+
+([Zone+of+modiolus+of+cochlea] of  Zone+of+cochlear+part+of+wall+of+bony+labyrinth
+
+	(FMAID "77709")
+	(Preferred+name [fm_live_19558])
+	(Synonym [fm_live_23682]))
+
+([Zone+of+mucosa+of+internal+nose] of  Zone+of+viscerocranial+mucosa
+
+	(FMAID "59747")
+	(Preferred+name [KB_INSTANCE_78864]))
+
+([Zone+of+mucosa+of+supraglottic+part+of+larynx] of  Zone+of+viscerocranial+mucosa
+
+	(FMAID "64170")
+	(Preferred+name [fm-live_02033]))
+
+([Zone+of+multifidus] of  Zone+of+muscle+organ
+
+	(FMAID "81622")
+	(Preferred+name [FM_live_13428])
+	(Synonym [KB_AUTO-INSERT2_7175]))
+
+([Zone+of+muscle+organ] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "10474")
+	(Preferred+name [KB_INSTANCE_09433])
+	(Synonym [KB_AUTO-INSERT2_6984]))
+
+([Zone+of+nasalis] of  Zone+of+muscle+organ
+
+	(FMAID "46771")
+	(Preferred+name [KB_INSTANCE_59509])
+	(Synonym [KB_AUTO-INSERT2_7145]))
+
+([Zone+of+nerve] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86142")
+	(Preferred+name [ONARD_Instance_10003])
+	(Synonym [KB_AUTO-INSERT2_6992]))
+
+([Zone+of+neuraxis] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "84054")
+	(Preferred+name [live_incus_fm_13701])
+	(Synonym [KB_AUTO-INSERT2_7038]))
+
+([Zone+of+neurohypophysis] of  Organ+region+with+floating+fiat+boundary
+
+	(dimension 3-dimension)
+	(FMAID "74633")
+	(Preferred+name [FM_live_08720])
+	(Synonym
+		[FM_live_08719]
+		[KB_AUTO-INSERT2_5342]))
+
+([Zone+of+oblique+arytenoid] of  Zone+of+muscle+organ
+
+	(FMAID "46601")
+	(Preferred+name [KB_INSTANCE_59112])
+	(Synonym [KB_AUTO-INSERT2_7155]))
+
+([Zone+of+occipital+artery] of  Organ+part
+
+	(FMAID "79279")
+	(Preferred+name [fm_live_22618])
+	(Synonym [KB_AUTO-INSERT2_505]))
+
+([Zone+of+occipital+bone] of  Zone+of+flat+bone
+
+	(FMAID "52857")
+	(Preferred+name [KB_INSTANCE_66666])
+	(Synonym [KB_AUTO-INSERT2_7424]))
+
+([Zone+of+optic+nerve] of  Zone+of+nerve
+
+	(FMAID "58707")
+	(Non-English+equivalent [ONARD_Instance_580125])
+	(Preferred+name [KB_INSTANCE_77490])
+	(Synonym [KB_AUTO-INSERT2_7043]))
+
+([Zone+of+orbicularis+oculi] of  Zone+of+muscle+organ
+
+	(FMAID "46780")
+	(Preferred+name [KB_INSTANCE_59533])
+	(Synonym
+		[KB_INSTANCE_59534]
+		[KB_AUTO-INSERT2_7143]))
+
+([Zone+of+orbicularis+oris] of  Zone+of+muscle+organ
+
+	(FMAID "46842")
+	(Preferred+name [KB_INSTANCE_59658])
+	(Synonym [KB_AUTO-INSERT2_7144]))
+
+([Zone+of+osseous+spiral+lamina+of+cochlea] of  Zone+of+modiolus+of+cochlea
+
+	(FMAID "75673")
+	(Preferred+name [FM_live_09312])
+	(Synonym [fm_live_23692]))
+
+([Zone+of+ovary] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "66289")
+	(Preferred+name [fm-live_06224])
+	(Synonym [KB_AUTO-INSERT2_7009]))
+
+([Zone+of+palatine+bone] of  Zone+of+irregular+bone
+
+	(FMAID "52898")
+	(Preferred+name [KB_INSTANCE_66753])
+	(Synonym [KB_AUTO-INSERT2_7470]))
+
+([Zone+of+palatoglossus] of  Zone+of+muscle+organ
+
+	(FMAID "60015")
+	(Preferred+name [KB_INSTANCE_79177])
+	(Synonym [KB_AUTO-INSERT2_7140]))
+
+([Zone+of+palatopharyngeus] of  Zone+of+muscle+organ
+
+	(FMAID "46682")
+	(Preferred+name [KB_INSTANCE_59318])
+	(Synonym [KB_AUTO-INSERT2_7151]))
+
+([Zone+of+palmar+fascia] of  Zone+of+investing+fascia+of+upper+limb
+
+	(FMAID "58549")
+	(Preferred+name [KB_INSTANCE_77270])
+	(Synonym [KB_AUTO-INSERT2_7610]))
+
+([Zone+of+palpebral+part+of+orbicularis+oculi] of  Zone+of+orbicularis+oculi
+
+	(FMAID "59417")
+	(Preferred+name [KB_INSTANCE_78448]))
+
+([Zone+of+pancreas] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86185")
+	(Preferred+name [ONARD_Instance_30023])
+	(Synonym [KB_AUTO-INSERT2_7032]))
+
+([Zone+of+parietal+bone] of  Zone+of+flat+bone
+
+	(FMAID "57068")
+	(Preferred+name [KB_INSTANCE_74874])
+	(Synonym [KB_AUTO-INSERT2_7423]))
+
+([Zone+of+parietal+fascia+of+pelvis] of  Zone+of+abdominal+fascia
+
+	(FMAID "19131")
+	(Preferred+name [KB_INSTANCE_24019]))
+
+([Zone+of+parietal+serous+pericardium] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86696")
+	(part
+		Anterior+part+of+parietal+serous+pericardium
+		Posterior+part+of+parietal+serous+pericardium
+		Superior+part+of+parietal+serous+pericardium
+		Inferior+part+of+parietal+serous+pericardium
+		Lateral+part+of+parietal+serous+pericardium)
+	(Preferred+name [N_fma_p2_Instance_130187])
+	(regional+part
+		Anterior+part+of+parietal+serous+pericardium
+		Posterior+part+of+parietal+serous+pericardium
+		Superior+part+of+parietal+serous+pericardium
+		Inferior+part+of+parietal+serous+pericardium
+		Lateral+part+of+parietal+serous+pericardium)
+	(Synonym [KB_AUTO-INSERT2_7041]))
+
+([Zone+of+parotid+gland] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86138")
+	(Preferred+name [ONARD_Instance_10063])
+	(Synonym [KB_AUTO-INSERT2_6990]))
+
+([Zone+of+patella] of  Zone+of+bone+organ
+
+	(FMAID "43650")
+	(Preferred+name [KB_INSTANCE_55487])
+	(Synonym [KB_AUTO-INSERT2_7201]))
+
+([Zone+of+pectoralis+major] of  Zone+of+muscle+organ
+
+	(FMAID "34686")
+	(Preferred+name [KB_INSTANCE_44136])
+	(Synonym [KB_AUTO-INSERT2_7159]))
+
+([Zone+of+pelvic+fascia] of  Zone+of+abdominal+fascia
+
+	(FMAID "19097")
+	(Preferred+name [KB_INSTANCE_23972])
+	(Synonym [KB_AUTO-INSERT2_7600]))
+
+([Zone+of+pericardial+sac] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "225361")
+	(Preferred+name [ONARD_Instance_540027]))
+
+([Zone+of+perineal+fascia] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "20488")
+	(Preferred+name [fma_p2_Instance_750003])
+	(Synonym
+		[KB_INSTANCE_25852]
+		[KB_AUTO-INSERT2_7001]))
+
+([Zone+of+perineal+membrane] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "20494")
+	(Preferred+name [KB_INSTANCE_25856])
+	(Synonym [KB_AUTO-INSERT2_7039]))
+
+([Zone+of+petrous+part+of+temporal+bone] of  Zone+of+temporal+bone
+
+	(FMAID "55425")
+	(Preferred+name [KB_INSTANCE_70610]))
+
+([Zone+of+petrous+part+proper+of+temporal+bone] of  Zone+of+petrous+part+of+temporal+bone
+
+	(FMAID "56001")
+	(Preferred+name [KB_INSTANCE_71841]))
+
+([Zone+of+pillar+cell+of+cochlea] of  Cell+part
+
+	(dimension 3-dimension)
+	(FMAID "75728")
+	(Preferred+name [FM_live_09403]))
+
+([Zone+of+plantar+aponeurosis] of  Zone+of+investing+fascia+of+lower+limb
+
+	(FMAID "58807")
+	(Preferred+name [KB_INSTANCE_77639])
+	(Synonym [KB_AUTO-INSERT2_7612]))
+
+([Zone+of+plantar+fascia+of+foot] of  Zone+of+investing+fascia+of+lower+limb
+
+	(FMAID "58795")
+	(Preferred+name [KB_INSTANCE_77627]))
+
+([Zone+of+platysma] of  Zone+of+muscle+organ
+
+	(FMAID "45741")
+	(Preferred+name [KB_INSTANCE_58006])
+	(Synonym [KB_AUTO-INSERT2_7156]))
+
+([Zone+of+posterior+cerebral+artery] of  Zone+of+artery
+
+	(FMAID "50589")
+	(Preferred+name [KB_INSTANCE_63855])
+	(Synonym [KB_AUTO-INSERT2_7880]))
+
+([Zone+of+posterior+longitudinal+ligament] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "63979")
+	(Preferred+name [fm-live_01264])
+	(Synonym [KB_AUTO-INSERT2_7022]))
+
+([Zone+of+prevertebral+layer+of+cervical+fascia] of  Zone+of+investing+fascia
+
+	(FMAID "58377")
+	(Preferred+name [KB_INSTANCE_77051]))
+
+([Zone+of+prostate] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "74116")
+	(Preferred+name [fm_live_13670])
+	(Synonym [KB_AUTO-INSERT2_6981]))
+
+([Zone+of+prostatic+fascia] of  Zone+of+pelvic+fascia
+
+	(FMAID "79889")
+	(Preferred+name [fm_live_23990])
+	(Synonym [KB_AUTO-INSERT2_7607]))
+
+([Zone+of+prostatic+urethra] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86169")
+	(Preferred+name [ONARD_Instance_20066])
+	(Synonym [KB_AUTO-INSERT2_7019]))
+
+([Zone+of+proximal+epiphysis+of+femur] of  Proximal+epiphysis
+
+	(FMAID "32850")
+	(Preferred+name [KB_INSTANCE_40606]))
+
+([Zone+of+proximal+epiphysis+of+tibia] of  Proximal+epiphysis
+
+	(FMAID "33123")
+	(Preferred+name [KB_INSTANCE_41242])
+	(Synonym
+		[KB_INSTANCE_41243]
+		[KB_INSTANCE_41244]))
+
+([Zone+of+proximal+epiphysis+of+ulna] of  Proximal+epiphysis
+
+	(FMAID "61622")
+	(Preferred+name [KB_INSTANCE_81210]))
+
+([Zone+of+pubis] of  Zone+of+hip+bone
+
+	(FMAID "16986")
+	(Preferred+name [KB_INSTANCE_20337])
+	(Synonym [KB_AUTO-INSERT2_7487]))
+
+([Zone+of+pubococcygeus] of  Zone+of+levator+ani
+
+	(dimension 3-dimension)
+	(FMAID "77214")
+	(Preferred+name [fm_live_19172])
+	(Synonym [KB_AUTO-INSERT2_7184]))
+
+([Zone+of+pulmonary+artery] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "8760")
+	(Preferred+name [KB_INSTANCE_06556])
+	(Synonym [KB_AUTO-INSERT2_7034]))
+
+([Zone+of+quadriceps+femoris] of  Zone+of+muscle+organ
+
+	(FMAID "22429")
+	(Preferred+name [KB_INSTANCE_27997])
+	(Synonym [KB_AUTO-INSERT2_7169]))
+
+([Zone+of+ramus+of+mandible] of  Zone+of+mandible
+
+	(FMAID "59469")
+	(Preferred+name [KB_INSTANCE_78523]))
+
+([Zone+of+rectum] of  Zone+of+large+intestine
+
+	(FMAID "66329")
+	(Preferred+name [fm-live_06285])
+	(Synonym [KB_AUTO-INSERT2_7128]))
+
+([Zone+of+rectus+abdominis] of  Zone+of+muscle+organ
+
+	(FMAID "78641")
+	(Preferred+name [FM_live_09946])
+	(Synonym [KB_AUTO-INSERT2_7174]))
+
+([Zone+of+rectus+femoris] of  Zone+of+quadriceps+femoris
+
+	(FMAID "45860")
+	(Preferred+name [KB_INSTANCE_58113])
+	(Synonym [KB_AUTO-INSERT2_7186]))
+
+([Zone+of+right+coronary+artery] of  Organ+part
+
+	(FMAID "15087")
+	(Preferred+name [KB_INSTANCE_17129])
+	(Synonym [KB_AUTO-INSERT2_837]))
+
+([Zone+of+right+ventricle] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "223374")
+	(Preferred+name [Nance+FMA+LIVE_Instance_110005]))
+
+([Zone+of+rod+cell] of  Zone+of+cell
+
+	(FMAID "67788")
+	(Preferred+name [fm-live_14952])
+	(Synonym [KB_AUTO-INSERT2_8480]))
+
+([Zone+of+scapula] of  Zone+of+flat+bone
+
+	(FMAID "13451")
+	(Preferred+name [KB_INSTANCE_14421])
+	(Synonym [KB_AUTO-INSERT2_7427]))
+
+([Zone+of+skin] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86166")
+	(Preferred+name [ONARD_Instance_20060])
+	(Synonym [KB_AUTO-INSERT2_7017]))
+
+([Zone+of+skin+of+abdomen] of  Zone+of+skin+of+trunk
+
+	(FMAID "23000")
+	(Preferred+name [KB_INSTANCE_28693]))
+
+([Zone+of+skin+of+anterior+chest] of  Zone+of+skin+of+chest
+
+	(FMAID "61416")
+	(Preferred+name [KB_INSTANCE_80993]))
+
+([Zone+of+skin+of+back] of  Segment+of+skin
+
+	(FMAID "22985")
+	(Preferred+name [KB_INSTANCE_28678]))
+
+([Zone+of+skin+of+back+of+thorax] of  Zone+of+skin+of+back+of+trunk
+
+	(FMAID "23019")
+	(Preferred+name [KB_INSTANCE_28708]))
+
+([Zone+of+skin+of+back+of+trunk] of  Zone+of+skin+of+back
+
+	(FMAID "49944")
+	(Preferred+name [KB_INSTANCE_63057]))
+
+([Zone+of+skin+of+chest] of  Zone+of+skin+of+thorax
+
+	(FMAID "23094")
+	(Preferred+name [KB_INSTANCE_28835]))
+
+([Zone+of+skin+of+head] of  Zone+of+skin
+
+	(FMAID "24756")
+	(Preferred+name [KB_INSTANCE_31084]))
+
+([Zone+of+skin+of+mouth] of  Subdivision+of+skin+of+face
+
+	(FMAID "59355")
+	(Preferred+name [KB_INSTANCE_78384]))
+
+([Zone+of+skin+of+neck] of  Zone+of+skin
+
+	(FMAID "23022")
+	(Preferred+name [KB_INSTANCE_28714]))
+
+([Zone+of+skin+of+pectoral+part+of+chest] of  Zone+of+skin+of+anterior+chest
+
+	(FMAID "61417")
+	(Preferred+name [KB_INSTANCE_80994]))
+
+([Zone+of+skin+of+pelvis] of  Zone+of+skin+of+trunk
+
+	(FMAID "23097")
+	(Preferred+name [KB_INSTANCE_28838]))
+
+([Zone+of+skin+of+thorax] of  Zone+of+skin+of+trunk
+
+	(FMAID "23029")
+	(Preferred+name [KB_INSTANCE_28727]))
+
+([Zone+of+skin+of+trunk] of  Zone+of+skin
+
+	(FMAID "23093")
+	(Preferred+name [KB_INSTANCE_28834]))
+
+([Zone+of+small+intestine] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "14092")
+	(Non-English+equivalent [ONARD_Instance_580136])
+	(Preferred+name [KB_INSTANCE_15420])
+	(Synonym [KB_AUTO-INSERT2_6979]))
+
+([Zone+of+sphenoid] of  Zone+of+irregular+bone
+
+	(FMAID "52866")
+	(Preferred+name [KB_INSTANCE_66680])
+	(Synonym [KB_AUTO-INSERT2_7468]))
+
+([Zone+of+spinal+cord] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "83908")
+	(Preferred+name [live_incus_fm_13591])
+	(Synonym
+		[ONARD_Instance_2]
+		[KB_AUTO-INSERT2_6994]))
+
+([Zone+of+spine+of+scapula] of  Zone+of+scapula
+
+	(FMAID "23817")
+	(Preferred+name [KB_INSTANCE_29911]))
+
+([Zone+of+spleen] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "82539")
+	(Preferred+name [fm_live_27072])
+	(Synonym [KB_AUTO-INSERT2_6989]))
+
+([Zone+of+squamous+part+of+occipital+bone] of  Zone+of+occipital+bone
+
+	(FMAID "80356")
+	(Preferred+name [fm_live_24762]))
+
+([Zone+of+stapes] of  Zone+of+bone+organ
+
+	(FMAID "52757")
+	(Preferred+name [KB_INSTANCE_66516])
+	(Synonym [KB_AUTO-INSERT2_7198]))
+
+([Zone+of+sternocostal+part+of+pectoralis+major] of  Zone+of+pectoralis+major
+
+	(FMAID "79978")
+	(Preferred+name [fm_live_24142]))
+
+([Zone+of+sternum] of  Zone+of+bone+organ
+
+	(FMAID "12215")
+	(Preferred+name [KB_INSTANCE_12310])
+	(Synonym [KB_AUTO-INSERT2_7200]))
+
+([Zone+of+stomach] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "14558")
+	(Preferred+name [KB_INSTANCE_16114])
+	(Synonym [KB_AUTO-INSERT2_6980]))
+
+([Zone+of+styloglossus] of  Zone+of+muscle+organ
+
+	(FMAID "49436")
+	(Preferred+name [KB_INSTANCE_62366])
+	(Synonym [KB_AUTO-INSERT2_7147]))
+
+([Zone+of+submandibular+gland] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86139")
+	(Preferred+name [ONARD_Instance_10065])
+	(Synonym [KB_AUTO-INSERT2_6991]))
+
+([Zone+of+superficial+fascia] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86156")
+	(Preferred+name [ONARD_Instance_20048])
+	(Synonym [KB_AUTO-INSERT2_6998]))
+
+([Zone+of+superficial+fascia+of+back+of+thorax] of  Zone+of+superficial+fascia
+
+	(FMAID "87584")
+	(Preferred+name [ONARD_Instance_250025]))
+
+([Zone+of+superficial+fascia+of+breast] of  Zone+of+superficial+fascia+of+breast
+
+	(FMAID "19892")
+	(Preferred+name [KB_INSTANCE_25095]))
+
+([Zone+of+superficial+fascia+of+external+ear] of  Zone+of+superficial+fascia+of+head
+
+	(FMAID "61715")
+	(Preferred+name [KB_INSTANCE_81313]))
+
+([Zone+of+superficial+fascia+of+external+nose] of  Zone+of+superficial+fascia+of+external+nose
+
+	(FMAID "59548")
+	(Preferred+name [KB_INSTANCE_78636]))
+
+([Zone+of+superficial+fascia+of+female+perineum] of  Superficial+fascia+of+zone+of+perineum
+
+	(FMAID "20725")
+	(Preferred+name [KB_INSTANCE_26118]))
+
+([Zone+of+superficial+fascia+of+head] of  Zone+of+superficial+fascia
+
+	(FMAID "86157")
+	(Preferred+name [ONARD_Instance_20050]))
+
+([Zone+of+superficial+fascia+of+limb] of  Zone+of+superficial+fascia
+
+	(FMAID "86159")
+	(Preferred+name [ONARD_Instance_20054]))
+
+([Zone+of+superficial+fascia+of+male+perineum] of  Superficial+fascia+of+zone+of+perineum
+
+	(FMAID "20724")
+	(Preferred+name [KB_INSTANCE_26117]))
+
+([Zone+of+superficial+fascia+of+pectoral+part+of+chest] of  Superficial+fascia+of+zone+of+anterior+chest
+
+	(FMAID "61645")
+	(Preferred+name [KB_INSTANCE_81236]))
+
+([Zone+of+superficial+penile+fascia] of  Superficial+fascia+of+zone+of+perineum
+
+	(FMAID "20440")
+	(Preferred+name [KB_INSTANCE_25800])
+	(Synonym [KB_AUTO-INSERT2_7873]))
+
+([Zone+of+superior+pharyngeal+constrictor] of  Zone+of+muscle+organ
+
+	(FMAID "46637")
+	(Preferred+name [KB_INSTANCE_59203])
+	(Synonym
+		[KB_INSTANCE_59204]
+		[KB_AUTO-INSERT2_7148]))
+
+([Zone+of+supinator] of  Zone+of+muscle+organ
+
+	(FMAID "49244")
+	(Preferred+name [KB_INSTANCE_62158])
+	(Synonym [KB_AUTO-INSERT2_7165]))
+
+([Zone+of+suspensory+ligament+of+duodenum] of  Zone+of+abdominal+fascia
+
+	(dimension 3-dimension)
+	(FMAID "77193")
+	(Preferred+name [su_incus_32894]))
+
+([Zone+of+tail+of+spermatozoon] of  Zone+of+flagellum
+
+	(FMAID "67381")
+	(Preferred+name [fm-live_09636]))
+
+([Zone+of+temporal+bone] of  Zone+of+flat+bone
+
+	(FMAID "52870")
+	(Preferred+name [KB_INSTANCE_66691])
+	(Synonym [KB_AUTO-INSERT2_7426]))
+
+([Zone+of+terminal+lactiferous+duct] of  Zone+of+lactiferous+duct
+
+	(FMAID "62127")
+	(Preferred+name [fm-live_12663])
+	(Synonym [KB_AUTO-INSERT2_7773]))
+
+([Zone+of+testis] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86311")
+	(Preferred+name [ONARD_Instance_80021])
+	(Synonym [KB_AUTO-INSERT2_7037]))
+
+([Zone+of+thoracolumbar+fascia] of  Zone+of+investing+fascia
+
+	(FMAID "25073")
+	(Preferred+name [KB_INSTANCE_31486])
+	(Synonym [KB_AUTO-INSERT2_7609]))
+
+([Zone+of+thyro-arytenoid] of  Zone+of+muscle+organ
+
+	(FMAID "46595")
+	(Preferred+name [KB_INSTANCE_59099])
+	(Synonym
+		[KB_INSTANCE_59101]
+		[KB_AUTO-INSERT2_7154]))
+
+([Zone+of+thyroid+gland] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "49176")
+	(Preferred+name [KB_INSTANCE_62070])
+	(Synonym [KB_AUTO-INSERT2_7029]))
+
+([Zone+of+tongue] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "54643")
+	(Preferred+name [KB_INSTANCE_69426])
+	(Synonym [KB_AUTO-INSERT2_7023]))
+
+([Zone+of+transversalis+fascia] of  Zone+of+endoabdominal+fascia
+
+	(FMAID "20505")
+	(Preferred+name [KB_INSTANCE_25872])
+	(Synonym [KB_AUTO-INSERT2_7605]))
+
+([Zone+of+transversus+abdominis] of  Zone+of+muscle+organ
+
+	(FMAID "65140")
+	(Preferred+name [fm-live_03656])
+	(Synonym [KB_AUTO-INSERT2_7163]))
+
+([Zone+of+trapezius] of  Zone+of+muscle+organ
+
+	(FMAID "32529")
+	(Preferred+name [KB_INSTANCE_40109])
+	(Synonym [KB_AUTO-INSERT2_7158]))
+
+([Zone+of+triplet+microtubule+of+kinetosome+of+cilium] of  Zone+of+kinetosome+of+cilium
+
+	(FMAID "62298")
+	(Preferred+name [fm-live_12988]))
+
+([Zone+of+trunk+of+azygos+vein] of  Organ+part
+
+	(FMAID "67316")
+	(Preferred+name [fm-live_08766]))
+
+([Zone+of+trunk+of+common+iliac+vein] of  Organ+part
+
+	(FMAID "78255")
+	(Preferred+name [fm_live_20375]))
+
+([Zone+of+trunk+of+coronary+artery] of  Zone+of+arterial+trunk
+
+	(FMAID "87210")
+	(Preferred+name [ONARD_Instance_200017]))
+
+([Zone+of+trunk+of+dorsal+digital+artery] of  Zone+of+arterial+trunk
+
+	(FMAID "69616")
+	(Preferred+name [fm_live_08742]))
+
+([Zone+of+trunk+of+facial+nerve] of  Zone+of+nerve
+
+	(FMAID "77487")
+	(Preferred+name [fm_live_19488]))
+
+([Zone+of+trunk+of+lateral+plantar+artery] of  Organ+part
+
+	(FMAID "69559")
+	(Preferred+name [fm_live_08626]))
+
+([Zone+of+trunk+of+left+coronary+artery] of  Zone+of+trunk+of+coronary+artery
+
+	(FMAID "87212")
+	(Preferred+name [ONARD_Instance_200021]))
+
+([Zone+of+trunk+of+plantar+digital+artery] of  Zone+of+arterial+trunk
+
+	(FMAID "69649")
+	(Preferred+name [fm_live_08813]))
+
+([Zone+of+trunk+of+right+coronary+artery] of  Zone+of+trunk+of+coronary+artery
+
+	(FMAID "87211")
+	(Preferred+name [ONARD_Instance_200019]))
+
+([Zone+of+trunk+of+subclavian+vein] of  Organ+part
+
+	(FMAID "78254")
+	(Preferred+name [fm_live_20373]))
+
+([Zone+of+trunk+of+vagus+nerve] of  Zone+of+nerve
+
+	(FMAID "52608")
+	(Preferred+name [KB_INSTANCE_66268]))
+
+([Zone+of+tubercle+of+rib] of  Bony+zone+of+rib
+
+	(FMAID "66089")
+	(Preferred+name [fm-live_05761]))
+
+([Zone+of+tympanic+membrane] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "56720")
+	(Preferred+name [KB_INSTANCE_73899])
+	(Synonym [KB_AUTO-INSERT2_7011]))
+
+([Zone+of+tympanic+part+of+temporal+bone] of  Zone+of+temporal+bone
+
+	(dimension 3-dimension)
+	(FMAID "75765")
+	(Preferred+name [su_incus_29837]))
+
+([Zone+of+umbilical+artery] of  Zone+of+artery
+
+	(dimension 3-dimension)
+	(FMAID "77150")
+	(Preferred+name [su_incus_32888])
+	(Synonym [KB_AUTO-INSERT2_7889]))
+
+([Zone+of+urinary+bladder] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "15901")
+	(Preferred+name [KB_INSTANCE_18410])
+	(Synonym [KB_AUTO-INSERT2_7030]))
+
+([Zone+of+uterine+tube] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "18302")
+	(Preferred+name [KB_INSTANCE_22468])
+	(Synonym
+		[KB_INSTANCE_22469]
+		[KB_INSTANCE_22470]
+		[KB_AUTO-INSERT2_7014]))
+
+([Zone+of+uterus] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "17559")
+	(Preferred+name [KB_INSTANCE_21217])
+	(Synonym [KB_AUTO-INSERT2_7016]))
+
+([Zone+of+vagina] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86168")
+	(Preferred+name [ONARD_Instance_20064])
+	(Synonym [KB_AUTO-INSERT2_7018]))
+
+([Zone+of+vein] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "67319")
+	(Preferred+name [fm-live_08768])
+	(Synonym [KB_AUTO-INSERT2_7033]))
+
+([Zone+of+ventrum+of+tongue] of  Zone+of+body+of+tongue
+
+	(FMAID "54666")
+	(Preferred+name [KB_INSTANCE_69474]))
+
+([Zone+of+vertebra] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "85304")
+	(Preferred+name [fma_p2_Instance_20001])
+	(Synonym [KB_AUTO-INSERT2_6996]))
+
+([Zone+of+visceral+serous+pericardium] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "86695")
+	(part
+		Anterior+part+of+visceral+serous+pericardium
+		Posterior+part+of+visceral+serous+pericardium
+		Superior+part+of+visceral+serous+pericardium
+		Inferior+part+of+visceral+serous+pericardium
+		Lateral+part+of+visceral+serous+pericardium)
+	(Preferred+name [N_fma_p2_Instance_130185])
+	(regional+part
+		Anterior+part+of+visceral+serous+pericardium
+		Posterior+part+of+visceral+serous+pericardium
+		Superior+part+of+visceral+serous+pericardium
+		Inferior+part+of+visceral+serous+pericardium
+		Lateral+part+of+visceral+serous+pericardium)
+	(Synonym [KB_AUTO-INSERT2_7040]))
+
+([Zone+of+viscerocranial+mucosa] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "59659")
+	(Preferred+name [KB_INSTANCE_78761])
+	(Synonym [KB_AUTO-INSERT2_7008]))
+
+([Zone+of+vomer] of  Zone+of+flat+bone
+
+	(FMAID "57673")
+	(Preferred+name [KB_INSTANCE_75995])
+	(Synonym [KB_AUTO-INSERT2_7425]))
+
+([Zone+of+wall+of+bony+labyrinth] of  Zone+of+petrous+part+proper+of+temporal+bone
+
+	(FMAID "77645")
+	(Preferred+name [fm_live_19525]))
+
+([Zone+of+zygomatic+process+of+temporal+bone] of  Zone+of+temporal+bone
+
+	(FMAID "55415")
+	(Preferred+name [KB_INSTANCE_70598]))
+
+([Zonular+space] of  Interstitial+space
+
+	(FMAID "58982")
+	(Preferred+name [KB_INSTANCE_77905]))
+
+([Zygomatic+arch] of  Subdivision+of+skeletal+system
+
+	(FMAID "53120")
+	(Non-English+equivalent
+		[KB_INSTANCE_67140]
+		[KB_AUTO-INSERT%283%29_265])
+	(Preferred+name [KB_INSTANCE_67139])
+	(Synonym [KB_INSTANCE_67141]))
+
+([Zygomatic+bone] of  Irregular+bone
+
+	(constitutional+part+of Cheek)
+	(FMAID "52747")
+	(member+of Skeleton+of+head)
+	(Non-English+equivalent
+		[KB_INSTANCE_66501]
+		[KB_AUTO-INSERT%283%29_451])
+	(Preferred+name [KB_INSTANCE_66498])
+	(Synonym
+		[KB_INSTANCE_66499]
+		[KB_INSTANCE_66500]))
+
+([Zygomatic+branch+of+facial+nerve] of  Branch+of+facial+nerve
+
+	(branch
+		Branch+of+zygomatic+branch+of+facial+nerve+to+orbicularis+oculi
+		Communicating+branch+of+zygomatic+branch+of+facial+nerve+with+lacrimal+nerve
+		Communicating+branch+of+zygomatic+branch+of+facial+nerve+with+zygomaticofacial+branch+of+zygomatic+nerve)
+	(branch+of Facial+nerve)
+	(FMAID "53307")
+	(Preferred+name [KB_INSTANCE_67422])
+	(Synonym [KB_INSTANCE_67423]))
+
+([Zygomatic+branch+of+lacrimal+artery] of  Systemic+artery
+
+	(branch+of Lacrimal+artery)
+	(FMAID "49934")
+	(Preferred+name [KB_INSTANCE_63047]))
+
+([Zygomatic+branch+of+left+facial+nerve] of  Zygomatic+branch+of+facial+nerve
+
+	(branch
+		Branch+of+zygomatic+branch+of+left+facial+nerve+to+left+orbicularis+oculi
+		Communicating+branch+of+zygomatic+branch+of+left+facial+nerve+with+left+lacrimal+nerve
+		Communicating+branch+of+zygomatic+branch+of+left+facial+nerve+with+zygomaticofacial+branch+of+left+zygomatic+nerve)
+	(branch+of Left+facial+nerve)
+	(FMAID "53309")
+	(Preferred+name [KB_INSTANCE_67425]))
+
+([Zygomatic+branch+of+left+lacrimal+artery] of  Systemic+artery
+
+	(branch+of Left+lacrimal+artery)
+	(FMAID "49936")
+	(Preferred+name [KB_INSTANCE_63049]))
+
+([Zygomatic+branch+of+right+facial+nerve] of  Zygomatic+branch+of+facial+nerve
+
+	(branch
+		Branch+of+zygomatic+branch+of+right+facial+nerve+to+right+orbicularis+oculi
+		Communicating+branch+of+zygomatic+branch+of+right+facial+nerve+with+right+lacrimal+nerve
+		Communicating+branch+of+zygomatic+branch+of+right+facial+nerve+with+zygomaticofacial+branch+of+right+zygomatic+nerve)
+	(branch+of Right+facial+nerve)
+	(FMAID "53308")
+	(Preferred+name [KB_INSTANCE_67424]))
+
+([Zygomatic+branch+of+right+lacrimal+artery] of  Systemic+artery
+
+	(branch+of Right+lacrimal+artery)
+	(FMAID "49935")
+	(Preferred+name [KB_INSTANCE_63048]))
+
+([Zygomatic+margin+of+greater+wing+of+sphenoid] of  Margin+of+greater+wing+of+sphenoid
+
+	(FMAID "53512")
+	(Preferred+name [KB_INSTANCE_67744])
+	(Synonym [KB_INSTANCE_67745]))
+
+([Zygomatic+margin+of+sphenoid] of  Anatomical+line+of+bone
+
+	(FMAID "75046")
+	(Non-English+equivalent [su_incus_40567])
+	(Preferred+name [su_incus_25236]))
+
+([Zygomatic+nerve] of  Branch+of+maxillary+nerve
+
+	(branch
+		Zygomaticotemporal+branch+of+zygomatic+nerve
+		Zygomaticofacial+branch+of+zygomatic+nerve)
+	(branch+of Maxillary+nerve)
+	(FMAID "52967")
+	(Non-English+equivalent
+		[KB_INSTANCE_66900]
+		[KB_AUTO-INSERT%283%29_3984])
+	(Preferred+name [KB_INSTANCE_66899]))
+
+([Zygomatic+part+of+cheek] of  Subdivision+of+cheek
+
+	(constitutional+part Superficial+fascia+of+zygomatic+part+of+cheek)
+	(FMAID "60966")
+	(Non-English+equivalent
+		[su_incus_38284]
+		[KB_AUTO-INSERT%283%29_92])
+	(part+of Cheek)
+	(Preferred+name [KB_INSTANCE_80359])
+	(regional+part+of Cheek)
+	(Synonym
+		[fm_live_16279]
+		[fm_live_16291]))
+
+([Zygomatic+part+of+left+cheek] of  Zygomatic+part+of+cheek
+
+	(constitutional+part
+		Skin+of+zygomatic+part+of+left+cheek
+		Superficial+fascia+of+zygomatic+part+of+left+cheek)
+	(FMAID "60968")
+	(part+of Left+cheek)
+	(Preferred+name [KB_INSTANCE_80361])
+	(regional+part+of Left+cheek)
+	(Synonym
+		[fm_live_16281]
+		[fm_live_16293]))
+
+([Zygomatic+part+of+right+cheek] of  Zygomatic+part+of+cheek
+
+	(constitutional+part
+		Skin+of+zygomatic+part+of+right+cheek
+		Superficial+fascia+of+zygomatic+part+of+right+cheek)
+	(FMAID "60967")
+	(part+of Right+cheek)
+	(Preferred+name [KB_INSTANCE_80360])
+	(regional+part+of Right+cheek)
+	(Synonym
+		[fm_live_16280]
+		[fm_live_16292]))
+
+([Zygomatic+process+of+frontal+bone] of  Process+of+organ
+
+	(FMAID "54389")
+	(Non-English+equivalent [su_incus_37891])
+	(Preferred+name [KB_INSTANCE_69045])
+	(Synonym [KB_INSTANCE_69046]))
+
+([Zygomatic+process+of+left+maxilla] of  Zygomatic+process+of+maxilla
+
+	(FMAID "57689")
+	(part+of Left+maxilla)
+	(Preferred+name [KB_INSTANCE_76016])
+	(regional+part+of Left+maxilla))
+
+([Zygomatic+process+of+left+temporal+bone] of  Zygomatic+process+of+temporal+bone
+
+	(FMAID "52888")
+	(part
+		Anterior+part+of+zygomatic+process+of+left+temporal+bone
+		Posterior+part+of+zygomatic+process+of+left+temporal+bone)
+	(part+of
+		Squamous+part+of+left+temporal+bone
+		Left+zygomatic+arch)
+	(Preferred+name [KB_INSTANCE_66728])
+	(regional+part
+		Anterior+part+of+zygomatic+process+of+left+temporal+bone
+		Posterior+part+of+zygomatic+process+of+left+temporal+bone)
+	(regional+part+of
+		Squamous+part+of+left+temporal+bone
+		Left+zygomatic+arch)
+	(Synonym
+		[KB_INSTANCE_66729]
+		[KB_INSTANCE_66730]))
+
+([Zygomatic+process+of+maxilla] of  Process+of+organ
+
+	(FMAID "52895")
+	(Non-English+equivalent [su_incus_37980])
+	(Preferred+name [KB_INSTANCE_66745])
+	(Synonym
+		[KB_INSTANCE_66746]
+		[KB_INSTANCE_66747]))
+
+([Zygomatic+process+of+right+maxilla] of  Zygomatic+process+of+maxilla
+
+	(FMAID "57688")
+	(part+of Right+maxilla)
+	(Preferred+name [KB_INSTANCE_76015])
+	(regional+part+of Right+maxilla))
+
+([Zygomatic+process+of+right+temporal+bone] of  Zygomatic+process+of+temporal+bone
+
+	(FMAID "52887")
+	(part
+		Posterior+part+of+zygomatic+process+of+right+temporal+bone
+		Anterior+part+of+zygomatic+process+of+right+temporal+bone)
+	(part+of
+		Squamous+part+of+right+temporal+bone
+		Right+zygomatic+arch)
+	(Preferred+name [KB_INSTANCE_66725])
+	(regional+part
+		Posterior+part+of+zygomatic+process+of+right+temporal+bone
+		Anterior+part+of+zygomatic+process+of+right+temporal+bone)
+	(regional+part+of
+		Squamous+part+of+right+temporal+bone
+		Right+zygomatic+arch)
+	(Synonym
+		[KB_INSTANCE_66726]
+		[KB_INSTANCE_66727]))
+
+([Zygomatic+process+of+temporal+bone] of  Process+of+organ
+
+	(FMAID "52886")
+	(Non-English+equivalent [su_incus_37936])
+	(Preferred+name [KB_INSTANCE_66722])
+	(Synonym
+		[KB_INSTANCE_66723]
+		[KB_INSTANCE_66724]))
+
+([Zygomatico-orbital+artery] of  Systemic+artery
+
+	(branch+of Superficial+temporal+artery)
+	(FMAID "49663")
+	(Non-English+equivalent
+		[su_incus_36914]
+		[KB_AUTO-INSERT%283%29_2502])
+	(Preferred+name [KB_INSTANCE_62677]))
+
+([Zygomatico-orbital+foramen] of  Cranial+conduit
+
+	(FMAID "53168")
+	(Non-English+equivalent
+		[KB_INSTANCE_67223]
+		[KB_AUTO-INSERT%283%29_452])
+	(Preferred+name [KB_INSTANCE_67222]))
+
+([Zygomaticofacial+branch+of+left+zygomatic+nerve] of  Zygomaticofacial+branch+of+zygomatic+nerve
+
+	(branch+of Left+zygomatic+nerve)
+	(FMAID "52977")
+	(Preferred+name [KB_INSTANCE_66914]))
+
+([Zygomaticofacial+branch+of+right+zygomatic+nerve] of  Zygomaticofacial+branch+of+zygomatic+nerve
+
+	(branch+of Right+zygomatic+nerve)
+	(FMAID "52976")
+	(Preferred+name [KB_INSTANCE_66913]))
+
+([Zygomaticofacial+branch+of+zygomatic+nerve] of  Branch+of+zygomatic+nerve
+
+	(branch+of Zygomatic+nerve)
+	(FMAID "52973")
+	(Non-English+equivalent [su_incus_36561])
+	(Preferred+name [KB_INSTANCE_66909])
+	(Synonym [KB_INSTANCE_66910]))
+
+([Zygomaticofacial+foramen] of  Cranial+conduit
+
+	(FMAID "53169")
+	(Non-English+equivalent
+		[su_incus_40177]
+		[KB_AUTO-INSERT%283%29_453])
+	(Preferred+name [KB_INSTANCE_67224])
+	(Synonym [KB_INSTANCE_67225]))
+
+([Zygomaticomaxillary+suture] of  Suture
+
+	(FMAID "52953")
+	(Non-English+equivalent
+		[su_incus_33561]
+		[KB_INSTANCE_66856]
+		[KB_AUTO-INSERT%283%29_432])
+	(Preferred+name [KB_INSTANCE_66855])
+	(Synonym [KB_INSTANCE_66857]))
+
+([Zygomaticotemporal+branch+of+left+zygomatic+nerve] of  Zygomaticotemporal+branch+of+zygomatic+nerve
+
+	(branch+of Left+zygomatic+nerve)
+	(FMAID "52975")
+	(Preferred+name [KB_INSTANCE_66912]))
+
+([Zygomaticotemporal+branch+of+right+zygomatic+nerve] of  Zygomaticotemporal+branch+of+zygomatic+nerve
+
+	(branch+of Right+zygomatic+nerve)
+	(FMAID "52974")
+	(Preferred+name [KB_INSTANCE_66911]))
+
+([Zygomaticotemporal+branch+of+zygomatic+nerve] of  Branch+of+zygomatic+nerve
+
+	(branch+of Zygomatic+nerve)
+	(FMAID "52972")
+	(Non-English+equivalent [su_incus_36560])
+	(Preferred+name [KB_INSTANCE_66907])
+	(Synonym [KB_INSTANCE_66908]))
+
+([Zygomaticotemporal+foramen] of  Cranial+conduit
+
+	(FMAID "53170")
+	(Non-English+equivalent
+		[KB_INSTANCE_67227]
+		[KB_AUTO-INSERT%283%29_454])
+	(Preferred+name [KB_INSTANCE_67226]))
+
+([Zygomaticus+major] of  Muscle+of+face
+
+	(FMAID "46810")
+	(member+of Set+of+muscles+of+face)
+	(nerve+supply Nerve+to+zygomaticus+major)
+	(Non-English+equivalent
+		[KB_INSTANCE_59592]
+		[KB_AUTO-INSERT%283%29_1048])
+	(Preferred+name [KB_INSTANCE_59591]))
+
+([Zygomaticus+minor] of  Muscle+of+face
+
+	(FMAID "46811")
+	(member+of Set+of+muscles+of+face)
+	(nerve+supply Nerve+to+zygomaticus+minor)
+	(Non-English+equivalent
+		[KB_INSTANCE_59595]
+		[KB_AUTO-INSERT%283%29_1049])
+	(Preferred+name [KB_INSTANCE_59594]))
+
+([Zygote] of  Germ+cell
+
+	(FMAID "72395")
+	(Preferred+name [fm_live_12714]))
+
+([Zymogen+granule] of  Membranous+cytoplasmic+organelle
+
+	(FMAID "63034")
+	(Preferred+name [FM_live_01486]))
+

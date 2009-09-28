@@ -1,0 +1,261 @@
+([Quadrangular+membrane] of  Fibro-elastic+membrane+of+larynx
+
+	(constitutional+part+of Larynx)
+	(FMAID "55247")
+	(Non-English+equivalent
+		[KB_INSTANCE_70357]
+		[KB_AUTO-INSERT%283%29_1989])
+	(part
+		Vestibular+ligament
+		Quadrangular+membrane+proper)
+	(part+of
+		Larynx
+		Vestibular+part+of+larynx)
+	(Preferred+name [KB_INSTANCE_70356])
+	(regional+part
+		Vestibular+ligament
+		Quadrangular+membrane+proper)
+	(regional+part+of Vestibular+part+of+larynx)
+	(systemic+part+of Vestibular+part+of+larynx))
+
+([Quadrangular+membrane+proper] of  Region+of+organ+component
+
+	(FMAID "64150")
+	(part+of Quadrangular+membrane)
+	(Preferred+name [fm-live_01971])
+	(regional+part+of Quadrangular+membrane))
+
+([Quadrant+of+breast] of  Region+of+breast
+
+	(FMAID "61373")
+	(Preferred+name [KB_INSTANCE_80924])
+	(regional+part+of Breast)
+	(Synonym [KB_AUTO-INSERT2_8724]))
+
+([Quadrate+ligament+of+left+radius] of  Quadrate+ligament+of+radius
+
+	(FMAID "38902")
+	(Preferred+name [KB_INSTANCE_50332]))
+
+([Quadrate+ligament+of+radius] of  Ligament+of+elbow+joint
+
+	(FMAID "38900")
+	(Non-English+equivalent
+		[su_incus_35494]
+		[KB_AUTO-INSERT%283%29_577])
+	(part+of
+		Humeroulnar+joint
+		Proximal+radio-ulnar+joint
+		Humeroradial+joint
+		Elbow+joint)
+	(Preferred+name [KB_INSTANCE_50330])
+	(regional+part+of
+		Humeroulnar+joint
+		Proximal+radio-ulnar+joint
+		Humeroradial+joint
+		Elbow+joint)
+	(Synonym [su_incus_31760]))
+
+([Quadrate+ligament+of+right+radius] of  Quadrate+ligament+of+radius
+
+	(FMAID "38901")
+	(Preferred+name [KB_INSTANCE_50331]))
+
+([Quadrate+lobe+branch+of+hepatic+plexus] of  Intrahepatic+branch+of+hepatic+plexus
+
+	(dimension 3-dimension)
+	(FMAID "72221")
+	(Preferred+name [fm_live_12586]))
+
+([Quadrate+lobe+branch+of+left+portal+vein] of  Hepatic+portal+vein
+
+	(branch+of Left+portal+vein)
+	(FMAID "15426")
+	(part+of Left+portal+vein)
+	(Preferred+name [KB_INSTANCE_17589])
+	(regional+part+of Left+portal+vein))
+
+([Quadrate+lobe+of+liver] of  Lobular+organ+component
+
+	(constitutional+part
+		Serosa+of+quadrate+lobe+of+liver
+		Parenchyma+of+quadrate+lobe+of+liver
+		Vasculature+of+quadrate+lobe+of+liver)
+	(FMAID "13364")
+	(Non-English+equivalent [su_incus_38149])
+	(part
+		Parenchyma+of+quadrate+lobe+of+liver
+		Stroma+of+quadrate+lobe+of+liver
+		Subserosa+of+quadrate+lobe+of+liver
+		Serosa+of+quadrate+lobe+of+liver)
+	(part+of
+		Left+lobe+of+liver
+		Liver)
+	(Preferred+name [KB_INSTANCE_14255])
+	(regional+part
+		Parenchyma+of+quadrate+lobe+of+liver
+		Stroma+of+quadrate+lobe+of+liver
+		Subserosa+of+quadrate+lobe+of+liver
+		Serosa+of+quadrate+lobe+of+liver)
+	(regional+part+of Left+lobe+of+liver)
+	(Synonym [KB_INSTANCE_14256]))
+
+([Quadrate+muscle] of  Non-physical+anatomical+entity+template
+
+	(FMAID "74985")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_996])
+	(Preferred+name [su_incus_24389]))
+
+([Quadrate+tubercle+of+femur] of  Tubercle
+
+	(FMAID "43709")
+	(Non-English+equivalent [su_incus_37860])
+	(Preferred+name [KB_INSTANCE_55554])
+	(Synonym [KB_INSTANCE_55555]))
+
+([Quadrate+tubercle+of+left+femur] of  Quadrate+tubercle+of+femur
+
+	(FMAID "43711")
+	(Preferred+name [KB_INSTANCE_55557]))
+
+([Quadrate+tubercle+of+right+femur] of  Quadrate+tubercle+of+femur
+
+	(FMAID "43710")
+	(Preferred+name [KB_INSTANCE_55556]))
+
+([Quadratus+femoris] of  Gluteal+muscle
+
+	(FMAID "22321")
+	(nerve+supply Nerve+to+quadratus+femoris)
+	(Non-English+equivalent
+		[KB_INSTANCE_27839]
+		[KB_AUTO-INSERT%283%29_1334])
+	(Preferred+name [KB_INSTANCE_27838])
+	(segmental+supply
+		L5
+		S1)
+	(systemic+part+of Musculature+of+pelvic+girdle))
+
+([Quadratus+femoris+part+of+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Inferior+gluteal+artery)
+	(FMAID "22265")
+	(Preferred+name [KB_INSTANCE_27764]))
+
+([Quadratus+femoris+part+of+left+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Left+inferior+gluteal+artery)
+	(FMAID "22278")
+	(Preferred+name [KB_INSTANCE_27777]))
+
+([Quadratus+femoris+part+of+right+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Right+inferior+gluteal+artery)
+	(FMAID "22277")
+	(Preferred+name [KB_INSTANCE_27776]))
+
+([Quadratus+lumborum] of  Muscle+of+abdomen
+
+	(constitutional+part+of Posterior+abdominal+wall)
+	(FMAID "15569")
+	(member+of
+		Set+of+prevertebral+muscles
+		Musculature+of+abdomen)
+	(nerve+supply Nerve+to+quadratus+lumborum)
+	(Non-English+equivalent
+		[su_incus_35385]
+		[KB_AUTO-INSERT%283%29_1198])
+	(part+of Posterior+abdominal+wall)
+	(Preferred+name [KB_INSTANCE_17767])
+	(segmental+supply
+		T12
+		L1
+		L2
+		L3
+		L4)
+	(Synonym [fm_live_12199]))
+
+([Quadratus+lumborum+division+of+lumbar+part+of+iliolumbar+artery] of  Systemic+artery
+
+	(branch+of Lumbar+part+of+iliolumbar+artery)
+	(FMAID "22305")
+	(Preferred+name [KB_INSTANCE_27808]))
+
+([Quadratus+lumborum+division+of+lumbar+part+of+left+iliolumbar+artery] of  Systemic+artery
+
+	(branch+of Lumbar+part+of+left+iliolumbar+artery)
+	(FMAID "22309")
+	(Preferred+name [KB_INSTANCE_27812]))
+
+([Quadratus+lumborum+division+of+lumbar+part+of+right+iliolumbar+artery] of  Systemic+artery
+
+	(branch+of Lumbar+part+of+right+iliolumbar+artery)
+	(FMAID "22308")
+	(Preferred+name [KB_INSTANCE_27811]))
+
+([Quadriceps+femoris] of  Muscle+of+anterior+compartment+of+thigh
+
+	(FMAID "22428")
+	(member+of Musculature+of+anterior+compartment+of+thigh)
+	(Non-English+equivalent
+		[KB_INSTANCE_27995]
+		[KB_AUTO-INSERT%283%29_1336])
+	(part
+		Rectus+femoris
+		Vastus+medialis
+		Vastus+intermedius
+		Vastus+lateralis
+		Tendon+of+quadriceps+femoris)
+	(part+of Lower+limb)
+	(Preferred+name [KB_INSTANCE_27994])
+	(regional+part
+		Rectus+femoris
+		Vastus+medialis
+		Vastus+intermedius
+		Vastus+lateralis
+		Tendon+of+quadriceps+femoris)
+	(secondary+segmental+supply L2)
+	(Synonym [fm-live_02620])
+	(systemic+part+of Musculature+of+anterior+compartment+of+thigh))
+
+([Quadrilateral] of  Non-physical+anatomical+entity+template
+
+	(FMAID "21432")
+	(Preferred+name [fm_live_10300]))
+
+([Quadrilateral+part+of+left+sphenoidal+concha] of  Quadrilateral+part+of+sphenoidal+concha
+
+	(FMAID "54927")
+	(part+of Left+sphenoidal+concha)
+	(Preferred+name [KB_INSTANCE_69810])
+	(regional+part+of Left+sphenoidal+concha))
+
+([Quadrilateral+part+of+right+sphenoidal+concha] of  Quadrilateral+part+of+sphenoidal+concha
+
+	(FMAID "54926")
+	(part+of Right+sphenoidal+concha)
+	(Preferred+name [KB_INSTANCE_69809])
+	(regional+part+of Right+sphenoidal+concha))
+
+([Quadrilateral+part+of+sphenoidal+concha] of  Zone+of+sphenoid
+
+	(FMAID "54925")
+	(Preferred+name [KB_INSTANCE_69808]))
+
+([Qualitative+coordinate+value] of  Non-physical+anatomical+entity+template
+
+	(FMAID "72647")
+	(Preferred+name [fm_live_12871]))
+
+([Quarternary+cremasteric+vein] of  Organ+part
+
+	(FMAID "22479")
+	(Preferred+name [KB_INSTANCE_28072]))
+
+([Quarternary+lactiferous+duct] of  Organ+part
+
+	(constitutional+part Wall+of+quarternary+lactiferous+duct)
+	(dimension 3-dimension)
+	(FMAID "74432")
+	(Preferred+name [fm_live_15007]))
+

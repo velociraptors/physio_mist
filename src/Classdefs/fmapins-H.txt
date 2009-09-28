@@ -1,0 +1,6865 @@
+([H+I+cell+of+retina] of  Horizontal+cell+of+retina
+
+	(FMAID "67913")
+	(Preferred+name [fm-live_15486]))
+
+([H+II+cell+of+retina] of  Horizontal+cell+of+retina
+
+	(FMAID "67914")
+	(Preferred+name [fm-live_15488]))
+
+([H+III+cell+of+retina] of  Horizontal+cell+of+retina
+
+	(FMAID "67915")
+	(Preferred+name [fm-live_15490]))
+
+([H-band] of  Region+of+myofibril
+
+	(FMAID "67926")
+	(part+of Sarcomere)
+	(Preferred+name [fm-live_13347])
+	(regional+part+of Sarcomere)
+	(Synonym
+		[fm-live_13359]
+		[fm-live_13360]
+		[fm-live_13361]))
+
+([H1+receptor] of  Histamine+receptor
+
+	(FMAID "61983")
+	(Preferred+name [fm-live_14487]))
+
+([H2+receptor] of  Histamine+receptor
+
+	(FMAID "67669")
+	(Preferred+name [fm-live_14489]))
+
+([H3+receptor] of  Histamine+receptor
+
+	(FMAID "67670")
+	(Preferred+name [fm-live_14491]))
+
+([Habenula] of  Segment+of+epithalamus
+
+	(definition "Habenula is an segment of the epithalamus that has as its parts the lateral and medial habenular nuclei and the habenular commissure.")
+	(FMAID "62032")
+	(Non-English+equivalent
+		[su_incus_21795]
+		[su_incus_21797])
+	(part
+		Lateral+habenular+nucleus
+		Medial+habenular+nucleus
+		Habenular+commissure)
+	(part+of Epithalamus)
+	(Preferred+name [fm-live_15144])
+	(regional+part
+		Lateral+habenular+nucleus
+		Medial+habenular+nucleus
+		Habenular+commissure)
+	(regional+part+of Epithalamus)
+	(Synonym [su_incus_21796]))
+
+([Habenular+commissure] of  Commissure+of+diencephalon
+
+	(FMAID "62048")
+	(Non-English+equivalent
+		[su_incus_21798]
+		[su_incus_21799]
+		[KB_AUTO-INSERT%283%29_3614])
+	(part+of Habenula)
+	(Preferred+name [fm-live_15172])
+	(regional+part+of Habenula))
+
+([Habenular+sulcus] of  Anatomical+cavity
+
+	(FMAID "78466")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_3595])
+	(Preferred+name [live_incus_fm_12099]))
+
+([Habenular+trigone] of  Surface+evagination+of+diencephalon
+
+	(dimension 3-dimension)
+	(FMAID "74868")
+	(Non-English+equivalent
+		[su_incus_23056]
+		[su_incus_23057]
+		[su_incus_23058]
+		[KB_AUTO-INSERT%283%29_3596])
+	(Preferred+name [live_incus_fm_12025]))
+
+([Habenulo-interpeduncular+tract] of  Tract+of+diencephalon
+
+	(FMAID "72400")
+	(Non-English+equivalent
+		[su_incus_21802]
+		[su_incus_21804]
+		[su_incus_21805]
+		[su_incus_21806]
+		[su_incus_21807]
+		[su_incus_21808]
+		[su_incus_21809]
+		[su_incus_36202]
+		[KB_AUTO-INSERT%283%29_3622])
+	(Preferred+name [live_incus_fm_09197])
+	(Synonym
+		[su_incus_17333]
+		[su_incus_21803]
+		[su_incus_21810]
+		[su_incus_21811]))
+
+([Hair] of  Skin+appendage
+
+	(attributed+part
+		[FM_live_06921]
+		[FM_live_06922]
+		[FM_live_06923]
+		[FM_live_06924]
+		[FM_live_06925]
+		[FM_live_06926])
+	(constitutional+part+of Skin)
+	(FMAID "53667")
+	(Non-English+equivalent
+		[ONARD_Instance_610055]
+		[ONARD_Instance_610056]
+		[ONARD_Instance_610057]
+		[ONARD_Instance_610058])
+	(part
+		Tip+of+hair
+		Hair+shaft
+		Hair+root
+		Cuticle+of+hair
+		Cortex+of+hair
+		Hair+matrix)
+	(part+of
+		Pilosebaceous+unit
+		Epidermis)
+	(Preferred+name [KB_INSTANCE_67927])
+	(regional+part
+		Tip+of+hair
+		Hair+shaft
+		Hair+root
+		Cuticle+of+hair
+		Cortex+of+hair
+		Hair+matrix)
+	(regional+part+of
+		Epidermis
+		Pilosebaceous+unit))
+
+([Hair+follicle] of  Subdivision+of+epidermis
+
+	(attributed+part
+		[FM_live_06985]
+		[FM_live_06986]
+		[FM_live_06987]
+		[FM_live_06988]
+		[FM_live_06989])
+	(FMAID "70660")
+	(Non-English+equivalent
+		[su_incus_35713]
+		[KB_AUTO-INSERT%283%29_4578])
+	(part
+		Upper+segment+of+hair+follicle
+		Lower+segment+of+hair+follicle
+		Inner+root+sheath+of+hair+follicle
+		Outer+root+sheath+of+hair+follicle
+		Fibrous+sheath+of+hair+follicle
+		Bulge+of+hair+follicle
+		Mantle+of+hair+follicle)
+	(part+of
+		Pilosebaceous+unit
+		Epidermis)
+	(Preferred+name [FM_live_03469])
+	(regional+part
+		Upper+segment+of+hair+follicle
+		Lower+segment+of+hair+follicle
+		Inner+root+sheath+of+hair+follicle
+		Outer+root+sheath+of+hair+follicle
+		Fibrous+sheath+of+hair+follicle)
+	(regional+part+of
+		Epidermis
+		Pilosebaceous+unit))
+
+([Hair+matrix] of  Subdivision+of+hair
+
+	(FMAID "70945")
+	(part+of Hair)
+	(Preferred+name [FM_live_03756])
+	(regional+part+of Hair))
+
+([Hair+of+abdomen] of  Hair+of+trunk
+
+	(FMAID "54318")
+	(Preferred+name [KB_INSTANCE_68913])
+	(Synonym [KB_AUTO-INSERT2_8347]))
+
+([Hair+of+arm] of  Hair+of+free+upper+limb
+
+	(FMAID "54259")
+	(Preferred+name [KB_INSTANCE_68851])
+	(Synonym [KB_AUTO-INSERT2_8324]))
+
+([Hair+of+axilla] of  Hair+of+pectoral+girdle
+
+	(FMAID "54253")
+	(Preferred+name [KB_INSTANCE_68844])
+	(Synonym [KB_INSTANCE_68845]))
+
+([Hair+of+back] of  Hair+of+trunk
+
+	(FMAID "54320")
+	(Preferred+name [KB_INSTANCE_68915])
+	(Synonym [KB_AUTO-INSERT2_8351]))
+
+([Hair+of+buttock] of  Hair+of+pelvic+girdle
+
+	(FMAID "54282")
+	(Preferred+name [KB_INSTANCE_68874])
+	(Synonym [KB_AUTO-INSERT2_8335]))
+
+([Hair+of+chest] of  Hair+of+trunk
+
+	(FMAID "54321")
+	(Preferred+name [KB_INSTANCE_68916])
+	(Synonym [KB_INSTANCE_68917]))
+
+([Hair+of+chin] of  Hair
+
+	(FMAID "54359")
+	(Preferred+name [KB_INSTANCE_69001])
+	(Synonym [KB_AUTO-INSERT2_8303]))
+
+([Hair+of+dorsum+of+big+toe] of  Hair+of+dorsum+of+toe
+
+	(FMAID "54302")
+	(Preferred+name [KB_INSTANCE_68894])
+	(Synonym [KB_INSTANCE_68895]))
+
+([Hair+of+dorsum+of+finger] of  Hair+of+free+upper+limb
+
+	(FMAID "54285")
+	(Preferred+name [KB_INSTANCE_68877]))
+
+([Hair+of+dorsum+of+foot] of  Hair+of+free+lower+limb
+
+	(FMAID "54276")
+	(Preferred+name [KB_INSTANCE_68868]))
+
+([Hair+of+dorsum+of+fourth+toe] of  Hair+of+dorsum+of+toe
+
+	(FMAID "54311")
+	(Preferred+name [KB_INSTANCE_68906]))
+
+([Hair+of+dorsum+of+hand] of  Hair+of+free+upper+limb
+
+	(FMAID "54265")
+	(Preferred+name [KB_INSTANCE_68857]))
+
+([Hair+of+dorsum+of+index+finger] of  Hair+of+dorsum+of+finger
+
+	(FMAID "54289")
+	(Preferred+name [KB_INSTANCE_68881]))
+
+([Hair+of+dorsum+of+left+big+toe] of  Hair+of+dorsum+of+big+toe
+
+	(FMAID "54304")
+	(Preferred+name [KB_INSTANCE_68898])
+	(Synonym [KB_INSTANCE_68899]))
+
+([Hair+of+dorsum+of+left+foot] of  Hair+of+dorsum+of+foot
+
+	(FMAID "54278")
+	(Preferred+name [KB_INSTANCE_68870]))
+
+([Hair+of+dorsum+of+left+fourth+toe] of  Hair+of+dorsum+of+fourth+toe
+
+	(FMAID "54313")
+	(Preferred+name [KB_INSTANCE_68908]))
+
+([Hair+of+dorsum+of+left+hand] of  Hair+of+dorsum+of+hand
+
+	(FMAID "54267")
+	(Preferred+name [KB_INSTANCE_68859]))
+
+([Hair+of+dorsum+of+left+index+finger] of  Hair+of+dorsum+of+index+finger
+
+	(FMAID "54291")
+	(Preferred+name [KB_INSTANCE_68883]))
+
+([Hair+of+dorsum+of+left+little+finger] of  Hair+of+dorsum+of+little+finger
+
+	(FMAID "54300")
+	(Preferred+name [KB_INSTANCE_68892]))
+
+([Hair+of+dorsum+of+left+little+toe] of  Hair+of+dorsum+of+little+toe
+
+	(FMAID "54316")
+	(Preferred+name [KB_INSTANCE_68911]))
+
+([Hair+of+dorsum+of+left+middle+finger] of  Hair+of+dorsum+of+middle+finger
+
+	(FMAID "54294")
+	(Preferred+name [KB_INSTANCE_68886]))
+
+([Hair+of+dorsum+of+left+ring+finger] of  Hair+of+dorsum+of+ring+finger
+
+	(FMAID "54297")
+	(Preferred+name [KB_INSTANCE_68889]))
+
+([Hair+of+dorsum+of+left+second+toe] of  Hair+of+dorsum+of+second+toe
+
+	(FMAID "54307")
+	(Preferred+name [KB_INSTANCE_68902]))
+
+([Hair+of+dorsum+of+left+third+toe] of  Hair+of+dorsum+of+third+toe
+
+	(FMAID "54310")
+	(Preferred+name [KB_INSTANCE_68905]))
+
+([Hair+of+dorsum+of+left+thumb] of  Hair+of+dorsum+of+thumb
+
+	(FMAID "54288")
+	(Preferred+name [KB_INSTANCE_68880]))
+
+([Hair+of+dorsum+of+little+finger] of  Hair+of+dorsum+of+finger
+
+	(FMAID "54298")
+	(Preferred+name [KB_INSTANCE_68890]))
+
+([Hair+of+dorsum+of+little+toe] of  Hair+of+dorsum+of+toe
+
+	(FMAID "54314")
+	(Preferred+name [KB_INSTANCE_68909]))
+
+([Hair+of+dorsum+of+middle+finger] of  Hair+of+dorsum+of+finger
+
+	(FMAID "54292")
+	(Preferred+name [KB_INSTANCE_68884]))
+
+([Hair+of+dorsum+of+right+big+toe] of  Hair+of+dorsum+of+big+toe
+
+	(FMAID "54303")
+	(Preferred+name [KB_INSTANCE_68896])
+	(Synonym [KB_INSTANCE_68897]))
+
+([Hair+of+dorsum+of+right+foot] of  Hair+of+dorsum+of+foot
+
+	(FMAID "54277")
+	(Preferred+name [KB_INSTANCE_68869]))
+
+([Hair+of+dorsum+of+right+fourth+toe] of  Hair+of+dorsum+of+fourth+toe
+
+	(FMAID "54312")
+	(Preferred+name [KB_INSTANCE_68907]))
+
+([Hair+of+dorsum+of+right+hand] of  Hair+of+dorsum+of+hand
+
+	(FMAID "54266")
+	(Preferred+name [KB_INSTANCE_68858]))
+
+([Hair+of+dorsum+of+right+index+finger] of  Hair+of+dorsum+of+index+finger
+
+	(FMAID "54290")
+	(Preferred+name [KB_INSTANCE_68882]))
+
+([Hair+of+dorsum+of+right+little+finger] of  Hair+of+dorsum+of+little+finger
+
+	(FMAID "54299")
+	(Preferred+name [KB_INSTANCE_68891]))
+
+([Hair+of+dorsum+of+right+little+toe] of  Hair+of+dorsum+of+little+toe
+
+	(FMAID "54315")
+	(Preferred+name [KB_INSTANCE_68910]))
+
+([Hair+of+dorsum+of+right+middle+finger] of  Hair+of+dorsum+of+middle+finger
+
+	(FMAID "54293")
+	(Preferred+name [KB_INSTANCE_68885]))
+
+([Hair+of+dorsum+of+right+ring+finger] of  Hair+of+dorsum+of+ring+finger
+
+	(FMAID "54296")
+	(Preferred+name [KB_INSTANCE_68888]))
+
+([Hair+of+dorsum+of+right+second+toe] of  Hair+of+dorsum+of+second+toe
+
+	(FMAID "54306")
+	(Preferred+name [KB_INSTANCE_68901]))
+
+([Hair+of+dorsum+of+right+third+toe] of  Hair+of+dorsum+of+third+toe
+
+	(FMAID "54309")
+	(Preferred+name [KB_INSTANCE_68904]))
+
+([Hair+of+dorsum+of+right+thumb] of  Hair+of+dorsum+of+thumb
+
+	(FMAID "54287")
+	(Preferred+name [KB_INSTANCE_68879]))
+
+([Hair+of+dorsum+of+ring+finger] of  Hair+of+dorsum+of+finger
+
+	(FMAID "54295")
+	(Preferred+name [KB_INSTANCE_68887]))
+
+([Hair+of+dorsum+of+second+toe] of  Hair+of+dorsum+of+toe
+
+	(FMAID "54305")
+	(Preferred+name [KB_INSTANCE_68900]))
+
+([Hair+of+dorsum+of+third+toe] of  Hair+of+dorsum+of+toe
+
+	(FMAID "54308")
+	(Preferred+name [KB_INSTANCE_68903]))
+
+([Hair+of+dorsum+of+thumb] of  Hair+of+dorsum+of+finger
+
+	(FMAID "54286")
+	(Preferred+name [KB_INSTANCE_68878]))
+
+([Hair+of+dorsum+of+toe] of  Hair+of+free+lower+limb
+
+	(FMAID "54301")
+	(Preferred+name [KB_INSTANCE_68893]))
+
+([Hair+of+face] of  Hair
+
+	(FMAID "54360")
+	(Preferred+name [KB_INSTANCE_69002])
+	(Synonym
+		[KB_INSTANCE_69003]
+		[KB_AUTO-INSERT2_8301]))
+
+([Hair+of+forearm] of  Hair+of+free+upper+limb
+
+	(FMAID "54262")
+	(Preferred+name [KB_INSTANCE_68854])
+	(Synonym [KB_AUTO-INSERT2_8325]))
+
+([Hair+of+free+lower+limb] of  Hair+of+lower+limb
+
+	(FMAID "54269")
+	(Preferred+name [KB_INSTANCE_68861])
+	(Synonym [KB_AUTO-INSERT2_8331]))
+
+([Hair+of+free+upper+limb] of  Hair+of+upper+limb
+
+	(FMAID "54258")
+	(Preferred+name [KB_INSTANCE_68850])
+	(Synonym [KB_AUTO-INSERT2_8316]))
+
+([Hair+of+head] of  Hair
+
+	(FMAID "54241")
+	(Preferred+name [KB_INSTANCE_68831])
+	(Synonym
+		[KB_INSTANCE_68832]
+		[KB_AUTO-INSERT2_8300]))
+
+([Hair+of+hip] of  Hair+of+pelvic+girdle
+
+	(FMAID "54279")
+	(Preferred+name [KB_INSTANCE_68871])
+	(Synonym [KB_AUTO-INSERT2_8334]))
+
+([Hair+of+left+arm] of  Hair+of+arm
+
+	(FMAID "54261")
+	(Preferred+name [KB_INSTANCE_68853])
+	(Synonym [KB_AUTO-INSERT2_8327]))
+
+([Hair+of+left+axilla] of  Hair+of+axilla
+
+	(FMAID "54255")
+	(Preferred+name [KB_INSTANCE_68847])
+	(Synonym [KB_AUTO-INSERT2_8323]))
+
+([Hair+of+left+buttock] of  Hair+of+buttock
+
+	(FMAID "54284")
+	(Preferred+name [KB_INSTANCE_68876])
+	(Synonym [KB_AUTO-INSERT2_8339]))
+
+([Hair+of+left+forearm] of  Hair+of+forearm
+
+	(FMAID "54264")
+	(Preferred+name [KB_INSTANCE_68856])
+	(Synonym [KB_AUTO-INSERT2_8329]))
+
+([Hair+of+left+hemiscrotum] of  Hair+of+trunk
+
+	(FMAID "54324")
+	(Preferred+name [KB_INSTANCE_68920])
+	(Synonym [KB_AUTO-INSERT2_8350]))
+
+([Hair+of+left+hip] of  Hair+of+hip
+
+	(FMAID "54281")
+	(Preferred+name [KB_INSTANCE_68873])
+	(Synonym [KB_AUTO-INSERT2_8337]))
+
+([Hair+of+left+leg] of  Hair+of+leg
+
+	(FMAID "54275")
+	(Preferred+name [KB_INSTANCE_68867])
+	(Synonym [KB_AUTO-INSERT2_8345]))
+
+([Hair+of+left+lower+limb] of  Hair+of+lower+limb
+
+	(FMAID "54247")
+	(Preferred+name [KB_INSTANCE_68838])
+	(Synonym [KB_AUTO-INSERT2_8333]))
+
+([Hair+of+left+shoulder] of  Hair+of+shoulder
+
+	(FMAID "54257")
+	(Preferred+name [KB_INSTANCE_68849])
+	(Synonym [KB_AUTO-INSERT2_8321]))
+
+([Hair+of+left+thigh] of  Hair+of+thigh
+
+	(FMAID "54272")
+	(Preferred+name [KB_INSTANCE_68864])
+	(Synonym [KB_AUTO-INSERT2_8343]))
+
+([Hair+of+left+upper+limb] of  Hair+of+upper+limb
+
+	(FMAID "54249")
+	(Preferred+name [KB_INSTANCE_68840])
+	(Synonym [KB_AUTO-INSERT2_8318]))
+
+([Hair+of+leg] of  Hair+of+free+lower+limb
+
+	(FMAID "54273")
+	(Preferred+name [KB_INSTANCE_68865])
+	(Synonym [KB_AUTO-INSERT2_8341]))
+
+([Hair+of+limb] of  Hair
+
+	(FMAID "54243")
+	(Preferred+name [KB_INSTANCE_68834])
+	(Synonym [KB_AUTO-INSERT2_8305]))
+
+([Hair+of+lower+limb] of  Hair+of+limb
+
+	(FMAID "54245")
+	(Preferred+name [KB_INSTANCE_68836])
+	(Synonym [KB_AUTO-INSERT2_8314]))
+
+([Hair+of+neck] of  Hair
+
+	(FMAID "54242")
+	(Preferred+name [KB_INSTANCE_68833])
+	(Synonym [KB_AUTO-INSERT2_8304]))
+
+([Hair+of+nose] of  Hair
+
+	(FMAID "53670")
+	(Preferred+name [KB_INSTANCE_67931])
+	(Synonym
+		[KB_INSTANCE_67932]
+		[KB_INSTANCE_67930]))
+
+([Hair+of+pectoral+girdle] of  Hair+of+upper+limb
+
+	(FMAID "54251")
+	(Preferred+name [KB_INSTANCE_68842])
+	(Synonym [KB_AUTO-INSERT2_8315]))
+
+([Hair+of+pelvic+girdle] of  Hair+of+lower+limb
+
+	(FMAID "54268")
+	(Preferred+name [KB_INSTANCE_68860])
+	(Synonym [KB_AUTO-INSERT2_8330]))
+
+([Hair+of+right+arm] of  Hair+of+arm
+
+	(FMAID "54260")
+	(Preferred+name [KB_INSTANCE_68852])
+	(Synonym [KB_AUTO-INSERT2_8326]))
+
+([Hair+of+right+axilla] of  Hair+of+axilla
+
+	(FMAID "54254")
+	(Preferred+name [KB_INSTANCE_68846])
+	(Synonym [KB_AUTO-INSERT2_8322]))
+
+([Hair+of+right+buttock] of  Hair+of+buttock
+
+	(FMAID "54283")
+	(Preferred+name [KB_INSTANCE_68875])
+	(Synonym [KB_AUTO-INSERT2_8338]))
+
+([Hair+of+right+forearm] of  Hair+of+forearm
+
+	(FMAID "54263")
+	(Preferred+name [KB_INSTANCE_68855])
+	(Synonym [KB_AUTO-INSERT2_8328]))
+
+([Hair+of+right+hemiscrotum] of  Hair+of+trunk
+
+	(FMAID "54323")
+	(Preferred+name [KB_INSTANCE_68919])
+	(Synonym [KB_AUTO-INSERT2_8349]))
+
+([Hair+of+right+hip] of  Hair+of+hip
+
+	(FMAID "54280")
+	(Preferred+name [KB_INSTANCE_68872])
+	(Synonym [KB_AUTO-INSERT2_8336]))
+
+([Hair+of+right+leg] of  Hair+of+leg
+
+	(FMAID "54274")
+	(Preferred+name [KB_INSTANCE_68866])
+	(Synonym [KB_AUTO-INSERT2_8344]))
+
+([Hair+of+right+lower+limb] of  Hair+of+lower+limb
+
+	(FMAID "54246")
+	(Preferred+name [KB_INSTANCE_68837])
+	(Synonym [KB_AUTO-INSERT2_8332]))
+
+([Hair+of+right+shoulder] of  Hair+of+shoulder
+
+	(FMAID "54256")
+	(Preferred+name [KB_INSTANCE_68848])
+	(Synonym [KB_AUTO-INSERT2_8320]))
+
+([Hair+of+right+thigh] of  Hair+of+thigh
+
+	(FMAID "54271")
+	(Preferred+name [KB_INSTANCE_68863])
+	(Synonym [KB_AUTO-INSERT2_8342]))
+
+([Hair+of+right+upper+limb] of  Hair+of+upper+limb
+
+	(FMAID "54248")
+	(Preferred+name [KB_INSTANCE_68839])
+	(Synonym [KB_AUTO-INSERT2_8317]))
+
+([Hair+of+scrotum] of  Hair+of+trunk
+
+	(FMAID "54322")
+	(Preferred+name [KB_INSTANCE_68918])
+	(Synonym [KB_AUTO-INSERT2_8348]))
+
+([Hair+of+shoulder] of  Hair+of+pectoral+girdle
+
+	(FMAID "54252")
+	(Preferred+name [KB_INSTANCE_68843])
+	(Synonym [KB_AUTO-INSERT2_8319]))
+
+([Hair+of+thigh] of  Hair+of+free+lower+limb
+
+	(FMAID "54270")
+	(Preferred+name [KB_INSTANCE_68862])
+	(Synonym [KB_AUTO-INSERT2_8340]))
+
+([Hair+of+thorax] of  Hair+of+trunk
+
+	(FMAID "54317")
+	(Preferred+name [KB_INSTANCE_68912])
+	(Synonym [KB_AUTO-INSERT2_8346]))
+
+([Hair+of+tragus] of  Hair
+
+	(FMAID "53671")
+	(Preferred+name [KB_INSTANCE_67933])
+	(Synonym
+		[KB_INSTANCE_67934]
+		[KB_AUTO-INSERT2_8302]))
+
+([Hair+of+trunk] of  Hair
+
+	(FMAID "54250")
+	(Preferred+name [KB_INSTANCE_68841])
+	(Synonym [KB_AUTO-INSERT2_8306]))
+
+([Hair+of+upper+limb] of  Hair+of+limb
+
+	(FMAID "54244")
+	(Preferred+name [KB_INSTANCE_68835])
+	(Synonym [KB_AUTO-INSERT2_8313]))
+
+([Hair+root] of  Subdivision+of+hair
+
+	(FMAID "70730")
+	(part+of Hair)
+	(Preferred+name [FM_live_03530])
+	(regional+part+of Hair)
+	(Synonym [FM_live_03529]))
+
+([Hair+shaft] of  Subdivision+of+hair
+
+	(FMAID "70728")
+	(part+of Hair)
+	(Preferred+name [FM_live_03524])
+	(regional+part+of Hair))
+
+([Haller%27s+arches] of  Anatomical+set+template
+
+	(FMAID "77877")
+	(Preferred+name [su_incus_34549]))
+
+([Hamate] of  Distal+carpal+bone
+
+	(constitutional+part+of
+		Set+of+carpal+bones
+		Wrist)
+	(FMAID "23730")
+	(member+of Set+of+carpal+bones)
+	(Non-English+equivalent [KB_INSTANCE_29648])
+	(part
+		Bone+of+hamate
+		Articular+cartilage+of+hamate
+		Bony+part+of+hamate
+		Periosteum+of+hamate
+		Hook+of+hamate
+		Hamate+proper)
+	(part+of Wrist)
+	(Preferred+name [KB_INSTANCE_29646])
+	(regional+part
+		Bone+of+hamate
+		Articular+cartilage+of+hamate
+		Bony+part+of+hamate
+		Periosteum+of+hamate
+		Hook+of+hamate)
+	(regional+part+of Set+of+carpal+bones)
+	(Synonym
+		[KB_INSTANCE_29647]
+		[KB_INSTANCE_29649])
+	(systemic+part+of Set+of+carpal+bones))
+
+([Hamate+facet+of+left+lunate] of  Hamate+facet+of+lunate
+
+	(FMAID "23786")
+	(Preferred+name [KB_INSTANCE_29877])
+	(Synonym
+		[KB_INSTANCE_29878]
+		[KB_INSTANCE_29879]
+		[KB_INSTANCE_29880]
+		[KB_INSTANCE_29881]
+		[KB_INSTANCE_29882]))
+
+([Hamate+facet+of+left+triquetral] of  Hamate+facet+of+triquetral
+
+	(FMAID "33385")
+	(Preferred+name [KB_INSTANCE_41751])
+	(Synonym
+		[KB_INSTANCE_41752]
+		[KB_INSTANCE_41753]
+		[KB_INSTANCE_41754]
+		[KB_INSTANCE_41755]
+		[KB_INSTANCE_41756]))
+
+([Hamate+facet+of+lunate] of  Subdivision+of+surface+of+lunate
+
+	(2D+part+of Articular+surface+of+lunate)
+	(FMAID "23784")
+	(Preferred+name [KB_INSTANCE_29865])
+	(Synonym
+		[KB_INSTANCE_29866]
+		[KB_INSTANCE_29867]
+		[KB_INSTANCE_29868]
+		[KB_INSTANCE_29869]
+		[KB_INSTANCE_29870]))
+
+([Hamate+facet+of+right+lunate] of  Hamate+facet+of+lunate
+
+	(FMAID "23785")
+	(Preferred+name [KB_INSTANCE_29871])
+	(Synonym
+		[KB_INSTANCE_29872]
+		[KB_INSTANCE_29873]
+		[KB_INSTANCE_29874]
+		[KB_INSTANCE_29875]
+		[KB_INSTANCE_29876]))
+
+([Hamate+facet+of+right+triquetral] of  Hamate+facet+of+triquetral
+
+	(FMAID "33384")
+	(Preferred+name [KB_INSTANCE_41745])
+	(Synonym
+		[KB_INSTANCE_41746]
+		[KB_INSTANCE_41747]
+		[KB_INSTANCE_41748]
+		[KB_INSTANCE_41749]
+		[KB_INSTANCE_41750]))
+
+([Hamate+facet+of+triquetral] of  Subdivision+of+surface+of+triquetral
+
+	(2D+part+of Articular+surface+of+triquetral)
+	(FMAID "33374")
+	(Preferred+name [KB_INSTANCE_41709])
+	(Synonym
+		[KB_INSTANCE_41710]
+		[KB_INSTANCE_41711]
+		[KB_INSTANCE_41712]
+		[KB_INSTANCE_41713]
+		[KB_INSTANCE_41714]))
+
+([Hamate+proper] of  Organ+region+with+fixed+fiat+boundary
+
+	(FMAID "43076")
+	(part+of Hamate)
+	(Preferred+name [KB_INSTANCE_54772]))
+
+([Hamulus+of+osseous+spiral+lamina+of+cochlea] of  Zone+of+osseous+spiral+lamina+of+cochlea
+
+	(FMAID "75675")
+	(Non-English+equivalent
+		[su_incus_37912]
+		[KB_AUTO-INSERT%283%29_4488])
+	(part+of Osseous+spiral+lamina+of+cochlea)
+	(Preferred+name [FM_live_09326])
+	(regional+part+of Osseous+spiral+lamina+of+cochlea)
+	(Synonym
+		[FM_live_09325]
+		[FM_live_09316]
+		[su_incus_34148]))
+
+([Hamulus+of+osseous+spiral+lamina+of+left+cochlea] of  Hamulus+of+osseous+spiral+lamina+of+cochlea
+
+	(FMAID "75679")
+	(Preferred+name [FM_live_09328])
+	(Synonym [FM_live_09324]))
+
+([Hamulus+of+osseous+spiral+lamina+of+right+cochlea] of  Hamulus+of+osseous+spiral+lamina+of+cochlea
+
+	(FMAID "75678")
+	(Preferred+name [FM_live_09327])
+	(Synonym [FM_live_09322]))
+
+([Hand] of  Distal+free+limb+segment
+
+	(constitutional+part
+		Skin+of+hand
+		Superficial+fascia+of+hand
+		Skeleton+of+hand
+		Musculature+of+hand
+		Neural+network+of+hand
+		Neural+network+of+right+hand
+		Vasculature+of+hand)
+	(FMAID "9712")
+	(Non-English+equivalent
+		[KB_INSTANCE_08446]
+		[KB_AUTO-INSERT%283%29_38]
+		[ONARD_Instance_580369]
+		[ONARD_Instance_610033])
+	(part
+		Skin+of+hand
+		Superficial+fascia+of+hand
+		Investing+fascia+of+hand
+		Hand+proper
+		Thumb
+		Index+finger
+		Middle+finger
+		Little+finger
+		Ring+finger
+		Set+of+extrinsic+muscles+of+hand
+		Set+of+intrinsic+muscles+of+hand
+		Superficial+branch+of+ulnar+nerve
+		Deep+branch+of+ulnar+nerve)
+	(part+of Free+upper+limb)
+	(Preferred+name [KB_INSTANCE_08445])
+	(regional+part
+		Hand+proper
+		Thumb
+		Index+finger
+		Middle+finger
+		Ring+finger
+		Little+finger)
+	(regional+part+of Free+upper+limb)
+	(Synonym [fm_live_26619]))
+
+([Hand+part+of+left+radial+artery] of  Organ+part
+
+	(FMAID "22795")
+	(Preferred+name [KB_INSTANCE_28442]))
+
+([Hand+part+of+radial+artery] of  Organ+part
+
+	(FMAID "22789")
+	(Preferred+name [KB_INSTANCE_28436]))
+
+([Hand+part+of+right+radial+artery] of  Organ+part
+
+	(FMAID "22794")
+	(Preferred+name [KB_INSTANCE_28441]))
+
+([Hand+proper] of  Subdivision+of+hand
+
+	(constitutional+part
+		Skin+of+hand+proper
+		Superficial+fascia+of+hand+proper
+		Investing+fascia+of+hand+proper
+		Musculature+of+hand+proper
+		Skeleton+of+hand+proper
+		First+metacarpal+bone
+		Second+metacarpal+bone
+		Third+metacarpal+bone
+		Fourth+metacarpal+bone
+		Fifth+metacarpal+bone)
+	(FMAID "61067")
+	(part
+		Wrist
+		Palm
+		Back+of+hand
+		First+metacarpal+bone
+		Second+metacarpal+bone
+		Third+metacarpal+bone
+		Fourth+metacarpal+bone
+		Fifth+metacarpal+bone
+		Carpometacarpal+joint+of+thumb
+		Second+carpometacarpal+joint
+		Third+carpometacarpal+joint
+		Fourth+carpometacarpal+joint
+		Fifth+carpometacarpal+joint)
+	(part+of Hand)
+	(Preferred+name [KB_INSTANCE_80511])
+	(regional+part
+		Palm
+		Back+of+hand)
+	(regional+part+of Hand))
+
+([Handle+of+malleus] of  Zone+of+bone+organ
+
+	(FMAID "52760")
+	(Non-English+equivalent
+		[KB_INSTANCE_66520]
+		[KB_AUTO-INSERT%283%29_4437])
+	(part+of Malleus)
+	(Preferred+name [KB_INSTANCE_66519])
+	(regional+part+of Malleus)
+	(Synonym
+		[KB_INSTANCE_66521]
+		[KB_AUTO-INSERT2_7204]))
+
+([Hard+palate] of  Organ+subdivision+cluster
+
+	(constitutional+part
+		Mucosa+of+hard+palate
+		Bony+part+of+hard+palate)
+	(FMAID "55023")
+	(lymphatic+drainage
+		Right+superior+deep+cervical+lymphatic+chain
+		Left+superior+deep+cervical+lymphatic+chain
+		Right+retropharyngeal+lymphatic+chain
+		Left+retropharyngeal+lymphatic+chain
+		Superior+deep+cervical+lymphatic+chain)
+	(Non-English+equivalent
+		[KB_INSTANCE_69998]
+		[KB_AUTO-INSERT%283%29_1501]
+		[ONARD_Instance_580246])
+	(part
+		Mucosa+of+hard+palate
+		Bony+part+of+hard+palate)
+	(part+of Floor+of+internal+nose)
+	(Preferred+name [KB_INSTANCE_69997])
+	(regional+part+of Floor+of+internal+nose)
+	(systemic+part
+		Mucosa+of+hard+palate
+		Bony+part+of+hard+palate))
+
+([Hartmann%27s+pouch] of  Variant+anatomical+structure
+
+	(FMAID "79878")
+	(Preferred+name [FM_live_10363]))
+
+([has+adjacency] of  Standard+FMA+slot
+
+	(FMAID "85837"))
+
+([has+boundary] of  Standard+FMA+slot
+
+	(FMAID "85914"))
+
+([has+branch] of  Standard+FMA+slot
+
+	(FMAID "85891"))
+
+([has+derivation] of  Standard+FMA+slot
+
+	(FMAID "85832"))
+
+([has+dimension] of  Standard+FMA+slot
+
+	(FMAID "85912"))
+
+([has+fate] of  Standard+FMA+slot
+
+	(FMAID "85833"))
+
+([has+inherent+3-D+shape] of  Standard+FMA+slot
+
+	(FMAID "85911"))
+
+([has+location] of  Standard+FMA+slot
+
+	(FMAID "85841"))
+
+([has+mass] of  Standard+FMA+slot
+
+	(FMAID "85913"))
+
+([has+primary+site] of  Standard+FMA+slot
+
+	(FMAID "85985"))
+
+([has+related+dimensional+entity] of  Standard+FMA+slot
+
+	(FMAID "228567"))
+
+([has+root] of  Standard+FMA+slot
+
+	(FMAID "85889"))
+
+([has+shape] of  Structural+slot
+
+	(FMAID "85993")
+	(slot+synonym "Has form"))
+
+([has+shape+type] of  Standard+FMA+slot
+
+	(FMAID "228566"))
+
+([has+trunk] of  Standard+FMA+slot
+
+	(FMAID "85890"))
+
+([has+wall] of  Standard+FMA+slot
+
+	(FMAID "85869"))
+
+([Haustra+of+colon] of  Segment+of+large+intestine
+
+	(FMAID "14552")
+	(Non-English+equivalent
+		[KB_INSTANCE_16103]
+		[KB_AUTO-INSERT%283%29_1837])
+	(Preferred+name [KB_INSTANCE_16101])
+	(Synonym
+		[KB_INSTANCE_16102]
+		[KB_AUTO-INSERT2_6778]))
+
+([Haversian+canal] of  Anatomical+conduit
+
+	(FMAID "224787")
+	(Preferred+name [ONARD_Instance_510006]))
+
+([Head] of  Principal+body+part
+
+	(attributed+part
+		[fm_live_01547]
+		[fm_live_01548]
+		[FM_live_06946]
+		[FM_live_06947]
+		[FM_live_06948])
+	(constitutional+part
+		Skin+of+head
+		Superficial+fascia+of+head
+		Brain
+		Skeletal+system+of+head
+		Vasculature+of+head
+		Neural+network+of+head
+		Set+of+muscles+of+head)
+	(definition "Body part, which consists of a maximal set of diverse subclasses of organ and organ part spatially associated with the skull, it is partially surrounded by skin of head. Examples: There is only one head.")
+	(FMAID "7154")
+	(Non-English+equivalent
+		[KB_INSTANCE_03921]
+		[KB_AUTO-INSERT%283%29_544]
+		[ONARD_Instance_530007]
+		[KB_AUTO-INSERT%283%29_988]
+		[ONARD_Instance_580314]
+		[ONARD_Instance_610018])
+	(part
+		Head+proper
+		Face
+		Skin+of+head
+		Superficial+fascia+of+head
+		Skull)
+	(part+of Body)
+	(Preferred+name [KB_INSTANCE_03920])
+	(regional+part
+		Head+proper
+		Face)
+	(regional+part+of
+		Body
+		Male+body
+		Female+body)
+	(Synonym [KB_INSTANCE_03922]))
+
+([Head+of+adductor+hallucis] of  Head+of+organ
+
+	(FMAID "46012")
+	(Preferred+name [KB_INSTANCE_58305])
+	(Synonym [KB_AUTO-INSERT2_7619]))
+
+([Head+of+biceps+femoris] of  Head+of+organ
+
+	(FMAID "45881")
+	(Preferred+name [KB_INSTANCE_58130])
+	(Synonym [KB_AUTO-INSERT2_7615]))
+
+([Head+of+capitate+bone] of  Head+of+organ
+
+	(FMAID "43080")
+	(Preferred+name [KB_INSTANCE_54776])
+	(Synonym [KB_AUTO-INSERT2_7632]))
+
+([Head+of+caudate+nucleus] of  Subdivision+of+caudate+nucleus
+
+	(arterial+supply
+		Distal+medial+striate+artery
+		Proximal+lateral+striate+branch+of+middle+cerebral+artery
+		Distal+lateral+striate+branch+of+middle+cerebral+artery)
+	(FMAID "61852")
+	(Non-English+equivalent [FM_live_00013])
+	(part+of Caudate+nucleus)
+	(Preferred+name [fm-live_14622])
+	(regional+part+of Caudate+nucleus)
+	(Synonym
+		[FM_live_00018]
+		[KB_AUTO-INSERT2_4687]))
+
+([Head+of+distal+phalanx+of+big+toe] of  Distal+epiphysis+of+phalanx+of+big+toe
+
+	(FMAID "33036")
+	(part+of Distal+phalanx+of+big+toe)
+	(Preferred+name [KB_INSTANCE_41083])
+	(regional+part+of Distal+phalanx+of+big+toe)
+	(Synonym
+		[KB_INSTANCE_41084]
+		[KB_INSTANCE_41085]
+		[KB_INSTANCE_41086]))
+
+([Head+of+distal+phalanx+of+fourth+toe] of  Distal+epiphysis+of+phalanx+of+fourth+toe
+
+	(FMAID "33091")
+	(part+of Distal+phalanx+of+fourth+toe)
+	(Preferred+name [KB_INSTANCE_41176])
+	(regional+part+of Distal+phalanx+of+fourth+toe)
+	(Synonym
+		[KB_INSTANCE_41177]
+		[KB_INSTANCE_41178]))
+
+([Head+of+distal+phalanx+of+left+big+toe] of  Head+of+distal+phalanx+of+big+toe
+
+	(FMAID "33038")
+	(Preferred+name [KB_INSTANCE_41090])
+	(Synonym
+		[KB_INSTANCE_41091]
+		[KB_INSTANCE_41092]))
+
+([Head+of+distal+phalanx+of+left+fourth+toe] of  Head+of+distal+phalanx+of+fourth+toe
+
+	(FMAID "33093")
+	(Preferred+name [KB_INSTANCE_41181])
+	(Synonym [KB_INSTANCE_41182]))
+
+([Head+of+distal+phalanx+of+left+little+toe] of  Head+of+distal+phalanx+of+little+toe
+
+	(FMAID "33108")
+	(Preferred+name [KB_INSTANCE_41216])
+	(Synonym
+		[KB_INSTANCE_41217]
+		[KB_INSTANCE_41218]))
+
+([Head+of+distal+phalanx+of+left+second+toe] of  Head+of+distal+phalanx+of+second+toe
+
+	(FMAID "33047")
+	(Preferred+name [KB_INSTANCE_41110])
+	(Synonym [KB_INSTANCE_41111]))
+
+([Head+of+distal+phalanx+of+left+third+toe] of  Head+of+distal+phalanx+of+third+toe
+
+	(FMAID "33056")
+	(Preferred+name [KB_INSTANCE_41131])
+	(Synonym [KB_INSTANCE_41132]))
+
+([Head+of+distal+phalanx+of+little+toe] of  Distal+epiphysis+of+phalanx+of+fifth+toe
+
+	(FMAID "33106")
+	(part+of Distal+phalanx+of+little+toe)
+	(Preferred+name [KB_INSTANCE_41209])
+	(regional+part+of Distal+phalanx+of+little+toe)
+	(Synonym
+		[KB_INSTANCE_41210]
+		[KB_INSTANCE_41211]
+		[KB_INSTANCE_41212]))
+
+([Head+of+distal+phalanx+of+right+big+toe] of  Head+of+distal+phalanx+of+big+toe
+
+	(FMAID "33037")
+	(Preferred+name [KB_INSTANCE_41087])
+	(Synonym
+		[KB_INSTANCE_41088]
+		[KB_INSTANCE_41089]))
+
+([Head+of+distal+phalanx+of+right+fourth+toe] of  Head+of+distal+phalanx+of+fourth+toe
+
+	(FMAID "33092")
+	(Preferred+name [KB_INSTANCE_41179])
+	(Synonym [KB_INSTANCE_41180]))
+
+([Head+of+distal+phalanx+of+right+little+toe] of  Head+of+distal+phalanx+of+little+toe
+
+	(FMAID "33107")
+	(Preferred+name [KB_INSTANCE_41213])
+	(Synonym
+		[KB_INSTANCE_41214]
+		[KB_INSTANCE_41215]))
+
+([Head+of+distal+phalanx+of+right+second+toe] of  Head+of+distal+phalanx+of+second+toe
+
+	(FMAID "33046")
+	(Preferred+name [KB_INSTANCE_41108])
+	(Synonym [KB_INSTANCE_41109]))
+
+([Head+of+distal+phalanx+of+right+third+toe] of  Head+of+distal+phalanx+of+third+toe
+
+	(FMAID "33055")
+	(Preferred+name [KB_INSTANCE_41129])
+	(Synonym [KB_INSTANCE_41130]))
+
+([Head+of+distal+phalanx+of+second+toe] of  Distal+epiphysis+of+phalanx+of+second+toe
+
+	(FMAID "33045")
+	(part+of Distal+phalanx+of+second+toe)
+	(Preferred+name [KB_INSTANCE_41106])
+	(regional+part+of Distal+phalanx+of+second+toe)
+	(Synonym [KB_INSTANCE_41107]))
+
+([Head+of+distal+phalanx+of+third+toe] of  Distal+epiphysis+of+phalanx+of+third+toe
+
+	(FMAID "33054")
+	(part+of Distal+phalanx+of+third+toe)
+	(Preferred+name [KB_INSTANCE_41126])
+	(regional+part+of Distal+phalanx+of+third+toe)
+	(Synonym
+		[KB_INSTANCE_41127]
+		[KB_INSTANCE_41128]))
+
+([Head+of+dorsal+horn+of+spinal+cord] of  Zone+of+dorsal+horn+of+spinal+cord
+
+	(dimension 3-dimension)
+	(FMAID "77410")
+	(Non-English+equivalent [su_incus_36476])
+	(Preferred+name [live_incus_fm_12740])
+	(Synonym [su_incus_34172]))
+
+([Head+of+dorsal+interosseous+of+hand] of  Head+of+muscle+organ
+
+	(FMAID "86128")
+	(Preferred+name [ONARD_Instance_10061]))
+
+([Head+of+eighth+rib] of  Head+of+rib
+
+	(FMAID "8121")
+	(part
+		Inferior+articular+facet+of+head+of+eighth+rib
+		Crest+of+head+of+eighth+rib
+		Articular+facet+of+head+of+eighth+rib
+		Superior+articular+facet+of+head+of+eighth+rib)
+	(part+of Eighth+rib)
+	(Preferred+name [KB_INSTANCE_05562])
+	(regional+part
+		Inferior+articular+facet+of+head+of+eighth+rib
+		Crest+of+head+of+eighth+rib
+		Articular+facet+of+head+of+eighth+rib
+		Superior+articular+facet+of+head+of+eighth+rib)
+	(regional+part+of Eighth+rib)
+	(Synonym [KB_AUTO-INSERT2_7544]))
+
+([Head+of+eleventh+rib] of  Head+of+rib
+
+	(FMAID "8500")
+	(part Articular+facet+of+head+of+eleventh+rib)
+	(part+of Eleventh+rib)
+	(Preferred+name [KB_INSTANCE_05929])
+	(regional+part Articular+facet+of+head+of+eleventh+rib)
+	(regional+part+of Eleventh+rib)
+	(Synonym [KB_AUTO-INSERT2_7547]))
+
+([Head+of+epididymis] of  Zone+of+epididymis
+
+	(FMAID "18259")
+	(Non-English+equivalent
+		[KB_INSTANCE_22418]
+		[KB_AUTO-INSERT%283%29_2173])
+	(part
+		Lobule+of+epididymis
+		Ductule+of+epididymis
+		Aberrant+ductule+of+epididymis)
+	(part+of Epididymis)
+	(Preferred+name [KB_INSTANCE_22417])
+	(regional+part
+		Lobule+of+epididymis
+		Ductule+of+epididymis
+		Aberrant+ductule+of+epididymis
+		Superior+aberrant+ductule+of+epididymis
+		Inferior+aberrant+ductule+of+epididymis)
+	(regional+part+of Epididymis)
+	(Synonym
+		[KB_INSTANCE_22419]
+		[KB_AUTO-INSERT2_7786]))
+
+([Head+of+external+pillar+cell+of+cochlea] of  Head+of+pillar+cell+of+cochlea
+
+	(dimension 3-dimension)
+	(FMAID "75736")
+	(part+of External+pillar+cell+of+cochlea)
+	(Preferred+name [FM_live_09413]))
+
+([Head+of+femur] of  Head+of+organ
+
+	(constitutional+part
+		Bony+part+of+head+of+femur
+		Articular+cartilage+of+head+of+femur)
+	(FMAID "32851")
+	(Non-English+equivalent
+		[KB_INSTANCE_40608]
+		[ONARD_Instance_580171])
+	(part
+		Bony+part+of+head+of+femur
+		Periosteum+of+head+of+femur
+		Articular+cartilage+of+head+of+femur)
+	(part+of Proximal+epiphysis+of+femur)
+	(Preferred+name [KB_INSTANCE_40607])
+	(regional+part+of Proximal+epiphysis+of+femur)
+	(Synonym [KB_AUTO-INSERT2_7630]))
+
+([Head+of+fifth+rib] of  Head+of+rib
+
+	(FMAID "7777")
+	(part
+		Crest+of+head+of+fifth+rib
+		Superior+articular+facet+of+head+of+fifth+rib
+		Articular+facet+of+head+of+fifth+rib
+		Inferior+articular+facet+of+head+of+fifth+rib)
+	(part+of Fifth+rib)
+	(Preferred+name [KB_INSTANCE_05190])
+	(regional+part
+		Crest+of+head+of+fifth+rib
+		Superior+articular+facet+of+head+of+fifth+rib
+		Articular+facet+of+head+of+fifth+rib
+		Inferior+articular+facet+of+head+of+fifth+rib)
+	(regional+part+of Fifth+rib)
+	(Synonym [KB_AUTO-INSERT2_7541]))
+
+([Head+of+first+dorsal+interosseous+of+foot] of  Subdivision+of+first+dorsal+interosseous+of+foot
+
+	(FMAID "46027")
+	(Preferred+name [KB_INSTANCE_58322]))
+
+([Head+of+first+dorsal+interosseous+of+hand] of  Head+of+organ
+
+	(FMAID "46129")
+	(Preferred+name [KB_INSTANCE_58452]))
+
+([Head+of+first+dorsal+interosseous+of+left+foot] of  Head+of+organ
+
+	(FMAID "46032")
+	(Preferred+name [KB_INSTANCE_58328]))
+
+([Head+of+first+dorsal+interosseous+of+left+hand] of  Head+of+first+dorsal+interosseous+of+hand
+
+	(FMAID "46170")
+	(Preferred+name [KB_INSTANCE_58493]))
+
+([Head+of+first+dorsal+interosseous+of+right+foot] of  Head+of+organ
+
+	(FMAID "46031")
+	(Preferred+name [KB_INSTANCE_58327]))
+
+([Head+of+first+dorsal+interosseous+of+right+hand] of  Head+of+first+dorsal+interosseous+of+hand
+
+	(FMAID "46169")
+	(Preferred+name [KB_INSTANCE_58492]))
+
+([Head+of+first+lumbrical+of+foot] of  Head+of+organ
+
+	(FMAID "46261")
+	(part+of First+lumbrical+of+foot)
+	(Preferred+name [KB_INSTANCE_58584])
+	(regional+part+of First+lumbrical+of+foot))
+
+([Head+of+first+lumbrical+of+hand] of  Head+of+organ
+
+	(FMAID "46209")
+	(Preferred+name [KB_INSTANCE_58532]))
+
+([Head+of+first+lumbrical+of+left+foot] of  Head+of+first+lumbrical+of+foot
+
+	(FMAID "46266")
+	(Preferred+name [KB_INSTANCE_58589]))
+
+([Head+of+first+lumbrical+of+left+hand] of  Head+of+first+lumbrical+of+hand
+
+	(FMAID "46232")
+	(Preferred+name [KB_INSTANCE_58555]))
+
+([Head+of+first+lumbrical+of+right+foot] of  Head+of+first+lumbrical+of+foot
+
+	(FMAID "46265")
+	(Preferred+name [KB_INSTANCE_58588]))
+
+([Head+of+first+lumbrical+of+right+hand] of  Head+of+first+lumbrical+of+hand
+
+	(FMAID "46231")
+	(Preferred+name [KB_INSTANCE_58554]))
+
+([Head+of+first+palmar+interosseous+of+hand] of  Head+of+organ
+
+	(FMAID "46199")
+	(Preferred+name [KB_INSTANCE_58522]))
+
+([Head+of+first+palmar+interosseous+of+left+hand] of  Head+of+first+palmar+interosseous+of+hand
+
+	(FMAID "46204")
+	(Preferred+name [KB_INSTANCE_58527]))
+
+([Head+of+first+palmar+interosseous+of+right+hand] of  Head+of+first+palmar+interosseous+of+hand
+
+	(FMAID "46203")
+	(Preferred+name [KB_INSTANCE_58526]))
+
+([Head+of+first+plantar+interosseous+of+foot] of  Head+of+organ
+
+	(FMAID "46081")
+	(part+of First+plantar+interosseous+of+foot)
+	(Preferred+name [KB_INSTANCE_58388])
+	(regional+part+of First+plantar+interosseous+of+foot))
+
+([Head+of+first+plantar+interosseous+of+left+foot] of  Head+of+first+plantar+interosseous+of+foot
+
+	(FMAID "46088")
+	(Preferred+name [KB_INSTANCE_58401]))
+
+([Head+of+first+plantar+interosseous+of+right+foot] of  Head+of+first+plantar+interosseous+of+foot
+
+	(FMAID "46087")
+	(Preferred+name [KB_INSTANCE_58400]))
+
+([Head+of+first+rib] of  Head+of+rib
+
+	(FMAID "7600")
+	(part Articular+facet+of+head+of+first+rib)
+	(part+of First+rib)
+	(Preferred+name [KB_INSTANCE_04935])
+	(regional+part+of First+rib)
+	(Synonym [KB_AUTO-INSERT2_7537]))
+
+([Head+of+flexor+carpi+radialis] of  Head+of+organ
+
+	(FMAID "63215")
+	(Preferred+name [fm_live_02033])
+	(Synonym [KB_AUTO-INSERT2_7614]))
+
+([Head+of+flexor+digitorum+accessorius] of  Head+of+organ
+
+	(FMAID "45989")
+	(Preferred+name [KB_INSTANCE_58271])
+	(Synonym [KB_AUTO-INSERT2_7631]))
+
+([Head+of+flexor+hallucis+brevis] of  Head+of+organ
+
+	(FMAID "45963")
+	(Preferred+name [KB_INSTANCE_58243])
+	(Synonym [KB_AUTO-INSERT2_7618]))
+
+([Head+of+fourth+dorsal+interosseous+of+foot] of  Head+of+organ
+
+	(FMAID "46066")
+	(Preferred+name [KB_INSTANCE_58370]))
+
+([Head+of+fourth+dorsal+interosseous+of+hand] of  Head+of+organ
+
+	(FMAID "46135")
+	(Preferred+name [KB_INSTANCE_58458]))
+
+([Head+of+fourth+dorsal+interosseous+of+left+foot] of  Head+of+fourth+dorsal+interosseous+of+foot
+
+	(FMAID "46071")
+	(Preferred+name [KB_INSTANCE_58376]))
+
+([Head+of+fourth+dorsal+interosseous+of+left+hand] of  Head+of+fourth+dorsal+interosseous+of+hand
+
+	(FMAID "46140")
+	(Preferred+name [KB_INSTANCE_58463]))
+
+([Head+of+fourth+dorsal+interosseous+of+right+foot] of  Head+of+fourth+dorsal+interosseous+of+foot
+
+	(FMAID "46070")
+	(Preferred+name [KB_INSTANCE_58375]))
+
+([Head+of+fourth+dorsal+interosseous+of+right+hand] of  Head+of+fourth+dorsal+interosseous+of+hand
+
+	(FMAID "46139")
+	(Preferred+name [KB_INSTANCE_58462]))
+
+([Head+of+fourth+lumbrical+of+foot] of  Head+of+organ
+
+	(FMAID "46243")
+	(part+of Fourth+lumbrical+of+foot)
+	(Preferred+name [KB_INSTANCE_58566])
+	(regional+part+of Fourth+lumbrical+of+foot))
+
+([Head+of+fourth+lumbrical+of+hand] of  Head+of+organ
+
+	(FMAID "46213")
+	(Preferred+name [KB_INSTANCE_58536]))
+
+([Head+of+fourth+lumbrical+of+left+foot] of  Head+of+fourth+lumbrical+of+foot
+
+	(FMAID "46248")
+	(Preferred+name [KB_INSTANCE_58571]))
+
+([Head+of+fourth+lumbrical+of+left+hand] of  Head+of+fourth+lumbrical+of+hand
+
+	(FMAID "46218")
+	(Preferred+name [KB_INSTANCE_58541]))
+
+([Head+of+fourth+lumbrical+of+right+foot] of  Head+of+fourth+lumbrical+of+foot
+
+	(FMAID "46247")
+	(Preferred+name [KB_INSTANCE_58570]))
+
+([Head+of+fourth+lumbrical+of+right+hand] of  Head+of+fourth+lumbrical+of+hand
+
+	(FMAID "46217")
+	(Preferred+name [KB_INSTANCE_58540]))
+
+([Head+of+fourth+palmar+interosseous+of+hand] of  Head+of+organ
+
+	(FMAID "46181")
+	(Preferred+name [KB_INSTANCE_58504]))
+
+([Head+of+fourth+palmar+interosseous+of+left+hand] of  Head+of+fourth+palmar+interosseous+of+hand
+
+	(FMAID "46186")
+	(Preferred+name [KB_INSTANCE_58509]))
+
+([Head+of+fourth+palmar+interosseous+of+right+hand] of  Head+of+fourth+palmar+interosseous+of+hand
+
+	(FMAID "46185")
+	(Preferred+name [KB_INSTANCE_58508]))
+
+([Head+of+fourth+rib] of  Head+of+rib
+
+	(FMAID "7750")
+	(part
+		Crest+of+head+of+fourth+rib
+		Articular+facet+of+head+of+fourth+rib
+		Superior+articular+facet+of+head+of+fourth+rib
+		Inferior+articular+facet+of+head+of+fourth+rib)
+	(part+of Fourth+rib)
+	(Preferred+name [KB_INSTANCE_05161])
+	(regional+part
+		Crest+of+head+of+fourth+rib
+		Articular+facet+of+head+of+fourth+rib
+		Superior+articular+facet+of+head+of+fourth+rib
+		Inferior+articular+facet+of+head+of+fourth+rib)
+	(regional+part+of Fourth+rib)
+	(Synonym [KB_AUTO-INSERT2_7540]))
+
+([Head+of+gastrocnemius] of  Head+of+organ
+
+	(FMAID "45950")
+	(Preferred+name [KB_INSTANCE_58225])
+	(Synonym [KB_AUTO-INSERT2_7617]))
+
+([Head+of+humerus] of  Head+of+organ
+
+	(FMAID "13304")
+	(Non-English+equivalent
+		[KB_INSTANCE_14139]
+		[KB_AUTO-INSERT%283%29_602]
+		[KB_AUTO-INSERT%283%29_1277]
+		[ONARD_Instance_580169])
+	(part+of Proximal+epiphysis+of+humerus)
+	(Preferred+name [KB_INSTANCE_14138])
+	(regional+part+of Proximal+epiphysis+of+humerus)
+	(Synonym [KB_AUTO-INSERT2_7627]))
+
+([Head+of+internal+pillar+cell+of+cochlea] of  Head+of+pillar+cell+of+cochlea
+
+	(dimension 3-dimension)
+	(FMAID "75734")
+	(part+of Internal+pillar+cell+of+cochlea)
+	(Preferred+name [FM_live_09411]))
+
+([Head+of+left+biceps+femoris] of  Head+of+biceps+femoris
+
+	(FMAID "45884")
+	(Preferred+name [KB_INSTANCE_58133])
+	(Synonym [KB_AUTO-INSERT2_7635]))
+
+([Head+of+left+capitate+bone] of  Head+of+capitate+bone
+
+	(FMAID "43085")
+	(Preferred+name [KB_INSTANCE_54781])
+	(Synonym [KB_AUTO-INSERT2_7584]))
+
+([Head+of+left+caudate+nucleus] of  Head+of+caudate+nucleus
+
+	(dimension 3-dimension)
+	(FMAID "72851")
+	(Preferred+name [live_incus_fm_10125])
+	(Synonym [KB_AUTO-INSERT2_4691]))
+
+([Head+of+left+eighth+rib] of  Head+of+eighth+rib
+
+	(FMAID "8311")
+	(part
+		Superior+articular+facet+of+head+of+left+eighth+rib
+		Inferior+articular+facet+of+head+of+left+eighth+rib
+		Crest+of+head+of+left+eighth+rib
+		Articular+facet+of+head+of+left+eighth+rib)
+	(part+of Left+eighth+rib)
+	(Preferred+name [KB_INSTANCE_05752])
+	(regional+part
+		Superior+articular+facet+of+head+of+left+eighth+rib
+		Inferior+articular+facet+of+head+of+left+eighth+rib
+		Crest+of+head+of+left+eighth+rib
+		Articular+facet+of+head+of+left+eighth+rib)
+	(regional+part+of Left+eighth+rib)
+	(Synonym [KB_AUTO-INSERT2_7564]))
+
+([Head+of+left+eleventh+rib] of  Head+of+eleventh+rib
+
+	(FMAID "8538")
+	(part Articular+facet+of+head+of+left+eleventh+rib)
+	(part+of Left+eleventh+rib)
+	(Preferred+name [KB_INSTANCE_05970])
+	(regional+part Articular+facet+of+head+of+left+eleventh+rib)
+	(regional+part+of Left+eleventh+rib)
+	(Synonym [KB_AUTO-INSERT2_7570]))
+
+([Head+of+left+epididymis] of  Head+of+epididymis
+
+	(FMAID "18263")
+	(part
+		Ductule+of+left+epididymis
+		Lobule+of+left+epididymis)
+	(part+of Left+epididymis)
+	(Preferred+name [KB_INSTANCE_22428])
+	(regional+part
+		Ductule+of+left+epididymis
+		Lobule+of+left+epididymis
+		Superior+aberrant+ductule+of+left+epididymis
+		Inferior+aberrant+ductule+of+left+epididymis)
+	(regional+part+of Left+epididymis)
+	(Synonym
+		[KB_INSTANCE_22429]
+		[KB_AUTO-INSERT2_7790]))
+
+([Head+of+left+femur] of  Head+of+femur
+
+	(FMAID "55012")
+	(Preferred+name [KB_INSTANCE_69984])
+	(Synonym [KB_INSTANCE_69985]))
+
+([Head+of+left+fifth+rib] of  Head+of+fifth+rib
+
+	(FMAID "8094")
+	(part
+		Superior+articular+facet+of+head+of+left+fifth+rib
+		Inferior+articular+facet+of+head+of+left+fifth+rib
+		Crest+of+head+of+left+fifth+rib
+		Articular+facet+of+head+of+left+fifth+rib)
+	(part+of Left+fifth+rib)
+	(Preferred+name [KB_INSTANCE_05535])
+	(regional+part
+		Superior+articular+facet+of+head+of+left+fifth+rib
+		Inferior+articular+facet+of+head+of+left+fifth+rib
+		Crest+of+head+of+left+fifth+rib
+		Articular+facet+of+head+of+left+fifth+rib)
+	(regional+part+of Left+fifth+rib)
+	(Synonym [KB_AUTO-INSERT2_7558]))
+
+([Head+of+left+first+rib] of  Head+of+first+rib
+
+	(FMAID "7988")
+	(part Articular+facet+of+head+of+left+first+rib)
+	(part+of Left+first+rib)
+	(Preferred+name [KB_INSTANCE_05428])
+	(regional+part Articular+facet+of+head+of+left+first+rib)
+	(regional+part+of Left+first+rib)
+	(Synonym [KB_AUTO-INSERT2_7550]))
+
+([Head+of+left+flexor+digitorum+accessorius] of  Head+of+flexor+digitorum+accessorius
+
+	(FMAID "46000")
+	(Preferred+name [KB_INSTANCE_58282])
+	(Synonym [KB_AUTO-INSERT2_7641]))
+
+([Head+of+left+fourth+rib] of  Head+of+fourth+rib
+
+	(FMAID "8149")
+	(part
+		Superior+articular+facet+of+head+of+left+fourth+rib
+		Inferior+articular+facet+of+head+of+left+fourth+rib
+		Crest+of+head+of+left+fourth+rib
+		Articular+facet+of+head+of+left+fourth+rib)
+	(part+of Left+fourth+rib)
+	(Preferred+name [KB_INSTANCE_05591])
+	(regional+part
+		Superior+articular+facet+of+head+of+left+fourth+rib
+		Inferior+articular+facet+of+head+of+left+fourth+rib
+		Crest+of+head+of+left+fourth+rib
+		Articular+facet+of+head+of+left+fourth+rib)
+	(regional+part+of Left+fourth+rib)
+	(Synonym [KB_AUTO-INSERT2_7556]))
+
+([Head+of+left+gastrocnemius] of  Head+of+gastrocnemius
+
+	(FMAID "45953")
+	(Preferred+name [KB_INSTANCE_58228])
+	(Synonym [KB_AUTO-INSERT2_7639]))
+
+([Head+of+left+humerus] of  Head+of+humerus
+
+	(FMAID "13307")
+	(part+of Proximal+epiphysis+of+left+humerus)
+	(Preferred+name [KB_INSTANCE_14145])
+	(regional+part+of Proximal+epiphysis+of+left+humerus)
+	(Synonym [KB_AUTO-INSERT2_7578]))
+
+([Head+of+left+ninth+rib] of  Head+of+ninth+rib
+
+	(FMAID "8392")
+	(part
+		Articular+facet+of+head+of+left+ninth+rib
+		Superior+articular+facet+of+head+of+left+ninth+rib
+		Inferior+articular+facet+of+head+of+left+ninth+rib
+		Crest+of+head+of+left+ninth+rib)
+	(part+of Left+ninth+rib)
+	(Preferred+name [KB_INSTANCE_05832])
+	(regional+part
+		Articular+facet+of+head+of+left+ninth+rib
+		Superior+articular+facet+of+head+of+left+ninth+rib
+		Inferior+articular+facet+of+head+of+left+ninth+rib
+		Crest+of+head+of+left+ninth+rib)
+	(regional+part+of Left+ninth+rib)
+	(Synonym [KB_AUTO-INSERT2_7566]))
+
+([Head+of+left+plantaris] of  Head+of+plantaris
+
+	(FMAID "45987")
+	(Preferred+name [KB_INSTANCE_58268])
+	(Synonym [KB_AUTO-INSERT2_7643]))
+
+([Head+of+left+radius] of  Head+of+radius
+
+	(FMAID "39781")
+	(part+of Proximal+epiphysis+of+left+radius)
+	(Preferred+name [KB_INSTANCE_51316])
+	(regional+part+of Proximal+epiphysis+of+left+radius)
+	(Synonym [KB_AUTO-INSERT2_7582]))
+
+([Head+of+left+sartorius] of  Head+of+sartorius
+
+	(FMAID "51959")
+	(Preferred+name [KB_INSTANCE_65548])
+	(Synonym [KB_AUTO-INSERT2_7645]))
+
+([Head+of+left+scapula] of  Glenoid+proper+of+scapula
+
+	(FMAID "23287")
+	(part Left+glenoid+fossa)
+	(part+of Left+scapula)
+	(Preferred+name [KB_INSTANCE_29068])
+	(regional+part+of Left+scapula)
+	(Synonym [KB_AUTO-INSERT2_7647]))
+
+([Head+of+left+second+rib] of  Head+of+second+rib
+
+	(FMAID "8013")
+	(part
+		Inferior+articular+facet+of+head+of+left+second+rib
+		Crest+of+head+of+left+second+rib
+		Articular+facet+of+head+of+left+second+rib
+		Superior+articular+facet+of+head+of+left+second+rib)
+	(part+of Left+second+rib)
+	(Preferred+name [KB_INSTANCE_05452])
+	(regional+part
+		Inferior+articular+facet+of+head+of+left+second+rib
+		Crest+of+head+of+left+second+rib
+		Articular+facet+of+head+of+left+second+rib
+		Superior+articular+facet+of+head+of+left+second+rib)
+	(regional+part+of Left+second+rib)
+	(Synonym [KB_AUTO-INSERT2_7552]))
+
+([Head+of+left+semitendinosus] of  Head+of+semitendinosus
+
+	(FMAID "45946")
+	(Preferred+name [KB_INSTANCE_58220])
+	(Synonym [KB_AUTO-INSERT2_7637]))
+
+([Head+of+left+seventh+rib] of  Head+of+seventh+rib
+
+	(FMAID "8257")
+	(part
+		Superior+articular+facet+of+head+of+left+seventh+rib
+		Articular+facet+of+head+of+left+seventh+rib
+		Inferior+articular+facet+of+head+of+left+seventh+rib
+		Crest+of+head+of+left+seventh+rib)
+	(part+of Left+seventh+rib)
+	(Preferred+name [KB_INSTANCE_05699])
+	(regional+part
+		Superior+articular+facet+of+head+of+left+seventh+rib
+		Articular+facet+of+head+of+left+seventh+rib
+		Inferior+articular+facet+of+head+of+left+seventh+rib
+		Crest+of+head+of+left+seventh+rib)
+	(regional+part+of Left+seventh+rib)
+	(Synonym [KB_AUTO-INSERT2_7562]))
+
+([Head+of+left+sixth+rib] of  Head+of+sixth+rib
+
+	(FMAID "8203")
+	(part
+		Superior+articular+facet+of+head+of+left+sixth+rib
+		Inferior+articular+facet+of+head+of+left+sixth+rib
+		Crest+of+head+of+left+sixth+rib
+		Articular+facet+of+head+of+left+sixth+rib)
+	(part+of Left+sixth+rib)
+	(Preferred+name [KB_INSTANCE_05645])
+	(regional+part
+		Superior+articular+facet+of+head+of+left+sixth+rib
+		Inferior+articular+facet+of+head+of+left+sixth+rib
+		Crest+of+head+of+left+sixth+rib
+		Articular+facet+of+head+of+left+sixth+rib)
+	(regional+part+of Left+sixth+rib)
+	(Synonym [KB_AUTO-INSERT2_7560]))
+
+([Head+of+left+talus] of  Head+of+talus
+
+	(FMAID "66213")
+	(Preferred+name [fm-live_06021])
+	(Synonym [KB_AUTO-INSERT2_7576]))
+
+([Head+of+left+tenth+rib] of  Head+of+tenth+rib
+
+	(FMAID "8473")
+	(part Articular+facet+of+head+of+left+tenth+rib)
+	(part+of Left+tenth+rib)
+	(Preferred+name [KB_INSTANCE_05906])
+	(regional+part Articular+facet+of+head+of+left+tenth+rib)
+	(regional+part+of Left+tenth+rib)
+	(Synonym [KB_AUTO-INSERT2_7568]))
+
+([Head+of+left+third+rib] of  Head+of+third+rib
+
+	(FMAID "8040")
+	(part
+		Inferior+articular+facet+of+head+of+left+third+rib
+		Crest+of+head+of+left+third+rib
+		Articular+facet+of+head+of+left+third+rib
+		Superior+articular+facet+of+head+of+left+third+rib)
+	(part+of Left+third+rib)
+	(Preferred+name [KB_INSTANCE_05479])
+	(regional+part
+		Inferior+articular+facet+of+head+of+left+third+rib
+		Crest+of+head+of+left+third+rib
+		Articular+facet+of+head+of+left+third+rib
+		Superior+articular+facet+of+head+of+left+third+rib)
+	(regional+part+of Left+third+rib)
+	(Synonym [KB_AUTO-INSERT2_7554]))
+
+([Head+of+left+twelfth+rib] of  Head+of+twelfth+rib
+
+	(FMAID "8544")
+	(part Articular+facet+of+head+of+left+twelfth+rib)
+	(part+of Left+twelfth+rib)
+	(Preferred+name [KB_INSTANCE_05978])
+	(regional+part Articular+facet+of+head+of+left+twelfth+rib)
+	(regional+part+of Left+twelfth+rib)
+	(Synonym [KB_AUTO-INSERT2_7572]))
+
+([Head+of+malleus] of  Head+of+organ
+
+	(FMAID "52761")
+	(Non-English+equivalent
+		[KB_INSTANCE_66523]
+		[KB_AUTO-INSERT%283%29_4438])
+	(part+of Malleus)
+	(Preferred+name [KB_INSTANCE_66522])
+	(regional+part+of Malleus)
+	(Synonym [KB_AUTO-INSERT2_7622]))
+
+([Head+of+mandible] of  Head+of+organ
+
+	(FMAID "59331")
+	(Non-English+equivalent
+		[su_incus_29463]
+		[KB_INSTANCE_78354]
+		[KB_AUTO-INSERT%283%29_480]
+		[ONARD_Instance_580168])
+	(Preferred+name [KB_INSTANCE_78353])
+	(Synonym [KB_AUTO-INSERT2_7626]))
+
+([Head+of+middle+phalanx+of+fourth+toe] of  Distal+epiphysis+of+phalanx+of+fourth+toe
+
+	(FMAID "33088")
+	(part+of Middle+phalanx+of+fourth+toe)
+	(Preferred+name [KB_INSTANCE_41169])
+	(regional+part+of Middle+phalanx+of+fourth+toe)
+	(Synonym
+		[KB_INSTANCE_41170]
+		[KB_INSTANCE_41171]))
+
+([Head+of+middle+phalanx+of+left+fourth+toe] of  Head+of+middle+phalanx+of+fourth+toe
+
+	(FMAID "33090")
+	(Preferred+name [KB_INSTANCE_41174])
+	(Synonym [KB_INSTANCE_41175]))
+
+([Head+of+middle+phalanx+of+left+little+toe] of  Head+of+middle+phalanx+of+little+toe
+
+	(FMAID "33105")
+	(Preferred+name [KB_INSTANCE_41206])
+	(Synonym
+		[KB_INSTANCE_41207]
+		[KB_INSTANCE_41208]))
+
+([Head+of+middle+phalanx+of+left+second+toe] of  Head+of+middle+phalanx+of+second+toe
+
+	(FMAID "33044")
+	(Preferred+name [KB_INSTANCE_41104])
+	(Synonym [KB_INSTANCE_41105]))
+
+([Head+of+middle+phalanx+of+left+third+toe] of  Head+of+middle+phalanx+of+third+toe
+
+	(FMAID "33053")
+	(Preferred+name [KB_INSTANCE_41124])
+	(Synonym [KB_INSTANCE_41125]))
+
+([Head+of+middle+phalanx+of+little+toe] of  Distal+epiphysis+of+phalanx+of+fifth+toe
+
+	(FMAID "33103")
+	(Preferred+name [KB_INSTANCE_41199])
+	(Synonym
+		[KB_INSTANCE_41200]
+		[KB_INSTANCE_41201]
+		[KB_INSTANCE_41202]))
+
+([Head+of+middle+phalanx+of+right+fourth+toe] of  Head+of+middle+phalanx+of+fourth+toe
+
+	(FMAID "33089")
+	(Preferred+name [KB_INSTANCE_41172])
+	(Synonym [KB_INSTANCE_41173]))
+
+([Head+of+middle+phalanx+of+right+little+toe] of  Head+of+middle+phalanx+of+little+toe
+
+	(FMAID "33104")
+	(Preferred+name [KB_INSTANCE_41203])
+	(Synonym
+		[KB_INSTANCE_41204]
+		[KB_INSTANCE_41205]))
+
+([Head+of+middle+phalanx+of+right+second+toe] of  Head+of+middle+phalanx+of+second+toe
+
+	(FMAID "33043")
+	(Preferred+name [KB_INSTANCE_41102])
+	(Synonym [KB_INSTANCE_41103]))
+
+([Head+of+middle+phalanx+of+right+third+toe] of  Head+of+middle+phalanx+of+third+toe
+
+	(FMAID "33052")
+	(Preferred+name [KB_INSTANCE_41122])
+	(Synonym [KB_INSTANCE_41123]))
+
+([Head+of+middle+phalanx+of+second+toe] of  Distal+epiphysis+of+phalanx+of+second+toe
+
+	(FMAID "33042")
+	(part+of Middle+phalanx+of+second+toe)
+	(Preferred+name [KB_INSTANCE_41100])
+	(regional+part+of Middle+phalanx+of+second+toe)
+	(Synonym [KB_INSTANCE_41101]))
+
+([Head+of+middle+phalanx+of+third+toe] of  Distal+epiphysis+of+phalanx+of+third+toe
+
+	(FMAID "33051")
+	(part+of Middle+phalanx+of+third+toe)
+	(Preferred+name [KB_INSTANCE_41119])
+	(regional+part+of Middle+phalanx+of+third+toe)
+	(Synonym
+		[KB_INSTANCE_41120]
+		[KB_INSTANCE_41121]))
+
+([Head+of+muscle+organ] of  Head+of+organ
+
+	(FMAID "85453")
+	(Preferred+name [fma_p2_Instance_120001])
+	(Synonym
+		[fma_p2_Instance_160000]
+		[fma_p2_Instance_280001]
+		[KB_AUTO-INSERT2_7633]))
+
+([Head+of+myosin] of  Component+of+myosin
+
+	(FMAID "67226")
+	(part+of Myosin+myofilament)
+	(Preferred+name [fm-live_13901])
+	(regional+part+of Myosin+myofilament)
+	(Synonym [fm-live_13904]))
+
+([Head+of+ninth+rib] of  Head+of+rib
+
+	(FMAID "8338")
+	(part
+		Superior+articular+facet+of+head+of+ninth+rib
+		Inferior+articular+facet+of+head+of+ninth+rib
+		Articular+facet+of+head+of+ninth+rib
+		Crest+of+head+of+ninth+rib)
+	(part+of Ninth+rib)
+	(Preferred+name [KB_INSTANCE_05778])
+	(regional+part
+		Superior+articular+facet+of+head+of+ninth+rib
+		Inferior+articular+facet+of+head+of+ninth+rib
+		Articular+facet+of+head+of+ninth+rib
+		Crest+of+head+of+ninth+rib)
+	(regional+part+of Ninth+rib)
+	(Synonym [KB_AUTO-INSERT2_7545]))
+
+([Head+of+organ] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "45729")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_4647])
+	(Preferred+name [KB_INSTANCE_57992])
+	(Synonym [KB_AUTO-INSERT2_6986]))
+
+([Head+of+pancreas] of  Zone+of+pancreas
+
+	(constitutional+part Vasculature+of+head+of+pancreas)
+	(FMAID "10468")
+	(Non-English+equivalent
+		[KB_INSTANCE_09426]
+		[KB_AUTO-INSERT%283%29_1886])
+	(part
+		Head+proper+of+pancreas
+		Uncinate+process+of+pancreas)
+	(part+of Pancreas)
+	(Preferred+name [KB_INSTANCE_09425])
+	(regional+part
+		Head+proper+of+pancreas
+		Uncinate+process+of+pancreas)
+	(regional+part+of Pancreas)
+	(Synonym
+		[KB_INSTANCE_09427]
+		[KB_AUTO-INSERT2_7764]))
+
+([Head+of+phalanx+of+left+big+toe] of  Distal+epiphysis+of+phalanx+of+big+toe
+
+	(FMAID "32898")
+	(Preferred+name [KB_INSTANCE_40698])
+	(Synonym
+		[KB_INSTANCE_40699]
+		[KB_INSTANCE_40700]))
+
+([Head+of+phalanx+of+left+fourth+toe] of  Distal+epiphysis+of+phalanx+of+fourth+toe
+
+	(FMAID "32939")
+	(Preferred+name [KB_INSTANCE_40809])
+	(Synonym
+		[KB_INSTANCE_40810]
+		[KB_INSTANCE_40811]))
+
+([Head+of+phalanx+of+left+little+toe] of  Distal+epiphysis+of+phalanx+of+fifth+toe
+
+	(FMAID "32948")
+	(Preferred+name [KB_INSTANCE_40849])
+	(Synonym
+		[KB_INSTANCE_40850]
+		[KB_INSTANCE_40851]
+		[KB_INSTANCE_40852]))
+
+([Head+of+phalanx+of+left+second+toe] of  Distal+epiphysis+of+phalanx+of+second+toe
+
+	(FMAID "32921")
+	(Preferred+name [KB_INSTANCE_40747])
+	(Synonym
+		[KB_INSTANCE_40748]
+		[KB_INSTANCE_40749]))
+
+([Head+of+phalanx+of+left+third+toe] of  Distal+epiphysis+of+phalanx+of+third+toe
+
+	(FMAID "32930")
+	(Preferred+name [KB_INSTANCE_40778])
+	(Synonym
+		[KB_INSTANCE_40779]
+		[KB_INSTANCE_40780]))
+
+([Head+of+phalanx+of+right+fourth+toe] of  Distal+epiphysis+of+phalanx+of+fourth+toe
+
+	(FMAID "32938")
+	(Preferred+name [KB_INSTANCE_40806])
+	(Synonym
+		[KB_INSTANCE_40807]
+		[KB_INSTANCE_40808]))
+
+([Head+of+phalanx+of+right+little+toe] of  Distal+epiphysis+of+phalanx+of+fifth+toe
+
+	(FMAID "32947")
+	(Preferred+name [KB_INSTANCE_40845])
+	(Synonym
+		[KB_INSTANCE_40846]
+		[KB_INSTANCE_40847]
+		[KB_INSTANCE_40848]))
+
+([Head+of+phalanx+of+right+second+toe] of  Distal+epiphysis+of+phalanx+of+second+toe
+
+	(FMAID "32920")
+	(Preferred+name [KB_INSTANCE_40744])
+	(Synonym
+		[KB_INSTANCE_40745]
+		[KB_INSTANCE_40746]))
+
+([Head+of+phalanx+of+right+third+toe] of  Distal+epiphysis+of+phalanx+of+third+toe
+
+	(FMAID "32929")
+	(Preferred+name [KB_INSTANCE_40775])
+	(Synonym
+		[KB_INSTANCE_40776]
+		[KB_INSTANCE_40777]))
+
+([Head+of+phalanx+right+big+toe] of  Distal+epiphysis+of+phalanx+of+big+toe
+
+	(FMAID "32897")
+	(Preferred+name [KB_INSTANCE_40695])
+	(Synonym
+		[KB_INSTANCE_40696]
+		[KB_INSTANCE_40697]
+		[KB_AUTO-INSERT2_7574]))
+
+([Head+of+pillar+cell+of+cochlea] of  Zone+of+pillar+cell+of+cochlea
+
+	(dimension 3-dimension)
+	(FMAID "75729")
+	(part+of Pillar+cell+of+cochlea)
+	(Preferred+name [FM_live_09405]))
+
+([Head+of+plantaris] of  Head+of+organ
+
+	(FMAID "45982")
+	(part+of Plantaris)
+	(Preferred+name [KB_INSTANCE_58263])
+	(regional+part+of Plantaris)
+	(Synonym [KB_AUTO-INSERT2_7620]))
+
+([Head+of+proximal+phalanx+of+big+toe] of  Distal+epiphysis+of+phalanx+of+big+toe
+
+	(FMAID "33033")
+	(part+of Proximal+phalanx+of+big+toe)
+	(Preferred+name [KB_INSTANCE_41073])
+	(regional+part+of Proximal+phalanx+of+big+toe)
+	(Synonym
+		[KB_INSTANCE_41074]
+		[KB_INSTANCE_41075]
+		[KB_INSTANCE_41076]))
+
+([Head+of+proximal+phalanx+of+fourth+toe] of  Distal+epiphysis+of+phalanx+of+fourth+toe
+
+	(FMAID "33085")
+	(part Articular+cartilage+of+epiphysis+of+proximal+phalanx+of+fourth+toe)
+	(part+of Proximal+phalanx+of+fourth+toe)
+	(Preferred+name [KB_INSTANCE_41162])
+	(regional+part Articular+cartilage+of+epiphysis+of+proximal+phalanx+of+fourth+toe)
+	(regional+part+of Proximal+phalanx+of+fourth+toe)
+	(Synonym
+		[KB_INSTANCE_41163]
+		[KB_INSTANCE_41164]))
+
+([Head+of+proximal+phalanx+of+left+big+toe] of  Head+of+proximal+phalanx+of+big+toe
+
+	(FMAID "33035")
+	(Preferred+name [KB_INSTANCE_41080])
+	(Synonym
+		[KB_INSTANCE_41081]
+		[KB_INSTANCE_41082]))
+
+([Head+of+proximal+phalanx+of+left+fourth+toe] of  Head+of+proximal+phalanx+of+fourth+toe
+
+	(FMAID "33087")
+	(Preferred+name [KB_INSTANCE_41167])
+	(Synonym [KB_INSTANCE_41168]))
+
+([Head+of+proximal+phalanx+of+left+little+toe] of  Head+of+proximal+phalanx+of+little+toe
+
+	(FMAID "33102")
+	(Preferred+name [KB_INSTANCE_41196])
+	(Synonym
+		[KB_INSTANCE_41197]
+		[KB_INSTANCE_41198]))
+
+([Head+of+proximal+phalanx+of+left+second+toe] of  Head+of+proximal+phalanx+of+second+toe
+
+	(FMAID "33041")
+	(Preferred+name [KB_INSTANCE_41098])
+	(Synonym [KB_INSTANCE_41099]))
+
+([Head+of+proximal+phalanx+of+left+third+toe] of  Head+of+proximal+phalanx+of+third+toe
+
+	(FMAID "33050")
+	(Preferred+name [KB_INSTANCE_41117])
+	(Synonym [KB_INSTANCE_41118]))
+
+([Head+of+proximal+phalanx+of+little+toe] of  Distal+epiphysis+of+phalanx+of+fifth+toe
+
+	(FMAID "33100")
+	(part+of Proximal+phalanx+of+little+toe)
+	(Preferred+name [KB_INSTANCE_41189])
+	(regional+part+of Proximal+phalanx+of+little+toe)
+	(Synonym
+		[KB_INSTANCE_41190]
+		[KB_INSTANCE_41191]
+		[KB_INSTANCE_41192]))
+
+([Head+of+proximal+phalanx+of+right+big+toe] of  Head+of+proximal+phalanx+of+big+toe
+
+	(FMAID "33034")
+	(Preferred+name [KB_INSTANCE_41077])
+	(Synonym
+		[KB_INSTANCE_41078]
+		[KB_INSTANCE_41079]))
+
+([Head+of+proximal+phalanx+of+right+fourth+toe] of  Head+of+proximal+phalanx+of+fourth+toe
+
+	(FMAID "33086")
+	(Preferred+name [KB_INSTANCE_41165])
+	(Synonym [KB_INSTANCE_41166]))
+
+([Head+of+proximal+phalanx+of+right+little+toe] of  Head+of+proximal+phalanx+of+little+toe
+
+	(FMAID "33101")
+	(Preferred+name [KB_INSTANCE_41193])
+	(Synonym
+		[KB_INSTANCE_41194]
+		[KB_INSTANCE_41195]))
+
+([Head+of+proximal+phalanx+of+right+second+toe] of  Head+of+proximal+phalanx+of+second+toe
+
+	(FMAID "33040")
+	(Preferred+name [KB_INSTANCE_41096])
+	(Synonym [KB_INSTANCE_41097]))
+
+([Head+of+proximal+phalanx+of+right+third+toe] of  Head+of+proximal+phalanx+of+third+toe
+
+	(FMAID "33049")
+	(Preferred+name [KB_INSTANCE_41115])
+	(Synonym [KB_INSTANCE_41116]))
+
+([Head+of+proximal+phalanx+of+second+toe] of  Distal+epiphysis+of+phalanx+of+second+toe
+
+	(FMAID "33039")
+	(part Articular+cartilage+of+epiphysis+of+proximal+phalanx+of+second+toe)
+	(part+of Proximal+phalanx+of+second+toe)
+	(Preferred+name [KB_INSTANCE_41093])
+	(regional+part Articular+cartilage+of+epiphysis+of+proximal+phalanx+of+second+toe)
+	(regional+part+of Proximal+phalanx+of+second+toe)
+	(Synonym
+		[KB_INSTANCE_41094]
+		[KB_INSTANCE_41095]))
+
+([Head+of+proximal+phalanx+of+third+toe] of  Distal+epiphysis+of+phalanx+of+third+toe
+
+	(FMAID "33048")
+	(part Articular+cartilage+of+epiphysis+of+proximal+phalanx+of+third+toe)
+	(part+of Proximal+phalanx+of+third+toe)
+	(Preferred+name [KB_INSTANCE_41112])
+	(regional+part Articular+cartilage+of+epiphysis+of+proximal+phalanx+of+third+toe)
+	(regional+part+of Proximal+phalanx+of+third+toe)
+	(Synonym
+		[KB_INSTANCE_41113]
+		[KB_INSTANCE_41114]))
+
+([Head+of+radius] of  Head+of+organ
+
+	(FMAID "33773")
+	(Non-English+equivalent
+		[KB_INSTANCE_42669]
+		[KB_AUTO-INSERT%283%29_1283]
+		[ONARD_Instance_580170])
+	(part+of
+		Proximal+epiphysis+of+radius
+		Elbow+joint)
+	(Preferred+name [KB_INSTANCE_42668])
+	(regional+part+of
+		Proximal+epiphysis+of+radius
+		Elbow+joint)
+	(Synonym [KB_AUTO-INSERT2_7628]))
+
+([Head+of+rib] of  Head+of+organ
+
+	(FMAID "7575")
+	(Non-English+equivalent [KB_INSTANCE_04892])
+	(part
+		Crest+of+head+of+rib
+		Articular+facet+of+head+of+rib
+		Superior+articular+facet+of+head+of+rib
+		Inferior+articular+facet+of+head+of+rib)
+	(part+of Rib)
+	(Preferred+name [KB_INSTANCE_04891])
+	(regional+part
+		Crest+of+head+of+rib
+		Articular+facet+of+head+of+rib
+		Superior+articular+facet+of+head+of+rib
+		Inferior+articular+facet+of+head+of+rib)
+	(regional+part+of Rib)
+	(Synonym [KB_AUTO-INSERT2_7623]))
+
+([Head+of+right+biceps+femoris] of  Head+of+biceps+femoris
+
+	(FMAID "45883")
+	(Preferred+name [KB_INSTANCE_58132])
+	(Synonym [KB_AUTO-INSERT2_7634]))
+
+([Head+of+right+capitate+bone] of  Head+of+capitate+bone
+
+	(FMAID "43084")
+	(Preferred+name [KB_INSTANCE_54780])
+	(Synonym [KB_AUTO-INSERT2_7583]))
+
+([Head+of+right+caudate+nucleus] of  Head+of+caudate+nucleus
+
+	(dimension 3-dimension)
+	(FMAID "72850")
+	(Preferred+name [live_incus_fm_10123])
+	(Synonym [KB_AUTO-INSERT2_4690]))
+
+([Head+of+right+eighth+rib] of  Head+of+eighth+rib
+
+	(FMAID "8284")
+	(part
+		Articular+facet+of+head+of+right+eighth+rib
+		Superior+articular+facet+of+head+of+right+eighth+rib
+		Inferior+articular+facet+of+head+of+right+eighth+rib
+		Crest+of+head+of+right+eighth+rib)
+	(part+of Right+eighth+rib)
+	(Preferred+name [KB_INSTANCE_05726])
+	(regional+part
+		Articular+facet+of+head+of+right+eighth+rib
+		Superior+articular+facet+of+head+of+right+eighth+rib
+		Inferior+articular+facet+of+head+of+right+eighth+rib
+		Crest+of+head+of+right+eighth+rib)
+	(regional+part+of Right+eighth+rib)
+	(Synonym [KB_AUTO-INSERT2_7563]))
+
+([Head+of+right+eleventh+rib] of  Head+of+eleventh+rib
+
+	(FMAID "8535")
+	(part Articular+facet+of+head+of+right+eleventh+rib)
+	(part+of Right+eleventh+rib)
+	(Preferred+name [KB_INSTANCE_05966])
+	(regional+part Articular+facet+of+head+of+right+eleventh+rib)
+	(regional+part+of Right+eleventh+rib)
+	(Synonym [KB_AUTO-INSERT2_7569]))
+
+([Head+of+right+epididymis] of  Head+of+epididymis
+
+	(FMAID "18262")
+	(part
+		Ductule+of+right+epididymis
+		Lobule+of+right+epididymis)
+	(part+of Right+epididymis)
+	(Preferred+name [KB_INSTANCE_22426])
+	(regional+part
+		Ductule+of+right+epididymis
+		Lobule+of+right+epididymis
+		Superior+aberrant+ductule+of+right+epididymis
+		Inferior+aberrant+ductule+of+right+epididymis)
+	(regional+part+of Right+epididymis)
+	(Synonym
+		[KB_INSTANCE_22427]
+		[KB_AUTO-INSERT2_7789]))
+
+([Head+of+right+femur] of  Head+of+femur
+
+	(FMAID "55011")
+	(Preferred+name [KB_INSTANCE_69982])
+	(Synonym [KB_INSTANCE_69983]))
+
+([Head+of+right+fifth+rib] of  Head+of+fifth+rib
+
+	(FMAID "8067")
+	(part
+		Crest+of+head+of+right+fifth+rib
+		Articular+facet+of+head+of+right+fifth+rib
+		Superior+articular+facet+of+head+of+right+fifth+rib
+		Inferior+articular+facet+of+head+of+right+fifth+rib)
+	(part+of Right+fifth+rib)
+	(Preferred+name [KB_INSTANCE_05506])
+	(regional+part
+		Crest+of+head+of+right+fifth+rib
+		Articular+facet+of+head+of+right+fifth+rib
+		Superior+articular+facet+of+head+of+right+fifth+rib
+		Inferior+articular+facet+of+head+of+right+fifth+rib)
+	(regional+part+of Right+fifth+rib)
+	(Synonym [KB_AUTO-INSERT2_7557]))
+
+([Head+of+right+first+rib] of  Head+of+first+rib
+
+	(FMAID "7858")
+	(part Articular+facet+of+head+of+right+first+rib)
+	(part+of Right+first+rib)
+	(Preferred+name [KB_INSTANCE_05276])
+	(regional+part Articular+facet+of+head+of+right+first+rib)
+	(regional+part+of Right+first+rib)
+	(Synonym [KB_AUTO-INSERT2_7549]))
+
+([Head+of+right+flexor+digitorum+accessorius] of  Head+of+flexor+digitorum+accessorius
+
+	(FMAID "45999")
+	(Preferred+name [KB_INSTANCE_58281])
+	(Synonym [KB_AUTO-INSERT2_7640]))
+
+([Head+of+right+fourth+rib] of  Head+of+fourth+rib
+
+	(FMAID "7958")
+	(part
+		Crest+of+head+of+right+fourth+rib
+		Articular+facet+of+head+of+right+fourth+rib
+		Superior+articular+facet+of+head+of+right+fourth+rib
+		Inferior+articular+facet+of+head+of+right+fourth+rib)
+	(part+of Right+fourth+rib)
+	(Preferred+name [KB_INSTANCE_05391])
+	(regional+part
+		Crest+of+head+of+right+fourth+rib
+		Articular+facet+of+head+of+right+fourth+rib
+		Superior+articular+facet+of+head+of+right+fourth+rib
+		Inferior+articular+facet+of+head+of+right+fourth+rib)
+	(regional+part+of Right+fourth+rib)
+	(Synonym [KB_AUTO-INSERT2_7555]))
+
+([Head+of+right+gastrocnemius] of  Head+of+gastrocnemius
+
+	(FMAID "45952")
+	(Preferred+name [KB_INSTANCE_58227])
+	(Synonym [KB_AUTO-INSERT2_7638]))
+
+([Head+of+right+humerus] of  Head+of+humerus
+
+	(constitutional+part+of Right+shoulder)
+	(FMAID "13306")
+	(part+of Proximal+epiphysis+of+right+humerus)
+	(Preferred+name [KB_INSTANCE_14144])
+	(regional+part+of Proximal+epiphysis+of+right+humerus)
+	(Synonym [KB_AUTO-INSERT2_7577]))
+
+([Head+of+right+ninth+rib] of  Head+of+ninth+rib
+
+	(FMAID "8365")
+	(part
+		Articular+facet+of+head+of+right+ninth+rib
+		Superior+articular+facet+of+head+of+right+ninth+rib
+		Inferior+articular+facet+of+head+of+right+ninth+rib
+		Crest+of+head+of+right+ninth+rib)
+	(part+of Right+ninth+rib)
+	(Preferred+name [KB_INSTANCE_05806])
+	(regional+part
+		Articular+facet+of+head+of+right+ninth+rib
+		Superior+articular+facet+of+head+of+right+ninth+rib
+		Inferior+articular+facet+of+head+of+right+ninth+rib
+		Crest+of+head+of+right+ninth+rib)
+	(regional+part+of Right+ninth+rib)
+	(Synonym [KB_AUTO-INSERT2_7565]))
+
+([Head+of+right+plantaris] of  Head+of+plantaris
+
+	(FMAID "45986")
+	(Preferred+name [KB_INSTANCE_58267])
+	(Synonym [KB_AUTO-INSERT2_7642]))
+
+([Head+of+right+radius] of  Head+of+radius
+
+	(FMAID "39782")
+	(part+of Proximal+epiphysis+of+right+radius)
+	(Preferred+name [KB_INSTANCE_51317])
+	(regional+part+of Proximal+epiphysis+of+right+radius)
+	(Synonym [KB_AUTO-INSERT2_7581]))
+
+([Head+of+right+sartorius] of  Head+of+sartorius
+
+	(FMAID "51958")
+	(Preferred+name [KB_INSTANCE_65547])
+	(Synonym [KB_AUTO-INSERT2_7644]))
+
+([Head+of+right+scapula] of  Glenoid+proper+of+scapula
+
+	(FMAID "23286")
+	(part
+		Bony+part+of+glenoid+proper+of+right+scapula
+		Cartilage+of+head+of+right+scapula
+		Articular+cartilage+of+glenoid+proper+of+right+scapula
+		Periosteum+of+head+of+right+scapula)
+	(part+of Right+scapula)
+	(Preferred+name [KB_INSTANCE_29067])
+	(regional+part
+		Bony+part+of+glenoid+proper+of+right+scapula
+		Cartilage+of+head+of+right+scapula
+		Articular+cartilage+of+glenoid+proper+of+right+scapula
+		Periosteum+of+head+of+right+scapula)
+	(regional+part+of Right+scapula)
+	(Synonym [KB_AUTO-INSERT2_7646]))
+
+([Head+of+right+second+rib] of  Head+of+second+rib
+
+	(FMAID "7883")
+	(part
+		Crest+of+head+of+right+second+rib
+		Articular+facet+of+head+of+right+second+rib
+		Superior+articular+facet+of+head+of+right+second+rib
+		Inferior+articular+facet+of+head+of+right+second+rib)
+	(part+of Right+second+rib)
+	(Preferred+name [KB_INSTANCE_05301])
+	(regional+part
+		Crest+of+head+of+right+second+rib
+		Articular+facet+of+head+of+right+second+rib
+		Superior+articular+facet+of+head+of+right+second+rib
+		Inferior+articular+facet+of+head+of+right+second+rib)
+	(regional+part+of Right+second+rib)
+	(Synonym [KB_AUTO-INSERT2_7551]))
+
+([Head+of+right+semitendinosus] of  Head+of+semitendinosus
+
+	(FMAID "45945")
+	(Preferred+name [KB_INSTANCE_58219])
+	(Synonym [KB_AUTO-INSERT2_7636]))
+
+([Head+of+right+seventh+rib] of  Head+of+seventh+rib
+
+	(FMAID "8230")
+	(part
+		Superior+articular+facet+of+head+of+right+seventh+rib
+		Inferior+articular+facet+of+head+of+right+seventh+rib
+		Crest+of+head+of+right+seventh+rib
+		Articular+facet+of+head+of+right+seventh+rib)
+	(part+of Right+seventh+rib)
+	(Preferred+name [KB_INSTANCE_05672])
+	(regional+part
+		Superior+articular+facet+of+head+of+right+seventh+rib
+		Inferior+articular+facet+of+head+of+right+seventh+rib
+		Crest+of+head+of+right+seventh+rib
+		Articular+facet+of+head+of+right+seventh+rib)
+	(regional+part+of Right+seventh+rib)
+	(Synonym [KB_AUTO-INSERT2_7561]))
+
+([Head+of+right+sixth+rib] of  Head+of+sixth+rib
+
+	(FMAID "8176")
+	(part
+		Articular+facet+of+head+of+right+sixth+rib
+		Inferior+articular+facet+of+head+of+right+sixth+rib
+		Superior+articular+facet+of+head+of+right+sixth+rib
+		Crest+of+head+of+right+sixth+rib)
+	(part+of Right+sixth+rib)
+	(Preferred+name [KB_INSTANCE_05618])
+	(regional+part
+		Articular+facet+of+head+of+right+sixth+rib
+		Inferior+articular+facet+of+head+of+right+sixth+rib
+		Superior+articular+facet+of+head+of+right+sixth+rib
+		Crest+of+head+of+right+sixth+rib)
+	(regional+part+of Right+sixth+rib)
+	(Synonym [KB_AUTO-INSERT2_7559]))
+
+([Head+of+right+talus] of  Head+of+talus
+
+	(FMAID "66212")
+	(Preferred+name [fm-live_06019])
+	(Synonym [KB_AUTO-INSERT2_7575]))
+
+([Head+of+right+tenth+rib] of  Head+of+tenth+rib
+
+	(FMAID "8446")
+	(part Articular+facet+of+head+of+right+tenth+rib)
+	(part+of Right+tenth+rib)
+	(Preferred+name [KB_INSTANCE_05883])
+	(regional+part Articular+facet+of+head+of+right+tenth+rib)
+	(regional+part+of Right+tenth+rib)
+	(Synonym [KB_AUTO-INSERT2_7567]))
+
+([Head+of+right+third+rib] of  Head+of+third+rib
+
+	(FMAID "7910")
+	(part
+		Crest+of+head+of+right+third+rib
+		Articular+facet+of+head+of+right+third+rib
+		Superior+articular+facet+of+head+of+right+third+rib
+		Inferior+articular+facet+of+head+of+right+third+rib)
+	(part+of Right+third+rib)
+	(Preferred+name [KB_INSTANCE_05330])
+	(regional+part
+		Crest+of+head+of+right+third+rib
+		Articular+facet+of+head+of+right+third+rib
+		Superior+articular+facet+of+head+of+right+third+rib
+		Inferior+articular+facet+of+head+of+right+third+rib)
+	(regional+part+of Right+third+rib)
+	(Synonym [KB_AUTO-INSERT2_7553]))
+
+([Head+of+right+twelfth+rib] of  Head+of+twelfth+rib
+
+	(FMAID "8541")
+	(part Articular+facet+of+head+of+right+twelfth+rib)
+	(part+of Right+twelfth+rib)
+	(Preferred+name [KB_INSTANCE_05974])
+	(regional+part Articular+facet+of+head+of+right+twelfth+rib)
+	(regional+part+of Right+twelfth+rib)
+	(Synonym [KB_AUTO-INSERT2_7571]))
+
+([Head+of+sartorius] of  Head+of+organ
+
+	(FMAID "51957")
+	(Preferred+name [KB_INSTANCE_65546])
+	(Synonym [KB_AUTO-INSERT2_7613]))
+
+([Head+of+second+dorsal+interosseous+of+foot] of  Subdivision+of+second+dorsal+interosseous+of+foot
+
+	(FMAID "46040")
+	(Preferred+name [KB_INSTANCE_58338]))
+
+([Head+of+second+dorsal+interosseous+of+hand] of  Head+of+organ
+
+	(FMAID "46131")
+	(Preferred+name [KB_INSTANCE_58454]))
+
+([Head+of+second+dorsal+interosseous+of+left+foot] of  Head+of+organ
+
+	(FMAID "46045")
+	(Preferred+name [KB_INSTANCE_58344]))
+
+([Head+of+second+dorsal+interosseous+of+left+hand] of  Head+of+second+dorsal+interosseous+of+hand
+
+	(FMAID "46160")
+	(Preferred+name [KB_INSTANCE_58483]))
+
+([Head+of+second+dorsal+interosseous+of+right+foot] of  Head+of+organ
+
+	(FMAID "46044")
+	(Preferred+name [KB_INSTANCE_58343]))
+
+([Head+of+second+dorsal+interosseous+of+right+hand] of  Head+of+second+dorsal+interosseous+of+hand
+
+	(FMAID "46159")
+	(Preferred+name [KB_INSTANCE_58482]))
+
+([Head+of+second+lumbrical+of+foot] of  Head+of+organ
+
+	(FMAID "46255")
+	(part+of Second+lumbrical+of+foot)
+	(Preferred+name [KB_INSTANCE_58578])
+	(regional+part+of Second+lumbrical+of+foot))
+
+([Head+of+second+lumbrical+of+hand] of  Head+of+organ
+
+	(FMAID "46211")
+	(Preferred+name [KB_INSTANCE_58534]))
+
+([Head+of+second+lumbrical+of+left+foot] of  Head+of+second+lumbrical+of+foot
+
+	(FMAID "46260")
+	(Preferred+name [KB_INSTANCE_58583]))
+
+([Head+of+second+lumbrical+of+left+hand] of  Head+of+second+lumbrical+of+hand
+
+	(FMAID "46228")
+	(Preferred+name [KB_INSTANCE_58551]))
+
+([Head+of+second+lumbrical+of+right+foot] of  Head+of+second+lumbrical+of+foot
+
+	(FMAID "46259")
+	(Preferred+name [KB_INSTANCE_58582]))
+
+([Head+of+second+lumbrical+of+right+hand] of  Head+of+second+lumbrical+of+hand
+
+	(FMAID "46227")
+	(Preferred+name [KB_INSTANCE_58550]))
+
+([Head+of+second+palmar+interosseous+of+hand] of  Head+of+organ
+
+	(FMAID "46193")
+	(Preferred+name [KB_INSTANCE_58516]))
+
+([Head+of+second+palmar+interosseous+of+left+hand] of  Head+of+second+palmar+interosseous+of+hand
+
+	(FMAID "46198")
+	(Preferred+name [KB_INSTANCE_58521]))
+
+([Head+of+second+palmar+interosseous+of+right+hand] of  Head+of+second+palmar+interosseous+of+hand
+
+	(FMAID "46197")
+	(Preferred+name [KB_INSTANCE_58520]))
+
+([Head+of+second+plantar+interosseous+of+foot] of  Head+of+organ
+
+	(FMAID "46083")
+	(part+of Second+plantar+interosseous+of+foot)
+	(Preferred+name [KB_INSTANCE_58392])
+	(regional+part+of Second+plantar+interosseous+of+foot))
+
+([Head+of+second+plantar+interosseous+of+left+foot] of  Head+of+second+plantar+interosseous+of+foot
+
+	(FMAID "46092")
+	(Preferred+name [KB_INSTANCE_58405]))
+
+([Head+of+second+plantar+interosseous+of+right+foot] of  Head+of+second+plantar+interosseous+of+foot
+
+	(FMAID "46091")
+	(Preferred+name [KB_INSTANCE_58404]))
+
+([Head+of+second+rib] of  Head+of+rib
+
+	(FMAID "7621")
+	(part
+		Crest+of+head+of+second+rib
+		Articular+facet+of+head+of+second+rib
+		Superior+articular+facet+of+head+of+second+rib
+		Inferior+articular+facet+of+head+of+second+rib)
+	(part+of Second+rib)
+	(Preferred+name [KB_INSTANCE_04966])
+	(regional+part
+		Crest+of+head+of+second+rib
+		Articular+facet+of+head+of+second+rib
+		Superior+articular+facet+of+head+of+second+rib
+		Inferior+articular+facet+of+head+of+second+rib)
+	(regional+part+of Second+rib)
+	(Synonym [KB_AUTO-INSERT2_7538]))
+
+([Head+of+semitendinosus] of  Head+of+organ
+
+	(FMAID "45943")
+	(part+of Semitendinosus)
+	(Preferred+name [KB_INSTANCE_58217])
+	(regional+part+of Semitendinosus)
+	(Synonym [KB_AUTO-INSERT2_7616]))
+
+([Head+of+seventh+rib] of  Head+of+rib
+
+	(FMAID "7831")
+	(part
+		Crest+of+head+of+seventh+rib
+		Articular+facet+of+head+of+seventh+rib
+		Superior+articular+facet+of+head+of+seventh+rib
+		Inferior+articular+facet+of+head+of+seventh+rib)
+	(part+of Seventh+rib)
+	(Preferred+name [KB_INSTANCE_05247])
+	(regional+part
+		Crest+of+head+of+seventh+rib
+		Articular+facet+of+head+of+seventh+rib
+		Superior+articular+facet+of+head+of+seventh+rib
+		Inferior+articular+facet+of+head+of+seventh+rib)
+	(regional+part+of Seventh+rib)
+	(Synonym [KB_AUTO-INSERT2_7543]))
+
+([Head+of+sixth+rib] of  Head+of+rib
+
+	(FMAID "7804")
+	(part
+		Crest+of+head+of+sixth+rib
+		Articular+facet+of+head+of+sixth+rib
+		Superior+articular+facet+of+head+of+sixth+rib
+		Inferior+articular+facet+of+head+of+sixth+rib)
+	(part+of Sixth+rib)
+	(Preferred+name [KB_INSTANCE_05218])
+	(regional+part
+		Crest+of+head+of+sixth+rib
+		Articular+facet+of+head+of+sixth+rib
+		Superior+articular+facet+of+head+of+sixth+rib
+		Inferior+articular+facet+of+head+of+sixth+rib)
+	(regional+part+of Sixth+rib)
+	(Synonym [KB_AUTO-INSERT2_7542]))
+
+([Head+of+spermatozoon] of  Zone+of+cell+body+of+spermatozoon
+
+	(FMAID "67376")
+	(part+of Mature+sperm+cell)
+	(Preferred+name [fm-live_09619])
+	(regional+part+of Mature+sperm+cell)
+	(Synonym
+		[fm-live_09620]
+		[fm-live_09621]
+		[fm-live_09623]
+		[fm-live_09624]
+		[KB_AUTO-INSERT2_8521]))
+
+([Head+of+stapes] of  Head+of+organ
+
+	(FMAID "52766")
+	(Non-English+equivalent
+		[KB_INSTANCE_66535]
+		[KB_AUTO-INSERT%283%29_4433])
+	(part+of Stapes)
+	(Preferred+name [KB_INSTANCE_66534])
+	(regional+part+of Stapes)
+	(Synonym [KB_AUTO-INSERT2_7621]))
+
+([Head+of+talus] of  Head+of+organ
+
+	(FMAID "33635")
+	(Non-English+equivalent
+		[KB_INSTANCE_42415]
+		[ONARD_Instance_510002])
+	(part
+		Bony+part+of+head+of+talus
+		Periosteum+of+head+of+talus
+		Articular+cartilage+of+navicular+facet+of+talus
+		Articular+cartilage+of+plantar+calcaneo-navicular+facet+of+talus
+		Articular+cartilage+of+anterior+calcanean+facet+of+talus
+		Articular+cartilage+of+middle+calcanean+facet+of+talus)
+	(part+of Talus)
+	(Preferred+name [KB_INSTANCE_42414])
+	(regional+part
+		Bony+part+of+head+of+talus
+		Periosteum+of+head+of+talus
+		Articular+cartilage+of+navicular+facet+of+talus
+		Articular+cartilage+of+plantar+calcaneo-navicular+facet+of+talus
+		Articular+cartilage+of+anterior+calcanean+facet+of+talus
+		Articular+cartilage+of+middle+calcanean+facet+of+talus)
+	(regional+part+of Talus)
+	(Synonym [KB_AUTO-INSERT2_7625]))
+
+([Head+of+tenth+rib] of  Head+of+rib
+
+	(FMAID "8419")
+	(part Articular+facet+of+head+of+tenth+rib)
+	(part+of Tenth+rib)
+	(Preferred+name [KB_INSTANCE_05858])
+	(regional+part Articular+facet+of+head+of+tenth+rib)
+	(regional+part+of Tenth+rib)
+	(Synonym [KB_AUTO-INSERT2_7546]))
+
+([Head+of+third+dorsal+interosseous+of+foot] of  Subdivision+of+third+dorsal+interosseous+of+foot
+
+	(FMAID "46053")
+	(Preferred+name [KB_INSTANCE_58354]))
+
+([Head+of+third+dorsal+interosseous+of+hand] of  Head+of+organ
+
+	(FMAID "46133")
+	(Preferred+name [KB_INSTANCE_58456]))
+
+([Head+of+third+dorsal+interosseous+of+left+foot] of  Head+of+organ
+
+	(FMAID "46058")
+	(Preferred+name [KB_INSTANCE_58360]))
+
+([Head+of+third+dorsal+interosseous+of+left+hand] of  Head+of+third+dorsal+interosseous+of+hand
+
+	(FMAID "46150")
+	(Preferred+name [KB_INSTANCE_58473]))
+
+([Head+of+third+dorsal+interosseous+of+right+foot] of  Head+of+organ
+
+	(FMAID "46057")
+	(Preferred+name [KB_INSTANCE_58359]))
+
+([Head+of+third+dorsal+interosseous+of+right+hand] of  Head+of+third+dorsal+interosseous+of+hand
+
+	(FMAID "46149")
+	(Preferred+name [KB_INSTANCE_58472]))
+
+([Head+of+third+lumbrical+of+foot] of  Head+of+organ
+
+	(FMAID "46249")
+	(part+of Third+lumbrical+of+foot)
+	(Preferred+name [KB_INSTANCE_58572])
+	(regional+part+of Third+lumbrical+of+foot))
+
+([Head+of+third+lumbrical+of+hand] of  Head+of+organ
+
+	(FMAID "46219")
+	(Preferred+name [KB_INSTANCE_58542]))
+
+([Head+of+third+lumbrical+of+left+foot] of  Head+of+third+lumbrical+of+foot
+
+	(FMAID "46254")
+	(Preferred+name [KB_INSTANCE_58577]))
+
+([Head+of+third+lumbrical+of+left+hand] of  Head+of+third+lumbrical+of+hand
+
+	(FMAID "46224")
+	(Preferred+name [KB_INSTANCE_58547]))
+
+([Head+of+third+lumbrical+of+right+foot] of  Head+of+third+lumbrical+of+foot
+
+	(FMAID "46253")
+	(Preferred+name [KB_INSTANCE_58576]))
+
+([Head+of+third+lumbrical+of+right+hand] of  Head+of+third+lumbrical+of+hand
+
+	(FMAID "46223")
+	(Preferred+name [KB_INSTANCE_58546]))
+
+([Head+of+third+palmar+interosseous+of+hand] of  Head+of+organ
+
+	(FMAID "46187")
+	(Preferred+name [KB_INSTANCE_58510]))
+
+([Head+of+third+palmar+interosseous+of+left+hand] of  Head+of+third+palmar+interosseous+of+hand
+
+	(FMAID "46192")
+	(Preferred+name [KB_INSTANCE_58515]))
+
+([Head+of+third+palmar+interosseous+of+right+hand] of  Head+of+third+palmar+interosseous+of+hand
+
+	(FMAID "46191")
+	(Preferred+name [KB_INSTANCE_58514]))
+
+([Head+of+third+plantar+interosseous+of+foot] of  Head+of+organ
+
+	(FMAID "46085")
+	(part+of Third+plantar+interosseous+of+foot)
+	(Preferred+name [KB_INSTANCE_58396])
+	(regional+part+of Third+plantar+interosseous+of+foot))
+
+([Head+of+third+plantar+interosseous+of+left+foot] of  Head+of+third+plantar+interosseous+of+foot
+
+	(FMAID "46096")
+	(Preferred+name [KB_INSTANCE_58409]))
+
+([Head+of+third+plantar+interosseous+of+right+foot] of  Head+of+third+plantar+interosseous+of+foot
+
+	(FMAID "46095")
+	(Preferred+name [KB_INSTANCE_58408]))
+
+([Head+of+third+rib] of  Head+of+rib
+
+	(FMAID "7639")
+	(part
+		Crest+of+head+of+third+rib
+		Articular+facet+of+head+of+third+rib
+		Superior+articular+facet+of+head+of+third+rib
+		Inferior+articular+facet+of+head+of+third+rib)
+	(part+of Third+rib)
+	(Preferred+name [KB_INSTANCE_04989])
+	(regional+part
+		Crest+of+head+of+third+rib
+		Articular+facet+of+head+of+third+rib
+		Superior+articular+facet+of+head+of+third+rib
+		Inferior+articular+facet+of+head+of+third+rib)
+	(regional+part+of Third+rib)
+	(Synonym [KB_AUTO-INSERT2_7539]))
+
+([Head+of+twelfth+rib] of  Head+of+rib
+
+	(FMAID "8516")
+	(part Articular+facet+of+head+of+twelfth+rib)
+	(part+of Twelfth+rib)
+	(Preferred+name [KB_INSTANCE_05946])
+	(regional+part Articular+facet+of+head+of+twelfth+rib)
+	(regional+part+of Twelfth+rib)
+	(Synonym [KB_AUTO-INSERT2_7548]))
+
+([Head+proper] of  Subdivision+of+head
+
+	(attributed+part
+		[fm_live_01552]
+		[fm_live_01553]
+		[fm_live_01554]
+		[fm_live_01555])
+	(constitutional+part
+		Skin+of+head+proper
+		Superficial+fascia+of+head+proper
+		Set+of+muscles+of+head+proper
+		Brain
+		Skull
+		Scalp
+		Vasculature+of+head+proper)
+	(definition "Subdivision of head which consists of the neurocranium and all layers superficial to it including the cranial cavity and its contents. Examples: There is only one head proper.")
+	(FMAID "54545")
+	(part
+		Skin+of+head+proper
+		Superficial+fascia+of+head+proper
+		Set+of+muscles+of+head+proper
+		Neurocranium
+		Brain
+		Frontal+part+of+head
+		Parietal+part+of+head
+		Occipital+part+of+head
+		Auriculotemporal+part+of+head
+		Scalp
+		Cranial+cavity
+		Epicranius
+		Temporalis
+		Occipitofrontalis
+		Right+auriculotemporal+part+of+head
+		Left+auriculotemporal+part+of+head)
+	(part+of Head)
+	(Preferred+name [KB_INSTANCE_69272])
+	(regional+part
+		Parietal+part+of+head
+		Right+parietal+part+of+head
+		Left+parietal+part+of+head
+		Frontal+part+of+head
+		Occipital+part+of+head
+		Auriculotemporal+part+of+head
+		Right+auriculotemporal+part+of+head
+		Left+auriculotemporal+part+of+head)
+	(regional+part+of Head))
+
+([Head+proper+of+fibula] of  Zone+of+bone+organ
+
+	(FMAID "225319")
+	(Preferred+name [August_Instance_280001]))
+
+([Head+proper+of+left+fibula] of  Head+proper+of+fibula
+
+	(FMAID "225323")
+	(Preferred+name [August_Instance_280005]))
+
+([Head+proper+of+pancreas] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "17556")
+	(part+of Head+of+pancreas)
+	(Preferred+name [KB_INSTANCE_21214])
+	(regional+part+of Head+of+pancreas))
+
+([Head+proper+of+right+fibula] of  Head+proper+of+fibula
+
+	(FMAID "225321")
+	(Preferred+name [August_Instance_280003]))
+
+([Heart] of  Organ+with+cavitated+organ+parts
+
+	(arterial+supply
+		Right+coronary+artery
+		Left+coronary+artery)
+	(attaches+to Pericardial+sac)
+	(attributed+part
+		[fm-live_12491]
+		[fm-live_12492]
+		[fm_live_17313]
+		[fm_live_17314]
+		[fm_live_17315]
+		[fm_live_17316]
+		[fm_live_17317]
+		[fm_live_17318]
+		[fm_live_17319]
+		[fm_live_17320]
+		[fm_live_17321]
+		[fm_live_17322]
+		[fm_live_17323])
+	(bounded+by Surface+of+heart)
+	(constitutional+part
+		Wall+of+heart
+		Cavity+of+right+atrium
+		Cavity+of+left+atrium
+		Cavity+of+right+ventricle
+		Cavity+of+left+ventricle
+		Interatrial+septum
+		Interventricular+septum
+		Atrioventricular+septum
+		Fibrous+skeleton+of+heart
+		Tricuspid+valve
+		Mitral+valve
+		Pulmonary+valve
+		Aortic+valve
+		Right+coronary+artery
+		Left+coronary+artery
+		Coronary+sinus
+		Cardiac+vein
+		Systemic+capillary+bed+of+heart
+		Lymphatic+capillary+bed+of+heart
+		Neural+network)
+	(constitutional+part+of
+		Intrathoracic+part+of+chest
+		Content+of+mediastinum
+		Middle+mediastinum
+		Content+of+middle+mediastinum)
+	(contained+in Middle+mediastinal+space)
+	(custom+partonomy
+		Right+atrium
+		Right+ventricle
+		Left+atrium
+		Left+ventricle)
+	(definition "Organ with cavitated organ parts, which is continuous with the systemic and \npulmonary arterial and venous trees. Examples: There is only one heart.")
+	(FMAID "7088")
+	(has+shape [ONARD_Instance_330007])
+	(inherent+3-D+shape Cone)
+	(location
+		[fm_live_17324]
+		[fm_live_17325]
+		[fm_live_17326]
+		[fm_live_17327]
+		[fm_live_17328]
+		[fm_live_17329]
+		[Nance+FMA+LIVE_Instance_70012]
+		[Nance+FMA+LIVE_Instance_70013]
+		[Nance+FMA+LIVE_Instance_70014])
+	(lymphatic+drainage
+		Right+cardiac+tributary+of+brachiocephalic+lymphatic+chain
+		Left+cardiac+tributary+of+tracheobronchial+lymphatic+chain)
+	(member+of Set+of+thoracic+viscera)
+	(nerve+supply
+		Superficial+cardiac+nerve+plexus
+		Deep+cardiac+nerve+plexus
+		Right+coronary+nerve+plexus
+		Left+coronary+nerve+plexus
+		Atrial+nerve+plexus)
+	(Non-English+equivalent
+		[su_incus_35664]
+		[fm_live_27220]
+		[KB_AUTO-INSERT%283%29_2384]
+		[ONARD_Instance_580079]
+		[ONARD_Instance_580757]
+		[ONARD_Instance_610039])
+	(orientation
+		[fm_live_17330]
+		[fm_live_17331])
+	(part
+		Right+side+of+heart
+		Left+side+of+heart
+		Right+atrium
+		Left+atrium
+		Right+ventricle
+		Left+ventricle
+		Fibrous+skeleton+of+heart
+		Tricuspid+valve
+		Mitral+valve
+		Aortic+valve
+		Pulmonary+valve
+		Interatrial+septum
+		Interventricular+septum
+		Atrioventricular+septum
+		Wall+of+heart
+		Cavity+of+left+ventricle
+		Cavity+of+right+atrium
+		Cavity+of+left+atrium
+		Cavity+of+right+ventricle
+		Right+coronary+artery
+		Left+coronary+artery
+		Great+cardiac+vein
+		Right+marginal+vein
+		Left+marginal+vein
+		Anterior+interventricular+vein
+		Posterior+vein+of+left+ventricle
+		Middle+cardiac+vein
+		Small+cardiac+vein
+		Oblique+vein+of+left+atrium
+		Systemic+capillary+bed+of+heart
+		Lymphatic+capillary+bed+of+heart
+		Neural+network
+		Papillary+muscle
+		Basal+zone+of+heart
+		Mid+zone+of+heart
+		Apical+zone+of+heart
+		Coronary+sinus)
+	(part+of
+		Cardiovascular+system
+		Content+of+middle+mediastinum
+		Middle+mediastinum)
+	(Preferred+name [KB_INSTANCE_03759])
+	(regional+part
+		Right+side+of+heart
+		Left+side+of+heart
+		T7+part+of+heart
+		T8+part+of+heart
+		T9+part+of+heart
+		T10+part+of+heart
+		Basal+zone+of+heart
+		Mid+zone+of+heart
+		Apical+zone+of+heart)
+	(regional+part+of Cardiovascular+system)
+	(surrounded+by Pericardial+sac+proper)
+	(systemic+part+of Cardiovascular+system)
+	(venous+drainage Systemic+venous+tree+organ))
+
+([Heart+cell] of  General+anatomical+term+template
+
+	(FMAID "84791")
+	(Preferred+name [fm_live_32738]))
+
+([Heel] of  Subdivision+of+foot
+
+	(FMAID "24994")
+	(Non-English+equivalent
+		[su_incus_38374]
+		[su_incus_38375]
+		[KB_AUTO-INSERT%283%29_50]
+		[KB_AUTO-INSERT%283%29_223]
+		[ONARD_Instance_580339]
+		[ONARD_Instance_580394]
+		[ONARD_Instance_610075])
+	(Preferred+name [KB_INSTANCE_31377])
+	(Synonym
+		[fm_live_16490]
+		[fm_live_16500]))
+
+([Helical+part+of+auricular+cartilage] of  Subdivision+of+auricular+cartilage
+
+	(FMAID "61342")
+	(part
+		Crus+of+helical+part+of+auricular+cartilage
+		Spine+of+helical+part+of+auricular+cartilage
+		Tail+of+helical+part+of+auricular+cartilage)
+	(part+of Auricular+cartilage)
+	(Preferred+name [KB_INSTANCE_80892])
+	(regional+part
+		Crus+of+helical+part+of+auricular+cartilage
+		Spine+of+helical+part+of+auricular+cartilage
+		Tail+of+helical+part+of+auricular+cartilage)
+	(regional+part+of Auricular+cartilage))
+
+([Helical+part+of+left+auricular+cartilage] of  Helical+part+of+auricular+cartilage
+
+	(FMAID "61354")
+	(part
+		Crus+of+helical+part+of+left+auricular+cartilage
+		Spine+of+helical+part+of+left+auricular+cartilage
+		Tail+of+helical+part+of+left+auricular+cartilage)
+	(part+of Left+auricular+cartilage)
+	(Preferred+name [KB_INSTANCE_80904])
+	(regional+part
+		Crus+of+helical+part+of+left+auricular+cartilage
+		Spine+of+helical+part+of+left+auricular+cartilage
+		Tail+of+helical+part+of+left+auricular+cartilage)
+	(regional+part+of Left+auricular+cartilage))
+
+([Helical+part+of+right+auricular+cartilage] of  Helical+part+of+auricular+cartilage
+
+	(FMAID "61353")
+	(part
+		Crus+of+helical+part+of+right+auricular+cartilage
+		Spine+of+helical+part+of+right+auricular+cartilage
+		Tail+of+helical+part+of+right+auricular+cartilage)
+	(part+of Right+auricular+cartilage)
+	(Preferred+name [KB_INSTANCE_80903])
+	(regional+part
+		Crus+of+helical+part+of+right+auricular+cartilage
+		Spine+of+helical+part+of+right+auricular+cartilage
+		Tail+of+helical+part+of+right+auricular+cartilage)
+	(regional+part+of Right+auricular+cartilage))
+
+([Helicine+artery+of+penis] of  Systemic+artery
+
+	(FMAID "19796")
+	(part+of Corpus+cavernosum+of+penis)
+	(Preferred+name [KB_INSTANCE_24986])
+	(regional+part+of Corpus+cavernosum+of+penis))
+
+([Helicine+artery+of+uterus] of  Systemic+artery
+
+	(branch+of Uterine+body+part+of+uterine+artery)
+	(FMAID "21101")
+	(Preferred+name [KB_INSTANCE_26556]))
+
+([Helicis+major] of  Intrinsic+auricular+muscle
+
+	(constitutional+part+of Pinna)
+	(FMAID "48968")
+	(member+of Set+of+intrinsic+auricular+muscles)
+	(nerve+supply Nerve+to+helicis+major)
+	(Non-English+equivalent
+		[su_incus_35340]
+		[KB_AUTO-INSERT%283%29_4396])
+	(part+of Pinna)
+	(Preferred+name [KB_INSTANCE_61691]))
+
+([Helicis+minor] of  Intrinsic+auricular+muscle
+
+	(constitutional+part+of Pinna)
+	(FMAID "48971")
+	(member+of Set+of+intrinsic+auricular+muscles)
+	(nerve+supply Nerve+to+helicis+minor)
+	(Non-English+equivalent
+		[su_incus_35341]
+		[KB_AUTO-INSERT%283%29_4397])
+	(part+of Pinna)
+	(Preferred+name [KB_INSTANCE_61698]))
+
+([Helicotrema] of  Orifice
+
+	(FMAID "61275")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_4493])
+	(part+of Cochlea)
+	(Preferred+name [KB_INSTANCE_80812])
+	(Synonym [su_incus_18473]))
+
+([Helicotrema+of+left+cochlea] of  Helicotrema
+
+	(FMAID "61277")
+	(part+of Left+cochlea)
+	(Preferred+name [KB_INSTANCE_80814])
+	(Synonym [KB_AUTO-INSERT2_10392]))
+
+([Helicotrema+of+right+cochlea] of  Helicotrema
+
+	(FMAID "61276")
+	(part+of Right+cochlea)
+	(Preferred+name [KB_INSTANCE_80813])
+	(Synonym [KB_AUTO-INSERT2_10391]))
+
+([Helix] of  Subdivision+of+pinna
+
+	(FMAID "60992")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_4369])
+	(part+of Pinna)
+	(Preferred+name [KB_INSTANCE_80396])
+	(regional+part+of Pinna)
+	(Synonym
+		[KB_INSTANCE_80397]
+		[KB_INSTANCE_80398]
+		[KB_INSTANCE_80399]
+		[KB_INSTANCE_80400]
+		[KB_INSTANCE_80401]))
+
+([Hemal+cell] of  Somatic+cell
+
+	(FMAID "70336")
+	(Preferred+name [fm_live_10319])
+	(Synonym [fm_live_10320]))
+
+([Hemal+stem+cell] of  Hemal+cell
+
+	(FMAID "70337")
+	(Preferred+name [fm_live_10322]))
+
+([Hematopoietic+cell] of  Hemal+cell
+
+	(FMAID "83598")
+	(Preferred+name [fm_live_23978])
+	(Synonym [fm_live_23979]))
+
+([Hematopoietic+system] of  Anatomical+structure
+
+	(FMAID "9667")
+	(part
+		Spleen
+		Bone+marrow
+		Blood
+		Thymus)
+	(part+of
+		Hemolymphoid+system
+		Body)
+	(Preferred+name [KB_INSTANCE_08384])
+	(regional+part
+		Spleen
+		Bone+marrow
+		Blood
+		Thymus)
+	(Synonym
+		[KB_INSTANCE_08385]
+		[KB_INSTANCE_08386]))
+
+([Hemi-cone] of  Dimensional+entity+template
+
+	(FMAID "50617")
+	(Preferred+name [KB_INSTANCE_63888]))
+
+([Hemi-ovoid] of  Dimensional+entity+template
+
+	(FMAID "50618")
+	(Preferred+name [KB_INSTANCE_63889]))
+
+([Hemiazygos+vein] of  Vein
+
+	(constitutional+part+of Posterior+mediastinum)
+	(FMAID "4944")
+	(Non-English+equivalent
+		[KB_INSTANCE_01272]
+		[KB_AUTO-INSERT%283%29_3002])
+	(part
+		Wall+of+hemiazygos+vein
+		Lumen+of+hemiazygos+vein)
+	(part+of Posterior+mediastinum)
+	(Preferred+name [KB_INSTANCE_01270])
+	(regional+part
+		Wall+of+hemiazygos+vein
+		Lumen+of+hemiazygos+vein)
+	(Synonym
+		[KB_INSTANCE_01271]
+		[su_incus_24816]
+		[su_incus_29446])
+	(tributary
+		Left+eighth+posterior+intercostal+vein
+		Left+ninth+posterior+intercostal+vein
+		Left+tenth+posterior+intercostal+vein
+		Left+eleventh+posterior+intercostal+vein
+		Left+subcostal+vein
+		Left+bronchial+vein
+		Left+ascending+lumbar+vein
+		Transvertebral+communicating+vein)
+	(tributary+of Azygos+vein))
+
+([Hemidesmosome] of  Cell+to+matrix+adherens+junction
+
+	(FMAID "67415")
+	(part+of Dermal-epidermal+junction)
+	(Preferred+name [fm-live_08443])
+	(regional+part+of Dermal-epidermal+junction)
+	(Synonym [fm-live_08452]))
+
+([Hemidiaphragm] of  Zone+of+diaphragm
+
+	(FMAID "57857")
+	(Preferred+name [KB_INSTANCE_76228])
+	(regional+part+of Diaphragm))
+
+([Hemiliver] of  Zone+of+liver
+
+	(FMAID "15808")
+	(Preferred+name [fma_p2_Instance_650003])
+	(Synonym [KB_INSTANCE_18245]))
+
+([Hemisphere+of+anterior+lobe+of+cerebellum] of  Hemisphere+of+neuraxis
+
+	(bounded+by Surface+of+brain)
+	(FMAID "72254")
+	(Non-English+equivalent [su_incus_23504])
+	(part
+		Anterior+quadrangular+lobule
+		Alar+central+lobule)
+	(part+of Anterior+lobe+of+cerebellum)
+	(Preferred+name [live_incus_fm_08708])
+	(regional+part
+		Anterior+quadrangular+lobule
+		Alar+central+lobule)
+	(regional+part+of Anterior+lobe+of+cerebellum)
+	(Synonym [su_incus_23505]))
+
+([Hemisphere+of+cerebellum] of  Hemisphere+of+neuraxis
+
+	(bounded+by Surface+of+brain)
+	(dimension 3-dimension)
+	(FMAID "76925")
+	(Non-English+equivalent [su_incus_36354])
+	(Preferred+name [live_incus_fm_12377])
+	(Synonym
+		[su_incus_32957]
+		[KB_AUTO-INSERT2_4805]))
+
+([Hemisphere+of+neuraxis] of  Organ+component+of+neuraxis
+
+	(FMAID "83875")
+	(Preferred+name [live_incus_fm_13536])
+	(Synonym [KB_AUTO-INSERT2_4626]))
+
+([Hemisphere+of+posterior+lobe+of+cerebellum] of  Hemisphere+of+neuraxis
+
+	(bounded+by Surface+of+brain)
+	(FMAID "72256")
+	(Non-English+equivalent [su_incus_23506])
+	(part
+		Simple+lobule+of+cerebellum
+		Ansiform+lobule+of+cerebellum
+		Gracile+lobule
+		Biventer+lobule
+		Cerebellar+tonsil
+		Paraflocculus)
+	(part+of Posterior+lobe+of+cerebellum)
+	(Preferred+name [live_incus_fm_08710])
+	(regional+part
+		Simple+lobule+of+cerebellum
+		Ansiform+lobule+of+cerebellum
+		Gracile+lobule
+		Biventer+lobule
+		Cerebellar+tonsil
+		Paraflocculus)
+	(regional+part+of Posterior+lobe+of+cerebellum)
+	(Synonym [su_incus_23507]))
+
+([Hemithorax] of  Subdivision+of+thorax
+
+	(FMAID "57845")
+	(part
+		Upper+hemithorax
+		Lower+hemithorax)
+	(Preferred+name [KB_INSTANCE_76208])
+	(regional+part
+		Upper+hemithorax
+		Lower+hemithorax))
+
+([Hemocyte] of  General+anatomical+term+template
+
+	(FMAID "83618")
+	(Preferred+name [fm_live_21984])
+	(Synonym [fm_live_21986]))
+
+([Hemoglobin] of  Protein
+
+	(FMAID "62293")
+	(Preferred+name [fm-live_12877])
+	(Synonym [FM_live_00644]))
+
+([Hemoglobin+A] of  Hemoglobin
+
+	(FMAID "62848")
+	(Preferred+name [FM_live_00643])
+	(Synonym [FM_live_00645]))
+
+([Hemoglobin+A2] of  Hemoglobin
+
+	(dimension 3-dimension)
+	(FMAID "72160")
+	(Preferred+name [FM_live_04922]))
+
+([Hemoglobin+F] of  Hemoglobin
+
+	(dimension 3-dimension)
+	(FMAID "72159")
+	(Preferred+name [FM_live_04920]))
+
+([Hemolymphoid+system] of  Heterogeneous+cluster
+
+	(FMAID "74562")
+	(part
+		Hematopoietic+system
+		Lymphoid+system
+		Lymphatic+tree+organ)
+	(part+of Body)
+	(Preferred+name [FM_live_08662])
+	(Synonym
+		[FM_live_08667]
+		[fm_live_16719]
+		[fma_p2_Instance_290007]))
+
+([Hemopoietic+stem+cell] of  Stem+cell
+
+	(FMAID "86475")
+	(Preferred+name [fma_p2_Instance_700004])
+	(Synonym
+		[fma_p2_Instance_700007]
+		[fma_p2_Instance_940004]))
+
+([Hemopoietic+tissue] of  Tissue
+
+	(FMAID "14073")
+	(part+of Bone+marrow)
+	(Preferred+name [KB_INSTANCE_15390])
+	(regional+part+of Bone+marrow)
+	(Synonym
+		[KB_INSTANCE_15391]
+		[KB_INSTANCE_15392]
+		[fma_p2_Instance_60004]))
+
+([Hemosiderin] of  Cell+pigment
+
+	(FMAID "62294")
+	(Preferred+name [fm-live_12879]))
+
+([Henle%27s+layer+of+inner+root+sheath+of+hair+follicle] of  Layer+of+inner+root+sheath+of+hair+follicle
+
+	(FMAID "70938")
+	(part+of Inner+root+sheath+of+hair+follicle)
+	(Preferred+name [FM_live_03743])
+	(regional+part+of Inner+root+sheath+of+hair+follicle)
+	(Synonym [FM_live_03745]))
+
+([Heparan] of  Glycosaminoglycan
+
+	(FMAID "67110")
+	(Preferred+name [fm-live_08952]))
+
+([Heparan+sulfate] of  Glycosaminoglycan
+
+	(FMAID "63023")
+	(part+of Basal+lamina)
+	(Preferred+name [FM_live_01366])
+	(regional+part+of Basal+lamina))
+
+([Heparan+sulfate+proteoglycan] of  Proteoglycan
+
+	(FMAID "82834")
+	(Preferred+name [fm_live_27746])
+	(Synonym [fm_live_27747]))
+
+([Heparin] of  Glycosaminoglycan
+
+	(FMAID "82839")
+	(Preferred+name [fm_live_01498]))
+
+([Hepatic+acinus] of  Acinus
+
+	(FMAID "14654")
+	(part
+		Portal+triad
+		Hepatic+lamina
+		Hepatic+lacuna
+		Hepatic+sinusoid
+		Bile+canaliculus
+		Intralobular+bile+duct)
+	(part+of Portal+lobule)
+	(Preferred+name [KB_INSTANCE_16305])
+	(regional+part
+		Portal+triad
+		Hepatic+lamina
+		Hepatic+lacuna
+		Hepatic+sinusoid
+		Bile+canaliculus
+		Intralobular+bile+duct)
+	(regional+part+of Portal+lobule)
+	(Synonym [KB_INSTANCE_16306]))
+
+([Hepatic+artery] of  Systemic+artery
+
+	(arterial+supply+of Liver)
+	(constitutional+part+of Liver)
+	(FMAID "14769")
+	(part+of Liver)
+	(Preferred+name [KB_INSTANCE_16510]))
+
+([Hepatic+artery+proper] of  Systemic+artery
+
+	(branch
+		Right+hepatic+artery
+		Left+hepatic+artery)
+	(branch+of Common+hepatic+artery)
+	(FMAID "14772")
+	(Non-English+equivalent
+		[KB_INSTANCE_16515]
+		[KB_AUTO-INSERT%283%29_2682])
+	(part
+		Trunk+of+hepatic+artery+proper
+		Right+hepatic+artery
+		Left+hepatic+artery)
+	(part+of Common+hepatic+artery)
+	(Preferred+name [KB_INSTANCE_16514])
+	(regional+part
+		Right+hepatic+artery
+		Left+hepatic+artery)
+	(regional+part+of Common+hepatic+artery))
+
+([Hepatic+biliary+tree] of  Segment+of+biliary+tree
+
+	(constitutional+part Wall+of+hepatic+biliary+tree)
+	(FMAID "71891")
+	(Non-English+equivalent [ONARD_Instance_580787])
+	(part
+		Common+hepatic+duct
+		Right+hepatic+biliary+tree
+		Left+hepatic+biliary+tree)
+	(part+of Biliary+tree)
+	(Preferred+name [fm_live_12016])
+	(regional+part
+		Common+hepatic+duct
+		Right+hepatic+biliary+tree
+		Left+hepatic+biliary+tree)
+	(regional+part+of Biliary+tree))
+
+([Hepatic+branch+of+anterior+vagal+trunk] of  Branch+of+anterior+vagal+trunk
+
+	(branch
+		Anterior+vagal+branch+to+hepatic+plexus
+		Anterior+vagal+branch+to+pylorus
+		Anterior+vagal+branch+to+head+of+pancreas
+		Anterior+vagal+branch+to+first+part+of+duodenum)
+	(branch+of Anterior+vagal+trunk)
+	(FMAID "6666")
+	(Preferred+name [KB_INSTANCE_02962]))
+
+([Hepatic+duct+of+caudate+lobe] of  Intrahepatic+bile+duct
+
+	(constitutional+part Wall+of+hepatic+duct+of+caudate+lobe)
+	(FMAID "14675")
+	(Preferred+name [KB_INSTANCE_16350])
+	(regional+part Lumen+of+hepatic+duct+of+caudate+lobe))
+
+([Hepatic+fissure] of  Region+of+surface+of+liver
+
+	(FMAID "17536")
+	(Preferred+name [KB_INSTANCE_21179]))
+
+([Hepatic+impression] of  Region+of+surface+of+liver
+
+	(FMAID "17535")
+	(Preferred+name [KB_INSTANCE_21178]))
+
+([Hepatic+lacuna] of  Tissue+space
+
+	(FMAID "17554")
+	(Non-English+equivalent [ONARD_Instance_580304])
+	(part+of
+		Hepatic+lobule
+		Hepatic+acinus)
+	(Preferred+name [KB_INSTANCE_21212])
+	(regional+part+of
+		Hepatic+lobule
+		Hepatic+acinus))
+
+([Hepatic+lamina] of  Organ+component+layer
+
+	(FMAID "14655")
+	(part
+		Hepatocyte
+		Bile+canaliculus)
+	(part+of
+		Hepatic+lobule
+		Hepatic+acinus)
+	(Preferred+name [KB_INSTANCE_16307])
+	(regional+part
+		Hepatocyte
+		Bile+canaliculus)
+	(regional+part+of
+		Hepatic+lobule
+		Hepatic+acinus)
+	(Synonym
+		[KB_INSTANCE_16308]
+		[KB_INSTANCE_16309]
+		[KB_INSTANCE_16310]
+		[FM_live_01730]))
+
+([Hepatic+lobule] of  Lobule
+
+	(FMAID "14471")
+	(part
+		Hepatic+lamina
+		Hepatic+sinusoid
+		Central+vein+of+liver
+		Bile+canaliculus
+		Intralobular+bile+duct
+		Hepatic+lacuna
+		Hepatic+perisinusoidal+space)
+	(part+of Liver+parenchyma)
+	(Preferred+name [KB_INSTANCE_15914])
+	(regional+part
+		Hepatic+lamina
+		Hepatic+sinusoid
+		Central+vein+of+liver
+		Bile+canaliculus
+		Intralobular+bile+duct
+		Hepatic+lacuna
+		Hepatic+perisinusoidal+space)
+	(regional+part+of Liver+parenchyma)
+	(Synonym [KB_INSTANCE_15915]))
+
+([Hepatic+lymph+node] of  Lymph+node
+
+	(FMAID "12798")
+	(member+of Set+of+abdominal+lymph+nodes)
+	(Preferred+name [KB_INSTANCE_12979])
+	(Synonym
+		[KB_INSTANCE_12980]
+		[KB_INSTANCE_12981]))
+
+([Hepatic+lymphatic+chain] of  Lymphatic+chain
+
+	(constitutional+part Set+of+hepatic+lymph+nodes)
+	(efferent+to Celiac+lymphatic+chain)
+	(FMAID "224309")
+	(lymphatic+drainage+of
+		Stomach
+		Duodenum
+		Liver
+		Gallbladder
+		Biliary+tree
+		Pancreas)
+	(Preferred+name [ONARD_Instance_270042])
+	(regional+part+of Intestinal+lymphatic+tree))
+
+([Hepatic+macrophage] of  Macrophage
+
+	(FMAID "14656")
+	(part
+		Plasma+membrane
+		Protoplasm)
+	(part+of Endothelium+of+hepatic+sinusoid)
+	(Preferred+name [FM_live_01955])
+	(regional+part
+		Plasma+membrane
+		Protoplasm)
+	(regional+part+of Endothelium+of+hepatic+sinusoid)
+	(Synonym
+		[KB_INSTANCE_16312]
+		[KB_INSTANCE_16313]
+		[KB_INSTANCE_16311]
+		[fm_live_17053]
+		[fm_live_17061]
+		[fm_live_32722]))
+
+([Hepatic+nerve+plexus] of  Autonomic+nerve+plexus
+
+	(FMAID "6632")
+	(Non-English+equivalent
+		[su_incus_38489]
+		[su_incus_38490]
+		[KB_AUTO-INSERT%283%29_4184])
+	(Preferred+name [KB_INSTANCE_02907])
+	(Synonym [fm_live_11886]))
+
+([Hepatic+oval+stem+cell] of  Stem+cell
+
+	(FMAID "86576")
+	(Preferred+name [fma_p2_Instance_960006]))
+
+([Hepatic+perisinusoidal+cell] of  Cuboidal+endothelial+cell+of+vascular+tree
+
+	(FMAID "67763")
+	(Preferred+name [fm-live_15035])
+	(Synonym
+		[FM_live_00891]
+		[fm_live_32675]))
+
+([Hepatic+perisinusoidal+space] of  Tissue+space
+
+	(FMAID "63162")
+	(part+of Hepatic+lobule)
+	(Preferred+name [FM_live_01957])
+	(regional+part+of Hepatic+lobule)
+	(Synonym
+		[FM_live_01958]
+		[FM_live_01959]
+		[FM_live_01960]))
+
+([Hepatic+portal+vein] of  Hepatic+portal+vein
+
+	(branch
+		Left+portal+vein
+		Right+portal+vein)
+	(FMAID "50735")
+	(Non-English+equivalent
+		[fm_live_25062]
+		[KB_AUTO-INSERT%283%29_3128])
+	(part
+		Main+portal+venous+trunk
+		Right+portal+vein
+		Left+portal+vein)
+	(part+of Portal+venous+tree+organ)
+	(Preferred+name [fm_live_12044])
+	(regional+part
+		Right+portal+vein
+		Left+portal+vein)
+	(regional+part+of Portal+venous+tree+organ)
+	(Synonym [KB_INSTANCE_64033]))
+
+([Hepatic+scissura] of  Scissura+of+liver
+
+	(FMAID "15761")
+	(Preferred+name [KB_INSTANCE_18149]))
+
+([Hepatic+sinusoid] of  Organ+part
+
+	(FMAID "17543")
+	(part
+		Endothelium+of+hepatic+sinusoid
+		Lumen+of+sinusoid)
+	(part+of
+		Hepatic+lobule
+		Hepatic+acinus)
+	(Preferred+name [KB_INSTANCE_21188])
+	(regional+part
+		Endothelium+of+hepatic+sinusoid
+		Lumen+of+sinusoid)
+	(regional+part+of
+		Hepatic+lobule
+		Hepatic+acinus)
+	(Synonym [KB_INSTANCE_21189]))
+
+([Hepatic+stem+cell] of  Stem+cell
+
+	(FMAID "86577")
+	(Preferred+name [fma_p2_Instance_960009])
+	(Synonym [fma_p2_Instance_960010]))
+
+([Hepatic+vein] of  Vein
+
+	(FMAID "14337")
+	(Preferred+name [KB_INSTANCE_15756])
+	(regional+part+of Inferior+systemic+venous+tree)
+	(Synonym [KB_INSTANCE_15757])
+	(tributary+of Inferior+vena+cava))
+
+([Hepatic+vein+of+caudate+lobe] of  Vein
+
+	(FMAID "15792")
+	(part+of Inferior+systemic+venous+tree)
+	(Preferred+name [KB_INSTANCE_18202])
+	(Synonym [KB_INSTANCE_18203])
+	(tributary+of
+		Inferior+vena+cava
+		Inferior+systemic+venous+tree))
+
+([Hepato-oesophageal+ligament] of  Mesentery
+
+	(dimension 3-dimension)
+	(FMAID "76979")
+	(Non-English+equivalent
+		[su_incus_37794]
+		[KB_AUTO-INSERT%283%29_2261])
+	(Preferred+name [su_incus_32458]))
+
+([Hepato-omental+fold] of  Variant+peritoneal+fold
+
+	(FMAID "21008")
+	(Preferred+name [KB_INSTANCE_26451]))
+
+([Hepatocolic+fold] of  Variant+peritoneal+fold
+
+	(FMAID "16553")
+	(Non-English+equivalent
+		[KB_INSTANCE_19541]
+		[KB_AUTO-INSERT%283%29_2264])
+	(Preferred+name [KB_INSTANCE_19539])
+	(Synonym [KB_INSTANCE_19540]))
+
+([Hepatocyte] of  Endo-epithelial+cell
+
+	(FMAID "14515")
+	(part
+		Plasma+membrane+of+hepatocyte
+		Protoplasm)
+	(part+of Hepatic+lamina)
+	(Preferred+name [KB_INSTANCE_16028])
+	(regional+part
+		Plasma+membrane+of+hepatocyte
+		Protoplasm)
+	(regional+part+of Hepatic+lamina)
+	(Synonym
+		[KB_INSTANCE_16029]
+		[KB_INSTANCE_16030]))
+
+([Hepatoduodenal+ligament] of  Subdivision+of+lesser+omentum
+
+	(FMAID "16521")
+	(Non-English+equivalent
+		[KB_INSTANCE_19480]
+		[KB_AUTO-INSERT%283%29_2263])
+	(part
+		Anterior+lamina+of+hepatoduodenal+ligament
+		Posterior+lamina+of+hepatoduodenal+ligament)
+	(part+of Lesser+omentum)
+	(Preferred+name [KB_INSTANCE_19479])
+	(regional+part
+		Anterior+lamina+of+hepatoduodenal+ligament
+		Posterior+lamina+of+hepatoduodenal+ligament)
+	(regional+part+of Lesser+omentum))
+
+([Hepatoesophageal+ligament] of  Subdivision+of+lesser+omentum
+
+	(FMAID "20960")
+	(part
+		Anterior+lamina+of+hepatoesophageal+ligament
+		Posterior+lamina+of+hepatoesophageal+ligament)
+	(part+of Lesser+omentum)
+	(Preferred+name [KB_INSTANCE_26394])
+	(regional+part
+		Anterior+lamina+of+hepatoesophageal+ligament
+		Posterior+lamina+of+hepatoesophageal+ligament)
+	(regional+part+of Lesser+omentum))
+
+([Hepatogastric+ligament] of  Subdivision+of+lesser+omentum
+
+	(FMAID "16520")
+	(Non-English+equivalent
+		[KB_INSTANCE_19478]
+		[KB_AUTO-INSERT%283%29_2262])
+	(part
+		Anterior+lamina+of+hepatogastric+ligament
+		Posterior+lamina+of+hepatogastric+ligament)
+	(part+of Lesser+omentum)
+	(Preferred+name [KB_INSTANCE_19476])
+	(regional+part
+		Anterior+lamina+of+hepatogastric+ligament
+		Posterior+lamina+of+hepatogastric+ligament)
+	(regional+part+of Lesser+omentum)
+	(Synonym [KB_INSTANCE_19477]))
+
+([Hepatopancreatic+ampulla] of  Organ+part
+
+	(FMAID "15076")
+	(Non-English+equivalent
+		[KB_INSTANCE_17103]
+		[su_incus_38181]
+		[KB_AUTO-INSERT%283%29_1883])
+	(part+of
+		Common+bile+duct
+		Major+duodenal+papilla)
+	(Preferred+name [KB_INSTANCE_17102])
+	(regional+part+of
+		Major+duodenal+papilla
+		Common+bile+duct)
+	(Synonym
+		[KB_INSTANCE_17104]
+		[KB_INSTANCE_17105]
+		[su_incus_24668]))
+
+([Hepatopancreatic+fold] of  Zone+of+lesser+sac
+
+	(FMAID "77306")
+	(Non-English+equivalent
+		[su_incus_38099]
+		[KB_AUTO-INSERT%283%29_2284])
+	(Preferred+name [su_incus_33303]))
+
+([Hepatophrenic+ligament] of  Mesentery
+
+	(dimension 3-dimension)
+	(FMAID "76977")
+	(Non-English+equivalent
+		[su_incus_37793]
+		[KB_AUTO-INSERT%283%29_2260])
+	(Preferred+name [su_incus_32457]))
+
+([Hepatorenal+ligament] of  Region+of+coronary+ligament
+
+	(FMAID "16519")
+	(Non-English+equivalent
+		[KB_INSTANCE_19475]
+		[KB_AUTO-INSERT%283%29_2280])
+	(part+of Posterior+lamina+of+right+coronary+ligament)
+	(Preferred+name [KB_INSTANCE_19474])
+	(regional+part+of Posterior+lamina+of+right+coronary+ligament))
+
+([Hepatorenal+recess] of  Anatomical+cavity
+
+	(FMAID "14715")
+	(Non-English+equivalent
+		[su_incus_40029]
+		[KB_AUTO-INSERT%283%29_2302])
+	(part+of Cavity+of+greater+sac)
+	(Preferred+name [KB_INSTANCE_16413])
+	(Synonym
+		[KB_INSTANCE_16414]
+		[KB_INSTANCE_16415]
+		[KB_INSTANCE_16416]
+		[KB_INSTANCE_16417]
+		[su_incus_25000]))
+
+([Hepatovenous+sector] of  Lobular+organ+component
+
+	(FMAID "15740")
+	(part Hepatovenous+subsector)
+	(part+of Lobe+of+liver)
+	(Preferred+name [KB_INSTANCE_18111])
+	(regional+part Hepatovenous+subsector)
+	(regional+part+of Lobe+of+liver))
+
+([Hepatovenous+segment+II] of  Hepatovenous+subsector
+
+	(FMAID "15739")
+	(Non-English+equivalent
+		[su_incus_38152]
+		[su_incus_38153])
+	(part+of Posterior+sector+of+left+liver)
+	(Preferred+name [KB_INSTANCE_18108])
+	(regional+part+of Posterior+sector+of+left+liver)
+	(Synonym
+		[KB_INSTANCE_18109]
+		[KB_INSTANCE_18110]
+		[su_incus_31588]
+		[su_incus_31589]))
+
+([Hepatovenous+segment+III] of  Region+of+anterior+sector+of+left+liver
+
+	(FMAID "15741")
+	(Non-English+equivalent
+		[su_incus_38154]
+		[su_incus_38155])
+	(part+of Anterior+sector+of+left+liver)
+	(Preferred+name [KB_INSTANCE_18112])
+	(regional+part+of Anterior+sector+of+left+liver)
+	(Synonym
+		[KB_INSTANCE_18113]
+		[KB_INSTANCE_18114]
+		[su_incus_31590]
+		[su_incus_31591]))
+
+([Hepatovenous+segment+IV] of  Region+of+anterior+sector+of+left+liver
+
+	(FMAID "15742")
+	(Non-English+equivalent
+		[su_incus_38156]
+		[su_incus_38157])
+	(part
+		Hepatovenous+segment+IVa
+		Hepatovenous+segment+IVb)
+	(part+of Anterior+sector+of+left+liver)
+	(Preferred+name [KB_INSTANCE_18115])
+	(regional+part
+		Hepatovenous+segment+IVa
+		Hepatovenous+segment+IVb)
+	(regional+part+of Anterior+sector+of+left+liver)
+	(Synonym
+		[KB_INSTANCE_18116]
+		[su_incus_31592]
+		[su_incus_31593]))
+
+([Hepatovenous+segment+IVa] of  Hepatovenous+subsector
+
+	(FMAID "15805")
+	(part+of Hepatovenous+segment+IV)
+	(Preferred+name [KB_INSTANCE_18238])
+	(regional+part+of Hepatovenous+segment+IV)
+	(Synonym
+		[KB_INSTANCE_18239]
+		[KB_INSTANCE_18240]))
+
+([Hepatovenous+segment+IVb] of  Hepatovenous+subsector
+
+	(FMAID "15806")
+	(part+of Hepatovenous+segment+IV)
+	(Preferred+name [KB_INSTANCE_18241])
+	(regional+part+of Hepatovenous+segment+IV)
+	(Synonym
+		[KB_INSTANCE_18242]
+		[KB_INSTANCE_18243]))
+
+([Hepatovenous+segment+IX] of  Hepatovenous+subsector
+
+	(FMAID "15747")
+	(part
+		Hepatovenous+segment+IXb
+		Hepatovenous+segment+IXc
+		Hepatovenous+segment+IXd)
+	(part+of Dorsal+sector+of+liver)
+	(Preferred+name [KB_INSTANCE_18129])
+	(regional+part
+		Hepatovenous+segment+IXb
+		Hepatovenous+segment+IXc
+		Hepatovenous+segment+IXd)
+	(regional+part+of Dorsal+sector+of+liver)
+	(Synonym
+		[KB_INSTANCE_18130]
+		[KB_INSTANCE_18131]))
+
+([Hepatovenous+segment+IXb] of  Hepatovenous+subsector
+
+	(FMAID "15816")
+	(part+of Hepatovenous+segment+IX)
+	(Preferred+name [KB_INSTANCE_18260])
+	(regional+part+of Hepatovenous+segment+IX))
+
+([Hepatovenous+segment+IXc] of  Hepatovenous+subsector
+
+	(FMAID "15817")
+	(part+of Hepatovenous+segment+IX)
+	(Preferred+name [KB_INSTANCE_18261])
+	(regional+part+of Hepatovenous+segment+IX))
+
+([Hepatovenous+segment+IXd] of  Hepatovenous+subsector
+
+	(FMAID "15818")
+	(part+of Hepatovenous+segment+IX)
+	(Preferred+name [KB_INSTANCE_18262])
+	(regional+part+of Hepatovenous+segment+IX))
+
+([Hepatovenous+segment+V] of  Region+of+anterior+sector+of+right+liver
+
+	(FMAID "15743")
+	(Non-English+equivalent
+		[su_incus_38158]
+		[su_incus_38159])
+	(part+of Anterior+sector+of+right+liver+%28in-vivo%29)
+	(Preferred+name [KB_INSTANCE_18117])
+	(regional+part+of Anterior+sector+of+right+liver+%28in-vivo%29)
+	(Synonym
+		[KB_INSTANCE_18118]
+		[KB_INSTANCE_18119]
+		[su_incus_31594]
+		[su_incus_31595]))
+
+([Hepatovenous+segment+VI] of  Region+of+posterior+sector+of+right+liver
+
+	(FMAID "15744")
+	(Non-English+equivalent
+		[su_incus_38162]
+		[su_incus_38163])
+	(part+of Posterior+sector+of+right+liver+%28in-vivo%29)
+	(Preferred+name [KB_INSTANCE_18120])
+	(regional+part+of Posterior+sector+of+right+liver+%28in-vivo%29)
+	(Synonym
+		[KB_INSTANCE_18121]
+		[KB_INSTANCE_18122]
+		[su_incus_31598]
+		[su_incus_31599]))
+
+([Hepatovenous+segment+VII] of  Region+of+posterior+sector+of+right+liver
+
+	(FMAID "15745")
+	(Non-English+equivalent
+		[su_incus_38164]
+		[su_incus_38165])
+	(part+of Posterior+sector+of+right+liver+%28in-vivo%29)
+	(Preferred+name [KB_INSTANCE_18123])
+	(regional+part+of Posterior+sector+of+right+liver+%28in-vivo%29)
+	(Synonym
+		[KB_INSTANCE_18124]
+		[KB_INSTANCE_18125]
+		[su_incus_31600]
+		[su_incus_31601]))
+
+([Hepatovenous+segment+VIII] of  Region+of+anterior+sector+of+right+liver
+
+	(FMAID "15746")
+	(Non-English+equivalent
+		[su_incus_38160]
+		[su_incus_38161])
+	(part+of Anterior+sector+of+right+liver+%28in-vivo%29)
+	(Preferred+name [KB_INSTANCE_18126])
+	(regional+part+of Anterior+sector+of+right+liver+%28in-vivo%29)
+	(Synonym
+		[KB_INSTANCE_18127]
+		[KB_INSTANCE_18128]
+		[su_incus_31596]
+		[su_incus_31597]))
+
+([Hepatovenous+subsector] of  Organ+region+with+fixed+fiat+boundary
+
+	(FMAID "15737")
+	(part+of Hepatovenous+sector)
+	(Preferred+name [KB_INSTANCE_18106])
+	(regional+part+of Hepatovenous+sector)
+	(Synonym [KB_INSTANCE_18107]))
+
+([Heschl%27s+gyrus] of  Caviness+neocortex+parcellation+unit
+
+	(FMAID "71029")
+	(part+of Cerebral+cortex)
+	(Preferred+name [live_incus_fm_08350])
+	(regional+part+of Cerebral+cortex))
+
+([Hetero-composite] of  Dimensional+entity+template
+
+	(FMAID "50612")
+	(Preferred+name [KB_INSTANCE_63884]))
+
+([Heterochromatin] of  Chromatin
+
+	(FMAID "84717")
+	(Preferred+name [fm_live_32502]))
+
+([Heterogeneous+cluster] of  Anatomical+cluster
+
+	(definition "Anatomical cluster which consists of all or some members of one or more organ subclasses and one or more organ part subclasses which are grouped together according to some shared attributes. Examples: joint, internal ear, pharynx.")
+	(FMAID "64989")
+	(Preferred+name [fm-live_03085]))
+
+([Heterogeneous+tissue] of  Tissue
+
+	(FMAID "62798")
+	(Non-English+equivalent [ONARD_Instance_580869])
+	(Preferred+name [FM_live_00170]))
+
+([Hiatus+for+greater+petrosal+nerve] of  Orifice+of+skull
+
+	(FMAID "56445")
+	(Non-English+equivalent
+		[KB_INSTANCE_72946]
+		[KB_AUTO-INSERT%283%29_127])
+	(Preferred+name [KB_INSTANCE_72945])
+	(Synonym [su_incus_25052]))
+
+([Hiatus+for+left+greater+petrosal+nerve] of  Hiatus+for+greater+petrosal+nerve
+
+	(FMAID "56447")
+	(Preferred+name [KB_INSTANCE_72948]))
+
+([Hiatus+for+left+lesser+petrosal+nerve] of  Hiatus+for+lesser+petrosal+nerve
+
+	(FMAID "56450")
+	(Preferred+name [KB_INSTANCE_72952]))
+
+([Hiatus+for+lesser+petrosal+nerve] of  Orifice+of+skull
+
+	(FMAID "56448")
+	(Non-English+equivalent
+		[KB_INSTANCE_72950]
+		[KB_AUTO-INSERT%283%29_128])
+	(Preferred+name [KB_INSTANCE_72949]))
+
+([Hiatus+for+right+greater+petrosal+nerve] of  Hiatus+for+greater+petrosal+nerve
+
+	(FMAID "56446")
+	(Preferred+name [KB_INSTANCE_72947]))
+
+([Hiatus+for+right+lesser+petrosal+nerve] of  Hiatus+for+lesser+petrosal+nerve
+
+	(FMAID "56449")
+	(Preferred+name [KB_INSTANCE_72951]))
+
+([Hiatus+semilunaris] of  Anatomical+line+of+bone
+
+	(FMAID "75057")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_416])
+	(Preferred+name [su_incus_25247]))
+
+([Hidden+border+of+nail] of  Border+of+nail
+
+	(FMAID "60701")
+	(Non-English+equivalent [su_incus_40624])
+	(Preferred+name [KB_INSTANCE_80075])
+	(Synonym [KB_INSTANCE_80076]))
+
+([Hidden+border+of+nail+of+big+toe] of  Hidden+border+of+nail+of+toe
+
+	(FMAID "60727")
+	(Preferred+name [KB_INSTANCE_80104]))
+
+([Hidden+border+of+nail+of+finger] of  Border+of+nail+of+finger
+
+	(FMAID "60708")
+	(Preferred+name [KB_INSTANCE_80085]))
+
+([Hidden+border+of+nail+of+fourth+toe] of  Hidden+border+of+nail+of+toe
+
+	(FMAID "60730")
+	(Preferred+name [KB_INSTANCE_80107]))
+
+([Hidden+border+of+nail+of+index+finger] of  Hidden+border+of+nail+of+finger
+
+	(FMAID "60773")
+	(Preferred+name [KB_INSTANCE_80150]))
+
+([Hidden+border+of+nail+of+left+big+toe] of  Hidden+border+of+nail+of+big+toe
+
+	(FMAID "60741")
+	(Preferred+name [KB_INSTANCE_80118]))
+
+([Hidden+border+of+nail+of+left+fourth+toe] of  Hidden+border+of+nail+of+fourth+toe
+
+	(FMAID "60735")
+	(Preferred+name [KB_INSTANCE_80112]))
+
+([Hidden+border+of+nail+of+left+index+finger] of  Hidden+border+of+nail+of+index+finger
+
+	(FMAID "60784")
+	(Preferred+name [KB_INSTANCE_80161]))
+
+([Hidden+border+of+nail+of+left+little+finger] of  Hidden+border+of+nail+of+little+finger
+
+	(FMAID "60778")
+	(Preferred+name [KB_INSTANCE_80155]))
+
+([Hidden+border+of+nail+of+left+little+toe] of  Hidden+border+of+nail+of+little+toe
+
+	(FMAID "60733")
+	(Preferred+name [KB_INSTANCE_80110]))
+
+([Hidden+border+of+nail+of+left+middle+finger] of  Hidden+border+of+nail+of+middle+finger
+
+	(FMAID "60782")
+	(Preferred+name [KB_INSTANCE_80159]))
+
+([Hidden+border+of+nail+of+left+ring+finger] of  Hidden+border+of+nail+of+ring+finger
+
+	(FMAID "60780")
+	(Preferred+name [KB_INSTANCE_80157]))
+
+([Hidden+border+of+nail+of+left+second+toe] of  Hidden+border+of+nail+of+second+toe
+
+	(FMAID "60739")
+	(Preferred+name [KB_INSTANCE_80116]))
+
+([Hidden+border+of+nail+of+left+third+toe] of  Hidden+border+of+nail+of+third+toe
+
+	(FMAID "60737")
+	(Preferred+name [KB_INSTANCE_80114]))
+
+([Hidden+border+of+nail+of+left+thumb] of  Hidden+border+of+nail+of+thumb
+
+	(FMAID "60786")
+	(Preferred+name [KB_INSTANCE_80163]))
+
+([Hidden+border+of+nail+of+little+finger] of  Hidden+border+of+nail+of+finger
+
+	(FMAID "60776")
+	(Preferred+name [KB_INSTANCE_80153]))
+
+([Hidden+border+of+nail+of+little+toe] of  Hidden+border+of+nail+of+toe
+
+	(FMAID "60731")
+	(Preferred+name [KB_INSTANCE_80108]))
+
+([Hidden+border+of+nail+of+middle+finger] of  Hidden+border+of+nail+of+finger
+
+	(FMAID "60774")
+	(Preferred+name [KB_INSTANCE_80151]))
+
+([Hidden+border+of+nail+of+right+big+toe] of  Hidden+border+of+nail+of+big+toe
+
+	(FMAID "60740")
+	(Preferred+name [KB_INSTANCE_80117]))
+
+([Hidden+border+of+nail+of+right+fourth+toe] of  Hidden+border+of+nail+of+fourth+toe
+
+	(FMAID "60734")
+	(Preferred+name [KB_INSTANCE_80111]))
+
+([Hidden+border+of+nail+of+right+index+finger] of  Hidden+border+of+nail+of+index+finger
+
+	(FMAID "60783")
+	(Preferred+name [KB_INSTANCE_80160]))
+
+([Hidden+border+of+nail+of+right+little+finger] of  Hidden+border+of+nail+of+little+finger
+
+	(FMAID "60777")
+	(Preferred+name [KB_INSTANCE_80154]))
+
+([Hidden+border+of+nail+of+right+little+toe] of  Hidden+border+of+nail+of+little+toe
+
+	(FMAID "60732")
+	(Preferred+name [KB_INSTANCE_80109]))
+
+([Hidden+border+of+nail+of+right+middle+finger] of  Hidden+border+of+nail+of+middle+finger
+
+	(FMAID "60781")
+	(Preferred+name [KB_INSTANCE_80158]))
+
+([Hidden+border+of+nail+of+right+ring+finger] of  Hidden+border+of+nail+of+ring+finger
+
+	(FMAID "60779")
+	(Preferred+name [KB_INSTANCE_80156]))
+
+([Hidden+border+of+nail+of+right+second+toe] of  Hidden+border+of+nail+of+second+toe
+
+	(FMAID "60738")
+	(Preferred+name [KB_INSTANCE_80115]))
+
+([Hidden+border+of+nail+of+right+third+toe] of  Hidden+border+of+nail+of+third+toe
+
+	(FMAID "60736")
+	(Preferred+name [KB_INSTANCE_80113]))
+
+([Hidden+border+of+nail+of+right+thumb] of  Hidden+border+of+nail+of+thumb
+
+	(FMAID "60785")
+	(Preferred+name [KB_INSTANCE_80162]))
+
+([Hidden+border+of+nail+of+ring+finger] of  Hidden+border+of+nail+of+finger
+
+	(FMAID "60775")
+	(Preferred+name [KB_INSTANCE_80152]))
+
+([Hidden+border+of+nail+of+second+toe] of  Hidden+border+of+nail+of+toe
+
+	(FMAID "60728")
+	(Preferred+name [KB_INSTANCE_80105]))
+
+([Hidden+border+of+nail+of+third+toe] of  Hidden+border+of+nail+of+toe
+
+	(FMAID "60729")
+	(Preferred+name [KB_INSTANCE_80106]))
+
+([Hidden+border+of+nail+of+thumb] of  Hidden+border+of+nail+of+finger
+
+	(FMAID "60772")
+	(Preferred+name [KB_INSTANCE_80149]))
+
+([Hidden+border+of+nail+of+toe] of  Border+of+nail+of+toe
+
+	(FMAID "60709")
+	(Preferred+name [KB_INSTANCE_80086]))
+
+([Hidden+part+of+duodenum] of  General+anatomical+term+template
+
+	(FMAID "76712")
+	(Preferred+name [su_incus_31688]))
+
+([High+densitiy+lipoprotein] of  Lipoprotein
+
+	(FMAID "63171")
+	(Preferred+name [fm_live_01493])
+	(Synonym [fm_live_01492]))
+
+([High+molecular+weight+neurofilament+protein] of  Neurofilament+protein
+
+	(FMAID "61847")
+	(Preferred+name [fm-live_10578])
+	(Synonym [fm-live_10581]))
+
+([Highest+nuchal+line] of  Anatomical+line+of+skull
+
+	(FMAID "53106")
+	(Non-English+equivalent
+		[KB_INSTANCE_67109]
+		[KB_AUTO-INSERT%283%29_335])
+	(Preferred+name [KB_INSTANCE_67108]))
+
+([Highest+nuchal+ridge+of+occipital+bone] of  Nuchal+ridge+of+occipital+bone
+
+	(FMAID "80360")
+	(Preferred+name [fm_live_24770]))
+
+([Hilar+branch+of+splenic+artery] of  Systemic+artery
+
+	(arterial+supply+of Spleen)
+	(branch+of Splenic+artery)
+	(FMAID "14802")
+	(Preferred+name [KB_INSTANCE_16580]))
+
+([Hilar+fissural+surface+of+left+lower+lobe] of  Subdivision+of+surface+of+lower+lobe+of+lung
+
+	(2D+part+of Interlobar+surface+of+lower+lobe+of+left+lung)
+	(FMAID "31813")
+	(Preferred+name [KB_INSTANCE_39400]))
+
+([Hilar+fissural+surface+of+right+upper+lobe] of  Subdivision+of+surface+of+upper+lobe+of+right+lung
+
+	(2D+part+of Interlobar+surface+of+upper+lobe+of+right+lung)
+	(FMAID "31028")
+	(Preferred+name [KB_INSTANCE_38620])
+	(Synonym [KB_INSTANCE_38621]))
+
+([Hilar+fissural+surface+of+upper+lobe+of+left+lung] of  Subdivision+of+surface+of+upper+lobe+of+left+lung
+
+	(2D+part+of Interlobar+surface+of+upper+lobe+of+left+lung)
+	(FMAID "31041")
+	(Preferred+name [fm-live_06746])
+	(Synonym [KB_INSTANCE_38632]))
+
+([Hilar+margin+of+mediastinal+surface+of+left+lower+lobe] of  Fissural+margin+of+mediastinal+surface+of+left+lower+lobe
+
+	(FMAID "30998")
+	(Preferred+name [KB_INSTANCE_38572]))
+
+([Hilar+margin+of+mediastinal+surface+of+left+upper+lobe] of  Fissural+margin+of+mediastinal+surface+of+left+upper+lobe
+
+	(FMAID "30990")
+	(Preferred+name [KB_INSTANCE_38565]))
+
+([Hilar+margin+of+mediastinal+surface+of+middle+lobe+of+lung] of  Fissural+margin+of+mediastinal+surface+of+middle+lobe+of+lung
+
+	(FMAID "30987")
+	(Preferred+name [KB_INSTANCE_38561]))
+
+([Hilar+margin+of+mediastinal+surface+of+right+lower+lobe] of  Fissural+margin+of+mediastinal+surface+of+right+lower+lobe
+
+	(FMAID "30996")
+	(Preferred+name [KB_INSTANCE_38570]))
+
+([Hilar+margin+of+mediastinal+surface+of+right+upper+lobe] of  Fissural+margin+of+mediastinal+surface+of+right+upper+lobe
+
+	(FMAID "30988")
+	(Preferred+name [KB_INSTANCE_38562]))
+
+([Hilar+tributary+of+tracheobronchial+lymphatic+chain] of  Tributary+of+tracheobronchial+lymphatic+chain
+
+	(dimension 3-dimension)
+	(FMAID "75629")
+	(Preferred+name [fm_live_17353])
+	(tributary+of Tracheobronchial+lymphatic+chain))
+
+([Hilum] of  Orifice
+
+	(FMAID "57836")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_2338])
+	(Preferred+name [KB_INSTANCE_76199]))
+
+([Hilum+of+adrenal+gland] of  Orifice
+
+	(FMAID "15646")
+	(Non-English+equivalent [su_incus_40199])
+	(Preferred+name [KB_INSTANCE_17917])
+	(Synonym
+		[KB_INSTANCE_17918]
+		[KB_INSTANCE_17919]
+		[KB_AUTO-INSERT2_10295]))
+
+([Hilum+of+dentate+nucleus] of  Hilum+of+neuraxis
+
+	(dimension 3-dimension)
+	(FMAID "72548")
+	(Non-English+equivalent
+		[su_incus_21812]
+		[KB_AUTO-INSERT%283%29_3588])
+	(Preferred+name [live_incus_fm_09547])
+	(Synonym [KB_AUTO-INSERT2_4779]))
+
+([Hilum+of+inferior+olivary+complex] of  Hilum+of+neuraxis
+
+	(FMAID "72612")
+	(Non-English+equivalent
+		[su_incus_21813]
+		[su_incus_21814]
+		[KB_AUTO-INSERT%283%29_3345])
+	(part+of Inferior+olivary+complex)
+	(Preferred+name [live_incus_fm_09656])
+	(regional+part+of
+		Medulla+oblongata
+		White+matter+structure+of+medulla+oblongata)
+	(Synonym
+		[su_incus_21815]
+		[su_incus_30069]
+		[KB_AUTO-INSERT2_4778]))
+
+([Hilum+of+kidney] of  Orifice
+
+	(FMAID "15610")
+	(Non-English+equivalent
+		[KB_INSTANCE_17836]
+		[KB_AUTO-INSERT%283%29_2043])
+	(part+of Kidney)
+	(Preferred+name [KB_INSTANCE_17835])
+	(regional+part+of Kidney)
+	(Synonym [KB_INSTANCE_17837]))
+
+([Hilum+of+left+adrenal+gland] of  Hilum+of+adrenal+gland
+
+	(FMAID "15944")
+	(Preferred+name [KB_INSTANCE_18501])
+	(Synonym
+		[KB_INSTANCE_18502]
+		[KB_AUTO-INSERT2_10394]))
+
+([Hilum+of+left+dentate+nucleus] of  Hilum+of+dentate+nucleus
+
+	(dimension 3-dimension)
+	(FMAID "73698")
+	(Preferred+name [live_incus_fm_11339])
+	(Synonym [KB_AUTO-INSERT2_4783]))
+
+([Hilum+of+left+inferior+olivary+complex] of  Hilum+of+inferior+olivary+complex
+
+	(dimension 3-dimension)
+	(FMAID "73826")
+	(Preferred+name [live_incus_fm_11540])
+	(Synonym [KB_AUTO-INSERT2_4781]))
+
+([Hilum+of+left+kidney] of  Hilum+of+kidney
+
+	(FMAID "15942")
+	(part+of Left+kidney)
+	(Preferred+name [KB_INSTANCE_18497])
+	(regional+part+of Left+kidney)
+	(Synonym [KB_INSTANCE_18498]))
+
+([Hilum+of+left+ovary] of  Hilum+of+ovary
+
+	(FMAID "18654")
+	(part+of Left+ovary)
+	(Preferred+name [KB_INSTANCE_23443])
+	(regional+part+of Left+ovary)
+	(Synonym [KB_AUTO-INSERT2_10396]))
+
+([Hilum+of+lymph+node] of  Organ+component+cluster
+
+	(FMAID "62842")
+	(Non-English+equivalent [su_incus_35964])
+	(part+of Lymph+node)
+	(Preferred+name [FM_live_00630])
+	(regional+part+of Lymph+node)
+	(Synonym [KB_AUTO-INSERT2_8657]))
+
+([Hilum+of+neuraxis] of  White+matter+component+of+neuraxis
+
+	(FMAID "83871")
+	(Preferred+name [live_incus_fm_13488])
+	(Synonym [KB_AUTO-INSERT2_4715]))
+
+([Hilum+of+ovary] of  Orifice
+
+	(FMAID "18652")
+	(Non-English+equivalent
+		[su_incus_40200]
+		[KB_AUTO-INSERT%283%29_2086])
+	(part+of Ovary)
+	(Preferred+name [KB_INSTANCE_23440])
+	(regional+part+of Ovary)
+	(Synonym
+		[KB_INSTANCE_23441]
+		[KB_AUTO-INSERT2_10296]))
+
+([Hilum+of+right+adrenal+gland] of  Hilum+of+adrenal+gland
+
+	(FMAID "15943")
+	(Preferred+name [KB_INSTANCE_18499])
+	(Synonym
+		[KB_INSTANCE_18500]
+		[KB_AUTO-INSERT2_10393]))
+
+([Hilum+of+right+dentate+nucleus] of  Hilum+of+dentate+nucleus
+
+	(dimension 3-dimension)
+	(FMAID "73697")
+	(Preferred+name [live_incus_fm_11337])
+	(Synonym [KB_AUTO-INSERT2_4782]))
+
+([Hilum+of+right+inferior+olivary+complex] of  Hilum+of+inferior+olivary+complex
+
+	(dimension 3-dimension)
+	(FMAID "73825")
+	(Preferred+name [live_incus_fm_11538])
+	(Synonym [KB_AUTO-INSERT2_4780]))
+
+([Hilum+of+right+kidney] of  Hilum+of+kidney
+
+	(FMAID "15941")
+	(part+of Right+kidney)
+	(Preferred+name [KB_INSTANCE_18495])
+	(regional+part+of Right+kidney)
+	(Synonym [KB_INSTANCE_18496]))
+
+([Hilum+of+right+ovary] of  Hilum+of+ovary
+
+	(FMAID "18653")
+	(part+of Right+ovary)
+	(Preferred+name [KB_INSTANCE_23442])
+	(regional+part+of Right+ovary)
+	(Synonym [KB_AUTO-INSERT2_10395]))
+
+([Hilum+of+spleen] of  Orifice
+
+	(FMAID "15841")
+	(Non-English+equivalent
+		[su_incus_40198]
+		[KB_INSTANCE_18304]
+		[KB_AUTO-INSERT%283%29_3169])
+	(part+of Spleen)
+	(Preferred+name [KB_INSTANCE_18303])
+	(regional+part+of Spleen)
+	(Synonym [KB_INSTANCE_18305]))
+
+([Hilus+cell+of+ovary] of  Meso-epithelial+cell
+
+	(FMAID "18710")
+	(part+of
+		Ovarian+medulla
+		Ovarian+stroma)
+	(Preferred+name [KB_INSTANCE_23530])
+	(regional+part+of
+		Ovarian+medulla
+		Ovarian+stroma)
+	(Synonym [KB_INSTANCE_23531]))
+
+([Hilus+of+dentate+gyrus] of  White+matter+structure+of+cerebral+hemisphere
+
+	(dimension 3-dimension)
+	(FMAID "72358")
+	(Non-English+equivalent [su_incus_21816])
+	(Preferred+name [live_incus_fm_08892])
+	(regional+part+of Dentate+gyrus+of+hippocampal+formation)
+	(Synonym
+		[su_incus_21817]
+		[KB_AUTO-INSERT2_5388]))
+
+([Hilus+of+dentate+gyrus+of+left+hippocampus] of  Hilus+of+dentate+gyrus
+
+	(dimension 3-dimension)
+	(FMAID "72968")
+	(Preferred+name [live_incus_fm_10351])
+	(Synonym [KB_AUTO-INSERT2_4785]))
+
+([Hilus+of+dentate+gyrus+of+right+hippocampus] of  Hilus+of+dentate+gyrus
+
+	(dimension 3-dimension)
+	(FMAID "72967")
+	(Preferred+name [live_incus_fm_10349])
+	(Synonym [KB_AUTO-INSERT2_4784]))
+
+([Hindbrain] of  Area+of+neuraxis
+
+	(bounded+by Surface+of+brain)
+	(definition "Organ component of neuraxis that has as its parts the pons, cerebellum and medulla oblongata . Examples: There is only one hindbrain.")
+	(FMAID "67687")
+	(Non-English+equivalent
+		[su_incus_21818]
+		[KB_AUTO-INSERT%283%29_3281])
+	(part
+		Metencephalon
+		Medulla+oblongata)
+	(part+of Brain)
+	(Preferred+name [fm-live_14878])
+	(regional+part
+		Metencephalon
+		Medulla+oblongata)
+	(regional+part+of Brain))
+
+([Hindfoot] of  Subdivision+of+foot
+
+	(FMAID "63959")
+	(Preferred+name [fm-live_01484]))
+
+([Hindgut] of  Subdivision+of+gut
+
+	(attributed+part
+		[FM_live_04245]
+		[FM_live_04246]
+		[FM_live_04247]
+		[FM_live_04248])
+	(FMAID "45618")
+	(gives+rise+to
+		Transverse+colon
+		Descending+colon
+		Sigmoid+colon
+		Rectum)
+	(part
+		Transverse+colon
+		Descending+colon
+		Sigmoid+colon
+		Rectum)
+	(part+of
+		Gut
+		Gastrointestinal+system)
+	(Preferred+name [KB_INSTANCE_57884])
+	(regional+part+of
+		Gastrointestinal+system
+		Gut)
+	(systemic+part+of
+		Gut
+		Gastrointestinal+system))
+
+([Hinge+joint] of  Non-physical+anatomical+entity+template
+
+	(FMAID "75296")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_732])
+	(Preferred+name [su_incus_26919]))
+
+([Hip] of  Subdivision+of+pelvic+girdle
+
+	(constitutional+part Vasculature+of+hip)
+	(FMAID "24964")
+	(Non-English+equivalent
+		[KB_INSTANCE_31333]
+		[KB_AUTO-INSERT%283%29_44]
+		[KB_AUTO-INSERT%283%29_206])
+	(part
+		Skin+of+hip
+		Superficial+fascia+of+hip
+		Musculature+of+hip
+		Hip+bone
+		Hip+joint)
+	(part+of Pelvic+girdle)
+	(Preferred+name [KB_INSTANCE_31332])
+	(regional+part
+		Skin+of+hip
+		Superficial+fascia+of+hip
+		Musculature+of+hip
+		Hip+bone
+		Hip+joint)
+	(regional+part+of Pelvic+girdle)
+	(Synonym
+		[KB_INSTANCE_31334]
+		[KB_INSTANCE_31335]))
+
+([Hip+bone] of  Flat+bone
+
+	(attributed+part
+		[fm_live_02663]
+		[fm_live_02763]
+		[fm_live_02765])
+	(FMAID "16585")
+	(Non-English+equivalent
+		[KB_INSTANCE_19584]
+		[KB_AUTO-INSERT%283%29_637]
+		[ONARD_Instance_580535])
+	(part
+		Ilium
+		Pubis)
+	(part+of Hip)
+	(Preferred+name [KB_INSTANCE_19581])
+	(regional+part
+		Ilium
+		Pubis
+		Ischium
+		Ischiopubic+ramus)
+	(regional+part+of Hip)
+	(Synonym
+		[KB_INSTANCE_19582]
+		[KB_INSTANCE_19583]
+		[fm-live_03919]
+		[su_incus_24613])
+	(systemic+part+of Bony+pelvic+girdle))
+
+([Hip+joint] of  Synovial+joint
+
+	(FMAID "35178")
+	(Non-English+equivalent
+		[KB_INSTANCE_44765]
+		[KB_AUTO-INSERT%283%29_911])
+	(part
+		Articular+capsule+of+hip+joint
+		Synovial+cavity+of+hip+joint
+		Synovial+fluid+of+hip+joint
+		Articular+cartilage+of+proximal+epiphysis+of+femur
+		Articular+cartilage+of+hip+bone
+		Iliofemoral+ligament
+		Pubofemoral+ligament
+		Ischiofemoral+ligament
+		Transverse+acetabular+ligament
+		Ligament+of+head+of+femur
+		Acetabular+labrum
+		Acetabular+part+of+hip+bone)
+	(part+of Hip)
+	(Preferred+name [KB_INSTANCE_44764])
+	(regional+part
+		Articular+capsule+of+hip+joint
+		Synovial+cavity+of+hip+joint
+		Synovial+fluid+of+hip+joint
+		Articular+cartilage+of+proximal+epiphysis+of+femur
+		Articular+cartilage+of+hip+bone
+		Iliofemoral+ligament
+		Pubofemoral+ligament
+		Ischiofemoral+ligament
+		Transverse+acetabular+ligament
+		Ligament+of+head+of+femur
+		Acetabular+labrum
+		Acetabular+part+of+hip+bone)
+	(regional+part+of Hip)
+	(Synonym [KB_INSTANCE_44766]))
+
+([Hippocampal+artery] of  Branch+of+medial+occipital+artery
+
+	(arterial+supply+of Hippocampus)
+	(FMAID "86482")
+	(Preferred+name [FMA_Instance_10001]))
+
+([Hippocampal+formation] of  Formation+of+neuraxis
+
+	(dimension 3-dimension)
+	(FMAID "74038")
+	(Non-English+equivalent [su_incus_21819])
+	(part
+		Dentate+gyrus+of+hippocampal+formation
+		Hippocampus
+		Fimbria+of+hippocampus
+		Alveus+of+hippocampus)
+	(part+of Archicortex)
+	(Preferred+name [live_incus_fm_11894])
+	(regional+part
+		Dentate+gyrus+of+hippocampal+formation
+		Hippocampus
+		Fimbria+of+hippocampus)
+	(regional+part+of Archicortex)
+	(Synonym [su_incus_21820]))
+
+([Hippocampal+interneuron] of  Interneuron
+
+	(FMAID "84777")
+	(Preferred+name [fm_live_32701]))
+
+([Hippocampal+sulcus] of  Subarachnoid+sulcus
+
+	(FMAID "83747")
+	(Non-English+equivalent
+		[su_incus_21821]
+		[su_incus_40106]
+		[KB_AUTO-INSERT%283%29_3812])
+	(Preferred+name [live_incus_fm_08485])
+	(Synonym
+		[su_incus_21822]
+		[su_incus_21823]))
+
+([Hippocampus] of  Horn+of+neuraxis
+
+	(arterial+supply
+		Branch+of+anterior+choroidal+artery+to+hippocampus
+		Hippocampal+artery)
+	(bounded+by Surface+of+brain)
+	(FMAID "62493")
+	(member+of Set+of+cerebral+gyri)
+	(Non-English+equivalent
+		[su_incus_21824]
+		[su_incus_36068]
+		[KB_AUTO-INSERT%283%29_3842])
+	(part
+		CA1+field
+		CA2+field
+		CA3+field
+		CA4+field)
+	(part+of
+		Limbic+lobe
+		Hippocampal+formation)
+	(Preferred+name [fm-live_16266])
+	(receives+input+from
+		Anteromedial+nucleus
+		Anterodorsal+nucleus)
+	(regional+part
+		CA1+field
+		CA2+field
+		CA3+field)
+	(regional+part+of
+		Limbic+lobe
+		Hippocampal+formation)
+	(sends+output+to Nucleus+accumbens)
+	(Synonym
+		[su_incus_18677]
+		[su_incus_18678]
+		[su_incus_21825]))
+
+([Hirsute+skin] of  Zone+of+skin
+
+	(FMAID "67814")
+	(Preferred+name [fm-live_12248])
+	(Synonym [fm-live_12250]))
+
+([Histamine] of  Biogenic+amine
+
+	(FMAID "61806")
+	(Preferred+name [fm-live_14455]))
+
+([Histamine+receptor] of  Neurotransmitter+receptor
+
+	(FMAID "67262")
+	(Preferred+name [fm-live_14124]))
+
+([Histidine] of  Amino+acid
+
+	(FMAID "82755")
+	(Preferred+name [fm_live_27577]))
+
+([Histiocyte] of  Macrophage
+
+	(FMAID "83585")
+	(Preferred+name [fm_live_23964])
+	(Synonym [fm_live_23965]))
+
+([Histoblast] of  Somatic+cell
+
+	(FMAID "84192")
+	(Preferred+name [fm_live_30441]))
+
+([Histological+internal+os] of  General+anatomical+term+template
+
+	(FMAID "76797")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_2110])
+	(Preferred+name [su_incus_32003]))
+
+([Histological+term] of  Non-physical+anatomical+entity+template
+
+	(FMAID "64805")
+	(Preferred+name [fm-live_02535]))
+
+([Histone] of  Protein
+
+	(constitutional+part+of Chromatin)
+	(dimension 3-dimension)
+	(FMAID "74413")
+	(part+of Nucleosome)
+	(Preferred+name [fm_live_14970])
+	(regional+part+of Chromatin))
+
+([Histone+H1] of  Histone
+
+	(constitutional+part
+		Lysine
+		Arginine)
+	(custom+partonomy+of Chromatin)
+	(FMAID "84118")
+	(part+of Chromatin)
+	(Preferred+name [fm_live_29898]))
+
+([Histone+H2A] of  Nucleosomal+histone
+
+	(FMAID "84129")
+	(Preferred+name [fm_live_30225])
+	(Synonym [fm_live_30226]))
+
+([Histone+H2B] of  Nucleosomal+histone
+
+	(FMAID "84130")
+	(Preferred+name [fm_live_30228])
+	(Synonym [fm_live_30229]))
+
+([Histone+H3] of  Nucleosomal+histone
+
+	(FMAID "84131")
+	(Preferred+name [fm_live_30231])
+	(Synonym [fm_live_30232]))
+
+([Histone+H4] of  Nucleosomal+histone
+
+	(FMAID "84132")
+	(Preferred+name [fm_live_30234])
+	(Synonym [fm_live_30235]))
+
+([Histone+octamer] of  Protein+complex
+
+	(FMAID "84133")
+	(Preferred+name [fm_live_30237]))
+
+([Hollow+conventional+ovoid] of  Dimensional+entity+template
+
+	(FMAID "50619")
+	(Preferred+name [KB_INSTANCE_63890]))
+
+([Hollow+cylinder] of  Dimensional+entity+template
+
+	(FMAID "50606")
+	(Preferred+name [KB_INSTANCE_63876])
+	(Synonym [KB_INSTANCE_63877]))
+
+([Hollow+irregular+ovoid] of  Dimensional+entity+template
+
+	(FMAID "50621")
+	(Preferred+name [KB_INSTANCE_63892]))
+
+([Hollow+tree] of  Dimensional+entity+template
+
+	(FMAID "65161")
+	(Preferred+name [fm-live_03762]))
+
+([Hollow+tree+organ] of  Organ+with+organ+cavity
+
+	(definition "Organ with organ cavity, which consists of an arborizing set of tubular organ parts, the walls of which are continuous and surround a continuous lumen. Examples: systemic arterial tree (organ), tracheobronchial tree, biliary tree.")
+	(FMAID "55677")
+	(Non-English+equivalent [ONARD_Instance_580505])
+	(Preferred+name [KB_INSTANCE_70961]))
+
+([Hollow+tree+organ+component] of  Organ+component
+
+	(FMAID "82486")
+	(Preferred+name [fm_live_26951]))
+
+([Hollow+viscus] of  General+anatomical+term+template
+
+	(definition "Viscus, some organ parts of which constitute a wall; the viscus wall surrounds the organ (viscus) cavity. Examples: esophagus, heart, stomach, uterus.")
+	(FMAID "7086")
+	(Preferred+name [KB_INSTANCE_03756]))
+
+([Homo-composite] of  Dimensional+entity+template
+
+	(FMAID "50611")
+	(Preferred+name [KB_INSTANCE_63883]))
+
+([Homogeneous+organ] of  Parenchymatous+organ
+
+	(definition "Parenchymatous organ the stroma of which does not subdivide the parenchyma into distinct morphological organ parts. Examples: parathyroid gland, coccygeal body, right carotid body.")
+	(FMAID "55664")
+	(Non-English+equivalent
+		[KB_AUTO-INSERT%283%29_4657]
+		[ONARD_Instance_260000])
+	(Preferred+name [KB_INSTANCE_70944]))
+
+([homonym+for] of  Standard+FMA+slot
+
+	(FMAID "85974"))
+
+([Hook+of+hamate] of  Zone+of+bone+organ
+
+	(FMAID "39978")
+	(Non-English+equivalent [su_incus_37880])
+	(part+of Hamate)
+	(Preferred+name [KB_INSTANCE_51588])
+	(regional+part+of Hamate)
+	(Synonym
+		[KB_INSTANCE_51589]
+		[KB_AUTO-INSERT2_7207]))
+
+([Hook+of+left+hamate] of  Hook+of+hamate
+
+	(FMAID "39990")
+	(Preferred+name [KB_INSTANCE_51605])
+	(Synonym [KB_AUTO-INSERT2_7536]))
+
+([Hook+of+right+hamate] of  Hook+of+hamate
+
+	(FMAID "39989")
+	(Preferred+name [KB_INSTANCE_51604])
+	(Synonym [KB_AUTO-INSERT2_7535]))
+
+([Horizontal] of  Spatial+association+relationship+template
+
+	(FMAID "74527")
+	(Preferred+name [su_incus_22484]))
+
+([Horizontal+anatomical+plane] of  Anatomical+plane
+
+	(FMAID "52810")
+	(Preferred+name [fm_live_12893]))
+
+([Horizontal+cell+of+cerebral+cortex] of  Stellate+cell+of+cerebral+cortex
+
+	(FMAID "84465")
+	(Preferred+name [fm_live_31262]))
+
+([Horizontal+cell+of+retina] of  Neuron+of+retina
+
+	(FMAID "67764")
+	(part+of Retina)
+	(Preferred+name [fm-live_14930])
+	(regional+part+of Retina))
+
+([Horizontal+collagen+fiber+of+periodontium] of  Collagen+fiber+of+periodontium
+
+	(FMAID "62989")
+	(Preferred+name [FM_live_01309]))
+
+([Horizontal+fissural+margin+of+costal+surface+of+right+upper+lobe] of  Fissural+margin+of+costal+surface+of+right+upper+lobe
+
+	(FMAID "30992")
+	(Preferred+name [KB_INSTANCE_38568]))
+
+([Horizontal+fissural+margin+of+mediastinal+surface+of+middle+lobe+of+lung] of  Fissural+margin+of+mediastinal+surface+of+middle+lobe+of+lung
+
+	(FMAID "30897")
+	(Preferred+name [KB_INSTANCE_38467])
+	(Synonym [KB_INSTANCE_38468]))
+
+([Horizontal+fissural+surface+of+right+upper+lobe] of  Subdivision+of+surface+of+upper+lobe+of+right+lung
+
+	(2D+part+of Interlobar+surface+of+upper+lobe+of+right+lung)
+	(FMAID "28609")
+	(Preferred+name [KB_INSTANCE_35984])
+	(Synonym [KB_INSTANCE_35985]))
+
+([Horizontal+fissure] of  Pulmonary+fissure
+
+	(bounds Surface+of+middle+lobe+of+lung)
+	(FMAID "14697")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_3576])
+	(Preferred+name [fm_live_07784])
+	(Synonym [KB_INSTANCE_16377]))
+
+([Horizontal+fissure+of+cerebellum] of  Subarachnoid+fissure
+
+	(FMAID "75135")
+	(Non-English+equivalent
+		[su_incus_27846]
+		[su_incus_27847]
+		[su_incus_40091]
+		[su_incus_40092])
+	(Preferred+name [live_incus_fm_08619])
+	(Synonym
+		[su_incus_25326]
+		[su_incus_27848]))
+
+([Horizontal+fissure+of+costal+surface+of+right+lung] of  Horizontal+fissure
+
+	(2D+part+of Costal+surface+of+right+lung)
+	(FMAID "31026")
+	(Preferred+name [KB_INSTANCE_38618]))
+
+([Horizontal+fissure+of+mediastinal+surface+of+right+lung] of  Horizontal+fissure
+
+	(FMAID "31025")
+	(Preferred+name [KB_INSTANCE_38617]))
+
+([Horizontal+fissure+of+right+lung] of  Anatomical+line+of+lung
+
+	(FMAID "75123")
+	(Non-English+equivalent
+		[su_incus_40504]
+		[KB_AUTO-INSERT%283%29_2019])
+	(Preferred+name [su_incus_25314]))
+
+([Horizontal+fissure+of+right+lung%28space%29] of  Anatomical+cavity
+
+	(FMAID "7441")
+	(Preferred+name [KB_INSTANCE_04583])
+	(Synonym
+		[KB_INSTANCE_04584]
+		[KB_INSTANCE_04585]))
+
+([Horizontal+limb+of+diagonal+band] of  Subdivision+of+diagonal+band
+
+	(FMAID "77611")
+	(Non-English+equivalent [su_incus_36117])
+	(Preferred+name [live_incus_fm_12900]))
+
+([Horizontal+part+of+duodenum] of  Segment+of+duodenum
+
+	(constitutional+part
+		Wall+of+horizontal+part+of+duodenum
+		Lumen+of+horizontal+part+of+duodenum)
+	(FMAID "14929")
+	(Non-English+equivalent
+		[su_incus_38124]
+		[su_incus_38125])
+	(part
+		Wall+of+horizontal+part+of+duodenum
+		Lumen+of+horizontal+part+of+duodenum
+		External+surface+of+horizontal+part+of+duodenum
+		Internal+surface+of+anterior+wall+of+horizontal+part+of+duodenum)
+	(part+of Duodenum)
+	(Preferred+name [KB_INSTANCE_16799])
+	(regional+part+of Duodenum)
+	(Synonym
+		[KB_INSTANCE_16800]
+		[KB_INSTANCE_16801]
+		[KB_INSTANCE_16802]
+		[su_incus_24653]
+		[su_incus_24654]))
+
+([Horizontal+part+of+inferior+lacrimal+canaliculus] of  Segment+of+inferior+lacrimal+canaliculus
+
+	(FMAID "59620")
+	(part
+		Wall+of+horizontal+part+of+inferior+lacrimal+canaliculus
+		Lumen+of+horizontal+part+of+inferior+lacrimal+canaliculus)
+	(part+of Inferior+lacrimal+canaliculus)
+	(Preferred+name [KB_INSTANCE_78715])
+	(regional+part
+		Wall+of+horizontal+part+of+inferior+lacrimal+canaliculus
+		Lumen+of+horizontal+part+of+inferior+lacrimal+canaliculus)
+	(regional+part+of Inferior+lacrimal+canaliculus))
+
+([Horizontal+part+of+left+inferior+lacrimal+canaliculus] of  Horizontal+part+of+inferior+lacrimal+canaliculus
+
+	(FMAID "59622")
+	(part
+		Wall+of+horizontal+part+of+left+inferior+lacrimal+canaliculus
+		Lumen+of+horizontal+part+of+left+inferior+lacrimal+canaliculus)
+	(part+of Left+inferior+lacrimal+canaliculus)
+	(Preferred+name [KB_INSTANCE_78717])
+	(regional+part
+		Wall+of+horizontal+part+of+left+inferior+lacrimal+canaliculus
+		Lumen+of+horizontal+part+of+left+inferior+lacrimal+canaliculus)
+	(regional+part+of Left+inferior+lacrimal+canaliculus))
+
+([Horizontal+part+of+left+superior+lacrimal+canaliculus] of  Horizontal+part+of+superior+lacrimal+canaliculus
+
+	(FMAID "59616")
+	(part
+		Wall+of+horizontal+part+of+left+superior+lacrimal+canaliculus
+		Lumen+of+horizontal+part+of+left+superior+lacrimal+canaliculus)
+	(part+of Left+superior+lacrimal+canaliculus)
+	(Preferred+name [KB_INSTANCE_78711])
+	(regional+part
+		Wall+of+horizontal+part+of+left+superior+lacrimal+canaliculus
+		Lumen+of+horizontal+part+of+left+superior+lacrimal+canaliculus)
+	(regional+part+of Left+superior+lacrimal+canaliculus))
+
+([Horizontal+part+of+right+inferior+lacrimal+canaliculus] of  Horizontal+part+of+inferior+lacrimal+canaliculus
+
+	(FMAID "59621")
+	(part
+		Wall+of+horizontal+part+of+right+inferior+lacrimal+canaliculus
+		Lumen+of+horizontal+part+of+right+inferior+lacrimal+canaliculus)
+	(part+of Right+inferior+lacrimal+canaliculus)
+	(Preferred+name [KB_INSTANCE_78716])
+	(regional+part
+		Wall+of+horizontal+part+of+right+inferior+lacrimal+canaliculus
+		Lumen+of+horizontal+part+of+right+inferior+lacrimal+canaliculus)
+	(regional+part+of Right+inferior+lacrimal+canaliculus))
+
+([Horizontal+part+of+right+superior+lacrimal+canaliculus] of  Horizontal+part+of+superior+lacrimal+canaliculus
+
+	(FMAID "59615")
+	(part
+		Wall+of+horizontal+part+of+right+superior+lacrimal+canaliculus
+		Lumen+of+horizontal+part+of+right+superior+lacrimal+canaliculus)
+	(part+of Right+superior+lacrimal+canaliculus)
+	(Preferred+name [KB_INSTANCE_78710])
+	(regional+part
+		Wall+of+horizontal+part+of+right+superior+lacrimal+canaliculus
+		Lumen+of+horizontal+part+of+right+superior+lacrimal+canaliculus)
+	(regional+part+of Right+superior+lacrimal+canaliculus))
+
+([Horizontal+part+of+superior+lacrimal+canaliculus] of  Region+of+superior+lacrimal+canaliculus
+
+	(FMAID "59614")
+	(part
+		Wall+of+horizontal+part+of+superior+lacrimal+canaliculus
+		Lumen+of+horizontal+part+of+superior+lacrimal+canaliculus)
+	(part+of Superior+lacrimal+canaliculus)
+	(Preferred+name [KB_INSTANCE_78709])
+	(regional+part
+		Wall+of+horizontal+part+of+superior+lacrimal+canaliculus
+		Lumen+of+horizontal+part+of+superior+lacrimal+canaliculus)
+	(regional+part+of Superior+lacrimal+canaliculus))
+
+([Horizontal+plate+of+left+palatine+bone] of  Horizontal+plate+of+palatine+bone
+
+	(FMAID "59140")
+	(part
+		Horizontal+plate+proper+of+left+palatine+bone
+		Nasal+crest+of+horizontal+plate+of+left+palatine+bone
+		Left+side+of+posterior+nasal+spine)
+	(part+of
+		Left+palatine+bone
+		Bony+part+of+hard+palate)
+	(Preferred+name [KB_INSTANCE_78092])
+	(regional+part
+		Horizontal+plate+proper+of+left+palatine+bone
+		Nasal+crest+of+horizontal+plate+of+left+palatine+bone
+		Left+side+of+posterior+nasal+spine)
+	(regional+part+of
+		Left+palatine+bone
+		Bony+part+of+hard+palate))
+
+([Horizontal+plate+of+palatine+bone] of  Zone+of+palatine+bone
+
+	(FMAID "52901")
+	(Non-English+equivalent [su_incus_37977])
+	(Preferred+name [KB_INSTANCE_66758])
+	(Synonym [KB_INSTANCE_66759]))
+
+([Horizontal+plate+of+right+palatine+bone] of  Horizontal+plate+of+palatine+bone
+
+	(FMAID "59139")
+	(part
+		Horizontal+plate+proper+of+right+palatine+bone
+		Nasal+crest+of+horizontal+plate+of+right+palatine+bone
+		Right+side+of+posterior+nasal+spine)
+	(part+of
+		Right+palatine+bone
+		Bony+part+of+hard+palate)
+	(Preferred+name [KB_INSTANCE_78091])
+	(regional+part
+		Horizontal+plate+proper+of+right+palatine+bone
+		Nasal+crest+of+horizontal+plate+of+right+palatine+bone
+		Right+side+of+posterior+nasal+spine)
+	(regional+part+of
+		Right+palatine+bone
+		Bony+part+of+hard+palate))
+
+([Horizontal+plate+proper+of+left+palatine+bone] of  Horizontal+plate+proper+of+palatine+bone
+
+	(FMAID "59206")
+	(part+of Horizontal+plate+of+left+palatine+bone)
+	(Preferred+name [KB_INSTANCE_78174])
+	(regional+part+of Horizontal+plate+of+left+palatine+bone))
+
+([Horizontal+plate+proper+of+palatine+bone] of  Zone+of+palatine+bone
+
+	(FMAID "59204")
+	(Preferred+name [KB_INSTANCE_78172]))
+
+([Horizontal+plate+proper+of+right+palatine+bone] of  Horizontal+plate+proper+of+palatine+bone
+
+	(FMAID "59205")
+	(part+of Horizontal+plate+of+right+palatine+bone)
+	(Preferred+name [KB_INSTANCE_78173])
+	(regional+part+of Horizontal+plate+of+right+palatine+bone))
+
+([Hormone] of  Biological+macromolecule
+
+	(FMAID "12278")
+	(Non-English+equivalent [ONARD_Instance_580881])
+	(Preferred+name [KB_INSTANCE_12385]))
+
+([Horn+of+neuraxis] of  Gray+matter+component+of+neuraxis
+
+	(FMAID "83681")
+	(Preferred+name [live_incus_fm_13502])
+	(Synonym [KB_AUTO-INSERT2_4654]))
+
+([Horn+of+thyroid+cartilage] of  Segment+of+thyroid+cartilage
+
+	(FMAID "55300")
+	(part+of Thyroid+cartilage)
+	(Preferred+name [KB_INSTANCE_70431])
+	(Synonym
+		[KB_INSTANCE_70432]
+		[KB_AUTO-INSERT2_6977]))
+
+([Horny+layer+of+epidermis] of  Layer+of+epidermis+proper
+
+	(dimension 3-dimension)
+	(FMAID "67545")
+	(part Corneocyte)
+	(part+of Epidermis+proper)
+	(Preferred+name [FM_live_03151])
+	(regional+part Corneocyte)
+	(regional+part+of Epidermis+proper)
+	(Synonym [fm-live_11188]))
+
+([Human+body+part_of+relationship+value] of  Non-physical+anatomical+entity+template
+
+	(FMAID "67502")
+	(Preferred+name [fm-live_11158]))
+
+([Human+leukocyte+antigen+complex] of  Region+of+chromosome
+
+	(FMAID "84795")
+	(Preferred+name [fm_live_32755])
+	(Synonym [fm_live_32756]))
+
+([Humeral+head+branch+of+anterior+circumflex+humeral+artery] of  Systemic+artery
+
+	(branch+of Anterior+circumflex+humeral+artery)
+	(FMAID "23212")
+	(Preferred+name [KB_INSTANCE_28958])
+	(regional+part+of Anterior+circumflex+humeral+artery)
+	(Synonym [KB_INSTANCE_28959]))
+
+([Humeral+head+branch+of+left+anterior+circumflex+humeral+artery] of  Systemic+artery
+
+	(branch+of Left+anterior+circumflex+humeral+artery)
+	(FMAID "23216")
+	(Preferred+name [KB_INSTANCE_28963])
+	(regional+part+of Left+anterior+circumflex+humeral+artery))
+
+([Humeral+head+branch+of+right+anterior+circumflex+humeral+artery] of  Systemic+artery
+
+	(branch+of Right+anterior+circumflex+humeral+artery)
+	(FMAID "23215")
+	(Preferred+name [KB_INSTANCE_28962])
+	(regional+part+of Right+anterior+circumflex+humeral+artery))
+
+([Humeral+head+of+extensor+carpi+ulnaris] of  Head+of+organ
+
+	(FMAID "77260")
+	(Non-English+equivalent [su_incus_37618])
+	(Preferred+name [su_incus_33234]))
+
+([Humeral+head+of+flexor+carpi+radialis] of  Head+of+flexor+carpi+radialis
+
+	(FMAID "63216")
+	(Preferred+name [fm_live_02035]))
+
+([Humeral+head+of+flexor+carpi+ulnaris] of  Head+of+organ
+
+	(FMAID "38615")
+	(Non-English+equivalent [su_incus_37587])
+	(Preferred+name [KB_INSTANCE_50088])
+	(Synonym [KB_INSTANCE_50089]))
+
+([Humeral+head+of+left+flexor+carpi+ulnaris] of  Humeral+head+of+flexor+carpi+ulnaris
+
+	(FMAID "38618")
+	(Preferred+name [KB_INSTANCE_50093]))
+
+([Humeral+head+of+left+pronator+teres] of  Humeral+head+of+pronator+teres
+
+	(FMAID "38561")
+	(Preferred+name [KB_INSTANCE_50004]))
+
+([Humeral+head+of+pronator+teres] of  Head+of+organ
+
+	(FMAID "38558")
+	(Non-English+equivalent [su_incus_37585])
+	(Preferred+name [KB_INSTANCE_49999])
+	(Synonym [KB_INSTANCE_50000]))
+
+([Humeral+head+of+right+flexor+carpi+ulnaris] of  Humeral+head+of+flexor+carpi+ulnaris
+
+	(FMAID "38617")
+	(Preferred+name [KB_INSTANCE_50092]))
+
+([Humeral+head+of+right+pronator+teres] of  Humeral+head+of+pronator+teres
+
+	(FMAID "38560")
+	(Preferred+name [KB_INSTANCE_50003]))
+
+([Humero-ulnar+head+of+flexor+digitorum+superficialis] of  Head+of+organ
+
+	(FMAID "38636")
+	(Non-English+equivalent [su_incus_37589])
+	(Preferred+name [KB_INSTANCE_50109])
+	(Synonym [KB_INSTANCE_50110]))
+
+([Humeroradial+joint] of  Synovial+joint
+
+	(FMAID "38855")
+	(Non-English+equivalent
+		[KB_INSTANCE_50274]
+		[KB_AUTO-INSERT%283%29_574])
+	(part
+		Humeroradial+part+of+articular+capsule+of+elbow+joint
+		Articular+cartilage+of+capitulum+of+humerus
+		Synovial+cavity+of+elbow+joint
+		Synovial+fluid+of+elbow+joint
+		Quadrate+ligament+of+radius)
+	(part+of Elbow+joint)
+	(Preferred+name [KB_INSTANCE_50273])
+	(regional+part
+		Humeroradial+part+of+articular+capsule+of+elbow+joint
+		Articular+cartilage+of+capitulum+of+humerus
+		Synovial+cavity+of+elbow+joint
+		Synovial+fluid+of+elbow+joint
+		Quadrate+ligament+of+radius)
+	(regional+part+of Elbow+joint))
+
+([Humeroradial+part+of+articular+capsule+of+elbow+joint] of  Layer+of+articular+capsule+of+elbow+joint
+
+	(FMAID "38918")
+	(part
+		Fibrous+membrane+of+humeroradial+part+of+articular+capsule+of+elbow+joint
+		Synovial+membrane+of+humeroradial+part+of+articular+capsule+of+elbow+joint)
+	(part+of
+		Articular+capsule+of+elbow+joint
+		Humeroradial+joint)
+	(Preferred+name [KB_INSTANCE_50348])
+	(regional+part
+		Fibrous+membrane+of+humeroradial+part+of+articular+capsule+of+elbow+joint
+		Synovial+membrane+of+humeroradial+part+of+articular+capsule+of+elbow+joint)
+	(regional+part+of
+		Articular+capsule+of+elbow+joint
+		Humeroradial+joint))
+
+([Humeroradial+part+of+articular+capsule+of+left+elbow+joint] of  Humeroradial+part+of+articular+capsule+of+elbow+joint
+
+	(FMAID "38926")
+	(Preferred+name [KB_INSTANCE_50356]))
+
+([Humeroradial+part+of+articular+capsule+of+right+elbow+joint] of  Humeroradial+part+of+articular+capsule+of+elbow+joint
+
+	(FMAID "38925")
+	(Preferred+name [KB_INSTANCE_50355]))
+
+([Humeroulnar+head+of+left+flexor+digitorum+superficialis] of  Humero-ulnar+head+of+flexor+digitorum+superficialis
+
+	(FMAID "38639")
+	(Preferred+name [KB_INSTANCE_50114]))
+
+([Humeroulnar+head+of+right+flexor+digitorum+superficialis] of  Humero-ulnar+head+of+flexor+digitorum+superficialis
+
+	(FMAID "38638")
+	(Preferred+name [KB_INSTANCE_50113]))
+
+([Humeroulnar+joint] of  Synovial+joint
+
+	(FMAID "38854")
+	(Non-English+equivalent
+		[KB_INSTANCE_50272]
+		[KB_AUTO-INSERT%283%29_573])
+	(part
+		Humeroulnar+part+of+articular+capsule+of+elbow+joint
+		Articular+cartilage+of+trochlea+of+humerus
+		Synovial+cavity+of+elbow+joint
+		Synovial+fluid+of+elbow+joint
+		Quadrate+ligament+of+radius)
+	(part+of Elbow+joint)
+	(Preferred+name [KB_INSTANCE_50271])
+	(regional+part
+		Humeroulnar+part+of+articular+capsule+of+elbow+joint
+		Articular+cartilage+of+trochlea+of+humerus
+		Synovial+cavity+of+elbow+joint
+		Synovial+fluid+of+elbow+joint
+		Quadrate+ligament+of+radius)
+	(regional+part+of Elbow+joint)
+	(Synonym [su_incus_26315]))
+
+([Humeroulnar+part+of+articular+capsule+of+elbow+joint] of  Layer+of+articular+capsule+of+elbow+joint
+
+	(constitutional+part
+		Fibrous+membrane+of+humeroulnar+part+of+articular+capsule+of+elbow+joint
+		Synovial+membrane+of+humeroulnar+part+of+articular+capsule+of+elbow+joint)
+	(FMAID "38917")
+	(part
+		Fibrous+membrane+of+humeroulnar+part+of+articular+capsule+of+elbow+joint
+		Synovial+membrane+of+humeroulnar+part+of+articular+capsule+of+elbow+joint)
+	(part+of
+		Articular+capsule+of+elbow+joint
+		Humeroulnar+joint)
+	(Preferred+name [KB_INSTANCE_50347])
+	(regional+part+of
+		Humeroulnar+joint
+		Articular+capsule+of+elbow+joint))
+
+([Humeroulnar+part+of+articular+capsule+of+left+elbow+joint] of  Humeroulnar+part+of+articular+capsule+of+elbow+joint
+
+	(FMAID "38920")
+	(Preferred+name [KB_INSTANCE_50350]))
+
+([Humeroulnar+part+of+articular+capsule+of+right+elbow+joint] of  Humeroulnar+part+of+articular+capsule+of+elbow+joint
+
+	(FMAID "38919")
+	(Preferred+name [KB_INSTANCE_50349]))
+
+([Humerus] of  Long+bone
+
+	(constitutional+part
+		Bony+part+of+humerus
+		Articular+cartilage+of+proximal+epiphysis+of+humerus
+		Articular+cartilage+of+capitulum+of+humerus
+		Articular+cartilage+of+trochlea+of+humerus
+		Vasculature+of+humerus)
+	(constitutional+part+of Arm)
+	(definition "Long bone which is part of the arm.")
+	(FMAID "13303")
+	(Non-English+equivalent
+		[KB_AUTO-INSERT%283%29_601]
+		[ONARD_Instance_580518])
+	(part
+		Periosteum+of+humerus
+		Bone+of+humerus
+		Cartilage+of+humerus
+		Bony+part+of+humerus
+		Proximal+epiphysis+of+humerus
+		Diaphysis+of+humerus
+		Distal+epiphysis+of+humerus)
+	(part+of
+		Skeleton+of+free+upper+limb
+		Arm)
+	(Preferred+name [KB_INSTANCE_14137])
+	(regional+part
+		Proximal+epiphysis+of+humerus
+		Diaphysis+of+humerus
+		Distal+epiphysis+of+humerus)
+	(regional+part+of Skeleton+of+free+upper+limb)
+	(systemic+part+of Skeleton+of+free+upper+limb))
+
+([Hunterian+perforator] of  Vein
+
+	(FMAID "44965")
+	(Preferred+name [KB_INSTANCE_57076])
+	(tributary+of Great+saphenous+vein))
+
+([Huxley%27s+layer+of+inner+root+sheath+of+hair+follicle] of  Layer+of+inner+root+sheath+of+hair+follicle
+
+	(FMAID "70939")
+	(part+of Inner+root+sheath+of+hair+follicle)
+	(Preferred+name [FM_live_03747])
+	(regional+part+of Inner+root+sheath+of+hair+follicle)
+	(Synonym [FM_live_03749]))
+
+([Hyaline+cartilage] of  Cartilage+tissue
+
+	(constitutional+part Type+II+collagen)
+	(definition "Cartilage (tissue) which consists of chondrocytes and collagen, the intercellular matrix  of which is an amorphous gel with a perichondrium.")
+	(FMAID "64783")
+	(Preferred+name [fm-live_02172]))
+
+([Hyaline+cartilage+of+bone] of  Cartilage+tissue
+
+	(FMAID "32808")
+	(Preferred+name [KB_INSTANCE_40546]))
+
+([Hyaline+cartilage+of+calcaneus] of  Organ+part
+
+	(FMAID "51440")
+	(Preferred+name [KB_INSTANCE_64939]))
+
+([Hyaline+cartilage+of+cuboid+bone] of  Cartilage+of+cuboid+bone
+
+	(FMAID "51715")
+	(Preferred+name [KB_INSTANCE_65254]))
+
+([Hyaline+cartilage+of+femur] of  Cartilage+of+femur
+
+	(FMAID "32761")
+	(Preferred+name [KB_INSTANCE_40481]))
+
+([Hyaline+cartilage+of+fibula] of  Cartilage+of+fibula
+
+	(FMAID "34064")
+	(Preferred+name [KB_INSTANCE_43145]))
+
+([Hyaline+cartilage+of+fifth+metacarpal+bone] of  Hyaline+cartilage+of+metacarpal+bone
+
+	(FMAID "36869")
+	(part+of Fifth+metacarpal+bone)
+	(Preferred+name [KB_INSTANCE_47304]))
+
+([Hyaline+cartilage+of+fifth+metatarsal+bone] of  Organ+part
+
+	(FMAID "36169")
+	(Preferred+name [KB_INSTANCE_46257]))
+
+([Hyaline+cartilage+of+first+metacarpal+bone] of  Hyaline+cartilage+of+metacarpal+bone
+
+	(FMAID "36309")
+	(part+of First+metacarpal+bone)
+	(Preferred+name [KB_INSTANCE_46468]))
+
+([Hyaline+cartilage+of+first+metatarsal+bone] of  Cartilage+of+first+metatarsal+bone
+
+	(FMAID "35609")
+	(Preferred+name [KB_INSTANCE_45466]))
+
+([Hyaline+cartilage+of+fourth+metacarpal+bone] of  Hyaline+cartilage+of+metacarpal+bone
+
+	(FMAID "36729")
+	(part+of Fourth+metacarpal+bone)
+	(Preferred+name [KB_INSTANCE_47095]))
+
+([Hyaline+cartilage+of+fourth+metatarsal+bone] of  Cartilage+of+fourth+metatarsal+bone
+
+	(FMAID "36029")
+	(Preferred+name [KB_INSTANCE_46064]))
+
+([Hyaline+cartilage+of+humerus] of  Cartilage+of+humerus
+
+	(FMAID "33261")
+	(Preferred+name [KB_INSTANCE_41451]))
+
+([Hyaline+cartilage+of+incus] of  Cartilage+of+bone
+
+	(FMAID "63983")
+	(Preferred+name [fm-live_01281]))
+
+([Hyaline+cartilage+of+intermediate+cuneiform+bone] of  Cartilage+of+intermediate+cuneiform+bone
+
+	(FMAID "51780")
+	(Preferred+name [KB_INSTANCE_65321]))
+
+([Hyaline+cartilage+of+lateral+cuneiform+bone] of  Cartilage+of+lateral+cuneiform+bone
+
+	(FMAID "51782")
+	(Preferred+name [KB_INSTANCE_65323]))
+
+([Hyaline+cartilage+of+left+calcaneus] of  Organ+part
+
+	(FMAID "51445")
+	(Preferred+name [KB_INSTANCE_64947]))
+
+([Hyaline+cartilage+of+left+femur] of  Hyaline+cartilage+of+femur
+
+	(FMAID "32763")
+	(Preferred+name [KB_INSTANCE_40483]))
+
+([Hyaline+cartilage+of+left+fibula] of  Hyaline+cartilage+of+fibula
+
+	(FMAID "34084")
+	(Preferred+name [KB_INSTANCE_43177]))
+
+([Hyaline+cartilage+of+left+fifth+metacarpal+bone] of  Hyaline+cartilage+of+fifth+metacarpal+bone
+
+	(FMAID "36889")
+	(Preferred+name [KB_INSTANCE_47333]))
+
+([Hyaline+cartilage+of+left+fifth+metatarsal+bone] of  Organ+part
+
+	(FMAID "36189")
+	(Preferred+name [KB_INSTANCE_46287]))
+
+([Hyaline+cartilage+of+left+first+metacarpal+bone] of  Hyaline+cartilage+of+first+metacarpal+bone
+
+	(FMAID "36329")
+	(Preferred+name [KB_INSTANCE_46497]))
+
+([Hyaline+cartilage+of+left+first+metatarsal+bone] of  Hyaline+cartilage+of+first+metatarsal+bone
+
+	(FMAID "35629")
+	(Preferred+name [KB_INSTANCE_45500]))
+
+([Hyaline+cartilage+of+left+fourth+metacarpal+bone] of  Hyaline+cartilage+of+fourth+metacarpal+bone
+
+	(FMAID "36749")
+	(Preferred+name [KB_INSTANCE_47124]))
+
+([Hyaline+cartilage+of+left+fourth+metatarsal+bone] of  Hyaline+cartilage+of+fourth+metatarsal+bone
+
+	(FMAID "36049")
+	(Preferred+name [KB_INSTANCE_46084]))
+
+([Hyaline+cartilage+of+left+humerus] of  Hyaline+cartilage+of+humerus
+
+	(FMAID "33272")
+	(Preferred+name [KB_INSTANCE_41462]))
+
+([Hyaline+cartilage+of+left+incus] of  Hyaline+cartilage+of+incus
+
+	(FMAID "63989")
+	(Preferred+name [fm-live_01293]))
+
+([Hyaline+cartilage+of+left+intermediate+cuneiform+bone] of  Hyaline+cartilage+of+intermediate+cuneiform+bone
+
+	(FMAID "51789")
+	(Preferred+name [KB_INSTANCE_65330]))
+
+([Hyaline+cartilage+of+left+lateral+cuneiform+bone] of  Hyaline+cartilage+of+lateral+cuneiform+bone
+
+	(FMAID "51793")
+	(Preferred+name [KB_INSTANCE_65334]))
+
+([Hyaline+cartilage+of+left+malleus] of  Hyaline+cartilage+of+malleus
+
+	(FMAID "64000")
+	(Preferred+name [fm-live_01315]))
+
+([Hyaline+cartilage+of+left+medial+cuneiform+bone] of  Hyaline+cartilage+of+medial+cuneiform+bone
+
+	(FMAID "51785")
+	(Preferred+name [KB_INSTANCE_65326]))
+
+([Hyaline+cartilage+of+left+metatarsal+bone] of  Hyaline+cartilage+of+metatarsal+bone
+
+	(FMAID "34644")
+	(Preferred+name [KB_INSTANCE_44073]))
+
+([Hyaline+cartilage+of+left+radius] of  Hyaline+cartilage+of+radius
+
+	(FMAID "34364")
+	(Preferred+name [KB_INSTANCE_43625]))
+
+([Hyaline+cartilage+of+left+scapula] of  Hyaline+cartilage+of+scapula
+
+	(FMAID "30717")
+	(Preferred+name [KB_INSTANCE_38268]))
+
+([Hyaline+cartilage+of+left+second+metacarpal+bone] of  Hyaline+cartilage+of+second+metacarpal+bone
+
+	(FMAID "36469")
+	(Preferred+name [KB_INSTANCE_46706]))
+
+([Hyaline+cartilage+of+left+second+metatarsal+bone] of  Hyaline+cartilage+of+second+metatarsal+bone
+
+	(FMAID "35769")
+	(Preferred+name [KB_INSTANCE_45703]))
+
+([Hyaline+cartilage+of+left+stapes] of  Hyaline+cartilage+of+stapes
+
+	(FMAID "64009")
+	(Preferred+name [fm-live_01333]))
+
+([Hyaline+cartilage+of+left+third+metacarpal+bone] of  Hyaline+cartilage+of+third+metacarpal+bone
+
+	(FMAID "36609")
+	(Preferred+name [KB_INSTANCE_46915]))
+
+([Hyaline+cartilage+of+left+third+metatarsal+bone] of  Hyaline+cartilage+of+third+metatarsal+bone
+
+	(FMAID "35909")
+	(Preferred+name [KB_INSTANCE_45898]))
+
+([Hyaline+cartilage+of+left+tibia] of  Hyaline+cartilage+of+tibia
+
+	(FMAID "33944")
+	(Preferred+name [KB_INSTANCE_42953]))
+
+([Hyaline+cartilage+of+left+ulna] of  Hyaline+cartilage+of+ulna
+
+	(FMAID "34224")
+	(Preferred+name [KB_INSTANCE_43401]))
+
+([Hyaline+cartilage+of+malleus] of  Cartilage+of+bone
+
+	(FMAID "63996")
+	(Preferred+name [fm-live_01307]))
+
+([Hyaline+cartilage+of+manubrium] of  Cartilage+of+manubrium
+
+	(FMAID "64127")
+	(Preferred+name [fm-live_01855]))
+
+([Hyaline+cartilage+of+medial+cuneiform+bone] of  Cartilage+of+medial+cuneiform+bone
+
+	(FMAID "51777")
+	(Preferred+name [KB_INSTANCE_65317]))
+
+([Hyaline+cartilage+of+metacarpal+bone] of  Cartilage+of+metacarpal+bone
+
+	(FMAID "34484")
+	(Preferred+name [KB_INSTANCE_43817]))
+
+([Hyaline+cartilage+of+metatarsal+bone] of  Cartilage+of+metatarsal+bone
+
+	(FMAID "34624")
+	(Preferred+name [KB_INSTANCE_44041]))
+
+([Hyaline+cartilage+of+navicular+bone+of+foot] of  Cartilage+of+navicular+bone+of+foot
+
+	(FMAID "51696")
+	(Preferred+name [KB_INSTANCE_65235]))
+
+([Hyaline+cartilage+of+phalanx+of+foot] of  Cartilage+of+phalanx+of+foot
+
+	(FMAID "64085")
+	(Preferred+name [fm-live_01572]))
+
+([Hyaline+cartilage+of+phalanx+of+hand] of  Cartilage+of+phalanx+of+hand
+
+	(FMAID "42477")
+	(Preferred+name [KB_INSTANCE_54058]))
+
+([Hyaline+cartilage+of+phalanx+of+index+finger] of  Hyaline+cartilage+of+phalanx+of+hand
+
+	(FMAID "42497")
+	(Preferred+name [KB_INSTANCE_54076]))
+
+([Hyaline+cartilage+of+phalanx+of+left+index+finger] of  Hyaline+cartilage+of+phalanx+of+index+finger
+
+	(FMAID "42500")
+	(Preferred+name [KB_INSTANCE_54079]))
+
+([Hyaline+cartilage+of+phalanx+of+left+thumb] of  Hyaline+cartilage+of+phalanx+of+thumb
+
+	(FMAID "40465")
+	(Preferred+name [KB_INSTANCE_52030]))
+
+([Hyaline+cartilage+of+phalanx+of+right+index+finger] of  Hyaline+cartilage+of+phalanx+of+index+finger
+
+	(FMAID "42499")
+	(Preferred+name [KB_INSTANCE_54078]))
+
+([Hyaline+cartilage+of+phalanx+of+right+thumb] of  Hyaline+cartilage+of+phalanx+of+thumb
+
+	(FMAID "40464")
+	(Preferred+name [KB_INSTANCE_52029]))
+
+([Hyaline+cartilage+of+phalanx+of+thumb] of  Hyaline+cartilage+of+phalanx+of+hand
+
+	(FMAID "40463")
+	(Preferred+name [KB_INSTANCE_52028]))
+
+([Hyaline+cartilage+of+radius] of  Cartilage+of+radius
+
+	(FMAID "34344")
+	(Preferred+name [KB_INSTANCE_43593]))
+
+([Hyaline+cartilage+of+right+calcaneus] of  Organ+part
+
+	(FMAID "51444")
+	(Preferred+name [KB_INSTANCE_64946]))
+
+([Hyaline+cartilage+of+right+femur] of  Hyaline+cartilage+of+femur
+
+	(FMAID "32762")
+	(Preferred+name [KB_INSTANCE_40482]))
+
+([Hyaline+cartilage+of+right+fibula] of  Hyaline+cartilage+of+fibula
+
+	(FMAID "34083")
+	(Preferred+name [KB_INSTANCE_43176]))
+
+([Hyaline+cartilage+of+right+fifth+metacarpal+bone] of  Hyaline+cartilage+of+fifth+metacarpal+bone
+
+	(FMAID "36888")
+	(Preferred+name [KB_INSTANCE_47332]))
+
+([Hyaline+cartilage+of+right+fifth+metatarsal+bone] of  Organ+part
+
+	(FMAID "36188")
+	(Preferred+name [KB_INSTANCE_46286]))
+
+([Hyaline+cartilage+of+right+first+metacarpal+bone] of  Hyaline+cartilage+of+first+metacarpal+bone
+
+	(FMAID "36328")
+	(Preferred+name [KB_INSTANCE_46496]))
+
+([Hyaline+cartilage+of+right+first+metatarsal+bone] of  Hyaline+cartilage+of+first+metatarsal+bone
+
+	(FMAID "35628")
+	(Preferred+name [KB_INSTANCE_45499]))
+
+([Hyaline+cartilage+of+right+fourth+metacarpal+bone] of  Hyaline+cartilage+of+fourth+metacarpal+bone
+
+	(FMAID "36748")
+	(Preferred+name [KB_INSTANCE_47123]))
+
+([Hyaline+cartilage+of+right+fourth+metatarsal+bone] of  Hyaline+cartilage+of+fourth+metatarsal+bone
+
+	(FMAID "36048")
+	(Preferred+name [KB_INSTANCE_46083]))
+
+([Hyaline+cartilage+of+right+humerus] of  Hyaline+cartilage+of+humerus
+
+	(FMAID "33271")
+	(Preferred+name [KB_INSTANCE_41461]))
+
+([Hyaline+cartilage+of+right+incus] of  Hyaline+cartilage+of+incus
+
+	(FMAID "63988")
+	(Preferred+name [fm-live_01291]))
+
+([Hyaline+cartilage+of+right+intermediate+cuneiform+bone] of  Hyaline+cartilage+of+intermediate+cuneiform+bone
+
+	(FMAID "51788")
+	(Preferred+name [KB_INSTANCE_65329]))
+
+([Hyaline+cartilage+of+right+lateral+cuneiform+bone] of  Hyaline+cartilage+of+lateral+cuneiform+bone
+
+	(FMAID "51792")
+	(Preferred+name [KB_INSTANCE_65333]))
+
+([Hyaline+cartilage+of+right+malleus] of  Hyaline+cartilage+of+malleus
+
+	(FMAID "63999")
+	(Preferred+name [fm-live_01313]))
+
+([Hyaline+cartilage+of+right+medial+cuneiform+bone] of  Hyaline+cartilage+of+medial+cuneiform+bone
+
+	(FMAID "51784")
+	(Preferred+name [KB_INSTANCE_65325]))
+
+([Hyaline+cartilage+of+right+metatarsal+bone] of  Hyaline+cartilage+of+metatarsal+bone
+
+	(FMAID "34643")
+	(Preferred+name [KB_INSTANCE_44072]))
+
+([Hyaline+cartilage+of+right+radius] of  Hyaline+cartilage+of+radius
+
+	(FMAID "34363")
+	(Preferred+name [KB_INSTANCE_43624]))
+
+([Hyaline+cartilage+of+right+scapula] of  Hyaline+cartilage+of+scapula
+
+	(FMAID "30716")
+	(part+of Right+scapula)
+	(Preferred+name [KB_INSTANCE_38267])
+	(regional+part+of Right+scapula))
+
+([Hyaline+cartilage+of+right+second+metacarpal+bone] of  Hyaline+cartilage+of+second+metacarpal+bone
+
+	(FMAID "36468")
+	(Preferred+name [KB_INSTANCE_46705]))
+
+([Hyaline+cartilage+of+right+second+metatarsal+bone] of  Hyaline+cartilage+of+second+metatarsal+bone
+
+	(FMAID "35768")
+	(Preferred+name [KB_INSTANCE_45702]))
+
+([Hyaline+cartilage+of+right+stapes] of  Hyaline+cartilage+of+stapes
+
+	(FMAID "64008")
+	(Preferred+name [fm-live_01331]))
+
+([Hyaline+cartilage+of+right+third+metacarpal+bone] of  Hyaline+cartilage+of+third+metacarpal+bone
+
+	(FMAID "36608")
+	(Preferred+name [KB_INSTANCE_46914]))
+
+([Hyaline+cartilage+of+right+third+metatarsal+bone] of  Hyaline+cartilage+of+third+metatarsal+bone
+
+	(FMAID "35908")
+	(Preferred+name [KB_INSTANCE_45897]))
+
+([Hyaline+cartilage+of+right+tibia] of  Hyaline+cartilage+of+tibia
+
+	(FMAID "33943")
+	(Preferred+name [KB_INSTANCE_42952]))
+
+([Hyaline+cartilage+of+right+ulna] of  Hyaline+cartilage+of+ulna
+
+	(FMAID "34223")
+	(Preferred+name [KB_INSTANCE_43400]))
+
+([Hyaline+cartilage+of+scapula] of  Hyaline+cartilage+of+bone
+
+	(FMAID "30679")
+	(part+of Scapula)
+	(Preferred+name [KB_INSTANCE_38219])
+	(regional+part+of Scapula))
+
+([Hyaline+cartilage+of+second+metacarpal+bone] of  Hyaline+cartilage+of+metacarpal+bone
+
+	(FMAID "36449")
+	(part+of Second+metacarpal+bone)
+	(Preferred+name [KB_INSTANCE_46677]))
+
+([Hyaline+cartilage+of+second+metatarsal+bone] of  Cartilage+of+second+metatarsal+bone
+
+	(FMAID "35749")
+	(Preferred+name [KB_INSTANCE_45688]))
+
+([Hyaline+cartilage+of+stapes] of  Cartilage+of+bone
+
+	(FMAID "64003")
+	(Preferred+name [fm-live_01321]))
+
+([Hyaline+cartilage+of+talus] of  Cartilage+of+talus
+
+	(FMAID "44096")
+	(Preferred+name [KB_INSTANCE_56038]))
+
+([Hyaline+cartilage+of+third+metacarpal+bone] of  Hyaline+cartilage+of+metacarpal+bone
+
+	(FMAID "36589")
+	(part+of Third+metacarpal+bone)
+	(Preferred+name [KB_INSTANCE_46886]))
+
+([Hyaline+cartilage+of+third+metatarsal+bone] of  Cartilage+of+third+metatarsal+bone
+
+	(FMAID "35889")
+	(Preferred+name [KB_INSTANCE_45866]))
+
+([Hyaline+cartilage+of+tibia] of  Cartilage+of+tibia
+
+	(FMAID "33924")
+	(Preferred+name [KB_INSTANCE_42921]))
+
+([Hyaline+cartilage+of+ulna] of  Cartilage+of+ulna
+
+	(FMAID "34204")
+	(Preferred+name [KB_INSTANCE_43369]))
+
+([Hyalocyte] of  Connective+tissue+cell
+
+	(FMAID "70620")
+	(Preferred+name [fm_live_11019]))
+
+([Hyaloid+artery] of  Fetal+organ+part
+
+	(FMAID "77670")
+	(Non-English+equivalent
+		[su_incus_38423]
+		[KB_AUTO-INSERT%283%29_4302])
+	(Preferred+name [su_incus_33919]))
+
+([Hyaloid+canal] of  Subdivision+of+vitreous+humor
+
+	(definition "Vitreous humor which fills the canal occupied by the hyaloid artery.")
+	(FMAID "58837")
+	(Non-English+equivalent
+		[KB_INSTANCE_77679]
+		[KB_AUTO-INSERT%283%29_4303])
+	(part+of Vitreous+body)
+	(Preferred+name [KB_INSTANCE_77677])
+	(Synonym
+		[KB_INSTANCE_77678]
+		[su_incus_17070]
+		[su_incus_17071]))
+
+([Hyaloid+fossa] of  Region+of+surface+of+eyeball
+
+	(FMAID "58843")
+	(Non-English+equivalent
+		[su_incus_40269]
+		[KB_AUTO-INSERT%283%29_4304])
+	(part+of Vitreous+body)
+	(Preferred+name [KB_INSTANCE_77688])
+	(Synonym [KB_INSTANCE_77689]))
+
+([Hyaluronan] of  Glycosaminoglycan
+
+	(FMAID "63014")
+	(Preferred+name [FM_live_01347])
+	(Synonym [FM_live_01369]))
+
+([Hydrogen+ion+pump+of+membrane+of+endosome] of  Cell+protein+complex
+
+	(FMAID "61927")
+	(Preferred+name [fm-live_10016])
+	(regional+part+of Wall+of+endosome))
+
+([Hydrogen+ion+pump+of+membrane+of+lysosome] of  Cell+protein+complex
+
+	(constitutional+part+of Wall+of+lysosome)
+	(FMAID "67578")
+	(part+of Wall+of+lysosome)
+	(Preferred+name [fm-live_10012]))
+
+([Hydrophilic+end+of+structural+lipid+molecule] of  Biological+macromolecule
+
+	(FMAID "67849")
+	(Preferred+name [KB_INSTANCE_81417])
+	(Synonym [KB_INSTANCE_81418]))
+
+([Hydrophilic+end+of+structural+phospholipid+molecule] of  Lipid
+
+	(FMAID "67280")
+	(part+of Structural+phospholipid+molecule)
+	(Preferred+name [fm-live_09537])
+	(regional+part+of Structural+phospholipid+molecule)
+	(Synonym [fm-live_09540]))
+
+([Hydrophobic+end+of+structural+lipid+molecule] of  Biological+macromolecule
+
+	(FMAID "67160")
+	(Preferred+name [KB_INSTANCE_81419])
+	(Synonym [KB_INSTANCE_81420]))
+
+([Hydrophobic+end+of+structural+phospholipid+molecule] of  Lipid
+
+	(FMAID "67284")
+	(part+of Structural+phospholipid+molecule)
+	(Preferred+name [fm-live_09539])
+	(regional+part+of Structural+phospholipid+molecule)
+	(Synonym [fm-live_09541]))
+
+([Hymen+of+vagina] of  Segment+of+vagina
+
+	(FMAID "20005")
+	(Non-English+equivalent [su_incus_25591])
+	(part+of
+		Vagina
+		Perineal+part+of+vagina)
+	(Preferred+name [KB_INSTANCE_25241])
+	(regional+part+of
+		Perineal+part+of+vagina
+		Vagina)
+	(Synonym
+		[KB_INSTANCE_25242]
+		[KB_AUTO-INSERT2_6971]))
+
+([Hymenal+caruncle] of  Segment+of+vagina
+
+	(FMAID "78586")
+	(Preferred+name [fm_live_20998]))
+
+([Hyo-epiglottic+ligament] of  Extrinsic+ligament+of+larynx
+
+	(FMAID "55227")
+	(Non-English+equivalent
+		[KB_INSTANCE_70327]
+		[KB_AUTO-INSERT%283%29_1964])
+	(Preferred+name [KB_INSTANCE_70325])
+	(Synonym [KB_INSTANCE_70326]))
+
+([Hyoglossal+membrane] of  Region+of+tongue
+
+	(FMAID "54817")
+	(part+of Tongue)
+	(Preferred+name [KB_INSTANCE_69664]))
+
+([Hyoglossus] of  Extrinsic+muscle+of+tongue
+
+	(contained+in Submandibular+triangle)
+	(FMAID "46691")
+	(member+of
+		Set+of+extrinsic+muscles+of+tongue
+		Set+of+muscles+of+tongue)
+	(nerve+supply Nerve+to+hyoglossus)
+	(Non-English+equivalent
+		[KB_INSTANCE_59340]
+		[KB_AUTO-INSERT%283%29_1596])
+	(part+of Tongue)
+	(Preferred+name [KB_INSTANCE_59338])
+	(regional+part
+		Chondroglossus
+		Hyoglossus+proper
+		Ceratoglossus))
+
+([Hyoglossus+proper] of  Zone+of+hyoglossus
+
+	(FMAID "46723")
+	(Preferred+name [KB_INSTANCE_59406])
+	(regional+part+of Hyoglossus)
+	(Synonym [KB_INSTANCE_59407]))
+
+([Hyoid+bone] of  Irregular+bone
+
+	(FMAID "52749")
+	(member+of Skeletal+system+of+head)
+	(Non-English+equivalent
+		[KB_INSTANCE_66506]
+		[KB_AUTO-INSERT%283%29_483]
+		[ONARD_Instance_580537])
+	(part
+		Body+of+hyoid+bone
+		Right+greater+horn
+		Left+greater+horn
+		Right+lesser+horn
+		Left+lesser+horn)
+	(part+of Viscerocranium)
+	(Preferred+name [KB_INSTANCE_66505])
+	(regional+part
+		Body+of+hyoid+bone
+		Right+greater+horn
+		Left+greater+horn
+		Right+lesser+horn
+		Left+lesser+horn)
+	(regional+part+of Viscerocranium)
+	(systemic+part+of
+		Skeleton+of+head
+		Viscerocranium))
+
+([Hyoid+bursa] of  Synovial+bursa
+
+	(dimension 3-dimension)
+	(FMAID "75380")
+	(Preferred+name [FM_live_09182]))
+
+([Hypochondrium] of  Subdivision+of+front+of+abdomen
+
+	(FMAID "20390")
+	(Non-English+equivalent
+		[su_incus_33557]
+		[KB_AUTO-INSERT%283%29_111])
+	(Preferred+name [KB_INSTANCE_25729])
+	(Synonym
+		[KB_INSTANCE_25728]
+		[fm_live_16176]))
+
+([Hypodermis] of  Loose+connective+tissue
+
+	(FMAID "70544")
+	(Preferred+name [FM_live_03167]))
+
+([Hypogastric+branch+of+iliohypogastric+nerve] of  Branch+of+nerve+plexus
+
+	(branch
+		Transversus+abdominis+branch+of+hypogastric+branch+of+iliohypogastric+nerve
+		Internal+oblique+branch+of+hypogastric+branch+of+iliohypogastric+nerve
+		Cutaneous+branch+of+hypogastric+branch+of+iliohypogastric+nerve)
+	(branch+of Iliohypogastric+nerve)
+	(FMAID "20600")
+	(Non-English+equivalent [su_incus_36640])
+	(Preferred+name [KB_INSTANCE_25975])
+	(Synonym [KB_INSTANCE_25976]))
+
+([Hypogastric+branch+of+left+iliohypogastric+nerve] of  Branch+of+nerve+plexus
+
+	(branch
+		Transversus+abdominis+branch+of+hypogastric+branch+of+left+iliohypogastric+nerve
+		Internal+oblique+branch+of+hypogastric+branch+of+left+iliohypogastric+nerve
+		Cutaneous+branch+of+hypogastric+branch+of+left+iliohypogastric+nerve)
+	(branch+of Left+iliohypogastric+nerve)
+	(FMAID "20605")
+	(Preferred+name [KB_INSTANCE_25983]))
+
+([Hypogastric+branch+of+right+iliohypogastric+nerve] of  Branch+of+nerve+plexus
+
+	(branch
+		Transversus+abdominis+branch+of+hypogastric+branch+of+right+iliohypogastric+nerve
+		Internal+oblique+branch+of+hypogastric+branch+of+right+iliohypogastric+nerve
+		Cutaneous+branch+of+hypogastric+branch+of+right+iliohypogastric+nerve)
+	(branch+of Right+iliohypogastric+nerve)
+	(FMAID "20604")
+	(Preferred+name [KB_INSTANCE_25982]))
+
+([Hypogastric+nerve] of  Autonomic+nerve+plexus
+
+	(FMAID "77596")
+	(Non-English+equivalent
+		[su_incus_38524]
+		[KB_AUTO-INSERT%283%29_4207])
+	(Preferred+name [su_incus_33511]))
+
+([Hypogastrium] of  Subdivision+of+front+of+abdomen
+
+	(FMAID "14602")
+	(Non-English+equivalent
+		[su_incus_38309]
+		[KB_AUTO-INSERT%283%29_4616])
+	(Preferred+name [fm_live_16184])
+	(Synonym
+		[KB_INSTANCE_16209]
+		[KB_INSTANCE_16211]
+		[KB_INSTANCE_16208]
+		[fm_live_16185]
+		[fm_live_16186]))
+
+([Hypoglossal+canal] of  Anatomical+conduit
+
+	(FMAID "75370")
+	(Non-English+equivalent [su_incus_40229])
+	(Preferred+name [su_incus_27006]))
+
+([Hypoglossal+nerve] of  Cranial+nerve
+
+	(branch
+		Meningeal+branch+of+hypoglossal+nerve
+		Meningeal+branch+of+hypoglossal+nerve+to+diploe+of+occipital+bone
+		Meningeal+branch+of+hypoglossal+nerve+to+wall+of+occipital+sinus
+		Meningeal+branch+of+hypoglossal+nerve+to+wall+of+inferior+petrosal+sinus
+		Meningeal+branch+of+hypoglossal+nerve+to+floor+of+posterior+cranial+fossa
+		Meningeal+branch+of+hypoglossal+nerve+to+anterior+wall+of+posterior+cranial+fossa
+		Descending+branch+of+hypoglossal+nerve
+		Nerve+to+styloglossus
+		Nerve+to+hyoglossus
+		Nerve+to+genioglossus
+		Nerve+to+palatopharyngeus
+		Nerve+to+geniohyoid
+		Nerve+to+superior+longitudinal+muscle+of+tongue
+		Nerve+to+inferior+longitudinal+muscle+of+tongue
+		Nerve+to+transverse+muscle+of+tongue
+		Nerve+to+vertical+muscle+fo+tongue)
+	(FMAID "50871")
+	(member+of Set+of+cranial+nerves)
+	(Non-English+equivalent
+		[su_incus_21829]
+		[su_incus_21830]
+		[su_incus_21831]
+		[su_incus_35585])
+	(part+of Peripheral+nervous+system)
+	(Preferred+name [KB_INSTANCE_64248])
+	(regional+part+of Peripheral+nervous+system)
+	(Synonym
+		[KB_INSTANCE_64250]
+		[fm-live_03511]
+		[su_incus_24795])
+	(systemic+part+of Set+of+cranial+nerves))
+
+([Hypoglossal+nerve+nucleus] of  Nucleus+of+cranial+nerve
+
+	(FMAID "54505")
+	(Non-English+equivalent
+		[KB_INSTANCE_69186]
+		[KB_AUTO-INSERT%283%29_3348])
+	(Preferred+name [KB_INSTANCE_69184])
+	(Synonym
+		[KB_INSTANCE_69185]
+		[KB_INSTANCE_69187]
+		[KB_INSTANCE_69188]))
+
+([Hypoglossal+nerve+tract] of  Root+of+cranial+nerve
+
+	(FMAID "72632")
+	(Non-English+equivalent [su_incus_21832])
+	(part+of Medulla+oblongata)
+	(Preferred+name [live_incus_fm_09697])
+	(regional+part+of
+		Medulla+oblongata
+		White+matter+structure+of+medulla+oblongata)
+	(Synonym
+		[su_incus_21833]
+		[su_incus_21834]
+		[live_incus_fm_13409]))
+
+([Hypoglossal+trigone] of  Anatomical+cavity
+
+	(FMAID "78489")
+	(Non-English+equivalent
+		[su_incus_23059]
+		[su_incus_23060]
+		[su_incus_23062]
+		[KB_AUTO-INSERT%283%29_3486])
+	(Preferred+name [live_incus_fm_12131])
+	(Synonym
+		[su_incus_23061]
+		[su_incus_28935]))
+
+([Hyponychium] of  Organ+component+layer+of+skin
+
+	(FMAID "77860")
+	(part+of Skin)
+	(Preferred+name [su_incus_34323]))
+
+([Hyponychium+of+big+toe] of  Hyponychium+of+toe
+
+	(FMAID "60550")
+	(part+of Nail+bed+of+big+toe)
+	(Preferred+name [KB_INSTANCE_79923])
+	(regional+part+of Nail+bed+of+big+toe)
+	(Synonym [KB_AUTO-INSERT2_6956]))
+
+([Hyponychium+of+finger] of  Subdivision+of+nail+bed+of+finger
+
+	(FMAID "60139")
+	(Preferred+name [KB_INSTANCE_79371])
+	(Synonym [KB_AUTO-INSERT2_6878]))
+
+([Hyponychium+of+fourth+toe] of  Hyponychium+of+toe
+
+	(FMAID "60553")
+	(part+of Nail+bed+of+fourth+toe)
+	(Preferred+name [KB_INSTANCE_79926])
+	(regional+part+of Nail+bed+of+fourth+toe)
+	(Synonym [KB_AUTO-INSERT2_6959]))
+
+([Hyponychium+of+index+finger] of  Hyponychium+of+finger
+
+	(FMAID "60388")
+	(part+of Nail+bed+of+index+finger)
+	(Preferred+name [KB_INSTANCE_79761])
+	(regional+part+of Nail+bed+of+index+finger)
+	(Synonym [KB_AUTO-INSERT2_6880]))
+
+([Hyponychium+of+left+big+toe] of  Hyponychium+of+big+toe
+
+	(FMAID "60564")
+	(part+of Nail+bed+of+left+big+toe)
+	(Preferred+name [KB_INSTANCE_79937])
+	(regional+part+of Nail+bed+of+left+big+toe)
+	(Synonym [KB_AUTO-INSERT2_6962]))
+
+([Hyponychium+of+left+fourth+toe] of  Hyponychium+of+fourth+toe
+
+	(FMAID "60558")
+	(part+of Nail+bed+of+left+fourth+toe)
+	(Preferred+name [KB_INSTANCE_79931])
+	(regional+part+of Nail+bed+of+left+fourth+toe)
+	(Synonym [KB_AUTO-INSERT2_6968]))
+
+([Hyponychium+of+left+index+finger] of  Hyponychium+of+index+finger
+
+	(FMAID "60399")
+	(Preferred+name [KB_INSTANCE_79772])
+	(Synonym [KB_AUTO-INSERT2_6887]))
+
+([Hyponychium+of+left+little+finger] of  Hyponychium+of+little+finger
+
+	(FMAID "60393")
+	(Preferred+name [KB_INSTANCE_79766])
+	(Synonym [KB_AUTO-INSERT2_6893]))
+
+([Hyponychium+of+left+little+toe] of  Hyponychium+of+little+toe
+
+	(FMAID "60556")
+	(part+of Nail+bed+of+left+little+toe)
+	(Preferred+name [KB_INSTANCE_79929])
+	(regional+part+of Nail+bed+of+left+little+toe)
+	(Synonym [KB_AUTO-INSERT2_6970]))
+
+([Hyponychium+of+left+middle+finger] of  Hyponychium+of+middle+finger
+
+	(FMAID "60397")
+	(Preferred+name [KB_INSTANCE_79770])
+	(Synonym [KB_AUTO-INSERT2_6889]))
+
+([Hyponychium+of+left+ring+finger] of  Hyponychium+of+ring+finger
+
+	(FMAID "60395")
+	(Preferred+name [KB_INSTANCE_79768])
+	(Synonym [KB_AUTO-INSERT2_6891]))
+
+([Hyponychium+of+left+second+toe] of  Hyponychium+of+second+toe
+
+	(FMAID "60562")
+	(part+of Nail+bed+of+left+second+toe)
+	(Preferred+name [KB_INSTANCE_79935])
+	(regional+part+of Nail+bed+of+left+second+toe)
+	(Synonym [KB_AUTO-INSERT2_6964]))
+
+([Hyponychium+of+left+third+toe] of  Hyponychium+of+third+toe
+
+	(FMAID "60560")
+	(part+of Nail+bed+of+left+third+toe)
+	(Preferred+name [KB_INSTANCE_79933])
+	(regional+part+of Nail+bed+of+left+third+toe)
+	(Synonym [KB_AUTO-INSERT2_6966]))
+
+([Hyponychium+of+left+thumb] of  Hyponychium+of+thumb
+
+	(FMAID "60401")
+	(Preferred+name [KB_INSTANCE_79774])
+	(Synonym [KB_AUTO-INSERT2_6885]))
+
+([Hyponychium+of+little+finger] of  Hyponychium+of+finger
+
+	(FMAID "60391")
+	(part+of Nail+bed+of+little+finger)
+	(Preferred+name [KB_INSTANCE_79764])
+	(regional+part+of Nail+bed+of+little+finger)
+	(Synonym [KB_AUTO-INSERT2_6883]))
+
+([Hyponychium+of+little+toe] of  Hyponychium+of+toe
+
+	(FMAID "60554")
+	(part+of Nail+bed+of+little+toe)
+	(Preferred+name [KB_INSTANCE_79927])
+	(regional+part+of Nail+bed+of+little+toe)
+	(Synonym [KB_AUTO-INSERT2_6960]))
+
+([Hyponychium+of+middle+finger] of  Hyponychium+of+finger
+
+	(FMAID "60389")
+	(part+of Nail+bed+of+middle+finger)
+	(Preferred+name [KB_INSTANCE_79762])
+	(regional+part+of Nail+bed+of+middle+finger)
+	(Synonym [KB_AUTO-INSERT2_6881]))
+
+([Hyponychium+of+right+big+toe] of  Hyponychium+of+big+toe
+
+	(FMAID "60563")
+	(part+of Nail+bed+of+right+big+toe)
+	(Preferred+name [KB_INSTANCE_79936])
+	(regional+part+of Nail+bed+of+right+big+toe)
+	(Synonym [KB_AUTO-INSERT2_6961]))
+
+([Hyponychium+of+right+fourth+toe] of  Hyponychium+of+fourth+toe
+
+	(FMAID "60557")
+	(part+of Nail+bed+of+right+fourth+toe)
+	(Preferred+name [KB_INSTANCE_79930])
+	(regional+part+of Nail+bed+of+right+fourth+toe)
+	(Synonym [KB_AUTO-INSERT2_6967]))
+
+([Hyponychium+of+right+index+finger] of  Hyponychium+of+index+finger
+
+	(FMAID "60398")
+	(Preferred+name [KB_INSTANCE_79771])
+	(Synonym [KB_AUTO-INSERT2_6886]))
+
+([Hyponychium+of+right+little+finger] of  Hyponychium+of+little+finger
+
+	(FMAID "60392")
+	(Preferred+name [KB_INSTANCE_79765])
+	(Synonym [KB_AUTO-INSERT2_6892]))
+
+([Hyponychium+of+right+little+toe] of  Hyponychium+of+little+toe
+
+	(FMAID "60555")
+	(part+of Nail+bed+of+right+little+toe)
+	(Preferred+name [KB_INSTANCE_79928])
+	(regional+part+of Nail+bed+of+right+little+toe)
+	(Synonym [KB_AUTO-INSERT2_6969]))
+
+([Hyponychium+of+right+middle+finger] of  Hyponychium+of+middle+finger
+
+	(FMAID "60396")
+	(Preferred+name [KB_INSTANCE_79769])
+	(Synonym [KB_AUTO-INSERT2_6888]))
+
+([Hyponychium+of+right+ring+finger] of  Hyponychium+of+ring+finger
+
+	(FMAID "60394")
+	(Preferred+name [KB_INSTANCE_79767])
+	(Synonym [KB_AUTO-INSERT2_6890]))
+
+([Hyponychium+of+right+second+toe] of  Hyponychium+of+second+toe
+
+	(FMAID "60561")
+	(part+of Nail+bed+of+right+second+toe)
+	(Preferred+name [KB_INSTANCE_79934])
+	(regional+part+of Nail+bed+of+right+second+toe)
+	(Synonym [KB_AUTO-INSERT2_6963]))
+
+([Hyponychium+of+right+third+toe] of  Hyponychium+of+third+toe
+
+	(FMAID "60559")
+	(part+of Nail+bed+of+right+third+toe)
+	(Preferred+name [KB_INSTANCE_79932])
+	(regional+part+of Nail+bed+of+right+third+toe)
+	(Synonym [KB_AUTO-INSERT2_6965]))
+
+([Hyponychium+of+right+thumb] of  Hyponychium+of+thumb
+
+	(FMAID "60400")
+	(Preferred+name [KB_INSTANCE_79773])
+	(Synonym [KB_AUTO-INSERT2_6884]))
+
+([Hyponychium+of+ring+finger] of  Hyponychium+of+finger
+
+	(FMAID "60390")
+	(part+of Nail+bed+of+ring+finger)
+	(Preferred+name [KB_INSTANCE_79763])
+	(regional+part+of Nail+bed+of+ring+finger)
+	(Synonym [KB_AUTO-INSERT2_6882]))
+
+([Hyponychium+of+second+toe] of  Hyponychium+of+toe
+
+	(FMAID "60551")
+	(part+of Nail+bed+of+second+toe)
+	(Preferred+name [KB_INSTANCE_79924])
+	(regional+part+of Nail+bed+of+second+toe)
+	(Synonym [KB_AUTO-INSERT2_6957]))
+
+([Hyponychium+of+third+toe] of  Hyponychium+of+toe
+
+	(FMAID "60552")
+	(part+of Nail+bed+of+third+toe)
+	(Preferred+name [KB_INSTANCE_79925])
+	(regional+part+of Nail+bed+of+third+toe)
+	(Synonym [KB_AUTO-INSERT2_6958]))
+
+([Hyponychium+of+thumb] of  Hyponychium+of+finger
+
+	(FMAID "60387")
+	(part+of Nail+bed+of+thumb)
+	(Preferred+name [KB_INSTANCE_79760])
+	(regional+part+of Nail+bed+of+thumb)
+	(Synonym [KB_AUTO-INSERT2_6879]))
+
+([Hyponychium+of+toe] of  Subdivision+of+nail+bed+of+toe
+
+	(FMAID "60142")
+	(part+of Nail+bed+of+toe)
+	(Preferred+name [KB_INSTANCE_79375])
+	(regional+part+of Nail+bed+of+toe)
+	(Synonym [KB_AUTO-INSERT2_6955]))
+
+([Hypophysial+fossa] of  Subdivision+of+middle+cranial+fossa
+
+	(contains Pituitary+gland)
+	(FMAID "54721")
+	(Non-English+equivalent
+		[KB_INSTANCE_69546]
+		[KB_AUTO-INSERT%283%29_350])
+	(part+of Sella+turcica)
+	(Preferred+name [KB_INSTANCE_69545])
+	(regional+part+of Sella+turcica)
+	(Synonym
+		[KB_INSTANCE_69547]
+		[KB_INSTANCE_69548]))
+
+([Hypothalamic+branch+of+left+posterior+communicating+artery] of  Systemic+artery
+
+	(branch+of Left+posterior+communicating+artery)
+	(FMAID "50429")
+	(Preferred+name [KB_INSTANCE_63648]))
+
+([Hypothalamic+branch+of+posterior+communicating+artery] of  Systemic+artery
+
+	(arterial+supply+of Hypothalamus)
+	(branch+of Posterior+communicating+artery)
+	(FMAID "50427")
+	(Non-English+equivalent [su_incus_37005])
+	(Preferred+name [KB_INSTANCE_63645]))
+
+([Hypothalamic+branch+of+right+posterior+communicating+artery] of  Systemic+artery
+
+	(branch+of Right+posterior+communicating+artery)
+	(FMAID "50428")
+	(Preferred+name [KB_INSTANCE_63647]))
+
+([Hypothalamic+sulcus] of  Anatomical+cavity
+
+	(FMAID "78465")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_3621])
+	(Preferred+name [live_incus_fm_12097]))
+
+([Hypothalamohypophysial+tract] of  Tract+of+diencephalon
+
+	(dimension 3-dimension)
+	(FMAID "77008")
+	(Non-English+equivalent
+		[su_incus_36203]
+		[KB_AUTO-INSERT%283%29_3723])
+	(Preferred+name [live_incus_fm_12458]))
+
+([Hypothalamospinal+tract] of  Tract+of+neuraxis
+
+	(FMAID "77482")
+	(Non-English+equivalent
+		[su_incus_36298]
+		[KB_AUTO-INSERT%283%29_3437])
+	(Preferred+name [live_incus_fm_12806]))
+
+([Hypothalamus] of  Area+of+neuraxis
+
+	(arterial+supply
+		Thalamoperforating+artery
+		Hypothalamic+branch+of+posterior+communicating+artery
+		Branch+of+anterior+choroidal+artery+to+hypothalamus)
+	(bounded+by Surface+of+brain)
+	(FMAID "62008")
+	(part
+		Anterior+hypothalamic+region
+		Intermediate+hypothalamic+region
+		Posterior+hypothalamic+region
+		Lateral+hypothalamic+region)
+	(part+of Diencephalon)
+	(Preferred+name [fm-live_15104])
+	(receives+input+from Nucleus+accumbens)
+	(regional+part
+		Anterior+hypothalamic+region
+		Intermediate+hypothalamic+region
+		Posterior+hypothalamic+region
+		Lateral+hypothalamic+region)
+	(regional+part+of Diencephalon)
+	(sends+output+to
+		Anterior+amygdaloid+area
+		Basal+amygdaloid+nucleus)
+	(Synonym
+		[su_incus_21841]
+		[su_incus_21842]))
+
+([Hypothenar+compartment] of  Subdivision+of+compartment+of+palm+of+hand
+
+	(constitutional+part+of Hypothenar+eminence)
+	(FMAID "58537")
+	(Preferred+name [KB_INSTANCE_77258])
+	(regional+part
+		Palmaris+brevis
+		Abductor+digiti+minimi+of+hand
+		Flexor+digiti+minimi+brevis+of+hand
+		Opponens+digiti+minimi+of+hand))
+
+([Hypothenar+eminence] of  Subdivision+of+palm
+
+	(constitutional+part
+		Skin+of+hypothenar+eminence
+		Superficial+fascia+of+hypothenar+eminence
+		Hypothenar+compartment)
+	(FMAID "61523")
+	(Non-English+equivalent
+		[su_incus_38345]
+		[su_incus_38346]
+		[KB_AUTO-INSERT%283%29_4619])
+	(Preferred+name [KB_INSTANCE_81079])
+	(regional+part+of Palm)
+	(Synonym [KB_INSTANCE_81081]))
+
+([Hypothenar+eminence+of+left+palm] of  Hypothenar+eminence
+
+	(constitutional+part
+		Skin+of+left+hypothenar+eminence
+		Superficial+fascia+of+left+hypothenar+eminence
+		Left+hypothenar+compartment)
+	(FMAID "61525")
+	(Preferred+name [KB_INSTANCE_81083])
+	(regional+part+of Left+palm+proper))
+
+([Hypothenar+eminence+of+right+palm] of  Hypothenar+eminence
+
+	(constitutional+part
+		Skin+of+right+hypothenar+eminence
+		Superficial+fascia+of+right+hypothenar+eminence
+		Right+hypothenar+compartment)
+	(FMAID "61524")
+	(Preferred+name [KB_INSTANCE_81082])
+	(regional+part+of Right+palm+proper))
+
+([Hypothenar+fascia] of  Zone+of+investing+fascia+of+upper+limb
+
+	(FMAID "42434")
+	(part+of Palmar+fascia+of+hand)
+	(Preferred+name [KB_INSTANCE_54006])
+	(regional+part+of Palmar+fascia+of+hand))
+
+([Hypothenar+muscle] of  Intrinsic+muscle+of+hand
+
+	(FMAID "64917")
+	(Preferred+name [fm-live_02601]))
+
+([Hypothenar+septum] of  Zone+of+investing+fascia+of+upper+limb
+
+	(FMAID "58556")
+	(part+of Palmar+fascia+of+hand)
+	(Preferred+name [KB_INSTANCE_77280])
+	(regional+part+of Palmar+fascia+of+hand))
+
+([Hypothenar+space] of  Space+of+compartment+of+hand
+
+	(FMAID "222983")
+	(Preferred+name [ONARD_Instance_140008]))
+
+([Hypotympanic+recess] of  Subdivision+of+tympanic+cavity
+
+	(FMAID "57587")
+	(Preferred+name [KB_INSTANCE_75874]))
+

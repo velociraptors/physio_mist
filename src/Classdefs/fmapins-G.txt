@@ -1,0 +1,5082 @@
+([GABAergic+neuron] of  Neuron
+
+	(FMAID "84788")
+	(Preferred+name [fm_live_32728])
+	(Synonym [fm_live_32729]))
+
+([Galactitol] of  Monosaccharide
+
+	(FMAID "82791")
+	(Preferred+name [fm_live_27655]))
+
+([Galactopyranose+3-sulfate] of  Monosaccharide
+
+	(FMAID "82793")
+	(Preferred+name [fm_live_27659]))
+
+([Galactosamine] of  Monosaccharide
+
+	(FMAID "82792")
+	(Preferred+name [fm_live_27657]))
+
+([Galactose] of  Monosaccharide
+
+	(FMAID "82794")
+	(Preferred+name [fm_live_27661]))
+
+([Galactosylceramide] of  Monoglycosylceramide
+
+	(FMAID "82821")
+	(Preferred+name [fm_live_27716])
+	(Synonym [fm_live_27720]))
+
+([Galacturonic+acid] of  Monosaccharide
+
+	(FMAID "82795")
+	(Preferred+name [fm_live_27663]))
+
+([Gallbladder] of  Organ+with+organ+cavity
+
+	(arterial+supply
+		Superficial+branch+of+cystic+artery
+		Deep+branch+of+cystic+artery
+		Posterior+superior+pancreaticoduodenal+artery)
+	(attributed+continuous+with [FM_live_09975])
+	(attributed+part
+		[FM_live_04340]
+		[FM_live_04341]
+		[FM_live_04342]
+		[FM_live_04343]
+		[FM_live_04344]
+		[FM_live_10367])
+	(bounded+by Surface+of+gallbladder)
+	(constitutional+part
+		Wall+of+gallbladder
+		Lumen+of+gallbladder)
+	(contained+in Abdominal+cavity)
+	(definition "Organ with organ cavity which is continuous proximally with the cystic duct and distally terminates in the fundus of the gallbladder. Examples: There is only one gallbladder.")
+	(develops+from Foregut)
+	(FMAID "7202")
+	(inherent+3-D+shape Hollow+conventional+ovoid)
+	(location
+		[FM_live_09978]
+		[FM_live_09979]
+		[FM_live_09980]
+		[FM_live_09982])
+	(lymphatic+drainage
+		Cystic+lymph+node
+		Hepatic+lymphatic+chain)
+	(member+of Set+of+abdominal+viscera)
+	(nerve+supply
+		Celiac+nerve+plexus
+		Hepatic+nerve+plexus
+		Celiac+ganglion)
+	(Non-English+equivalent
+		[su_incus_35611]
+		[su_incus_35612]
+		[su_incus_35613]
+		[KB_AUTO-INSERT%283%29_1875]
+		[ONARD_Instance_580068]
+		[ONARD_Instance_610063])
+	(orientation
+		[FM_live_09976]
+		[FM_live_09977])
+	(part
+		Wall+of+gallbladder
+		Lumen+of+gallbladder
+		Fundus+of+gallbladder
+		Body+of+gallbladder
+		Neck+of+gallbladder
+		Infundibulum+of+gallbladder)
+	(part+of
+		Abdomen
+		Biliary+system
+		Foregut)
+	(Preferred+name [KB_INSTANCE_04037])
+	(regional+part
+		Fundus+of+gallbladder
+		Body+of+gallbladder
+		Neck+of+gallbladder
+		Infundibulum+of+gallbladder)
+	(surrounded+by Peritoneal+sac)
+	(Synonym [FM_live_10360])
+	(systemic+part+of Gastrointestinal+system)
+	(venous+drainage Cystic+vein))
+
+([Gamma+motor+neuron] of  Motor+neuron
+
+	(FMAID "83660")
+	(Preferred+name [fm_live_29495]))
+
+([Gamma-aminobutyric+acid] of  Amino+acid
+
+	(FMAID "84786")
+	(Preferred+name [fm_live_32724]))
+
+([Gamma-tubulin] of  Tubulin
+
+	(FMAID "84880")
+	(Preferred+name [fm_live_33034]))
+
+([Ganglion] of  Segment+of+neural+tree+organ
+
+	(constitutional+part
+		Capsule+of+ganglion
+		Stroma+of+ganglion)
+	(definition "Subdivision of neural tree (organ) which primarily consists of cell bodies of neurons located outside the neuraxis (brain and spinal cord); together with a nucleus and its associated nerve, it constitutes a neural tree (organ). Examples: spinal ganglion, trigeminal ganglion, superior cervical ganglion, celiac ganglion, inferior hypogastric (pelvic) ganglion.")
+	(FMAID "5884")
+	(Non-English+equivalent [ONARD_Instance_580777])
+	(part
+		Capsule+of+ganglion
+		Stroma+of+ganglion)
+	(part+of Neural+tree+organ)
+	(Preferred+name [KB_INSTANCE_01496])
+	(regional+part+of Neural+tree+organ))
+
+([Ganglion+cell] of  General+anatomical+term+template
+
+	(FMAID "84048")
+	(Preferred+name [fm_live_29730]))
+
+([Ganglion+cell+of+retina] of  Neuron+of+retina
+
+	(FMAID "67765")
+	(part+of Retina)
+	(Preferred+name [fm-live_14932])
+	(regional+part+of Retina)
+	(Synonym [fma_p2_Instance_1010007]))
+
+([Ganglion+of+cranial+nerve] of  Ganglion
+
+	(FMAID "54502")
+	(Preferred+name [KB_INSTANCE_69177])
+	(Synonym
+		[KB_INSTANCE_69178]
+		[KB_AUTO-INSERT2_6670]))
+
+([Ganglion+of+neuraxis] of  Gray+matter+component+of+neuraxis
+
+	(FMAID "83843")
+	(Preferred+name [live_incus_fm_13496])
+	(Synonym [KB_AUTO-INSERT2_4652]))
+
+([Ganglion+of+vagus+nerve] of  Ganglion+of+cranial+nerve
+
+	(FMAID "53472")
+	(Preferred+name [KB_INSTANCE_67664])
+	(Synonym
+		[KB_INSTANCE_67665]
+		[KB_AUTO-INSERT2_6671]))
+
+([Ganglionic+branch+of+left+maxillary+nerve+to+left+pterygopalatine+ganglion] of  Ganglionic+branch+of+maxillary+nerve+to+pterygopalatine+ganglion
+
+	(branch+of Left+maxillary+nerve)
+	(FMAID "52733")
+	(Preferred+name [KB_INSTANCE_66472])
+	(Synonym [KB_INSTANCE_66473]))
+
+([Ganglionic+branch+of+maxillary+nerve+to+pterygopalatine+ganglion] of  Branch+of+maxillary+nerve
+
+	(branch+of Maxillary+nerve)
+	(FMAID "52731")
+	(Non-English+equivalent [KB_INSTANCE_66468])
+	(Preferred+name [KB_INSTANCE_66466])
+	(Synonym
+		[KB_INSTANCE_66467]
+		[KB_INSTANCE_66469]))
+
+([Ganglionic+branch+of+right+maxillary+nerve+to+right+pterygopalatine+ganglion] of  Ganglionic+branch+of+maxillary+nerve+to+pterygopalatine+ganglion
+
+	(branch+of Right+maxillary+nerve)
+	(FMAID "52732")
+	(Preferred+name [KB_INSTANCE_66470])
+	(Synonym [KB_INSTANCE_66471]))
+
+([Ganglionic+layer+of+left+retina] of  Ganglionic+layer+of+retina
+
+	(FMAID "58697")
+	(part+of Neural+layer+of+left+retina)
+	(Preferred+name [KB_INSTANCE_77479])
+	(regional+part+of Neural+layer+of+left+retina))
+
+([Ganglionic+layer+of+retina] of  Layer+of+retina
+
+	(FMAID "58687")
+	(Non-English+equivalent [su_incus_35747])
+	(part+of Neural+layer+of+retina)
+	(Preferred+name [KB_INSTANCE_77456])
+	(regional+part+of Neural+layer+of+retina)
+	(Synonym
+		[KB_INSTANCE_77457]
+		[KB_INSTANCE_77458]
+		[fma_p2_Instance_810003]))
+
+([Ganglionic+layer+of+right+retina] of  Ganglionic+layer+of+retina
+
+	(FMAID "58696")
+	(part+of Neural+layer+of+right+retina)
+	(Preferred+name [KB_INSTANCE_77478])
+	(regional+part+of Neural+layer+of+right+retina))
+
+([Ganglioside] of  Acidic+glycosphingolipid
+
+	(FMAID "82816")
+	(Preferred+name [fm_live_27705]))
+
+([Gap+junction+of+cardiac+myocyte] of  Electrical+synapse
+
+	(dimension 3-dimension)
+	(FMAID "72317")
+	(Preferred+name [fm_live_12656]))
+
+([Gap+junction+of+non-striated+myocyte] of  Electrical+synapse
+
+	(dimension 3-dimension)
+	(FMAID "72318")
+	(Preferred+name [fm_live_12658])
+	(Synonym [fm_live_12659]))
+
+([Gas] of  Standard+FMA+class
+
+	(FMAID "85816"))
+
+([Gas+in+anatomical+space] of  Body+substance
+
+	(FMAID "84580")
+	(Preferred+name [fm_live_31594]))
+
+([Gastric+branch+of+left+gastro-epiploic+artery] of  Systemic+artery
+
+	(arterial+supply+of Stomach)
+	(branch+of Left+gastro-epiploic+artery)
+	(FMAID "14798")
+	(Preferred+name [KB_INSTANCE_16576]))
+
+([Gastric+branch+of+left+vagus+nerve] of  Gastric+branch+of+vagus+nerve
+
+	(FMAID "78584")
+	(nerve+supply+of Stomach)
+	(Preferred+name [FM_live_09928]))
+
+([Gastric+branch+of+right+gastro-epiploic+artery] of  Systemic+artery
+
+	(arterial+supply+of Stomach)
+	(branch+of Right+gastro-epiploic+artery)
+	(dimension 3-dimension)
+	(FMAID "75831")
+	(Preferred+name [fm_live_17464]))
+
+([Gastric+branch+of+right+vagus+nerve] of  Gastric+branch+of+vagus+nerve
+
+	(FMAID "78583")
+	(nerve+supply+of Stomach)
+	(Preferred+name [FM_live_09926]))
+
+([Gastric+branch+of+vagus+nerve] of  Branch+of+vagus+nerve
+
+	(FMAID "78582")
+	(Preferred+name [FM_live_09924]))
+
+([Gastric+canal] of  Region+of+wall+of+stomach
+
+	(FMAID "17093")
+	(Non-English+equivalent
+		[su_incus_38118]
+		[KB_AUTO-INSERT%283%29_1664]
+		[ONARD_Instance_580624])
+	(part+of Lumen+of+body+of+stomach)
+	(Preferred+name [KB_INSTANCE_20478])
+	(Synonym
+		[KB_INSTANCE_20479]
+		[KB_INSTANCE_20480]))
+
+([Gastric+cardiac+gland] of  Organ+part
+
+	(constitutional+part+of Mucosa+of+cardia+of+stomach)
+	(FMAID "14920")
+	(part
+		Epithelium+of+gastric+cardiac+gland
+		Lumen+of+gastric+cardiac+gland)
+	(part+of Mucosa+of+cardia+of+stomach)
+	(Preferred+name [KB_INSTANCE_16776])
+	(regional+part
+		Epithelium+of+gastric+cardiac+gland
+		Lumen+of+gastric+cardiac+gland)
+	(Synonym
+		[KB_INSTANCE_16777]
+		[KB_INSTANCE_16775]
+		[FM_live_02373]))
+
+([Gastric+foveola] of  Anatomical+cavity
+
+	(FMAID "62947")
+	(part+of Cavity+of+stomach)
+	(Preferred+name [FM_live_01256])
+	(Synonym [FM_live_01255]))
+
+([Gastric+gland] of  Organ+part
+
+	(FMAID "14919")
+	(Non-English+equivalent [ONARD_Instance_580582])
+	(part
+		Lumen+of+gastric+gland
+		Isthmus+of+gastric+gland
+		Gastric+gland+proper
+		Base+of+gastric+gland
+		Epithelium+of+gastric+gland)
+	(part+of Mucosa+of+stomach)
+	(Preferred+name [KB_INSTANCE_16774])
+	(regional+part
+		Epithelium+of+gastric+gland
+		Lumen+of+gastric+gland
+		Isthmus+of+gastric+gland
+		Gastric+gland+proper
+		Base+of+gastric+gland))
+
+([Gastric+gland+proper] of  Region+of+gastric+gland
+
+	(FMAID "15670")
+	(part+of Gastric+gland)
+	(Preferred+name [KB_INSTANCE_17961])
+	(regional+part+of Gastric+gland))
+
+([Gastric+impression+of+liver] of  Hepatic+impression
+
+	(2D+part+of Inferior+surface+of+left+lobe+of+liver)
+	(FMAID "14487")
+	(Non-English+equivalent [su_incus_40299])
+	(Preferred+name [KB_INSTANCE_15945])
+	(Synonym
+		[KB_INSTANCE_15946]
+		[su_incus_25551]))
+
+([Gastric+impression+of+spleen] of  Region+of+surface+of+spleen
+
+	(2D+part+of Visceral+surface+of+spleen)
+	(FMAID "15837")
+	(Non-English+equivalent [su_incus_40316])
+	(Preferred+name [KB_INSTANCE_18293])
+	(Synonym
+		[KB_INSTANCE_18294]
+		[KB_INSTANCE_18295]
+		[su_incus_25558]))
+
+([Gastric+juice] of  Secretion
+
+	(contained+in
+		Lumen+of+gastric+cardiac+gland
+		Lumen+of+principal+gland
+		Lumen+of+pyloric+gland
+		Cavity+proper+of+stomach
+		Lumen+of+pyloric+antrum
+		Lumen+of+pyloric+canal
+		Lumen+of+body+of+stomach
+		Lumen+proper+of+body+of+stomach
+		Lumen+of+fundus+of+stomach
+		Cavity+of+stomach)
+	(FMAID "62972")
+	(Non-English+equivalent [ONARD_Instance_580231])
+	(Preferred+name [fm_live_00564]))
+
+([Gastric+lymph+node] of  Lymph+node
+
+	(FMAID "12796")
+	(member+of Set+of+abdominal+lymph+nodes)
+	(Preferred+name [KB_INSTANCE_12975])
+	(Synonym [KB_INSTANCE_12976]))
+
+([Gastric+lymphatic+chain] of  Lymphatic+chain
+
+	(efferent+to Celiac+lymphatic+chain)
+	(FMAID "229527")
+	(Preferred+name [ONARD_Instance_630001])
+	(regional+part
+		Left+gastric+lymphatic+chain
+		Right+gastro-epiploic+lymphatic+chain
+		Pyloric+lymphatic+chain))
+
+([Gastric+part+of+anterior+superior+pancreaticoduodenal+artery] of  Systemic+artery
+
+	(branch+of Anterior+superior+pancreaticoduodenal+artery)
+	(FMAID "70465")
+	(Preferred+name [fm_live_10581])
+	(Synonym [fm_live_17466]))
+
+([Gastrin] of  Biogenic+peptide
+
+	(FMAID "83366")
+	(Preferred+name [fm_live_18114]))
+
+([Gastro-omental+lymph+node] of  Lymph+node
+
+	(FMAID "66182")
+	(member+of Set+of+abdominal+lymph+nodes)
+	(Preferred+name [fm-live_05959])
+	(Synonym [fm-live_05960]))
+
+([Gastrocnemius] of  Superficial+muscle+of+posterior+compartment+of+leg
+
+	(FMAID "22541")
+	(member+of
+		Set+of+extrinsic+muscles+of+foot
+		Set+of+superficial+muscles+of+posterior+compartment+of+leg)
+	(nerve+supply Nerve+to+gastrocnemius)
+	(Non-English+equivalent
+		[su_incus_35468]
+		[KB_AUTO-INSERT%283%29_1359])
+	(part
+		Muscle+fasciculus+of+gastrocnemius
+		Fascia+of+gastrocnemius
+		Aponeurosis+of+gastrocnemius
+		Tendon+of+gastrocnemius
+		Lateral+head+of+gastrocnemius
+		Medial+head+of+gastrocnemius
+		Belly+of+gastrocnemius)
+	(part+of Triceps+surae)
+	(Preferred+name [KB_INSTANCE_28149])
+	(regional+part
+		Muscle+fasciculus+of+gastrocnemius
+		Fascia+of+gastrocnemius
+		Aponeurosis+of+gastrocnemius
+		Tendon+of+gastrocnemius
+		Lateral+head+of+gastrocnemius
+		Medial+head+of+gastrocnemius
+		Belly+of+gastrocnemius)
+	(regional+part+of Triceps+surae)
+	(segmental+supply
+		S1
+		S2)
+	(Synonym [KB_INSTANCE_28151])
+	(systemic+part+of Set+of+superficial+muscles+of+posterior+compartment+of+leg))
+
+([Gastrocolic+ligament] of  Subdivision+of+greater+omentum
+
+	(FMAID "16552")
+	(Non-English+equivalent
+		[su_incus_37788]
+		[KB_AUTO-INSERT%283%29_2269])
+	(part
+		Anterior+lamina+of+gastrocolic+ligament
+		Posterior+lamina+of+gastrocolic+ligament)
+	(part+of Greater+omentum)
+	(Preferred+name [KB_INSTANCE_19537])
+	(regional+part
+		Anterior+lamina+of+gastrocolic+ligament
+		Posterior+lamina+of+gastrocolic+ligament)
+	(regional+part+of Greater+omentum))
+
+([Gastroduodenal+artery] of  Systemic+artery
+
+	(branch
+		Posterior+superior+pancreaticoduodenal+artery
+		Retroduodenal+artery
+		Right+gastro-epiploic+artery
+		Anterior+superior+pancreaticoduodenal+artery
+		Variant+supraduodenal+artery
+		Supraduodenal+artery)
+	(branch+of Common+hepatic+artery)
+	(FMAID "14775")
+	(Non-English+equivalent
+		[KB_INSTANCE_16522]
+		[KB_AUTO-INSERT%283%29_2675])
+	(Preferred+name [KB_INSTANCE_16521]))
+
+([Gastroduodenal+branch+of+hepatic+plexus] of  Branch+of+hepatic+plexus
+
+	(FMAID "71285")
+	(Preferred+name [fm_live_11896]))
+
+([Gastroduodenal+junction] of  Zone+of+continuity
+
+	(FMAID "17046")
+	(part+of Stomach)
+	(Preferred+name [KB_INSTANCE_20414])
+	(regional+part+of Stomach))
+
+([Gastrointestinal+system] of  Anatomical+structure
+
+	(attributed+part
+		[FM_live_04249]
+		[FM_live_04250]
+		[FM_live_04251]
+		[FM_live_04252]
+		[FM_live_04253]
+		[FM_live_04296]
+		[FM_live_04297]
+		[FM_live_04298]
+		[FM_live_04299]
+		[FM_live_04300]
+		[FM_live_04301]
+		[FM_live_04302]
+		[FM_live_04303]
+		[FM_live_04304]
+		[FM_live_04305]
+		[FM_live_04306]
+		[FM_live_04307]
+		[FM_live_04308]
+		[FM_live_04309])
+	(dimension 3-dimension)
+	(FMAID "71132")
+	(Non-English+equivalent [ONARD_Instance_580440])
+	(part
+		Upper+gastrointestinal+tract
+		Lower+gastrointestinal+tract
+		Foregut
+		Midgut
+		Hindgut
+		Oropharynx
+		Stomach
+		Duodenum
+		Jejunum
+		Ileum
+		Appendix
+		Cecum
+		Colon
+		Rectum
+		Anal+canal
+		Biliary+system)
+	(part+of Alimentary+system)
+	(Preferred+name [FM_live_04217])
+	(regional+part
+		Small+intestine
+		Large+intestine
+		Upper+gastrointestinal+tract
+		Lower+gastrointestinal+tract
+		Foregut
+		Midgut
+		Hindgut
+		Oropharynx
+		Esophagus
+		Stomach
+		Duodenum
+		Jejunum
+		Ileum
+		Appendix
+		Cecum
+		Ascending+colon
+		Transverse+colon
+		Descending+colon
+		Sigmoid+colon
+		Rectum
+		Anal+canal)
+	(regional+part+of Alimentary+system)
+	(Synonym [fma_p2_Instance_770000]))
+
+([Gastropancreatic+fold] of  Peritoneal+fold
+
+	(FMAID "16542")
+	(Non-English+equivalent
+		[KB_INSTANCE_19521]
+		[KB_AUTO-INSERT%283%29_2283])
+	(part+of
+		Posterior+part+of+abdominal+peritoneum
+		Posterior+wall+of+lesser+sac
+		Posterior+wall+of+vestibular+part+of+lesser+sac)
+	(Preferred+name [KB_INSTANCE_19520])
+	(regional+part+of
+		Posterior+part+of+abdominal+peritoneum
+		Posterior+wall+of+lesser+sac
+		Posterior+wall+of+vestibular+part+of+lesser+sac))
+
+([Gastrophrenic+ligament] of  Region+of+visceral+peritoneum
+
+	(FMAID "16518")
+	(Non-English+equivalent
+		[su_incus_35794]
+		[KB_AUTO-INSERT%283%29_2266])
+	(part
+		Anterior+lamina+of+gastrophrenic+ligament
+		Posterior+lamina+of+gastrophrenic+ligament)
+	(part+of Splenorenal+ligament)
+	(Preferred+name [KB_INSTANCE_19472])
+	(regional+part
+		Anterior+lamina+of+gastrophrenic+ligament
+		Posterior+lamina+of+gastrophrenic+ligament)
+	(regional+part+of Splenorenal+ligament))
+
+([Gastrosplenic+ligament] of  Subdivision+of+greater+omentum
+
+	(FMAID "16517")
+	(Non-English+equivalent
+		[su_incus_37786]
+		[su_incus_37787]
+		[KB_AUTO-INSERT%283%29_2267])
+	(part
+		Anterior+lamina+of+gastrosplenic+ligament
+		Posterior+lamina+of+gastrosplenic+ligament)
+	(part+of Greater+omentum)
+	(Preferred+name [KB_INSTANCE_19470])
+	(regional+part
+		Anterior+lamina+of+gastrosplenic+ligament
+		Posterior+lamina+of+gastrosplenic+ligament)
+	(regional+part+of Greater+omentum)
+	(Synonym [FM_live_08888]))
+
+([Gelatinous+bone+marrow] of  Bone+marrow
+
+	(dimension 3-dimension)
+	(FMAID "74597")
+	(Preferred+name [FM_live_08677]))
+
+([Gelatinous+layer+of+statoconial+membrane] of  Acellular+anatomical+structure
+
+	(dimension 3-dimension)
+	(FMAID "75588")
+	(part
+		Superficial+gelatinous+layer+of+statoconial+membrane
+		Deep+gelatinous+layer+of+statoconial+membrane)
+	(part+of Statoconial+membrane)
+	(Preferred+name [FM_live_09234])
+	(regional+part
+		Superficial+gelatinous+layer+of+statoconial+membrane
+		Deep+gelatinous+layer+of+statoconial+membrane)
+	(regional+part+of Statoconial+membrane))
+
+([Gelatinous+nucleus+of+solitary+tract] of  Nucleus+of+neuraxis
+
+	(FMAID "77463")
+	(Non-English+equivalent
+		[su_incus_36370]
+		[KB_AUTO-INSERT%283%29_3352])
+	(Preferred+name [live_incus_fm_12775]))
+
+([Gelatinous+subnucleus+of+spinal+nucleus+of+trigeminal+nerve] of  Subdivision+of+spinal+nucleus+of+trigeminal+nerve
+
+	(dimension 3-dimension)
+	(FMAID "83960")
+	(Non-English+equivalent [su_incus_36706])
+	(Preferred+name [live_incus_fm_12571]))
+
+([Gelsolin] of  Actin+severing+protein
+
+	(FMAID "67709")
+	(Preferred+name [fm-live_11089]))
+
+([Gemellus] of  Gluteal+muscle
+
+	(FMAID "22319")
+	(Preferred+name [KB_INSTANCE_27833])
+	(systemic+part+of Musculature+of+pelvic+girdle))
+
+([Gemellus+inferior] of  Gemellus
+
+	(FMAID "22320")
+	(nerve+supply Nerve+to+gemellus+inferior)
+	(Non-English+equivalent
+		[KB_INSTANCE_27837]
+		[KB_AUTO-INSERT%283%29_1333])
+	(Preferred+name [KB_INSTANCE_27834])
+	(segmental+supply
+		L5
+		S1)
+	(Synonym [KB_INSTANCE_27836]))
+
+([Gemellus+inferior+part+of+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Inferior+gluteal+artery)
+	(FMAID "22263")
+	(Preferred+name [KB_INSTANCE_27762]))
+
+([Gemellus+inferior+part+of+left+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Left+inferior+gluteal+artery)
+	(FMAID "22274")
+	(Preferred+name [KB_INSTANCE_27773]))
+
+([Gemellus+inferior+part+of+right+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Right+inferior+gluteal+artery)
+	(FMAID "22273")
+	(Preferred+name [KB_INSTANCE_27772]))
+
+([Gemellus+superior] of  Gemellus
+
+	(FMAID "22318")
+	(nerve+supply Nerve+to+gemellus+superior)
+	(Non-English+equivalent
+		[KB_INSTANCE_27831]
+		[KB_AUTO-INSERT%283%29_1332])
+	(Preferred+name [KB_INSTANCE_27829])
+	(primary+segmental+supply S1)
+	(secondary+segmental+supply L5)
+	(segmental+supply
+		L5
+		S1)
+	(Synonym [KB_INSTANCE_27832]))
+
+([Gemellus+superior+part+of+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Inferior+gluteal+artery)
+	(FMAID "22264")
+	(Preferred+name [KB_INSTANCE_27763]))
+
+([Gemellus+superior+part+of+left+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Left+inferior+gluteal+artery)
+	(FMAID "22276")
+	(Preferred+name [KB_INSTANCE_27775]))
+
+([Gemellus+superior+part+of+right+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Right+inferior+gluteal+artery)
+	(FMAID "22275")
+	(Preferred+name [KB_INSTANCE_27774]))
+
+([Gene+cluster] of  Cell+part+cluster
+
+	(FMAID "84082")
+	(Preferred+name [fm_live_30108]))
+
+([General+anatomical+term] of  General+anatomical+term+template
+
+	(definition "Anatomical term that represents more than one concept. Examples: muscle, bone, liver cell, fiber, apex of lung.")
+	(FMAID "29733")
+	(Preferred+name [KB_INSTANCE_37210]))
+
+([General+anatomical+term+template] of  Non-physical+anatomical+entity+template
+
+	(FMAID "63186")
+	(Preferred+name [fm_live_01956]))
+
+([General+ecto-epithelial+cell] of  Ecto-epithelial+cell
+
+	(FMAID "70556")
+	(Preferred+name [FM_live_03371]))
+
+([general+location] of  Standard+FMA+slot
+
+	(FMAID "85849"))
+
+([general+part] of  Standard+FMA+slot
+
+	(FMAID "85894"))
+
+([general+part+of] of  Standard+FMA+slot
+
+	(FMAID "85895"))
+
+([General+somatic+afferent+nerve+fiber] of  Somatic+afferent+nerve+fiber
+
+	(FMAID "80111")
+	(Preferred+name [fm_live_24513]))
+
+([General+visceral+afferent+nerve+fiber] of  Visceral+afferent+nerve+fiber
+
+	(FMAID "80114")
+	(Preferred+name [fm_live_24519]))
+
+([Generic+anatomical+part] of  Non-physical+anatomical+entity+template
+
+	(FMAID "80047")
+	(Preferred+name [fm_live_24304]))
+
+([Genicular+anastomosis] of  Arterial+anastomosis
+
+	(FMAID "44676")
+	(Non-English+equivalent
+		[KB_INSTANCE_56704]
+		[KB_AUTO-INSERT%283%29_2770])
+	(Preferred+name [KB_INSTANCE_56703]))
+
+([Genicular+vein] of  Vein
+
+	(FMAID "44559")
+	(Preferred+name [KB_INSTANCE_56569])
+	(tributary+of Popliteal+vein))
+
+([Geniculate+ganglion] of  Ganglion+of+cranial+nerve
+
+	(FMAID "53414")
+	(Non-English+equivalent
+		[su_incus_36659]
+		[KB_INSTANCE_67560]
+		[KB_AUTO-INSERT%283%29_4011])
+	(Preferred+name [KB_INSTANCE_67558])
+	(Synonym
+		[KB_INSTANCE_67559]
+		[KB_INSTANCE_67561]))
+
+([Geniculum+of+facial+canal] of  Cranial+conduit
+
+	(FMAID "75762")
+	(Non-English+equivalent
+		[su_incus_40180]
+		[KB_AUTO-INSERT%283%29_379])
+	(Preferred+name [su_incus_29655])
+	(Synonym [KB_AUTO-INSERT2_10278]))
+
+([Geniculum+of+facial+nerve] of  Zone+of+trunk+of+facial+nerve
+
+	(FMAID "77529")
+	(Non-English+equivalent [su_incus_36695])
+	(Preferred+name [su_incus_33125])
+	(Synonym [KB_AUTO-INSERT2_7044]))
+
+([Genioglossus] of  Extrinsic+muscle+of+tongue
+
+	(constitutional+part+of Tongue)
+	(FMAID "46690")
+	(member+of
+		Set+of+extrinsic+muscles+of+tongue
+		Set+of+muscles+of+tongue)
+	(nerve+supply Nerve+to+genioglossus)
+	(Non-English+equivalent
+		[KB_INSTANCE_59337]
+		[KB_AUTO-INSERT%283%29_1595])
+	(part+of Tongue)
+	(Preferred+name [KB_INSTANCE_59335]))
+
+([Geniohyoid] of  Suprahyoid+muscle
+
+	(contained+in Submental+triangle)
+	(FMAID "46325")
+	(member+of Set+of+suprahyoid+muscles)
+	(nerve+supply Nerve+to+geniohyoid)
+	(Non-English+equivalent
+		[KB_INSTANCE_58695]
+		[KB_AUTO-INSERT%283%29_1086])
+	(Preferred+name [KB_INSTANCE_58693])
+	(segmental+supply C1))
+
+([Genital+branch+of+genitofemoral+nerve] of  Branch+of+nerve+plexus
+
+	(branch
+		Cremaster+muscle+branch+of+genital+branch+of+genitofemoral+nerve
+		Scrotal+branch+of+genital+branch+of+genitofemoral+nerve
+		Mons+pubis+branch+of+genital+branch+of+genitofemoral+nerve
+		Labium+majus+branch+of+genital+branch+of+genitofemoral+nerve)
+	(branch+of Genitofemoral+nerve)
+	(FMAID "20560")
+	(Non-English+equivalent [su_incus_36641])
+	(Preferred+name [KB_INSTANCE_25934])
+	(Synonym
+		[KB_INSTANCE_25935]
+		[KB_INSTANCE_25936]))
+
+([Genital+branch+of+left+genitofemoral+nerve] of  Branch+of+nerve+plexus
+
+	(branch
+		Cremaster+muscle+branch+of+genital+branch+of+left+genitofemoral+nerve
+		Scrotal+branch+of+genital+branch+of+left+genitofemoral+nerve
+		Mons+pubis+branch+of+genital+branch+of+left+genitofemoral+nerve
+		Labium+majus+branch+of+genital+branch+of+left+genitofemoral+nerve)
+	(branch+of Left+genitofemoral+nerve)
+	(FMAID "20633")
+	(Preferred+name [KB_INSTANCE_26011]))
+
+([Genital+branch+of+right+genitofemoral+nerve] of  Branch+of+nerve+plexus
+
+	(branch
+		Cremaster+muscle+branch+of+genital+branch+of+right+genitofemoral+nerve
+		Scrotal+branch+of+genital+branch+of+right+genitofemoral+nerve
+		Mons+pubis+branch+of+genital+branch+of+right+genitofemoral+nerve
+		Labium+majus+branch+of+genital+branch+of+right+genitofemoral+nerve)
+	(branch+of Right+genitofemoral+nerve)
+	(FMAID "20632")
+	(Preferred+name [KB_INSTANCE_26010]))
+
+([Genital+corpuscle] of  Contact+receptor
+
+	(FMAID "85616")
+	(Preferred+name [fma_p2_Instance_560015]))
+
+([Genital+system] of  Organ+system
+
+	(constitutional+part
+		Prostate
+		Neural+network+of+genital+system)
+	(FMAID "7160")
+	(Non-English+equivalent [ONARD_Instance_580410])
+	(Preferred+name [KB_INSTANCE_03933])
+	(Synonym [fma_p2_Instance_70012])
+	(systemic+part+of Body))
+
+([Genitofemoral+nerve] of  Branch+of+nerve+plexus
+
+	(branch
+		Genital+branch+of+genitofemoral+nerve
+		Femoral+branch+of+genitofemoral+nerve)
+	(branch+of Lumbar+nerve+plexus)
+	(FMAID "16484")
+	(Non-English+equivalent
+		[KB_INSTANCE_19415]
+		[KB_AUTO-INSERT%283%29_4088])
+	(Preferred+name [KB_INSTANCE_19413])
+	(Synonym [KB_INSTANCE_19414]))
+
+([Genitourinary+lymphoid+tissue] of  Mucosa-associated+lymphoid+tissue
+
+	(FMAID "62822")
+	(part+of Non-lymphatic+lymphoid+system)
+	(Preferred+name [FM_live_00618])
+	(regional+part+of Non-lymphatic+lymphoid+system))
+
+([Genome] of  Anatomical+set
+
+	(definition "Anatomical set of genes in all the chromosomes.")
+	(FMAID "84116")
+	(Preferred+name [fm_live_29697]))
+
+([Genu+of+corpus+callosum] of  Subdivision+of+corpus+callosum
+
+	(FMAID "61946")
+	(Non-English+equivalent
+		[su_incus_21467]
+		[su_incus_21468]
+		[su_incus_21469])
+	(part+of Corpus+callosum)
+	(Preferred+name [fm-live_14798])
+	(regional+part+of Corpus+callosum)
+	(Synonym
+		[su_incus_21470]
+		[KB_AUTO-INSERT2_4836]))
+
+([Genu+of+internal+capsule] of  Subdivision+of+internal+capsule
+
+	(arterial+supply Branch+of+anterior+choroidal+artery+to+genu+of+internal+capsule)
+	(FMAID "61953")
+	(Non-English+equivalent
+		[su_incus_21471]
+		[KB_AUTO-INSERT%283%29_3898])
+	(part+of Internal+capsule)
+	(Preferred+name [fm-live_14812])
+	(regional+part+of Internal+capsule)
+	(Synonym [KB_AUTO-INSERT2_4759]))
+
+([Genu+of+left+internal+capsule] of  Genu+of+internal+capsule
+
+	(dimension 3-dimension)
+	(FMAID "72911")
+	(Preferred+name [live_incus_fm_10245])
+	(Synonym [KB_AUTO-INSERT2_4761]))
+
+([Genu+of+right+internal+capsule] of  Genu+of+internal+capsule
+
+	(dimension 3-dimension)
+	(FMAID "72910")
+	(Preferred+name [live_incus_fm_10243])
+	(Synonym [KB_AUTO-INSERT2_4760]))
+
+([Germ+cell] of  Nucleated+cell
+
+	(definition "Nucleated cell which has or pre-determined to have a haploid set (23 pairs) of chromosomes.")
+	(FMAID "18649")
+	(Non-English+equivalent [ONARD_Instance_580653])
+	(Preferred+name [KB_INSTANCE_23435])
+	(Synonym
+		[fm-live_09573]
+		[fm_live_20867]))
+
+([germ+origin] of  Standard+FMA+slot
+
+	(FMAID "85905"))
+
+([Germinal+epithelium+of+left+ovary] of  Germinal+epithelium+of+ovary
+
+	(dimension 3-dimension)
+	(FMAID "74326")
+	(part+of Capsule+of+left+ovary)
+	(Preferred+name [FM_live_08197])
+	(regional+part+of Capsule+of+left+ovary))
+
+([Germinal+epithelium+of+ovary] of  Simple+cuboidal+epithelium
+
+	(FMAID "18629")
+	(part+of Capsule+of+ovary)
+	(Preferred+name [KB_INSTANCE_23396])
+	(regional+part+of Capsule+of+ovary)
+	(Synonym [KB_INSTANCE_23397]))
+
+([Germinal+epithelium+of+right+ovary] of  Germinal+epithelium+of+ovary
+
+	(dimension 3-dimension)
+	(FMAID "74325")
+	(part+of Capsule+of+right+ovary)
+	(Preferred+name [FM_live_08195])
+	(regional+part+of Capsule+of+right+ovary))
+
+([Gestational+space] of  Anatomical+space
+
+	(definition "Anatomical space within a gestational structure. Examples: embryonic space, cavity of yolk sac, extra-embryonic celom, fetal space, cavity of gestational structure.")
+	(FMAID "63938")
+	(Preferred+name [fm-live_01438]))
+
+([Gestational+structure] of  Anatomical+structure
+
+	(definition "Anatomical structure, which is the developmental form of a vertebrate animal or any of its parts at any given time from fertilization of the egg by the sperm to parturition. Examples: embryo, embryonic structure, fetus, fetal heart.")
+	(FMAID "63917")
+	(Non-English+equivalent
+		[ONARD_Instance_580706]
+		[ONARD_Instance_610016])
+	(Preferred+name [fm-live_00896]))
+
+([GI-associated+endocrine+system] of  Functional+system+template
+
+	(FMAID "74792")
+	(Preferred+name [fm_live_16122]))
+
+([Giant+cell] of  General+anatomical+term+template
+
+	(FMAID "83623")
+	(Preferred+name [fm_live_23970]))
+
+([Gigantocellular+nucleus] of  Nucleus+of+neuraxis
+
+	(FMAID "72576")
+	(Non-English+equivalent
+		[su_incus_21472]
+		[su_incus_21473]
+		[KB_AUTO-INSERT%283%29_3385])
+	(part+of Central+medullary+reticular+complex)
+	(Preferred+name [live_incus_fm_09572])
+	(regional+part+of Central+medullary+reticular+complex)
+	(Synonym [su_incus_21474]))
+
+([Gingiva] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "59762")
+	(lymphatic+drainage
+		Right+submandibular+lymphatic+chain
+		Left+submandibular+lymphatic+chain
+		Submandibular+lymphatic+chain)
+	(Non-English+equivalent
+		[su_incus_29242]
+		[KB_AUTO-INSERT%283%29_777])
+	(part
+		Gingiva+proper
+		Dental+papilla
+		Incisive+papilla
+		Gingival+papilla
+		Interdental+papilla)
+	(part+of Mucosa+of+mouth)
+	(Preferred+name [KB_INSTANCE_78880])
+	(regional+part+of Mucosa+of+mouth)
+	(Synonym [KB_INSTANCE_78881]))
+
+([Gingiva+of+lower+jaw] of  Organ+region+with+floating+fiat+boundary
+
+	(constitutional+part+of Lower+jaw)
+	(FMAID "59764")
+	(lymphatic+drainage Submental+lymphatic+chain)
+	(part+of Lower+jaw)
+	(Preferred+name [KB_INSTANCE_78883])
+	(Synonym [KB_AUTO-INSERT2_7007]))
+
+([Gingiva+of+upper+jaw] of  Organ+region+with+floating+fiat+boundary
+
+	(constitutional+part+of Upper+jaw)
+	(FMAID "59763")
+	(part+of Upper+jaw)
+	(Preferred+name [KB_INSTANCE_78882])
+	(Synonym [KB_AUTO-INSERT2_7006]))
+
+([Gingiva+proper] of  Organ+region+with+floating+fiat+boundary
+
+	(FMAID "66413")
+	(part+of Gingiva)
+	(Preferred+name [fm-live_06676]))
+
+([Gingival+branch+of+left+mental+nerve] of  Gingival+branch+of+mental+nerve
+
+	(branch+of Left+mental+nerve)
+	(FMAID "53262")
+	(Preferred+name [KB_INSTANCE_67364]))
+
+([Gingival+branch+of+mental+nerve] of  Branch+of+mental+nerve
+
+	(branch+of Mental+nerve)
+	(FMAID "53256")
+	(Preferred+name [KB_INSTANCE_67358]))
+
+([Gingival+branch+of+right+mental+nerve] of  Gingival+branch+of+mental+nerve
+
+	(branch+of Right+mental+nerve)
+	(FMAID "53261")
+	(Preferred+name [KB_INSTANCE_67363]))
+
+([Gingival+collagen+fiber+of+periodontium] of  Collagen+fiber+of+periodontium
+
+	(FMAID "62992")
+	(Preferred+name [FM_live_01315]))
+
+([Gingival+epithelium] of  Keratinized+stratified+squamous+epithelium
+
+	(FMAID "62423")
+	(Preferred+name [fm-live_15743])
+	(Synonym [fm-live_15786]))
+
+([Gingival+groove] of  Anatomical+line
+
+	(FMAID "74580")
+	(Non-English+equivalent
+		[su_incus_40639]
+		[KB_AUTO-INSERT%283%29_1508])
+	(Preferred+name [su_incus_22635])
+	(Synonym [su_incus_24643]))
+
+([Gingival+margin] of  Anatomical+line
+
+	(FMAID "75112")
+	(Non-English+equivalent
+		[su_incus_40664]
+		[KB_AUTO-INSERT%283%29_1506])
+	(Preferred+name [su_incus_25303]))
+
+([Gingival+papilla] of  Segment+of+gingiva
+
+	(dimension 3-dimension)
+	(FMAID "77186")
+	(Non-English+equivalent
+		[su_incus_37806]
+		[KB_AUTO-INSERT%283%29_1507])
+	(part+of Gingiva)
+	(Preferred+name [su_incus_32852]))
+
+([gives+rise+to] of  Standard+FMA+slot
+
+	(FMAID "229553"))
+
+([Glabella] of  Zone+of+frontal+bone
+
+	(FMAID "52851")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_323])
+	(part+of Squamous+part+of+frontal+bone)
+	(Preferred+name [KB_INSTANCE_66654])
+	(regional+part+of Squamous+part+of+frontal+bone))
+
+([Glabellar+surface+of+frontal+bone] of  Subdivision+of+external+surface+of+frontal+bone
+
+	(FMAID "57136")
+	(Preferred+name [KB_INSTANCE_74960]))
+
+([Glabrous+skin] of  Zone+of+skin
+
+	(FMAID "67815")
+	(Preferred+name [fm-live_12451])
+	(Synonym [fm-live_12452]))
+
+([Gland] of  General+anatomical+term+template
+
+	(FMAID "86294")
+	(Preferred+name [ONARD_Instance_60059]))
+
+([Gland+of+epidermis] of  Subdivision+of+epidermis
+
+	(FMAID "59153")
+	(Preferred+name [KB_INSTANCE_78107])
+	(Synonym [KB_AUTO-INSERT2_8291]))
+
+([Gland+of+small+intestine] of  Intestinal+gland
+
+	(FMAID "223272")
+	(Preferred+name [August_Instance_110018]))
+
+([Glandular+branch+of+facial+artery] of  Systemic+artery
+
+	(branch+of Facial+artery)
+	(FMAID "49564")
+	(Preferred+name [KB_INSTANCE_62552]))
+
+([Glandular+branch+of+inferior+thyroid+artery] of  Systemic+artery
+
+	(branch+of Inferior+thyroid+artery)
+	(FMAID "52504")
+	(Preferred+name [KB_INSTANCE_66130]))
+
+([Glandular+branch+of+left+facial+artery] of  Systemic+artery
+
+	(branch+of Left+facial+artery)
+	(FMAID "49566")
+	(Preferred+name [KB_INSTANCE_62554]))
+
+([Glandular+branch+of+right+facial+artery] of  Systemic+artery
+
+	(branch+of Right+facial+artery)
+	(FMAID "49565")
+	(Preferred+name [KB_INSTANCE_62553]))
+
+([Glandular+cell] of  General+anatomical+term+template
+
+	(FMAID "86494")
+	(Preferred+name [fma_p2_Instance_920001]))
+
+([Glandular+cell+of+endometrium] of  Endo-epithelial+cell
+
+	(FMAID "86489")
+	(Preferred+name [fma_p2_Instance_750017])
+	(Synonym [fma_p2_Instance_750020]))
+
+([Glandular+cell+of+esophagus] of  Endo-epithelial+cell
+
+	(FMAID "86548")
+	(Preferred+name [fma_p2_Instance_930001])
+	(Synonym [fma_p2_Instance_930002]))
+
+([Glandular+cell+of+large+intestine] of  Endo-epithelial+cell
+
+	(FMAID "87194")
+	(Preferred+name [fma_p2_Instance_1050009])
+	(Synonym [fma_p2_Instance_1050010]))
+
+([Glandular+cell+of+prostate] of  Endo-epithelial+cell
+
+	(FMAID "86774")
+	(Preferred+name [fma_p2_Instance_1000011])
+	(Synonym [fma_p2_Instance_1000012]))
+
+([Glandular+cell+of+small+intestine] of  Endo-epithelial+cell
+
+	(FMAID "86928")
+	(Preferred+name [fma_p2_Instance_1020004])
+	(Synonym [fma_p2_Instance_1020005]))
+
+([Glandular+cell+of+stomach] of  Endo-epithelial+cell
+
+	(FMAID "86554")
+	(Preferred+name [fma_p2_Instance_810005])
+	(Synonym [fma_p2_Instance_830006]))
+
+([Glandular+columnar] of  Non-physical+anatomical+entity+template
+
+	(FMAID "70640")
+	(Preferred+name [fm_live_11050]))
+
+([Glandular+columnar+cell] of  Non-physical+anatomical+entity+template
+
+	(FMAID "66776")
+	(Preferred+name [fm-live_07505]))
+
+([Glandular+columnar+epithelium] of  Simple+columnar+epithelium
+
+	(definition "Simple columnar epithelium that constitutes the secretory part of a gland. Examples: epithelium of stomach, luminal epithelium of lactiferous duct.")
+	(FMAID "64800")
+	(Preferred+name [fm-live_02525]))
+
+([Glandular+cuboidal+epithelium] of  Simple+cuboidal+epithelium
+
+	(FMAID "66809")
+	(Preferred+name [fm-live_07615]))
+
+([Glandular+part+of+central+zone+of+prostate] of  Organ+part
+
+	(FMAID "74368")
+	(Preferred+name [fm_live_14455]))
+
+([Glandular+part+of+endometrium] of  Parenchyma
+
+	(FMAID "86488")
+	(Preferred+name [fma_p2_Instance_750015]))
+
+([Glandular+part+of+left+lobe+of+transition+zone+of+prostate] of  Glandular+part+of+lobe+of+transition+zone+of+prostate
+
+	(FMAID "74373")
+	(Preferred+name [fm_live_14465]))
+
+([Glandular+part+of+lobe+of+transition+zone+of+prostate] of  Subdivision+of+lobe+of+transition+zone+of+prostate
+
+	(FMAID "74370")
+	(Preferred+name [fm_live_14459]))
+
+([Glandular+part+of+peripheral+zone+of+prostate] of  Subdivision+of+peripheral+zone+of+prostate
+
+	(FMAID "74336")
+	(Preferred+name [fm_live_14341]))
+
+([Glandular+part+of+prostate] of  Parenchyma
+
+	(constitutional+part
+		Prostatic+gland
+		Stroma+of+glandular+part+of+prostate)
+	(constitutional+part+of Prostate)
+	(FMAID "74147")
+	(part Prostatic+gland)
+	(part+of Prostate)
+	(Preferred+name [fm_live_13779])
+	(Synonym [fm_live_13884]))
+
+([Glandular+part+of+right+lobe+of+transition+zone+of+prostate] of  Glandular+part+of+lobe+of+transition+zone+of+prostate
+
+	(FMAID "74372")
+	(Preferred+name [fm_live_14463]))
+
+([Glans+of+clitoris] of  Zone+of+cavernous+organ
+
+	(FMAID "19999")
+	(Non-English+equivalent
+		[KB_INSTANCE_25234]
+		[KB_AUTO-INSERT%283%29_2149])
+	(part+of Clitoris)
+	(Preferred+name [KB_INSTANCE_25233])
+	(regional+part+of Clitoris)
+	(Synonym [KB_AUTO-INSERT2_7187]))
+
+([Glans+part+of+dorsal+artery+of+clitoris] of  Systemic+artery
+
+	(branch+of Dorsal+artery+of+clitoris)
+	(FMAID "20914")
+	(Preferred+name [KB_INSTANCE_26344]))
+
+([Glans+part+of+dorsal+artery+of+penis] of  Systemic+artery
+
+	(branch+of Dorsal+artery+of+penis)
+	(FMAID "20907")
+	(Preferred+name [KB_INSTANCE_26337]))
+
+([Glans+part+of+left+dorsal+artery+of+clitoris] of  Systemic+artery
+
+	(branch+of Left+dorsal+artery+of+clitoris)
+	(FMAID "20917")
+	(Preferred+name [KB_INSTANCE_26347]))
+
+([Glans+part+of+left+dorsal+artery+of+penis] of  Systemic+artery
+
+	(branch+of Left+dorsal+artery+of+penis)
+	(FMAID "20910")
+	(Preferred+name [KB_INSTANCE_26340]))
+
+([Glans+part+of+right+dorsal+artery+of+clitoris] of  Systemic+artery
+
+	(branch+of Right+dorsal+artery+of+clitoris)
+	(FMAID "20916")
+	(Preferred+name [KB_INSTANCE_26346]))
+
+([Glans+part+of+right+dorsal+artery+of+penis] of  Systemic+artery
+
+	(branch+of Right+dorsal+artery+of+penis)
+	(FMAID "20909")
+	(Preferred+name [KB_INSTANCE_26339]))
+
+([Glans+penis] of  Zone+of+corpus+spongiosum+of+penis
+
+	(constitutional+part Superficial+fascia+of+glans+penis)
+	(FMAID "18247")
+	(part
+		Corona+of+glans+penis
+		Neck+of+glans+penis
+		Corpus+spongiosum+proper+of+penis
+		Base+of+glans+penis
+		Septum+of+glans+penis
+		Glans+penis+tributary+of+deep+dorsal+vein+of+penis
+		Bulb+of+penis
+		External+orifice+of+male+urethra)
+	(part+of Corpus+spongiosum+of+penis)
+	(Preferred+name [KB_INSTANCE_22402])
+	(regional+part
+		Apex+of+glans+penis
+		Corona+of+glans+penis
+		Neck+of+glans+penis
+		Corpus+spongiosum+proper+of+penis
+		Base+of+glans+penis
+		Septum+of+glans+penis
+		Glans+penis+tributary+of+deep+dorsal+vein+of+penis
+		Bulb+of+penis)
+	(regional+part+of
+		Corpus+spongiosum+of+penis
+		Penis))
+
+([Glans+penis+tributary+of+deep+dorsal+vein+of+penis] of  Vein
+
+	(FMAID "22043")
+	(part+of Glans+penis)
+	(Preferred+name [KB_INSTANCE_27523])
+	(regional+part+of Glans+penis)
+	(tributary+of Deep+dorsal+vein+of+penis))
+
+([Glenohumeral+branch+of+left+suprascapular+artery] of  Systemic+artery
+
+	(branch+of Left+suprascapular+artery)
+	(FMAID "22632")
+	(Preferred+name [KB_INSTANCE_28258])
+	(regional+part+of Left+suprascapular+artery))
+
+([Glenohumeral+branch+of+right+suprascapular+artery] of  Systemic+artery
+
+	(branch+of Right+suprascapular+artery)
+	(FMAID "22631")
+	(Preferred+name [KB_INSTANCE_28257])
+	(regional+part+of Right+suprascapular+artery))
+
+([Glenohumeral+branch+of+suprascapular+artery] of  Systemic+artery
+
+	(branch+of Suprascapular+artery)
+	(FMAID "22604")
+	(Preferred+name [KB_INSTANCE_28230])
+	(regional+part+of Suprascapular+artery))
+
+([Glenohumeral+joint] of  Synovial+joint
+
+	(constitutional+part
+		Glenoid+labrum+of+scapula
+		Articular+capsule+of+glenohumeral+joint
+		Synovial+cavity+of+glenohumeral+joint
+		Synovial+fluid+of+glenohumeral+joint
+		Superior+glenohumeral+ligament
+		Middle+glenohumeral+ligament
+		Coracohumeral+ligament
+		Inferior+glenohumeral+ligament
+		Articular+cartilage+of+proximal+epiphysis+of+humerus
+		Articular+cartilage+of+glenoid+proper+of+scapula)
+	(constitutional+part+of
+		Shoulder
+		Deltoid+part+of+pectoral+girdle)
+	(FMAID "25912")
+	(nerve+supply
+		Branch+of+suprascapular+nerve+to+glenohumeral+joint
+		Branch+of+axillary+nerve+to+glenohumeral+joint
+		Branch+of+lateral+pectoral+nerve+to+glenohumeral+joint)
+	(Non-English+equivalent
+		[KB_INSTANCE_32540]
+		[su_incus_38575]
+		[KB_AUTO-INSERT%283%29_568])
+	(part
+		Glenoid+labrum+of+scapula
+		Articular+capsule+of+glenohumeral+joint
+		Synovial+cavity+of+glenohumeral+joint
+		Synovial+fluid+of+glenohumeral+joint
+		Superior+glenohumeral+ligament
+		Middle+glenohumeral+ligament
+		Coracohumeral+ligament
+		Inferior+glenohumeral+ligament
+		Articular+cartilage+of+proximal+epiphysis+of+humerus
+		Articular+cartilage+of+glenoid+proper+of+scapula)
+	(part+of
+		Bony+pectoral+girdle
+		Shoulder)
+	(Preferred+name [KB_INSTANCE_32539])
+	(regional+part+of Bony+pectoral+girdle)
+	(Synonym
+		[KB_INSTANCE_32541]
+		[KB_INSTANCE_32542]))
+
+([Glenohumeral+joint+branch+of+anterior+circumflex+humeral+artery] of  Systemic+artery
+
+	(branch+of Anterior+circumflex+humeral+artery)
+	(FMAID "23211")
+	(Preferred+name [fma_p2_Instance_20022])
+	(regional+part+of Anterior+circumflex+humeral+artery)
+	(Synonym
+		[KB_INSTANCE_28956]
+		[KB_INSTANCE_28957]))
+
+([Glenohumeral+ligament] of  Ligament+of+glenohumeral+joint
+
+	(FMAID "34961")
+	(Preferred+name [KB_INSTANCE_44490]))
+
+([Glenoid+fossa] of  Subdivision+of+surface+of+scapula
+
+	(2D+part+of Surface+of+scapula)
+	(FMAID "23275")
+	(Non-English+equivalent [su_incus_40373])
+	(Preferred+name [fm-live_05327])
+	(Synonym
+		[KB_INSTANCE_29055]
+		[KB_INSTANCE_29054]
+		[su_incus_29717]))
+
+([Glenoid+labrum+of+scapula] of  Cartilage+organ
+
+	(constitutional+part+of Glenohumeral+joint)
+	(FMAID "23290")
+	(Non-English+equivalent [su_incus_35548])
+	(part+of Glenohumeral+joint)
+	(Preferred+name [KB_INSTANCE_29071]))
+
+([Glenoid+part+of+scapula] of  Zone+of+scapula
+
+	(attributed+part
+		[fm_live_02464]
+		[fm_live_02465]
+		[fm_live_02466])
+	(FMAID "63543")
+	(part
+		Glenoid+proper+of+scapula
+		Neck+of+scapula
+		Coracoid+process)
+	(part+of Scapula)
+	(Preferred+name [fm_live_02458])
+	(regional+part
+		Glenoid+proper+of+scapula
+		Neck+of+scapula
+		Coracoid+process)
+	(regional+part+of Scapula)
+	(Synonym [fm_live_02459]))
+
+([Glenoid+proper+of+scapula] of  Head+of+organ
+
+	(attributed+part
+		[fm_live_02510]
+		[fm_live_02511])
+	(FMAID "23809")
+	(part
+		Bony+part+of+glenoid+proper+of+scapula
+		Articular+cartilage+of+glenoid+proper+of+scapula
+		Periosteum+of+glenoid+proper+of+scapula
+		Articular+part+of+glenoid
+		Nonarticular+part+of+glenoid)
+	(part+of Glenoid+part+of+scapula)
+	(Preferred+name [KB_INSTANCE_29908])
+	(regional+part
+		Bony+part+of+glenoid+proper+of+scapula
+		Articular+cartilage+of+glenoid+proper+of+scapula
+		Periosteum+of+glenoid+proper+of+scapula
+		Articular+part+of+glenoid
+		Nonarticular+part+of+glenoid)
+	(regional+part+of Glenoid+part+of+scapula)
+	(Synonym [KB_INSTANCE_29909]))
+
+([Glial+fibrillar+acidic+protein] of  Cytoplasmic+intermediate+filament+protein
+
+	(FMAID "67326")
+	(Preferred+name [fm-live_10558])
+	(Synonym [fm-live_10559]))
+
+([Glial+filament] of  Cytoplasmic+intermediate+filament
+
+	(FMAID "63860")
+	(Preferred+name [fm-live_00578])
+	(Synonym [FM_live_02658]))
+
+([Glioblast] of  Neural+cell
+
+	(FMAID "70564")
+	(Preferred+name [FM_live_03387])
+	(Synonym [fm_live_30390]))
+
+([Globose+cell+of+olfactory+epithelium] of  Basal+cell+of+olfactory+epithelium
+
+	(FMAID "67874")
+	(part+of Olfactory+epithelium)
+	(Preferred+name [fm-live_15456])
+	(regional+part+of Olfactory+epithelium)
+	(Synonym [fm-live_15457]))
+
+([Globose+nucleus] of  Nucleus+of+neuraxis
+
+	(FMAID "72536")
+	(Non-English+equivalent
+		[su_incus_21480]
+		[su_incus_21481]
+		[su_incus_21484]
+		[su_incus_36351])
+	(part+of Cerebellar+nuclear+complex)
+	(Preferred+name [live_incus_fm_09520])
+	(regional+part+of Cerebellar+nuclear+complex)
+	(Synonym
+		[su_incus_21482]
+		[su_incus_21483]))
+
+([Globular+actin] of  Actin
+
+	(FMAID "67893")
+	(Preferred+name [KB_INSTANCE_81427])
+	(Synonym
+		[KB_INSTANCE_81428]
+		[KB_INSTANCE_81429]))
+
+([Globus+pallidus] of  Basal+ganglion+of+telencephalon
+
+	(arterial+supply
+		Branch+of+anterior+choroidal+artery+to+globus+pallidus
+		Anterolateral+central+branch+of+middle+cerebral+artery)
+	(definition "Nucleus of  brain which is located medially to the putamen and laterally to the internal capsule.")
+	(FMAID "61835")
+	(location
+		[fm_live_00466]
+		[fm_live_00467]
+		[fm_live_00468]
+		[fm_live_00469])
+	(member+of Set+of+basal+ganglia)
+	(Non-English+equivalent
+		[su_incus_21485]
+		[FM_live_00007]
+		[KB_AUTO-INSERT%283%29_3893])
+	(nucleus+of+origin+of Pallidotegmental+fasciculus)
+	(part
+		Lateral+globus+pallidus
+		Medial+globus+pallidus
+		Lateral+medullary+lamina+of+globus+pallidus
+		Medial+medullary+lamina+of+globus+pallidus
+		Accessory+medullary+lamina+of+globus+pallidus)
+	(part+of Cerebral+hemisphere)
+	(Preferred+name [fm-live_14090])
+	(receives+input+from
+		Caudate+nucleus
+		Putamen
+		Dorsal+raphe+nucleus
+		Midbrain+tegmentum
+		Pontine+tegmentum
+		Medullary+reticular+formation
+		Rostral+intralaminar+nuclear+group
+		Subthalamic+nucleus)
+	(regional+part
+		Lateral+globus+pallidus
+		Medial+globus+pallidus
+		Lateral+medullary+lamina+of+globus+pallidus
+		Medial+medullary+lamina+of+globus+pallidus
+		Accessory+medullary+lamina+of+globus+pallidus)
+	(regional+part+of Subcortical+gray+matter+structure)
+	(sends+output+to
+		Reticular+formation
+		Superior+colliculus
+		Intralaminar+nuclear+group+of+thalamus
+		Principal+part+of+ventral+posteromedial+nucleus
+		Magnocellular+part+of+medial+dorsal+nucleus
+		Lateral+habenular+nucleus
+		Ventral+lateral+nucleus
+		Ventral+anterior+nucleus
+		Parafascicular+nucleus
+		Centromedian+nucleus
+		Medial+dorsal+nucleus
+		Anteroventral+nucleus
+		Anteromedial+nucleus
+		Subthalamic+nucleus
+		Thalamic+reticular+nucleus)
+	(Synonym [FM_live_00006]))
+
+([Glomerular+basement+membrane] of  Basement+membrane
+
+	(constitutional+part
+		External+layer+of+glomerular+basement+membrane
+		Middle+layer+of+glomerular+basement+membrane
+		Internal+layer+of+glomerular+basement+membrane)
+	(constitutional+part+of Renal+corpuscle)
+	(dimension 3-dimension)
+	(FMAID "74274")
+	(part
+		External+layer+of+glomerular+basement+membrane
+		Middle+layer+of+glomerular+basement+membrane
+		Internal+layer+of+glomerular+basement+membrane)
+	(part+of Renal+corpuscle)
+	(Preferred+name [FM_live_07866]))
+
+([Glomerular+capsule] of  Region+of+uriniferous+tubule
+
+	(constitutional+part
+		Parietal+layer+of+glomerular+capsule
+		Bowman%27s+space
+		Visceral+layer+of+glomerular+capsule)
+	(constitutional+part+of Renal+corpuscle)
+	(FMAID "15626")
+	(Non-English+equivalent [su_incus_35881])
+	(part
+		Parietal+layer+of+glomerular+capsule
+		Bowman%27s+space
+		Visceral+layer+of+glomerular+capsule)
+	(part+of Renal+corpuscle)
+	(Preferred+name [KB_INSTANCE_17869])
+	(Synonym [KB_INSTANCE_17870]))
+
+([Glomerular+endothelial+cell] of  Endothelial+cell
+
+	(FMAID "70970")
+	(Preferred+name [fm_live_11198]))
+
+([Glomerular+mesangium] of  Stroma
+
+	(FMAID "84140")
+	(Preferred+name [fm_live_30183]))
+
+([Glomerulus] of  Region+of+uriniferous+tubule
+
+	(constitutional+part+of Renal+corpuscle)
+	(FMAID "15624")
+	(part+of Renal+corpuscle)
+	(Preferred+name [KB_INSTANCE_17865]))
+
+([Glosso-epiglottic+fold] of  Viscerocranial+mucosal+fold
+
+	(definition "Subdivision of the viscerocranial mucosa which located between the epiglottis and the base of the tongue. Examples: median glosso-epiglottic fold, left lateral glosso-epiglottic fold.")
+	(FMAID "55038")
+	(Preferred+name [KB_INSTANCE_70026])
+	(Synonym [KB_INSTANCE_70027]))
+
+([Glossopharyngeal+ganglion] of  Ganglion+of+cranial+nerve
+
+	(FMAID "53471")
+	(Preferred+name [KB_INSTANCE_67662])
+	(Synonym [KB_INSTANCE_67663]))
+
+([Glossopharyngeal+nerve] of  Cranial+nerve
+
+	(branch
+		Tympanic+nerve
+		Communicating+branch+of+glossopharyngeal+nerve+with+auricular+branch+of+vagus+nerve
+		Pharyngeal+branch+of+glossopharyngeal+nerve
+		Nerve+to+stylopharyngeus
+		Carotid+sinus+nerve
+		Tonsillar+branch+of+glossopharyngeal+nerve
+		Lingual+branch+of+glossopharyngeal+nerve
+		Lesser+petrosal+nerve
+		Communicating+branch+of+glossopharyngeal+nerve+with+auriculotemporal+nerve
+		Communicating+branch+of+glossopharyngeal+nerve+with+chorda+tympani)
+	(FMAID "50870")
+	(member+of Set+of+cranial+nerves)
+	(Non-English+equivalent
+		[su_incus_21774]
+		[su_incus_21775]
+		[su_incus_35583])
+	(part+of Peripheral+nervous+system)
+	(Preferred+name [KB_INSTANCE_64245])
+	(regional+part+of Peripheral+nervous+system)
+	(Synonym
+		[KB_INSTANCE_64247]
+		[fm-live_03505]
+		[su_incus_24791])
+	(systemic+part+of Set+of+cranial+nerves))
+
+([Glossopharyngeal+nerve+tract] of  Central+zone+of+nerve
+
+	(FMAID "72627")
+	(Non-English+equivalent [su_incus_21776])
+	(part+of Medulla+oblongata)
+	(Preferred+name [live_incus_fm_09686])
+	(regional+part+of
+		Medulla+oblongata
+		White+matter+structure+of+medulla+oblongata)
+	(Synonym
+		[su_incus_21777]
+		[su_incus_21778]
+		[live_incus_fm_13407]))
+
+([Glossopharyngeal+part+of+left+superior+pharyngeal+constrictor] of  Glossopharyngeal+part+of+superior+pharyngeal+constrictor
+
+	(FMAID "46649")
+	(Preferred+name [KB_INSTANCE_59233])
+	(regional+part+of Left+superior+pharyngeal+constrictor))
+
+([Glossopharyngeal+part+of+right+superior+pharyngeal+constrictor] of  Glossopharyngeal+part+of+superior+pharyngeal+constrictor
+
+	(FMAID "46648")
+	(Preferred+name [KB_INSTANCE_59231])
+	(regional+part+of Right+superior+pharyngeal+constrictor))
+
+([Glossopharyngeal+part+of+superior+pharyngeal+constrictor] of  Zone+of+superior+pharyngeal+constrictor
+
+	(FMAID "46647")
+	(Non-English+equivalent [su_incus_37538])
+	(part+of Superior+pharyngeal+constrictor)
+	(Preferred+name [KB_INSTANCE_59227])
+	(regional+part+of Superior+pharyngeal+constrictor)
+	(Synonym
+		[KB_INSTANCE_59229]
+		[KB_INSTANCE_59230]))
+
+([Glottis] of  Subdivision+of+larynx
+
+	(definition "Subdivision of the larynx which consists of the right and left vocal cords and the rima glottidis. Examples: There is only one glottis.")
+	(FMAID "55414")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_1983])
+	(part
+		Right+vocal+fold
+		Left+vocal+fold
+		Rima+glottidis)
+	(part+of Larynx)
+	(Preferred+name [KB_INSTANCE_70597])
+	(regional+part
+		Right+vocal+fold
+		Left+vocal+fold
+		Rima+glottidis)
+	(regional+part+of Larynx)
+	(systemic+part
+		Right+vocal+fold
+		Left+vocal+fold
+		Rima+glottidis))
+
+([Glucagon] of  Biogenic+peptide
+
+	(FMAID "83350")
+	(Preferred+name [fm_live_17280]))
+
+([Glucagon-secreting+cell] of  General+anatomical+term+template
+
+	(FMAID "84045")
+	(Preferred+name [fm_live_29720]))
+
+([Glucitol] of  Monosaccharide
+
+	(FMAID "82796")
+	(Preferred+name [fm_live_27665]))
+
+([Glucosamine] of  Monosaccharide
+
+	(FMAID "82797")
+	(Preferred+name [fm_live_27667]))
+
+([Glucose] of  Monosaccharide
+
+	(FMAID "82743")
+	(Preferred+name [fm_live_27553]))
+
+([Glucosylceramide] of  Monoglycosylceramide
+
+	(FMAID "82820")
+	(Preferred+name [fm_live_27714])
+	(Synonym [fm_live_27721]))
+
+([Glucuronic+acid] of  Monosaccharide
+
+	(FMAID "82798")
+	(Preferred+name [fm_live_27669]))
+
+([Glutamic+acid] of  Amino+acid
+
+	(FMAID "82762")
+	(Preferred+name [fm_live_27591]))
+
+([Glutamine] of  Amino+acid
+
+	(FMAID "82752")
+	(Preferred+name [fm_live_27571]))
+
+([Gluteal+aponeurosis] of  Organ+component+cluster
+
+	(FMAID "77262")
+	(Non-English+equivalent
+		[su_incus_38551]
+		[KB_AUTO-INSERT%283%29_1328])
+	(Preferred+name [su_incus_33236]))
+
+([Gluteal+branch+of+left+posterior+femoral+cutaneous+nerve] of  Gluteal+branch+of+posterior+femoral+cutaneous+nerve
+
+	(FMAID "45355")
+	(Preferred+name [KB_INSTANCE_57548]))
+
+([Gluteal+branch+of+posterior+femoral+cutaneous+nerve] of  Branch+of+posterior+femoral+cutaneous+nerve
+
+	(FMAID "45353")
+	(Preferred+name [KB_INSTANCE_57546]))
+
+([Gluteal+branch+of+right+posterior+femoral+cutaneous+nerve] of  Gluteal+branch+of+posterior+femoral+cutaneous+nerve
+
+	(FMAID "45354")
+	(Preferred+name [KB_INSTANCE_57547]))
+
+([Gluteal+fascia] of  Zone+of+investing+fascia+of+lower+limb
+
+	(FMAID "58771")
+	(Preferred+name [KB_INSTANCE_77596]))
+
+([Gluteal+fold] of  Anatomical+line
+
+	(FMAID "20233")
+	(Non-English+equivalent
+		[su_incus_40620]
+		[KB_AUTO-INSERT%283%29_205])
+	(Preferred+name [KB_INSTANCE_25520])
+	(Synonym [KB_INSTANCE_25521]))
+
+([Gluteal+lymph+node] of  Lymph+node
+
+	(FMAID "16657")
+	(Preferred+name [KB_INSTANCE_19712])
+	(Synonym [KB_INSTANCE_19713]))
+
+([Gluteal+muscle] of  Muscle+of+pelvic+girdle
+
+	(FMAID "64922")
+	(Preferred+name [fm-live_02611]))
+
+([Gluteal+part+of+inferior+rectal+artery] of  Systemic+artery
+
+	(branch+of Inferior+rectal+artery)
+	(FMAID "20833")
+	(Preferred+name [KB_INSTANCE_26256]))
+
+([Gluteal+part+of+left+inferior+rectal+artery] of  Systemic+artery
+
+	(branch+of Left+inferior+rectal+artery)
+	(FMAID "20835")
+	(Preferred+name [KB_INSTANCE_26258]))
+
+([Gluteal+part+of+right+inferior+rectal+artery] of  Systemic+artery
+
+	(branch+of Right+inferior+rectal+artery)
+	(FMAID "20834")
+	(Preferred+name [KB_INSTANCE_26257]))
+
+([Gluteal+surface+of+ilium] of  Region+of+surface+of+bone+organ
+
+	(FMAID "75334")
+	(Non-English+equivalent [su_incus_40409])
+	(Preferred+name [su_incus_26961]))
+
+([Gluteal+tributary+of+inferior+rectal+vein] of  Vein
+
+	(FMAID "21245")
+	(Preferred+name [KB_INSTANCE_26705])
+	(tributary+of Inferior+rectal+vein))
+
+([Gluteal+tributary+of+left+inferior+rectal+vein] of  Vein
+
+	(FMAID "21318")
+	(Preferred+name [KB_INSTANCE_26778])
+	(tributary+of Left+inferior+rectal+vein))
+
+([Gluteal+tributary+of+right+inferior+rectal+vein] of  Vein
+
+	(FMAID "21317")
+	(Preferred+name [KB_INSTANCE_26777])
+	(tributary+of Right+inferior+rectal+vein))
+
+([Gluteal+tuberosity+of+diaphysis+of+femur] of  Tubercle
+
+	(FMAID "43727")
+	(Non-English+equivalent [su_incus_37869])
+	(Preferred+name [fma_p2_Instance_400074])
+	(Synonym
+		[KB_INSTANCE_55579]
+		[KB_INSTANCE_55578]))
+
+([Gluteal+tuberosity+of+diaphysis+of+left+femur] of  Gluteal+tuberosity+of+diaphysis+of+femur
+
+	(FMAID "43729")
+	(Preferred+name [fma_p2_Instance_400076])
+	(Synonym [KB_INSTANCE_55581]))
+
+([Gluteal+tuberosity+of+diaphysis+of+right+femur] of  Gluteal+tuberosity+of+diaphysis+of+femur
+
+	(FMAID "43728")
+	(Preferred+name [fma_p2_Instance_400075])
+	(Synonym [KB_INSTANCE_55580]))
+
+([Gluteus+maximus] of  Gluteal+muscle
+
+	(FMAID "22314")
+	(member+of Set+of+muscles+of+gluteal+part+of+pelvic+girdle)
+	(nerve+supply
+		Nerve+to+gluteus+maximus+%281%29
+		Nerve+to+gluteus+maximus+%282%29
+		Nerve+to+gluteus+maximus+%28n%29)
+	(Non-English+equivalent
+		[su_incus_35462]
+		[KB_AUTO-INSERT%283%29_1325])
+	(Preferred+name [KB_INSTANCE_27820])
+	(primary+segmental+supply
+		L5
+		S1)
+	(secondary+segmental+supply S2)
+	(segmental+supply
+		L5
+		S1
+		S2)
+	(Synonym [KB_INSTANCE_27822])
+	(systemic+part+of Musculature+of+pelvic+girdle))
+
+([Gluteus+maximus+branch+of+first+perforating+branch+of+deep+femoral+artery] of  Systemic+artery
+
+	(branch+of First+perforating+femoral+artery)
+	(FMAID "22484")
+	(Preferred+name [KB_INSTANCE_28077]))
+
+([Gluteus+maximus+branch+of+first+perforating+branch+of+left+deep+femoral+artery] of  Systemic+artery
+
+	(branch+of First+perforating+femoral+artery+of+left+thigh)
+	(FMAID "22492")
+	(Preferred+name [KB_INSTANCE_28085]))
+
+([Gluteus+maximus+branch+of+first+perforating+branch+of+right+deep+femoral+artery] of  Systemic+artery
+
+	(branch+of First+perforating+femoral+artery+of+right+thigh)
+	(FMAID "22491")
+	(Preferred+name [KB_INSTANCE_28084]))
+
+([Gluteus+maximus+division+of+superficial+part+of+left+superior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Superficial+part+of+left+superior+gluteal+artery)
+	(FMAID "22388")
+	(Preferred+name [KB_INSTANCE_27946]))
+
+([Gluteus+maximus+division+of+superficial+part+of+right+superior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Superficial+part+of+right+superior+gluteal+artery)
+	(FMAID "22387")
+	(Preferred+name [KB_INSTANCE_27945]))
+
+([Gluteus+maximus+division+of+superficial+part+of+superior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Superficial+part+of+superior+gluteal+artery)
+	(FMAID "22385")
+	(Preferred+name [KB_INSTANCE_27943]))
+
+([Gluteus+maximus+part+of+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Inferior+gluteal+artery)
+	(FMAID "22261")
+	(Preferred+name [KB_INSTANCE_27760]))
+
+([Gluteus+maximus+part+of+left+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Left+inferior+gluteal+artery)
+	(FMAID "22270")
+	(Preferred+name [KB_INSTANCE_27769]))
+
+([Gluteus+maximus+part+of+right+inferior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Right+inferior+gluteal+artery)
+	(FMAID "22269")
+	(Preferred+name [KB_INSTANCE_27768]))
+
+([Gluteus+medius] of  Gluteal+muscle
+
+	(FMAID "22315")
+	(member+of Set+of+muscles+of+gluteal+part+of+pelvic+girdle)
+	(nerve+supply Nerve+to+gluteus+medius)
+	(Non-English+equivalent
+		[KB_INSTANCE_27825]
+		[KB_AUTO-INSERT%283%29_1326])
+	(Preferred+name [KB_INSTANCE_27823])
+	(primary+segmental+supply
+		L4
+		L5)
+	(secondary+segmental+supply S1)
+	(segmental+supply
+		L4
+		L5
+		S1)
+	(systemic+part+of Musculature+of+pelvic+girdle))
+
+([Gluteus+medius+part+of+left+superior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Inferior+division+of+deep+part+of+left+superior+gluteal+artery)
+	(FMAID "22401")
+	(Preferred+name [KB_INSTANCE_27959]))
+
+([Gluteus+medius+part+of+right+superior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Inferior+division+of+deep+part+of+right+superior+gluteal+artery)
+	(FMAID "22400")
+	(Preferred+name [KB_INSTANCE_27958]))
+
+([Gluteus+medius+part+of+superior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Inferior+division+of+deep+part+of+superior+gluteal+artery)
+	(FMAID "22394")
+	(Preferred+name [KB_INSTANCE_27952]))
+
+([Gluteus+minimus] of  Gluteal+muscle
+
+	(FMAID "22317")
+	(member+of Set+of+muscles+of+gluteal+part+of+pelvic+girdle)
+	(nerve+supply Nerve+to+gluteus+minimus)
+	(Non-English+equivalent
+		[KB_INSTANCE_27828]
+		[KB_AUTO-INSERT%283%29_1327])
+	(Preferred+name [KB_INSTANCE_27826])
+	(primary+segmental+supply
+		L4
+		L5)
+	(secondary+segmental+supply S1)
+	(segmental+supply
+		L4
+		L5
+		S1)
+	(systemic+part+of Musculature+of+pelvic+girdle))
+
+([Gluteus+minimus+part+of+left+superior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Inferior+division+of+deep+part+of+left+superior+gluteal+artery)
+	(FMAID "22404")
+	(Preferred+name [KB_INSTANCE_27962]))
+
+([Gluteus+minimus+part+of+right+superior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Inferior+division+of+deep+part+of+right+superior+gluteal+artery)
+	(FMAID "22403")
+	(Preferred+name [KB_INSTANCE_27961]))
+
+([Gluteus+minimus+part+of+superior+gluteal+artery] of  Systemic+artery
+
+	(branch+of Inferior+division+of+deep+part+of+superior+gluteal+artery)
+	(FMAID "22402")
+	(Preferred+name [KB_INSTANCE_27960]))
+
+([Glycine] of  Amino+acid
+
+	(FMAID "82753")
+	(Preferred+name [fm_live_27573]))
+
+([Glycinergic+amacrine+cell+of+retina] of  Diffuse+amacrine+cell+of+retina
+
+	(FMAID "62362")
+	(Preferred+name [fm-live_15498]))
+
+([Glycoconjugate] of  Biological+macromolecule
+
+	(FMAID "82782")
+	(Preferred+name [fm_live_27636]))
+
+([Glycogen] of  Polysaccharide
+
+	(FMAID "82747")
+	(Preferred+name [fm_live_27561]))
+
+([Glycoglycerolipid] of  Glycolipid
+
+	(FMAID "82805")
+	(Preferred+name [fm_live_27683]))
+
+([Glycolipid] of  Glycoconjugate
+
+	(FMAID "82780")
+	(Preferred+name [fm_live_27631]))
+
+([Glycopeptide] of  Glycoconjugate
+
+	(FMAID "82784")
+	(Preferred+name [fm_live_27640]))
+
+([Glycophorin] of  Anatomical+entity+template
+
+	(FMAID "72156")
+	(Preferred+name [FM_live_04914]))
+
+([Glycophosphatidylinositol] of  Glycolipid
+
+	(FMAID "82806")
+	(Preferred+name [fm_live_27685]))
+
+([Glycoprotein] of  Glycoconjugate
+
+	(FMAID "62925")
+	(Preferred+name [FM_live_00936]))
+
+([Glycosaminoglycan] of  Biological+macromolecule
+
+	(FMAID "63011")
+	(part+of Ground+substance)
+	(Preferred+name [FM_live_01345])
+	(Synonym [FM_live_01364]))
+
+([Glycosphingolipid] of  Glycolipid
+
+	(FMAID "82814")
+	(Preferred+name [fm_live_27701]))
+
+([Glycuronoglycosphingolipid] of  Acidic+glycosphingolipid
+
+	(FMAID "82817")
+	(Preferred+name [fm_live_27707]))
+
+([Goblet+cell] of  Endo-epithelial+cell
+
+	(FMAID "13148")
+	(part
+		Plasma+membrane
+		Protoplasm)
+	(part+of
+		Epithelium+of+trachea
+		Epithelium+of+pancreatic+duct
+		Epithelium+proper+of+jejunum
+		Epithelium+proper+of+duodenum
+		Epithelium+proper+of+ileum
+		Epithelium+of+gastric+cardiac+gland
+		Epithelium+of+pyloric+gland
+		Epithelium+of+principal+gastric+gland
+		Epithelium+of+crypt+of+Lieberkuhn+of+large+intestine
+		Epithelium+proper+of+appendix
+		Epithelium+proper+of+large+intestine
+		Epithelium+proper+of+small+intestine
+		Epithelium+of+crypt+of+Lieberkuhn+of+small+intestine
+		Epithelium+of+intestinal+villus
+		Epithelium+of+duodenal+gland
+		Epithelium+of+small+intestine
+		Epithelium+of+bronchus
+		Epithelium+proper+of+ascending+colon)
+	(Preferred+name [KB_INSTANCE_13839])
+	(regional+part
+		Plasma+membrane
+		Protoplasm)
+	(regional+part+of
+		Epithelium+of+trachea
+		Epithelium+of+bronchus
+		Epithelium+of+small+intestine
+		Epithelium+of+intestinal+villus
+		Epithelium+of+duodenal+gland
+		Epithelium+of+crypt+of+Lieberkuhn+of+small+intestine
+		Epithelium+proper+of+small+intestine
+		Epithelium+of+crypt+of+Lieberkuhn+of+large+intestine
+		Epithelium+proper+of+large+intestine
+		Epithelium+of+pancreatic+duct
+		Epithelium+of+gastric+cardiac+gland
+		Epithelium+of+principal+gastric+gland
+		Epithelium+of+pyloric+gland
+		Epithelium+proper+of+duodenum
+		Epithelium+proper+of+jejunum
+		Epithelium+proper+of+ileum
+		Epithelium+proper+of+appendix)
+	(Synonym [fm-live_16355]))
+
+([Goblet+cell+of+small+intestine] of  Endo-epithelial+cell
+
+	(FMAID "86929")
+	(Preferred+name [fma_p2_Instance_1020007])
+	(Synonym [fma_p2_Instance_1020008]))
+
+([Golgi+cistern] of  Region+of+Golgi+complex
+
+	(FMAID "61750")
+	(part Cavity+of+Golgi+cistern)
+	(Preferred+name [fm-live_09302])
+	(regional+part
+		Wall+of+Golgi+cistern
+		Cavity+of+Golgi+cistern)
+	(Synonym
+		[fm-live_07839]
+		[fm-live_08867]
+		[fm-live_07838]))
+
+([Golgi+complex] of  Membranous+cytoplasmic+organelle
+
+	(constitutional+part+of Endoplasm)
+	(FMAID "63843")
+	(part
+		Cis+Golgi+network
+		Trans+Golgi+network
+		Golgi+stack
+		Golgi+vesicle
+		Tubule+of+Golgi+complex)
+	(part+of Endoplasm)
+	(Preferred+name [fm-live_00548])
+	(regional+part
+		Cis+Golgi+network
+		Trans+Golgi+network
+		Cis+face+of+Golgi+stack
+		Trans+face+of+Golgi+stack
+		Golgi+vesicle)
+	(Synonym
+		[fm-live_00549]
+		[KB_INSTANCE_81344]
+		[fm-live_07699]
+		[fm-live_08881]
+		[fm_live_33001]))
+
+([Golgi+complex+of+cardiac+myocyte] of  Golgi+complex+of+striated+muscle+cell
+
+	(constitutional+part+of Sarcoplasm+of+cardiac+muscle+cell)
+	(FMAID "226186")
+	(part+of Sarcoplasm+of+cardiac+muscle+cell)
+	(Preferred+name [ONARD_Instance_570018])
+	(Synonym [ONARD_Instance_570019]))
+
+([Golgi+complex+of+muscle+cell] of  Golgi+complex
+
+	(FMAID "67907")
+	(part+of Muscle+cell+protoplasm)
+	(Preferred+name [fm-live_13291])
+	(Synonym [fm-live_13292]))
+
+([Golgi+complex+of+neuron] of  Golgi+complex
+
+	(FMAID "67420")
+	(Preferred+name [fm-live_14176]))
+
+([Golgi+complex+of+skeletal+muscle+fiber] of  Golgi+complex+of+striated+muscle+cell
+
+	(FMAID "226189")
+	(Preferred+name [ONARD_Instance_570021]))
+
+([Golgi+complex+of+smooth+muscle+cell] of  Golgi+complex+of+muscle+cell
+
+	(FMAID "226182")
+	(Preferred+name [ONARD_Instance_570014]))
+
+([Golgi+complex+of+striated+muscle+cell] of  Golgi+complex+of+muscle+cell
+
+	(FMAID "226184")
+	(Preferred+name [ONARD_Instance_570016]))
+
+([Golgi+epithelial+cell+of+cerebellum] of  Radial+astrocyte
+
+	(FMAID "54559")
+	(Preferred+name [KB_INSTANCE_69292])
+	(Synonym
+		[KB_INSTANCE_69293]
+		[KB_INSTANCE_69294]
+		[fm_live_30391]))
+
+([Golgi+network] of  Region+of+Golgi+complex
+
+	(FMAID "67108")
+	(Preferred+name [fm-live_07945]))
+
+([Golgi+neuron] of  Multipolar+neuron
+
+	(FMAID "82989")
+	(Preferred+name [fm_live_16512]))
+
+([Golgi+stack] of  Region+of+Golgi+complex
+
+	(FMAID "67103")
+	(part
+		Cis+face+of+Golgi+stack
+		Trans+face+of+Golgi+stack
+		Cis+Golgi+cistern
+		Medial+Golgi+cistern
+		Trans+Golgi+cistern)
+	(part+of Golgi+complex)
+	(Preferred+name [fm-live_07943]))
+
+([Golgi+type+I+neuron] of  Golgi+neuron
+
+	(FMAID "67421")
+	(Preferred+name [fm-live_14178]))
+
+([Golgi+type+II+neuron] of  Golgi+neuron
+
+	(FMAID "67426")
+	(Preferred+name [fm-live_14180]))
+
+([Golgi+vesicle] of  Region+of+Golgi+complex
+
+	(FMAID "61754")
+	(part
+		Wall+of+Golgi+vesicle
+		Cavity+of+Golgi+vesicle)
+	(part+of Golgi+complex)
+	(Preferred+name [fm-live_07947])
+	(regional+part
+		Wall+of+Golgi+vesicle
+		Cavity+of+Golgi+vesicle)
+	(regional+part+of Golgi+complex))
+
+([Gonad] of  General+anatomical+term+template
+
+	(definition "General anatomical term which refers to ovary or testis.")
+	(FMAID "18250")
+	(Preferred+name [KB_INSTANCE_22407])
+	(Synonym [KB_INSTANCE_22408]))
+
+([Gonadal+endocrine+system] of  Functional+system+template
+
+	(FMAID "74790")
+	(Preferred+name [fm_live_16118]))
+
+([Gonadotroph] of  Basophil+cell+of+pars+distalis+of+adenohypophysis
+
+	(FMAID "83100")
+	(Preferred+name [fm_live_17144])
+	(Synonym
+		[fm_live_30410]
+		[fma_p2_Instance_940002]
+		[fma_p2_Instance_1050004]))
+
+([Gonadotropin] of  Biogenic+peptide
+
+	(FMAID "83362")
+	(Preferred+name [fm_live_17706]))
+
+([Gonion] of  Anatomical+point
+
+	(FMAID "76626")
+	(Preferred+name [su_incus_31448]))
+
+([Gracile+fasciculus+of+medulla] of  Tract+of+neuraxis
+
+	(FMAID "72624")
+	(Non-English+equivalent
+		[su_incus_21779]
+		[su_incus_26670]
+		[su_incus_26671]
+		[su_incus_26672]
+		[su_incus_26673]
+		[KB_AUTO-INSERT%283%29_3273])
+	(part+of Medulla+oblongata)
+	(Preferred+name [live_incus_fm_09681])
+	(regional+part+of
+		Medulla+oblongata
+		White+matter+structure+of+medulla+oblongata)
+	(Synonym
+		[su_incus_26674]
+		[su_incus_26675]
+		[su_incus_26676]
+		[su_incus_26677]
+		[su_incus_26678]
+		[su_incus_34552]))
+
+([Gracile+fasciculus+of+spinal+cord] of  Fasciculus+of+spinal+cord
+
+	(FMAID "73938")
+	(part+of Spinal+cord)
+	(Preferred+name [live_incus_fm_11747])
+	(regional+part+of Spinal+cord))
+
+([Gracile+lobule] of  Lobular+organ+component
+
+	(bounded+by Surface+of+brain)
+	(FMAID "72523")
+	(Non-English+equivalent
+		[su_incus_21780]
+		[su_incus_21781]
+		[su_incus_21782]
+		[su_incus_21783]
+		[su_incus_36340]
+		[KB_AUTO-INSERT%283%29_3578])
+	(part+of Hemisphere+of+posterior+lobe+of+cerebellum)
+	(Preferred+name [live_incus_fm_09491])
+	(regional+part+of Hemisphere+of+posterior+lobe+of+cerebellum)
+	(Synonym
+		[su_incus_21784]
+		[su_incus_28944]))
+
+([Gracile+nucleus] of  Nucleus+of+neuraxis
+
+	(FMAID "72602")
+	(Non-English+equivalent
+		[su_incus_21787]
+		[KB_AUTO-INSERT%283%29_3338])
+	(part+of Medulla+oblongata)
+	(Preferred+name [live_incus_fm_09632])
+	(regional+part+of
+		Medulla+oblongata
+		Gray+matter+structure+of+medulla+oblongata
+		White+matter+structure+of+medulla+oblongata)
+	(Synonym [su_incus_17276]))
+
+([Gracile+nucleus+of+spinal+cord] of  Nucleus+of+spinal+cord
+
+	(FMAID "73897")
+	(part+of Spinal+cord)
+	(Preferred+name [live_incus_fm_11680])
+	(regional+part+of Spinal+cord))
+
+([Gracile+tubercle] of  Tubercle
+
+	(dimension 3-dimension)
+	(FMAID "75256")
+	(Non-English+equivalent
+		[su_incus_26635]
+		[su_incus_26636]
+		[su_incus_26637]
+		[KB_AUTO-INSERT%283%29_3301])
+	(Preferred+name [live_incus_fm_12165]))
+
+([Gracilis] of  Muscle+of+medial+compartment+of+thigh
+
+	(FMAID "43882")
+	(member+of Musculature+of+medial+compartment+of+thigh)
+	(nerve+supply Nerve+to+gracilis)
+	(Non-English+equivalent
+		[KB_INSTANCE_55770]
+		[KB_AUTO-INSERT%283%29_1347])
+	(part
+		Muscle+fasciculus+of+gracilis
+		Fascia+of+gracilis
+		Tendon+of+gracilis)
+	(part+of Lower+limb)
+	(Preferred+name [KB_INSTANCE_55768])
+	(primary+segmental+supply L2)
+	(regional+part
+		Muscle+fasciculus+of+gracilis
+		Fascia+of+gracilis
+		Tendon+of+gracilis)
+	(secondary+segmental+supply L3)
+	(segmental+supply
+		L2
+		L3)
+	(systemic+part+of Musculature+of+medial+compartment+of+thigh))
+
+([Gracilis+part+of+left+obturator+artery] of  Systemic+artery
+
+	(branch+of Left+obturator+artery)
+	(FMAID "70127")
+	(Preferred+name [fm_live_09831]))
+
+([Gracilis+part+of+obturator+artery] of  Systemic+artery
+
+	(branch+of Obturator+artery)
+	(FMAID "70125")
+	(Preferred+name [fm_live_09827]))
+
+([Gracilis+part+of+right+obturator+artery] of  Systemic+artery
+
+	(branch+of Right+obturator+artery)
+	(FMAID "70126")
+	(Preferred+name [fm_live_09829]))
+
+([Granular+cell+of+epidermis] of  Keratinized+cell+of+epidermis
+
+	(FMAID "70543")
+	(Preferred+name [FM_live_03163]))
+
+([Granular+component+of+nucleolus] of  Region+of+cell+nucleus
+
+	(FMAID "74863")
+	(Preferred+name [KB_INSTANCE_81391])
+	(Synonym
+		[KB_INSTANCE_81392]
+		[KB_INSTANCE_81393]
+		[KB_INSTANCE_81394]
+		[KB_INSTANCE_81395]))
+
+([Granular+layer+of+cerebellar+cortex] of  Gray+matter+layer+of+cerebellum
+
+	(dimension 3-dimension)
+	(FMAID "83140")
+	(Non-English+equivalent [su_incus_36023])
+	(Preferred+name [live_incus_fm_12412]))
+
+([Granular+layer+of+dentate+gyrus] of  Layer+of+dentate+gyrus
+
+	(dimension 3-dimension)
+	(FMAID "83146")
+	(Non-English+equivalent [su_incus_36001])
+	(Preferred+name [live_incus_fm_12720]))
+
+([Granular+layer+of+epidermis] of  Layer+of+epidermis+proper
+
+	(FMAID "70344")
+	(part+of Epidermis+proper)
+	(Preferred+name [FM_live_03150])
+	(regional+part+of Epidermis+proper)
+	(Synonym [FM_live_03139]))
+
+([Granular+leukocyte] of  Leukocyte
+
+	(FMAID "62854")
+	(part
+		Plasma+membrane
+		Protoplasm)
+	(part+of Blood)
+	(Preferred+name [FM_live_00660])
+	(regional+part
+		Plasma+membrane
+		Protoplasm)
+	(Synonym
+		[FM_live_00663]
+		[FM_live_00664]))
+
+([Granulocytopoietic+cell] of  Hemal+cell
+
+	(FMAID "83519")
+	(Preferred+name [fm_live_22633])
+	(Synonym [fm_live_22839]))
+
+([Granulosa+cell+of+ovary] of  Follicular+cell+of+ovary
+
+	(FMAID "18718")
+	(part+of Membrana+granulosa+of+ovarian+follicle)
+	(Preferred+name [KB_INSTANCE_23540])
+	(regional+part+of Membrana+granulosa+of+ovarian+follicle)
+	(Synonym [fm_live_23971]))
+
+([Granulosa+lutein+cell] of  Lutein+cell
+
+	(FMAID "18689")
+	(Preferred+name [KB_INSTANCE_23502])
+	(Synonym [KB_INSTANCE_23503]))
+
+([Gray+commissure+of+spinal+cord] of  Commissure+of+neuraxis
+
+	(dimension 3-dimension)
+	(FMAID "77036")
+	(Preferred+name [live_incus_fm_12527]))
+
+([Gray+communicating+ramus] of  Communicating+branch+of+spinal+nerve
+
+	(branch+of
+		Paravertebral+ganglion
+		Anterior+ramus+of+spinal+nerve)
+	(FMAID "5876")
+	(Preferred+name [KB_INSTANCE_01485])
+	(Synonym
+		[KB_INSTANCE_01486]
+		[KB_INSTANCE_01487]
+		[KB_INSTANCE_01488]
+		[fm-live_05734]))
+
+([Gray+communicating+ramus+of+cervicothoracic+ganglion+to+eighth+cervical+spinal+nerve] of  Lateral+branch+of+cervicothoracic+ganglion
+
+	(FMAID "6748")
+	(Preferred+name [KB_INSTANCE_03080])
+	(Synonym
+		[KB_INSTANCE_03081]
+		[KB_INSTANCE_03082]))
+
+([Gray+communicating+ramus+of+cervicothoracic+ganglion+to+fifth+cervical+spinal+nerve] of  Lateral+branch+of+cervicothoracic+ganglion
+
+	(FMAID "6947")
+	(Preferred+name [KB_INSTANCE_03474])
+	(Synonym
+		[KB_INSTANCE_03475]
+		[KB_INSTANCE_03476]))
+
+([Gray+communicating+ramus+of+cervicothoracic+ganglion+to+first+thoracic+spinal+nerve] of  Lateral+branch+of+cervicothoracic+ganglion
+
+	(branch+of Cervicothoracic+ganglion)
+	(FMAID "6614")
+	(Preferred+name [KB_INSTANCE_02879])
+	(Synonym
+		[KB_INSTANCE_02880]
+		[KB_INSTANCE_02881]))
+
+([Gray+communicating+ramus+of+cervicothoracic+ganglion+to+seventh+cervical+spinal+nerve] of  Lateral+branch+of+cervicothoracic+ganglion
+
+	(branch+of
+		Middle+cervical+ganglion
+		Cervicothoracic+ganglion)
+	(FMAID "6612")
+	(Preferred+name [KB_INSTANCE_02875])
+	(Synonym
+		[KB_INSTANCE_02876]
+		[KB_INSTANCE_02877]))
+
+([Gray+communicating+ramus+of+cervicothoracic+ganglion+to+sixth+cervical+spinal+nerve] of  Lateral+branch+of+cervicothoracic+ganglion
+
+	(FMAID "6946")
+	(Preferred+name [KB_INSTANCE_03471])
+	(Synonym
+		[KB_INSTANCE_03472]
+		[KB_INSTANCE_03473]))
+
+([Gray+communicating+ramus+of+eighth+intercostal+nerve] of  Gray+communicating+ramus+of+intercostal+nerve
+
+	(branch+of Eighth+intercostal+nerve)
+	(FMAID "11761")
+	(Preferred+name [KB_INSTANCE_11647])
+	(Synonym
+		[KB_INSTANCE_11648]
+		[KB_INSTANCE_11649]))
+
+([Gray+communicating+ramus+of+eleventh+intercostal+nerve] of  Gray+communicating+ramus+of+intercostal+nerve
+
+	(branch+of Eleventh+intercostal+nerve)
+	(FMAID "11773")
+	(Preferred+name [KB_INSTANCE_11677])
+	(Synonym
+		[KB_INSTANCE_11678]
+		[KB_INSTANCE_11679]))
+
+([Gray+communicating+ramus+of+fifth+intercostal+nerve] of  Gray+communicating+ramus+of+intercostal+nerve
+
+	(branch+of Fifth+intercostal+nerve)
+	(FMAID "11136")
+	(Preferred+name [KB_INSTANCE_10303])
+	(Synonym
+		[KB_INSTANCE_10304]
+		[KB_INSTANCE_10305]))
+
+([Gray+communicating+ramus+of+fifth+lumbar+nerve] of  Gray+communicating+ramus+of+lumbar+nerve
+
+	(branch+of Anterior+ramus+of+fifth+lumbar+nerve)
+	(FMAID "65914")
+	(Preferred+name [fm-live_05428]))
+
+([Gray+communicating+ramus+of+fifth+sacral+nerve] of  Gray+communicating+ramus+of+sacral+nerve
+
+	(FMAID "65990")
+	(Preferred+name [fm-live_05568]))
+
+([Gray+communicating+ramus+of+first+intercostal+nerve] of  Gray+communicating+ramus+of+intercostal+nerve
+
+	(branch+of First+intercostal+nerve)
+	(FMAID "12220")
+	(Preferred+name [KB_INSTANCE_12314])
+	(Synonym
+		[KB_INSTANCE_12315]
+		[KB_INSTANCE_12316]))
+
+([Gray+communicating+ramus+of+first+lumbar+nerve] of  Gray+communicating+ramus+of+lumbar+nerve
+
+	(branch+of Anterior+ramus+of+first+lumbar+nerve)
+	(FMAID "65910")
+	(Preferred+name [fm-live_05420]))
+
+([Gray+communicating+ramus+of+first+sacral+nerve] of  Gray+communicating+ramus+of+sacral+nerve
+
+	(FMAID "65986")
+	(Preferred+name [fm-live_05560]))
+
+([Gray+communicating+ramus+of+fourth+intercostal+nerve] of  Gray+communicating+ramus+of+intercostal+nerve
+
+	(branch+of Fourth+intercostal+nerve)
+	(FMAID "10972")
+	(Preferred+name [KB_INSTANCE_10036])
+	(Synonym
+		[KB_INSTANCE_10037]
+		[KB_INSTANCE_10038]))
+
+([Gray+communicating+ramus+of+fourth+lumbar+nerve] of  Gray+communicating+ramus+of+lumbar+nerve
+
+	(branch+of Anterior+ramus+of+fourth+lumbar+nerve)
+	(FMAID "65913")
+	(Preferred+name [fm-live_05426]))
+
+([Gray+communicating+ramus+of+fourth+sacral+nerve] of  Gray+communicating+ramus+of+sacral+nerve
+
+	(FMAID "65989")
+	(Preferred+name [fm-live_05566]))
+
+([Gray+communicating+ramus+of+intercostal+nerve] of  Gray+communicating+ramus+of+thoracic+nerve
+
+	(branch+of Thoracic+ganglion)
+	(FMAID "6621")
+	(Preferred+name [KB_INSTANCE_02890])
+	(Synonym [KB_INSTANCE_02891]))
+
+([Gray+communicating+ramus+of+left+eighth+intercostal+nerve] of  Gray+communicating+ramus+of+eighth+intercostal+nerve
+
+	(branch+of Left+eighth+intercostal+nerve)
+	(FMAID "6891")
+	(Preferred+name [KB_INSTANCE_03383])
+	(Synonym
+		[KB_INSTANCE_03384]
+		[KB_INSTANCE_03385]))
+
+([Gray+communicating+ramus+of+left+eleventh+intercostal+nerve] of  Gray+communicating+ramus+of+eleventh+intercostal+nerve
+
+	(branch+of Left+eleventh+intercostal+nerve)
+	(FMAID "6897")
+	(Preferred+name [KB_INSTANCE_03401])
+	(Synonym
+		[KB_INSTANCE_03402]
+		[KB_INSTANCE_03403]))
+
+([Gray+communicating+ramus+of+left+fifth+intercostal+nerve] of  Gray+communicating+ramus+of+fifth+intercostal+nerve
+
+	(branch+of Left+fifth+intercostal+nerve)
+	(FMAID "6760")
+	(Preferred+name [KB_INSTANCE_03104])
+	(Synonym
+		[KB_INSTANCE_03105]
+		[KB_INSTANCE_03106]))
+
+([Gray+communicating+ramus+of+left+fifth+lumbar+nerve] of  Gray+communicating+ramus+of+fifth+lumbar+nerve
+
+	(FMAID "65916")
+	(Preferred+name [fm-live_05432]))
+
+([Gray+communicating+ramus+of+left+fifth+sacral+nerve] of  Gray+communicating+ramus+of+fifth+sacral+nerve
+
+	(FMAID "66000")
+	(Preferred+name [fm-live_05588]))
+
+([Gray+communicating+ramus+of+left+first+intercostal+nerve] of  Gray+communicating+ramus+of+first+intercostal+nerve
+
+	(branch+of Left+first+intercostal+nerve)
+	(FMAID "6084")
+	(Preferred+name [KB_INSTANCE_01880])
+	(Synonym
+		[KB_INSTANCE_01881]
+		[KB_INSTANCE_01882]))
+
+([Gray+communicating+ramus+of+left+first+lumbar+nerve] of  Gray+communicating+ramus+of+first+lumbar+nerve
+
+	(FMAID "65924")
+	(Preferred+name [fm-live_05448]))
+
+([Gray+communicating+ramus+of+left+first+sacral+nerve] of  Gray+communicating+ramus+of+first+sacral+nerve
+
+	(FMAID "65992")
+	(Preferred+name [fm-live_05572]))
+
+([Gray+communicating+ramus+of+left+fourth+intercostal+nerve] of  Gray+communicating+ramus+of+fourth+intercostal+nerve
+
+	(branch+of Left+fourth+intercostal+nerve)
+	(FMAID "6758")
+	(Preferred+name [KB_INSTANCE_03098])
+	(Synonym
+		[KB_INSTANCE_03099]
+		[KB_INSTANCE_03100]))
+
+([Gray+communicating+ramus+of+left+fourth+lumbar+nerve] of  Gray+communicating+ramus+of+fourth+lumbar+nerve
+
+	(FMAID "65918")
+	(Preferred+name [fm-live_05436]))
+
+([Gray+communicating+ramus+of+left+fourth+sacral+nerve] of  Gray+communicating+ramus+of+fourth+sacral+nerve
+
+	(FMAID "65998")
+	(Preferred+name [fm-live_05584]))
+
+([Gray+communicating+ramus+of+left+ninth+intercostal+nerve] of  Gray+communicating+ramus+of+ninth+intercostal+nerve
+
+	(branch+of Left+ninth+intercostal+nerve)
+	(FMAID "6893")
+	(Preferred+name [KB_INSTANCE_03389])
+	(Synonym
+		[KB_INSTANCE_03390]
+		[KB_INSTANCE_03391]))
+
+([Gray+communicating+ramus+of+left+second+intercostal+nerve] of  Gray+communicating+ramus+of+second+intercostal+nerve
+
+	(branch+of Left+second+intercostal+nerve)
+	(FMAID "6757")
+	(Preferred+name [KB_INSTANCE_03095])
+	(Synonym
+		[KB_INSTANCE_03096]
+		[KB_INSTANCE_03097]))
+
+([Gray+communicating+ramus+of+left+second+lumbar+nerve] of  Gray+communicating+ramus+of+second+lumbar+nerve
+
+	(FMAID "65922")
+	(Preferred+name [fm-live_05444]))
+
+([Gray+communicating+ramus+of+left+second+sacral+nerve] of  Gray+communicating+ramus+of+second+sacral+nerve
+
+	(FMAID "65994")
+	(Preferred+name [fm-live_05576]))
+
+([Gray+communicating+ramus+of+left+seventh+intercostal+nerve] of  Gray+communicating+ramus+of+seventh+intercostal+nerve
+
+	(branch+of Left+seventh+intercostal+nerve)
+	(FMAID "6889")
+	(Preferred+name [KB_INSTANCE_03377])
+	(Synonym
+		[KB_INSTANCE_03378]
+		[KB_INSTANCE_03379]))
+
+([Gray+communicating+ramus+of+left+sixth+intercostal+nerve] of  Gray+communicating+ramus+of+sixth+intercostal+nerve
+
+	(branch+of Left+sixth+intercostal+nerve)
+	(FMAID "6763")
+	(Preferred+name [KB_INSTANCE_03113])
+	(Synonym
+		[KB_INSTANCE_03114]
+		[KB_INSTANCE_03115]))
+
+([Gray+communicating+ramus+of+left+subcostal+nerve] of  Gray+communicating+ramus+of+subcostal+nerve
+
+	(FMAID "11788")
+	(Preferred+name [KB_INSTANCE_11709])
+	(Synonym [KB_INSTANCE_11710]))
+
+([Gray+communicating+ramus+of+left+tenth+intercostal+nerve] of  Gray+communicating+ramus+of+tenth+intercostal+nerve
+
+	(branch+of Left+tenth+intercostal+nerve)
+	(FMAID "6895")
+	(Preferred+name [KB_INSTANCE_03395])
+	(Synonym
+		[KB_INSTANCE_03396]
+		[KB_INSTANCE_03397]))
+
+([Gray+communicating+ramus+of+left+third+intercostal+nerve] of  Gray+communicating+ramus+of+third+intercostal+nerve
+
+	(branch+of Left+third+intercostal+nerve)
+	(FMAID "6133")
+	(Preferred+name [KB_INSTANCE_02003])
+	(Synonym
+		[KB_INSTANCE_02004]
+		[KB_INSTANCE_02005]))
+
+([Gray+communicating+ramus+of+left+third+lumbar+nerve] of  Gray+communicating+ramus+of+third+lumbar+nerve
+
+	(FMAID "65920")
+	(Preferred+name [fm-live_05440]))
+
+([Gray+communicating+ramus+of+left+third+sacral+nerve] of  Gray+communicating+ramus+of+third+sacral+nerve
+
+	(FMAID "65996")
+	(Preferred+name [fm-live_05580]))
+
+([Gray+communicating+ramus+of+lumbar+nerve] of  Gray+communicating+ramus
+
+	(FMAID "65909")
+	(Preferred+name [fm-live_05418]))
+
+([Gray+communicating+ramus+of+middle+cervical+ganglion+to+fifth+cervical+spinal+nerve] of  Lateral+branch+of+middle+cervical+ganglion
+
+	(branch+of
+		Middle+cervical+ganglion
+		Cervicothoracic+ganglion
+		Vertebral+ganglion)
+	(FMAID "6610")
+	(Preferred+name [KB_INSTANCE_02869])
+	(Synonym
+		[KB_INSTANCE_02870]
+		[KB_INSTANCE_02871]))
+
+([Gray+communicating+ramus+of+middle+cervical+ganglion+to+sixth+cervical+spinal+nerve] of  Lateral+branch+of+middle+cervical+ganglion
+
+	(branch+of
+		Middle+cervical+ganglion
+		Cervicothoracic+ganglion)
+	(FMAID "6611")
+	(Preferred+name [KB_INSTANCE_02872])
+	(Synonym
+		[KB_INSTANCE_02873]
+		[KB_INSTANCE_02874]))
+
+([Gray+communicating+ramus+of+ninth+intercostal+nerve] of  Gray+communicating+ramus+of+intercostal+nerve
+
+	(branch+of Ninth+intercostal+nerve)
+	(FMAID "11765")
+	(Preferred+name [KB_INSTANCE_11657])
+	(Synonym
+		[KB_INSTANCE_11658]
+		[KB_INSTANCE_11659]))
+
+([Gray+communicating+ramus+of+right+eighth+intercostal+nerve] of  Gray+communicating+ramus+of+eighth+intercostal+nerve
+
+	(branch+of Right+eighth+intercostal+nerve)
+	(FMAID "6890")
+	(Preferred+name [KB_INSTANCE_03380])
+	(Synonym
+		[KB_INSTANCE_03381]
+		[KB_INSTANCE_03382]))
+
+([Gray+communicating+ramus+of+right+eleventh+intercostal+nerve] of  Gray+communicating+ramus+of+eleventh+intercostal+nerve
+
+	(branch+of Right+eleventh+intercostal+nerve)
+	(FMAID "6896")
+	(Preferred+name [KB_INSTANCE_03398])
+	(Synonym
+		[KB_INSTANCE_03399]
+		[KB_INSTANCE_03400]))
+
+([Gray+communicating+ramus+of+right+fifth+intercostal+nerve] of  Gray+communicating+ramus+of+fifth+intercostal+nerve
+
+	(branch+of Right+fifth+intercostal+nerve)
+	(FMAID "6761")
+	(Preferred+name [KB_INSTANCE_03107])
+	(Synonym
+		[KB_INSTANCE_03108]
+		[KB_INSTANCE_03109]))
+
+([Gray+communicating+ramus+of+right+fifth+lumbar+nerve] of  Gray+communicating+ramus+of+fifth+lumbar+nerve
+
+	(FMAID "65915")
+	(Preferred+name [fm-live_05430]))
+
+([Gray+communicating+ramus+of+right+fifth+sacral+nerve] of  Gray+communicating+ramus+of+fifth+sacral+nerve
+
+	(FMAID "65999")
+	(Preferred+name [fm-live_05586]))
+
+([Gray+communicating+ramus+of+right+first+intercostal+nerve] of  Gray+communicating+ramus+of+first+intercostal+nerve
+
+	(branch+of Right+first+intercostal+nerve)
+	(FMAID "6082")
+	(Preferred+name [KB_INSTANCE_01874])
+	(Synonym
+		[KB_INSTANCE_01875]
+		[KB_INSTANCE_01876]))
+
+([Gray+communicating+ramus+of+right+first+lumbar+nerve] of  Gray+communicating+ramus+of+first+lumbar+nerve
+
+	(FMAID "65923")
+	(Preferred+name [fm-live_05446]))
+
+([Gray+communicating+ramus+of+right+first+sacral+nerve] of  Gray+communicating+ramus+of+first+sacral+nerve
+
+	(FMAID "65991")
+	(Preferred+name [fm-live_05570]))
+
+([Gray+communicating+ramus+of+right+fourth+intercostal+nerve] of  Gray+communicating+ramus+of+fourth+intercostal+nerve
+
+	(branch+of Right+fourth+intercostal+nerve)
+	(FMAID "6759")
+	(Preferred+name [KB_INSTANCE_03101])
+	(Synonym
+		[KB_INSTANCE_03102]
+		[KB_INSTANCE_03103]))
+
+([Gray+communicating+ramus+of+right+fourth+lumbar+nerve] of  Gray+communicating+ramus+of+fourth+lumbar+nerve
+
+	(FMAID "65917")
+	(Preferred+name [fm-live_05434]))
+
+([Gray+communicating+ramus+of+right+fourth+sacral+nerve] of  Gray+communicating+ramus+of+fourth+sacral+nerve
+
+	(FMAID "65997")
+	(Preferred+name [fm-live_05582]))
+
+([Gray+communicating+ramus+of+right+ninth+intercostal+nerve] of  Gray+communicating+ramus+of+ninth+intercostal+nerve
+
+	(branch+of Right+ninth+intercostal+nerve)
+	(FMAID "6892")
+	(Preferred+name [KB_INSTANCE_03386])
+	(Synonym
+		[KB_INSTANCE_03387]
+		[KB_INSTANCE_03388]))
+
+([Gray+communicating+ramus+of+right+second+intercostal+nerve] of  Gray+communicating+ramus+of+second+intercostal+nerve
+
+	(branch+of Right+second+intercostal+nerve)
+	(FMAID "6122")
+	(Preferred+name [KB_INSTANCE_01982])
+	(Synonym
+		[KB_INSTANCE_01983]
+		[KB_INSTANCE_01984]))
+
+([Gray+communicating+ramus+of+right+second+lumbar+nerve] of  Gray+communicating+ramus+of+second+lumbar+nerve
+
+	(FMAID "65921")
+	(Preferred+name [fm-live_05442]))
+
+([Gray+communicating+ramus+of+right+second+sacral+nerve] of  Gray+communicating+ramus+of+second+sacral+nerve
+
+	(FMAID "65993")
+	(Preferred+name [fm-live_05574]))
+
+([Gray+communicating+ramus+of+right+seventh+intercostal+nerve] of  Gray+communicating+ramus+of+seventh+intercostal+nerve
+
+	(branch+of Right+seventh+intercostal+nerve)
+	(FMAID "6888")
+	(Preferred+name [KB_INSTANCE_03374])
+	(Synonym
+		[KB_INSTANCE_03375]
+		[KB_INSTANCE_03376]))
+
+([Gray+communicating+ramus+of+right+sixth+intercostal+nerve] of  Gray+communicating+ramus+of+sixth+intercostal+nerve
+
+	(branch+of Right+sixth+intercostal+nerve)
+	(FMAID "6762")
+	(Preferred+name [KB_INSTANCE_03110])
+	(Synonym
+		[KB_INSTANCE_03111]
+		[KB_INSTANCE_03112]))
+
+([Gray+communicating+ramus+of+right+subcostal+nerve] of  Gray+communicating+ramus+of+subcostal+nerve
+
+	(FMAID "11780")
+	(Preferred+name [KB_INSTANCE_11693])
+	(Synonym [KB_INSTANCE_11694]))
+
+([Gray+communicating+ramus+of+right+tenth+intercostal+nerve] of  Gray+communicating+ramus+of+tenth+intercostal+nerve
+
+	(branch+of Right+tenth+intercostal+nerve)
+	(FMAID "6894")
+	(Preferred+name [KB_INSTANCE_03392])
+	(Synonym
+		[KB_INSTANCE_03393]
+		[KB_INSTANCE_03394]))
+
+([Gray+communicating+ramus+of+right+third+intercostal+nerve] of  Gray+communicating+ramus+of+third+intercostal+nerve
+
+	(branch+of Right+third+intercostal+nerve)
+	(FMAID "6124")
+	(Preferred+name [KB_INSTANCE_01985])
+	(Synonym
+		[KB_INSTANCE_01986]
+		[KB_INSTANCE_01987]))
+
+([Gray+communicating+ramus+of+right+third+lumbar+nerve] of  Gray+communicating+ramus+of+third+lumbar+nerve
+
+	(FMAID "65919")
+	(Preferred+name [fm-live_05438]))
+
+([Gray+communicating+ramus+of+right+third+sacral+nerve] of  Gray+communicating+ramus+of+third+sacral+nerve
+
+	(FMAID "65995")
+	(Preferred+name [fm-live_05578]))
+
+([Gray+communicating+ramus+of+sacral+nerve] of  Gray+communicating+ramus
+
+	(FMAID "65985")
+	(Preferred+name [fm-live_05558]))
+
+([Gray+communicating+ramus+of+second+intercostal+nerve] of  Gray+communicating+ramus+of+intercostal+nerve
+
+	(branch+of Second+intercostal+nerve)
+	(FMAID "11277")
+	(Preferred+name [KB_INSTANCE_10640])
+	(Synonym
+		[KB_INSTANCE_10641]
+		[KB_INSTANCE_10642]))
+
+([Gray+communicating+ramus+of+second+lumbar+nerve] of  Gray+communicating+ramus+of+lumbar+nerve
+
+	(branch+of Anterior+ramus+of+second+lumbar+nerve)
+	(FMAID "65911")
+	(Preferred+name [fm-live_05422]))
+
+([Gray+communicating+ramus+of+second+sacral+nerve] of  Gray+communicating+ramus+of+sacral+nerve
+
+	(FMAID "65987")
+	(Preferred+name [fm-live_05562]))
+
+([Gray+communicating+ramus+of+seventh+intercostal+nerve] of  Gray+communicating+ramus+of+intercostal+nerve
+
+	(branch+of Seventh+intercostal+nerve)
+	(FMAID "11676")
+	(Preferred+name [KB_INSTANCE_11444])
+	(Synonym
+		[KB_INSTANCE_11445]
+		[KB_INSTANCE_11446]))
+
+([Gray+communicating+ramus+of+sixth+intercostal+nerve] of  Gray+communicating+ramus+of+intercostal+nerve
+
+	(branch+of Sixth+intercostal+nerve)
+	(FMAID "11655")
+	(Preferred+name [KB_INSTANCE_11405])
+	(Synonym
+		[KB_INSTANCE_11406]
+		[KB_INSTANCE_11407]))
+
+([Gray+communicating+ramus+of+subcostal+nerve] of  Gray+communicating+ramus+of+thoracic+nerve
+
+	(FMAID "11648")
+	(Preferred+name [KB_INSTANCE_11390])
+	(Synonym [KB_INSTANCE_11391]))
+
+([Gray+communicating+ramus+of+tenth+intercostal+nerve] of  Gray+communicating+ramus+of+intercostal+nerve
+
+	(branch+of Tenth+intercostal+nerve)
+	(FMAID "11769")
+	(Preferred+name [KB_INSTANCE_11667])
+	(Synonym
+		[KB_INSTANCE_11668]
+		[KB_INSTANCE_11669]))
+
+([Gray+communicating+ramus+of+third+intercostal+nerve] of  Gray+communicating+ramus+of+intercostal+nerve
+
+	(branch+of Third+intercostal+nerve)
+	(FMAID "11007")
+	(Preferred+name [KB_INSTANCE_10092])
+	(Synonym
+		[KB_INSTANCE_10093]
+		[KB_INSTANCE_10094]))
+
+([Gray+communicating+ramus+of+third+lumbar+nerve] of  Gray+communicating+ramus+of+lumbar+nerve
+
+	(branch+of Anterior+ramus+of+third+lumbar+nerve)
+	(FMAID "65912")
+	(Preferred+name [fm-live_05424]))
+
+([Gray+communicating+ramus+of+third+sacral+nerve] of  Gray+communicating+ramus+of+sacral+nerve
+
+	(FMAID "65988")
+	(Preferred+name [fm-live_05564]))
+
+([Gray+communicating+ramus+of+thoracic+nerve] of  Gray+communicating+ramus
+
+	(branch+of Intercostal+nerve)
+	(FMAID "14055")
+	(Preferred+name [KB_INSTANCE_15357])
+	(Synonym
+		[KB_INSTANCE_15358]
+		[KB_INSTANCE_15359]))
+
+([Gray+communicating+ramus+of+variant+inferior+cervical+ganglion+to+eighth+cervical+spinal+nerve] of  Lateral+branch+of+variant+inferior+cervical+ganglion
+
+	(FMAID "6954")
+	(Preferred+name [KB_INSTANCE_03493])
+	(Synonym
+		[KB_INSTANCE_03494]
+		[KB_INSTANCE_03495]))
+
+([Gray+communicating+ramus+of+variant+inferior+cervical+ganglion+to+fifth+cervical+spinal+nerve] of  Lateral+branch+of+variant+inferior+cervical+ganglion
+
+	(FMAID "6951")
+	(Preferred+name [KB_INSTANCE_03484])
+	(Synonym
+		[KB_INSTANCE_03485]
+		[KB_INSTANCE_03486]))
+
+([Gray+communicating+ramus+of+variant+inferior+cervical+ganglion+to+seventh+cervical+spinal+nerve] of  Lateral+branch+of+variant+inferior+cervical+ganglion
+
+	(FMAID "6953")
+	(Preferred+name [KB_INSTANCE_03490])
+	(Synonym
+		[KB_INSTANCE_03491]
+		[KB_INSTANCE_03492]))
+
+([Gray+communicating+ramus+of+variant+inferior+cervical+ganglion+to+sixth+cervical+spinal+nerve] of  Lateral+branch+of+variant+inferior+cervical+ganglion
+
+	(FMAID "6952")
+	(Preferred+name [KB_INSTANCE_03487])
+	(Synonym
+		[KB_INSTANCE_03488]
+		[KB_INSTANCE_03489]))
+
+([Gray+communicating+ramus+of+variant+vertebral+ganglion+to+fifth+cervical+spinal+nerve] of  Lateral+branch+of+variant+vertebral+ganglion
+
+	(FMAID "6950")
+	(Preferred+name [KB_INSTANCE_03481])
+	(Synonym
+		[KB_INSTANCE_03482]
+		[KB_INSTANCE_03483]))
+
+([Gray+communicating+ramus+of+variant+vertebral+ganglion+to+fourth+cervical+spinal+nerve] of  Lateral+branch+of+variant+vertebral+ganglion
+
+	(FMAID "6949")
+	(Preferred+name [KB_INSTANCE_03478])
+	(Synonym
+		[KB_INSTANCE_03479]
+		[KB_INSTANCE_03480]))
+
+([Gray+communicating+ramus+to+first+cervical+spinal+nerve] of  Lateral+branch+of+superior+cervical+ganglion
+
+	(branch+of Superior+cervical+ganglion)
+	(FMAID "6584")
+	(Preferred+name [KB_INSTANCE_02824])
+	(Synonym
+		[KB_INSTANCE_02825]
+		[KB_INSTANCE_02826]))
+
+([Gray+communicating+ramus+to+fourth+cervical+spinal+nerve] of  Lateral+branch+of+superior+cervical+ganglion
+
+	(branch+of
+		Superior+cervical+ganglion
+		Middle+cervical+ganglion
+		Vertebral+ganglion)
+	(FMAID "6589")
+	(Preferred+name [KB_INSTANCE_02835])
+	(Synonym
+		[KB_INSTANCE_02836]
+		[KB_INSTANCE_02837]))
+
+([Gray+communicating+ramus+to+second+cervical+spinal+nerve] of  Lateral+branch+of+superior+cervical+ganglion
+
+	(branch+of Superior+cervical+ganglion)
+	(FMAID "6587")
+	(Preferred+name [KB_INSTANCE_02829])
+	(Synonym
+		[KB_INSTANCE_02830]
+		[KB_INSTANCE_02831]))
+
+([Gray+communicating+ramus+to+third+cervical+spinal+nerve] of  Lateral+branch+of+superior+cervical+ganglion
+
+	(branch+of Superior+cervical+ganglion)
+	(FMAID "6588")
+	(Preferred+name [KB_INSTANCE_02832])
+	(Synonym
+		[KB_INSTANCE_02833]
+		[KB_INSTANCE_02834]))
+
+([Gray+matter+component+of+neuraxis] of  Organ+component+of+neuraxis
+
+	(definition "Organ component of neuraxis which is an aggregation of neural somatic tissue. Examples: cerebral cortex, thalamus, red nucleus.")
+	(FMAID "83680")
+	(Preferred+name [live_incus_fm_13492]))
+
+([Gray+matter+layer+of+cerebellum] of  Gray+matter+layer+of+neuraxis
+
+	(FMAID "83141")
+	(Preferred+name [live_incus_fm_13589]))
+
+([Gray+matter+layer+of+neuraxis] of  Layer+of+neuraxis
+
+	(FMAID "83142")
+	(Preferred+name [live_incus_fm_13530]))
+
+([Gray+matter+layer+of+stratum+lemnisci+of+superior+colliculus] of  Gray+matter+layer+of+superior+colliculus
+
+	(FMAID "74650")
+	(Preferred+name [live_incus_fm_12016]))
+
+([Gray+matter+layer+of+superior+colliculus] of  Gray+matter+layer+of+neuraxis
+
+	(FMAID "77870")
+	(Preferred+name [live_incus_fm_13181]))
+
+([Gray+matter+of+basilar+part+of+pons] of  Gray+matter+of+pons
+
+	(dimension 3-dimension)
+	(FMAID "83922")
+	(Non-English+equivalent [su_incus_36021])
+	(Preferred+name [live_incus_fm_12319])
+	(Synonym
+		[su_incus_32922]
+		[su_incus_32923]))
+
+([Gray+matter+of+cerebellum] of  Gray+matter+of+metencephalon
+
+	(dimension 3-dimension)
+	(FMAID "83924")
+	(Preferred+name [live_incus_fm_12410]))
+
+([Gray+matter+of+diencephalon] of  Gray+matter+of+neuraxis
+
+	(dimension 3-dimension)
+	(FMAID "83912")
+	(Preferred+name [live_incus_fm_12252]))
+
+([Gray+matter+of+epithalamus] of  Gray+matter+of+diencephalon
+
+	(FMAID "83916")
+	(Preferred+name [live_incus_fm_13166]))
+
+([Gray+matter+of+hypothalamus] of  Gray+matter+of+diencephalon
+
+	(FMAID "83915")
+	(Preferred+name [live_incus_fm_13164]))
+
+([Gray+matter+of+medulla+oblongata] of  Gray+matter+of+neuraxis
+
+	(dimension 3-dimension)
+	(FMAID "83925")
+	(Non-English+equivalent [su_incus_36026])
+	(Preferred+name [live_incus_fm_12258])
+	(Synonym
+		[su_incus_32913]
+		[su_incus_32914]))
+
+([Gray+matter+of+metencephalon] of  Gray+matter+of+neuraxis
+
+	(dimension 3-dimension)
+	(FMAID "83920")
+	(Preferred+name [live_incus_fm_12256]))
+
+([Gray+matter+of+midbrain] of  Gray+matter+of+neuraxis
+
+	(dimension 3-dimension)
+	(FMAID "83913")
+	(Preferred+name [live_incus_fm_12254]))
+
+([Gray+matter+of+midbrain+tectum] of  Gray+matter+of+midbrain
+
+	(FMAID "83919")
+	(Preferred+name [live_incus_fm_13170]))
+
+([Gray+matter+of+midbrain+tegmentum] of  Gray+matter+of+midbrain
+
+	(dimension 3-dimension)
+	(FMAID "83918")
+	(Non-English+equivalent [su_incus_36013])
+	(Preferred+name [live_incus_fm_12288])
+	(Synonym
+		[su_incus_30110]
+		[su_incus_30111]))
+
+([Gray+matter+of+neuraxis] of  Organ+component
+
+	(definition "Heterogeneous cluster of neural somas in the brain and the spinal cord.")
+	(FMAID "67242")
+	(Non-English+equivalent
+		[su_incus_35995]
+		[KB_AUTO-INSERT%283%29_1727])
+	(Preferred+name [fm-live_10738])
+	(Synonym
+		[su_incus_27729]
+		[su_incus_27829]
+		[ONARD_Instance_530068]))
+
+([Gray+matter+of+pons] of  Gray+matter+of+metencephalon
+
+	(dimension 3-dimension)
+	(FMAID "83921")
+	(Preferred+name [live_incus_fm_12317]))
+
+([Gray+matter+of+pontine+tegmentum] of  Gray+matter+of+pons
+
+	(dimension 3-dimension)
+	(FMAID "83923")
+	(Non-English+equivalent [su_incus_36022])
+	(Preferred+name [live_incus_fm_12321])
+	(Synonym
+		[su_incus_32930]
+		[su_incus_32931]))
+
+([Gray+matter+of+spinal+cord] of  Gray+matter+of+neuraxis
+
+	(dimension 3-dimension)
+	(FMAID "83926")
+	(Non-English+equivalent [su_incus_36027])
+	(Preferred+name [live_incus_fm_12260])
+	(Synonym
+		[su_incus_32895]
+		[su_incus_32896]))
+
+([Gray+matter+of+subthalamus] of  Gray+matter+of+diencephalon
+
+	(FMAID "83917")
+	(Preferred+name [live_incus_fm_13168]))
+
+([Gray+matter+of+telencephalon] of  Gray+matter+of+neuraxis
+
+	(dimension 3-dimension)
+	(FMAID "83911")
+	(Preferred+name [live_incus_fm_12250]))
+
+([Gray+matter+of+thalamus] of  Gray+matter+of+diencephalon
+
+	(dimension 3-dimension)
+	(FMAID "83914")
+	(Non-English+equivalent
+		[su_incus_36012]
+		[KB_AUTO-INSERT%283%29_3632])
+	(Preferred+name [live_incus_fm_12418])
+	(Synonym [su_incus_33183]))
+
+([Gray+matter+structure+of+basal+part+of+pons] of  Subdivision+of+pons
+
+	(FMAID "72648")
+	(Preferred+name [live_incus_fm_09727]))
+
+([Gray+matter+structure+of+cerebral+hemisphere] of  Subdivision+of+cerebral+hemisphere
+
+	(FMAID "61821")
+	(part+of Cerebral+hemisphere)
+	(Preferred+name [fm-live_14062])
+	(regional+part
+		Cerebral+cortex
+		Subcortical+gray+matter+structure)
+	(regional+part+of Cerebral+hemisphere))
+
+([Gray+matter+structure+of+diencephalon] of  Segment+of+diencephalon
+
+	(FMAID "62041")
+	(Preferred+name [fm-live_15162]))
+
+([Gray+matter+structure+of+medulla+oblongata] of  Segment+of+medulla+oblongata
+
+	(FMAID "71010")
+	(Preferred+name [live_incus_fm_08317])
+	(regional+part
+		Nucleus+intercalatus
+		Arcuate+nucleus+of+medulla
+		Medullary+reticular+formation
+		Peritrigeminal+nucleus
+		Lateral+pericuneate+nucleus
+		Sublingual+nucleus
+		Gracile+nucleus
+		Caudal+part+of+spinal+trigeminal+nucleus
+		Cuneate+nucleus
+		Pontobulbar+nucleus
+		Cochlear+nuclear+complex
+		Nucleus+prepositus
+		Central+gray+substance+of+medulla
+		Medial+pericuneate+nucleus
+		Inferior+salivatory+nucleus
+		Diffuse+reticular+nucleus
+		Accessory+cuneate+nucleus
+		Solitary+tract+nuclear+complex
+		Area+postrema
+		Medullary+raphe+nuclear+complex
+		Paratrigeminal+nucleus
+		Inferior+olivary+complex
+		Anterior+horn+of+medulla+oblongata)
+	(regional+part+of Medulla+oblongata))
+
+([Gray+matter+structure+of+midbrain+tegmentum] of  Segment+of+midbrain+tegmentum
+
+	(FMAID "62441")
+	(Preferred+name [fm-live_16190]))
+
+([Gray+matter+structure+of+pontine+tegmentum] of  Subdivision+of+pons
+
+	(FMAID "71246")
+	(Preferred+name [live_incus_fm_08648]))
+
+([Gray+matter+structure+of+tectum] of  Segment+of+midbrain+tectum
+
+	(FMAID "77868")
+	(Preferred+name [live_incus_fm_13180]))
+
+([Gray+matter+zone+of+spinal+cord] of  Zone+of+neuraxis
+
+	(FMAID "68860")
+	(Preferred+name [live_incus_fm_08193]))
+
+([Gray+ramus+communicans+from+left+superior+cervical+ganglion+to+anterior+ramus+of+left+first+cervical+nerve] of  Gray+ramus+communicans+from+superior+cervical+ganglion+to+anterior+ramus+of+first+cervical+nerve
+
+	(branch+of
+		Anterior+ramus+of+left+first+cervical+nerve
+		Anterior+ramus+of+left+second+cervical+nerve)
+	(FMAID "6861")
+	(Preferred+name [fm-live_05107])
+	(Synonym [KB_INSTANCE_03340]))
+
+([Gray+ramus+communicans+from+left+superior+cervical+ganglion+to+anterior+ramus+of+left+second+cervical+nerve] of  Gray+ramus+communicans+from+superior+cervical+ganglion+to+anterior+ramus+of+second+cervical+nerve
+
+	(branch+of Anterior+ramus+of+left+second+cervical+nerve)
+	(FMAID "65795")
+	(Preferred+name [fm-live_05112])
+	(Synonym [fm-live_05111]))
+
+([Gray+ramus+communicans+from+right+superior+cervical+ganglion+to+anterior+ramus+of+right+first+cervical+nerve] of  Gray+ramus+communicans+from+superior+cervical+ganglion+to+anterior+ramus+of+first+cervical+nerve
+
+	(branch+of
+		Anterior+ramus+of+right+first+cervical+nerve
+		Anterior+ramus+of+right+second+cervical+nerve)
+	(FMAID "6860")
+	(Preferred+name [fm-live_05106])
+	(Synonym [KB_INSTANCE_03338]))
+
+([Gray+ramus+communicans+from+right+superior+cervical+ganglion+to+anterior+ramus+of+right+second+cervical+nerve] of  Gray+ramus+communicans+from+superior+cervical+ganglion+to+anterior+ramus+of+second+cervical+nerve
+
+	(branch+of Anterior+ramus+of+right+second+cervical+nerve)
+	(FMAID "65794")
+	(Preferred+name [fm-live_05113])
+	(Synonym [fm-live_05109]))
+
+([Gray+ramus+communicans+from+superior+cervical+ganglion+to+anterior+ramus+of+first+cervical+nerve] of  Branch+of+anterior+ramus+of+first+cervical+nerve
+
+	(branch+of Anterior+ramus+of+first+cervical+nerve)
+	(FMAID "65783")
+	(Preferred+name [fm-live_05105]))
+
+([Gray+ramus+communicans+from+superior+cervical+ganglion+to+anterior+ramus+of+second+cervical+nerve] of  Branch+of+anterior+ramus+of+second+cervical+nerve
+
+	(branch+of Anterior+ramus+of+second+cervical+nerve)
+	(FMAID "65409")
+	(Preferred+name [fm-live_04294]))
+
+([Gray+ramus+communicans+to+eighth+cervical+spinal+nerve] of  Branch+of+cervicothoracic+ganglion
+
+	(branch+of Cervicothoracic+ganglion)
+	(FMAID "6613")
+	(Preferred+name [KB_INSTANCE_02878]))
+
+([Grayson%27s+ligament] of  Ligament+of+hand
+
+	(FMAID "43540")
+	(Preferred+name [KB_INSTANCE_55376]))
+
+([Grayson%27s+ligament+of+index+finger] of  Grayson%27s+ligament
+
+	(FMAID "43557")
+	(Preferred+name [KB_INSTANCE_55393]))
+
+([Grayson%27s+ligament+of+left+index+finger] of  Grayson%27s+ligament+of+index+finger
+
+	(FMAID "43564")
+	(Preferred+name [KB_INSTANCE_55400]))
+
+([Grayson%27s+ligament+of+left+little+finger] of  Grayson%27s+ligament+of+little+finger
+
+	(FMAID "43570")
+	(Preferred+name [KB_INSTANCE_55406]))
+
+([Grayson%27s+ligament+of+left+middle+finger] of  Grayson%27s+ligament+of+middle+finger
+
+	(FMAID "43566")
+	(Preferred+name [KB_INSTANCE_55402]))
+
+([Grayson%27s+ligament+of+left+ring+finger] of  Grayson%27s+ligament+of+ring+finger
+
+	(FMAID "43568")
+	(Preferred+name [KB_INSTANCE_55404]))
+
+([Grayson%27s+ligament+of+left+thumb] of  Grayson%27s+ligament+of+thumb
+
+	(FMAID "43562")
+	(Preferred+name [KB_INSTANCE_55398]))
+
+([Grayson%27s+ligament+of+little+finger] of  Grayson%27s+ligament
+
+	(FMAID "43560")
+	(Preferred+name [KB_INSTANCE_55396]))
+
+([Grayson%27s+ligament+of+middle+finger] of  Grayson%27s+ligament
+
+	(FMAID "43558")
+	(Preferred+name [KB_INSTANCE_55394]))
+
+([Grayson%27s+ligament+of+right+index+finger] of  Grayson%27s+ligament+of+index+finger
+
+	(FMAID "43563")
+	(Preferred+name [KB_INSTANCE_55399]))
+
+([Grayson%27s+ligament+of+right+little+finger] of  Grayson%27s+ligament+of+little+finger
+
+	(FMAID "43569")
+	(Preferred+name [KB_INSTANCE_55405]))
+
+([Grayson%27s+ligament+of+right+middle+finger] of  Grayson%27s+ligament+of+middle+finger
+
+	(FMAID "43565")
+	(Preferred+name [KB_INSTANCE_55401]))
+
+([Grayson%27s+ligament+of+right+ring+finger] of  Grayson%27s+ligament+of+ring+finger
+
+	(FMAID "43567")
+	(Preferred+name [KB_INSTANCE_55403]))
+
+([Grayson%27s+ligament+of+right+thumb] of  Grayson%27s+ligament+of+thumb
+
+	(FMAID "43561")
+	(Preferred+name [KB_INSTANCE_55397]))
+
+([Grayson%27s+ligament+of+ring+finger] of  Grayson%27s+ligament
+
+	(FMAID "43559")
+	(Preferred+name [KB_INSTANCE_55395]))
+
+([Grayson%27s+ligament+of+thumb] of  Grayson%27s+ligament
+
+	(FMAID "43556")
+	(Preferred+name [KB_INSTANCE_55392]))
+
+([Great+auricular+nerve] of  Peripheral+nerve
+
+	(branch
+		Anterior+branch+of+great+auricular+nerve
+		Posterior+branch+of+great+auricular+nerve)
+	(branch+of Cervical+nerve+plexus)
+	(FMAID "6872")
+	(member+of
+		Set+of+branches+of+cervical+nerve+plexus
+		Set+of+ascending+superficial+branches+of+cervical+plexus)
+	(nerve+supply+of
+		Skin+of+mastoid+part+of+head
+		Skin+of+parotid+part+of+face)
+	(Non-English+equivalent
+		[KB_INSTANCE_03353]
+		[KB_AUTO-INSERT%283%29_4042])
+	(Preferred+name [KB_INSTANCE_03352])
+	(systemic+part+of Set+of+peripheral+nerves))
+
+([Great+cardiac+vein] of  Vein
+
+	(constitutional+part+of Left+side+of+heart)
+	(FMAID "4707")
+	(Non-English+equivalent
+		[su_incus_37327]
+		[su_incus_37328]
+		[KB_AUTO-INSERT%283%29_2798])
+	(part+of
+		Coronary+sinus+tree
+		Left+side+of+heart
+		Heart)
+	(Preferred+name [KB_INSTANCE_00957])
+	(regional+part+of Coronary+sinus+tree)
+	(tributary
+		Left+marginal+vein
+		Unnamed+tributary+from+left+atrium
+		Unnamed+tributary+from+left+ventricle
+		Unnamed+tributary+from+right+ventricle)
+	(tributary+of Coronary+sinus))
+
+([Great+cerebral+vein] of  Vein
+
+	(FMAID "50993")
+	(Non-English+equivalent
+		[KB_INSTANCE_64404]
+		[KB_AUTO-INSERT%283%29_2950])
+	(Preferred+name [KB_INSTANCE_64402])
+	(Synonym
+		[KB_INSTANCE_64403]
+		[su_incus_17268])
+	(tributary+of Straight+sinus))
+
+([Great+pancreatic+artery] of  Systemic+artery
+
+	(arterial+supply+of Pancreas)
+	(branch+of Splenic+artery)
+	(FMAID "14792")
+	(Non-English+equivalent
+		[su_incus_37028]
+		[KB_AUTO-INSERT%283%29_2690])
+	(Preferred+name [KB_INSTANCE_16562])
+	(Synonym [su_incus_32782]))
+
+([Great+saphenous+vein] of  Vein
+
+	(FMAID "21376")
+	(Non-English+equivalent
+		[KB_INSTANCE_26839]
+		[KB_AUTO-INSERT%283%29_3096])
+	(part+of Thigh)
+	(Preferred+name [KB_INSTANCE_26836])
+	(Synonym
+		[KB_INSTANCE_26837]
+		[KB_INSTANCE_26838])
+	(tributary
+		Superficial+external+pudendal+vein
+		Medial+marginal+vein
+		Accessory+saphenous+vein
+		Anterior+femoral+cutaneous+vein
+		Communicating+vein+to+short+saphenous+vein
+		Dorsal+venous+arch+of+foot
+		Tibial+tubercle+perforator
+		Hunterian+perforator
+		Superficial+circumflex+iliac+vein
+		Superficial+epigastric+vein
+		Medial+accessory+saphenous+vein
+		Lateral+accessory+saphenous+vein)
+	(tributary+of Femoral+vein))
+
+([Greater+anterior+gastric+nerve] of  Anterior+gastric+branch+of+anterior+vagal+trunk
+
+	(branch
+		Pyloric+branch+of+greater+anterior+gastric+nerve
+		Branch+of+greater+anterior+gastric+nerve+to+anterior+part+of+fundus+of+stomach
+		Branch+of+greater+anterior+gastric+nerve+to+coeliac+plexus)
+	(branch+of Anterior+vagal+trunk)
+	(FMAID "6684")
+	(Non-English+equivalent
+		[KB_INSTANCE_02979]
+		[KB_AUTO-INSERT%283%29_4030])
+	(Preferred+name [KB_INSTANCE_02977])
+	(Synonym
+		[KB_INSTANCE_02978]
+		[KB_INSTANCE_02980]
+		[su_incus_17316]))
+
+([Greater+curvature+of+stomach] of  Zone+of+stomach
+
+	(FMAID "14574")
+	(Non-English+equivalent
+		[su_incus_38120]
+		[ONARD_Instance_580143]
+		[ONARD_Instance_580826])
+	(part
+		Sulcus+intermedius+of+stomach
+		Greater+curvature+proper+of+stomach)
+	(part+of Stomach)
+	(Preferred+name [KB_INSTANCE_16153]))
+
+([Greater+curvature+of+stomach+%28line%29] of  Anatomical+line+of+stomach
+
+	(FMAID "80020")
+	(Preferred+name [fm_live_24191]))
+
+([Greater+curvature+proper+of+stomach] of  Subdivision+of+greater+curvature+of+stomach+%28line%29
+
+	(FMAID "19966")
+	(part+of Greater+curvature+of+stomach)
+	(Preferred+name [KB_INSTANCE_25190]))
+
+([Greater+horn] of  Zone+of+hyoid+bone
+
+	(FMAID "59496")
+	(Non-English+equivalent
+		[su_incus_37991]
+		[KB_AUTO-INSERT%283%29_485])
+	(Preferred+name [KB_INSTANCE_78559])
+	(Synonym
+		[KB_INSTANCE_78560]
+		[KB_INSTANCE_78561]
+		[KB_INSTANCE_78562]
+		[su_incus_29689]))
+
+([Greater+occipital+nerve] of  Branch+of+posterior+ramus+of+second+cervical+nerve
+
+	(branch
+		C2+branch+to+semispinalis+capitis+%281%29
+		C2+branch+to+semispinalis+cervicis
+		C2+branch+to+multifidus)
+	(branch+of Posterior+ramus+of+second+cervical+nerve)
+	(FMAID "65443")
+	(member+of Set+of+Arnold%27s+nerves)
+	(Non-English+equivalent
+		[su_incus_36592]
+		[KB_AUTO-INSERT%283%29_4036])
+	(Preferred+name [fm-live_04358])
+	(Synonym [fm-live_04565]))
+
+([Greater+omentum] of  Omentum
+
+	(attaches+to
+		Greater+curvature+of+stomach
+		Wall+of+transverse+colon
+		Wall+of+superior+part+of+duodenum)
+	(FMAID "9580")
+	(Non-English+equivalent
+		[KB_INSTANCE_08221]
+		[KB_AUTO-INSERT%283%29_2265])
+	(part
+		Anterior+lamina+of+greater+omentum
+		Posterior+lamina+of+greater+omentum
+		Gastrocolic+ligament
+		Gastrosplenic+ligament
+		Splenorenal+ligament)
+	(part+of Visceral+peritoneum)
+	(Preferred+name [KB_INSTANCE_08220])
+	(regional+part
+		Anterior+lamina+of+greater+omentum
+		Posterior+lamina+of+greater+omentum
+		Gastrocolic+ligament
+		Gastrosplenic+ligament
+		Splenorenal+ligament)
+	(regional+part+of Visceral+peritoneum))
+
+([Greater+palatine+artery] of  Systemic+artery
+
+	(branch+of Descending+palatine+artery)
+	(FMAID "49795")
+	(Non-English+equivalent
+		[su_incus_36940]
+		[KB_AUTO-INSERT%283%29_2521])
+	(Preferred+name [KB_INSTANCE_62860]))
+
+([Greater+palatine+canal] of  Cranial+conduit
+
+	(FMAID "57761")
+	(Non-English+equivalent
+		[su_incus_40179]
+		[KB_AUTO-INSERT%283%29_286])
+	(Preferred+name [KB_INSTANCE_76103]))
+
+([Greater+palatine+foramen] of  Cranial+conduit
+
+	(FMAID "53173")
+	(Non-English+equivalent
+		[KB_INSTANCE_67233]
+		[KB_AUTO-INSERT%283%29_287])
+	(Preferred+name [KB_INSTANCE_67232]))
+
+([Greater+palatine+groove] of  Subdivision+of+surface+of+maxilla
+
+	(FMAID "57762")
+	(Non-English+equivalent
+		[KB_INSTANCE_76105]
+		[KB_AUTO-INSERT%283%29_436])
+	(Preferred+name [KB_INSTANCE_76104]))
+
+([Greater+palatine+nerve] of  Branch+of+maxillary+nerve
+
+	(branch
+		Branch+of+greater+palatine+nerve+to+gingiva
+		Branch+of+greater+palatine+nerve+to+mucosa+of+hard+palate
+		Communicating+branch+of+greater+palatine+nerve+with+nasopalatine+nerve
+		Posterior+inferior+nasal+nerve)
+	(branch+of Maxillary+nerve)
+	(FMAID "52802")
+	(Non-English+equivalent
+		[KB_INSTANCE_66587]
+		[KB_AUTO-INSERT%283%29_3977])
+	(Preferred+name [KB_INSTANCE_66586]))
+
+([Greater+pelvis] of  General+anatomical+term+template
+
+	(definition "General anatomical term which refers to part of the bony pelvis superior to the pelvic inlet.")
+	(FMAID "75419")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_675])
+	(Preferred+name [su_incus_27065])
+	(Synonym [su_incus_27066]))
+
+([Greater+petrosal+nerve] of  Branch+of+facial+nerve
+
+	(branch+of Facial+nerve)
+	(FMAID "53417")
+	(Non-English+equivalent
+		[su_incus_33545]
+		[KB_INSTANCE_67569]
+		[KB_INSTANCE_67572]
+		[KB_AUTO-INSERT%283%29_4012])
+	(Preferred+name [KB_INSTANCE_67566])
+	(Synonym
+		[KB_INSTANCE_67567]
+		[KB_INSTANCE_67568]
+		[KB_INSTANCE_67570]))
+
+([Greater+petrosal+part+of+nerve+of+pterygoid+canal] of  Subdivision+of+nerve+of+pterygoid+canal
+
+	(FMAID "67587")
+	(Preferred+name [fm-live_10947]))
+
+([Greater+posterior+gastric+nerve] of  Posterior+gastric+branch+of+posterior+vagal+trunk
+
+	(branch
+		Pyloric+branch+of+greater+posterior+gastric+nerve
+		Branch+of+greater+posterior+gastric+nerve+to+posterior+part+of+body+of+stomach)
+	(branch+of Posterior+vagal+trunk)
+	(FMAID "6689")
+	(Preferred+name [KB_INSTANCE_02985])
+	(Synonym [FM_live_10211]))
+
+([Greater+sac] of  Segment+of+peritoneal+sac
+
+	(constitutional+part
+		Wall+of+greater+sac
+		Cavity+of+greater+sac)
+	(FMAID "19799")
+	(part
+		Wall+of+greater+sac
+		Cavity+of+greater+sac)
+	(part+of Peritoneal+sac)
+	(Preferred+name [KB_INSTANCE_24987])
+	(regional+part
+		Abdominal+part+of+greater+sac
+		Pelvic+part+of+greater+sac)
+	(regional+part+of Peritoneal+sac))
+
+([Greater+sciatic+foramen] of  Anatomical+conduit
+
+	(contains
+		Superior+gluteal+artery
+		Inferior+gluteal+artery
+		Superior+gluteal+vein
+		Inferior+gluteal+vein
+		Superior+gluteal+nerve
+		Inferior+gluteal+nerve
+		Piriformis
+		Posterior+femoral+cutaneous+nerve
+		Internal+pudendal+artery
+		Internal+pudendal+vein
+		Pudendal+nerve
+		Sciatic+nerve
+		Nerve+to+obturator+internus
+		Nerve+to+quadratus+femoris)
+	(FMAID "17031")
+	(Non-English+equivalent
+		[su_incus_40189]
+		[KB_AUTO-INSERT%283%29_903])
+	(Preferred+name [KB_INSTANCE_20397])
+	(Synonym [KB_INSTANCE_20398]))
+
+([Greater+sciatic+notch] of  Anatomical+line
+
+	(FMAID "16902")
+	(Non-English+equivalent
+		[KB_INSTANCE_20228]
+		[KB_AUTO-INSERT%283%29_645])
+	(Preferred+name [KB_INSTANCE_20227]))
+
+([Greater+splanchnic+nerve] of  Thoracic+splanchnic+nerve
+
+	(FMAID "6281")
+	(Non-English+equivalent
+		[KB_INSTANCE_02298]
+		[KB_AUTO-INSERT%283%29_4150])
+	(Preferred+name [KB_INSTANCE_02297])
+	(Synonym [KB_INSTANCE_02296])
+	(systemic+part+of Set+of+autonomic+nerves))
+
+([Greater+supraclavicular+compartment] of  Compartment+of+neck
+
+	(FMAID "45795")
+	(Non-English+equivalent [KB_INSTANCE_58054])
+	(Preferred+name [KB_INSTANCE_58053]))
+
+([Greater+supraclavicular+fossa] of  Space+of+compartment+of+neck
+
+	(FMAID "84958")
+	(Preferred+name [fm_live_31897]))
+
+([Greater+trochanter] of  Zone+of+proximal+epiphysis+of+femur
+
+	(FMAID "32852")
+	(Non-English+equivalent
+		[KB_INSTANCE_40610]
+		[KB_AUTO-INSERT%283%29_693])
+	(part
+		Bony+part+of+greater+trochanter+of+femur
+		Periosteum+of+greater+trochanter+of+femur)
+	(part+of Proximal+epiphysis+of+femur)
+	(Preferred+name [KB_INSTANCE_40609])
+	(receives+attachment
+		Gluteus+medius
+		Gluteus+minimus
+		Piriformis
+		Obturator+externus
+		Obturator+internus
+		Gemellus)
+	(regional+part
+		Bony+part+of+greater+trochanter+of+femur
+		Periosteum+of+greater+trochanter+of+femur)
+	(regional+part+of Proximal+epiphysis+of+femur))
+
+([Greater+tubercle+of+humerus] of  Tubercle
+
+	(FMAID "23390")
+	(Non-English+equivalent
+		[KB_INSTANCE_29207]
+		[KB_AUTO-INSERT%283%29_603])
+	(part+of Proximal+epiphysis+of+humerus)
+	(Preferred+name [KB_INSTANCE_29205])
+	(regional+part+of Proximal+epiphysis+of+humerus)
+	(Synonym
+		[KB_INSTANCE_29206]
+		[su_incus_30350]))
+
+([Greater+tubercle+of+left+humerus] of  Greater+tubercle+of+humerus
+
+	(FMAID "23392")
+	(part+of Proximal+epiphysis+of+left+humerus)
+	(Preferred+name [KB_INSTANCE_29210])
+	(regional+part+of Proximal+epiphysis+of+left+humerus)
+	(Synonym [KB_INSTANCE_29211]))
+
+([Greater+tubercle+of+right+humerus] of  Greater+tubercle+of+humerus
+
+	(FMAID "23391")
+	(part+of Proximal+epiphysis+of+right+humerus)
+	(Preferred+name [KB_INSTANCE_29208])
+	(regional+part+of Proximal+epiphysis+of+right+humerus)
+	(Synonym [KB_INSTANCE_29209]))
+
+([Greater+tympanic+spine] of  Bone+spine
+
+	(dimension 3-dimension)
+	(FMAID "75766")
+	(Non-English+equivalent
+		[su_incus_37938]
+		[KB_AUTO-INSERT%283%29_391])
+	(part+of Tympanic+part+of+temporal+bone)
+	(Preferred+name [su_incus_29658]))
+
+([Greater+vestibular+gland] of  Vestibular+gland
+
+	(constitutional+part+of Urogenital+part+of+female+perineum)
+	(FMAID "9598")
+	(Non-English+equivalent
+		[KB_INSTANCE_08254]
+		[KB_AUTO-INSERT%283%29_2145]
+		[ONARD_Instance_580028])
+	(part
+		Duct+of+greater+vestibular+gland
+		Orifice+of+greater+vestibular+gland)
+	(part+of Urogenital+part+of+female+perineum)
+	(Preferred+name [KB_INSTANCE_08252])
+	(regional+part
+		Duct+of+greater+vestibular+gland
+		Orifice+of+greater+vestibular+gland)
+	(Synonym
+		[KB_INSTANCE_08253]
+		[KB_INSTANCE_08255]
+		[KB_INSTANCE_08256]
+		[su_incus_14576]
+		[su_incus_14577])
+	(systemic+part+of Integumentary+system))
+
+([Greater+wing+of+sphenoid] of  Zone+of+sphenoid
+
+	(FMAID "52868")
+	(Non-English+equivalent [su_incus_37964])
+	(part+of Right+temple)
+	(Preferred+name [KB_INSTANCE_66685])
+	(Synonym
+		[KB_INSTANCE_66686]
+		[KB_INSTANCE_66687]))
+
+([Grey+line] of  Anatomical+line
+
+	(FMAID "74591")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_3490])
+	(Preferred+name [su_incus_22648]))
+
+([Groove] of  Anatomical+line
+
+	(FMAID "75037")
+	(Non-English+equivalent
+		[su_incus_40660]
+		[KB_AUTO-INSERT%283%29_255])
+	(Preferred+name [su_incus_25226]))
+
+([Groove+for+arch+of+aorta] of  Pulmonary+groove
+
+	(2D+part+of
+		Suprahilar+part+of+mediastinal+surface+of+left+upper+lobe
+		Medial+surface+of+upper+lobe+of+lung)
+	(FMAID "13183")
+	(Preferred+name [KB_INSTANCE_13915])
+	(Synonym
+		[KB_INSTANCE_13916]
+		[KB_INSTANCE_13917]))
+
+([Groove+for+arch+of+azygos+vein] of  Groove+for+azygos+vein
+
+	(2D+part+of Suprahilar+part+of+mediastinal+surface+of+right+upper+lobe)
+	(FMAID "13162")
+	(Preferred+name [KB_INSTANCE_13878])
+	(Synonym [KB_INSTANCE_13879]))
+
+([Groove+for+ascending+aorta] of  Pulmonary+groove
+
+	(FMAID "13312")
+	(Preferred+name [KB_INSTANCE_14158])
+	(Synonym
+		[KB_INSTANCE_14159]
+		[KB_INSTANCE_14160]))
+
+([Groove+for+azygos+vein] of  Pulmonary+groove
+
+	(2D+part+of
+		Posthilar+part+of+mediastinal+surface+of+right+lower+lobe
+		Medial+surface+of+upper+lobe+of+lung
+		Medial+surface+of+lower+lobe+of+lung)
+	(FMAID "13160")
+	(Preferred+name [KB_INSTANCE_13873])
+	(Synonym
+		[KB_INSTANCE_13874]
+		[KB_INSTANCE_13875]))
+
+([Groove+for+branch+of+middle+meningeal+artery] of  Subdivision+of+internal+surface+of+parietal+bone
+
+	(FMAID "57114")
+	(Preferred+name [KB_INSTANCE_74936]))
+
+([Groove+for+costoclavicular+ligament] of  Subdivision+of+surface+of+clavicle
+
+	(FMAID "75810")
+	(Non-English+equivalent
+		[su_incus_40342]
+		[KB_AUTO-INSERT%283%29_595])
+	(Preferred+name [su_incus_30247])
+	(Synonym [su_incus_30147]))
+
+([Groove+for+descending+aorta] of  Pulmonary+groove
+
+	(2D+part+of
+		Posthilar+part+of+mediastinal+surface+of+left+lower+lobe
+		Medial+surface+of+lower+lobe+of+lung)
+	(FMAID "13185")
+	(Preferred+name [KB_INSTANCE_13921])
+	(Synonym
+		[KB_INSTANCE_13922]
+		[KB_INSTANCE_13923]))
+
+([Groove+for+eighth+rib] of  Pulmonary+groove
+
+	(2D+part+of Costal+surface+of+lung)
+	(FMAID "18199")
+	(Preferred+name [KB_INSTANCE_22356]))
+
+([Groove+for+esophagus] of  Pulmonary+groove
+
+	(2D+part+of
+		Suprahilar+part+of+mediastinal+surface+of+right+upper+lobe
+		Posthilar+part+of+mediastinal+surface+of+right+lower+lobe
+		Posthilar+part+of+mediastinal+surface+of+left+lower+lobe
+		Medial+surface+of+upper+lobe+of+lung
+		Medial+surface+of+lower+lobe+of+lung)
+	(FMAID "13165")
+	(Preferred+name [KB_INSTANCE_13888])
+	(Synonym
+		[KB_INSTANCE_13889]
+		[KB_INSTANCE_13890]))
+
+([Groove+for+extensor+muscle+tendons] of  Anatomical+line
+
+	(FMAID "75341")
+	(Non-English+equivalent
+		[su_incus_40680]
+		[KB_AUTO-INSERT%283%29_621])
+	(Preferred+name [su_incus_26968]))
+
+([Groove+for+fifth+rib] of  Pulmonary+groove
+
+	(2D+part+of Costal+surface+of+lung)
+	(FMAID "18190")
+	(Preferred+name [KB_INSTANCE_22347]))
+
+([Groove+for+first+rib] of  Pulmonary+groove
+
+	(2D+part+of Costal+surface+of+lung)
+	(FMAID "13308")
+	(Preferred+name [KB_INSTANCE_14146])
+	(Synonym
+		[KB_INSTANCE_14147]
+		[KB_INSTANCE_14148]))
+
+([Groove+for+fourth+rib] of  Pulmonary+groove
+
+	(2D+part+of Costal+surface+of+lung)
+	(FMAID "18187")
+	(Preferred+name [KB_INSTANCE_22344]))
+
+([Groove+for+greater+petrosal+nerve] of  Subdivision+of+surface+of+temporal+bone
+
+	(FMAID "55988")
+	(Non-English+equivalent [KB_INSTANCE_71804])
+	(Preferred+name [KB_INSTANCE_71803]))
+
+([Groove+for+inferior+petrosal+sinus] of  Subdivision+of+surface+of+skull
+
+	(FMAID "75339")
+	(Non-English+equivalent
+		[fm_live_26378]
+		[KB_AUTO-INSERT%283%29_134])
+	(Preferred+name [su_incus_26966])
+	(Synonym [fm_live_26368]))
+
+([Groove+for+inferior+vena+cava] of  Pulmonary+groove
+
+	(2D+part+of
+		Posthilar+part+of+mediastinal+surface+of+right+lower+lobe
+		Medial+surface+of+lower+lobe+of+lung)
+	(FMAID "13187")
+	(Preferred+name [KB_INSTANCE_13926])
+	(Synonym
+		[KB_INSTANCE_13927]
+		[KB_INSTANCE_13928]))
+
+([Groove+for+internal+thoracic+artery] of  Pulmonary+groove
+
+	(FMAID "13309")
+	(Preferred+name [KB_INSTANCE_14149])
+	(Synonym
+		[KB_INSTANCE_14150]
+		[KB_INSTANCE_14151]))
+
+([Groove+for+left+common+carotid+artery] of  Pulmonary+groove
+
+	(2D+part+of Medial+surface+of+upper+lobe+of+lung)
+	(FMAID "13184")
+	(Preferred+name [KB_INSTANCE_13918])
+	(Synonym
+		[KB_INSTANCE_13919]
+		[KB_INSTANCE_13920]))
+
+([Groove+for+left+eighth+rib] of  Groove+for+eighth+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+left+lower+lobe)
+	(FMAID "18201")
+	(Preferred+name [KB_INSTANCE_22358]))
+
+([Groove+for+left+fifth+rib] of  Groove+for+fifth+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+left+lower+lobe)
+	(FMAID "18192")
+	(Preferred+name [KB_INSTANCE_22349]))
+
+([Groove+for+left+first+rib] of  Groove+for+first+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+left+upper+lobe)
+	(FMAID "18180")
+	(Preferred+name [KB_INSTANCE_22337]))
+
+([Groove+for+left+fourth+rib] of  Groove+for+fourth+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+left+upper+lobe)
+	(FMAID "18189")
+	(Preferred+name [KB_INSTANCE_22346]))
+
+([Groove+for+left+greater+petrosal+nerve] of  Groove+for+greater+petrosal+nerve
+
+	(FMAID "55991")
+	(Preferred+name [KB_INSTANCE_71809]))
+
+([Groove+for+left+inferior+petrosal+sinus] of  Groove+for+inferior+petrosal+sinus
+
+	(FMAID "81051")
+	(Preferred+name [fm_live_26382]))
+
+([Groove+for+left+internal+thoracic+artery] of  Groove+for+internal+thoracic+artery
+
+	(FMAID "13311")
+	(Preferred+name [KB_INSTANCE_14155])
+	(Synonym
+		[KB_INSTANCE_14156]
+		[KB_INSTANCE_14157]))
+
+([Groove+for+left+lesser+petrosal+nerve] of  Groove+for+lesser+petrosal+nerve
+
+	(FMAID "55984")
+	(Preferred+name [KB_INSTANCE_71794]))
+
+([Groove+for+left+middle+temporal+artery] of  Groove+for+middle+temporal+artery
+
+	(FMAID "54955")
+	(Preferred+name [KB_INSTANCE_69841]))
+
+([Groove+for+left+ninth+rib] of  Groove+for+ninth+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+left+lower+lobe)
+	(FMAID "18204")
+	(Preferred+name [KB_INSTANCE_22361]))
+
+([Groove+for+left+second+rib] of  Groove+for+second+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+left+upper+lobe)
+	(FMAID "18183")
+	(Preferred+name [KB_INSTANCE_22340]))
+
+([Groove+for+left+seventh+rib] of  Groove+for+seventh+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+left+lower+lobe)
+	(FMAID "18198")
+	(Preferred+name [KB_INSTANCE_22355]))
+
+([Groove+for+left+sigmoid+sinus] of  Groove+for+sigmoid+sinus
+
+	(FMAID "57124")
+	(Preferred+name [KB_INSTANCE_74946]))
+
+([Groove+for+left+sixth+rib] of  Groove+for+sixth+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+left+lower+lobe)
+	(FMAID "18195")
+	(Preferred+name [KB_INSTANCE_22352]))
+
+([Groove+for+left+subclavian+artery] of  Groove+for+subclavian+artery
+
+	(2D+part+of Suprahilar+part+of+mediastinal+surface+of+left+upper+lobe)
+	(FMAID "13159")
+	(Preferred+name [KB_INSTANCE_13870])
+	(Synonym
+		[KB_INSTANCE_13871]
+		[KB_INSTANCE_13872]))
+
+([Groove+for+left+tenth+rib] of  Groove+for+tenth+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+left+lower+lobe)
+	(FMAID "18207")
+	(Preferred+name [KB_INSTANCE_22364]))
+
+([Groove+for+left+third+rib] of  Groove+for+third+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+left+upper+lobe)
+	(FMAID "18186")
+	(Preferred+name [KB_INSTANCE_22343]))
+
+([Groove+for+lesser+petrosal+nerve] of  Subdivision+of+surface+of+temporal+bone
+
+	(FMAID "55977")
+	(Non-English+equivalent [KB_INSTANCE_71778])
+	(Preferred+name [KB_INSTANCE_71777]))
+
+([Groove+for+marginal+sinus] of  Anatomical+line
+
+	(FMAID "75337")
+	(Non-English+equivalent [su_incus_40677])
+	(Preferred+name [su_incus_26964]))
+
+([Groove+for+middle+meningeal+artery] of  Subdivision+of+internal+surface+of+parietal+bone
+
+	(FMAID "57111")
+	(Non-English+equivalent
+		[KB_INSTANCE_74933]
+		[KB_AUTO-INSERT%283%29_314])
+	(Preferred+name [KB_INSTANCE_74932]))
+
+([Groove+for+middle+temporal+artery] of  Anatomical+line+of+skull
+
+	(FMAID "54953")
+	(Non-English+equivalent
+		[KB_INSTANCE_69839]
+		[KB_AUTO-INSERT%283%29_396])
+	(Preferred+name [KB_INSTANCE_69838]))
+
+([Groove+for+ninth+rib] of  Pulmonary+groove
+
+	(2D+part+of Costal+surface+of+lung)
+	(FMAID "18202")
+	(Preferred+name [KB_INSTANCE_22359]))
+
+([Groove+for+occipital+sinus] of  Anatomical+line
+
+	(FMAID "75336")
+	(Non-English+equivalent [su_incus_40676])
+	(Preferred+name [su_incus_26963]))
+
+([Groove+for+popliteus] of  Anatomical+line
+
+	(FMAID "75342")
+	(Non-English+equivalent
+		[su_incus_40681]
+		[KB_AUTO-INSERT%283%29_703])
+	(Preferred+name [su_incus_26969]))
+
+([Groove+for+right+brachiocephalic+vein] of  Pulmonary+groove
+
+	(2D+part+of
+		Suprahilar+part+of+mediastinal+surface+of+right+upper+lobe
+		Medial+surface+of+upper+lobe+of+lung)
+	(FMAID "13181")
+	(Preferred+name [KB_INSTANCE_13909])
+	(Synonym
+		[KB_INSTANCE_13910]
+		[KB_INSTANCE_13911]))
+
+([Groove+for+right+eighth+rib] of  Groove+for+eighth+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+right+lower+lobe)
+	(FMAID "18200")
+	(Preferred+name [KB_INSTANCE_22357]))
+
+([Groove+for+right+fifth+rib] of  Groove+for+fifth+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+right+lower+lobe)
+	(FMAID "18191")
+	(Preferred+name [KB_INSTANCE_22348]))
+
+([Groove+for+right+first+rib] of  Groove+for+first+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+right+upper+lobe)
+	(FMAID "18179")
+	(Preferred+name [KB_INSTANCE_22336]))
+
+([Groove+for+right+fourth+rib] of  Groove+for+fourth+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+right+upper+lobe)
+	(FMAID "18188")
+	(Preferred+name [KB_INSTANCE_22345]))
+
+([Groove+for+right+greater+petrosal+nerve] of  Groove+for+greater+petrosal+nerve
+
+	(FMAID "55989")
+	(Preferred+name [KB_INSTANCE_71805]))
+
+([Groove+for+right+inferior+petrosal+sinus] of  Groove+for+inferior+petrosal+sinus
+
+	(FMAID "81050")
+	(Preferred+name [fm_live_26380]))
+
+([Groove+for+right+internal+thoracic+artery] of  Groove+for+internal+thoracic+artery
+
+	(FMAID "13310")
+	(Preferred+name [KB_INSTANCE_14152])
+	(Synonym
+		[KB_INSTANCE_14153]
+		[KB_INSTANCE_14154]))
+
+([Groove+for+right+lesser+petrosal+nerve] of  Groove+for+lesser+petrosal+nerve
+
+	(FMAID "55982")
+	(Preferred+name [KB_INSTANCE_71791]))
+
+([Groove+for+right+middle+temporal+artery] of  Groove+for+middle+temporal+artery
+
+	(FMAID "54954")
+	(Preferred+name [KB_INSTANCE_69840]))
+
+([Groove+for+right+ninth+rib] of  Groove+for+ninth+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+right+lower+lobe)
+	(FMAID "18203")
+	(Preferred+name [KB_INSTANCE_22360]))
+
+([Groove+for+right+second+rib] of  Groove+for+second+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+right+upper+lobe)
+	(FMAID "18182")
+	(Preferred+name [KB_INSTANCE_22339]))
+
+([Groove+for+right+seventh+rib] of  Groove+for+seventh+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+right+lower+lobe)
+	(FMAID "18197")
+	(Preferred+name [KB_INSTANCE_22354]))
+
+([Groove+for+right+sigmoid+sinus] of  Groove+for+sigmoid+sinus
+
+	(FMAID "57123")
+	(Preferred+name [KB_INSTANCE_74945]))
+
+([Groove+for+right+sixth+rib] of  Groove+for+sixth+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+right+lower+lobe)
+	(FMAID "18194")
+	(Preferred+name [KB_INSTANCE_22351]))
+
+([Groove+for+right+subclavian+artery] of  Groove+for+subclavian+artery
+
+	(2D+part+of Suprahilar+part+of+mediastinal+surface+of+right+upper+lobe)
+	(FMAID "13158")
+	(Preferred+name [KB_INSTANCE_13867])
+	(Synonym
+		[KB_INSTANCE_13868]
+		[KB_INSTANCE_13869]))
+
+([Groove+for+right+tenth+rib] of  Groove+for+tenth+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+right+lower+lobe)
+	(FMAID "18206")
+	(Preferred+name [KB_INSTANCE_22363]))
+
+([Groove+for+right+third+rib] of  Groove+for+third+rib
+
+	(2D+part+of Costal+part+of+costal+surface+of+right+upper+lobe)
+	(FMAID "18185")
+	(Preferred+name [KB_INSTANCE_22342]))
+
+([Groove+for+second+rib] of  Pulmonary+groove
+
+	(2D+part+of Costal+surface+of+lung)
+	(FMAID "18181")
+	(Preferred+name [KB_INSTANCE_22338]))
+
+([Groove+for+seventh+rib] of  Pulmonary+groove
+
+	(2D+part+of Costal+surface+of+lung)
+	(FMAID "18196")
+	(Preferred+name [KB_INSTANCE_22353]))
+
+([Groove+for+sigmoid+sinus] of  Subdivision+of+surface+of+skull
+
+	(FMAID "57122")
+	(Non-English+equivalent [KB_AUTO-INSERT%283%29_313])
+	(part
+		Groove+of+parietal+bone+for+sigmoid+sinus
+		Groove+of+temporal+bone+for+sigmoid+sinus
+		Groove+of+occipital+bone+for+sigmoid+sinus)
+	(part+of Internal+surface+of+calvaria)
+	(Preferred+name [KB_INSTANCE_74944]))
+
+([Groove+for+sixth+rib] of  Pulmonary+groove
+
+	(2D+part+of Costal+surface+of+lung)
+	(FMAID "18193")
+	(Preferred+name [KB_INSTANCE_22350]))
+
+([Groove+for+spinal+nerve] of  Anatomical+line+of+bone
+
+	(FMAID "75069")
+	(Non-English+equivalent
+		[su_incus_40594]
+		[KB_AUTO-INSERT%283%29_506])
+	(Preferred+name [su_incus_25259]))
+
+([Groove+for+subclavian+artery] of  Pulmonary+groove
+
+	(2D+part+of Medial+surface+of+upper+lobe+of+lung)
+	(FMAID "13156")
+	(Non-English+equivalent
+		[su_incus_40295]
+		[KB_AUTO-INSERT%283%29_547])
+	(Preferred+name [KB_INSTANCE_13861])
+	(Synonym
+		[KB_INSTANCE_13862]
+		[KB_INSTANCE_13863]
+		[KB_INSTANCE_13864]))
+
+([Groove+for+subclavian+vein] of  Anatomical+line+of+bone
+
+	(FMAID "75073")
+	(Non-English+equivalent
+		[su_incus_40596]
+		[KB_AUTO-INSERT%283%29_548])
+	(Preferred+name [su_incus_25263]))
+
+([Groove+for+superior+petrosal+sinus] of  Anatomical+line+of+bone
+
+	(FMAID "75052")
+	(Non-English+equivalent [su_incus_40573])
+	(Preferred+name [su_incus_25242]))
+
+([Groove+for+superior+sagittal+sinus] of  Subdivision+of+surface+of+skull
+
+	(FMAID "57118")
+	(Non-English+equivalent
+		[su_incus_40459]
+		[KB_AUTO-INSERT%283%29_273])
+	(Preferred+name [KB_INSTANCE_74940]))
+
+([Groove+for+superior+vena+cava] of  Pulmonary+groove
+
+	(2D+part+of Suprahilar+part+of+mediastinal+surface+of+right+upper+lobe)
+	(FMAID "13182")
+	(Preferred+name [KB_INSTANCE_13912])
+	(Synonym
+		[KB_INSTANCE_13913]
+		[KB_INSTANCE_13914]))
+
+([Groove+for+tendon+of+fibularis+longus] of  Anatomical+line+of+bone
+
+	(FMAID "75109")
+	(Non-English+equivalent
+		[su_incus_40598]
+		[KB_AUTO-INSERT%283%29_161])
+	(Preferred+name [su_incus_25300]))
+
+([Groove+for+tendon+of+flexor+hallucis+longus] of  Anatomical+line
+
+	(FMAID "75344")
+	(Non-English+equivalent
+		[su_incus_40683]
+		[KB_AUTO-INSERT%283%29_150])
+	(Preferred+name [su_incus_26971]))
+
+([Groove+for+tendon+of+peroneus+longus] of  Anatomical+line+of+bone
+
+	(FMAID "75110")
+	(Non-English+equivalent [su_incus_40599])
+	(Preferred+name [su_incus_25301]))
+
+([Groove+for+tenth+rib] of  Pulmonary+groove
+
+	(2D+part+of Costal+surface+of+lung)
+	(FMAID "18205")
+	(Preferred+name [KB_INSTANCE_22362]))
+
+([Groove+for+third+rib] of  Pulmonary+groove
+
+	(2D+part+of Costal+surface+of+lung)
+	(FMAID "18184")
+	(Preferred+name [KB_INSTANCE_22341]))
+
+([Groove+for+trachea] of  Pulmonary+groove
+
+	(FMAID "13313")
+	(Preferred+name [KB_INSTANCE_14161])
+	(Synonym
+		[KB_INSTANCE_14162]
+		[KB_INSTANCE_14163]))
+
+([Groove+for+transverse+sinus] of  Anatomical+line
+
+	(FMAID "75335")
+	(Non-English+equivalent [su_incus_40675])
+	(Preferred+name [su_incus_26962]))
+
+([Groove+for+ulnar+nerve] of  Anatomical+line
+
+	(FMAID "75340")
+	(Non-English+equivalent
+		[su_incus_40679]
+		[KB_AUTO-INSERT%283%29_616])
+	(Preferred+name [su_incus_26967]))
+
+([Groove+for+vena+cava] of  Hepatic+impression
+
+	(FMAID "14492")
+	(Non-English+equivalent
+		[fm_live_26353]
+		[KB_AUTO-INSERT%283%29_1857])
+	(Preferred+name [fm_live_26354])
+	(Synonym
+		[KB_INSTANCE_15960]
+		[KB_INSTANCE_15959]))
+
+([Groove+for+vertebral+artery] of  Anatomical+line+of+bone
+
+	(FMAID "75070")
+	(Non-English+equivalent
+		[su_incus_40595]
+		[KB_AUTO-INSERT%283%29_508])
+	(Preferred+name [su_incus_25260]))
+
+([Groove+of+crus+of+helix] of  Surface+of+pinna
+
+	(FMAID "61168")
+	(Non-English+equivalent
+		[KB_INSTANCE_80652]
+		[KB_AUTO-INSERT%283%29_4386])
+	(Preferred+name [KB_INSTANCE_80650])
+	(Synonym [KB_INSTANCE_80651]))
+
+([Groove+of+crus+of+left+helix] of  Groove+of+crus+of+helix
+
+	(FMAID "61170")
+	(Preferred+name [KB_INSTANCE_80656])
+	(Synonym
+		[KB_INSTANCE_80657]
+		[KB_INSTANCE_80658]))
+
+([Groove+of+crus+of+right+helix] of  Groove+of+crus+of+helix
+
+	(FMAID "61169")
+	(Preferred+name [KB_INSTANCE_80653])
+	(Synonym
+		[KB_INSTANCE_80654]
+		[KB_INSTANCE_80655]))
+
+([Groove+of+dens+of+axis+for+transverse+ligament+of+atlas] of  Region+of+surface+of+vertebra
+
+	(FMAID "24104")
+	(Preferred+name [KB_INSTANCE_30310]))
+
+([Groove+of+dorsal+surface+of+corpus+cavernosum+of+penis] of  Region+of+surface+of+corpus+cavernosum+of+penis
+
+	(FMAID "20284")
+	(Preferred+name [KB_INSTANCE_25590])
+	(Synonym [KB_INSTANCE_25591]))
+
+([Groove+of+first+rib+for+subclavian+artery] of  Subdivision+of+surface+of+rib
+
+	(FMAID "7615")
+	(Preferred+name [KB_INSTANCE_04958])
+	(Synonym
+		[KB_INSTANCE_04959]
+		[KB_AUTO-INSERT2_10882]))
+
+([Groove+of+first+rib+for+subclavian+vein] of  Subdivision+of+surface+of+rib
+
+	(FMAID "7616")
+	(Preferred+name [KB_INSTANCE_04960])
+	(Synonym
+		[KB_INSTANCE_04961]
+		[KB_AUTO-INSERT2_10883]))
+
+([Groove+of+lateral+condyle+of+femur+for+popliteus] of  Subdivision+of+surface+of+distal+epiphysis+of+femur
+
+	(FMAID "43742")
+	(Preferred+name [KB_INSTANCE_55597])
+	(Synonym
+		[KB_INSTANCE_55598]
+		[KB_INSTANCE_55599]))
+
+([Groove+of+lateral+condyle+of+left+femur+for+popliteus] of  Groove+of+lateral+condyle+of+femur+for+popliteus
+
+	(FMAID "43744")
+	(Preferred+name [KB_INSTANCE_55601]))
+
+([Groove+of+lateral+condyle+of+left+tibia+for+tendon+of+popliteus] of  Groove+of+lateral+condyle+of+tibia+for+tendon+of+popliteus
+
+	(FMAID "43834")
+	(Preferred+name [KB_INSTANCE_55706]))
+
+([Groove+of+lateral+condyle+of+right+femur+for+popliteus] of  Groove+of+lateral+condyle+of+femur+for+popliteus
+
+	(FMAID "43743")
+	(Preferred+name [KB_INSTANCE_55600]))
+
+([Groove+of+lateral+condyle+of+right+tibia+for+tendon+of+popliteus] of  Groove+of+lateral+condyle+of+tibia+for+tendon+of+popliteus
+
+	(FMAID "43833")
+	(Preferred+name [KB_INSTANCE_55705]))
+
+([Groove+of+lateral+condyle+of+tibia+for+tendon+of+popliteus] of  Subdivision+of+surface+of+proximal+epiphysis+of+tibia
+
+	(FMAID "43832")
+	(Preferred+name [KB_INSTANCE_55704]))
+
+([Groove+of+left+first+rib+for+left+subclavian+artery] of  Groove+of+first+rib+for+subclavian+artery
+
+	(FMAID "7997")
+	(Preferred+name [KB_INSTANCE_05437])
+	(Synonym [KB_AUTO-INSERT2_10886]))
+
+([Groove+of+left+first+rib+for+left+subclavian+vein] of  Groove+of+first+rib+for+subclavian+vein
+
+	(FMAID "66088")
+	(Preferred+name [fm-live_05759])
+	(Synonym [KB_AUTO-INSERT2_10888]))
+
+([Groove+of+left+parietal+bone+for+branch+of+middle+meningeal+artery] of  Groove+for+branch+of+middle+meningeal+artery
+
+	(FMAID "57116")
+	(Preferred+name [KB_INSTANCE_74938]))
+
+([Groove+of+left+parietal+bone+for+middle+meningeal+artery] of  Groove+for+middle+meningeal+artery
+
+	(FMAID "57113")
+	(Preferred+name [KB_INSTANCE_74935])
+	(Synonym [KB_AUTO-INSERT2_10908]))
+
+([Groove+of+left+parietal+bone+for+superior+sagittal+sinus] of  Parietal+groove+for+superior+sagittal+sinus
+
+	(FMAID "57110")
+	(Preferred+name [KB_INSTANCE_74931])
+	(Synonym [KB_AUTO-INSERT2_10906]))
+
+([Groove+of+left+temporal+bone+for+sigmoid+sinus] of  Groove+of+temporal+bone+for+sigmoid+sinus
+
+	(FMAID "55501")
+	(Preferred+name [KB_INSTANCE_70711])
+	(Synonym
+		[KB_INSTANCE_70712]
+		[KB_INSTANCE_70713]
+		[KB_AUTO-INSERT2_10920]))
+
+([Groove+of+left+trapezium+for+tendon+of+flexor+carpi+radialis] of  Groove+of+trapezium+for+tendon+of+flexor+carpi+radialis
+
+	(FMAID "39893")
+	(Preferred+name [KB_INSTANCE_51476]))
+
+([Groove+of+linea+alba] of  Anatomical+line
+
+	(FMAID "20245")
+	(Preferred+name [KB_INSTANCE_25539])
+	(Synonym
+		[KB_INSTANCE_25540]
+		[KB_AUTO-INSERT2_11038]))
+
+([Groove+of+medial+malleolus+of+left+tibia+for+tendon+of+tibialis+posterior] of  Groove+of+medial+malleolus+of+tibia+for+tendon+of+tibialis+posterior
+
+	(FMAID "43831")
+	(Preferred+name [KB_INSTANCE_55703]))
+
+([Groove+of+medial+malleolus+of+right+tibia+for+tendon+of+tibialis+posterior] of  Groove+of+medial+malleolus+of+tibia+for+tendon+of+tibialis+posterior
+
+	(FMAID "43830")
+	(Preferred+name [KB_INSTANCE_55702]))
+
+([Groove+of+medial+malleolus+of+tibia+for+tendon+of+tibialis+posterior] of  Subdivision+of+surface+of+distal+epiphysis+of+tibia
+
+	(FMAID "43829")
+	(Preferred+name [KB_INSTANCE_55701]))
+
+([Groove+of+occipital+bone+for+inferior+petrosal+sinus] of  Subdivision+of+surface+of+occipital+bone
+
+	(FMAID "81047")
+	(Non-English+equivalent [fm_live_26376])
+	(Preferred+name [fm_live_26370])
+	(Synonym
+		[fm_live_26377]
+		[KB_AUTO-INSERT2_10910]))
+
+([Groove+of+occipital+bone+for+left+inferior+petrosal+sinus] of  Groove+of+occipital+bone+for+inferior+petrosal+sinus
+
+	(FMAID "81049")
+	(Preferred+name [fm_live_26374])
+	(Synonym [KB_AUTO-INSERT2_10914]))
+
+([Groove+of+occipital+bone+for+left+sigmoid+sinus] of  Groove+of+occipital+bone+for+sigmoid+sinus
+
+	(FMAID "57129")
+	(Preferred+name [fm_live_26388])
+	(Synonym
+		[KB_INSTANCE_74951]
+		[KB_AUTO-INSERT2_10912]))
+
+([Groove+of+occipital+bone+for+right+inferior+petrosal+sinus] of  Groove+of+occipital+bone+for+inferior+petrosal+sinus
+
+	(FMAID "81048")
+	(Preferred+name [fm_live_26372])
+	(Synonym [KB_AUTO-INSERT2_10913]))
+
+([Groove+of+occipital+bone+for+right+sigmoid+sinus] of  Groove+of+occipital+bone+for+sigmoid+sinus
+
+	(FMAID "57128")
+	(Preferred+name [fm_live_26387])
+	(Synonym
+		[KB_INSTANCE_74950]
+		[KB_AUTO-INSERT2_10911]))
+
+([Groove+of+occipital+bone+for+sigmoid+sinus] of  Subdivision+of+surface+of+occipital+bone
+
+	(FMAID "57127")
+	(Non-English+equivalent [fm_live_26302])
+	(part+of Groove+for+sigmoid+sinus)
+	(Preferred+name [fm_live_26301])
+	(Synonym
+		[KB_INSTANCE_74949]
+		[KB_AUTO-INSERT2_10909]))
+
+([Groove+of+parietal+bone+for+left+sigmoid+sinus] of  Groove+of+parietal+bone+for+sigmoid+sinus
+
+	(FMAID "57107")
+	(Preferred+name [fm_live_26390])
+	(Synonym
+		[KB_INSTANCE_74928]
+		[KB_AUTO-INSERT2_10904]))
+
+([Groove+of+parietal+bone+for+right+sigmoid+sinus] of  Groove+of+parietal+bone+for+sigmoid+sinus
+
+	(FMAID "57106")
+	(Preferred+name [fm_live_26389])
+	(Synonym
+		[KB_INSTANCE_74927]
+		[KB_AUTO-INSERT2_10903]))
+
+([Groove+of+parietal+bone+for+sigmoid+sinus] of  Subdivision+of+internal+surface+of+parietal+bone
+
+	(FMAID "57100")
+	(Non-English+equivalent [fm_live_26306])
+	(part+of Groove+for+sigmoid+sinus)
+	(Preferred+name [fm_live_26305])
+	(Synonym
+		[KB_INSTANCE_74920]
+		[KB_AUTO-INSERT2_10902]))
+
+([Groove+of+promontory+of+tympanic+cavity] of  Anatomical+line
+
+	(FMAID "75343")
+	(Non-English+equivalent [su_incus_40682])
+	(Preferred+name [su_incus_26970]))
+
+([Groove+of+pterygoid+hamulus] of  Anatomical+line
+
+	(FMAID "75338")
+	(Non-English+equivalent [su_incus_40678])
+	(Preferred+name [su_incus_26965])
+	(Synonym [KB_AUTO-INSERT2_11043]))
+
+([Groove+of+right+first+rib+for+right+subclavian+artery] of  Groove+of+first+rib+for+subclavian+artery
+
+	(FMAID "7871")
+	(Preferred+name [KB_INSTANCE_05290])
+	(Synonym [KB_AUTO-INSERT2_10885]))
+
+([Groove+of+right+first+rib+for+right+subclavian+vein] of  Groove+of+first+rib+for+subclavian+vein
+
+	(FMAID "7873")
+	(Preferred+name [KB_INSTANCE_05292])
+	(Synonym [KB_AUTO-INSERT2_10887]))
+
+([Groove+of+right+parietal+bone+for+branch+of+middle+meningeal+artery] of  Groove+for+branch+of+middle+meningeal+artery
+
+	(FMAID "57115")
+	(Preferred+name [KB_INSTANCE_74937]))
+
+([Groove+of+right+parietal+bone+for+middle+meningeal+artery] of  Groove+for+middle+meningeal+artery
+
+	(FMAID "57112")
+	(Preferred+name [KB_INSTANCE_74934])
+	(Synonym [KB_AUTO-INSERT2_10907]))
+
+([Groove+of+right+parietal+bone+for+superior+sagittal+sinus] of  Parietal+groove+for+superior+sagittal+sinus
+
+	(FMAID "57109")
+	(Preferred+name [KB_INSTANCE_74930])
+	(Synonym [KB_AUTO-INSERT2_10905]))
+
+([Groove+of+right+temporal+bone+for+sigmoid+sinus] of  Groove+of+temporal+bone+for+sigmoid+sinus
+
+	(FMAID "55500")
+	(Preferred+name [KB_INSTANCE_70708])
+	(Synonym
+		[KB_INSTANCE_70709]
+		[KB_INSTANCE_70710]
+		[KB_AUTO-INSERT2_10919]))
+
+([Groove+of+right+trapezium+for+tendon+of+flexor+carpi+radialis] of  Groove+of+trapezium+for+tendon+of+flexor+carpi+radialis
+
+	(FMAID "39892")
+	(Preferred+name [KB_INSTANCE_51475]))
+
+([Groove+of+temporal+bone+for+inferior+petrosal+sinus] of  Subdivision+of+surface+of+temporal+bone
+
+	(FMAID "56457")
+	(Non-English+equivalent [fm_live_26383])
+	(Preferred+name [KB_INSTANCE_72961])
+	(Synonym
+		[fm_live_26366]
+		[KB_AUTO-INSERT2_10915]))
+
+([Groove+of+temporal+bone+for+left+inferior+petrosal+sinus] of  Groove+of+temporal+bone+for+inferior+petrosal+sinus
+
+	(FMAID "56465")
+	(Preferred+name [KB_INSTANCE_72974])
+	(Synonym [KB_AUTO-INSERT2_10918]))
+
+([Groove+of+temporal+bone+for+right+inferior+petrosal+sinus] of  Groove+of+temporal+bone+for+inferior+petrosal+sinus
+
+	(FMAID "56464")
+	(Preferred+name [KB_INSTANCE_72973])
+	(Synonym [KB_AUTO-INSERT2_10917]))
+
+([Groove+of+temporal+bone+for+sigmoid+sinus] of  Subdivision+of+surface+of+temporal+bone
+
+	(FMAID "55499")
+	(Non-English+equivalent [fm_live_26293])
+	(part+of Groove+for+sigmoid+sinus)
+	(Preferred+name [fm_live_26294])
+	(Synonym
+		[KB_INSTANCE_70706]
+		[KB_INSTANCE_70705]
+		[KB_AUTO-INSERT2_10916]))
+
+([Groove+of+tendinous+intersection+of+rectus] of  Anatomical+line
+
+	(FMAID "20246")
+	(Preferred+name [KB_INSTANCE_25541])
+	(Synonym [KB_INSTANCE_25542]))
+
+([Groove+of+trapezium+for+tendon+of+flexor+carpi+radialis] of  Subdivision+of+surface+of+trapezium
+
+	(FMAID "39891")
+	(Preferred+name [KB_INSTANCE_51474]))
+
+([Groove+of+urethral+surface+of+corpus+cavernosum+of+penis] of  Region+of+surface+of+corpus+cavernosum+of+penis
+
+	(FMAID "20285")
+	(Preferred+name [KB_INSTANCE_25592])
+	(Synonym [KB_INSTANCE_25593]))
+
+([Ground+substance] of  Tissue+fluid
+
+	(definition "Tissue fluid of connective tissue mixed with macromolecules produced by connective tissue cells.")
+	(FMAID "62916")
+	(part
+		Proteoglycan
+		Glycosaminoglycan)
+	(part+of
+		Intercellular+matrix
+		Dermis)
+	(Preferred+name [FM_live_00906])
+	(Synonym
+		[FM_live_00905]
+		[FM_live_00907]))
+
+([Guanine] of  Purine
+
+	(FMAID "82775")
+	(Preferred+name [fm_live_27621]))
+
+([Guanyl+nucleotide+binding+protein] of  Protein
+
+	(FMAID "61788")
+	(Preferred+name [fm-live_14429])
+	(Synonym [fm-live_14430]))
+
+([Gubernaculum+testis] of  Vestigial+embryonic+structure
+
+	(FMAID "20421")
+	(Preferred+name [KB_INSTANCE_25776]))
+
+([Gustatory+epithelium] of  Sensory+epithelium
+
+	(FMAID "62412")
+	(Preferred+name [fm-live_15734]))
+
+([Gustatory+organ] of  Organ+component
+
+	(FMAID "77853")
+	(Non-English+equivalent
+		[su_incus_35806]
+		[su_incus_35807]
+		[KB_AUTO-INSERT%283%29_4557]
+		[KB_AUTO-INSERT%283%29_4675]
+		[ONARD_Instance_580110]
+		[ONARD_Instance_580569])
+	(Preferred+name [su_incus_34315]))
+
+([Gustatory+pore] of  Orifice
+
+	(FMAID "63589")
+	(Non-English+equivalent
+		[su_incus_40202]
+		[KB_AUTO-INSERT%283%29_4559])
+	(part+of Taste+bud)
+	(Preferred+name [fm-live_15713])
+	(regional+part+of Taste+bud)
+	(Synonym [fm-live_15712]))
+
+([Gustatory+receptor] of  Exteroceptor
+
+	(FMAID "84662")
+	(Preferred+name [fm_live_32372]))
+
+([Gustatory+system] of  Heterogeneous+cluster
+
+	(FMAID "7194")
+	(Preferred+name [KB_INSTANCE_04020])
+	(Synonym [KB_INSTANCE_04021]))
+
+([Gut] of  Anatomical+structure
+
+	(constitutional+part
+		Wall+of+gut
+		Lumen+of+gut)
+	(FMAID "45615")
+	(Non-English+equivalent
+		[ONARD_Instance_580288]
+		[ONARD_Instance_580443])
+	(part
+		Foregut
+		Midgut
+		Hindgut
+		Wall+of+gut
+		Lumen+of+gut
+		Intestine
+		Small+intestine
+		Large+intestine
+		Anal+canal)
+	(part+of Abdomen)
+	(Preferred+name [KB_INSTANCE_57881])
+	(regional+part
+		Upper+gastrointestinal+tract
+		Lower+gastrointestinal+tract
+		Appendix
+		Wall+of+gut
+		Lumen+of+gut
+		Foregut
+		Midgut
+		Hindgut
+		Intestine
+		Esophagus
+		Small+intestine
+		Large+intestine
+		Anal+canal))
+
+([Gut-associated+lymphoid+tissue] of  Mucosa-associated+lymphoid+tissue
+
+	(FMAID "62820")
+	(part+of Non-lymphatic+lymphoid+system)
+	(Preferred+name [FM_live_00614])
+	(regional+part+of Non-lymphatic+lymphoid+system))
+
+([Guthrie%27s+muscle] of  Set+of+organs
+
+	(FMAID "77879")
+	(Preferred+name [su_incus_34550]))
+
+([Gynecoid+pelvis] of  General+anatomical+term+template
+
+	(FMAID "16561")
+	(Preferred+name [KB_INSTANCE_19550])
+	(Synonym [KB_INSTANCE_19551]))
+
+([Gyrus+of+cerebral+hemisphere] of  Gyrus+of+neuraxis
+
+	(bounded+by Surface+of+brain)
+	(FMAID "61856")
+	(Preferred+name [fm-live_14630])
+	(regional+part+of Cerebral+hemisphere)
+	(Synonym [KB_AUTO-INSERT2_4786]))
+
+([Gyrus+of+neuraxis] of  Organ+component+of+neuraxis
+
+	(bounded+by Surface+of+brain)
+	(FMAID "83874")
+	(Preferred+name [live_incus_fm_13522])
+	(Synonym [KB_AUTO-INSERT2_4625]))
+

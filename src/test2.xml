@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns="http://tempuri.org/model_schema.xsd">
+  <model_name>test2</model_name>
+  <variable constant="true" type="real">
+    <name>k1</name>
+    <formula />
+    <value>0.065</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>k2</name>
+    <formula />
+    <value>0.079</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>VG</name>
+    <formula />
+    <value>1.88</value>
+    <units>dl/kg</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>D</name>
+    <formula />
+    <value>1000</value>
+    <units>mg</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>BW</name>
+    <formula />
+    <value>78</value>
+    <units>kg</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>VI</name>
+    <formula />
+    <value>0.05</value>
+    <units>l/kg</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>m_1</name>
+    <formula />
+    <value>0.19</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>m_2</name>
+    <formula />
+    <value>0.484</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>m_4</name>
+    <formula />
+    <value>0.194</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>m_5</name>
+    <formula />
+    <value>0.19</value>
+    <units>min*kg/pmol</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>m_6</name>
+    <formula />
+    <value>0.6471</value>
+    <units>dimensionless</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>HE_b</name>
+    <formula />
+    <value>0.6</value>
+    <units>dimensionless</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>G_b</name>
+    <formula />
+    <value>90</value>
+    <units>mg/dl</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>I_b</name>
+    <formula />
+    <value>28</value>
+    <units>pmol/l</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>I_pb</name>
+    <formula />
+    <value>40</value>
+    <units>//I</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>I_lb</name>
+    <formula />
+    <value>20</value>
+    <units>//I</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>EGP_b</name>
+    <formula />
+    <value>1.88</value>
+    <units>min^-1*mg/kg</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>k_max</name>
+    <formula />
+    <value>0.0558</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>k_min</name>
+    <formula />
+    <value>0.008</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>k_abs</name>
+    <formula />
+    <value>0.057</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>k_gri</name>
+    <formula />
+    <value>0.0558</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>f</name>
+    <formula />
+    <value>0.9</value>
+    <units>dimensionless</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>a</name>
+    <formula />
+    <value>0.00013</value>
+    <units>mg^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>b</name>
+    <formula />
+    <value>0.82</value>
+    <units>dimensionless</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>c</name>
+    <formula />
+    <value>0.00236</value>
+    <units>mg^1-</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>d</name>
+    <formula />
+    <value>0.01</value>
+    <units>dimensionless</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>k_empt</name>
+    <formula />
+    <value>0.18</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>k_p1</name>
+    <formula />
+    <value>2.7</value>
+    <units>min^-1*mg/kg</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>k_p2</name>
+    <formula />
+    <value>0.0021</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>k_p4</name>
+    <formula />
+    <value>0.0618</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>k_p3</name>
+    <formula />
+    <value>0.009</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>k_i</name>
+    <formula />
+    <value>0.0079</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>F_cns</name>
+    <formula />
+    <value>1</value>
+    <units>min^-1*mg/kg</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>V_m0</name>
+    <formula />
+    <value>2.5</value>
+    <units>min^-1*mg/kg</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>V_mx</name>
+    <formula />
+    <value>0.047</value>
+    <units>min^-1*mg/kg*l*pmol^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>K_m0</name>
+    <formula />
+    <value>225.59</value>
+    <units>mg/kg</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>P_2U</name>
+    <formula />
+    <value>0.0331</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>K_mx</name>
+    <formula />
+    <value>0</value>
+    <units>mg*kg^-1*l*pmol^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>K</name>
+    <formula />
+    <value>2.3</value>
+    <units>pmol/kg*dl*mg^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>alpha</name>
+    <formula />
+    <value>0.05</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>beta</name>
+    <formula />
+    <value>0.11</value>
+    <units>min^-1*pmol/kg*dl*mg^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>gamma</name>
+    <formula />
+    <value>0.5</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>h</name>
+    <formula />
+    <value>90</value>
+    <units>mg/dl</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>k_e1</name>
+    <formula />
+    <value>0.0005</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="true" type="real">
+    <name>k_e2</name>
+    <formula />
+    <value>339</value>
+    <units>mg/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>test</name>
+    <formula>EGP+Ra-U_ii-(E-k1)*G_p+k2*G_t</formula>
+    <value>0</value>
+    <units>mg/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>test2</name>
+    <formula>if(beta*(G-h)&gt;=-S_b)-alpha*(Y-beta*(G-h))else-alpha*Y-alpha*S_b</formula>
+    <value>0</value>
+    <units>min^-1*pmol/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>test3</name>
+    <formula />
+    <value>0</value>
+    <units>mg/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>G_p</name>
+    <formula>EGP+Ra-U_ii-E-k1*G_p+k2*G_t</formula>
+    <value>0</value>
+    <units>mg/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>G_t</name>
+    <formula>-U_id+k1*G_p-k2*G_t</formula>
+    <value>0</value>
+    <units>mg/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>G</name>
+    <formula>G_p/VG</formula>
+    <value>0</value>
+    <units>mg/dl</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>I_p</name>
+    <formula>-(m_2+m_4)*I_p+m_1*I_l</formula>
+    <value>0</value>
+    <units>pmol/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>I_l</name>
+    <formula>-(m_1+m_3)*I_l+m_2*I_p+S</formula>
+    <value>0</value>
+    <units>pmol/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>I</name>
+    <formula>I_p/VI</formula>
+    <value>0</value>
+    <units>pmol/l</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>HE</name>
+    <formula>-m_5*S+m_6</formula>
+    <value>Infinity</value>
+    <units>dimensionless</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>m_3</name>
+    <formula>(HE*m_1)/(1-HE)</formula>
+    <value>Infinity</value>
+    <units>min^-1</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>S_b</name>
+    <formula>m_3*I_lb+m_4*I_pb</formula>
+    <value>Infinity</value>
+    <units>min^-1*pmol/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>EGP</name>
+    <formula>k_p1-k_p2*G_p-k_p3*I_d-k_p4*I_po</formula>
+    <value>Infinity</value>
+    <units>min^-1*mg/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>I_1</name>
+    <formula>-k_i*(I_1-I)</formula>
+    <value>0</value>
+    <units>pmol/l</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>I_d</name>
+    <formula>-k_i*(I_d-I_1)</formula>
+    <value>0</value>
+    <units>pmol/l</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>Q_sto</name>
+    <formula>Q_sto_1+Q_sto_2</formula>
+    <value>Infinity</value>
+    <units>mg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>Q_sto_1</name>
+    <formula>-k_gri*Q_sto_1+D*d</formula>
+    <value>0</value>
+    <units>mg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>Q_sto_2</name>
+    <formula>-k_empt*Q_sto_2+k_gri*Q_sto_1</formula>
+    <value>0</value>
+    <units>mg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>Q_gut</name>
+    <formula>-k_abs*Q_gut+k_empt*Q_sto_2</formula>
+    <value>0</value>
+    <units>mg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>Ra</name>
+    <formula>(f*k_abs*Q_gut)/BW</formula>
+    <value>0</value>
+    <units>min^-1*mg/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>U_ii</name>
+    <formula>F_cns</formula>
+    <value>Infinity</value>
+    <units>min^-1*mg/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>U_id</name>
+    <formula>(V_m*G_t)/(K_m+G_t)</formula>
+    <value>Infinity</value>
+    <units>min^-1*mg/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>V_m</name>
+    <formula>V_m0+V_mx*X</formula>
+    <value>Infinity</value>
+    <units>min^-1*mg/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>K_m</name>
+    <formula>K_m0+K_mx*X</formula>
+    <value>Infinity</value>
+    <units>mg/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>X</name>
+    <formula>-P_2U*X+P_2U*(I-I_b)</formula>
+    <value>0</value>
+    <units>pmol/l</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>U</name>
+    <formula>U_ii+U_id</formula>
+    <value>Infinity</value>
+    <units>min^-1*mg/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>S</name>
+    <formula>gamma*I_po</formula>
+    <value>Infinity</value>
+    <units>min^-1*pmol/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>I_po</name>
+    <formula>-gamma*I_po+S_po</formula>
+    <value>0</value>
+    <units>pmol/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>S_po</name>
+    <formula />
+    <value>Infinity</value>
+    <units>min^-1*pmol/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>E</name>
+    <formula />
+    <value>Infinity</value>
+    <units>min^-1*mg/kg</units>
+  </variable>
+  <variable constant="false" type="real">
+    <name>Y</name>
+    <formula>if(beta*(G-h)&gt;=-S_b)-alpha*(Y-beta*(G-h))else-alpha*Y-alpha*S_b</formula>
+    <value>0</value>
+    <units>min^-1*pmol/kg</units>
+  </variable>
+</model>
