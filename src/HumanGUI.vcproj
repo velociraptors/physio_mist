@@ -208,7 +208,23 @@
 				>
 			</File>
 			<File
+				RelativePath=".\HumanGUI.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Load_Model_Form.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Physio_MIST.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\PhysVariable.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Query_Builder.cpp"
 				>
 			</File>
 			<Filter
@@ -506,6 +522,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Load_Model_Form.h"
+				>
+			</File>
+			<File
 				RelativePath=".\Model_Form.cpp"
 				>
 			</File>
@@ -550,6 +570,10 @@
 					RelativePath=".\model_schema.xsx"
 					>
 				</File>
+			</File>
+			<File
+				RelativePath=".\PhysVariable.h"
+				>
 			</File>
 			<File
 				RelativePath=".\resource.h"
@@ -913,6 +937,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CustomModelForm.resx"
+				>
+			</File>
+			<File
+				RelativePath=".\Load_Model_Form.resx"
+				>
+			</File>
+			<File
 				RelativePath=".\Physio_MIST.rc"
 				>
 			</File>
@@ -922,10 +954,6 @@
 			>
 			<File
 				RelativePath=".\AnatomicalStruct.datasource"
-				>
-			</File>
-			<File
-				RelativePath=".\CustomModel.datasource"
 				>
 			</File>
 			<File
@@ -949,6 +977,10 @@
 				>
 			</File>
 		</Filter>
+		<File
+			RelativePath=".\Doxyfile"
+			>
+		</File>
 		<File
 			RelativePath=".\ReadMe.txt"
 			>
