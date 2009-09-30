@@ -1,8 +1,9 @@
 // HumanGUI.cpp : main project file.
 
 #include "stdafx.h"
-#include "MainForm.h"
+#include "Main_Form.h"
 
+using namespace Physio_MIST;
 using namespace HumanGUI;
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -23,7 +24,7 @@ int main(array<System::String ^> ^args)
 	Application::SetCompatibleTextRenderingDefault(false); 
 
 	// Create the main window and run it
-	Application::Run(gcnew MainForm());
+	Application::Run(gcnew Main_Form());
 
 	return 0;
 }
