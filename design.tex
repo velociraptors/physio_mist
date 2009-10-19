@@ -19,7 +19,8 @@
 \end{titlepage}
 
 \todo{revision history}
-Revision 1.0: October 2nd, 2009
+Revision 0.1: October 2nd, 2009
+\newline
 \todo{Barbie: Intro, Use Case View}
 \todo{Sara: make up stuff for the other sections}
 \newpage
@@ -92,7 +93,16 @@ Quality: describes quality of service aspects of the project
 \todo{technical platform, data persistance, performance, i18n, other requirements}
 
 \section{Use-Case View}
-\todo{make up some use cases}
+\todo{make up some use cases, BS an intro to the section}
+\todo{this section needs some really BITCHIN' diagrams}
+\subsection{Loading Models}
+The user selects the ``Load'' menu item and then selects the file containing the desired model. The file may be a text file in the MML standard format or an XML file adhering to the PhysioMist schema. The software parses and validates the file then displays the model's data or gives an error if the file contents are not a valid model.
+\subsection{Saving Models}
+The user selects the ``Save'' or ``Save As...'' menu item. If the ``Save'' menu item is selected, the model is saved to the same file in the previously selected format. If the ``Save As...'' menu item is selected, the user must enter a file name and may optionally choose the file location and format. The default format is the PhysioMist XML format. If the user selects the ``Save'' menu item for an unsaved model, the ``Save As...'' dialog is presented.
+\subsection{Editing Models}
+\subsection{Model Integration}
+\subsection{Querying}
+\todo{fuck, how do i explain this?}
 
 \section{Logical View}
 \todo{functional requirements, object model}
