@@ -100,8 +100,16 @@ The user selects the ``Load'' menu item and then selects the file containing the
 \subsection{Saving Models}
 The user selects the ``Save'' or ``Save As...'' menu item. If the ``Save'' menu item is selected, the model is saved to the same file in the previously selected format. If the ``Save As...'' menu item is selected, the user must enter a file name and may optionally choose the file location and format. The default format is the PhysioMist XML format. If the user selects the ``Save'' menu item for an unsaved model, the ``Save As...'' dialog is presented.
 \subsection{Editing Models}
+\subsubsection{Adding Variables/Parameters}
+The user clicks the ``New'' button for the variable or parameter table. A dialog box with fields for the name, formula (variables only), value, units, anatomical structure, and description is displayed. The user enters the relevant data, the input is validated, and the new item is added to the appropriate table. Only the name, formula, and value fields are required.
+\todo{make sure this is correct}
+\subsubsection{Deleting Variables/Parameters}
+The user selects an item in the variable or parameter table and clicks the ``Delete'' button. The item is deleted from the model.
+\subsubsection{Modifying Variables/Parameters}
+The user selects an item in the variable or parameter table and clicks the ``Edit'' button. A dialog box as described above \todo{in the adding section} is displayed with the appropriate information in the relevant fields. The user modifies the data as needed, the input is validated, and the item is modified.
+\subsubsection{Associating Anatomical Information}
 \subsection{Model Integration}
-\subsection{Querying}
+\subsection{Anatomical Queries}
 \todo{fuck, how do i explain this?}
 
 \section{Logical View}
