@@ -22,6 +22,10 @@ Thumbs.db
 *.cache
 *.ilk
 *.log
+*.dll
+*.dll.manifest
+Variable_schema.h
+model_schema.h
 [Bb]in
 [Dd]ebug*/
 *.lib
