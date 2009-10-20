@@ -41,7 +41,8 @@ This document provides detailed description of the architecture of the PhysioMIS
 JSim\\
 MML\\
 model\\
-variable/parameter
+variable/parameter\\
+FMA
 \subsection{References}
 \begin{enumerate}
 \item \emph{Vision and Scope Document for PhysioMIST}
@@ -108,9 +109,22 @@ The user selects an item in the variable or parameter table and clicks the ``Del
 \subsubsection{Modifying Variables/Parameters}
 The user selects an item in the variable or parameter table and clicks the ``Edit'' button. A dialog box as described above \todo{in the adding section} is displayed with the appropriate information in the relevant fields. The user modifies the data as needed, the input is validated, and the item is modified.
 \subsubsection{Associating Anatomical Information}
+\todo{check the GUI}
+When the user is editing an item in the model, the user selects an anatomical structure in the Anatomical Ontology treeview and clicks the ``Associate Structure'' button. The structure is added to the item or replaces the previous structure.
 \subsection{Model Integration}
+This section is only concerned with integrating two models. The ability to integrate more than two models at a time may be a feature added in a future release.
+\subsubsection{One-to-One Integration}
+The user selects two models, which are loaded by the software as described above \todo{in the loading section}. The models will be referred to as $A$ and $B$ for clarity. The user then selects an item from each model ($A.x$ and $B.y$) and defines the relationship between them where $A.x$ acts as an input to $B.y$. This can be expressed mathematically as $F(A.x) = B.y$. Note that $A.x$ may be a variable or parameter, but $B.y$ must be a variable. The operations of the integration subsystem will not be addressed within this document.
+\subsubsection{One-to-Many Integration}
+This is very similar to one-to-one integration. If a relationship between $A.x$ and $B.y$ exists, the user is not restricted from defining a relationship with $A.x$ as input and $B.z$ as output. If $A.x$ is a variable and $B.w$ is not dependant upon $A.x$, the user may also define a relationship with $B.w$ as input to $A.x$. Circular relationships are handled by the underlying integration subsystem.
+\subsubsection{Many-to-One Integration}
+This feature may be added in a future release.
 \subsection{Anatomical Queries}
-\todo{fuck, how do i explain this?}
+\todo{list/explain the different relationship types}
+\subsubsection{Structure-based Queries}
+The user selects a structure in the Anatomical Ontology treeview and clicks the ``Related Structures'' menu item. The user then selects the type of relationship from the query dialog box. The software displays the results of the query (structures with the appropriate relationship to the selected structure) or an error if the relationship type is not applicable for the selected structure.
+\subsubsection{Variable/Parameter-based Queries}
+While integrating models, the user selects a variable/parameter from one model and clicks the ``Related Variables'' menu item. The user then selects the type of relationship from the query dialog box. The software displays the results of the query (variables/parameters from both models that are associated with structures that have the appropriate relationship to the selected item's associated anatomical structure) or an error if the relationship type is not applicable for the selected item's associated anatomical structure. An error is also displayed if the selected item does not have an associated anatomical structure.
 
 \section{Logical View}
 \todo{functional requirements, object model}
