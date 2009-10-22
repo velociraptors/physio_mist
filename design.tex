@@ -18,20 +18,17 @@
 \maketitle\thispagestyle{empty}
 \end{titlepage}
 
-\todo{revision history}
+\todo{fix this so it's not ugly}
 Revision 0.1: October 2nd, 2009: Rough draft of all sections\\
 Revision 0.2: October 20th, 2009: Revised use cases\\
 Revision 0.3: October 21st, 2009: Revised architectural goals and constraints, size and performance, and quality sections\\
 Revision 0.4: October 22nd, 2009: Revised logical, implementation, and data views\\
-\newline
-\todo{Barbie: Intro, Use Case View}
-\todo{Sara: make up stuff for the other sections}
+
 \newpage
 
 \tableofcontents
 \newpage
 
-\todo{make some totally bitchin' diagrams}
 \todo{take out BS we don't actually BS}
 
 \section{Introduction}
@@ -66,8 +63,8 @@ Size and Performance: describes performance issues and constraints\\
 Quality: describes quality of service aspects of the project
 
 \section{Architectural Representation}
-\todo{I just copied this overview thing out of the example since we're doing basically the same thing. That ok?}
-This document details the architecture using the views defined on the "4+1" model [KRU41] but using the RUP naming convention.
+%\todo{I just copied this overview thing out of the example since we're doing basically the same thing. That ok?} This is fine
+This document details the architecture using the views defined on the ``4+1'' model [KRU41] but using the RUP naming convention.
 The views used to document the PhysioMIST application are:
 \subsection{Logical View}
 \textbf{Audience}: Designers\\
@@ -89,34 +86,31 @@ The views used to document the PhysioMIST application are:
 \textbf{Audience}: Developers\\
 \textbf{Area}: describes concurrency aspects of the design\\
 \textbf{Related Items}: N/A
-\subsection{Deployment View}
-\todo{make some stuff up or delete this}
-\textbf{Audience}:\\
-\textbf{Area}:\\
-\textbf{Related Items}:
+%\subsection{Deployment View}
 
 \section{Architectural Goals and Constraints}
 \todo{made a lot of assumptions here that might be incorrect}
 This section describes the software requirements and objects that have some significant impact on the architecture.
 \subsection{Technical Platform}
-The PhysioMIST application can be used with the Windows XP and Vista operating systems.
+\todo{check this}
+The PhysioMIST application requires the .NET 2.0 runtime. It can be used on the Windows XP, Vista, and Windows 7 operating systems. It may be possible to install and use the PhysioMIST application on MacOSX and Linux via Mono, but these platforms are not actively supported.
 \subsection{Security}
-The application does not need excessive security measures since it is not online and does not use private information.
+Strict security measures are not necessary. The application does not support or require network access. It does not access any personal information.
 \subsection{Persistence}
 Data persistence will be addressed by allowing the user to save and load models.
 \subsection{Reliability and Availability}
-Once a user has the application on their computer, it will be available for his or her use 24/7.
-Ideally, the application will be available for download 24/7 although this is dependent on the maintenance requirements of the website from which it is available.
+\todo{fix this}
+The application does not communicate with a remote server.
 \subsection{Performance}
+\todo{definitely fix this.}
 Two average sized models should be compared on a one-to-one basis in less than an hour.  Larger models may take more time.
 \todo{this is some serious bs and probably needs to be changed}
 \subsection{Internationalization}
-The PhysioMIST application will only be available in English in this release.
-As it is being released open source, future developers may add other languages.
+The PhysioMIST application will only be available in English in this release. Additional language support may be added in a future release.
 
 \section{Use-Case View}
-\todo{make up some use cases, BS an intro to the section}
-\todo{this section needs some really BITCHIN' diagrams}
+\todo{make up some use cases, add an intro to the section}
+\todo{this section needs some diagrams}
 \subsection{Loading Models}
 The user selects the ``Load'' menu item and then selects the file containing the desired model. The file may be a text file in the MML standard format or an XML file adhering to the PhysioMist schema. The software parses and validates the file then displays the model's data or gives an error if the file contents are not a valid model.
 \subsection{Saving Models}
@@ -130,7 +124,7 @@ The user selects an item in the variable or parameter table and clicks the ``Del
 \subsubsection{Modifying Variables/Parameters}
 The user selects an item in the variable or parameter table and clicks the ``Edit'' button. A dialog box as described above \todo{in the adding section} is displayed with the appropriate information in the relevant fields. The user modifies the data as needed, the input is validated, and the item is modified.
 \subsubsection{Associating Anatomical Information}
-\todo{check the GUI}
+\todo{check the GUI for button name}
 When the user is editing an item in the model, the user selects an anatomical structure in the Anatomical Ontology treeview and clicks the ``Associate Structure'' button. The structure is added to the item or replaces the previous structure.
 \subsection{Model Integration}
 This section is only concerned with integrating two models. The ability to integrate more than two models at a time may be a feature added in a future release.
@@ -167,7 +161,7 @@ The interactions involved in downloading the application will occur approximatel
 \section{Size and Performance}
 Volumes:
 \newline
-Although we hope that a large number of users will be interested in this application, the exact number of users does not matter since each user will have his or her own computer.  The owner of the website on which PhysioMIST is released may to need to account for excessive downloads if the application becomes very popular.
+Although we hope that a large number of users will be interested in this application, the exact number of users does not matter since each user will have his or her own computer.  The owner of the website on which PhysioMIST is released may to need to account for excessive downloads if the application becomes very popular.\\
 Performance:
 \newline
 The time to integrate models of average size on a one-to-one basis should be less than one hour.
@@ -176,7 +170,7 @@ The time to integrate models of average size on a one-to-one basis should be les
 \todo{finish me}
 Scalability:
 \newline
-Description:  System's reaction when user demands increase
+Description:  System's reaction when user demands increase\\
 Solution:  Owner of PhysioMIST's deployment website may need to allocation additional servers for download.
 
 
