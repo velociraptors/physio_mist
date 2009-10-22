@@ -19,7 +19,10 @@
 \end{titlepage}
 
 \todo{revision history}
-Revision 0.1: October 2nd, 2009
+Revision 0.1: October 2nd, 2009: Rough draft of all sections\\
+Revision 0.2: October 20th, 2009: Revised use cases\\
+Revision 0.3: October 21st, 2009: Revised architectural goals and constraints, size and performance, and quality sections\\
+Revision 0.4: October 22nd, 2009: Revised logical, implementation, and data views\\
 \newline
 \todo{Barbie: Intro, Use Case View}
 \todo{Sara: make up stuff for the other sections}
@@ -63,7 +66,9 @@ Size and Performance: describes performance issues and constraints\\
 Quality: describes quality of service aspects of the project
 
 \section{Architectural Representation}
-\todo{overview crap}
+\todo{I just copied this overview thing out of the example since we're doing basically the same thing. That ok?}
+This document details the architecture using the views defined on the "4+1" model [KRU41] but using the RUP naming convention.
+The views used to document the PhysioMIST application are:
 \subsection{Logical View}
 \textbf{Audience}: Designers\\
 \textbf{Area}: Functional Requirements--describes the system's object model and most important use cases\\
@@ -91,7 +96,23 @@ Quality: describes quality of service aspects of the project
 \textbf{Related Items}:
 
 \section{Architectural Goals and Constraints}
-\todo{technical platform, data persistance, performance, i18n, other requirements}
+\todo{made a lot of assumptions here that might be incorrect}
+This section describes the software requirements and objects that have some significant impact on the architecture.
+\subsection{Technical Platform}
+The PhysioMIST application can be used with the Windows XP and Vista operating systems.
+\subsection{Security}
+The application does not need excessive security measures since it is not online and does not use private information.
+\subsection{Persistence}
+Data persistence will be addressed by allowing the user to save and load models.
+\subsection{Reliability and Availability}
+Once a user has the application on their computer, it will be available for his or her use 24/7.
+Ideally, the application will be available for download 24/7 although this is dependent on the maintenance requirements of the website from which it is available.
+\subsection{Performance}
+Two average sized models should be compared on a one-to-one basis in less than an hour.  Larger models may take more time.
+\todo{this is some serious bs and probably needs to be changed}
+\subsection{Internationalization}
+The PhysioMIST application will only be available in English in this release.
+As it is being released open source, future developers may add other languages.
 
 \section{Use-Case View}
 \todo{make up some use cases, BS an intro to the section}
@@ -133,7 +154,9 @@ While integrating models, the user selects a variable/parameter from one model a
 The software only executes one process at a time. The software is not multithreaded.
 
 \section{Deployment View}
-\todo{figure out what this should be. we aren't deploying anything. talk about users downloading the software?}
+Once a user has the application on his or her computer, the user's computer can run the application without interacting with any external entities.
+The interactions involved in downloading the application will occur approximately as follows:
+\todo{insert figure} 
 
 \section{Implementation View}
 \todo{layers and subsystems}
@@ -142,9 +165,20 @@ The software only executes one process at a time. The software is not multithrea
 \todo{describe saving/loading models, the XML schema, etc}
 
 \section{Size and Performance}
-\todo{"don't hang the GUI"}
+Volumes:
+\newline
+Although we hope that a large number of users will be interested in this application, the exact number of users does not matter since each user will have his or her own computer.  The owner of the website on which PhysioMIST is released may to need to account for excessive downloads if the application becomes very popular.
+Performance:
+\newline
+The time to integrate models of average size on a one-to-one basis should be less than one hour.
 
 \section{Quality}
-\todo{pick buzzwords from Requirements powerpoint}
+\todo{finish me}
+Scalability:
+\newline
+Description:  System's reaction when user demands increase
+Solution:  Owner of PhysioMIST's deployment website may need to allocation additional servers for download.
+
+
 
 \end{document}
