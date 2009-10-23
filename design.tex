@@ -8,7 +8,7 @@
 \usepackage[pdftex]{color,graphicx}
 \newcommand{\todo}[1]{\colorbox{red}{\begin{minipage}{\textwidth}{#1}\end{minipage}}}
 
-\title{PhysioMIST Software Design}
+\title{PhysioMIST Software Architecture Design}
 \author{Mark Caral, Sara Cummins, BarbaraJoy Jones, Joshua Lee}
 \date{October 23, 2009\\{\sc Eecs} 393}
 
@@ -33,20 +33,15 @@
 \tableofcontents
 \newpage
 
-\todo{take out BS we don't actually BS}
-
 \section{Introduction}
 \subsection{Purpose}
-\todo{give my life some meaning}
+The purpose of this document is to provide a detailed presentation of the PhysioMIST architectural design as a guide for implementing the model integration interface.
 \subsection{Scope}
 This document provides detailed description of the architecture of the PhysioMIST model integration interface.
 \subsection{Glossary}
-\todo{define crap}
-JSim\\
-MML\\
-model\\
-variable/parameter\\
-FMA
+MML: Mathematical Modelling Language, an industry standard for representing physiological models based on differential equations\\
+Model: a collection of differential equations that can be used to simulate human physiology\\
+Variable: an input or output of a model's differential equations
 \subsection{References}
 \begin{enumerate}
 \item \emph{Vision and Scope Document for PhysioMIST}
@@ -99,12 +94,11 @@ Strict security measures are not necessary. The application does not support or 
 \subsection{Persistence}
 Data persistence will be addressed by allowing the user to save and load models.
 \subsection{Reliability and Availability}
-\todo{fix this}
+%\todo{fix this}
 The application does not communicate with a remote server.
 \subsection{Performance}
-\todo{definitely fix this.}
+\todo{fix this}
 Two average sized models should be compared on a one-to-one basis in less than an hour.  Larger models may take more time.
-\todo{this is some serious bs and probably needs to be changed}
 \subsection{Internationalization}
 The PhysioMIST application will only be available in English in this release. Additional language support may be added in a future release.
 
@@ -157,7 +151,7 @@ When the user is editing an item in the model, the user selects an anatomical st
 This section is only concerned with integrating two models. The ability to integrate more than two models at a time may be a feature added in a future release.
 \subsubsection{One-to-One Integration}
 The user selects two models, which are loaded by the software as described above. The models will be referred to as $A$ and $B$ for clarity. The user then selects an item from each model ($A.x$ and $B.y$) and defines the relationship between them where $A.x$ acts as an input to $B.y$. This can be expressed mathematically as $F(A.x) = B.y$. Note that $A.x$ may be a variable or parameter, but $B.y$ must be a variable. The operations of the integration subsystem will not be addressed within this document.
-\begin{figure}[!ht]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\textwidth]{./diagrams/relate-vars}
 \caption{One-to-One Variable Integration}
@@ -184,7 +178,7 @@ Possible query types:
 \end{itemize}
 \subsubsection{Structure-based Queries}
 The user selects a structure in the Anatomical Ontology treeview and clicks the ``Related Structures'' menu item. The user then selects the type of relationship from the query dialog box. The software displays the results of the query (structures with the appropriate relationship to the selected structure) or an error if the relationship type is not applicable for the selected structure.
-\begin{figure}[!ht]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\textwidth]{./diagrams/query-str}
 \caption{Structure-based Queries}
@@ -216,7 +210,54 @@ The interactions involved in downloading the application will occur approximatel
 \todo{layers and subsystems}
 
 \section{Data View}
-\todo{describe saving/loading models, the XML schema, etc}
+The PhysioMIST XML model format is validated by this schema:
+
+\begin{verbatim}
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="model_schema" targetNamespace="http://tempuri.org/model_schema.xsd"
+elementFormDefault="qualified" xmlns="http://tempuri.org/model_schema.xsd"
+xmlns:mstns="http://tempuri.org/model_schema.xsd"
+xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="model">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="model_name" type="xs:string">
+        </xs:element>
+        <xs:element name="description" type="xs:string" minOccurs="0">
+        </xs:element>
+        <xs:element name="variable" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:ID" />
+              <xs:element name="formula" type="xs:string" />
+              <xs:element name="value" type="xs:float" />
+              <xs:element name="units" type="xs:string" minOccurs="0" />
+              <xs:element name="description" type="xs:string" minOccurs="0" />
+              <xs:element name="anatomical_structure" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="str_name" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="FMAID" type="xs:int" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="constant" type="xs:boolean" use="required" />
+            <xs:attribute name="type" type="var_type" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="var_type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="realDomain" />
+      <xs:enumeration value="real" />
+      <xs:enumeration value="int" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+\end{verbatim}
 
 \section{Size and Performance}
 Volumes:
