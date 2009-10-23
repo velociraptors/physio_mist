@@ -98,22 +98,22 @@ Data persistence will be addressed by allowing the user to save and load models.
 %\todo{fix this}
 The application does not communicate with a remote server.
 \subsection{Performance}
-\todo{fix this}
-Two average sized models should be compared on a one-to-one basis in less than an hour.  Larger models may take more time.
+%\todo{fix this}
+Querying based on anatomical structures will return a limited set of results to prevent negative effects on performance.
 \subsection{Internationalization}
 The PhysioMIST application will only be available in English in this release. Additional language support may be added in a future release.
 
 \section{Use-Case View}
 In the following diagrams, square boxes denote entities that interact with the system.  Oval boxes represent actions and functionality of the system itself.
 \subsection{Loading Models}
-The user selects the ``Load'' menu item and then selects the file containing the desired model. The file may be a text file in the MML standard format or an XML file adhering to the PhysioMist schema. The software parses and validates the file then displays the model's data or gives an error if the file contents are not a valid model.
+The user selects the ``Load'' menu item and then selects the file containing the desired model. The file may be a text file in the MML standard format or an XML file adhering to the PhysioMIST schema. The software parses and validates the file then displays the model's data or gives an error if the file contents are not a valid model.
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=\textwidth]{./diagrams/load}
 \caption{Loading Models}
 \end{figure}
 \subsection{Saving Models}
-The user selects the ``Save'' or ``Save As...'' menu item. If the ``Save'' menu item is selected, the model is saved to the same file in the previously selected format. If the ``Save As...'' menu item is selected, the user must enter a file name and may optionally choose the file location and format. The default format is the PhysioMist XML format. If the user selects the ``Save'' menu item for an unsaved model, the ``Save As...'' dialog is presented.
+The user selects the ``Save'' or ``Save As...'' menu item. If the ``Save'' menu item is selected, the model is saved to the same file in the previously selected format. If the ``Save As...'' menu item is selected, the user must enter a file name and may optionally choose the file location and format. The default format is the PhysioMIST XML format. If the user selects the ``Save'' menu item for an unsaved model, the ``Save As...'' dialog is presented.
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=\textwidth]{./diagrams/save}
@@ -193,7 +193,12 @@ While integrating models, the user selects a variable/parameter from one model a
 \end{figure}
 
 \section{Logical View}
-\todo{functional requirements, object model}
+The PhysioMIST layering model is described in detail on the project website (see References, above). The model integration interface only depends on the query interface, the data layer, and the GUI subsystem.
+\begin{figure}[!htb]
+\centering
+\includegraphics{./diagrams/layers}
+\caption{PhysioMIST Layers}
+\end{figure}
 
 \section{Process View}
 The software only executes one process at a time. The software is not multi-threaded.
@@ -208,7 +213,7 @@ The interactions involved in downloading the application will occur approximatel
 \end{figure} 
 
 \section{Implementation View}
-\todo{layers and subsystems}
+The implementation view of the existing PhysioMIST application is as described in the layering view. The details of each subsystem, including inheritance and interaction requirements, can be inferred from additional documentation generated from the source code using Doxygen.
 
 \section{Data View}
 The PhysioMIST XML model format is validated by this schema:
