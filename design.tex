@@ -40,7 +40,7 @@ The purpose of this document is to provide a detailed presentation of the Physio
 \subsection{Scope}
 This document provides detailed description of the architecture of the PhysioMIST model integration interface.
 \subsection{Glossary}
-MML: Mathematical Modelling Language, an industry standard for representing physiological models based on differential equations\\
+MML: Mathematical Modeling Language, an industry standard for representing physiological models based on differential equations\\
 Model: a collection of differential equations that can be used to simulate human physiology\\
 Variable: an input or output of a model's differential equations
 \subsection{References}
@@ -158,7 +158,7 @@ The user selects two models, which are loaded by the software as described above
 \caption{One-to-One Variable Integration}
 \end{figure}
 \subsubsection{One-to-Many Integration}
-This is very similar to one-to-one integration. If a relationship between $A.x$ and $B.y$ exists, the user is not restricted from defining a relationship with $A.x$ as input and $B.z$ as output. If $A.x$ is a variable and $B.w$ is not dependant upon $A.x$, the user may also define a relationship with $B.w$ as input to $A.x$. Circular relationships are handled by the underlying integration subsystem.
+This is very similar to one-to-one integration. If a relationship between $A.x$ and $B.y$ exists, the user is not restricted from defining a relationship with $A.x$ as input and $B.z$ as output. If $A.x$ is a variable and $B.w$ is not dependent upon $A.x$, the user may also define a relationship with $B.w$ as input to $A.x$. Circular relationships are handled by the underlying integration subsystem.
 \subsubsection{Many-to-One Integration}
 This feature may be added in a future release.
 \subsection{Anatomical Queries}
@@ -196,7 +196,7 @@ While integrating models, the user selects a variable/parameter from one model a
 \todo{functional requirements, object model}
 
 \section{Process View}
-The software only executes one process at a time. The software is not multithreaded.
+The software only executes one process at a time. The software is not multi-threaded.
 
 \section{Deployment View}
 Once a user has the application on his or her computer, the user's computer can run the application without interacting with any external entities.
@@ -274,13 +274,13 @@ The following quality factors are important to PhysioMIST.  As a result, related
 Description:  System's reaction when user demands increase\\
 Solution:  Owner of PhysioMIST's deployment website may need to allocation additional servers for download.\\
 \textbf{Reliability}\\
-Description:  System’s mean-time-between-failure\\
+Description:  System's mean-time-between-failure\\
 Solution: Failure is most likely to occur when integrating large datasets.  This will be handled by limiting the size of datasets.  Failure could also occur because of errors in the program which will be addressed with functional testing.\\
 \textbf{Simplicity/Understandability}\\
-Description: User’s ability to comprehend and utilize the system quickly\\
-Solution: Organize the GUI in a logical manner and include a User’s Manual with the system\\
+Description: User's ability to comprehend and utilize the system quickly\\
+Solution: Organize the GUI in a logical manner and include a User's Manual with the system\\
 \textbf{Efficiency}\\
-Description: System’s space demands on the user’s computer\\
+Description: System's space demands on the user's computer\\
 Solution: Files will be saved as plain text or XML in order to minimize file size
 
 
