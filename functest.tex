@@ -1,0 +1,43 @@
+\documentclass{article}
+%\usepackage{url}
+%\usepackage[spacing,kerning]{microtype}
+%\usepackage[letterpaper]{geometry}
+%\usepackage{tocvsec2}
+%\settocdepth{subsection}
+
+\usepackage[pdftex]{color,graphicx}
+\newcommand{\todo}[1]{\colorbox{red}{\begin{minipage}{\textwidth}{#1}\end{minipage}}}
+
+\title{PhysioMIST Functional Test Plan}
+\author{Mark Caral, Sara Cummins, BarbaraJoy Jones}
+\date{November 11, 2009\\{\sc Eecs} 393}
+
+\begin{document}
+
+\begin{titlepage}
+\maketitle\thispagestyle{empty}
+\end{titlepage}
+
+The tests below are the acceptance test cases for PhysioMIST.
+PhysioMIST is an emerging open source programming interface for modeling human physiology by integrating mathematical models of physiological processes.
+PhysioMIST extends the capabilities of popular simulation software such as JSim.
+Its environment allows for comprehensive analysis of complex biological systems by studying different levels and scales of models (e.g., bodily systems, organs, and tissues) rather than individual components.
+
+To run PhysioMIST, build the project and run Phy_MIST_Manager.h.
+
+\section{Load mml}
+Load mml
+Load xml model
+Load xml anatomical information
+Save mml
+Save xml model
+Save xml anatomical information
+validate file
+validate user input
+
+physiomist namespace
+modeldata.cpp
+
+
+
+\end{document}
