@@ -23,57 +23,71 @@ PhysioMIST is an emerging open source programming interface for modeling human p
 PhysioMIST extends the capabilities of popular simulation software such as JSim.
 Its environment allows for comprehensive analysis of complex biological systems by studying different levels and scales of models (e.g., bodily systems, organs, and tissues) rather than individual components.
 
-To run PhysioMIST, build the project and run Phy_MIST_Manager.h.
+To run PhysioMIST, build the project and run Phy\_MIST\_Manager.h.
 
-\section{Load MML}
-\subsection(Description)
+\section{Load MML Model}
+\subsection{Description}
 Precondition: Select the "Load" menu item and then select a file in the MML format
-\subsection(Expected Results)
+\subsection{Expected Results}
 Display the model's data
-\subsection(Actual Results)
+\subsection{Actual Results}
 
-\section{Load XML}
-\subsection(Description)
+\section{Load XML Model}
+\subsection{Description}
 Precondition: Select the "Load" menu item and then select a file in the XML format
-\subsection(Expected Results)
+\subsection{Expected Results}
 Display the model's data
-\subsection(Actual Results)
-
+\subsection{Actual Results}
 
 \section{Load Incorrect File Type}
-\subsection(Description)
-Precondition: 
-\subsection(Expected Results)
-\subsection(Actual Results)
+\subsection{Description}
+Precondition: Select the "Load" menu item and then select a file in any format other than MML or XML.
+\subsection{Expected Results}
+Display an error message indicating incorrect file format
+\subsection{Actual Results}
 
 \section{Load XML Anatomical Information}
-\subsection(Description)
-\subsection(Expected Results)
-\subsection(Actual Results)
+\subsection{Description}
+Precondition: Select the "Load Anatomical Information" menu item and then select an XML file.
+Note: The "Load Anatomical Information" button is not active until an MML model has been successfully loaded and displayed
+\subsection{Expected Results}
+Add the anatomical information to the displayed model
+\subsection{Actual Results}
 
 \section{Save MML}
-\subsection(Description)
-\subsection(Expected Results)
-\subsection(Actual Results)
+\subsection{Description}
+Precondition: Select the "Save" menu item.  Alternatively, the "Save As..." menu item may be selected in which case a file name, location, and format may be input.  The default is the PhysioMIST XML format.
+\subsection{Expected Results}
+The correct file name and format should appear in the correct location on the user's hard drive.
+\subsection{Actual Results}
 
 \section{Save XML Model}
-\subsection(Description)
-\subsection(Expected Results)
-\subsection(Actual Results)
+\subsection{Description}
+Precondition: Select the "Save" menu item.  Alternatively, the "Save As..." menu item may be selected in which case a file name, location, and format may be input.  The default is the PhysioMIST XML format.
+\subsection{Expected Results}
+The correct file name and format should appear in the correct location on the user's hard drive.
+\subsection{Actual Results}
 
 \section{Save XML Anatomical Information}
-\subsection(Description)
-\subsection(Expected Results)
-\subsection(Actual Results)
+\subsection{Description}
+Precondition: Select the "Save" menu item.  Alternatively, the "Save As..." menu item may be selected in which case a file name, location, and format may be input.  The default is the PhysioMIST XML format.
+\subsection{Expected Results}
+The correct file name and format should appear in the correct location on the user's hard drive.
+\subsection{Actual Results}
 
-\section{Validate User Input}
-\subsection(Description)
-\subsection(Expected Results)
-\subsection(Actual Results)
+\section{Validate Correct User Input}
+\subsection{Description}
+Precondition: Either select the "New" button for a variable or parameter table and input the name, formula, value, units, anatomical structure, and description or select the "Edit" button for an item in the variable or parameter table and make changes to these same fields.
+\subsection{Expected Results}
+The item is added or modified
+\subsection{Actual Results}
 
-physiomist namespace
-modeldata.cpp
-
+\section{Validate Incorrect User Input}
+\subsection{Description}
+Precondition: Either select the "New" button for a variable or parameter table and input the name, formula, value, units, anatomical structure, and description or select the "Edit" button for an item in the variable or parameter table and make changes to these same fields.
+\subsection{Expected Results}
+An error message is displayed indicating the flaws in the input
+\subsection{Actual Results}
 
 
 \end{document}
