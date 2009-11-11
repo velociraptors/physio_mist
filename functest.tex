@@ -56,21 +56,21 @@ Add the anatomical information to the displayed model
 
 \section{Save MML}
 \subsection{Description}
-Precondition: Select the ``Save'' menu item.  Alternatively, the ``Save As...'' menu item may be selected in which case a file name, location, and format may be input.  The default is the PhysioMIST XML format.
+Precondition: Select the ``Save'' menu item.  Alternatively, the ``Save As\ldots'' menu item may be selected in which case a file name, location, and format may be input.  The default is the PhysioMIST XML format.
 \subsection{Expected Results}
 The correct file name and format should appear in the correct location on the user's hard drive.
 \subsection{Actual Results}
 
 \section{Save XML Model}
 \subsection{Description}
-Precondition: Select the ``Save'' menu item.  Alternatively, the ``Save As...'' menu item may be selected in which case a file name, location, and format may be input.  The default is the PhysioMIST XML format.
+Precondition: Select the ``Save'' menu item.  Alternatively, the ``Save As\ldots'' menu item may be selected in which case a file name, location, and format may be input.  The default is the PhysioMIST XML format.
 \subsection{Expected Results}
 The correct file name and format should appear in the correct location on the user's hard drive.
 \subsection{Actual Results}
 
 \section{Save XML Anatomical Information}
 \subsection{Description}
-Precondition: Select the ``Save'' menu item.  Alternatively, the ``Save As...'' menu item may be selected in which case a file name, location, and format may be input.  The default is the PhysioMIST XML format.
+Precondition: Select the ``Save'' menu item.  Alternatively, the ``Save As\ldots'' menu item may be selected in which case a file name, location, and format may be input.  The default is the PhysioMIST XML format.
 \subsection{Expected Results}
 The correct file name and format should appear in the correct location on the user's hard drive.
 \subsection{Actual Results}
@@ -79,14 +79,28 @@ The correct file name and format should appear in the correct location on the us
 \subsection{Description}
 Precondition: Either select the ``New'' button for a variable or parameter table and input the name, formula, value, units, anatomical structure, and description or select the ``Edit'' button for an item in the variable or parameter table and make changes to these same fields.
 \subsection{Expected Results}
-The item is added or modified
+The item is added or modified.
 \subsection{Actual Results}
 
 \section{Validate Incorrect User Input}
 \subsection{Description}
 Precondition: Either select the ``New'' button for a variable or parameter table and input the name, formula, value, units, anatomical structure, and description or select the ``Edit'' button for an item in the variable or parameter table and make changes to these same fields.
 \subsection{Expected Results}
-An error message is displayed indicating the flaws in the input
+An error message is displayed indicating the flaws in the input.
+\subsection{Actual Results}
+
+\section{Create Anatomical Query}
+\subsection{Description}
+Precondition: Right-click on an anatomical structure in the Anatomical Ontology Tree and select the ``Find Related Structures\ldots'' menu item. Select the type of relationship query desired.
+\subsection{Expected Results}
+Either the query is performed or an error message is displayed indicating that the relationship type is not appropriate for the selected structure.
+\subsection{Actual Results}
+
+\section{Display Results of Query}
+\subsection{Description}
+Precondition: A query has been performed as described above.
+\subsection{Expected Results}
+The list of related anatomical structures is displayed. If the query does not return any results, an error message is displayed.
 \subsection{Actual Results}
 
 
