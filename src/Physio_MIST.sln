@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 9.00
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physio_MIST", "HumanGUI.vcproj", "{4DCAAB23-227F-4513-9BBF-5397C933D117}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcproj", "{08ACB82E-BA01-4762-8E2C-9502C8FC12F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4DCAAB23-227F-4513-9BBF-5397C933D117} = {4DCAAB23-227F-4513-9BBF-5397C933D117}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
