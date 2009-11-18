@@ -197,7 +197,7 @@
 			AssemblyName="mscorlib, Version=2.0.0.0, PublicKeyToken=b77a5c561934e089, processorArchitecture=IA64"
 		/>
 		<AssemblyReference
-			RelativePath="..\..\..\..\..\Program Files (x86)\NUnit 2.5.2\bin\net-2.0\framework\nunit.framework.dll"
+			RelativePath="..\..\..\..\..\..\..\Program Files (x86)\NUnit 2.5.2\bin\net-2.0\framework\nunit.framework.dll"
 			AssemblyName="nunit.framework, Version=2.5.2.9222, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL"
 		/>
 	</References>
@@ -507,6 +507,10 @@
 					>
 				</File>
 				<File
+					RelativePath=".\QueryBuilderTest.cpp"
+					>
+				</File>
+				<File
 					RelativePath=".\stdafx.cpp"
 					>
 				</File>
@@ -581,6 +585,10 @@
 			</File>
 			<File
 				RelativePath=".\PhysVariable.h"
+				>
+			</File>
+			<File
+				RelativePath=".\QueryBuilderTest.h"
 				>
 			</File>
 			<File

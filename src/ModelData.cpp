@@ -265,7 +265,7 @@ void ModelData::save_XMLfile(System::String ^filename){
 
 //! \brief Sets UI_Variable properties based on each node found.
 //! When </variable> is found, adds the new item to paramBindingSource or varBindingSource, and returns to load_XMLfile
-void ModelData:: (System::Xml::XmlReader ^reader){
+void ModelData::load_variable(System::Xml::XmlReader ^reader){
 	physiological_layer::Physiological_Variable *phys_var = new physiological_layer::Physiological_Variable();
 	link_layer::Component *comp = new link_layer::Component(phys_var);
 	UI_Variable^ var = gcnew UI_Variable();
