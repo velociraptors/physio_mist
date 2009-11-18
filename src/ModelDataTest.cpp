@@ -7,23 +7,23 @@ namespace NUnitTests{
 	{
 	}
 
-	ModelDataTest::load_MML()
+	void ModelDataTest::load_MML()
 	{
 	}
 
-	ModelDataTest::load_XML()
+	void ModelDataTest::load_XML()
 	{
 	}
 
-	ModelDataTest::load_var()
+	void ModelDataTest::load_var()
 	{
 	}
 
-	ModelDataTest::save_XML()
+	void ModelDataTest::save_XML()
 	{
 	}
 
-	ModelDataTest::validate_eqn()
+	void ModelDataTest::validate_eqn()
 	{
 	}
 

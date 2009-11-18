@@ -196,6 +196,10 @@
 			RelativePath="mscorlib.dll"
 			AssemblyName="mscorlib, Version=2.0.0.0, PublicKeyToken=b77a5c561934e089, processorArchitecture=IA64"
 		/>
+		<AssemblyReference
+			RelativePath="..\..\..\..\..\Program Files (x86)\NUnit 2.5.2\bin\net-2.0\framework\nunit.framework.dll"
+			AssemblyName="nunit.framework, Version=2.5.2.9222, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL"
+		/>
 	</References>
 	<Files>
 		<Filter
@@ -216,7 +220,15 @@
 				>
 			</File>
 			<File
+				RelativePath=".\ModelDataTest.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\PhysVariable.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\UIvarTest.cpp"
 				>
 			</File>
 			<Filter
@@ -564,11 +576,19 @@
 				</File>
 			</File>
 			<File
+				RelativePath=".\ModelDataTest.h"
+				>
+			</File>
+			<File
 				RelativePath=".\PhysVariable.h"
 				>
 			</File>
 			<File
 				RelativePath=".\resource.h"
+				>
+			</File>
+			<File
+				RelativePath=".\UIvarTest.h"
 				>
 			</File>
 			<File

@@ -7,7 +7,7 @@ using namespace NUnit::Framework;
 
 namespace NUnitTests{
 
-	[TestFixture[
+	[TestFixture]
 	public ref class ModelDataTest
 	{
 	public:

@@ -6,41 +6,41 @@ namespace NUnitTests{
 	{
 	}
 
-	UIvarTest::change_component()
+	void UIvarTest::change_component()
 	{
 	}
 
-	UIvarTest::change_description()
+	void UIvarTest::change_description()
 	{
 	}
 
-	UIvarTest::change_Name()
+	void UIvarTest::change_Name()
 	{
-		str_name name = new str_name();
-		name.set("heart");
-		Assert::AreEqual("heart", name.get());
+		UI_Variable ^var = gcnew UI_Variable();
+		var->Name = "heart";
+		Assert::AreEqual("heart", var->Name);
 	}
 
-	UIvarTest::change_structure()
+	void UIvarTest::change_structure()
 	{
-		Anatomical_structure structure = new Anatomical_structure();
-		*x = null;
-		Anatomical_structure.set(x);
-		Assert::AreEqual(x, Anatomical_structure.get());
+		// forcing this test to intentionally fail
+		//UI_Variable ^var = gcnew UI_Variable();
+		//int *x = nullptr;
+		//var->structure = nullptr;
+		Assert::AreEqual(3, 10);
 	}
 
-	UIvarTest::change_Units()
+	void UIvarTest::change_Units()
 	{
-		Units units = new Units();
-		units.set("feet");
-		Assert::AreEqual("feet", units.get());
+		UI_Variable ^var = gcnew UI_Variable();
+		var->Units = "feet";
+		Assert::AreEqual("feet", var->Units);
 	}
 
-	UIvarTest::change_Value()
+	void UIvarTest::change_Value()
 	{
-		Value value = new Value();
-		//completely made up 11, maybe should change this?
-		value.set(11);
-		Assert::AreEqual(11, value.get());
+		UI_Variable ^var = gcnew UI_Variable();
+		var->Value = 11;
+		Assert::AreEqual(11, var->Value);
 	}
 }
