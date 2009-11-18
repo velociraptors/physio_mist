@@ -219,10 +219,6 @@
 				RelativePath=".\PhysVariable.cpp"
 				>
 			</File>
-			<File
-				RelativePath=".\UnitTest.cpp"
-				>
-			</File>
 			<Filter
 				Name="Anatomical_layer"
 				>
