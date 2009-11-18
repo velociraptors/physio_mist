@@ -16,16 +16,24 @@ namespace NUnitTests{
 
 	UIvarTest::change_Name()
 	{
+		str_name name = new str_name();
+		name.set("heart");
+		Assert::AreEqual("heart", name.get());
 	}
 
 	UIvarTest::change_structure()
 	{
+		Anatomical_structure structure = new Anatomical_structure();
+		*x = null;
+		Anatomical_structure.set(x);
+		Assert::AreEqual(x, Anatomical_structure.get());
 	}
 
 	UIvarTest::change_Units()
 	{
-		String^ Units units = new String^ Units();
-		units.set(
+		Units units = new Units();
+		units.set("feet");
+		Assert::AreEqual("feet", units.get());
 	}
 
 	UIvarTest::change_Value()
@@ -35,5 +43,4 @@ namespace NUnitTests{
 		value.set(11);
 		Assert::AreEqual(11, value.get());
 	}
-}
 }
