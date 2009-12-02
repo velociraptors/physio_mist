@@ -2,7 +2,7 @@
 
 #include "stdafx.h"
 #include "Main_Form.h"
-//#include "Query_Builder.cpp"
+#include "Query_Builder.cpp"
 
 
 

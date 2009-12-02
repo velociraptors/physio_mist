@@ -21,7 +21,7 @@
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
 			CharacterSet="1"
-			ManagedExtensions="2"
+			ManagedExtensions="1"
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
@@ -41,14 +41,15 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;$(InputDir)\Integrative_Phys&quot;;&quot;$(InputDir)\Integrative_Phys\utilities&quot;;&quot;$(InputDir)\Integrative_Phys\Simulation_layer&quot;;&quot;$(InputDir)\Integrative_Phys\Physiological_layer&quot;;&quot;$(InputDir)\Integrative_Phys\mml_parser&quot;;&quot;$(InputDir)\Integrative_Phys\mml_models&quot;;&quot;$(InputDir)\Integrative_Phys\Link_layer&quot;;&quot;$(InputDir)\Integrative_Phys\libraries&quot;;&quot;$(InputDir)\Integrative_Phys\Computational_layer&quot;;&quot;$(InputDir)\Integrative_Phys\Application_layer&quot;;&quot;$(InputDir)\Integrative_Phys\Anatomical_layer&quot;;&quot;$(InputDir)\Integrative_Phys\mml_models\mml_c_files&quot;;&quot;$(InputDir)&quot;"
+				AdditionalIncludeDirectories="&quot;C:\Program Files\Java\jdk1.6.0_16\include\win32&quot;;&quot;C:\Program Files\Java\jdk1.6.0_16\include&quot;;&quot;$(InputDir)\Integrative_Phys&quot;;&quot;$(InputDir)\Integrative_Phys\utilities&quot;;&quot;$(InputDir)\Integrative_Phys\Simulation_layer&quot;;&quot;$(InputDir)\Integrative_Phys\Physiological_layer&quot;;&quot;$(InputDir)\Integrative_Phys\mml_parser&quot;;&quot;$(InputDir)\Integrative_Phys\mml_models&quot;;&quot;$(InputDir)\Integrative_Phys\Link_layer&quot;;&quot;$(InputDir)\Integrative_Phys\libraries&quot;;&quot;$(InputDir)\Integrative_Phys\Computational_layer&quot;;&quot;$(InputDir)\Integrative_Phys\Application_layer&quot;;&quot;$(InputDir)\Integrative_Phys\Anatomical_layer&quot;;&quot;$(InputDir)\Integrative_Phys\mml_models\mml_c_files&quot;;&quot;$(InputDir)&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG"
 				MinimalRebuild="false"
 				RuntimeLibrary="3"
 				UsePrecompiledHeader="0"
 				WarningLevel="3"
-				Detect64BitPortabilityProblems="true"
+				Detect64BitPortabilityProblems="false"
 				DebugInformationFormat="3"
+				CallingConvention="0"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -61,8 +62,10 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="$(NoInherit)"
+				AdditionalDependencies="jvm.lib"
 				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;C:\Program Files\Java\jdk1.6.0_16\lib&quot;"
+				DelayLoadDLLs="jvm.dll"
 				GenerateDebugInformation="true"
 				AssemblyDebug="1"
 				SubSystem="2"
@@ -197,7 +200,7 @@
 			AssemblyName="mscorlib, Version=2.0.0.0, PublicKeyToken=b77a5c561934e089, processorArchitecture=IA64"
 		/>
 		<AssemblyReference
-			RelativePath="..\..\..\..\..\..\..\Program Files (x86)\NUnit 2.5.2\bin\net-2.0\framework\nunit.framework.dll"
+			RelativePath="..\..\..\..\Program Files (x86)\NUnit 2.5.2\bin\net-2.0\framework\nunit.framework.dll"
 			AssemblyName="nunit.framework, Version=2.5.2.9222, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL"
 		/>
 	</References>
@@ -212,10 +215,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\HumanGUI.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\Load_Model_Form.cpp"
 				>
 			</File>
@@ -224,7 +223,19 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Physio_MIST.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\PhysVariable.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Query_Builder.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\QueryBuilderTest.cpp"
 				>
 			</File>
 			<File
@@ -504,10 +515,6 @@
 				</File>
 				<File
 					RelativePath=".\Phy_MIST_Manager.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\QueryBuilderTest.cpp"
 					>
 				</File>
 				<File

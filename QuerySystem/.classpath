@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/arq-2.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/arq-2.8.1-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/icu4j-3.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/iri-0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/jena-2.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/jena-2.6.2-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/junit-4.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/lucene-core-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/slf4j-api-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/slf4j-log4j12-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/wstx-asl-3.2.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Barbie/physio_mist/QuerySystem/lib/xercesImpl-2.7.1.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
