@@ -62,10 +62,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="jvm.lib"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="&quot;C:\Program Files\Java\jdk1.6.0_16\lib&quot;"
-				DelayLoadDLLs="jvm.dll"
+				AdditionalLibraryDirectories=""
+				DelayLoadDLLs=""
 				GenerateDebugInformation="true"
 				AssemblyDebug="1"
 				SubSystem="2"
@@ -228,10 +227,6 @@
 			</File>
 			<File
 				RelativePath=".\PhysVariable.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\Query_Builder.cpp"
 				>
 			</File>
 			<File
