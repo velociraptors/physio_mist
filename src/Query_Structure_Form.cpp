@@ -7,7 +7,7 @@
  * 2. MAGIC
  * 3. Display results in the listbox
 */
-void Physio_MIST::Query_Structure_Form::run_query(System::String ^strName){
+void Physio_MIST::Query_Structure_Form::query(System::String ^strName){
 	//! \todo Implement query functionality
 
 	String^ selectedType;

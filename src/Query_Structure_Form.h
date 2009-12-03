@@ -36,7 +36,7 @@ namespace Physio_MIST {
 			this->strNameLabel->Text = structureName;
 		}
 
-		void run_query(String^ strName);
+		void query(String^ strName);
 
 	protected:
 		/// <summary>

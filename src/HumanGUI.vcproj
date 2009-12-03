@@ -231,10 +231,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\Query_Builder.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\QueryBuilderTest.cpp"
 				>
 			</File>
