@@ -1,5 +1,6 @@
 #include "stdafx.h"
 #include "Query_Structure_Form.h"
+#include "QueryBuilder.h"
 
 /*! \brief Queries for related structures based on selected relationship type
  *
@@ -16,4 +17,7 @@ void Physio_MIST::Query_Structure_Form::query(System::String ^strName){
 			selectedType = rb->Text;
 		}
 	}
+
+	QueryBuilder^ builder = gcnew QueryBuilder();
+	builder->build_query(strName, selectedType);
 }
