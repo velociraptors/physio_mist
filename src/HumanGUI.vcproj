@@ -231,6 +231,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Query_Sender.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\QueryBuilder.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\QueryBuilderTest.cpp"
 				>
 			</File>
@@ -588,6 +596,10 @@
 			</File>
 			<File
 				RelativePath=".\PhysVariable.h"
+				>
+			</File>
+			<File
+				RelativePath=".\QueryBuilder.h"
 				>
 			</File>
 			<File

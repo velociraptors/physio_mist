@@ -1,5 +1,5 @@
 /**************************************************************************************************
-Query_Builder.cpp
+Query_Sender.cpp
 Contributor(s):	E. Zeynep Erson
 Created on:		02-Sept-2009
 Description:		
@@ -28,7 +28,7 @@ The java class implementing the SPARQL query engine is the "Query_Engine"
 \todo For the classpath to be set as the java classpath, put everything in a single jar file.
 */
 
-class Query_Builder
+class Query_Sender
 {
 
 public:
@@ -36,7 +36,7 @@ public:
 	/*!
 
 	*/
-	Query_Builder(){
+	Query_Sender(){
 		if (create_JVM()){
 		}
 

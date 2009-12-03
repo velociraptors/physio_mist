@@ -366,7 +366,7 @@ namespace Physio_MIST {
 
 
 private: System::Void runQueryButton_Click(System::Object^  sender, System::EventArgs^  e) {
-			 run_query(strNameLabel->Text);
+			 query(strNameLabel->Text);
 		 }
 	};
 }
