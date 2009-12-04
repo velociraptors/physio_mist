@@ -95,7 +95,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="doxygen doxyfile"
+				CommandLine=""
 			/>
 		</Configuration>
 		<Configuration
