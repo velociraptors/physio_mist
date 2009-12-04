@@ -4,6 +4,7 @@ Mark Caral, Sara Cummins, BarbaraJoy Jones
 REQUIREMENTS
 JDK 6 Update 17: http://java.sun.com/javase/downloads/index.jsp
 	The directory containing jvm.dll must be in the user's PATH environment variable.
+NUnit: http://www.nunit.org/index.php
 Open Physio_MIST.sln in Visual Studio and build the project.
 
 QUERY REQUIREMENTS
