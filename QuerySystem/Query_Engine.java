@@ -39,8 +39,8 @@ public class Query_Engine {
 	 */
 
     public static void main(String[] args) {
-    	DB_Builder db = new DB_Builder();
-    	db.create_DB();
+    	//DB_Builder db = new DB_Builder();
+    	//db.create_DB();
     	
 		// TODO Auto-generated method stub
         // ensure the JDBC driver class is loaded
@@ -95,7 +95,7 @@ public class Query_Engine {
             
             
             FMA_Query fma_query = new FMA_Query(m);
-            Query query = fma_query.create_Query(queryString2);
+            Query query = fma_query.create_Query(queryString1);
             ResultSet fma_results = fma_query.execute_query(query);
             ResultSetFormatter.out(System.out, fma_results, query);
             /*for ( ; fma_results.hasNext() ; )

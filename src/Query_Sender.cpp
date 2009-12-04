@@ -58,7 +58,7 @@ public:
 	*/
 	void call_query_engine(char *query_string){
 
-		cls = env->FindClass("Query_Engine");	
+		cls = env->FindClass("QuerySystem/Query_Engine");	
 
 		if (cls == NULL) {
 			destroy();
