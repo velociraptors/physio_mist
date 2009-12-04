@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;C:\Program Files (x86)\Java\jdk1.6.0_17\include&quot;;&quot;C:\Program Files (x86)\Java\jdk1.6.0_17\include\win32&quot;;&quot;$(InputDir)\Integrative_Phys&quot;;&quot;$(InputDir)\Integrative_Phys\utilities&quot;;&quot;$(InputDir)\Integrative_Phys\Simulation_layer&quot;;&quot;$(InputDir)\Integrative_Phys\Physiological_layer&quot;;&quot;$(InputDir)\Integrative_Phys\mml_parser&quot;;&quot;$(InputDir)\Integrative_Phys\mml_models&quot;;&quot;$(InputDir)\Integrative_Phys\Link_layer&quot;;&quot;$(InputDir)\Integrative_Phys\libraries&quot;;&quot;$(InputDir)\Integrative_Phys\Computational_layer&quot;;&quot;$(InputDir)\Integrative_Phys\Application_layer&quot;;&quot;$(InputDir)\Integrative_Phys\Anatomical_layer&quot;;&quot;$(InputDir)\Integrative_Phys\mml_models\mml_c_files&quot;;&quot;$(InputDir)&quot;"
+				AdditionalIncludeDirectories="&quot;C:\Program Files\Java\jdk1.6.0_17\include&quot;;&quot;C:\Program Files\Java\jdk1.6.0_17\include\win32&quot;;&quot;$(InputDir)\Integrative_Phys&quot;;&quot;$(InputDir)\Integrative_Phys\utilities&quot;;&quot;$(InputDir)\Integrative_Phys\Simulation_layer&quot;;&quot;$(InputDir)\Integrative_Phys\Physiological_layer&quot;;&quot;$(InputDir)\Integrative_Phys\mml_parser&quot;;&quot;$(InputDir)\Integrative_Phys\mml_models&quot;;&quot;$(InputDir)\Integrative_Phys\Link_layer&quot;;&quot;$(InputDir)\Integrative_Phys\libraries&quot;;&quot;$(InputDir)\Integrative_Phys\Computational_layer&quot;;&quot;$(InputDir)\Integrative_Phys\Application_layer&quot;;&quot;$(InputDir)\Integrative_Phys\Anatomical_layer&quot;;&quot;$(InputDir)\Integrative_Phys\mml_models\mml_c_files&quot;;&quot;$(InputDir)&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG"
 				MinimalRebuild="false"
 				RuntimeLibrary="3"
@@ -64,7 +64,7 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="jvm.lib"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="&quot;C:\Program Files (x86)\Java\jdk1.6.0_17\lib&quot;"
+				AdditionalLibraryDirectories="&quot;C:\Program Files\Java\jdk1.6.0_17\lib&quot;"
 				DelayLoadDLLs="jvm.dll"
 				GenerateDebugInformation="true"
 				AssemblyDebug="1"

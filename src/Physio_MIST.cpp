@@ -26,7 +26,7 @@ int main()
 
 	Query_Sender *query_sender = new Query_Sender();
 	char *q_str = " PREFIX fma:<http://sig.biostr.washington.edu/fma3.0#> SELECT ?esoph_continuity  FROM <http://sig.biostr.washington.edu/fma3.0> WHERE {fma:Aorta  fma:continuous_with ?esoph_continuity}";
-	query_sender->call_query_engine(q_str);
+	//query_sender->call_query_engine(q_str);
 
 	// Enabling Windows XP visual effects before any controls are created
 	Application::EnableVisualStyles();
