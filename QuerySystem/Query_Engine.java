@@ -95,7 +95,7 @@ public class Query_Engine {
             
             
             FMA_Query fma_query = new FMA_Query(m);
-            Query query = fma_query.create_Query(queryString1);
+            Query query = fma_query.create_Query(queryString);
             ResultSet fma_results = fma_query.execute_query(query);
             ResultSetFormatter.out(System.out, fma_results, query);
             /*for ( ; fma_results.hasNext() ; )

@@ -10,26 +10,26 @@ import com.hp.hpl.jena.ontology.OntModel;
 
 public class DB_Builder {
 
-    public String DB_URL = "jdbc:mysql://localhost/fma_owl_3?useUnicode=true&characterEncoding=utf8";
-    public String DB_USER = "fma_test";
-    public String DB_PASSWD = "test";
-    public String DB = "MySQL";
+    public static String DB_URL = "jdbc:mysql://localhost/fma_owl_3?useUnicode=true&characterEncoding=utf8";
+    public static String DB_USER = "fma_test";
+    public static String DB_PASSWD = "test";
+    public static String DB = "MySQL";
     public static final String DB_DRIVER = "com.mysql.jdbc.Driver";
 
     
     // database connection parameters, with defaults
-    private String s_dbURL = DB_URL;
-    private String s_dbUser = DB_USER;
-    private String s_dbPw = DB_PASSWD;
-    private String s_dbType = DB;
-    private String s_dbDriver = DB_DRIVER;
+    private static String s_dbURL = DB_URL;
+    private static String s_dbUser = DB_USER;
+    private static String s_dbPw = DB_PASSWD;
+    private static String s_dbType = DB;
+    private static String s_dbDriver = DB_DRIVER;
     
-    public String ONT1 = "http://sig.biostr.washington.edu/fma3.0";
+    public static String ONT1 = "http://sig.biostr.washington.edu/fma3.0";
     
     // source URL to load data from; if null, use default
-    private String s_source;
+    private static String s_source;
     
-    public void create_DB(){
+    public static void main(String[] args){
 		s_source = getDefaultSource();
 		// TODO Auto-generated method stub
         // ensure the JDBC driver class is loaded
@@ -77,14 +77,14 @@ public class DB_Builder {
         }
 
     }
-    private String getDefaultSource() {
+    private static String getDefaultSource() {
         // use the ont doc mgr to map from a generic URN to a local source file
         OntDocumentManager.getInstance().addAltEntry( ONT1, "file:fma3.0.owl" );
     	//OntDocumentManager.getInstance().addAltEntry( ONT3, "file:camera.owl" );
 
         return ONT1;
     }
-    public OntModelSpec getModelSpec( ModelMaker maker ) {
+    public static OntModelSpec getModelSpec( ModelMaker maker ) {
         // create a spec for the new ont model that will use no inference over models
         // made by the given maker (which is where we get the persistent models from)
         OntModelSpec spec = new OntModelSpec( OntModelSpec.OWL_MEM );
