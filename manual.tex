@@ -1,0 +1,107 @@
+\documentclass{article}
+\usepackage{url}
+\usepackage[spacing,kerning]{microtype}
+\usepackage[letterpaper]{geometry}
+\usepackage{tocvsec2}
+
+\settocdepth{subsection}
+
+\usepackage{color}
+\newcommand{\todo}[1]{\colorbox{red}{\begin{minipage}{\textwidth}{#1}\end{minipage}}}
+
+\title{User Manual\\
+\bigskip
+{\large for}\\
+\bigskip
+PhysioMIST}
+\author{Mark Caral, Sara Cummins, BarbaraJoy Jones}
+\date{December 04, 2009\\{\sc Eecs} 393}
+\begin{document}
+
+\begin{titlepage}
+\maketitle\thispagestyle{empty}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+
+\section{System Features}
+
+\subsection{Import Existing Models}
+
+To load an existing model: \\
+
+\subsection{Save Anatomical Information}
+\subsubsection{Description and Priority}
+The system will save anatomical information associated with model components.\\
+Priority = High.
+
+\subsubsection{Stimulus/Response Sequences}
+Stimulus: User requests to save anatomical information.\\
+Response: Information is saved on user's hard drive.
+
+\subsubsection{Functional Requirements}
+Save.Request: Once the user has clicked the save button in the GUI, the system will save the anatomical information for the currently displayed model in a pre-determined location on the user's hard drive.
+
+\subsection{Integrate Model Components on a One-to-One Basis}
+\subsubsection{Description and Priority}
+The system will provide a graphical interface for users to choose components from two models to integrate on a one-to-one basis.\\
+Priority = High.
+
+\subsubsection{Stimulus/Response Sequences}
+Stimulus: User inputs two models to the system.\\
+Response: System integrates the components of these models and displays the result.
+
+\subsubsection{Functional Requirements}
+OnetoOne.Integrate: The system will use the one-to-one algorithm to integrate the two models.
+
+\subsection{Query for Related Model Components}
+\subsubsection{Description and Priority}
+The system will provide a graphical interface for users to search for related model components while integrating models, based on associated anatomical information.\\
+Priority = High.
+\subsubsection{Stimulus/Response Sequences}
+Stimulus: User selects a model component with associated anatomical information and the type of query to perform.\\
+Response: The system performs the query and displays the related model components.
+\subsubsection{Functional Requirements}
+Query.query: System selects related model components using the anatomical ontology.
+Query.results: System displays the selected results.
+
+\subsection{Integrate Model Components on a One-to-Many Basis}
+\subsubsection{Description and Priority}
+The system will provide a graphical interface for users to choose components from two models to integrate on a one-to-many basis.\\
+Priority = Low.
+
+\subsubsection{Stimulus/Response Sequences}
+Stimulus: User inputs two models to the system and specifies the manner in which components should be integrated.\\
+Response: System integrates the components of these models as specified and displays the result.
+
+\subsubsection{Functional Requirements}
+Onetomany.Integrate: The system will use the one-to-many algorithm to integrate the models.
+
+\subsection{Integrate Model Components on a Many-to-One Basis}
+\subsubsection{Description and Priority}
+The system will provide a graphical interface for users to choose components from two models to integrate on a many-to-one basis.\\
+Priority = Low.
+
+\subsubsection{Stimulus/Response Sequences}
+Stimulus: User inputs two models to the system and specifies the manner in which components should be integrated.\\
+Response: System integrates the components of these models as specified and displays the result.
+
+\subsubsection{Functional Requirements}
+ManytoOne.Integrate: The system will use the many-to-one algorithm to integrate the models.
+
+\subsection{Display Simulation Results}
+\subsubsection{Description and Priority}
+The system will provide a robust representation of the information contained in simulation results.\\
+Priority = Low.
+
+\subsubsection{Stimulus/Response Sequences}
+Stimulus: User specifies the simulation parameters for a model.\\
+Response: Display the results of the simulation graphically and textually.
+
+\subsubsection{Functional Requirements}
+Display.graph: The system will graphically show the results of a simulation.\\
+Display.text: The system will display the simulation results as text.
+
+\end{document}
