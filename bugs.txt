@@ -1,0 +1,28 @@
+Bug Reports
+
+Below are a sampling of our bug reports:
+
+1. Problem:
+The MML parser strips whitespace as it processes a file. Since if/else/elseif blocks can be delimited by whitespace, the regex won't find those keywords if the block isn't wrapped in parentheses or brackets. For example:
+"Y = if (X=0) A+B else AC"
+becomes "if(X=0)A+BelseAC" and the validation tries to find a parameter/variable named 'BelseA' and fails.
+The alternative is to remove the word boundaries from the regex (or add the keywords to the separators passed to String->Split), but this erroneously strips keywords from variable names. ("x_abs" becomes "x_" and validation fails.)
+Resolution:
+
+since this is an issue in the MML parser, we can't actually fix it.
+there's another guy rewriting the parser, so i think we should close this as "Can't Fix"
+
+2. Problem:
+The project won't build with the error "\Query_Sender.cpp(10) : fatal error C1083: Cannot open include file: 'jni.h': No such file or directory"
+Resolution:
+Make sure all includes for the linker and C/C++ use "Program Files" if running XP or "Program Files (x86) if running Vista or Windows 7.
+
+3. Problem:
+Building the FMA database takes an extremely large amount of time (approximately 3 hours)
+Resolution:
+Would need to change how the FMA data is queried or use a different source of data which is infeasible at this point (11/30)
+
+4. Problem:
+The query results are being written to a file rather than displayed in the GUI
+Resolution:
+The cause of this problem is probably with JNI although it has not entirely been determined

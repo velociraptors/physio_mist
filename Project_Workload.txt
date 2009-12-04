@@ -1,0 +1,23 @@
+Vision and scope document
+    We met and all worked on this together (Mark Caral, Sara Cummins, BarbaraJoy Jones, Josh Lee)
+
+Software requirements specification
+    Intro: Mark
+    Overall Description: Barbie
+    System Features: Sara
+    External Interface: Barbie
+    Other Requirements: Josh
+
+Final design document
+    Sara and Barbie
+
+Functional test plan
+    Barbie and Sara
+
+Final source code and executable, test results, bug reports, and user’s manual
+    Final source code:
+        Loading/Saving: Sara, with some help from Barbie
+        Query System: Barbie
+    Unit Tests: Mark
+    Bug Reports: Sara and Barbie
+    User's Manual: Mark and Barbie
