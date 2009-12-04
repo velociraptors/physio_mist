@@ -36,7 +36,7 @@ namespace Physio_MIST {
 			this->strNameLabel->Text = structureName;
 		}
 
-		void run_query(String^ strName);
+		void query(String^ strName);
 
 	protected:
 		/// <summary>
@@ -366,7 +366,7 @@ namespace Physio_MIST {
 
 
 private: System::Void runQueryButton_Click(System::Object^  sender, System::EventArgs^  e) {
-			 run_query(strNameLabel->Text);
+			 query(strNameLabel->Text);
 		 }
 	};
 }

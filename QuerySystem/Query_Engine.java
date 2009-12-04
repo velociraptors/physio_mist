@@ -18,8 +18,8 @@ import com.hp.hpl.jena.rdf.model.ModelMaker;
 
 public class Query_Engine {
     public static final String DB_URL = "jdbc:mysql://localhost/fma_owl_3?useUnicode=true&characterEncoding=utf8";
-    public static final String DB_USER = "root";
-    public static final String DB_PASSWD = "";
+    public static final String DB_USER = "fma_test";
+    public static final String DB_PASSWD = "test";
     public static final String DB = "MySQL";
     public static final String DB_DRIVER = "com.mysql.jdbc.Driver";
 
@@ -72,10 +72,10 @@ public class Query_Engine {
             Model m = maker.openModel("http://sig.biostr.washington.edu/fma3.0");
             
 
-            String queryString1 = " PREFIX fma:<http://sig.biostr.washington.edu/fma3.0#> " +
+            /* String queryString1 = " PREFIX fma:<http://sig.biostr.washington.edu/fma3.0#> " +
             "SELECT ?esoph_continuity  " +
             "FROM <http://sig.biostr.washington.edu/fma3.0>"+
-            "WHERE {fma:Esophagus  fma:continuous_with ?esoph_continuity} " ;
+            "WHERE {fma:Esophagus  fma:continuous_with ?esoph_continuity} " ; */
            /* while(){
             }*/
             String queryString = "";
