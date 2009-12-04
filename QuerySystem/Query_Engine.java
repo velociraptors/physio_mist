@@ -39,6 +39,8 @@ public class Query_Engine {
 	 */
 
     public static void main(String[] args) {
+    	DB_Builder db = new DB_Builder();
+    	db.create_DB();
     	
 		// TODO Auto-generated method stub
         // ensure the JDBC driver class is loaded
@@ -72,10 +74,15 @@ public class Query_Engine {
             Model m = maker.openModel("http://sig.biostr.washington.edu/fma3.0");
             
 
-            /* String queryString1 = " PREFIX fma:<http://sig.biostr.washington.edu/fma3.0#> " +
+             String queryString1 = " PREFIX fma:<http://sig.biostr.washington.edu/fma3.0#> " +
             "SELECT ?esoph_continuity  " +
             "FROM <http://sig.biostr.washington.edu/fma3.0>"+
-            "WHERE {fma:Esophagus  fma:continuous_with ?esoph_continuity} " ; */
+            "WHERE {fma:Esophagus  fma:continuous_with ?esoph_continuity} " ;
+             
+             String queryString2 = "PREFIX fma:<http://sig.biostr.washington.edu/fma3.0> " +
+             "SELECT ?esoph_continuity FROM <http://sig.biostr.washington.edu/fma3.0> " +
+             "WHERE {fma:Esophagus fma:continuous_with ?esoph_continuity}";
+             
            /* while(){
             }*/
             String queryString = "";
@@ -88,7 +95,7 @@ public class Query_Engine {
             
             
             FMA_Query fma_query = new FMA_Query(m);
-            Query query = fma_query.create_Query(queryString);
+            Query query = fma_query.create_Query(queryString2);
             ResultSet fma_results = fma_query.execute_query(query);
             ResultSetFormatter.out(System.out, fma_results, query);
             /*for ( ; fma_results.hasNext() ; )

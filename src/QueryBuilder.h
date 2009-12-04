@@ -6,5 +6,5 @@ ref class QueryBuilder
 {
 public:
 	QueryBuilder(void);
-	void build_query(String^ qName, String^ qType);
+	void build_query(String^ structure, String^ type);
 };

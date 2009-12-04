@@ -10,7 +10,7 @@ import com.hp.hpl.jena.ontology.OntModel;
 
 public class DB_Builder {
 
-    public String DB_URL = "jdbc:mysql://localhost/fma_test_test?useUnicode=true&characterEncoding=utf8";
+    public String DB_URL = "jdbc:mysql://localhost/fma_owl_3?useUnicode=true&characterEncoding=utf8";
     public String DB_USER = "fma_test";
     public String DB_PASSWD = "test";
     public String DB = "MySQL";
